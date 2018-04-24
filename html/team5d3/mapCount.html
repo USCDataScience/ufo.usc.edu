@@ -132,7 +132,7 @@
 	
 	
 	
-	d3.json("../team5json/countSightings.json", function(data) {
+	d3.json("countSightings.json", function(data) {
 				completeList = data;
 				fillSampleData();
 				uStates.draw("#statesvg", sampleData, tooltipHtml);
