@@ -1,0 +1,277 @@
+origin,destination
+Springfield  MO,Erie  PA
+Erie  PA,Springfield  MO
+Springfield  MO,Seattle  WA
+Seattle  WA,Springfield  MO
+Springfield  MO,Roslindale  MA
+Roslindale  MA,Springfield  MO
+Springfield  MO,Bellevue  WA
+Bellevue  WA,Springfield  MO
+Springfield  MO,Hingham  MA
+Hingham  MA,Springfield  MO
+Springfield  MO,Auburn  WA
+Auburn  WA,Springfield  MO
+Springfield  MO,Argos  IN
+Argos  IN,Springfield  MO
+Springfield  MO,Los Angeles  CA
+Los Angeles  CA,Springfield  MO
+Springfield  MO,Turkey  TX
+Turkey  TX,Springfield  MO
+Vancouver  WA,Valley City  OH
+Valley City  OH,Vancouver  WA
+Vancouver  WA,Kirkland  WA
+Kirkland  WA,Vancouver  WA
+Vancouver  WA,Chatsworth  CA
+Chatsworth  CA,Vancouver  WA
+Vancouver  WA,Las Vegas  NV
+Las Vegas  NV,Vancouver  WA
+Vancouver  WA,Bridgeport  MI
+Bridgeport  MI,Vancouver  WA
+Vancouver  WA,Libby  MT
+Libby  MT,Vancouver  WA
+Vancouver  WA,Pierceton  IN
+Pierceton  IN,Vancouver  WA
+Vancouver  WA,Chandler  AZ
+Chandler  AZ,Vancouver  WA
+Vancouver  WA,Surprise  AZ
+Surprise  AZ,Vancouver  WA
+Vancouver  WA,Red Bluff  CA
+Red Bluff  CA,Vancouver  WA
+Vancouver  WA,Marathon Key  FL
+Marathon Key  FL,Vancouver  WA
+Gilbert  AZ,Santa Monica  CA
+Santa Monica  CA,Gilbert  AZ
+Gilbert  AZ,Indianapolis  IN
+Indianapolis  IN,Gilbert  AZ
+Gilbert  AZ,Springbrook  WI
+Springbrook  WI,Gilbert  AZ
+Gilbert  AZ,Tupper Lake  NY
+Tupper Lake  NY,Gilbert  AZ
+Phoenix  AZ,Lake Havasu City  AZ
+Lake Havasu City  AZ,Phoenix  AZ
+Phoenix  AZ,Wayne  NJ
+Wayne  NJ,Phoenix  AZ
+Phoenix  AZ,Bellingham  WA
+Bellingham  WA,Phoenix  AZ
+Phoenix  AZ,Maple Falls  WA
+Maple Falls  WA,Phoenix  AZ
+Phoenix  AZ,Bothell  WA
+Bothell  WA,Phoenix  AZ
+Phoenix  AZ,LeSueur  MN
+LeSueur  MN,Phoenix  AZ
+Phoenix  AZ,White Sands  NM
+White Sands  NM,Phoenix  AZ
+Phoenix  AZ,Fontana  CA
+Fontana  CA,Phoenix  AZ
+Portland  OR,Twin Falls  ID
+Twin Falls  ID,Portland  OR
+Portland  OR,Florence  OR
+Florence  OR,Portland  OR
+Molalla  OR,Katy  TX
+Katy  TX,Molalla  OR
+Molalla  OR,Malone  NY
+Malone  NY,Molalla  OR
+Molalla  OR,American Falls  IL
+American Falls  IL,Molalla  OR
+Placerville  CA,Hillsborough  NJ
+Hillsborough  NJ,Placerville  CA
+Placerville  CA,Shorewood  MN
+Shorewood  MN,Placerville  CA
+Placerville  CA,Canton  NY
+Canton  NY,Placerville  CA
+Placerville  CA,Arnold  MO
+Arnold  MO,Placerville  CA
+Placerville  CA,Garden City  SC
+Garden City  SC,Placerville  CA
+Placerville  CA,Hillsboro  NJ
+Hillsboro  NJ,Placerville  CA
+Placerville  CA,Lapine  OR
+Lapine  OR,Placerville  CA
+Uniondale  NY,Lake Tawakoni  TX
+Lake Tawakoni  TX,Uniondale  NY
+Uniondale  NY,Starkville  MS
+Starkville  MS,Uniondale  NY
+Uniondale  NY,Houston County  TN
+Houston County  TN,Uniondale  NY
+Uniondale  NY,Culver City  CA
+Culver City  CA,Uniondale  NY
+Uniondale  NY,Lawrence  KS
+Lawrence  KS,Uniondale  NY
+Uniondale  NY,Victorville  CA
+Victorville  CA,Uniondale  NY
+Uniondale  NY,Albuquerque  NM
+Albuquerque  NM,Uniondale  NY
+Waltham  MA,Redfield  NY
+Redfield  NY,Waltham  MA
+Waltham  MA,Jacksonville  FL
+Jacksonville  FL,Waltham  MA
+Waltham  MA,Lakewood  CO
+Lakewood  CO,Waltham  MA
+Waltham  MA,Elkton  OR
+Elkton  OR,Waltham  MA
+Waltham  MA,Long Lake  NY
+Long Lake  NY,Waltham  MA
+Waltham  MA,Indian Lake  NY
+Indian Lake  NY,Waltham  MA
+Waltham  MA,West Danville  VT
+West Danville  VT,Waltham  MA
+Waltham  MA,Maybrook  NY
+Maybrook  NY,Waltham  MA
+Flippin  AR,Wakefield  MA
+Wakefield  MA,Flippin  AR
+Flippin  AR,Franklin  TN
+Franklin  TN,Flippin  AR
+Flippin  AR,Torrance  CA
+Torrance  CA,Flippin  AR
+Flippin  AR,Arlington  WA
+Arlington  WA,Flippin  AR
+Flippin  AR,Portland  OR
+Portland  OR,Flippin  AR
+Flippin  AR,Covina  CA
+Covina  CA,Flippin  AR
+Flippin  AR,Allegan  MI
+Allegan  MI,Flippin  AR
+Flippin  AR,Mammoth Cave National Park  KY
+Mammoth Cave National Park  KY,Flippin  AR
+Flippin  AR,Fresno  CA
+Fresno  CA,Flippin  AR
+Flippin  AR,Lakeland  FL
+Lakeland  FL,Flippin  AR
+Chandler  AZ,Los Angeles  CA
+Los Angeles  CA,Chandler  AZ
+Chandler  AZ,El Cajon  CA
+El Cajon  CA,Chandler  AZ
+Chandler  AZ,Wallingford  CT
+Wallingford  CT,Chandler  AZ
+Chandler  AZ,Derby  KS
+Derby  KS,Chandler  AZ
+Bothell  WA,Corte Madera  CA
+Corte Madera  CA,Bothell  WA
+Bothell  WA,Nevada City  CA
+Nevada City  CA,Bothell  WA
+Bothell  WA,Dana Point  CA
+Dana Point  CA,Bothell  WA
+Bothell  WA,Calistoga  CA
+Calistoga  CA,Bothell  WA
+Bothell  WA,Duncan  OK
+Duncan  OK,Bothell  WA
+Bothell  WA,Big Horn Mtns  WY
+Big Horn Mtns  WY,Bothell  WA
+Bothell  WA,Buffalo  NY
+Buffalo  NY,Bothell  WA
+Nevada City  CA,Luna  LA
+Luna  LA,Nevada City  CA
+Nevada City  CA,Denver  CO
+Denver  CO,Nevada City  CA
+Chandler  AZ,Newbury Park  CA
+Newbury Park  CA,Chandler  AZ
+Chandler  AZ,Presque Isle  ME
+Presque Isle  ME,Chandler  AZ
+Chandler  AZ,Noxapater  MS
+Noxapater  MS,Chandler  AZ
+Chandler  AZ,Liberty  WA
+Liberty  WA,Chandler  AZ
+Chandler  AZ,West Tisbury  MA
+West Tisbury  MA,Chandler  AZ
+Chandler  AZ,Burke  VA
+Burke  VA,Chandler  AZ
+Grantsville  UT,Sebastopol  CA
+Sebastopol  CA,Grantsville  UT
+Grantsville  UT,Salt Lake City  UT
+Salt Lake City  UT,Grantsville  UT
+Grantsville  UT,Portland  OR
+Portland  OR,Grantsville  UT
+Grantsville  UT,Yorba Linda  CA
+Yorba Linda  CA,Grantsville  UT
+Gerlach  NV,Prairie   Grove  AR
+Prairie   Grove  AR,Gerlach  NV
+Gerlach  NV,Dupo  IL
+Dupo  IL,Gerlach  NV
+San Diego  CA,Sedona  AZ
+Sedona  AZ,San Diego  CA
+San Diego  CA,West Seneca  NY
+West Seneca  NY,San Diego  CA
+San Diego  CA,Roslyn  WA
+Roslyn  WA,San Diego  CA
+San Diego  CA,Lake Havasu  AZ
+Lake Havasu  AZ,San Diego  CA
+San Diego  CA,San Francisco  CA
+San Francisco  CA,San Diego  CA
+Russellville  AR,Oceanside  CA
+Oceanside  CA,Russellville  AR
+Russellville  AR,Palm Beach Gardens  FL
+Palm Beach Gardens  FL,Russellville  AR
+Russellville  AR,Pottstown  PA
+Pottstown  PA,Russellville  AR
+Russellville  AR,Placerville  CA
+Placerville  CA,Russellville  AR
+Russellville  AR,Fairfield  TX
+Fairfield  TX,Russellville  AR
+Russellville  AR,Palm Springs  CA
+Palm Springs  CA,Russellville  AR
+Russellville  AR,Dickson City  PA
+Dickson City  PA,Russellville  AR
+Russellville  AR,Santa Fe  NM
+Santa Fe  NM,Russellville  AR
+Russellville  AR,Middletown  NY
+Middletown  NY,Russellville  AR
+Russellville  AR,White Bear Lake  MN
+White Bear Lake  MN,Russellville  AR
+Russellville  AR,Troy  MO
+Troy  MO,Russellville  AR
+Russellville  AR,Maybrook  NY
+Maybrook  NY,Russellville  AR
+Camas  WA,Olympia  WA
+Olympia  WA,Camas  WA
+Camas  WA,Whitefish  MT
+Whitefish  MT,Camas  WA
+Camas  WA,Fayetteville  NC
+Fayetteville  NC,Camas  WA
+Camas  WA,Blaine  MN
+Blaine  MN,Camas  WA
+Martinsville  VA,Seattle  WA
+Seattle  WA,Martinsville  VA
+Martinsville  VA,Wabasha  MN
+Wabasha  MN,Martinsville  VA
+Martinsville  VA,Marion  VA
+Marion  VA,Martinsville  VA
+Kalispell  MT,Bouse  AZ
+Bouse  AZ,Kalispell  MT
+Kalispell  MT,Casa Grande  AZ
+Casa Grande  AZ,Kalispell  MT
+Kalispell  MT,Vail  AZ
+Vail  AZ,Kalispell  MT
+Kalispell  MT,Albion  IN
+Albion  IN,Kalispell  MT
+Kalispell  MT,Duluth  MN
+Duluth  MN,Kalispell  MT
+Hopkinton  RI,Waverly  KY
+Waverly  KY,Hopkinton  RI
+Hopkinton  RI,Walnut Hill  IL
+Walnut Hill  IL,Hopkinton  RI
+Hopkinton  RI,Lewiston  ME
+Lewiston  ME,Hopkinton  RI
+Hopkinton  RI,Loveland  CO
+Loveland  CO,Hopkinton  RI
+Hopkinton  RI,Bothell  WA
+Bothell  WA,Hopkinton  RI
+Hopkinton  RI,Las Vegas  NV
+Las Vegas  NV,Hopkinton  RI
+San Diego  CA,Fairfield  CA
+Fairfield  CA,San Diego  CA
+San Diego  CA,Trout Creek Recreation  OR
+Trout Creek Recreation  OR,San Diego  CA
+San Diego  CA,Pasadena  CA
+Pasadena  CA,San Diego  CA
+San Diego  CA,Goverment Camp  OR
+Goverment Camp  OR,San Diego  CA
+Carbondale  IL,Eugene  OR
+Eugene  OR,Carbondale  IL
+Carbondale  IL,Middletown  CA
+Middletown  CA,Carbondale  IL
+Madisonville  KY,Columbia Heights  MN
+Columbia Heights  MN,Madisonville  KY
+Madisonville  KY,Aquebogue  NY
+Aquebogue  NY,Madisonville  KY
+Madisonville  KY,Bouse  AZ
+Bouse  AZ,Madisonville  KY

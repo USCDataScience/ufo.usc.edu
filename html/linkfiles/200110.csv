@@ -1,0 +1,261 @@
+origin,destination
+Seattle  WA,Greene  ME
+Greene  ME,Seattle  WA
+Seattle  WA,Lafayette  NY
+Lafayette  NY,Seattle  WA
+Seattle  WA,Kansas City  MO
+Kansas City  MO,Seattle  WA
+Seattle  WA,Albany  NY
+Albany  NY,Seattle  WA
+Seattle  WA,Lynden  WA
+Lynden  WA,Seattle  WA
+Seattle  WA,Houghton Lake  MI
+Houghton Lake  MI,Seattle  WA
+Seattle  WA,interstate 5 or tributary between Vasilia and Sacrammento  CA
+interstate 5 or tributary between Vasilia and Sacrammento  CA,Seattle  WA
+Latrobe  PA,Howell  MI
+Howell  MI,Latrobe  PA
+Latrobe  PA,Sandyville  WV
+Sandyville  WV,Latrobe  PA
+Latrobe  PA,Maple Valley  WA
+Maple Valley  WA,Latrobe  PA
+Latrobe  PA,Boston  PA
+Boston  PA,Latrobe  PA
+Bellevue  WA,Columbia  MO
+Columbia  MO,Bellevue  WA
+Bellevue  WA,Wilmington  MA
+Wilmington  MA,Bellevue  WA
+Bellevue  WA,Dunbar  WV
+Dunbar  WV,Bellevue  WA
+Bellevue  WA,Bonifay  FL
+Bonifay  FL,Bellevue  WA
+Federal Way  WA,Page  AZ
+Page  AZ,Federal Way  WA
+Federal Way  WA,Provo  UT
+Provo  UT,Federal Way  WA
+Federal Way  WA,Myrtle Beach  SC
+Myrtle Beach  SC,Federal Way  WA
+Federal Way  WA,Henderson  KY
+Henderson  KY,Federal Way  WA
+Federal Way  WA,Key West  FL
+Key West  FL,Federal Way  WA
+New Philadelphia  OH,Lake Elsinore  CA
+Lake Elsinore  CA,New Philadelphia  OH
+New Philadelphia  OH,Kennett  MO
+Kennett  MO,New Philadelphia  OH
+New Philadelphia  OH,Northford  CT
+Northford  CT,New Philadelphia  OH
+New Philadelphia  OH,Richmond  KY
+Richmond  KY,New Philadelphia  OH
+Miami  FL,Mt.Vernon  IL
+Mt.Vernon  IL,Miami  FL
+Miami  FL,Pittsburg  IL
+Pittsburg  IL,Miami  FL
+Miami  FL,Norfolk  VA
+Norfolk  VA,Miami  FL
+Saugus  MA,Emeryville  CA
+Emeryville  CA,Saugus  MA
+Saugus  MA,Sacramento  CA
+Sacramento  CA,Saugus  MA
+Saugus  MA,Bowling Green  KY
+Bowling Green  KY,Saugus  MA
+Ottumwa  IA,Hayward  CA
+Hayward  CA,Ottumwa  IA
+Ottumwa  IA,Fresno  CA
+Fresno  CA,Ottumwa  IA
+Ottumwa  IA,Phoenix  AZ
+Phoenix  AZ,Ottumwa  IA
+Ottumwa  IA,Rockwell City  IA
+Rockwell City  IA,Ottumwa  IA
+Ottumwa  IA,Virginia Beach  VA
+Virginia Beach  VA,Ottumwa  IA
+Fairbanks  AK,Denver  CO
+Denver  CO,Fairbanks  AK
+Fairbanks  AK,Grass Valley  CA
+Grass Valley  CA,Fairbanks  AK
+Fairbanks  AK,Lima  OH
+Lima  OH,Fairbanks  AK
+Fairbanks  AK,Columbia  MS
+Columbia  MS,Fairbanks  AK
+Fairbanks  AK,Somerset  WI
+Somerset  WI,Fairbanks  AK
+Denver  CO,Eagle River  AK
+Eagle River  AK,Denver  CO
+Denver  CO,Miami  FL
+Miami  FL,Denver  CO
+Denver  CO,Phoenix  AZ
+Phoenix  AZ,Denver  CO
+Minneapolis  MN,Avondale  AZ
+Avondale  AZ,Minneapolis  MN
+Minneapolis  MN,Stockton  CA
+Stockton  CA,Minneapolis  MN
+Minneapolis  MN,Poughkeepsie  NY
+Poughkeepsie  NY,Minneapolis  MN
+Minneapolis  MN,West Carrollton  OH
+West Carrollton  OH,Minneapolis  MN
+Adkins  TX,Hialeah  FL
+Hialeah  FL,Adkins  TX
+Adkins  TX,Des Moines  IA
+Des Moines  IA,Adkins  TX
+Adkins  TX,Savanna  IL
+Savanna  IL,Adkins  TX
+Adkins  TX,Gray  TX
+Gray  TX,Adkins  TX
+Adkins  TX,Lake Elmo  MN
+Lake Elmo  MN,Adkins  TX
+Adkins  TX,Franklin  MA
+Franklin  MA,Adkins  TX
+Harrisonburg  VA,Renton  WA
+Renton  WA,Harrisonburg  VA
+Harrisonburg  VA,Rapid City  SD
+Rapid City  SD,Harrisonburg  VA
+Harrisonburg  VA,Kent  WA
+Kent  WA,Harrisonburg  VA
+Harrisonburg  VA,Port Orchard  WA
+Port Orchard  WA,Harrisonburg  VA
+Harrisonburg  VA,Martin  TN
+Martin  TN,Harrisonburg  VA
+Harrisonburg  VA,Seattle  WA
+Seattle  WA,Harrisonburg  VA
+Harrisonburg  VA,Ferndale  WA
+Ferndale  WA,Harrisonburg  VA
+Harrisonburg  VA,Vashon Island  WA
+Vashon Island  WA,Harrisonburg  VA
+Harrisonburg  VA,Smiths Ferry  ID
+Smiths Ferry  ID,Harrisonburg  VA
+Harrisonburg  VA,San Antonio  TX
+San Antonio  TX,Harrisonburg  VA
+Harrisonburg  VA,North Bend  WA
+North Bend  WA,Harrisonburg  VA
+Harrisonburg  VA,Findlay  OH
+Findlay  OH,Harrisonburg  VA
+Harrisonburg  VA,Moses Lake  WA
+Moses Lake  WA,Harrisonburg  VA
+Harrisonburg  VA,New York City  NY
+New York City  NY,Harrisonburg  VA
+Harrisonburg  VA,Manassas  VA
+Manassas  VA,Harrisonburg  VA
+Harrisonburg  VA,Santa Cruz  CA
+Santa Cruz  CA,Harrisonburg  VA
+Harrisonburg  VA,Chico  CA
+Chico  CA,Harrisonburg  VA
+Harrisonburg  VA,Garden Valley  CA
+Garden Valley  CA,Harrisonburg  VA
+Harrisonburg  VA,Wahpeton  ND
+Wahpeton  ND,Harrisonburg  VA
+Harrisonburg  VA,Bentonville  AR
+Bentonville  AR,Harrisonburg  VA
+Harrisonburg  VA,Milford  CT
+Milford  CT,Harrisonburg  VA
+Harrisonburg  VA,Chugwater  WY
+Chugwater  WY,Harrisonburg  VA
+Harrisonburg  VA,Layton  UT
+Layton  UT,Harrisonburg  VA
+Harrisonburg  VA,Aurora  CO
+Aurora  CO,Harrisonburg  VA
+Harrisonburg  VA,Newport  NC
+Newport  NC,Harrisonburg  VA
+Harrisonburg  VA,Atlanta  GA
+Atlanta  GA,Harrisonburg  VA
+Plymouth  WI,Nashville  TN
+Nashville  TN,Plymouth  WI
+Plymouth  WI,Polk County  OR
+Polk County  OR,Plymouth  WI
+Plymouth  WI,Petit Jean Mountain  AR
+Petit Jean Mountain  AR,Plymouth  WI
+Jacksonville  FL,Bonita Springs  FL
+Bonita Springs  FL,Jacksonville  FL
+Jacksonville  FL,Battle Ground  WA
+Battle Ground  WA,Jacksonville  FL
+Jacksonville  FL,Crowley  TX
+Crowley  TX,Jacksonville  FL
+Jacksonville  FL,Cadiz-Wallonia area  KY
+Cadiz-Wallonia area  KY,Jacksonville  FL
+Jacksonville  FL,Denver  CO
+Denver  CO,Jacksonville  FL
+Jacksonville  FL,Johnstown  OH
+Johnstown  OH,Jacksonville  FL
+Jacksonville  FL,Las Vegas  NV
+Las Vegas  NV,Jacksonville  FL
+Houston  TX,Fort Payne  AL
+Fort Payne  AL,Houston  TX
+Houston  TX,San Antonio  TX
+San Antonio  TX,Houston  TX
+Houston  TX,Bedford  IN
+Bedford  IN,Houston  TX
+Houston  TX,Sarasota  FL
+Sarasota  FL,Houston  TX
+Buckley  WA,Conowingo  MD
+Conowingo  MD,Buckley  WA
+Buckley  WA,Vanceburg  KY
+Vanceburg  KY,Buckley  WA
+Buckley  WA,Phoenix  AZ
+Phoenix  AZ,Buckley  WA
+Buckley  WA,Bothell  WA
+Bothell  WA,Buckley  WA
+Buckley  WA,Wendell  ID
+Wendell  ID,Buckley  WA
+Eagle Rock  CA,Chelsea  MI
+Chelsea  MI,Eagle Rock  CA
+Eagle Rock  CA,Terrell  TX
+Terrell  TX,Eagle Rock  CA
+Eagle Rock  CA,Cocoa Beach  FL
+Cocoa Beach  FL,Eagle Rock  CA
+Downey  CA,Mound  MN
+Mound  MN,Downey  CA
+Downey  CA,Murfreesboro  TN
+Murfreesboro  TN,Downey  CA
+Downey  CA,Durham  NC
+Durham  NC,Downey  CA
+Downey  CA,Avon  NY
+Avon  NY,Downey  CA
+Downey  CA,Pittsburgh  PA
+Pittsburgh  PA,Downey  CA
+Downey  CA,Centerburg  OH
+Centerburg  OH,Downey  CA
+Verona  WI,Denver  CO
+Denver  CO,Verona  WI
+Verona  WI,Sturgeon Bay  WI
+Sturgeon Bay  WI,Verona  WI
+Miami  FL,Manchester  NH
+Manchester  NH,Miami  FL
+Miami  FL,Hayward  CA
+Hayward  CA,Miami  FL
+Miami  FL,Evanston  WY
+Evanston  WY,Miami  FL
+Kountze  TX,Woodbridge  VA
+Woodbridge  VA,Kountze  TX
+Kountze  TX,Burbank  CA
+Burbank  CA,Kountze  TX
+Kountze  TX,Tulsa  OK
+Tulsa  OK,Kountze  TX
+Kountze  TX,Santa Monica  CA
+Santa Monica  CA,Kountze  TX
+Kountze  TX,Potomac  MD
+Potomac  MD,Kountze  TX
+Kountze  TX,Adams  TN
+Adams  TN,Kountze  TX
+Kountze  TX,Clarksville  AR
+Clarksville  AR,Kountze  TX
+Napoleon  ND,Sebastopol  CA
+Sebastopol  CA,Napoleon  ND
+Napoleon  ND,Reedsburg  OH
+Reedsburg  OH,Napoleon  ND
+Surgoinsville  TN,Rancho Cucamonga  CA
+Rancho Cucamonga  CA,Surgoinsville  TN
+Surgoinsville  TN,Lexington  SC
+Lexington  SC,Surgoinsville  TN
+Surgoinsville  TN,Aberdeen  WA
+Aberdeen  WA,Surgoinsville  TN
+Surgoinsville  TN,Martinez  GA
+Martinez  GA,Surgoinsville  TN
+Surgoinsville  TN,Shorewood  IL
+Shorewood  IL,Surgoinsville  TN
+Surgoinsville  TN,Clarendon  NY
+Clarendon  NY,Surgoinsville  TN
+Austin  TX,Charlotte  NC
+Charlotte  NC,Austin  TX
+Austin  TX,Lakewood  CO
+Lakewood  CO,Austin  TX
+Austin  TX,Syracuse  NY
+Syracuse  NY,Austin  TX

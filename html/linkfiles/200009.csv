@@ -1,0 +1,351 @@
+origin,destination
+Orchard Park  NY,Oakland  CA
+Oakland  CA,Orchard Park  NY
+Orchard Park  NY,Attleboro  MA
+Attleboro  MA,Orchard Park  NY
+Orchard Park  NY,Joshua  TX
+Joshua  TX,Orchard Park  NY
+Orchard Park  NY,Tempe  AZ
+Tempe  AZ,Orchard Park  NY
+Orchard Park  NY,South County  RI
+South County  RI,Orchard Park  NY
+Orchard Park  NY,Cameron Park  CA
+Cameron Park  CA,Orchard Park  NY
+Orchard Park  NY,Post  TX
+Post  TX,Orchard Park  NY
+Orchard Park  NY,Albuquerque  NM
+Albuquerque  NM,Orchard Park  NY
+Orchard Park  NY,Union  MO
+Union  MO,Orchard Park  NY
+Orchard Park  NY,Pottsboro  TX
+Pottsboro  TX,Orchard Park  NY
+Seattle  WA,La Jolla  CA
+La Jolla  CA,Seattle  WA
+Seattle  WA,Miami  OK
+Miami  OK,Seattle  WA
+Seattle  WA,Orem  UT
+Orem  UT,Seattle  WA
+Seattle  WA,Hebron  OH
+Hebron  OH,Seattle  WA
+Chandler  AZ,West Covina  CA
+West Covina  CA,Chandler  AZ
+Chandler  AZ,Erie  PA
+Erie  PA,Chandler  AZ
+Chandler  AZ,Hooper  CO
+Hooper  CO,Chandler  AZ
+Peebles  OH,Laguna Hills  CA
+Laguna Hills  CA,Peebles  OH
+Peebles  OH,Tacoma  WA
+Tacoma  WA,Peebles  OH
+Peebles  OH,Williamsville  NY
+Williamsville  NY,Peebles  OH
+Peebles  OH,West Leipsic  OH
+West Leipsic  OH,Peebles  OH
+Peebles  OH,Hampton Beach  NH
+Hampton Beach  NH,Peebles  OH
+Syracuse  NY,Benton  KY
+Benton  KY,Syracuse  NY
+Syracuse  NY,Longmont  CO
+Longmont  CO,Syracuse  NY
+Syracuse  NY,Yuma  AZ
+Yuma  AZ,Syracuse  NY
+Syracuse  NY,Glendale  AZ
+Glendale  AZ,Syracuse  NY
+New York City  NY,Fall River  MA
+Fall River  MA,New York City  NY
+New York City  NY,George West  TX
+George West  TX,New York City  NY
+New York City  NY,Walla Walla  WA
+Walla Walla  WA,New York City  NY
+New York City  NY,Greesnboro  NC
+Greesnboro  NC,New York City  NY
+Philadelphia  PA,Mechanicsburg  PA
+Mechanicsburg  PA,Philadelphia  PA
+Philadelphia  PA,Mount Laurel  NJ
+Mount Laurel  NJ,Philadelphia  PA
+Philadelphia  PA,Dahlonega  GA
+Dahlonega  GA,Philadelphia  PA
+Philadelphia  PA,Hermitage  PA
+Hermitage  PA,Philadelphia  PA
+Philadelphia  PA,Johannesburg  MI
+Johannesburg  MI,Philadelphia  PA
+Philadelphia  PA,Coatesville  PA
+Coatesville  PA,Philadelphia  PA
+Philadelphia  PA,Reading  PA
+Reading  PA,Philadelphia  PA
+Philadelphia  PA,Alamogordo  NM
+Alamogordo  NM,Philadelphia  PA
+Philadelphia  PA,White Oak  MS
+White Oak  MS,Philadelphia  PA
+Philadelphia  PA,Gardiner  MT
+Gardiner  MT,Philadelphia  PA
+Edmond  OK,Chicago  IL
+Chicago  IL,Edmond  OK
+Edmond  OK,Hermantown  MN
+Hermantown  MN,Edmond  OK
+Edmond  OK,Patuxent River  MD
+Patuxent River  MD,Edmond  OK
+Edmond  OK,Denver  CO
+Denver  CO,Edmond  OK
+Edmond  OK,Roswell  NM
+Roswell  NM,Edmond  OK
+Edmond  OK,Geneva  NE
+Geneva  NE,Edmond  OK
+Edmond  OK,Great Sand Dunes National Monument  CO
+Great Sand Dunes National Monument  CO,Edmond  OK
+Edmond  OK,Eldorado  AR
+Eldorado  AR,Edmond  OK
+Peoria  IL,Indianapolis  IN
+Indianapolis  IN,Peoria  IL
+Peoria  IL,Charleston  MO
+Charleston  MO,Peoria  IL
+Peoria  IL,Colorado Springs  CO
+Colorado Springs  CO,Peoria  IL
+Peoria  IL,Ashland  KY
+Ashland  KY,Peoria  IL
+Jasper  FL,Gold Bar  WA
+Gold Bar  WA,Jasper  FL
+Jasper  FL,Walnut  CA
+Walnut  CA,Jasper  FL
+Jasper  FL,San Antonio  TX
+San Antonio  TX,Jasper  FL
+Jasper  FL,Raymore  MO
+Raymore  MO,Jasper  FL
+Jasper  FL,Catawissa  PA
+Catawissa  PA,Jasper  FL
+Sikeston  MO,Toledo  OH
+Toledo  OH,Sikeston  MO
+Sikeston  MO,Leesburg  VA
+Leesburg  VA,Sikeston  MO
+Sikeston  MO,Everett  WA
+Everett  WA,Sikeston  MO
+Sikeston  MO,Williamsville  NY
+Williamsville  NY,Sikeston  MO
+Sikeston  MO,Hagerstown to Sidling hill cut  MD
+Hagerstown to Sidling hill cut  MD,Sikeston  MO
+Sikeston  MO,Florissant  CO
+Florissant  CO,Sikeston  MO
+Sikeston  MO,Bozeman  MT
+Bozeman  MT,Sikeston  MO
+Sikeston  MO,Dayton  OH
+Dayton  OH,Sikeston  MO
+Sikeston  MO,Minden  NE
+Minden  NE,Sikeston  MO
+Portland  OR,Des Moines  IA
+Des Moines  IA,Portland  OR
+Portland  OR,Vancouver  WA
+Vancouver  WA,Portland  OR
+Portland  OR,Santa Monica  CA
+Santa Monica  CA,Portland  OR
+Portland  OR,Houston  TX
+Houston  TX,Portland  OR
+Portland  OR,Augusta  GA
+Augusta  GA,Portland  OR
+Portland  OR,Goshen  VT
+Goshen  VT,Portland  OR
+Portland  OR,Steens Mountains  OR
+Steens Mountains  OR,Portland  OR
+Portland  OR,Homewood  AL
+Homewood  AL,Portland  OR
+Vancouver  WA,Studio City  CA
+Studio City  CA,Vancouver  WA
+Vancouver  WA,Tupelo  MS
+Tupelo  MS,Vancouver  WA
+Vancouver  WA,Ruidsoso  NM
+Ruidsoso  NM,Vancouver  WA
+Vancouver  WA,Berkeley  CA
+Berkeley  CA,Vancouver  WA
+Vancouver  WA,East Springfield  PA
+East Springfield  PA,Vancouver  WA
+Vancouver  WA,Laurel  MD
+Laurel  MD,Vancouver  WA
+Vancouver  WA,Glenwood  IL
+Glenwood  IL,Vancouver  WA
+Vancouver  WA,Wister  OK
+Wister  OK,Vancouver  WA
+Vancouver  WA,Canton  MI
+Canton  MI,Vancouver  WA
+Vancouver  WA,Niota  IL
+Niota  IL,Vancouver  WA
+Vancouver  WA,Stuart  FL
+Stuart  FL,Vancouver  WA
+Vancouver  WA,Toledo  OH
+Toledo  OH,Vancouver  WA
+Vancouver  WA,Greensville  MS
+Greensville  MS,Vancouver  WA
+Vancouver  WA,Belfield  ND
+Belfield  ND,Vancouver  WA
+Vancouver  WA,Merritt Island  FL
+Merritt Island  FL,Vancouver  WA
+Vancouver  WA,Ozark  AL
+Ozark  AL,Vancouver  WA
+Vancouver  WA,Lakewood  NJ
+Lakewood  NJ,Vancouver  WA
+Vancouver  WA,Idaho Falls  ID
+Idaho Falls  ID,Vancouver  WA
+Vancouver  WA,Pinos Altos  NM
+Pinos Altos  NM,Vancouver  WA
+Vancouver  WA,Eugene  OR
+Eugene  OR,Vancouver  WA
+Vancouver  WA,Harrington  WA
+Harrington  WA,Vancouver  WA
+Selden  NY,Fort Wayne  IN
+Fort Wayne  IN,Selden  NY
+Selden  NY,Laughlin  NV
+Laughlin  NV,Selden  NY
+Selden  NY,Wilmington  DE
+Wilmington  DE,Selden  NY
+Selden  NY,San Francisco  CA
+San Francisco  CA,Selden  NY
+Selden  NY,Martinsburg  WV
+Martinsburg  WV,Selden  NY
+Selden  NY,Owensboro  KY
+Owensboro  KY,Selden  NY
+Selden  NY,Portland  ME
+Portland  ME,Selden  NY
+Houston  TX,Sherman Oaks  CA
+Sherman Oaks  CA,Houston  TX
+Houston  TX,Buckley  WA
+Buckley  WA,Houston  TX
+Houston  TX,Scottsdale  AZ
+Scottsdale  AZ,Houston  TX
+Houston  TX,Conneaut  OH
+Conneaut  OH,Houston  TX
+Houston  TX,Madera  CA
+Madera  CA,Houston  TX
+Houston  TX,Camas  WA
+Camas  WA,Houston  TX
+Houston  TX,Duluth  GA
+Duluth  GA,Houston  TX
+Houston  TX,Dodge City  KS
+Dodge City  KS,Houston  TX
+Houston  TX,Girard  OH
+Girard  OH,Houston  TX
+Houston  TX,Fairfield  CA
+Fairfield  CA,Houston  TX
+Houston  TX,Pueblo  CO
+Pueblo  CO,Houston  TX
+Houston  TX,Ravenna  OH
+Ravenna  OH,Houston  TX
+Houston  TX,Chandler  AZ
+Chandler  AZ,Houston  TX
+Houston  TX,Radcliff  KY
+Radcliff  KY,Houston  TX
+Marshall  MN,Kirkland  WA
+Kirkland  WA,Marshall  MN
+Marshall  MN,El Dorado Hills  CA
+El Dorado Hills  CA,Marshall  MN
+Marshall  MN,Phoenix  AZ
+Phoenix  AZ,Marshall  MN
+Marshall  MN,Maybrook  NY
+Maybrook  NY,Marshall  MN
+Marshall  MN,North Bergen  NJ
+North Bergen  NJ,Marshall  MN
+Columbiana  OH,Chatfield  TX
+Chatfield  TX,Columbiana  OH
+Columbiana  OH,San Jose  CA
+San Jose  CA,Columbiana  OH
+Cinnaminson  NJ,Camp Springs  MD
+Camp Springs  MD,Cinnaminson  NJ
+Cinnaminson  NJ,Simsbury  CT
+Simsbury  CT,Cinnaminson  NJ
+Cinnaminson  NJ,Stanton  MI
+Stanton  MI,Cinnaminson  NJ
+Cinnaminson  NJ,Flagstaff  AZ
+Flagstaff  AZ,Cinnaminson  NJ
+Cinnaminson  NJ,Defiance  OH
+Defiance  OH,Cinnaminson  NJ
+Cinnaminson  NJ,White City  OR
+White City  OR,Cinnaminson  NJ
+Cinnaminson  NJ,Yucca Valley  CA
+Yucca Valley  CA,Cinnaminson  NJ
+Cinnaminson  NJ,Bradenton  FL
+Bradenton  FL,Cinnaminson  NJ
+Cinnaminson  NJ,Louisville  KY
+Louisville  KY,Cinnaminson  NJ
+Rosemount  MN,Auburn  WA
+Auburn  WA,Rosemount  MN
+Rosemount  MN,Fremont  CA
+Fremont  CA,Rosemount  MN
+Rosemount  MN,Sandy  UT
+Sandy  UT,Rosemount  MN
+Rosemount  MN,Glendale  AZ
+Glendale  AZ,Rosemount  MN
+West Palm Beach  FL,Ames  IA
+Ames  IA,West Palm Beach  FL
+West Palm Beach  FL,Bridgewater  NJ
+Bridgewater  NJ,West Palm Beach  FL
+West Palm Beach  FL,Victor  CO
+Victor  CO,West Palm Beach  FL
+West Palm Beach  FL,Camp Verde  AZ
+Camp Verde  AZ,West Palm Beach  FL
+West Palm Beach  FL,Everett  WA
+Everett  WA,West Palm Beach  FL
+Fairfield  CA,Albuquerque  NM
+Albuquerque  NM,Fairfield  CA
+Fairfield  CA,Palatine  IL
+Palatine  IL,Fairfield  CA
+Fairfield  CA,Glendale  CA
+Glendale  CA,Fairfield  CA
+Fairfield  CA,Shoreline  WA
+Shoreline  WA,Fairfield  CA
+Jordan  MN,Ankeny  IA
+Ankeny  IA,Jordan  MN
+Jordan  MN,Mission Viejo  CA
+Mission Viejo  CA,Jordan  MN
+Jordan  MN,The Woodlands  TX
+The Woodlands  TX,Jordan  MN
+Jordan  MN,Palm Springs  CA
+Palm Springs  CA,Jordan  MN
+Jordan  MN,Capistrano Beach  CA
+Capistrano Beach  CA,Jordan  MN
+Jordan  MN,Tucson  AZ
+Tucson  AZ,Jordan  MN
+Jordan  MN,Edmonds  WA
+Edmonds  WA,Jordan  MN
+Jordan  MN,Kerrywood  ID
+Kerrywood  ID,Jordan  MN
+Babylon  NY,Rapid City  SD
+Rapid City  SD,Babylon  NY
+Babylon  NY,Greenbrier  AR
+Greenbrier  AR,Babylon  NY
+Babylon  NY,Bel Marin Keys  CA
+Bel Marin Keys  CA,Babylon  NY
+Babylon  NY,Challis  ID
+Challis  ID,Babylon  NY
+Babylon  NY,Apache Junction  AZ
+Apache Junction  AZ,Babylon  NY
+Babylon  NY,Gerrardstown  WV
+Gerrardstown  WV,Babylon  NY
+Babylon  NY,Highlands Ranch  CO
+Highlands Ranch  CO,Babylon  NY
+Babylon  NY,Taunton  MA
+Taunton  MA,Babylon  NY
+Vermilion  OH,Glasgow  KY
+Glasgow  KY,Vermilion  OH
+Vermilion  OH,Crofton  KY
+Crofton  KY,Vermilion  OH
+Vermilion  OH,Layton  UT
+Layton  UT,Vermilion  OH
+Vermilion  OH,Collinsville  IL
+Collinsville  IL,Vermilion  OH
+Vermilion  OH,Morristown  TN
+Morristown  TN,Vermilion  OH
+Vermilion  OH,West Manchester  OH
+West Manchester  OH,Vermilion  OH
+Vermilion  OH,Oshkosh  WI
+Oshkosh  WI,Vermilion  OH
+Napa  CA,Bethlehem  PA
+Bethlehem  PA,Napa  CA
+Napa  CA,Chandler  AZ
+Chandler  AZ,Napa  CA
+Napa  CA,Wichita  KS
+Wichita  KS,Napa  CA
+Globe  AZ,Memphis  TN
+Memphis  TN,Globe  AZ
+Globe  AZ,Scottsdale  AZ
+Scottsdale  AZ,Globe  AZ
+Globe  AZ,Los Angeles  CA
+Los Angeles  CA,Globe  AZ
+Globe  AZ,Canoga Park  CA
+Canoga Park  CA,Globe  AZ

@@ -1,0 +1,42 @@
+{
+  "name": "cafej",
+  "main": [
+    "src/ext-string.js",
+    "src/ext-array.js",
+    "src/micro-observer.js",
+    "src/misc.js"
+  ],
+  "authors": [
+    "Phuong H <phuonghqh@gmail.com>"
+  ],
+  "description": "Useful javascript functions",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "javascript",
+    "array",
+    "extension"
+  ],
+  "license": "http://opensource.org/licenses/MIT",
+  "homepage": "https://github.com/phuonghuynh/cafej",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest"
+  },
+  "_release": "9facbfd2f7",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "9facbfd2f70e480f8b18d71c82ed6b5b0bfcadfc"
+  },
+  "_source": "https://github.com/phuonghuynh/cafej.git",
+  "_target": "*",
+  "_originalSource": "cafej"
+}

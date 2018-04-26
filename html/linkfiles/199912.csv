@@ -1,0 +1,229 @@
+origin,destination
+Columbia  MO,Madison  WI
+Madison  WI,Columbia  MO
+Columbia  MO,Reidsville  NC
+Reidsville  NC,Columbia  MO
+Columbia  MO,Grandview  WA
+Grandview  WA,Columbia  MO
+McLean  VA,Kent  WA
+Kent  WA,McLean  VA
+McLean  VA,Fairborn  OH
+Fairborn  OH,McLean  VA
+Santa Clarita  CA,Corralitos  CA
+Corralitos  CA,Santa Clarita  CA
+Santa Clarita  CA,Saddle Mountains  WA
+Saddle Mountains  WA,Santa Clarita  CA
+Santa Clarita  CA,Colorado  CO
+Colorado  CO,Santa Clarita  CA
+Santa Clarita  CA,Rochester  NY
+Rochester  NY,Santa Clarita  CA
+Santa Clarita  CA,Lodi  CA
+Lodi  CA,Santa Clarita  CA
+San Diego  CA,Knoxville  TN
+Knoxville  TN,San Diego  CA
+San Diego  CA,Toney  AL
+Toney  AL,San Diego  CA
+San Diego  CA,Guyton  GA
+Guyton  GA,San Diego  CA
+San Diego  CA,Manchester  TN
+Manchester  TN,San Diego  CA
+San Diego  CA,Lutz  FL
+Lutz  FL,San Diego  CA
+San Diego  CA,Coolidge  AZ
+Coolidge  AZ,San Diego  CA
+San Diego  CA,Birmingham  AL
+Birmingham  AL,San Diego  CA
+San Diego  CA,Weogufka  AL
+Weogufka  AL,San Diego  CA
+San Diego  CA,Dalton  GA
+Dalton  GA,San Diego  CA
+San Diego  CA,Cassville  GA
+Cassville  GA,San Diego  CA
+San Diego  CA,Burna  KY
+Burna  KY,San Diego  CA
+San Diego  CA,Alliance  OH
+Alliance  OH,San Diego  CA
+San Diego  CA,Cleveland  NC
+Cleveland  NC,San Diego  CA
+San Diego  CA,Colombiana  AL
+Colombiana  AL,San Diego  CA
+San Diego  CA,Costa Mesa  CA
+Costa Mesa  CA,San Diego  CA
+San Diego  CA,Marshall  MO
+Marshall  MO,San Diego  CA
+Columbus  OH,Tomah  WI
+Tomah  WI,Columbus  OH
+Columbus  OH,Naples  ME
+Naples  ME,Columbus  OH
+Columbus  OH,Emory  TX
+Emory  TX,Columbus  OH
+Columbus  OH,Dawsonville  GA
+Dawsonville  GA,Columbus  OH
+Seattle  WA,Columbia  MO
+Columbia  MO,Seattle  WA
+Seattle  WA,Millersburg  MO
+Millersburg  MO,Seattle  WA
+Seattle  WA,Greenville  NH
+Greenville  NH,Seattle  WA
+Reno  NV,Scottsdale  AZ
+Scottsdale  AZ,Reno  NV
+Reno  NV,Purdy  WA
+Purdy  WA,Reno  NV
+Reno  NV,Lyle  WA
+Lyle  WA,Reno  NV
+Reno  NV,Big Spring  TX
+Big Spring  TX,Reno  NV
+Reno  NV,Rupert  ID
+Rupert  ID,Reno  NV
+Woodinville  WA,Woodbridge  NJ
+Woodbridge  NJ,Woodinville  WA
+Woodinville  WA,Sherman Oaks  CA
+Sherman Oaks  CA,Woodinville  WA
+Woodinville  WA,OSU Experiment station  OR
+OSU Experiment station  OR,Woodinville  WA
+Woodinville  WA,Grand Rapids  MI
+Grand Rapids  MI,Woodinville  WA
+Smithton  IL,Rocky Mount  NC
+Rocky Mount  NC,Smithton  IL
+Smithton  IL,Stilwell  OK
+Stilwell  OK,Smithton  IL
+Longmont  CO,Orlando  FL
+Orlando  FL,Longmont  CO
+Longmont  CO,La Plata  MD
+La Plata  MD,Longmont  CO
+Longmont  CO,Sunnyside  WA
+Sunnyside  WA,Longmont  CO
+Savannah  GA,Las Animas  CO
+Las Animas  CO,Savannah  GA
+Savannah  GA,Puyallup  WA
+Puyallup  WA,Savannah  GA
+Roanoke  VA,Atlanta  GA
+Atlanta  GA,Roanoke  VA
+Roanoke  VA,Santa Cruz  CA
+Santa Cruz  CA,Roanoke  VA
+Omaha  NE,Wilkinson County  GA
+Wilkinson County  GA,Omaha  NE
+Omaha  NE,Katy  TX
+Katy  TX,Omaha  NE
+Omaha  NE,Athens  OH
+Athens  OH,Omaha  NE
+Omaha  NE,North Syracuse  NY
+North Syracuse  NY,Omaha  NE
+Plainview  NY,Pico Rivera  CA
+Pico Rivera  CA,Plainview  NY
+Plainview  NY,Rock Hill  NY
+Rock Hill  NY,Plainview  NY
+Plainview  NY,Greensboro  NC
+Greensboro  NC,Plainview  NY
+Ashgrove  MO,Windser  CA
+Windser  CA,Ashgrove  MO
+Ashgrove  MO,Charlotte  NC
+Charlotte  NC,Ashgrove  MO
+Ashgrove  MO,Marietta  GA
+Marietta  GA,Ashgrove  MO
+Houston  TX,Kent  WA
+Kent  WA,Houston  TX
+Houston  TX,Spring Hill  TN
+Spring Hill  TN,Houston  TX
+Houston  TX,Santa Fe  NM
+Santa Fe  NM,Houston  TX
+Trenton  IL,Woodbridge  CT
+Woodbridge  CT,Trenton  IL
+Trenton  IL,Branford  CT
+Branford  CT,Trenton  IL
+Trenton  IL,Murrieta  CA
+Murrieta  CA,Trenton  IL
+Portland  OR,Lakewood  CO
+Lakewood  CO,Portland  OR
+Portland  OR,Seatac  WA
+Seatac  WA,Portland  OR
+Portland  OR,Point Arena  CA
+Point Arena  CA,Portland  OR
+Salt Lake City  UT,Merrimac  WI
+Merrimac  WI,Salt Lake City  UT
+Salt Lake City  UT,Clinton  IN
+Clinton  IN,Salt Lake City  UT
+Salt Lake City  UT,Hot Springs  AR
+Hot Springs  AR,Salt Lake City  UT
+Salt Lake City  UT,Baton Rouge  LA
+Baton Rouge  LA,Salt Lake City  UT
+Salt Lake City  UT,White Sands  NM
+White Sands  NM,Salt Lake City  UT
+Salt Lake City  UT,Lackawaxen  PA
+Lackawaxen  PA,Salt Lake City  UT
+Salt Lake City  UT,Jacksonville  FL
+Jacksonville  FL,Salt Lake City  UT
+Norman  OK,Savannah  GA
+Savannah  GA,Norman  OK
+Norman  OK,Howard  CO
+Howard  CO,Norman  OK
+Norman  OK,Fulton  AR
+Fulton  AR,Norman  OK
+Miami  FL,Youngstown  OH
+Youngstown  OH,Miami  FL
+Miami  FL,Milton  TN
+Milton  TN,Miami  FL
+Miami  FL,Augusta  MT
+Augusta  MT,Miami  FL
+Lake Elsinore  CA,Pleasanton  TX
+Pleasanton  TX,Lake Elsinore  CA
+Lake Elsinore  CA,Nashville  TN
+Nashville  TN,Lake Elsinore  CA
+Lake Elsinore  CA,Wellington  OH
+Wellington  OH,Lake Elsinore  CA
+Lake Elsinore  CA,Poughkeepsie  NY
+Poughkeepsie  NY,Lake Elsinore  CA
+Lake Elsinore  CA,Mt Vernon  MO
+Mt Vernon  MO,Lake Elsinore  CA
+Lake Elsinore  CA,Spring Hill  KS
+Spring Hill  KS,Lake Elsinore  CA
+Lake Elsinore  CA,Columbia  MO
+Columbia  MO,Lake Elsinore  CA
+Lake Elsinore  CA,Mansfield  OH
+Mansfield  OH,Lake Elsinore  CA
+Jamaica Estates  NY,Portland  OR
+Portland  OR,Jamaica Estates  NY
+Jamaica Estates  NY,San Diego  CA
+San Diego  CA,Jamaica Estates  NY
+Jamaica Estates  NY,Boca Raton  FL
+Boca Raton  FL,Jamaica Estates  NY
+Jamaica Estates  NY,Ponchatoula  LA
+Ponchatoula  LA,Jamaica Estates  NY
+Jamaica Estates  NY,Spring Creek  NV
+Spring Creek  NV,Jamaica Estates  NY
+Jamaica Estates  NY,Deer Lake  PA
+Deer Lake  PA,Jamaica Estates  NY
+Jamaica Estates  NY,New Orleans  LA
+New Orleans  LA,Jamaica Estates  NY
+Jamaica Estates  NY,Larose  LA
+Larose  LA,Jamaica Estates  NY
+Jamaica Estates  NY,Vancouver  WA
+Vancouver  WA,Jamaica Estates  NY
+Jamaica Estates  NY,Sparks  NV
+Sparks  NV,Jamaica Estates  NY
+Jamaica Estates  NY,Temple City  CA
+Temple City  CA,Jamaica Estates  NY
+Salem  OR,Hialeah  FL
+Hialeah  FL,Salem  OR
+Salem  OR,South Berwick  ME
+South Berwick  ME,Salem  OR
+Salem  OR,Reno  NV
+Reno  NV,Salem  OR
+Brigham City  UT,Saint Charles Township  IL
+Saint Charles Township  IL,Brigham City  UT
+Brigham City  UT,Dallas  TX
+Dallas  TX,Brigham City  UT
+Brigham City  UT,Lakeland  FL
+Lakeland  FL,Brigham City  UT
+Brigham City  UT,Sterling  IL
+Sterling  IL,Brigham City  UT
+Brigham City  UT,Elisabeth  CO
+Elisabeth  CO,Brigham City  UT
+Brigham City  UT,Lake Shasta  CA
+Lake Shasta  CA,Brigham City  UT
+Rockford  IL,Dover  FL
+Dover  FL,Rockford  IL
+Rockford  IL,Newman Lake  WA
+Newman Lake  WA,Rockford  IL
+Rockford  IL,Las Vegas  NV
+Las Vegas  NV,Rockford  IL

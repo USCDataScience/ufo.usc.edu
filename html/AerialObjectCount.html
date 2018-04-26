@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team 7</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scrolling Nav CSS -->
+    <link href="../css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/styles.css" rel="stylesheet">
+
+
+<style>
+
+.axis .domain {
+  display: none;
+}
+
+</style>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <div id="nav-main">
+    <nav class="navbar mav-main navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">  
+              <nav id="nav-wrap">
+                <ul class="nav navbar-nav navbar-custom">
+                    <li class="current"><a class="page-scroll" href="#page-top" style="color:white">Home</a></li>
+                    <li class="hidden"><a class="page-scroll" href="#page-top" style="color:white"></a></li>
+                    <li><a class="page-scroll" href="#about" style="color:#ffffff">About</a></li>
+                    <li><a class="page-scroll" href="#features" style="color:#ffffff">Insights</a></li>
+                    <li><a class="page-scroll" style="color:#ffffff" href="#learn-more">Partners</a></li>
+                </ul>
+              </nav>
+
+                <a href="http://usc.edu" class="pull-right">
+                  <img src="../images/usc-primary-logotype.svg" width="176px" height="38px">
+                </a>
+            </div>
+        </div>
+    </nav>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <br>
+    <div>
+        <div class="container">
+            <nav class="navbar navbar-default navbar-static-top">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse" style="color:#fff">
+                  <ul class="nav navbar-nav">
+                    <li><a style="color:#fff" href="team_7.html">Smog</a></li>
+                    <li><a style="color:#fff" href="Team7_duration.html">Duration</a></li>
+                    <li><a style="color:#fff" href="Team7_sightingConnect.html">Sightings</a></li>
+                    <li><a style="color:#fff" href="Team7_pieShapeSighting.html">Shapes</a></li>
+                    <li class="active"><a style="color:#fff" href="#">Aerial</a></li>
+                    <li><a style="color:#fff" href="ufo-bubble-chart.html">Events</a></li>
+                    <li><a style="color:#fff" href="Grouped+Stacked bars.html">Airport Distance</a></li>
+                    <li><a style="color:#fff" href="wordcloud.html">Image captions</a></li>
+                    <li><a style="color:#fff" href="loc.html">Location Map</a></li>
+                    <li><a style="color:#fff" href="drinking.html" target="_blank">Drinking</a></li>
+                    <li><a style="color:#fff" href="overall.html">Overall</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+        <h5>Note : Scroll right</h5>
+        <svg width="3960" height="500"></svg>
+
+        <footer>
+                <p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+        </footer>
+        
+    </div>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<script>
+
+var svg = d3.select("svg"),
+    margin = {top: 40, right: 20, bottom: 30, left: 40},
+    width = +svg.attr("width") - margin.left - margin.right,
+    height = +svg.attr("height") - margin.top - margin.bottom,
+    g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var x0 = d3.scaleBand()
+    .rangeRound([0, width])
+    .paddingInner(0.1);
+
+var x1 = d3.scaleBand()
+    .padding(0.05);
+
+var y = d3.scaleLinear()
+    //.domain([0,5123])
+    //.range([1000,0])
+    .rangeRound([height, 0]);
+
+var z = d3.scaleOrdinal()
+    //.range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b"]);
+    .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+//AerialDataCount
+d3.csv("data3.csv", function(d, i, columns) {
+  //document.write(columns.length);
+  for (var i = 1, n = columns.length; i < n; ++i) d[columns[i]] = +d[columns[i]];
+  //console.log(d);
+  return d;
+}, function(error, data) {
+  if (error) throw error;
+
+  var keys = data.columns.slice(1);
+  console.log(data);
+  console.log(keys);
+
+  x0.domain(data.map(function(d) { return d.State; }));
+  x1.domain(keys).rangeRound([0, x0.bandwidth()]);
+  y.domain([0, d3.max(data, function(d) { return d3.max(keys, function(key) { return d[key]; }); })]).nice();
+
+  g.append("g")
+    .selectAll("g")
+    .data(data)
+    .enter().append("g")
+      .attr("transform", function(d) { return "translate(" + x0(d.State) + ",0)"; })
+    .selectAll("rect")
+    .data(function(d) { return keys.map(function(key) { return{ key: key, value: d[key]}; }); })
+    .enter().append("rect")
+      .attr("x", function(d) {
+         //console.log(x1(d.key));
+         return x1(d.key); })
+      .attr("y", function(d) { return y(d.value); })
+      .attr("width", x1.bandwidth())
+      .attr("height", function(d) { return height - y(d.value); })
+      .attr("fill", function(d) { return z(d.key); });
+
+  g.append("g")
+      .attr("class", "axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x0));
+
+  //Y axis (Number of Sightings)
+  g.append("g")
+      .attr("class", "axis")
+      .call(d3.axisLeft(y).ticks(null, "s"))
+    .append("text")
+      .attr("x", 2)
+      .attr("y", y(y.ticks().pop()) + 0.5)
+      .attr("dy", "0.32em")
+      .attr("fill", "#000")
+      .attr("font-weight", "bold")
+      .attr("text-anchor", "start")
+      .text("Number of Sightings");
+
+  var legend = g.append("g")
+      .attr("font-family", "sans-serif")
+      .attr("font-size", 10)
+      .attr("text-anchor", "end")
+    .selectAll("g")
+    .data(keys.slice().reverse())
+    .enter().append("g")
+      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+  legend.append("rect")
+      .attr("x", width - 19)
+      .attr("width", 19)
+      .attr("height", 19)
+      .attr("fill", z);
+
+  legend.append("text")
+      .attr("x", width - 24)
+      .attr("y", 9.5)
+      .attr("dy", "0.32em")
+      .text(function(d) { return d; });
+});
+
+</script>

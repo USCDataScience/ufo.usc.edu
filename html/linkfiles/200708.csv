@@ -1,0 +1,537 @@
+origin,destination
+Southfield  MI,Plainfield  IL
+Plainfield  IL,Southfield  MI
+Southfield  MI,Harrisburg  IL
+Harrisburg  IL,Southfield  MI
+Southfield  MI,Fostoria  MI
+Fostoria  MI,Southfield  MI
+Southfield  MI,Umatilla  OR
+Umatilla  OR,Southfield  MI
+Southfield  MI,Falcon  CO
+Falcon  CO,Southfield  MI
+Southfield  MI,Cowiche  WA
+Cowiche  WA,Southfield  MI
+Southfield  MI,Spokane  WA
+Spokane  WA,Southfield  MI
+Buffalo  NY,Frisco  TX
+Frisco  TX,Buffalo  NY
+Buffalo  NY,Blandon  PA
+Blandon  PA,Buffalo  NY
+Buffalo  NY,Medina  MN
+Medina  MN,Buffalo  NY
+Buffalo  NY,La Porte  TX
+La Porte  TX,Buffalo  NY
+Buffalo  NY,Clovis  NM
+Clovis  NM,Buffalo  NY
+Buffalo  NY,Bethlehem  CT
+Bethlehem  CT,Buffalo  NY
+Buffalo  NY,Arizona City  AZ
+Arizona City  AZ,Buffalo  NY
+Buffalo  NY,Princeton  IL
+Princeton  IL,Buffalo  NY
+Buffalo  NY,Riverside  CA
+Riverside  CA,Buffalo  NY
+Buffalo  NY,Bennington  VT
+Bennington  VT,Buffalo  NY
+Buffalo  NY,Canyon Lake  TX
+Canyon Lake  TX,Buffalo  NY
+Buffalo  NY,Kalispell  MT
+Kalispell  MT,Buffalo  NY
+Houston  TX,Baton Rouge  LA
+Baton Rouge  LA,Houston  TX
+Houston  TX,Kissimmee  FL
+Kissimmee  FL,Houston  TX
+Houston  TX,Canaan  ME
+Canaan  ME,Houston  TX
+Houston  TX,Flint  MI
+Flint  MI,Houston  TX
+Los Angeles  CA,Success  NH
+Success  NH,Los Angeles  CA
+Los Angeles  CA,Denver  CO
+Denver  CO,Los Angeles  CA
+Los Angeles  CA,Las Vegas  NV
+Las Vegas  NV,Los Angeles  CA
+Los Angeles  CA,Binghamton  NY
+Binghamton  NY,Los Angeles  CA
+Los Angeles  CA,Ozark  MO
+Ozark  MO,Los Angeles  CA
+Los Angeles  CA,Oak Island  NC
+Oak Island  NC,Los Angeles  CA
+Los Angeles  CA,East Hartford  CT
+East Hartford  CT,Los Angeles  CA
+Brookline Station  MO,Texarkana (10 mi. S of)  AR
+Texarkana (10 mi. S of)  AR,Brookline Station  MO
+Brookline Station  MO,Texarkana  AR
+Texarkana  AR,Brookline Station  MO
+Brookline Station  MO,Allen  TX
+Allen  TX,Brookline Station  MO
+Brookline Station  MO,Sonora  CA
+Sonora  CA,Brookline Station  MO
+Martinsburg  WV,Tooele  UT
+Tooele  UT,Martinsburg  WV
+Martinsburg  WV,Edmond  OK
+Edmond  OK,Martinsburg  WV
+Martinsburg  WV,Arivaca  AZ
+Arivaca  AZ,Martinsburg  WV
+Martinsburg  WV,Las Vegas  NV
+Las Vegas  NV,Martinsburg  WV
+Martinsburg  WV,San Diego  CA
+San Diego  CA,Martinsburg  WV
+Martinsburg  WV,Rohnert Park  CA
+Rohnert Park  CA,Martinsburg  WV
+Martinsburg  WV,Lake Powell  UT
+Lake Powell  UT,Martinsburg  WV
+Martinsburg  WV,Brandt  OH
+Brandt  OH,Martinsburg  WV
+Martinsburg  WV,Erie  PA
+Erie  PA,Martinsburg  WV
+Tampa  FL,Salt Lake City  UT
+Salt Lake City  UT,Tampa  FL
+Tampa  FL,Montgomery  AL
+Montgomery  AL,Tampa  FL
+Tampa  FL,Prescott National Forest  AZ
+Prescott National Forest  AZ,Tampa  FL
+Tampa  FL,Hilton Head Island  SC
+Hilton Head Island  SC,Tampa  FL
+Tampa  FL,Fort Davis  TX
+Fort Davis  TX,Tampa  FL
+Fort Oglethorpe  GA,Naperville  IL
+Naperville  IL,Fort Oglethorpe  GA
+Fort Oglethorpe  GA,Johnson City  TN
+Johnson City  TN,Fort Oglethorpe  GA
+Fort Oglethorpe  GA,Oakhurst  CA
+Oakhurst  CA,Fort Oglethorpe  GA
+Fort Oglethorpe  GA,Monroeville  IN
+Monroeville  IN,Fort Oglethorpe  GA
+Fort Oglethorpe  GA,Green River  UT
+Green River  UT,Fort Oglethorpe  GA
+Fort Oglethorpe  GA,Georgetown Township  WI
+Georgetown Township  WI,Fort Oglethorpe  GA
+Fort Oglethorpe  GA,Tucson  AZ
+Tucson  AZ,Fort Oglethorpe  GA
+Fort Oglethorpe  GA,McAllen  TX
+McAllen  TX,Fort Oglethorpe  GA
+Lewiston  ME,Hancock  ME
+Hancock  ME,Lewiston  ME
+Lewiston  ME,Plattsburg  NY
+Plattsburg  NY,Lewiston  ME
+Lewiston  ME,Lancaster  PA
+Lancaster  PA,Lewiston  ME
+Los Angeles  CA,Tacoma  WA
+Tacoma  WA,Los Angeles  CA
+Los Angeles  CA,Sterling  IL
+Sterling  IL,Los Angeles  CA
+Los Angeles  CA,Edinburg  TX
+Edinburg  TX,Los Angeles  CA
+Los Angeles  CA,Oakdale  CA
+Oakdale  CA,Los Angeles  CA
+Los Angeles  CA,Harrison Township  MI
+Harrison Township  MI,Los Angeles  CA
+Los Angeles  CA,Gretna  VA
+Gretna  VA,Los Angeles  CA
+Eagan  MN,Richmond  VA
+Richmond  VA,Eagan  MN
+Eagan  MN,Saginaw  MI
+Saginaw  MI,Eagan  MN
+Eagan  MN,Bullhead City  AZ
+Bullhead City  AZ,Eagan  MN
+Eagan  MN,Issaquah  WA
+Issaquah  WA,Eagan  MN
+Eagan  MN,Meredith  NH
+Meredith  NH,Eagan  MN
+Eagan  MN,Sacramento  CA
+Sacramento  CA,Eagan  MN
+Eagan  MN,San Rafael  CA
+San Rafael  CA,Eagan  MN
+Eagan  MN,Hesperia  CA
+Hesperia  CA,Eagan  MN
+Eagan  MN,Baconton  GA
+Baconton  GA,Eagan  MN
+Eagan  MN,Fayetteville  AR
+Fayetteville  AR,Eagan  MN
+Eagan  MN,Roseville  MN
+Roseville  MN,Eagan  MN
+Eagan  MN,Rolla  MO
+Rolla  MO,Eagan  MN
+Eagan  MN,East Sandwich  MA
+East Sandwich  MA,Eagan  MN
+Eagan  MN,Stayton  WA
+Stayton  WA,Eagan  MN
+Eagan  MN,Orlando  FL
+Orlando  FL,Eagan  MN
+Eagan  MN,Clermont  FL
+Clermont  FL,Eagan  MN
+Eagan  MN,Isle of Palms  SC
+Isle of Palms  SC,Eagan  MN
+Eagan  MN,Rangeley  MA
+Rangeley  MA,Eagan  MN
+Eagan  MN,Plymouth  IN
+Plymouth  IN,Eagan  MN
+Eagan  MN,Nothing  AZ
+Nothing  AZ,Eagan  MN
+Eagan  MN,Brighton  CO
+Brighton  CO,Eagan  MN
+Eagan  MN,Keshena  WI
+Keshena  WI,Eagan  MN
+Eagan  MN,North Attleboro  MA
+North Attleboro  MA,Eagan  MN
+Eagan  MN,Slades Corners  WI
+Slades Corners  WI,Eagan  MN
+Eagan  MN,Long Beach  CA
+Long Beach  CA,Eagan  MN
+Eagan  MN,Omak  WA
+Omak  WA,Eagan  MN
+Eagan  MN,Alameda  CA
+Alameda  CA,Eagan  MN
+Eagan  MN,Azusa  CA
+Azusa  CA,Eagan  MN
+Eagan  MN,Van Wert  OH
+Van Wert  OH,Eagan  MN
+Eagan  MN,Lynn  MA
+Lynn  MA,Eagan  MN
+Nassau County  NY,La Grange  TX
+La Grange  TX,Nassau County  NY
+Nassau County  NY,McGregor  TX
+McGregor  TX,Nassau County  NY
+Nassau County  NY,Mukilteo  WA
+Mukilteo  WA,Nassau County  NY
+Nassau County  NY,Gentry  AR
+Gentry  AR,Nassau County  NY
+Nassau County  NY,Grand Island  NE
+Grand Island  NE,Nassau County  NY
+Nassau County  NY,Hazelton  ND
+Hazelton  ND,Nassau County  NY
+Nassau County  NY,Dallas  TX
+Dallas  TX,Nassau County  NY
+Nassau County  NY,Moses Lake  WA
+Moses Lake  WA,Nassau County  NY
+Nassau County  NY,Bristol  PA
+Bristol  PA,Nassau County  NY
+Nassau County  NY,New Castle  CA
+New Castle  CA,Nassau County  NY
+Nassau County  NY,Carmel  IN
+Carmel  IN,Nassau County  NY
+Nassau County  NY,Lexington  MO
+Lexington  MO,Nassau County  NY
+Oklahoma City  OK,Portland  OR
+Portland  OR,Oklahoma City  OK
+Oklahoma City  OK,Williamson County  IL
+Williamson County  IL,Oklahoma City  OK
+Oklahoma City  OK,Alpharetta  GA
+Alpharetta  GA,Oklahoma City  OK
+Oklahoma City  OK,Simpsonville  KY
+Simpsonville  KY,Oklahoma City  OK
+Oklahoma City  OK,South Charleston  OH
+South Charleston  OH,Oklahoma City  OK
+Oklahoma City  OK,Littleton  NH
+Littleton  NH,Oklahoma City  OK
+Oklahoma City  OK,Queensbury  NY
+Queensbury  NY,Oklahoma City  OK
+Oklahoma City  OK,Lewisburg  PA
+Lewisburg  PA,Oklahoma City  OK
+Oklahoma City  OK,Mankato  MN
+Mankato  MN,Oklahoma City  OK
+Santa Rosa  CA,Cary  NC
+Cary  NC,Santa Rosa  CA
+Santa Rosa  CA,Bend  TX
+Bend  TX,Santa Rosa  CA
+Santa Rosa  CA,Thorp  WI
+Thorp  WI,Santa Rosa  CA
+Santa Rosa  CA,Browns Mills  NJ
+Browns Mills  NJ,Santa Rosa  CA
+Santa Rosa  CA,Yankeetown  IN
+Yankeetown  IN,Santa Rosa  CA
+Santa Rosa  CA,Jacksonville  FL
+Jacksonville  FL,Santa Rosa  CA
+Santa Rosa  CA,Flat Rock  MI
+Flat Rock  MI,Santa Rosa  CA
+Santa Rosa  CA,San Jose  CA
+San Jose  CA,Santa Rosa  CA
+Danielson  CT,Darien  CT
+Darien  CT,Danielson  CT
+Danielson  CT,Wantagh  NY
+Wantagh  NY,Danielson  CT
+Danielson  CT,Lindenhurst  NY
+Lindenhurst  NY,Danielson  CT
+Danielson  CT,Mars Hill  ME
+Mars Hill  ME,Danielson  CT
+Danielson  CT,Plano  TX
+Plano  TX,Danielson  CT
+Danielson  CT,Redding  CA
+Redding  CA,Danielson  CT
+Danielson  CT,Whitefield  NH
+Whitefield  NH,Danielson  CT
+Danielson  CT,York  PA
+York  PA,Danielson  CT
+Danielson  CT,Woodbridge  NJ
+Woodbridge  NJ,Danielson  CT
+Tulsa  OK,Ostrander  OH
+Ostrander  OH,Tulsa  OK
+Tulsa  OK,Kannapolis  NC
+Kannapolis  NC,Tulsa  OK
+Tulsa  OK,Durand  MI
+Durand  MI,Tulsa  OK
+Tulsa  OK,South Lake Tahoe  CA
+South Lake Tahoe  CA,Tulsa  OK
+Tulsa  OK,Rose City  MI
+Rose City  MI,Tulsa  OK
+Tulsa  OK,Sweetwater  NJ
+Sweetwater  NJ,Tulsa  OK
+Tulsa  OK,Zapata Falls  CO
+Zapata Falls  CO,Tulsa  OK
+Rancho Cucamonga  CA,Mastic Beach  NY
+Mastic Beach  NY,Rancho Cucamonga  CA
+Rancho Cucamonga  CA,Guilford  CT
+Guilford  CT,Rancho Cucamonga  CA
+Rancho Cucamonga  CA,Waldorf  MD
+Waldorf  MD,Rancho Cucamonga  CA
+Rancho Cucamonga  CA,Ainsworth  NE
+Ainsworth  NE,Rancho Cucamonga  CA
+Rancho Cucamonga  CA,Canoga Park  CA
+Canoga Park  CA,Rancho Cucamonga  CA
+Rancho Cucamonga  CA,Lowell  MI
+Lowell  MI,Rancho Cucamonga  CA
+Rancho Cucamonga  CA,Minneapolis  MN
+Minneapolis  MN,Rancho Cucamonga  CA
+Rancho Cucamonga  CA,Rock Hill  SC
+Rock Hill  SC,Rancho Cucamonga  CA
+Rancho Cucamonga  CA,Stratford  CT
+Stratford  CT,Rancho Cucamonga  CA
+Rancho Cucamonga  CA,Glendale  UT
+Glendale  UT,Rancho Cucamonga  CA
+Rancho Cucamonga  CA,Commerce City  CO
+Commerce City  CO,Rancho Cucamonga  CA
+Gansevoort  NY,Hays  KS
+Hays  KS,Gansevoort  NY
+Gansevoort  NY,Payson  AZ
+Payson  AZ,Gansevoort  NY
+Gansevoort  NY,Vacaville  CA
+Vacaville  CA,Gansevoort  NY
+Gansevoort  NY,Idaho Falls  ID
+Idaho Falls  ID,Gansevoort  NY
+Gansevoort  NY,Sacramento  CA
+Sacramento  CA,Gansevoort  NY
+Gansevoort  NY,Foster City  CA
+Foster City  CA,Gansevoort  NY
+Gansevoort  NY,Eustis  NE
+Eustis  NE,Gansevoort  NY
+Gansevoort  NY,Cranston  RI
+Cranston  RI,Gansevoort  NY
+Gansevoort  NY,Big Pine Key  FL
+Big Pine Key  FL,Gansevoort  NY
+Gansevoort  NY,Warner  NH
+Warner  NH,Gansevoort  NY
+Gansevoort  NY,Spanish Springs  NV
+Spanish Springs  NV,Gansevoort  NY
+Gansevoort  NY,Little Compton  RI
+Little Compton  RI,Gansevoort  NY
+Gansevoort  NY,Birmingham  AL
+Birmingham  AL,Gansevoort  NY
+Gansevoort  NY,Chico  CA
+Chico  CA,Gansevoort  NY
+Gansevoort  NY,Williamstown  MA
+Williamstown  MA,Gansevoort  NY
+Gansevoort  NY,Isein  NJ
+Isein  NJ,Gansevoort  NY
+Greece  NY,Arivaca  AZ
+Arivaca  AZ,Greece  NY
+Greece  NY,Fernley  NV
+Fernley  NV,Greece  NY
+Greece  NY,Middleton  WI
+Middleton  WI,Greece  NY
+Greece  NY,Henderson  AR
+Henderson  AR,Greece  NY
+Greece  NY,Myrtle Beach  SC
+Myrtle Beach  SC,Greece  NY
+Greece  NY,Heber Springs  AR
+Heber Springs  AR,Greece  NY
+Greece  NY,West Valley  UT
+West Valley  UT,Greece  NY
+Greece  NY,Hartsville  SC
+Hartsville  SC,Greece  NY
+Greece  NY,Walla Walla  WA
+Walla Walla  WA,Greece  NY
+Denver  CO,Henderson  KY
+Henderson  KY,Denver  CO
+Denver  CO,Porterville  CA
+Porterville  CA,Denver  CO
+Denver  CO,Longview  WA
+Longview  WA,Denver  CO
+Denver  CO,Charlotte  NC
+Charlotte  NC,Denver  CO
+Denver  CO,Ewa Beach  HI
+Ewa Beach  HI,Denver  CO
+Denver  CO,Des Moines  IA
+Des Moines  IA,Denver  CO
+Las Vegas  NV,North Wilkesboro  NC
+North Wilkesboro  NC,Las Vegas  NV
+Las Vegas  NV,Truro  MA
+Truro  MA,Las Vegas  NV
+Las Vegas  NV,Myrtle Beach  SC
+Myrtle Beach  SC,Las Vegas  NV
+Las Vegas  NV,Lebanon  TN
+Lebanon  TN,Las Vegas  NV
+Fort Hood  TX,Pompano Beach  FL
+Pompano Beach  FL,Fort Hood  TX
+Fort Hood  TX,Overlea  MD
+Overlea  MD,Fort Hood  TX
+Fort Hood  TX,San Ysidro  CA
+San Ysidro  CA,Fort Hood  TX
+Fort Hood  TX,Little Valley  NY
+Little Valley  NY,Fort Hood  TX
+Fort Hood  TX,Fort Thomas  KY
+Fort Thomas  KY,Fort Hood  TX
+Fort Hood  TX,Fresno  CA
+Fresno  CA,Fort Hood  TX
+Fort Hood  TX,Gwinn  MI
+Gwinn  MI,Fort Hood  TX
+Fort Hood  TX,Gig Harbor  WA
+Gig Harbor  WA,Fort Hood  TX
+Fort Hood  TX,Foxboro  MA
+Foxboro  MA,Fort Hood  TX
+Fort Hood  TX,Cortez  CO
+Cortez  CO,Fort Hood  TX
+Fort Hood  TX,Erie  PA
+Erie  PA,Fort Hood  TX
+Fort Hood  TX,Shawnee  KS
+Shawnee  KS,Fort Hood  TX
+Chilton  WI,Lake Stevens  WA
+Lake Stevens  WA,Chilton  WI
+Chilton  WI,Freeport  TX
+Freeport  TX,Chilton  WI
+Chilton  WI,Rural El Paso  IL
+Rural El Paso  IL,Chilton  WI
+Chilton  WI,Clayton  NC
+Clayton  NC,Chilton  WI
+Chilton  WI,Sparks  NV
+Sparks  NV,Chilton  WI
+Chilton  WI,Kansas City  KS
+Kansas City  KS,Chilton  WI
+Chilton  WI,Pacheco  CA
+Pacheco  CA,Chilton  WI
+Chilton  WI,Charlestown  RI
+Charlestown  RI,Chilton  WI
+Gilmer  TX,Waterloo  IA
+Waterloo  IA,Gilmer  TX
+Gilmer  TX,Orlando  FL
+Orlando  FL,Gilmer  TX
+Gilmer  TX,Baldwin  MI
+Baldwin  MI,Gilmer  TX
+Gilmer  TX,Davis  OK
+Davis  OK,Gilmer  TX
+Foristell  MO,Cadillac  MI
+Cadillac  MI,Foristell  MO
+Foristell  MO,Chicago  IL
+Chicago  IL,Foristell  MO
+Foristell  MO,Holland  MI
+Holland  MI,Foristell  MO
+Foristell  MO,Honolulu  HI
+Honolulu  HI,Foristell  MO
+Foristell  MO,Milwaukee  WI
+Milwaukee  WI,Foristell  MO
+Foristell  MO,Prineville  OR
+Prineville  OR,Foristell  MO
+Foristell  MO,Victor  NY
+Victor  NY,Foristell  MO
+Foristell  MO,Louisville  KY
+Louisville  KY,Foristell  MO
+Foristell  MO,North Myrtle Beach  SC
+North Myrtle Beach  SC,Foristell  MO
+Trumbull  CT,Aliso Viejo  CA
+Aliso Viejo  CA,Trumbull  CT
+Trumbull  CT,Sedona  AZ
+Sedona  AZ,Trumbull  CT
+Trumbull  CT,Chehalis  WA
+Chehalis  WA,Trumbull  CT
+Trumbull  CT,Davie  FL
+Davie  FL,Trumbull  CT
+Trumbull  CT,Oak Grove  KY
+Oak Grove  KY,Trumbull  CT
+Trumbull  CT,San Luis Obispo  CA
+San Luis Obispo  CA,Trumbull  CT
+Trumbull  CT,Sandpoint  ID
+Sandpoint  ID,Trumbull  CT
+Trumbull  CT,Rachel  NV
+Rachel  NV,Trumbull  CT
+Trumbull  CT,Fayetteville  GA
+Fayetteville  GA,Trumbull  CT
+Trumbull  CT,Niota  IL
+Niota  IL,Trumbull  CT
+Trumbull  CT,Roosevelt  MI
+Roosevelt  MI,Trumbull  CT
+Trumbull  CT,York  PA
+York  PA,Trumbull  CT
+Trumbull  CT,Cadillac  MI
+Cadillac  MI,Trumbull  CT
+Trumbull  CT,Alvin  TX
+Alvin  TX,Trumbull  CT
+Los Angeles  CA,Seattle  WA
+Seattle  WA,Los Angeles  CA
+Los Angeles  CA,Green Bay  WI
+Green Bay  WI,Los Angeles  CA
+Los Angeles  CA,Wappingers Falls  NY
+Wappingers Falls  NY,Los Angeles  CA
+Los Angeles  CA,Bremerton  WA
+Bremerton  WA,Los Angeles  CA
+Los Angeles  CA,Dinuba  CA
+Dinuba  CA,Los Angeles  CA
+Los Angeles  CA,Ashley  OH
+Ashley  OH,Los Angeles  CA
+Los Angeles  CA,Lansing  MI
+Lansing  MI,Los Angeles  CA
+Los Angeles  CA,Glassboro  NJ
+Glassboro  NJ,Los Angeles  CA
+Los Angeles  CA,Moreno Valley  CA
+Moreno Valley  CA,Los Angeles  CA
+Los Angeles  CA,Claymont  DE
+Claymont  DE,Los Angeles  CA
+Los Angeles  CA,Keaau  HI
+Keaau  HI,Los Angeles  CA
+Los Angeles  CA,Wallingford  KY
+Wallingford  KY,Los Angeles  CA
+Los Angeles  CA,Neola  UT
+Neola  UT,Los Angeles  CA
+Los Angeles  CA,Marsing  ID
+Marsing  ID,Los Angeles  CA
+Los Angeles  CA,Yaphank  NY
+Yaphank  NY,Los Angeles  CA
+Los Angeles  CA,Arizona  AZ
+Arizona  AZ,Los Angeles  CA
+Los Angeles  CA,Orem  UT
+Orem  UT,Los Angeles  CA
+Los Angeles  CA,Stafford  VA
+Stafford  VA,Los Angeles  CA
+Carle Place  NY,Saint Maries  ID
+Saint Maries  ID,Carle Place  NY
+Carle Place  NY,Petaluma  CA
+Petaluma  CA,Carle Place  NY
+Carle Place  NY,Park Ridge  NJ
+Park Ridge  NJ,Carle Place  NY
+Carle Place  NY,Racine  WI
+Racine  WI,Carle Place  NY
+Prescott  AZ,Waupun  WI
+Waupun  WI,Prescott  AZ
+Prescott  AZ,Melrose Park  IL
+Melrose Park  IL,Prescott  AZ
+Prescott  AZ,Sneads Ferry  NC
+Sneads Ferry  NC,Prescott  AZ
+Prescott  AZ,Goose Creek  SC
+Goose Creek  SC,Prescott  AZ
+Prescott  AZ,Yucaipa  CA
+Yucaipa  CA,Prescott  AZ
+Prescott  AZ,Maryville  IL
+Maryville  IL,Prescott  AZ
+Prescott  AZ,Troutdale  OR
+Troutdale  OR,Prescott  AZ
+Prescott  AZ,Eaton  NH
+Eaton  NH,Prescott  AZ
+Prescott  AZ,Keokuk  IA
+Keokuk  IA,Prescott  AZ
+Little Rock  AR,Saginaw  MI
+Saginaw  MI,Little Rock  AR
+Little Rock  AR,Crestwood  IL
+Crestwood  IL,Little Rock  AR
+Little Rock  AR,Cloverdale  OR
+Cloverdale  OR,Little Rock  AR
+Little Rock  AR,Culver City  CA
+Culver City  CA,Little Rock  AR

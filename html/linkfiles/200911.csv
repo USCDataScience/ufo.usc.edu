@@ -1,0 +1,411 @@
+origin,destination
+Redding  CA,Ottumwa  IA
+Ottumwa  IA,Redding  CA
+Redding  CA,Redondo Beach  CA
+Redondo Beach  CA,Redding  CA
+Redding  CA,New Albany  IN
+New Albany  IN,Redding  CA
+Redding  CA,Tampa  FL
+Tampa  FL,Redding  CA
+Redding  CA,Corpus Christi  TX
+Corpus Christi  TX,Redding  CA
+Redding  CA,Post  TX
+Post  TX,Redding  CA
+Redding  CA,North Charleston  SC
+North Charleston  SC,Redding  CA
+Redding  CA,Paterson  NJ
+Paterson  NJ,Redding  CA
+Redding  CA,Merrillville  IN
+Merrillville  IN,Redding  CA
+Redding  CA,Richmond  VA
+Richmond  VA,Redding  CA
+West Palm Beach  FL,Madison  OH
+Madison  OH,West Palm Beach  FL
+West Palm Beach  FL,Liverpool  NY
+Liverpool  NY,West Palm Beach  FL
+West Palm Beach  FL,Gatesville  TX
+Gatesville  TX,West Palm Beach  FL
+West Palm Beach  FL,Omaha  NE
+Omaha  NE,West Palm Beach  FL
+West Palm Beach  FL,Bainbridge Island  WA
+Bainbridge Island  WA,West Palm Beach  FL
+West Palm Beach  FL,Coos Bay  OR
+Coos Bay  OR,West Palm Beach  FL
+Glen Ellyn  IL,Oklahoma City  OK
+Oklahoma City  OK,Glen Ellyn  IL
+Glen Ellyn  IL,Fuquay Varina  NC
+Fuquay Varina  NC,Glen Ellyn  IL
+Glen Ellyn  IL,Laurel  MD
+Laurel  MD,Glen Ellyn  IL
+Glen Ellyn  IL,Springfield  MO
+Springfield  MO,Glen Ellyn  IL
+Glen Ellyn  IL,Mechanicsburg  PA
+Mechanicsburg  PA,Glen Ellyn  IL
+Glen Ellyn  IL,Wellington  FL
+Wellington  FL,Glen Ellyn  IL
+Pleasanton  CA,Wellton  AZ
+Wellton  AZ,Pleasanton  CA
+Pleasanton  CA,Salem  OR
+Salem  OR,Pleasanton  CA
+Pleasanton  CA,Rockford  MI
+Rockford  MI,Pleasanton  CA
+Pleasanton  CA,Toms River  NJ
+Toms River  NJ,Pleasanton  CA
+North Bergen  NJ,Ponchatoula  LA
+Ponchatoula  LA,North Bergen  NJ
+North Bergen  NJ,Beloit  WI
+Beloit  WI,North Bergen  NJ
+North Bergen  NJ,Franklinton  NC
+Franklinton  NC,North Bergen  NJ
+North Bergen  NJ,Grapevine  TX
+Grapevine  TX,North Bergen  NJ
+North Bergen  NJ,Fort Walton Beach  FL
+Fort Walton Beach  FL,North Bergen  NJ
+North Bergen  NJ,Plant city  FL
+Plant city  FL,North Bergen  NJ
+North Bergen  NJ,Aventura  FL
+Aventura  FL,North Bergen  NJ
+Tampa  FL,Longmont  CO
+Longmont  CO,Tampa  FL
+Tampa  FL,Biloxi  MS
+Biloxi  MS,Tampa  FL
+Tampa  FL,Farmington  NM
+Farmington  NM,Tampa  FL
+Tampa  FL,Gulfport  MS
+Gulfport  MS,Tampa  FL
+Tampa  FL,Austin  TX
+Austin  TX,Tampa  FL
+Chambersburg  PA,Hopkins  MN
+Hopkins  MN,Chambersburg  PA
+Chambersburg  PA,Cincinnati  OH
+Cincinnati  OH,Chambersburg  PA
+Chambersburg  PA,Franklin  NC
+Franklin  NC,Chambersburg  PA
+Chambersburg  PA,Erlanger  KY
+Erlanger  KY,Chambersburg  PA
+Chambersburg  PA,Louisville  MS
+Louisville  MS,Chambersburg  PA
+Chambersburg  PA,Horseshoe Springs  UT
+Horseshoe Springs  UT,Chambersburg  PA
+Chambersburg  PA,Reno  NV
+Reno  NV,Chambersburg  PA
+Chambersburg  PA,Honolulu  HI
+Honolulu  HI,Chambersburg  PA
+Chambersburg  PA,Saline Valley  CA
+Saline Valley  CA,Chambersburg  PA
+Tulsa  OK,Morgantown  WV
+Morgantown  WV,Tulsa  OK
+Tulsa  OK,Tinley park  IL
+Tinley park  IL,Tulsa  OK
+Tulsa  OK,Whitney Point  NY
+Whitney Point  NY,Tulsa  OK
+Tulsa  OK,Yakima  WA
+Yakima  WA,Tulsa  OK
+Tulsa  OK,San Bruno  CA
+San Bruno  CA,Tulsa  OK
+Tulsa  OK,Rubidoux  CA
+Rubidoux  CA,Tulsa  OK
+Tulsa  OK,Chester  CA
+Chester  CA,Tulsa  OK
+Tulsa  OK,Burr Oak  KS
+Burr Oak  KS,Tulsa  OK
+Highlands Ranch  CO,Hesperia  CA
+Hesperia  CA,Highlands Ranch  CO
+Highlands Ranch  CO,Eloy  AZ
+Eloy  AZ,Highlands Ranch  CO
+Highlands Ranch  CO,Seattle  WA
+Seattle  WA,Highlands Ranch  CO
+Highlands Ranch  CO,Lebanon  MO
+Lebanon  MO,Highlands Ranch  CO
+Highlands Ranch  CO,Lakewood  CO
+Lakewood  CO,Highlands Ranch  CO
+Highlands Ranch  CO,Bridgeport  IL
+Bridgeport  IL,Highlands Ranch  CO
+Highlands Ranch  CO,Havre  MT
+Havre  MT,Highlands Ranch  CO
+East Brunswick  NJ,Eastland  TX
+Eastland  TX,East Brunswick  NJ
+East Brunswick  NJ,Columbia  MO
+Columbia  MO,East Brunswick  NJ
+East Brunswick  NJ,Long Beach  CA
+Long Beach  CA,East Brunswick  NJ
+East Brunswick  NJ,Boston  MA
+Boston  MA,East Brunswick  NJ
+East Brunswick  NJ,Birmingham  AL
+Birmingham  AL,East Brunswick  NJ
+East Brunswick  NJ,Atlanta  GA
+Atlanta  GA,East Brunswick  NJ
+Marysville  WA,Noblesville  IN
+Noblesville  IN,Marysville  WA
+Marysville  WA,Beverly Hills  MI
+Beverly Hills  MI,Marysville  WA
+Marysville  WA,Vincennes  IN
+Vincennes  IN,Marysville  WA
+Marysville  WA,Monroe  GA
+Monroe  GA,Marysville  WA
+Marysville  WA,Austin  TX
+Austin  TX,Marysville  WA
+Rochester  NY,Cold Spring  KY
+Cold Spring  KY,Rochester  NY
+Rochester  NY,Buda  TX
+Buda  TX,Rochester  NY
+Rochester  NY,Sioux City  IA
+Sioux City  IA,Rochester  NY
+Cincinnati  OH,Harper  KS
+Harper  KS,Cincinnati  OH
+Cincinnati  OH,Port St Lucie  FL
+Port St Lucie  FL,Cincinnati  OH
+Cincinnati  OH,Taylor Mill  KY
+Taylor Mill  KY,Cincinnati  OH
+Cincinnati  OH,Celina  TX
+Celina  TX,Cincinnati  OH
+Cincinnati  OH,Toledo  OH
+Toledo  OH,Cincinnati  OH
+Cincinnati  OH,Camarillo  CA
+Camarillo  CA,Cincinnati  OH
+Cincinnati  OH,Hickman  CA
+Hickman  CA,Cincinnati  OH
+Cincinnati  OH,Stuart  FL
+Stuart  FL,Cincinnati  OH
+Cincinnati  OH,Sarasota  FL
+Sarasota  FL,Cincinnati  OH
+Cincinnati  OH,Stockbridge  GA
+Stockbridge  GA,Cincinnati  OH
+Cincinnati  OH,Apopka  FL
+Apopka  FL,Cincinnati  OH
+Cincinnati  OH,Phoenix  NY
+Phoenix  NY,Cincinnati  OH
+La Crosse  WI,Knoxville  TN
+Knoxville  TN,La Crosse  WI
+La Crosse  WI,Larned  KS
+Larned  KS,La Crosse  WI
+La Crosse  WI,Blacksburg  VA
+Blacksburg  VA,La Crosse  WI
+La Crosse  WI,Rockingham  NC
+Rockingham  NC,La Crosse  WI
+La Crosse  WI,Monterey  CA
+Monterey  CA,La Crosse  WI
+La Crosse  WI,Farmingdale  ME
+Farmingdale  ME,La Crosse  WI
+La Crosse  WI,Springboro  OH
+Springboro  OH,La Crosse  WI
+Odessa  TX,Myrtle Beach  SC
+Myrtle Beach  SC,Odessa  TX
+Odessa  TX,Healdsburg  CA
+Healdsburg  CA,Odessa  TX
+Odessa  TX,Belgrade  ME
+Belgrade  ME,Odessa  TX
+Odessa  TX,Eau Clair  WI
+Eau Clair  WI,Odessa  TX
+Odessa  TX,Delta  OH
+Delta  OH,Odessa  TX
+Odessa  TX,Philippi  WV
+Philippi  WV,Odessa  TX
+Luray  VA,Monee  IL
+Monee  IL,Luray  VA
+Luray  VA,Green Valley  AZ
+Green Valley  AZ,Luray  VA
+Luray  VA,Woodbridge  VA
+Woodbridge  VA,Luray  VA
+Luray  VA,Sanford  NC
+Sanford  NC,Luray  VA
+Luray  VA,Ventura  CA
+Ventura  CA,Luray  VA
+Luray  VA,Glasgow  MT
+Glasgow  MT,Luray  VA
+Luray  VA,Paradise  CA
+Paradise  CA,Luray  VA
+Luray  VA,Queen Creek  AZ
+Queen Creek  AZ,Luray  VA
+Luray  VA,Kerhonkson  NY
+Kerhonkson  NY,Luray  VA
+Luray  VA,Venice  CA
+Venice  CA,Luray  VA
+Luray  VA,Brookhaven  NY
+Brookhaven  NY,Luray  VA
+Luray  VA,Mount Vernon  WA
+Mount Vernon  WA,Luray  VA
+Salt Lake City  UT,Albuquerque  NM
+Albuquerque  NM,Salt Lake City  UT
+Salt Lake City  UT,Mahanoy City  PA
+Mahanoy City  PA,Salt Lake City  UT
+Salt Lake City  UT,Chicago  IL
+Chicago  IL,Salt Lake City  UT
+Salt Lake City  UT,Wrightsville Beach  NC
+Wrightsville Beach  NC,Salt Lake City  UT
+Salt Lake City  UT,Ironton  OH
+Ironton  OH,Salt Lake City  UT
+Salt Lake City  UT,York  PA
+York  PA,Salt Lake City  UT
+Salt Lake City  UT,Woodland Hills  CA
+Woodland Hills  CA,Salt Lake City  UT
+Salt Lake City  UT,West Lebanon  NH
+West Lebanon  NH,Salt Lake City  UT
+Salt Lake City  UT,Mindoro  WI
+Mindoro  WI,Salt Lake City  UT
+Salt Lake City  UT,Ridgecrest  CA
+Ridgecrest  CA,Salt Lake City  UT
+Salt Lake City  UT,Las Vegas  NV
+Las Vegas  NV,Salt Lake City  UT
+Salt Lake City  UT,Caledonia County  VT
+Caledonia County  VT,Salt Lake City  UT
+Salt Lake City  UT,Manhattan  MT
+Manhattan  MT,Salt Lake City  UT
+Salt Lake City  UT,Barre  VT
+Barre  VT,Salt Lake City  UT
+Melbourne  FL,Sandy  UT
+Sandy  UT,Melbourne  FL
+Melbourne  FL,Vero Beach  FL
+Vero Beach  FL,Melbourne  FL
+Melbourne  FL,West Jordan  UT
+West Jordan  UT,Melbourne  FL
+Melbourne  FL,Santo  TX
+Santo  TX,Melbourne  FL
+Melbourne  FL,Deleon  TX
+Deleon  TX,Melbourne  FL
+Melbourne  FL,Erie  PA
+Erie  PA,Melbourne  FL
+Rushville  IL,Unadilla  NY
+Unadilla  NY,Rushville  IL
+Rushville  IL,Fairlee  VT
+Fairlee  VT,Rushville  IL
+Rushville  IL,Mesa  AZ
+Mesa  AZ,Rushville  IL
+Rushville  IL,Georgetown  MA
+Georgetown  MA,Rushville  IL
+Rushville  IL,Carmel  CA
+Carmel  CA,Rushville  IL
+Rushville  IL,Fontana  CA
+Fontana  CA,Rushville  IL
+Rushville  IL,Okeechobee  FL
+Okeechobee  FL,Rushville  IL
+Rushville  IL,Sidney  TX
+Sidney  TX,Rushville  IL
+Rushville  IL,Circle City  AZ
+Circle City  AZ,Rushville  IL
+Rushville  IL,Morland to Hill City  KS
+Morland to Hill City  KS,Rushville  IL
+Santa Fe  NM,Tucker  GA
+Tucker  GA,Santa Fe  NM
+Santa Fe  NM,i-10e bound markers 2-65  NM
+i-10e bound markers 2-65  NM,Santa Fe  NM
+Santa Fe  NM,Alligator Alley  FL
+Alligator Alley  FL,Santa Fe  NM
+Santa Fe  NM,Vista  CA
+Vista  CA,Santa Fe  NM
+Santa Fe  NM,Holland  PA
+Holland  PA,Santa Fe  NM
+Santa Fe  NM,Nashville  TN
+Nashville  TN,Santa Fe  NM
+Santa Fe  NM,Leavenworth  KS
+Leavenworth  KS,Santa Fe  NM
+Santa Fe  NM,Simi Valley  CA
+Simi Valley  CA,Santa Fe  NM
+Tulsa  OK,Valdese  NC
+Valdese  NC,Tulsa  OK
+Tulsa  OK,New Rochelle  NY
+New Rochelle  NY,Tulsa  OK
+Tulsa  OK,North Bergen  NJ
+North Bergen  NJ,Tulsa  OK
+Tulsa  OK,Rumney  NH
+Rumney  NH,Tulsa  OK
+Tulsa  OK,Pleasantville  NJ
+Pleasantville  NJ,Tulsa  OK
+San Bernardino  CA,Coatesville  PA
+Coatesville  PA,San Bernardino  CA
+San Bernardino  CA,Wanaque  NJ
+Wanaque  NJ,San Bernardino  CA
+San Bernardino  CA,Old Eddyville  KY
+Old Eddyville  KY,San Bernardino  CA
+San Bernardino  CA,Union City  CA
+Union City  CA,San Bernardino  CA
+San Bernardino  CA,Cape Coral  FL
+Cape Coral  FL,San Bernardino  CA
+Miami  FL,Jim Thorpe  PA
+Jim Thorpe  PA,Miami  FL
+Miami  FL,Tracy  CA
+Tracy  CA,Miami  FL
+Miami  FL,Canoga Park  CA
+Canoga Park  CA,Miami  FL
+Miami  FL,Wellsboro  PA
+Wellsboro  PA,Miami  FL
+Miami  FL,Ralleigh  NC
+Ralleigh  NC,Miami  FL
+Miami  FL,Cordova  TN
+Cordova  TN,Miami  FL
+Miami  FL,Garrison  ND
+Garrison  ND,Miami  FL
+Miami  FL,Lyman  SC
+Lyman  SC,Miami  FL
+Chinle  AZ,Taylors  SC
+Taylors  SC,Chinle  AZ
+Chinle  AZ,Lakewood  CA
+Lakewood  CA,Chinle  AZ
+Chinle  AZ,Ventura  CA
+Ventura  CA,Chinle  AZ
+Chinle  AZ,Baldwin Park  CA
+Baldwin Park  CA,Chinle  AZ
+Chinle  AZ,San Bruno  CA
+San Bruno  CA,Chinle  AZ
+Chinle  AZ,Gray  TN
+Gray  TN,Chinle  AZ
+Chinle  AZ,Covington  LA
+Covington  LA,Chinle  AZ
+Chinle  AZ,Berkeley  CA
+Berkeley  CA,Chinle  AZ
+Chinle  AZ,Lake Forest  CA
+Lake Forest  CA,Chinle  AZ
+Chinle  AZ,Sacramento  CA
+Sacramento  CA,Chinle  AZ
+Chinle  AZ,San Diego  CA
+San Diego  CA,Chinle  AZ
+Chinle  AZ,Long Beach  CA
+Long Beach  CA,Chinle  AZ
+Chinle  AZ,Hopewell  VA
+Hopewell  VA,Chinle  AZ
+Lake Toxaway  NC,Mesa  AZ
+Mesa  AZ,Lake Toxaway  NC
+Lake Toxaway  NC,Shenandoah  IA
+Shenandoah  IA,Lake Toxaway  NC
+Lake Toxaway  NC,Dallas  TX
+Dallas  TX,Lake Toxaway  NC
+Lake Toxaway  NC,Colorado Springs  CO
+Colorado Springs  CO,Lake Toxaway  NC
+Lake Toxaway  NC,Pueblo  CO
+Pueblo  CO,Lake Toxaway  NC
+Lake Toxaway  NC,Bronxville  NY
+Bronxville  NY,Lake Toxaway  NC
+Lake Toxaway  NC,Lehigh  FL
+Lehigh  FL,Lake Toxaway  NC
+Lake Toxaway  NC,Venice  CA
+Venice  CA,Lake Toxaway  NC
+Lake Toxaway  NC,Stringer  MS
+Stringer  MS,Lake Toxaway  NC
+Lake Toxaway  NC,Spring Lake Park  MN
+Spring Lake Park  MN,Lake Toxaway  NC
+Lake Toxaway  NC,Crystal  NM
+Crystal  NM,Lake Toxaway  NC
+San Diego  CA,Weaverville  CA
+Weaverville  CA,San Diego  CA
+San Diego  CA,Lewes  DE
+Lewes  DE,San Diego  CA
+San Diego  CA,Modesto  CA
+Modesto  CA,San Diego  CA
+San Diego  CA,Winchester  VA
+Winchester  VA,San Diego  CA
+San Diego  CA,Chadds Ford  PA
+Chadds Ford  PA,San Diego  CA
+Petersburg  IL,Spring Lake Park  MN
+Spring Lake Park  MN,Petersburg  IL
+Petersburg  IL,Pensacola  FL
+Pensacola  FL,Petersburg  IL
+Alamogordo  NM,Gardnerville  NV
+Gardnerville  NV,Alamogordo  NM
+Alamogordo  NM,Litha  FL
+Litha  FL,Alamogordo  NM
+Alamogordo  NM,Cumberland to Freeport area  ME
+Cumberland to Freeport area  ME,Alamogordo  NM
+Alamogordo  NM,Hiawassee  GA
+Hiawassee  GA,Alamogordo  NM
+Alamogordo  NM,Tucson  AZ
+Tucson  AZ,Alamogordo  NM

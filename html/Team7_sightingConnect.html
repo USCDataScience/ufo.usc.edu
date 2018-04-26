@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scrolling Nav CSS -->
+    <link href="../css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/styles.css" rel="stylesheet">
+
+
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <style type="text/css">
+
+#states path {
+  fill: #ccc;
+  stroke: #fff;
+}
+
+path.arc {
+  pointer-events: none;
+  fill: none;
+  stroke: #000;
+  display: none;
+}
+
+path.cell {
+  fill: none;
+  pointer-events: all;
+}
+
+circle {
+  fill: steelblue;
+  fill-opacity: .8;
+  stroke: #fff;
+}
+
+#cells.voronoi path.cell {
+  stroke: brown;
+}
+
+#cells g:hover path.arc {
+  display: inherit;
+}
+
+body {
+}
+
+  </style>
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <div id="nav-main">
+    <nav class="navbar mav-main navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">  
+              <nav id="nav-wrap">
+                <ul class="nav navbar-nav navbar-custom">
+                    <li class="current"><a class="page-scroll" href="#page-top" style="color:white">Home</a></li>
+                    <li class="hidden"><a class="page-scroll" href="#page-top" style="color:white"></a></li>
+                    <li><a class="page-scroll" href="#about" style="color:#ffffff">About</a></li>
+                    <li><a class="page-scroll" href="#features" style="color:#ffffff">Insights</a></li>
+                    <li><a class="page-scroll" style="color:#ffffff" href="#learn-more">Partners</a></li>
+                </ul>
+              </nav>
+
+                <a href="http://usc.edu" class="pull-right">
+                  <img src="../images/usc-primary-logotype.svg" width="176px" height="38px">
+                </a>
+            </div>
+        </div>
+    </nav>
+  </div>
+
+     <hr class="featurette-divider">
+
+     <br>
+    <div>
+        <div class="container">
+            <nav class="navbar navbar-default navbar-static-top">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse" style="color:#fff">
+                  <ul class="nav navbar-nav">
+                    <li><a style="color:#fff" href="team_7.html">Smog</a></li>
+                    <li><a style="color:#fff" href="Team7_duration.html">Duration</a></li>
+                    <li class="active"><a style="color:#fff" href="#">Sightings</a></li>
+                    <li><a style="color:#fff" href="Team7_pieShapeSighting.html">Shapes</a></li>
+                    <li><a style="color:#fff" href="AerialObjectCount.html">Aerial</a></li>
+                    <li><a style="color:#fff" href="ufo-bubble-chart.html">Events</a></li>
+                    <li><a style="color:#fff" href="Grouped+Stacked bars.html">Airport Distance</a></li>
+                    <li><a style="color:#fff" href="wordcloud.html">Image captions</a></li>
+                    <li><a style="color:#fff" href="loc.html">Location Map</a></li>
+                    <li><a style="color:#fff" href="drinking.html" target="_blank">Drinking</a></li>
+                    <li><a style="color:#fff" href="overall.html" target="_blank">Overall</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+             <h3>
+      <span>UFO sightings on the same date</span><br>
+    </h3>
+
+    <div>
+      <select onChange="change(value)">
+        <option disabled selected value> -- select an option -- </option>
+        <option value="194706">Year: 1947, Month: 06</option>
+<option value="194707">Year: 1947, Month: 07</option>
+<option value="195206">Year: 1952, Month: 06</option>
+<option value="195207">Year: 1952, Month: 07</option>
+<option value="195208">Year: 1952, Month: 08</option>
+<option value="195306">Year: 1953, Month: 06</option>
+<option value="195401">Year: 1954, Month: 01</option>
+<option value="195406">Year: 1954, Month: 06</option>
+<option value="195407">Year: 1954, Month: 07</option>
+<option value="195408">Year: 1954, Month: 08</option>
+<option value="195506">Year: 1955, Month: 06</option>
+<option value="195606">Year: 1956, Month: 06</option>
+<option value="195706">Year: 1957, Month: 06</option>
+<option value="195707">Year: 1957, Month: 07</option>
+<option value="195708">Year: 1957, Month: 08</option>
+<option value="195709">Year: 1957, Month: 09</option>
+<option value="195710">Year: 1957, Month: 10</option>
+<option value="195711">Year: 1957, Month: 11</option>
+<option value="195806">Year: 1958, Month: 06</option>
+<option value="195906">Year: 1959, Month: 06</option>
+<option value="195909">Year: 1959, Month: 09</option>
+<option value="196006">Year: 1960, Month: 06</option>
+<option value="196007">Year: 1960, Month: 07</option>
+<option value="196008">Year: 1960, Month: 08</option>
+<option value="196009">Year: 1960, Month: 09</option>
+<option value="196106">Year: 1961, Month: 06</option>
+<option value="196110">Year: 1961, Month: 10</option>
+<option value="196205">Year: 1962, Month: 05</option>
+<option value="196206">Year: 1962, Month: 06</option>
+<option value="196207">Year: 1962, Month: 07</option>
+<option value="196208">Year: 1962, Month: 08</option>
+<option value="196306">Year: 1963, Month: 06</option>
+<option value="196307">Year: 1963, Month: 07</option>
+<option value="196308">Year: 1963, Month: 08</option>
+<option value="196406">Year: 1964, Month: 06</option>
+<option value="196407">Year: 1964, Month: 07</option>
+<option value="196408">Year: 1964, Month: 08</option>
+<option value="196409">Year: 1964, Month: 09</option>
+<option value="196505">Year: 1965, Month: 05</option>
+<option value="196506">Year: 1965, Month: 06</option>
+<option value="196507">Year: 1965, Month: 07</option>
+<option value="196508">Year: 1965, Month: 08</option>
+<option value="196509">Year: 1965, Month: 09</option>
+<option value="196510">Year: 1965, Month: 10</option>
+<option value="196603">Year: 1966, Month: 03</option>
+<option value="196604">Year: 1966, Month: 04</option>
+<option value="196605">Year: 1966, Month: 05</option>
+<option value="196606">Year: 1966, Month: 06</option>
+<option value="196607">Year: 1966, Month: 07</option>
+<option value="196609">Year: 1966, Month: 09</option>
+<option value="196610">Year: 1966, Month: 10</option>
+<option value="196612">Year: 1966, Month: 12</option>
+<option value="196704">Year: 1967, Month: 04</option>
+<option value="196705">Year: 1967, Month: 05</option>
+<option value="196706">Year: 1967, Month: 06</option>
+<option value="196707">Year: 1967, Month: 07</option>
+<option value="196708">Year: 1967, Month: 08</option>
+<option value="196709">Year: 1967, Month: 09</option>
+<option value="196710">Year: 1967, Month: 10</option>
+<option value="196801">Year: 1968, Month: 01</option>
+<option value="196805">Year: 1968, Month: 05</option>
+<option value="196806">Year: 1968, Month: 06</option>
+<option value="196807">Year: 1968, Month: 07</option>
+<option value="196808">Year: 1968, Month: 08</option>
+<option value="196809">Year: 1968, Month: 09</option>
+<option value="196810">Year: 1968, Month: 10</option>
+<option value="196901">Year: 1969, Month: 01</option>
+<option value="196905">Year: 1969, Month: 05</option>
+<option value="196906">Year: 1969, Month: 06</option>
+<option value="196907">Year: 1969, Month: 07</option>
+<option value="196908">Year: 1969, Month: 08</option>
+<option value="196910">Year: 1969, Month: 10</option>
+<option value="196911">Year: 1969, Month: 11</option>
+<option value="197006">Year: 1970, Month: 06</option>
+<option value="197007">Year: 1970, Month: 07</option>
+<option value="197008">Year: 1970, Month: 08</option>
+<option value="197010">Year: 1970, Month: 10</option>
+<option value="197106">Year: 1971, Month: 06</option>
+<option value="197107">Year: 1971, Month: 07</option>
+<option value="197109">Year: 1971, Month: 09</option>
+<option value="197110">Year: 1971, Month: 10</option>
+<option value="197203">Year: 1972, Month: 03</option>
+<option value="197206">Year: 1972, Month: 06</option>
+<option value="197207">Year: 1972, Month: 07</option>
+<option value="197209">Year: 1972, Month: 09</option>
+<option value="197210">Year: 1972, Month: 10</option>
+<option value="197211">Year: 1972, Month: 11</option>
+<option value="197304">Year: 1973, Month: 04</option>
+<option value="197305">Year: 1973, Month: 05</option>
+<option value="197306">Year: 1973, Month: 06</option>
+<option value="197307">Year: 1973, Month: 07</option>
+<option value="197308">Year: 1973, Month: 08</option>
+<option value="197309">Year: 1973, Month: 09</option>
+<option value="197310">Year: 1973, Month: 10</option>
+<option value="197403">Year: 1974, Month: 03</option>
+<option value="197404">Year: 1974, Month: 04</option>
+<option value="197405">Year: 1974, Month: 05</option>
+<option value="197406">Year: 1974, Month: 06</option>
+<option value="197407">Year: 1974, Month: 07</option>
+<option value="197408">Year: 1974, Month: 08</option>
+<option value="197409">Year: 1974, Month: 09</option>
+<option value="197410">Year: 1974, Month: 10</option>
+<option value="197411">Year: 1974, Month: 11</option>
+<option value="197501">Year: 1975, Month: 01</option>
+<option value="197504">Year: 1975, Month: 04</option>
+<option value="197505">Year: 1975, Month: 05</option>
+<option value="197506">Year: 1975, Month: 06</option>
+<option value="197507">Year: 1975, Month: 07</option>
+<option value="197508">Year: 1975, Month: 08</option>
+<option value="197509">Year: 1975, Month: 09</option>
+<option value="197510">Year: 1975, Month: 10</option>
+<option value="197511">Year: 1975, Month: 11</option>
+<option value="197604">Year: 1976, Month: 04</option>
+<option value="197605">Year: 1976, Month: 05</option>
+<option value="197606">Year: 1976, Month: 06</option>
+<option value="197607">Year: 1976, Month: 07</option>
+<option value="197608">Year: 1976, Month: 08</option>
+<option value="197609">Year: 1976, Month: 09</option>
+<option value="197610">Year: 1976, Month: 10</option>
+<option value="197611">Year: 1976, Month: 11</option>
+<option value="197701">Year: 1977, Month: 01</option>
+<option value="197705">Year: 1977, Month: 05</option>
+<option value="197706">Year: 1977, Month: 06</option>
+<option value="197707">Year: 1977, Month: 07</option>
+<option value="197708">Year: 1977, Month: 08</option>
+<option value="197709">Year: 1977, Month: 09</option>
+<option value="197710">Year: 1977, Month: 10</option>
+<option value="197801">Year: 1978, Month: 01</option>
+<option value="197803">Year: 1978, Month: 03</option>
+<option value="197804">Year: 1978, Month: 04</option>
+<option value="197806">Year: 1978, Month: 06</option>
+<option value="197807">Year: 1978, Month: 07</option>
+<option value="197808">Year: 1978, Month: 08</option>
+<option value="197809">Year: 1978, Month: 09</option>
+<option value="197810">Year: 1978, Month: 10</option>
+<option value="197811">Year: 1978, Month: 11</option>
+<option value="197812">Year: 1978, Month: 12</option>
+<option value="197904">Year: 1979, Month: 04</option>
+<option value="197905">Year: 1979, Month: 05</option>
+<option value="197906">Year: 1979, Month: 06</option>
+<option value="197907">Year: 1979, Month: 07</option>
+<option value="197908">Year: 1979, Month: 08</option>
+<option value="197909">Year: 1979, Month: 09</option>
+<option value="197910">Year: 1979, Month: 10</option>
+<option value="198001">Year: 1980, Month: 01</option>
+<option value="198003">Year: 1980, Month: 03</option>
+<option value="198005">Year: 1980, Month: 05</option>
+<option value="198006">Year: 1980, Month: 06</option>
+<option value="198007">Year: 1980, Month: 07</option>
+<option value="198008">Year: 1980, Month: 08</option>
+<option value="198009">Year: 1980, Month: 09</option>
+<option value="198010">Year: 1980, Month: 10</option>
+<option value="198012">Year: 1980, Month: 12</option>
+<option value="198106">Year: 1981, Month: 06</option>
+<option value="198108">Year: 1981, Month: 08</option>
+<option value="198109">Year: 1981, Month: 09</option>
+<option value="198110">Year: 1981, Month: 10</option>
+<option value="198206">Year: 1982, Month: 06</option>
+<option value="198207">Year: 1982, Month: 07</option>
+<option value="198208">Year: 1982, Month: 08</option>
+<option value="198209">Year: 1982, Month: 09</option>
+<option value="198210">Year: 1982, Month: 10</option>
+<option value="198306">Year: 1983, Month: 06</option>
+<option value="198307">Year: 1983, Month: 07</option>
+<option value="198308">Year: 1983, Month: 08</option>
+<option value="198309">Year: 1983, Month: 09</option>
+<option value="198310">Year: 1983, Month: 10</option>
+<option value="198405">Year: 1984, Month: 05</option>
+<option value="198406">Year: 1984, Month: 06</option>
+<option value="198407">Year: 1984, Month: 07</option>
+<option value="198408">Year: 1984, Month: 08</option>
+<option value="198409">Year: 1984, Month: 09</option>
+<option value="198410">Year: 1984, Month: 10</option>
+<option value="198501">Year: 1985, Month: 01</option>
+<option value="198505">Year: 1985, Month: 05</option>
+<option value="198506">Year: 1985, Month: 06</option>
+<option value="198507">Year: 1985, Month: 07</option>
+<option value="198508">Year: 1985, Month: 08</option>
+<option value="198509">Year: 1985, Month: 09</option>
+<option value="198510">Year: 1985, Month: 10</option>
+<option value="198605">Year: 1986, Month: 05</option>
+<option value="198606">Year: 1986, Month: 06</option>
+<option value="198607">Year: 1986, Month: 07</option>
+<option value="198608">Year: 1986, Month: 08</option>
+<option value="198609">Year: 1986, Month: 09</option>
+<option value="198610">Year: 1986, Month: 10</option>
+<option value="198706">Year: 1987, Month: 06</option>
+<option value="198707">Year: 1987, Month: 07</option>
+<option value="198708">Year: 1987, Month: 08</option>
+<option value="198710">Year: 1987, Month: 10</option>
+<option value="198711">Year: 1987, Month: 11</option>
+<option value="198803">Year: 1988, Month: 03</option>
+<option value="198806">Year: 1988, Month: 06</option>
+<option value="198807">Year: 1988, Month: 07</option>
+<option value="198808">Year: 1988, Month: 08</option>
+<option value="198809">Year: 1988, Month: 09</option>
+<option value="198810">Year: 1988, Month: 10</option>
+<option value="198811">Year: 1988, Month: 11</option>
+<option value="198903">Year: 1989, Month: 03</option>
+<option value="198905">Year: 1989, Month: 05</option>
+<option value="198906">Year: 1989, Month: 06</option>
+<option value="198907">Year: 1989, Month: 07</option>
+<option value="198908">Year: 1989, Month: 08</option>
+<option value="198909">Year: 1989, Month: 09</option>
+<option value="198910">Year: 1989, Month: 10</option>
+<option value="198911">Year: 1989, Month: 11</option>
+<option value="199002">Year: 1990, Month: 02</option>
+<option value="199003">Year: 1990, Month: 03</option>
+<option value="199005">Year: 1990, Month: 05</option>
+<option value="199006">Year: 1990, Month: 06</option>
+<option value="199007">Year: 1990, Month: 07</option>
+<option value="199008">Year: 1990, Month: 08</option>
+<option value="199009">Year: 1990, Month: 09</option>
+<option value="199010">Year: 1990, Month: 10</option>
+<option value="199012">Year: 1990, Month: 12</option>
+<option value="199102">Year: 1991, Month: 02</option>
+<option value="199103">Year: 1991, Month: 03</option>
+<option value="199104">Year: 1991, Month: 04</option>
+<option value="199105">Year: 1991, Month: 05</option>
+<option value="199106">Year: 1991, Month: 06</option>
+<option value="199107">Year: 1991, Month: 07</option>
+<option value="199108">Year: 1991, Month: 08</option>
+<option value="199109">Year: 1991, Month: 09</option>
+<option value="199110">Year: 1991, Month: 10</option>
+<option value="199111">Year: 1991, Month: 11</option>
+<option value="199204">Year: 1992, Month: 04</option>
+<option value="199205">Year: 1992, Month: 05</option>
+<option value="199206">Year: 1992, Month: 06</option>
+<option value="199207">Year: 1992, Month: 07</option>
+<option value="199208">Year: 1992, Month: 08</option>
+<option value="199209">Year: 1992, Month: 09</option>
+<option value="199210">Year: 1992, Month: 10</option>
+<option value="199211">Year: 1992, Month: 11</option>
+<option value="199301">Year: 1993, Month: 01</option>
+<option value="199302">Year: 1993, Month: 02</option>
+<option value="199303">Year: 1993, Month: 03</option>
+<option value="199304">Year: 1993, Month: 04</option>
+<option value="199305">Year: 1993, Month: 05</option>
+<option value="199306">Year: 1993, Month: 06</option>
+<option value="199307">Year: 1993, Month: 07</option>
+<option value="199308">Year: 1993, Month: 08</option>
+<option value="199309">Year: 1993, Month: 09</option>
+<option value="199310">Year: 1993, Month: 10</option>
+<option value="199311">Year: 1993, Month: 11</option>
+<option value="199312">Year: 1993, Month: 12</option>
+<option value="199401">Year: 1994, Month: 01</option>
+<option value="199403">Year: 1994, Month: 03</option>
+<option value="199404">Year: 1994, Month: 04</option>
+<option value="199405">Year: 1994, Month: 05</option>
+<option value="199406">Year: 1994, Month: 06</option>
+<option value="199407">Year: 1994, Month: 07</option>
+<option value="199408">Year: 1994, Month: 08</option>
+<option value="199409">Year: 1994, Month: 09</option>
+<option value="199410">Year: 1994, Month: 10</option>
+<option value="199411">Year: 1994, Month: 11</option>
+<option value="199412">Year: 1994, Month: 12</option>
+<option value="199501">Year: 1995, Month: 01</option>
+<option value="199502">Year: 1995, Month: 02</option>
+<option value="199503">Year: 1995, Month: 03</option>
+<option value="199504">Year: 1995, Month: 04</option>
+<option value="199505">Year: 1995, Month: 05</option>
+<option value="199506">Year: 1995, Month: 06</option>
+<option value="199507">Year: 1995, Month: 07</option>
+<option value="199508">Year: 1995, Month: 08</option>
+<option value="199509">Year: 1995, Month: 09</option>
+<option value="199510">Year: 1995, Month: 10</option>
+<option value="199511">Year: 1995, Month: 11</option>
+<option value="199512">Year: 1995, Month: 12</option>
+<option value="199601">Year: 1996, Month: 01</option>
+<option value="199602">Year: 1996, Month: 02</option>
+<option value="199603">Year: 1996, Month: 03</option>
+<option value="199604">Year: 1996, Month: 04</option>
+<option value="199605">Year: 1996, Month: 05</option>
+<option value="199606">Year: 1996, Month: 06</option>
+<option value="199607">Year: 1996, Month: 07</option>
+<option value="199608">Year: 1996, Month: 08</option>
+<option value="199609">Year: 1996, Month: 09</option>
+<option value="199610">Year: 1996, Month: 10</option>
+<option value="199611">Year: 1996, Month: 11</option>
+<option value="199612">Year: 1996, Month: 12</option>
+<option value="199701">Year: 1997, Month: 01</option>
+<option value="199702">Year: 1997, Month: 02</option>
+<option value="199703">Year: 1997, Month: 03</option>
+<option value="199704">Year: 1997, Month: 04</option>
+<option value="199705">Year: 1997, Month: 05</option>
+<option value="199706">Year: 1997, Month: 06</option>
+<option value="199707">Year: 1997, Month: 07</option>
+<option value="199708">Year: 1997, Month: 08</option>
+<option value="199709">Year: 1997, Month: 09</option>
+<option value="199710">Year: 1997, Month: 10</option>
+<option value="199711">Year: 1997, Month: 11</option>
+<option value="199712">Year: 1997, Month: 12</option>
+<option value="199801">Year: 1998, Month: 01</option>
+<option value="199802">Year: 1998, Month: 02</option>
+<option value="199803">Year: 1998, Month: 03</option>
+<option value="199804">Year: 1998, Month: 04</option>
+<option value="199805">Year: 1998, Month: 05</option>
+<option value="199806">Year: 1998, Month: 06</option>
+<option value="199807">Year: 1998, Month: 07</option>
+<option value="199808">Year: 1998, Month: 08</option>
+<option value="199809">Year: 1998, Month: 09</option>
+<option value="199810">Year: 1998, Month: 10</option>
+<option value="199811">Year: 1998, Month: 11</option>
+<option value="199812">Year: 1998, Month: 12</option>
+<option value="199901">Year: 1999, Month: 01</option>
+<option value="199902">Year: 1999, Month: 02</option>
+<option value="199903">Year: 1999, Month: 03</option>
+<option value="199904">Year: 1999, Month: 04</option>
+<option value="199905">Year: 1999, Month: 05</option>
+<option value="199906">Year: 1999, Month: 06</option>
+<option value="199907">Year: 1999, Month: 07</option>
+<option value="199908">Year: 1999, Month: 08</option>
+<option value="199909">Year: 1999, Month: 09</option>
+<option value="199910">Year: 1999, Month: 10</option>
+<option value="199911">Year: 1999, Month: 11</option>
+<option value="199912">Year: 1999, Month: 12</option>
+<option value="200001">Year: 2000, Month: 01</option>
+<option value="200002">Year: 2000, Month: 02</option>
+<option value="200003">Year: 2000, Month: 03</option>
+<option value="200004">Year: 2000, Month: 04</option>
+<option value="200005">Year: 2000, Month: 05</option>
+<option value="200006">Year: 2000, Month: 06</option>
+<option value="200007">Year: 2000, Month: 07</option>
+<option value="200008">Year: 2000, Month: 08</option>
+<option value="200009">Year: 2000, Month: 09</option>
+<option value="200010">Year: 2000, Month: 10</option>
+<option value="200011">Year: 2000, Month: 11</option>
+<option value="200012">Year: 2000, Month: 12</option>
+<option value="200101">Year: 2001, Month: 01</option>
+<option value="200102">Year: 2001, Month: 02</option>
+<option value="200103">Year: 2001, Month: 03</option>
+<option value="200104">Year: 2001, Month: 04</option>
+<option value="200105">Year: 2001, Month: 05</option>
+<option value="200106">Year: 2001, Month: 06</option>
+<option value="200107">Year: 2001, Month: 07</option>
+<option value="200108">Year: 2001, Month: 08</option>
+<option value="200109">Year: 2001, Month: 09</option>
+<option value="200110">Year: 2001, Month: 10</option>
+<option value="200111">Year: 2001, Month: 11</option>
+<option value="200112">Year: 2001, Month: 12</option>
+<option value="200201">Year: 2002, Month: 01</option>
+<option value="200202">Year: 2002, Month: 02</option>
+<option value="200203">Year: 2002, Month: 03</option>
+<option value="200204">Year: 2002, Month: 04</option>
+<option value="200205">Year: 2002, Month: 05</option>
+<option value="200206">Year: 2002, Month: 06</option>
+<option value="200207">Year: 2002, Month: 07</option>
+<option value="200208">Year: 2002, Month: 08</option>
+<option value="200209">Year: 2002, Month: 09</option>
+<option value="200210">Year: 2002, Month: 10</option>
+<option value="200211">Year: 2002, Month: 11</option>
+<option value="200212">Year: 2002, Month: 12</option>
+<option value="200301">Year: 2003, Month: 01</option>
+<option value="200302">Year: 2003, Month: 02</option>
+<option value="200303">Year: 2003, Month: 03</option>
+<option value="200304">Year: 2003, Month: 04</option>
+<option value="200305">Year: 2003, Month: 05</option>
+<option value="200306">Year: 2003, Month: 06</option>
+<option value="200307">Year: 2003, Month: 07</option>
+<option value="200308">Year: 2003, Month: 08</option>
+<option value="200309">Year: 2003, Month: 09</option>
+<option value="200310">Year: 2003, Month: 10</option>
+<option value="200311">Year: 2003, Month: 11</option>
+<option value="200312">Year: 2003, Month: 12</option>
+<option value="200401">Year: 2004, Month: 01</option>
+<option value="200402">Year: 2004, Month: 02</option>
+<option value="200403">Year: 2004, Month: 03</option>
+<option value="200404">Year: 2004, Month: 04</option>
+<option value="200405">Year: 2004, Month: 05</option>
+<option value="200406">Year: 2004, Month: 06</option>
+<option value="200407">Year: 2004, Month: 07</option>
+<option value="200408">Year: 2004, Month: 08</option>
+<option value="200409">Year: 2004, Month: 09</option>
+<option value="200410">Year: 2004, Month: 10</option>
+<option value="200411">Year: 2004, Month: 11</option>
+<option value="200412">Year: 2004, Month: 12</option>
+<option value="200501">Year: 2005, Month: 01</option>
+<option value="200502">Year: 2005, Month: 02</option>
+<option value="200503">Year: 2005, Month: 03</option>
+<option value="200504">Year: 2005, Month: 04</option>
+<option value="200505">Year: 2005, Month: 05</option>
+<option value="200506">Year: 2005, Month: 06</option>
+<option value="200507">Year: 2005, Month: 07</option>
+<option value="200508">Year: 2005, Month: 08</option>
+<option value="200509">Year: 2005, Month: 09</option>
+<option value="200510">Year: 2005, Month: 10</option>
+<option value="200511">Year: 2005, Month: 11</option>
+<option value="200512">Year: 2005, Month: 12</option>
+<option value="200601">Year: 2006, Month: 01</option>
+<option value="200602">Year: 2006, Month: 02</option>
+<option value="200603">Year: 2006, Month: 03</option>
+<option value="200604">Year: 2006, Month: 04</option>
+<option value="200605">Year: 2006, Month: 05</option>
+<option value="200606">Year: 2006, Month: 06</option>
+<option value="200607">Year: 2006, Month: 07</option>
+<option value="200608">Year: 2006, Month: 08</option>
+<option value="200609">Year: 2006, Month: 09</option>
+<option value="200610">Year: 2006, Month: 10</option>
+<option value="200611">Year: 2006, Month: 11</option>
+<option value="200612">Year: 2006, Month: 12</option>
+<option value="200701">Year: 2007, Month: 01</option>
+<option value="200702">Year: 2007, Month: 02</option>
+<option value="200703">Year: 2007, Month: 03</option>
+<option value="200704">Year: 2007, Month: 04</option>
+<option value="200705">Year: 2007, Month: 05</option>
+<option value="200706">Year: 2007, Month: 06</option>
+<option value="200707">Year: 2007, Month: 07</option>
+<option value="200708">Year: 2007, Month: 08</option>
+<option value="200709">Year: 2007, Month: 09</option>
+<option value="200710">Year: 2007, Month: 10</option>
+<option value="200711">Year: 2007, Month: 11</option>
+<option value="200712">Year: 2007, Month: 12</option>
+<option value="200801">Year: 2008, Month: 01</option>
+<option value="200802">Year: 2008, Month: 02</option>
+<option value="200803">Year: 2008, Month: 03</option>
+<option value="200804">Year: 2008, Month: 04</option>
+<option value="200805">Year: 2008, Month: 05</option>
+<option value="200806">Year: 2008, Month: 06</option>
+<option value="200807">Year: 2008, Month: 07</option>
+<option value="200808">Year: 2008, Month: 08</option>
+<option value="200809">Year: 2008, Month: 09</option>
+<option value="200810">Year: 2008, Month: 10</option>
+<option value="200811">Year: 2008, Month: 11</option>
+<option value="200812">Year: 2008, Month: 12</option>
+<option value="200901">Year: 2009, Month: 01</option>
+<option value="200902">Year: 2009, Month: 02</option>
+<option value="200903">Year: 2009, Month: 03</option>
+<option value="200904">Year: 2009, Month: 04</option>
+<option value="200905">Year: 2009, Month: 05</option>
+<option value="200906">Year: 2009, Month: 06</option>
+<option value="200907">Year: 2009, Month: 07</option>
+<option value="200908">Year: 2009, Month: 08</option>
+<option value="200909">Year: 2009, Month: 09</option>
+<option value="200910">Year: 2009, Month: 10</option>
+<option value="200911">Year: 2009, Month: 11</option>
+<option value="200912">Year: 2009, Month: 12</option>
+<option value="201001">Year: 2010, Month: 01</option>
+<option value="201002">Year: 2010, Month: 02</option>
+<option value="201003">Year: 2010, Month: 03</option>
+<option value="201004">Year: 2010, Month: 04</option>
+<option value="201005">Year: 2010, Month: 05</option>
+<option value="201006">Year: 2010, Month: 06</option>
+<option value="201007">Year: 2010, Month: 07</option>
+<option value="201008">Year: 2010, Month: 08</option>
+
+      </select>
+    </div>
+    </div>
+    
+    <script type="text/javascript" src="d3/d3.js"></script>
+    <script type="text/javascript" src="d3/d3.csv.js"></script>
+    <script type="text/javascript" src="d3/d3.geo.js"></script>
+    <script type="text/javascript" src="d3/d3.geom.js"></script>
+    <script type="text/javascript">
+function change(data)
+{
+  d3.select("svg").remove();
+  var w = 1280,
+      h = 800;
+
+  var projection = d3.geo.azimuthal()
+      .mode("equidistant")
+      .origin([-98, 38])
+      .scale(1400)
+      .translate([640, 360]);
+
+  var path = d3.geo.path()
+      .projection(projection);
+
+  var svg = d3.select("body").insert("svg:svg", "h2")
+      .attr("width", w)
+      .attr("height", h);
+
+  var states = svg.append("svg:g")
+      .attr("id", "states");
+
+  var circles = svg.append("svg:g")
+      .attr("id", "circles");
+
+  var cells = svg.append("svg:g")
+      .attr("id", "cells");
+
+  d3.select("input[type=checkbox]").on("change", function() {
+    cells.classed("voronoi", this.checked);
+  });
+
+  d3.json("us-states.json", function(collection) {
+    states.selectAll("path")
+        .data(collection.features)
+      .enter().append("svg:path")
+        .attr("d", path);
+  });
+
+  d3.csv("linkfiles/"+data+".csv", function(flights) {
+    var linksByOrigin = {},
+        countByAirport = {},
+        locationByAirport = {},
+        positions = [];
+
+    var arc = d3.geo.greatArc()
+        .source(function(d) { return locationByAirport[d.source]; })
+        .target(function(d) { return locationByAirport[d.target]; });
+
+    flights.forEach(function(flight) {
+      var origin = flight.origin,
+          destination = flight.destination,
+          links = linksByOrigin[origin] || (linksByOrigin[origin] = []);
+      links.push({source: origin, target: destination});
+      countByAirport[origin] = (countByAirport[origin] || 0) + 1;
+      countByAirport[destination] = (countByAirport[destination] || 0) + 1;
+    });
+
+    d3.csv("locationLatLong.csv", function(sightings) {
+
+      // Only consider sightings with at least one occurrence.
+      sightings = sightings.filter(function(sighting) {
+        if (countByAirport[sighting.UFO_location]) {
+          var location = [+sighting.UFO_long, +sighting.UFO_lat];
+          locationByAirport[sighting.UFO_location] = location;
+          positions.push(projection(location));
+          return true;
+        }
+      });
+
+      // Compute the Voronoi diagram of sightings' projected positions.
+      var polygons = d3.geom.voronoi(positions);
+
+      var g = cells.selectAll("g")
+          .data(sightings)
+        .enter().append("svg:g");
+
+      g.append("svg:path")
+          .attr("class", "cell")
+          .attr("d", function(d, i) { return "M" + polygons[i].join("L") + "Z"; })
+          .on("mouseover", function(d, i) { d3.select("h2 span").text(d.UFO_location); });
+
+      g.selectAll("path.arc")
+          .data(function(d) { return linksByOrigin[d.UFO_location] || []; })
+        .enter().append("svg:path")
+          .attr("class", "arc")
+          .attr("d", function(d) { return path(arc(d)); });
+
+      circles.selectAll("circle")
+          .data(sightings)
+        .enter().append("svg:circle")
+          .attr("cx", function(d, i) { return positions[i][0]; })
+          .attr("cy", function(d, i) { return positions[i][1]; })
+          .attr("r", function(d, i) { return Math.sqrt(4*countByAirport[d.UFO_location]); })
+          .sort(function(a, b) { return countByAirport[b.UFO_location] - countByAirport[a.UFO_location]; });
+          //.attr("r", function(d, i) { return Math.sqrt(100); })
+          //.sort(function(a, b) { return 0; });
+    });
+  });
+};
+
+    </script>
+
+   
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/scrolling-nav.js"></script>
+    <script src="../js/cardpanel.js"></script>
+    
+  </body>
+</html>

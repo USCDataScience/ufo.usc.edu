@@ -1,0 +1,9 @@
+origin,destination
+Seattle  WA,Miami  FL
+Miami  FL,Seattle  WA
+Seattle  WA,Chicago  IL
+Chicago  IL,Seattle  WA
+Avon-by-the-Sea  NJ,East Windsor  CT
+East Windsor  CT,Avon-by-the-Sea  NJ
+Avon-by-the-Sea  NJ,Frankfort  MI
+Frankfort  MI,Avon-by-the-Sea  NJ

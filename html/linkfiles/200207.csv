@@ -1,0 +1,421 @@
+origin,destination
+Sumner  WA,Rohnert Park  CA
+Rohnert Park  CA,Sumner  WA
+Sumner  WA,Napa  CA
+Napa  CA,Sumner  WA
+Sumner  WA,North Java  NY
+North Java  NY,Sumner  WA
+Goodyear  AZ,Boise  ID
+Boise  ID,Goodyear  AZ
+Goodyear  AZ,Los Angeles  CA
+Los Angeles  CA,Goodyear  AZ
+Goodyear  AZ,Kansas City  MO
+Kansas City  MO,Goodyear  AZ
+Goodyear  AZ,South Paris  ME
+South Paris  ME,Goodyear  AZ
+Goodyear  AZ,Mantua  OH
+Mantua  OH,Goodyear  AZ
+Goodyear  AZ,Topeka  KS
+Topeka  KS,Goodyear  AZ
+San Diego  CA,Greensburg  PA
+Greensburg  PA,San Diego  CA
+San Diego  CA,Las Cruces  NM
+Las Cruces  NM,San Diego  CA
+San Diego  CA,Cumberland  WI
+Cumberland  WI,San Diego  CA
+San Diego  CA,Wall  NJ
+Wall  NJ,San Diego  CA
+San Diego  CA,Scituate  MA
+Scituate  MA,San Diego  CA
+San Diego  CA,Akron  OH
+Akron  OH,San Diego  CA
+San Diego  CA,Atlanta  GA
+Atlanta  GA,San Diego  CA
+Naples  ME,Murrieta  CA
+Murrieta  CA,Naples  ME
+Naples  ME,Strong  OH
+Strong  OH,Naples  ME
+Naples  ME,Howell  NJ
+Howell  NJ,Naples  ME
+Naples  ME,San Bernardino  CA
+San Bernardino  CA,Naples  ME
+Naples  ME,Pembroke Pines  FL
+Pembroke Pines  FL,Naples  ME
+Naples  ME,Blue Eye  MO
+Blue Eye  MO,Naples  ME
+Naples  ME,Junction City  KS
+Junction City  KS,Naples  ME
+Naples  ME,Bremerton  WA
+Bremerton  WA,Naples  ME
+Naples  ME,Hillsboro  OR
+Hillsboro  OR,Naples  ME
+Naples  ME,New York City  NY
+New York City  NY,Naples  ME
+Naples  ME,Vista  CA
+Vista  CA,Naples  ME
+Naples  ME,Sherman  NY
+Sherman  NY,Naples  ME
+Naples  ME,Seattle  WA
+Seattle  WA,Naples  ME
+Naples  ME,Elysburg  PA
+Elysburg  PA,Naples  ME
+Naples  ME,Dorena  OR
+Dorena  OR,Naples  ME
+Naples  ME,Henryetta  OK
+Henryetta  OK,Naples  ME
+Naples  ME,Cumberland  TN
+Cumberland  TN,Naples  ME
+Cambridge  MA,Portland  ME
+Portland  ME,Cambridge  MA
+Cambridge  MA,Seattle  WA
+Seattle  WA,Cambridge  MA
+Cambridge  MA,McDonough  GA
+McDonough  GA,Cambridge  MA
+Cambridge  MA,Capitola  CA
+Capitola  CA,Cambridge  MA
+Cambridge  MA,Forest Grove  OR
+Forest Grove  OR,Cambridge  MA
+Cambridge  MA,Granville  OH
+Granville  OH,Cambridge  MA
+Bend  OR,Myrtle Point  OR
+Myrtle Point  OR,Bend  OR
+Bend  OR,Tehachapi Pass HWY 58  CA
+Tehachapi Pass HWY 58  CA,Bend  OR
+Bend  OR,Charlotte  NC
+Charlotte  NC,Bend  OR
+Bend  OR,Eagle Butte  SD
+Eagle Butte  SD,Bend  OR
+Sylacauga  AL,Henryetta  OK
+Henryetta  OK,Sylacauga  AL
+Sylacauga  AL,Edisto Island  SC
+Edisto Island  SC,Sylacauga  AL
+Sylacauga  AL,Chicago  IL
+Chicago  IL,Sylacauga  AL
+Sylacauga  AL,Miami  FL
+Miami  FL,Sylacauga  AL
+Sylacauga  AL,Pembroke Pines  FL
+Pembroke Pines  FL,Sylacauga  AL
+Sylacauga  AL,Waterbury  CT
+Waterbury  CT,Sylacauga  AL
+Brookhaven  PA,San Antonio  TX
+San Antonio  TX,Brookhaven  PA
+Brookhaven  PA,Abbeville  SC
+Abbeville  SC,Brookhaven  PA
+Brookhaven  PA,Klamath Falls  OR
+Klamath Falls  OR,Brookhaven  PA
+Brookhaven  PA,Strawberry Plains  TN
+Strawberry Plains  TN,Brookhaven  PA
+Brookhaven  PA,Bullhead City  AZ
+Bullhead City  AZ,Brookhaven  PA
+Brookhaven  PA,Clearwater  FL
+Clearwater  FL,Brookhaven  PA
+Brookhaven  PA,Modesto  CA
+Modesto  CA,Brookhaven  PA
+Brookhaven  PA,Bel AIr  MD
+Bel AIr  MD,Brookhaven  PA
+Redmond  WA,Charlotte  NC
+Charlotte  NC,Redmond  WA
+Redmond  WA,Commack  NY
+Commack  NY,Redmond  WA
+Redmond  WA,Rochester  NY
+Rochester  NY,Redmond  WA
+Redmond  WA,Corona  CA
+Corona  CA,Redmond  WA
+Redmond  WA,Farmington  WV
+Farmington  WV,Redmond  WA
+Redmond  WA,Canadian  TX
+Canadian  TX,Redmond  WA
+Redmond  WA,Tooele  UT
+Tooele  UT,Redmond  WA
+Redmond  WA,Cape Coral  FL
+Cape Coral  FL,Redmond  WA
+Redmond  WA,Big Sur  CA
+Big Sur  CA,Redmond  WA
+Redmond  WA,Mount Prospect  IL
+Mount Prospect  IL,Redmond  WA
+Baltimore  MD,Sandy  UT
+Sandy  UT,Baltimore  MD
+Baltimore  MD,Newark  OH
+Newark  OH,Baltimore  MD
+Baltimore  MD,Seymour  CT
+Seymour  CT,Baltimore  MD
+Baltimore  MD,Fort Collins  CO
+Fort Collins  CO,Baltimore  MD
+Baltimore  MD,West Chester  OH
+West Chester  OH,Baltimore  MD
+Baltimore  MD,Easton  MI
+Easton  MI,Baltimore  MD
+Buffalo  NY,Franklin  PA
+Franklin  PA,Buffalo  NY
+Buffalo  NY,Snohomish  WA
+Snohomish  WA,Buffalo  NY
+Buffalo  NY,Clinton  MS
+Clinton  MS,Buffalo  NY
+Buffalo  NY,Bangor  ME
+Bangor  ME,Buffalo  NY
+Buffalo  NY,Hillsboro  OR
+Hillsboro  OR,Buffalo  NY
+Buffalo  NY,Rapid City  SD
+Rapid City  SD,Buffalo  NY
+Buffalo  NY,New Brighton  PA
+New Brighton  PA,Buffalo  NY
+Buffalo  NY,Beaver Meadows  PA
+Beaver Meadows  PA,Buffalo  NY
+Buffalo  NY,Pocatello  ID
+Pocatello  ID,Buffalo  NY
+Paramus  NJ,Lawrence  KS
+Lawrence  KS,Paramus  NJ
+Paramus  NJ,Memphis  TN
+Memphis  TN,Paramus  NJ
+Paramus  NJ,Denver  CO
+Denver  CO,Paramus  NJ
+Paramus  NJ,Hamlin  PA
+Hamlin  PA,Paramus  NJ
+Paramus  NJ,Lake Of The Ozarks  MO
+Lake Of The Ozarks  MO,Paramus  NJ
+Paramus  NJ,Northport  NY
+Northport  NY,Paramus  NJ
+Paramus  NJ,Saxonburg  PA
+Saxonburg  PA,Paramus  NJ
+Paramus  NJ,Portland  OR
+Portland  OR,Paramus  NJ
+Rochester Hills  MI,Avenal  CA
+Avenal  CA,Rochester Hills  MI
+Rochester Hills  MI,Modesto  CA
+Modesto  CA,Rochester Hills  MI
+Rochester Hills  MI,Ashland  WI
+Ashland  WI,Rochester Hills  MI
+Rochester Hills  MI,Fallschurch  VA
+Fallschurch  VA,Rochester Hills  MI
+Rochester Hills  MI,Taylorville  IL
+Taylorville  IL,Rochester Hills  MI
+Rochester Hills  MI,Salem  OR
+Salem  OR,Rochester Hills  MI
+Rochester Hills  MI,LaGrangeville  NY
+LaGrangeville  NY,Rochester Hills  MI
+Rochester Hills  MI,Hamilton  OH
+Hamilton  OH,Rochester Hills  MI
+Missoula  MT,Bothell  WA
+Bothell  WA,Missoula  MT
+Missoula  MT,Aloha  OR
+Aloha  OR,Missoula  MT
+Missoula  MT,Port Angeles  WA
+Port Angeles  WA,Missoula  MT
+Missoula  MT,Harrisburg  PA
+Harrisburg  PA,Missoula  MT
+Missoula  MT,Duck  NC
+Duck  NC,Missoula  MT
+Missoula  MT,Atlantic  NJ
+Atlantic  NJ,Missoula  MT
+Missoula  MT,Indianapolis  IN
+Indianapolis  IN,Missoula  MT
+Missoula  MT,Pomfret  VT
+Pomfret  VT,Missoula  MT
+Missoula  MT,Lexington  KY
+Lexington  KY,Missoula  MT
+Missoula  MT,Rhinelander  WI
+Rhinelander  WI,Missoula  MT
+Missoula  MT,Pewaukee  WI
+Pewaukee  WI,Missoula  MT
+Missoula  MT,Pittsfield  ME
+Pittsfield  ME,Missoula  MT
+Missoula  MT,Kingsland  TX
+Kingsland  TX,Missoula  MT
+Missoula  MT,Hughson  CA
+Hughson  CA,Missoula  MT
+Missoula  MT,Burbank Heights  WA
+Burbank Heights  WA,Missoula  MT
+Missoula  MT,Manchester  NH
+Manchester  NH,Missoula  MT
+Missoula  MT,Yardley  PA
+Yardley  PA,Missoula  MT
+Missoula  MT,Nampa  ID
+Nampa  ID,Missoula  MT
+Missoula  MT,Cold Spring  NY
+Cold Spring  NY,Missoula  MT
+Missoula  MT,Fowlerville  MI
+Fowlerville  MI,Missoula  MT
+Portland  OR,Riverhead  NY
+Riverhead  NY,Portland  OR
+Portland  OR,Shelbyville  TN
+Shelbyville  TN,Portland  OR
+Portland  OR,Broomfield  CO
+Broomfield  CO,Portland  OR
+Port Liberte  NJ,Mobile  AL
+Mobile  AL,Port Liberte  NJ
+Port Liberte  NJ,Jacksonville  AL
+Jacksonville  AL,Port Liberte  NJ
+Port Liberte  NJ,Cleveland  TX
+Cleveland  TX,Port Liberte  NJ
+Port Liberte  NJ,Addison  TX
+Addison  TX,Port Liberte  NJ
+Port Liberte  NJ,Duluth  GA
+Duluth  GA,Port Liberte  NJ
+Port Liberte  NJ,Fremont  OH
+Fremont  OH,Port Liberte  NJ
+Port Liberte  NJ,Jacksonville  NC
+Jacksonville  NC,Port Liberte  NJ
+Port Liberte  NJ,Harbor Beach  MI
+Harbor Beach  MI,Port Liberte  NJ
+Port Liberte  NJ,Barton City  MI
+Barton City  MI,Port Liberte  NJ
+Van Nuys  CA,Bessemer  AL
+Bessemer  AL,Van Nuys  CA
+Van Nuys  CA,Nashville  TN
+Nashville  TN,Van Nuys  CA
+Van Nuys  CA,Heber Springs  AR
+Heber Springs  AR,Van Nuys  CA
+Van Nuys  CA,Pembroke Pines  FL
+Pembroke Pines  FL,Van Nuys  CA
+Van Nuys  CA,Fair Play  MO
+Fair Play  MO,Van Nuys  CA
+Anaheim  CA,San Jose  CA
+San Jose  CA,Anaheim  CA
+Anaheim  CA,Carrollton  TX
+Carrollton  TX,Anaheim  CA
+Anaheim  CA,Ford City  PA
+Ford City  PA,Anaheim  CA
+Anaheim  CA,Stampede Lake  NV
+Stampede Lake  NV,Anaheim  CA
+Anaheim  CA,Chittenango  NY
+Chittenango  NY,Anaheim  CA
+Anaheim  CA,Fairfeild  ME
+Fairfeild  ME,Anaheim  CA
+Anaheim  CA,Olivet  MI
+Olivet  MI,Anaheim  CA
+Anaheim  CA,Splendora  TX
+Splendora  TX,Anaheim  CA
+Anaheim  CA,Carolina Beach  NC
+Carolina Beach  NC,Anaheim  CA
+Anaheim  CA,Maybrook  NY
+Maybrook  NY,Anaheim  CA
+Anaheim  CA,Pinckney  MI
+Pinckney  MI,Anaheim  CA
+Anaheim  CA,Dorrington  CA
+Dorrington  CA,Anaheim  CA
+Dundee  WI,Deer Lodge  MT
+Deer Lodge  MT,Dundee  WI
+Dundee  WI,Gilbert  AZ
+Gilbert  AZ,Dundee  WI
+Dundee  WI,Blacksburg  VA
+Blacksburg  VA,Dundee  WI
+West Hills  CA,Avalon  CA
+Avalon  CA,West Hills  CA
+West Hills  CA,Kernville  CA
+Kernville  CA,West Hills  CA
+West Hills  CA,Los Angeles  CA
+Los Angeles  CA,West Hills  CA
+Albany  NY,Everson  WA
+Everson  WA,Albany  NY
+Albany  NY,North Huntingdon  PA
+North Huntingdon  PA,Albany  NY
+Albany  NY,Pauls Valley  OK
+Pauls Valley  OK,Albany  NY
+Shirley  NY,Galt  CA
+Galt  CA,Shirley  NY
+Shirley  NY,Portland  OR
+Portland  OR,Shirley  NY
+Shirley  NY,Greenfield  IN
+Greenfield  IN,Shirley  NY
+Shirley  NY,Polk City  FL
+Polk City  FL,Shirley  NY
+Phoenix  AZ,Holstein  IA
+Holstein  IA,Phoenix  AZ
+Phoenix  AZ,North Little Rock  AR
+North Little Rock  AR,Phoenix  AZ
+Phoenix  AZ,Seattle  WA
+Seattle  WA,Phoenix  AZ
+Phoenix  AZ,Mohawk  NY
+Mohawk  NY,Phoenix  AZ
+Phoenix  AZ,Troy  MI
+Troy  MI,Phoenix  AZ
+Phoenix  AZ,Simi Valley  CA
+Simi Valley  CA,Phoenix  AZ
+Phoenix  AZ,Wilmington  CA
+Wilmington  CA,Phoenix  AZ
+New York City  NY,Pocahontas  AR
+Pocahontas  AR,New York City  NY
+New York City  NY,Cheektowaga  NY
+Cheektowaga  NY,New York City  NY
+New York City  NY,Rapid City  SD
+Rapid City  SD,New York City  NY
+New York City  NY,Inglewood  CA
+Inglewood  CA,New York City  NY
+New York City  NY,Coutit  MA
+Coutit  MA,New York City  NY
+New York City  NY,Sedona  AZ
+Sedona  AZ,New York City  NY
+New York City  NY,Goleta  CA
+Goleta  CA,New York City  NY
+New York City  NY,Thornton  CO
+Thornton  CO,New York City  NY
+New York City  NY,Truth or Consequences  NM
+Truth or Consequences  NM,New York City  NY
+New York Mills  NY,West Los Angeles  CA
+West Los Angeles  CA,New York Mills  NY
+New York Mills  NY,Nashville  IN
+Nashville  IN,New York Mills  NY
+New York Mills  NY,New Orleans  LA
+New Orleans  LA,New York Mills  NY
+New York Mills  NY,Phoenix  AZ
+Phoenix  AZ,New York Mills  NY
+New York Mills  NY,Santa Cruz  CA
+Santa Cruz  CA,New York Mills  NY
+New York Mills  NY,Cliffwood  NJ
+Cliffwood  NJ,New York Mills  NY
+Loudon  NH,Ponte Vedra Beach  FL
+Ponte Vedra Beach  FL,Loudon  NH
+Loudon  NH,York  PA
+York  PA,Loudon  NH
+Loudon  NH,Marstons Mills  MA
+Marstons Mills  MA,Loudon  NH
+Loudon  NH,Mainville  OH
+Mainville  OH,Loudon  NH
+Loudon  NH,Union  KY
+Union  KY,Loudon  NH
+Loudon  NH,Graham  NC
+Graham  NC,Loudon  NH
+Loudon  NH,Magna  UT
+Magna  UT,Loudon  NH
+Loudon  NH,Gila Bend  AZ
+Gila Bend  AZ,Loudon  NH
+Loudon  NH,Atlanta  GA
+Atlanta  GA,Loudon  NH
+Loudon  NH,West Long Branch  NJ
+West Long Branch  NJ,Loudon  NH
+Loudon  NH,Cincinnati  OH
+Cincinnati  OH,Loudon  NH
+Loudon  NH,Beloit  WI
+Beloit  WI,Loudon  NH
+Loudon  NH,Flathead Lake  MT
+Flathead Lake  MT,Loudon  NH
+Loudon  NH,Mesquite  NM
+Mesquite  NM,Loudon  NH
+Hungry Horse  MT,Bradenton  FL
+Bradenton  FL,Hungry Horse  MT
+Hungry Horse  MT,Roswell  NM
+Roswell  NM,Hungry Horse  MT
+Hungry Horse  MT,Corpus Christi  TX
+Corpus Christi  TX,Hungry Horse  MT
+Hungry Horse  MT,Hampton  VA
+Hampton  VA,Hungry Horse  MT
+Hungry Horse  MT,Orland Park  IL
+Orland Park  IL,Hungry Horse  MT
+Hungry Horse  MT,Severn  MD
+Severn  MD,Hungry Horse  MT
+Hungry Horse  MT,Dover  MA
+Dover  MA,Hungry Horse  MT
+Hungry Horse  MT,Liberty  OH
+Liberty  OH,Hungry Horse  MT
+Hungry Horse  MT,Cazenovia  NY
+Cazenovia  NY,Hungry Horse  MT
+Hungry Horse  MT,Washington  CT
+Washington  CT,Hungry Horse  MT
+Hungry Horse  MT,Charleston  WV
+Charleston  WV,Hungry Horse  MT
+Hungry Horse  MT,Cove Palisades  OR
+Cove Palisades  OR,Hungry Horse  MT
+Hungry Horse  MT,Troy  IL
+Troy  IL,Hungry Horse  MT
+Hungry Horse  MT,Cleveland  GA
+Cleveland  GA,Hungry Horse  MT

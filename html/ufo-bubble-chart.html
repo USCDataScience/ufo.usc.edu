@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather + Sightings</title>
+  <meta charset="utf-8">
+
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Scrolling Nav CSS -->
+  <link href="../css/scrolling-nav.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="../css/styles.css" rel="stylesheet">
+
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,600,200italic,600italic&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/d3/d3.min.js"></script>
+  <script src="bower_components/d3-transform/src/d3-transform.js"></script>
+  <script src="bower_components/cafej/src/ext-array.js"></script>
+  <script src="bower_components/cafej/src/misc.js"></script>
+  <script src="bower_components/cafej/src/micro-observer.js"></script>
+  <script src="bower_components/microplugin/src/microplugin.js"></script>
+  <script src="src/bubble-chart.js"></script>
+  <script src="src/plugins/central-click/central-click.js"></script>
+  <script src="src/plugins/lines/lines.js"></script>
+  <script src="test-bubble-chart.js"></script>
+  
+  <style>
+    .bubbleChart {
+      width: 100%;
+      margin: 0 auto;
+    }
+    .bubbleChart svg{
+      background: #000000;
+    }
+  </style>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <div id="nav-main">
+    <nav class="navbar mav-main navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">  
+              <nav id="nav-wrap">
+                <ul class="nav navbar-nav navbar-custom">
+                    <li class="current"><a class="page-scroll" href="#page-top" style="color:white">Home</a></li>
+                    <li class="hidden"><a class="page-scroll" href="#page-top" style="color:white"></a></li>
+                    <li><a class="page-scroll" href="#about" style="color:#ffffff">About</a></li>
+                    <li><a class="page-scroll" href="#features" style="color:#ffffff">Insights</a></li>
+                    <li><a class="page-scroll" style="color:#ffffff" href="#learn-more">Partners</a></li>
+                </ul>
+              </nav>
+
+                <a href="http://usc.edu" class="pull-right">
+                  <img src="../images/usc-primary-logotype.svg" width="176px" height="38px">
+                </a>
+            </div>
+        </div>
+    </nav>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <br>
+    <div>
+        <div class="container">
+            <nav class="navbar navbar-default navbar-static-top">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse" style="color:#fff">
+                  <ul class="nav navbar-nav">
+                    <li><a style="color:#fff" href="team_7.html">Smog</a></li>
+                    <li><a style="color:#fff" href="Team7_duration.html">Duration</a></li>
+                    <li><a style="color:#fff" href="Team7_sightingConnect.html">Sightings</a></li>
+                    <li><a style="color:#fff" href="Team7_pieShapeSighting.html">Shapes</a></li>
+                    <li><a style="color:#fff" href="AerialObjectCount.html">Aerial</a></li>
+                    <li class="active"><a style="color:#fff" href="#">Events</a></li>
+                    <li><a style="color:#fff" href="Grouped+Stacked bars.html">Airport Distance</a></li>
+                    <li><a style="color:#fff" href="wordcloud.html">Image captions</a></li>
+                    <li><a style="color:#fff" href="loc.html">Location Map</a></li>
+                    <li><a style="color:#fff" href="drinking.html" target="_blank">Drinking</a></li>
+                    <li><a style="color:#fff" href="overall.html" target="_blank">Overall</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+        <h4><center>Percentage of sightings (in the 2000's) when a weather event occurred</center></h4>
+        <div class="bubbleChart"/>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "name": "bubble-chart",
+  "main": [
+    "src/bubble-chart.js",
+    "src/plugins/lines/lines.js",
+    "src/plugins/central-click/central-click.js"
+  ],
+  "authors": [
+    "Phuong H <phuonghqh@gmail.com>"
+  ],
+  "description": "Bubble chart using d3js",
+  "keywords": [
+    "javascript",
+    "chart",
+    "bubble"
+  ],
+  "license": "http://opensource.org/licenses/MIT",
+  "homepage": "https://github.com/phuonghuynh/bubble-chart",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "d3": "3.5.17",
+    "d3-transform": "latest",
+    "cafej": "latest",
+    "microplugin": "latest"
+  },
+  "_release": "7470a6e859",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "7470a6e859d421bca7393817b22fb2dbd3715663"
+  },
+  "_source": "https://github.com/phuonghuynh/bubble-chart.git",
+  "_target": "*",
+  "_originalSource": "bubble-chart",
+  "_direct": true
+}

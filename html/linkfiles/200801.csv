@@ -1,0 +1,437 @@
+origin,destination
+Burbank  CA,San Diego  CA
+San Diego  CA,Burbank  CA
+Burbank  CA,Clayton  GA
+Clayton  GA,Burbank  CA
+Burbank  CA,Bartlett  TN
+Bartlett  TN,Burbank  CA
+Burbank  CA,Pottsboro  TX
+Pottsboro  TX,Burbank  CA
+Burbank  CA,Massillon  OH
+Massillon  OH,Burbank  CA
+Burbank  CA,Yreka  CA
+Yreka  CA,Burbank  CA
+Burbank  CA,Waco  TX
+Waco  TX,Burbank  CA
+Burbank  CA,Gainesville  FL
+Gainesville  FL,Burbank  CA
+Craig  CO,Waldorf  MD
+Waldorf  MD,Craig  CO
+Craig  CO,Byron  GA
+Byron  GA,Craig  CO
+Craig  CO,Elmhurst  IL
+Elmhurst  IL,Craig  CO
+Craig  CO,Newalla  OK
+Newalla  OK,Craig  CO
+Craig  CO,Westwood  CA
+Westwood  CA,Craig  CO
+Craig  CO,Downey  CA
+Downey  CA,Craig  CO
+Craig  CO,Shippensburg  PA
+Shippensburg  PA,Craig  CO
+Craig  CO,Cameron  MO
+Cameron  MO,Craig  CO
+Bloomsburg  PA,Temecula  CA
+Temecula  CA,Bloomsburg  PA
+Bloomsburg  PA,Columbia  MO
+Columbia  MO,Bloomsburg  PA
+Bloomsburg  PA,Hope  ND
+Hope  ND,Bloomsburg  PA
+Bloomsburg  PA,Clover  SC
+Clover  SC,Bloomsburg  PA
+Bloomsburg  PA,Tunkhannock  PA
+Tunkhannock  PA,Bloomsburg  PA
+Bloomsburg  PA,Medford and Murphy  OR
+Medford and Murphy  OR,Bloomsburg  PA
+Bloomsburg  PA,Brewster  OH
+Brewster  OH,Bloomsburg  PA
+Bloomsburg  PA,Anaheim  CA
+Anaheim  CA,Bloomsburg  PA
+Bloomsburg  PA,West Warwick  RI
+West Warwick  RI,Bloomsburg  PA
+Bloomsburg  PA,Seattle  WA
+Seattle  WA,Bloomsburg  PA
+Morehead  KY,Lincolnshire  IL
+Lincolnshire  IL,Morehead  KY
+Morehead  KY,Leeds  ME
+Leeds  ME,Morehead  KY
+Morehead  KY,New Britain  CT
+New Britain  CT,Morehead  KY
+Morehead  KY,Calvert  TX
+Calvert  TX,Morehead  KY
+Morehead  KY,Indian Trail  NC
+Indian Trail  NC,Morehead  KY
+Morehead  KY,Hemphill  TX
+Hemphill  TX,Morehead  KY
+Morehead  KY,Indianapolis  IN
+Indianapolis  IN,Morehead  KY
+Morehead  KY,Houston  TX
+Houston  TX,Morehead  KY
+Houston  TX,New Holland  PA
+New Holland  PA,Houston  TX
+Houston  TX,New Caney  TX
+New Caney  TX,Houston  TX
+Houston  TX,Platteville  CO
+Platteville  CO,Houston  TX
+Houston  TX,Yardville  NJ
+Yardville  NJ,Houston  TX
+Houston  TX,Kingfisher  OK
+Kingfisher  OK,Houston  TX
+Safford  AZ,Sebring  FL
+Sebring  FL,Safford  AZ
+Safford  AZ,Homestead  FL
+Homestead  FL,Safford  AZ
+Safford  AZ,Dale City  VA
+Dale City  VA,Safford  AZ
+Safford  AZ,Bellingham  WA
+Bellingham  WA,Safford  AZ
+Safford  AZ,Philadelphia  PA
+Philadelphia  PA,Safford  AZ
+Safford  AZ,Cranston  RI
+Cranston  RI,Safford  AZ
+Safford  AZ,Stephenville  TX
+Stephenville  TX,Safford  AZ
+Safford  AZ,Parkers Cross Roads  TN
+Parkers Cross Roads  TN,Safford  AZ
+Liberty Hill  TX,Stephenville  TX
+Stephenville  TX,Liberty Hill  TX
+Liberty Hill  TX,Salado  TX
+Salado  TX,Liberty Hill  TX
+Liberty Hill  TX,Springfield  MA
+Springfield  MA,Liberty Hill  TX
+Liberty Hill  TX,San Jose  CA
+San Jose  CA,Liberty Hill  TX
+Liberty Hill  TX,Hagerstown  MD
+Hagerstown  MD,Liberty Hill  TX
+Liberty Hill  TX,New orleans  LA
+New orleans  LA,Liberty Hill  TX
+Tulsa  OK,Valdosta  GA
+Valdosta  GA,Tulsa  OK
+Tulsa  OK,Byron  NY
+Byron  NY,Tulsa  OK
+Tulsa  OK,Florissant  CO
+Florissant  CO,Tulsa  OK
+Tulsa  OK,Lancaster  CA
+Lancaster  CA,Tulsa  OK
+Tulsa  OK,Lebanon  IN
+Lebanon  IN,Tulsa  OK
+Tulsa  OK,Okmulgee  OK
+Okmulgee  OK,Tulsa  OK
+Tulsa  OK,Livermore  CA
+Livermore  CA,Tulsa  OK
+Tulsa  OK,Bloomington  IL
+Bloomington  IL,Tulsa  OK
+Tulsa  OK,Tualatin  OR
+Tualatin  OR,Tulsa  OK
+Tulsa  OK,Clark  NJ
+Clark  NJ,Tulsa  OK
+Tulsa  OK,Memphis  TN
+Memphis  TN,Tulsa  OK
+Tulsa  OK,San Antonio  TX
+San Antonio  TX,Tulsa  OK
+Tulsa  OK,Sargent  TX
+Sargent  TX,Tulsa  OK
+Satellite Beach  FL,Davie  FL
+Davie  FL,Satellite Beach  FL
+Satellite Beach  FL,Clearwater Beach  FL
+Clearwater Beach  FL,Satellite Beach  FL
+Satellite Beach  FL,Lindenhurst  NY
+Lindenhurst  NY,Satellite Beach  FL
+Satellite Beach  FL,Louisville  KY
+Louisville  KY,Satellite Beach  FL
+Satellite Beach  FL,Seminole  OK
+Seminole  OK,Satellite Beach  FL
+Satellite Beach  FL,Poughkeepsie  NY
+Poughkeepsie  NY,Satellite Beach  FL
+Satellite Beach  FL,Sarasota  FL
+Sarasota  FL,Satellite Beach  FL
+Satellite Beach  FL,Laurel  MD
+Laurel  MD,Satellite Beach  FL
+Satellite Beach  FL,Quatzsite  AZ
+Quatzsite  AZ,Satellite Beach  FL
+Satellite Beach  FL,Laguna Niguel  CA
+Laguna Niguel  CA,Satellite Beach  FL
+Satellite Beach  FL,Las Vegas  NV
+Las Vegas  NV,Satellite Beach  FL
+Houston  TX,Phoenix  AZ
+Phoenix  AZ,Houston  TX
+Houston  TX,Carmel  NY
+Carmel  NY,Houston  TX
+Houston  TX,Bergen  NY
+Bergen  NY,Houston  TX
+Houston  TX,Naples  FL
+Naples  FL,Houston  TX
+Houston  TX,Gig Harbor  WA
+Gig Harbor  WA,Houston  TX
+Bloomfield Hills  MI,Santa Monica  CA
+Santa Monica  CA,Bloomfield Hills  MI
+Bloomfield Hills  MI,Canonsburg  PA
+Canonsburg  PA,Bloomfield Hills  MI
+Bloomfield Hills  MI,Roslindale  MA
+Roslindale  MA,Bloomfield Hills  MI
+Bloomfield Hills  MI,Norwalk  CA
+Norwalk  CA,Bloomfield Hills  MI
+Bloomfield Hills  MI,Limon  CO
+Limon  CO,Bloomfield Hills  MI
+Bloomfield Hills  MI,Russellton  PA
+Russellton  PA,Bloomfield Hills  MI
+Bloomfield Hills  MI,Redondo Beach  CA
+Redondo Beach  CA,Bloomfield Hills  MI
+Bloomfield Hills  MI,Sevierville  TN
+Sevierville  TN,Bloomfield Hills  MI
+Bloomfield Hills  MI,Bath  PA
+Bath  PA,Bloomfield Hills  MI
+Bloomfield Hills  MI,Lady Lake  FL
+Lady Lake  FL,Bloomfield Hills  MI
+Bloomfield Hills  MI,Riverside  CA
+Riverside  CA,Bloomfield Hills  MI
+Bloomfield Hills  MI,Wapakoneta  OH
+Wapakoneta  OH,Bloomfield Hills  MI
+Bloomfield Hills  MI,Hampton  TN
+Hampton  TN,Bloomfield Hills  MI
+Hampstead  NH,Long Beach  CA
+Long Beach  CA,Hampstead  NH
+Hampstead  NH,Stanhope  NJ
+Stanhope  NJ,Hampstead  NH
+Hampstead  NH,Grand prairie  TX
+Grand prairie  TX,Hampstead  NH
+Hampstead  NH,Gulf of Mexico  TX
+Gulf of Mexico  TX,Hampstead  NH
+Hampstead  NH,San Francisco  CA
+San Francisco  CA,Hampstead  NH
+Hampstead  NH,Las Vegas  NV
+Las Vegas  NV,Hampstead  NH
+Hampstead  NH,Dunstable  MA
+Dunstable  MA,Hampstead  NH
+Hampstead  NH,Conway  AR
+Conway  AR,Hampstead  NH
+Ukiah  CA,Allentown  PA
+Allentown  PA,Ukiah  CA
+Ukiah  CA,Altamonte Springs  FL
+Altamonte Springs  FL,Ukiah  CA
+Ukiah  CA,Goleta  CA
+Goleta  CA,Ukiah  CA
+Ukiah  CA,Longwood  FL
+Longwood  FL,Ukiah  CA
+Ukiah  CA,Canon  GA
+Canon  GA,Ukiah  CA
+Ukiah  CA,Lakeway  TX
+Lakeway  TX,Ukiah  CA
+Ukiah  CA,Alvin  TX
+Alvin  TX,Ukiah  CA
+Ukiah  CA,Pomona  CA
+Pomona  CA,Ukiah  CA
+Ukiah  CA,Racine  WI
+Racine  WI,Ukiah  CA
+Ukiah  CA,Stephenville  TX
+Stephenville  TX,Ukiah  CA
+Ukiah  CA,Swanburg  MN
+Swanburg  MN,Ukiah  CA
+Rockville  MD,Dixon  IL
+Dixon  IL,Rockville  MD
+Rockville  MD,Canon City  CO
+Canon City  CO,Rockville  MD
+Rockville  MD,Chapel Hill  NC
+Chapel Hill  NC,Rockville  MD
+Rockville  MD,Springhill  LA
+Springhill  LA,Rockville  MD
+Rockville  MD,Compton  CA
+Compton  CA,Rockville  MD
+Rockville  MD,Sheffield Lake  OH
+Sheffield Lake  OH,Rockville  MD
+Rockville  MD,Hamilton  TX
+Hamilton  TX,Rockville  MD
+Rockville  MD,Carriere  MS
+Carriere  MS,Rockville  MD
+Rockville  MD,Highland  CA
+Highland  CA,Rockville  MD
+Rockville  MD,Atchafalaya  LA
+Atchafalaya  LA,Rockville  MD
+Rockville  MD,Carmel  IN
+Carmel  IN,Rockville  MD
+Rockville  MD,Shepherd  TX
+Shepherd  TX,Rockville  MD
+Rockville  MD,Roan Mountain  TN
+Roan Mountain  TN,Rockville  MD
+Rockville  MD,San Bernardino  CA
+San Bernardino  CA,Rockville  MD
+Rockville  MD,Spring Creek  NV
+Spring Creek  NV,Rockville  MD
+Rockville  MD,Sugarcreek  OH
+Sugarcreek  OH,Rockville  MD
+Rockville  MD,Colfax  ND
+Colfax  ND,Rockville  MD
+Fall River  MA,Chicago  IL
+Chicago  IL,Fall River  MA
+Fall River  MA,Old Bridge  NJ
+Old Bridge  NJ,Fall River  MA
+Fall River  MA,Quartzsite  AZ
+Quartzsite  AZ,Fall River  MA
+Fall River  MA,Pomfret  CT
+Pomfret  CT,Fall River  MA
+Fall River  MA,Riverhead  NY
+Riverhead  NY,Fall River  MA
+Fall River  MA,North Falmouth  MA
+North Falmouth  MA,Fall River  MA
+Fall River  MA,Denver  IN
+Denver  IN,Fall River  MA
+Fall River  MA,Wareham  MA
+Wareham  MA,Fall River  MA
+Fall River  MA,Gary  IN
+Gary  IN,Fall River  MA
+Fall River  MA,Owasso  OK
+Owasso  OK,Fall River  MA
+Fall River  MA,Phoenix  AZ
+Phoenix  AZ,Fall River  MA
+Hagerstown  MD,New Providence  NJ
+New Providence  NJ,Hagerstown  MD
+Hagerstown  MD,Altoona  IA
+Altoona  IA,Hagerstown  MD
+Hagerstown  MD,Effingham  NH
+Effingham  NH,Hagerstown  MD
+Hagerstown  MD,Adelantlo  CA
+Adelantlo  CA,Hagerstown  MD
+Hagerstown  MD,Newburgh  NY
+Newburgh  NY,Hagerstown  MD
+Hagerstown  MD,Oklahoma City  OK
+Oklahoma City  OK,Hagerstown  MD
+Hagerstown  MD,Fulshear  TX
+Fulshear  TX,Hagerstown  MD
+Hagerstown  MD,Half Moon Bay  CA
+Half Moon Bay  CA,Hagerstown  MD
+Hagerstown  MD,Kerens  TX
+Kerens  TX,Hagerstown  MD
+Hagerstown  MD,Callahan  FL
+Callahan  FL,Hagerstown  MD
+Hagerstown  MD,Livingston  NJ
+Livingston  NJ,Hagerstown  MD
+Hagerstown  MD,Baltimore  MD
+Baltimore  MD,Hagerstown  MD
+Hagerstown  MD,Azusa  CA
+Azusa  CA,Hagerstown  MD
+Burbank  CA,Corydon  IN
+Corydon  IN,Burbank  CA
+Burbank  CA,La Mesa  CA
+La Mesa  CA,Burbank  CA
+Burbank  CA,Newark  OH
+Newark  OH,Burbank  CA
+Burbank  CA,Grand Junction  CO
+Grand Junction  CO,Burbank  CA
+Newburgh  NY,Ashton  WV
+Ashton  WV,Newburgh  NY
+Newburgh  NY,Henderson  NV
+Henderson  NV,Newburgh  NY
+Newburgh  NY,Norwood  MA
+Norwood  MA,Newburgh  NY
+Newburgh  NY,Apache Junction  AZ
+Apache Junction  AZ,Newburgh  NY
+Newburgh  NY,Lehi  UT
+Lehi  UT,Newburgh  NY
+Boulder  CO,Greenwood  IN
+Greenwood  IN,Boulder  CO
+Boulder  CO,Martinsville  IN
+Martinsville  IN,Boulder  CO
+Boulder  CO,Taft  CA
+Taft  CA,Boulder  CO
+Boulder  CO,Clarence  NY
+Clarence  NY,Boulder  CO
+Boulder  CO,Baton Rouge  LA
+Baton Rouge  LA,Boulder  CO
+Boulder  CO,Chicago  IL
+Chicago  IL,Boulder  CO
+Boulder  CO,Crowley  TX
+Crowley  TX,Boulder  CO
+Boulder  CO,Fayetteville  NC
+Fayetteville  NC,Boulder  CO
+Boulder  CO,Wahkiki  HI
+Wahkiki  HI,Boulder  CO
+Mims  FL,Seattle  WA
+Seattle  WA,Mims  FL
+Mims  FL,Mokena  IL
+Mokena  IL,Mims  FL
+Mims  FL,Newton  MA
+Newton  MA,Mims  FL
+Mims  FL,Windsor  VA
+Windsor  VA,Mims  FL
+Mims  FL,Milpitas  CA
+Milpitas  CA,Mims  FL
+Wildwood  FL,Maiden  NC
+Maiden  NC,Wildwood  FL
+Wildwood  FL,Anthony  FL
+Anthony  FL,Wildwood  FL
+Wildwood  FL,Albuquerque  NM
+Albuquerque  NM,Wildwood  FL
+Wildwood  FL,Acworth  GA
+Acworth  GA,Wildwood  FL
+Wildwood  FL,Tacoma  WA
+Tacoma  WA,Wildwood  FL
+Wildwood  FL,Davis  CA
+Davis  CA,Wildwood  FL
+Wildwood  FL,Colquitt  GA
+Colquitt  GA,Wildwood  FL
+Brea  CA,Glendale  AZ
+Glendale  AZ,Brea  CA
+Brea  CA,Placentia  CA
+Placentia  CA,Brea  CA
+Brea  CA,Denver  CO
+Denver  CO,Brea  CA
+Brea  CA,Low Moor  VA
+Low Moor  VA,Brea  CA
+Mesquite  TX,St. Augustine  FL
+St. Augustine  FL,Mesquite  TX
+Mesquite  TX,Waynesburg  OH
+Waynesburg  OH,Mesquite  TX
+Mesquite  TX,Rockford  IL
+Rockford  IL,Mesquite  TX
+Mesquite  TX,Maize  KS
+Maize  KS,Mesquite  TX
+Mesquite  TX,Ballston Spa  NY
+Ballston Spa  NY,Mesquite  TX
+Mesquite  TX,Livingston  AL
+Livingston  AL,Mesquite  TX
+Mesquite  TX,Presque Isle  ME
+Presque Isle  ME,Mesquite  TX
+Mesquite  TX,Rocky Mount  NC
+Rocky Mount  NC,Mesquite  TX
+Boston  MA,Burbank  CA
+Burbank  CA,Boston  MA
+Boston  MA,Tilton  NH
+Tilton  NH,Boston  MA
+Boston  MA,Beecher  IL
+Beecher  IL,Boston  MA
+Boston  MA,Canyon  TX
+Canyon  TX,Boston  MA
+Boston  MA,Cordova  TN
+Cordova  TN,Boston  MA
+Boston  MA,Northridge  CA
+Northridge  CA,Boston  MA
+Boston  MA,Murphy  TX
+Murphy  TX,Boston  MA
+Boston  MA,North Franklin  CT
+North Franklin  CT,Boston  MA
+Boston  MA,Lancaster  KY
+Lancaster  KY,Boston  MA
+Denver  CO,Ocala  FL
+Ocala  FL,Denver  CO
+Denver  CO,Kings Park  NY
+Kings Park  NY,Denver  CO
+Denver  CO,Myrtle Beach  SC
+Myrtle Beach  SC,Denver  CO
+Denver  CO,Cape Coral  FL
+Cape Coral  FL,Denver  CO
+Denver  CO,Copperas Cove  TX
+Copperas Cove  TX,Denver  CO
+Denver  CO,Santa Rosa  CA
+Santa Rosa  CA,Denver  CO
+Denver  CO,Oklahoma City  OK
+Oklahoma City  OK,Denver  CO
+Denver  CO,Point Pleasant Beach nj  NJ
+Point Pleasant Beach nj  NJ,Denver  CO
+Denver  CO,Advance  NC
+Advance  NC,Denver  CO
+Denver  CO,Sorrento  FL
+Sorrento  FL,Denver  CO
+Denver  CO,Weston  MO
+Weston  MO,Denver  CO
+Denver  CO,Versailles  KY
+Versailles  KY,Denver  CO

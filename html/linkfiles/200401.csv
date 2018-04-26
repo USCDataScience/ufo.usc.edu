@@ -1,0 +1,263 @@
+origin,destination
+Boston  MA,Tampa  FL
+Tampa  FL,Boston  MA
+Boston  MA,Longview  WA
+Longview  WA,Boston  MA
+Boston  MA,La Mirada  CA
+La Mirada  CA,Boston  MA
+Boston  MA,Multiple  NH
+Multiple  NH,Boston  MA
+Boston  MA,Atlanta  GA
+Atlanta  GA,Boston  MA
+Boston  MA,Flowery Branch  GA
+Flowery Branch  GA,Boston  MA
+Boston  MA,Bakersville  NC
+Bakersville  NC,Boston  MA
+Boston  MA,Spring Valley  CA
+Spring Valley  CA,Boston  MA
+Boston  MA,Belleville  IL
+Belleville  IL,Boston  MA
+Boston  MA,Kenai  AK
+Kenai  AK,Boston  MA
+Fairfax County  VA,El Segundo  CA
+El Segundo  CA,Fairfax County  VA
+Fairfax County  VA,Wailea  HI
+Wailea  HI,Fairfax County  VA
+Fairfax County  VA,Shell Bluff  GA
+Shell Bluff  GA,Fairfax County  VA
+Reno  NV,Lake Tahoe  NV
+Lake Tahoe  NV,Reno  NV
+Reno  NV,Olympia  WA
+Olympia  WA,Reno  NV
+Reno  NV,Sacramento  CA
+Sacramento  CA,Reno  NV
+Reno  NV,Crown Point  IN
+Crown Point  IN,Reno  NV
+Reno  NV,Laurel  MD
+Laurel  MD,Reno  NV
+Reno  NV,Waterbury  CT
+Waterbury  CT,Reno  NV
+Reno  NV,Naugatuck  CT
+Naugatuck  CT,Reno  NV
+Valhalla  NY,Seligman (near)  AZ
+Seligman (near)  AZ,Valhalla  NY
+Valhalla  NY,Seligman (40 mi east of)  AZ
+Seligman (40 mi east of)  AZ,Valhalla  NY
+Valhalla  NY,Griswold  CT
+Griswold  CT,Valhalla  NY
+Valhalla  NY,Maui  HI
+Maui  HI,Valhalla  NY
+Valhalla  NY,Arivaca  AZ
+Arivaca  AZ,Valhalla  NY
+Phoenix  AZ,Pearl River  NY
+Pearl River  NY,Phoenix  AZ
+Phoenix  AZ,Guilford  CT
+Guilford  CT,Phoenix  AZ
+Phoenix  AZ,Huntington  IN
+Huntington  IN,Phoenix  AZ
+Phoenix  AZ,West Orange  NJ
+West Orange  NJ,Phoenix  AZ
+Lambertville  MI,Peoria  IL
+Peoria  IL,Lambertville  MI
+Lambertville  MI,El Segundo  CA
+El Segundo  CA,Lambertville  MI
+Lambertville  MI,West Hartford  CT
+West Hartford  CT,Lambertville  MI
+Lambertville  MI,Goleta  CA
+Goleta  CA,Lambertville  MI
+Lambertville  MI,Duluth  GA
+Duluth  GA,Lambertville  MI
+Henderson  NV,Biloxi  MS
+Biloxi  MS,Henderson  NV
+Henderson  NV,Vail  CO
+Vail  CO,Henderson  NV
+Henderson  NV,Riverside  CA
+Riverside  CA,Henderson  NV
+Smethport  PA,Butte  MT
+Butte  MT,Smethport  PA
+Smethport  PA,Laguna Hills  CA
+Laguna Hills  CA,Smethport  PA
+Smethport  PA,Hesperia  CA
+Hesperia  CA,Smethport  PA
+Smethport  PA,Coppell  TX
+Coppell  TX,Smethport  PA
+West River  MD,Anderson  CA
+Anderson  CA,West River  MD
+West River  MD,Seattle  WA
+Seattle  WA,West River  MD
+West River  MD,Stony Point  NY
+Stony Point  NY,West River  MD
+West River  MD,Oroville  WA
+Oroville  WA,West River  MD
+Truro  IA,Santa Fe  NM
+Santa Fe  NM,Truro  IA
+Truro  IA,Templeton  MA
+Templeton  MA,Truro  IA
+Myrtle Beach  SC,Camden  NJ
+Camden  NJ,Myrtle Beach  SC
+Myrtle Beach  SC,Little River  SD
+Little River  SD,Myrtle Beach  SC
+Pickstown  SD,Burlington  MA
+Burlington  MA,Pickstown  SD
+Pickstown  SD,Dove Creek  CO
+Dove Creek  CO,Pickstown  SD
+Pickstown  SD,Kansas City  MO
+Kansas City  MO,Pickstown  SD
+Pickstown  SD,Mariano Lake  NM
+Mariano Lake  NM,Pickstown  SD
+Pickstown  SD,Culpeper  VA
+Culpeper  VA,Pickstown  SD
+Sedro Woolley  WA,Wheelersburg  OH
+Wheelersburg  OH,Sedro Woolley  WA
+Sedro Woolley  WA,Charestown  IN
+Charestown  IN,Sedro Woolley  WA
+Sedro Woolley  WA,Yucca Valley  CA
+Yucca Valley  CA,Sedro Woolley  WA
+Sedro Woolley  WA,Elmhurst  IL
+Elmhurst  IL,Sedro Woolley  WA
+Sedro Woolley  WA,Barco  NC
+Barco  NC,Sedro Woolley  WA
+Sedro Woolley  WA,Barstow  CA
+Barstow  CA,Sedro Woolley  WA
+Sedro Woolley  WA,Kailua  HI
+Kailua  HI,Sedro Woolley  WA
+Lake Havasu City  AZ,Union City  CA
+Union City  CA,Lake Havasu City  AZ
+Lake Havasu City  AZ,Browning  MT
+Browning  MT,Lake Havasu City  AZ
+Lake Havasu City  AZ,Eugene  OR
+Eugene  OR,Lake Havasu City  AZ
+Lake Havasu City  AZ,Hesperia  CA
+Hesperia  CA,Lake Havasu City  AZ
+Lake Havasu City  AZ,Mesa  AZ
+Mesa  AZ,Lake Havasu City  AZ
+La Crescenta  CA,Glocester  RI
+Glocester  RI,La Crescenta  CA
+La Crescenta  CA,Lakewood  CO
+Lakewood  CO,La Crescenta  CA
+La Crescenta  CA,Deltona  FL
+Deltona  FL,La Crescenta  CA
+La Crescenta  CA,Langley  WA
+Langley  WA,La Crescenta  CA
+La Crescenta  CA,Bath  NC
+Bath  NC,La Crescenta  CA
+Guilford  CT,Clinton  MO
+Clinton  MO,Guilford  CT
+Guilford  CT,Minneapolis  MN
+Minneapolis  MN,Guilford  CT
+Maple Valley  WA,Lambertville  MI
+Lambertville  MI,Maple Valley  WA
+Maple Valley  WA,Corinth  VT
+Corinth  VT,Maple Valley  WA
+Maple Valley  WA,Medford  OR
+Medford  OR,Maple Valley  WA
+Maple Valley  WA,Alexandria  LA
+Alexandria  LA,Maple Valley  WA
+Maple Valley  WA,Silver Springs  FL
+Silver Springs  FL,Maple Valley  WA
+Maple Valley  WA,Castro Valley  CA
+Castro Valley  CA,Maple Valley  WA
+Maple Valley  WA,Hopewell Township  NJ
+Hopewell Township  NJ,Maple Valley  WA
+Maple Valley  WA,Sioux City  IA
+Sioux City  IA,Maple Valley  WA
+Maple Valley  WA,Cranston  RI
+Cranston  RI,Maple Valley  WA
+Albuquerque  NM,Kennesaw  GA
+Kennesaw  GA,Albuquerque  NM
+Albuquerque  NM,Norcross  GA
+Norcross  GA,Albuquerque  NM
+Albuquerque  NM,Gold Bar  WA
+Gold Bar  WA,Albuquerque  NM
+Albuquerque  NM,Deridder  LA
+Deridder  LA,Albuquerque  NM
+Albuquerque  NM,Olathe  KS
+Olathe  KS,Albuquerque  NM
+Albuquerque  NM,Lawrenceburg  IN
+Lawrenceburg  IN,Albuquerque  NM
+Albuquerque  NM,Chesterfield  VA
+Chesterfield  VA,Albuquerque  NM
+Albuquerque  NM,Englewood  CO
+Englewood  CO,Albuquerque  NM
+Albuquerque  NM,Deer Park  NY
+Deer Park  NY,Albuquerque  NM
+Albuquerque  NM,Downers Grove  IL
+Downers Grove  IL,Albuquerque  NM
+Albuquerque  NM,Moreno Valley  CA
+Moreno Valley  CA,Albuquerque  NM
+Springfield  SC,White Plains  NY
+White Plains  NY,Springfield  SC
+Springfield  SC,Reamstown  PA
+Reamstown  PA,Springfield  SC
+Springfield  SC,Rockwall  TX
+Rockwall  TX,Springfield  SC
+Springfield  SC,Alger  WA
+Alger  WA,Springfield  SC
+Springfield  SC,Santa Rosa  CA
+Santa Rosa  CA,Springfield  SC
+Springfield  SC,Ridgefield  WA
+Ridgefield  WA,Springfield  SC
+Victorville  CA,Belleview  FL
+Belleview  FL,Victorville  CA
+Victorville  CA,Greensboro  NC
+Greensboro  NC,Victorville  CA
+Victorville  CA,San Diego  CA
+San Diego  CA,Victorville  CA
+Victorville  CA,Columbus  OH
+Columbus  OH,Victorville  CA
+West Hollywood  CA,Desert Hot Springs  CA
+Desert Hot Springs  CA,West Hollywood  CA
+West Hollywood  CA,Hayward  CA
+Hayward  CA,West Hollywood  CA
+West Hollywood  CA,Germantown  TN
+Germantown  TN,West Hollywood  CA
+Phoenix  AZ,San Antonio  TX
+San Antonio  TX,Phoenix  AZ
+Phoenix  AZ,San Francisco  CA
+San Francisco  CA,Phoenix  AZ
+Phoenix  AZ,Tampa  FL
+Tampa  FL,Phoenix  AZ
+New York City  NY,Corpus Christi  TX
+Corpus Christi  TX,New York City  NY
+New York City  NY,Mesa  AZ
+Mesa  AZ,New York City  NY
+New York City  NY,Ogunquit  ME
+Ogunquit  ME,New York City  NY
+New York City  NY,Vinton  IA
+Vinton  IA,New York City  NY
+New York City  NY,Mexia  TX
+Mexia  TX,New York City  NY
+Clarksville  NY,Mesa  AZ
+Mesa  AZ,Clarksville  NY
+Clarksville  NY,New Orleans  LA
+New Orleans  LA,Clarksville  NY
+Clarksville  NY,Sheboygan  WI
+Sheboygan  WI,Clarksville  NY
+Clarksville  NY,Las Vegas  NV
+Las Vegas  NV,Clarksville  NY
+Clarksville  NY,Modesto  CA
+Modesto  CA,Clarksville  NY
+Willard  MO,Ketchikan  AK
+Ketchikan  AK,Willard  MO
+Willard  MO,Chehalis  WA
+Chehalis  WA,Willard  MO
+Willard  MO,Antioch  CA
+Antioch  CA,Willard  MO
+Willard  MO,Worcester  MA
+Worcester  MA,Willard  MO
+Bristol  TN,Jerome  MO
+Jerome  MO,Bristol  TN
+Bristol  TN,Auburn  ME
+Auburn  ME,Bristol  TN
+Bristol  TN,Standish  MI
+Standish  MI,Bristol  TN
+Bristol  TN,Wolfeboro  NH
+Wolfeboro  NH,Bristol  TN
+Bristol  TN,San Ramon  CA
+San Ramon  CA,Bristol  TN
+Bristol  TN,Mill Valley  CA
+Mill Valley  CA,Bristol  TN
+Bristol  TN,Fort Myers  FL
+Fort Myers  FL,Bristol  TN
+Bristol  TN,Yorba Linda  CA
+Yorba Linda  CA,Bristol  TN
