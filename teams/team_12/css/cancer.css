@@ -1,0 +1,58 @@
+
+body { font: 12px Arial;}
+
+path {
+    stroke: #ccc;
+    stroke-width: 1;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+#legendContainer{
+	/*position:absolute;
+	top:60px;
+	left:10px;*/
+	overflow: auto;
+	height:700px;
+	width:110px;
+}
+/*#legend{
+	width:90px;
+	height:700px;
+}*/
+.legend {
+    font-size: 12px;
+    font-weight: normal;
+    text-anchor: left;
+}
+.legendcheckbox{
+	cursor: pointer;
+}
+#showAll{
+	/*position:relative;*/
+	/*top:20px;
+	left:880px;*/
+}
+#clearAll{
+	/*position:relative;*/
+	/*top:20px;
+	left:950px;*/
+}
+input{
+	border-radius:5px;
+	padding:5px 10px;
+	background:#999;
+	border:0;
+	color:#fff;
+}
+#inds{
+	/*position:relative;*/
+	/*top:10px;*/
+	/*left:30px;*/
+}
