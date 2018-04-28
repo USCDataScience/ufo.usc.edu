@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Point on a map D3</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scrolling Nav CSS -->
+    <link href="../css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/team-12.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/plugin.css">
+    <style type="text/css">
+
+        h1 {
+          font-family: sans-serif;
+          color: #fff;
+        }
+        h3 {
+          font-family: sans-serif;
+          color: yellow;
+        }
+        h4 {
+          font-family: sans-serif;
+          color: #fff;
+        }
+
+
+		.counties {
+		  fill: none;
+		}
+
+		.states {
+		  fill: none;
+		  stroke: #fff;
+		  stroke-linejoin: round;
+		}
+
+        div.tooltip { 
+          position: absolute;     
+          text-align: center;     
+          width: 60px;          
+          height: 28px;         
+          padding: 2px;       
+          font: 12px sans-serif;    
+          background: lightsteelblue; 
+          border: 0px;    
+          border-radius: 8px;     
+          pointer-events: none;     
+      }
+    </style>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+  <div id="nav-main">
+        <nav class="navbar nav-main navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                </div>
+
+                <div class="collapse navbar-collapse navbar-ex1-collapse">  
+                  <nav id="nav-wrap">
+                    <ul class="nav navbar-nav navbar-custom">
+                        <li class="current"><a class="page-scroll" href="../team_12.html#page-top" style="color:white">Home</a></li>
+                    </ul>
+                  </nav>
+
+                    <a href="http://usc.edu" class="pull-right">
+                      <img src="../../../images/usc-primary-logotype.svg" width="176px" height="38px">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="team-12-space">
+        <div class = "container" style="margin-bottom: 2%;">
+            <ul class="nav nav-tabs" id="tabs">
+                <li><a href="../team_12.html#overview" data-toggle="tab">Overview</a></li>
+                <li class="active" ><a href="../team_12.html#static_visualizations" data-toggle="tab">Static Visualizations</a></li>
+                <li><a href="../team_12.html#dynamic_visualizations" data-toggle="tab">Dynamic Visualizations</a></li>
+            </ul>
+        
+        </div>
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in container" id="overview">
+                <div class="row">
+                    <center><h3>Number of Features</h3></center>
+                </div>
+                <div class ="row" style="margin-top: 1%">
+                  <div class= "col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <div class="row"> 
+                        <div class = "" id ="featuresAdded1"></div>
+                      </div>
+                      <div class="row"> 
+                        <div><center><b>UFO Awesome dataset</b></center></div>
+                      </div>
+                  </div>
+                  <div class= "col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <div class="row"> 
+                        <div class = "" id ="featuresAdded2"></div>
+                      </div>
+                      <div class="row"> 
+                        <div><center><b>Merged USA UFO dataset</b></center></div>
+                      </div>
+                  </div>
+                  <div class= "col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <div class="row"> 
+                        <div class = "" id ="featuresAdded3"></div>
+                      </div>
+                      <div class="row"> 
+                        <div><center><b>USA-British-UFOStalker dataset</b></center></div>
+                      </div>
+                  </div>
+                    <br>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade in active container" id="static_visualizations">
+              <ol class="breadcrumb">
+                <li ><a href="../team_12.html#static_visualizations" data-toggle="tab">List of Visualizations</a></li>
+                <li class="active">USA and Airports</li>
+              </ol>
+                <div class="row" id ="chloro" style="background-color: #000;" ><!-- style="background-color: #000;" -->
+                    <center><h1>UFO sightings and Airport Locations</h1></center>
+                    <br>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <svg viewbox="0 0 960 600" id = "airports"></svg><!-- viewbox="0 0 1300 550" -->
+                    </div>
+                    <br>
+                    
+                    <div class="row container">
+                      <h3><center>Inferences</center></h3>
+                      <br>
+                      <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10">
+                        <span style="color: #fff">The above map highlights two important aspects related to UFO sightings and Airports in the US.<br>Regions with darker shades of blue have more number of sightings near airports, whereas as the shades lighten, the number of sightings around airports decreases. This measure is represented as a percentage to give us a relative understanding of the density of UFO sightings. Secondly, the yellow and orange points plot the top 1000 sightings closes to aiports. <br> One would usually expect the results to be dense near the west coast (SF/CA) and east coast (NY) but we see some surprising results! The top 1000 sightings closes to airports are in Montana and Wyoming.</span><br>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <span style="color: #000">UFO sightings in United States representing population counts</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade in container" id="dynamic_visualizations">
+            </div>
+            
+          </div>
+
+      </div>
+
+  <hr class="featurette-divider">
+    <div class =" row">
+        <div class="container">
+            <footer>
+                <p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+            </footer>
+        </div>
+    </div>
+
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+	<script src="https://d3js.org/topojson.v2.min.js"></script>
+  <script src="../js/d3_airports.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\/script>')</script>
+  <script src="../js/plugin.js"></script>
+  <script>
+   
+  </script>
+    
+</body>
+</html>
