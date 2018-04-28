@@ -1,0 +1,247 @@
+[
+  {
+    "word": "of",
+    "frequency": 2152,
+    "category": "heavy"
+  },
+  {
+    "word": "in",
+    "frequency": 1337,
+    "category": "heavy"
+  },
+  {
+    "word": "flying",
+    "frequency": 1178,
+    "category": "heavy"
+  },
+  {
+    "word": "the",
+    "frequency": 1175,
+    "category": "heavy"
+  },
+  {
+    "word": "sky",
+    "frequency": 1034,
+    "category": "heavy"
+  },
+  {
+    "word": "nematode",
+    "frequency": 972,
+    "category": "medium"
+  },
+  {
+    "word": "on",
+    "frequency": 720,
+    "category": "medium"
+  },
+  {
+    "word": "white",
+    "frequency": 577,
+    "category": "medium"
+  },
+  {
+    "word": "person",
+    "frequency": 570,
+    "category": "medium"
+  },
+  {
+    "word": "with",
+    "frequency": 569,
+    "category": "medium"
+  },
+  {
+    "word": "and",
+    "frequency": 556,
+    "category": "medium"
+  },
+  {
+    "word": "traffic",
+    "frequency": 547,
+    "category": "medium"
+  },
+  {
+    "word": "kite",
+    "frequency": 544,
+    "category": "medium"
+  },
+  {
+    "word": "light",
+    "frequency": 538,
+    "category": "medium"
+  },
+  {
+    "word": "worm",
+    "frequency": 503,
+    "category": "medium"
+  },
+  {
+    "word": "plane",
+    "frequency": 490,
+    "category": "light"
+  },
+  {
+    "word": "roundworm",
+    "frequency": 486,
+    "category": "light"
+  },
+  {
+    "word": "over",
+    "frequency": 476,
+    "category": "light"
+  },
+  {
+    "word": "street",
+    "frequency": 467,
+    "category": "light"
+  },
+  {
+    "word": "black",
+    "frequency": 449,
+    "category": "light"
+  },
+  {
+    "word": "city",
+    "frequency": 431,
+    "category": "light"
+  },
+  {
+    "word": "view",
+    "frequency": 407,
+    "category": "light"
+  },
+  {
+    "word": "photo",
+    "frequency": 383,
+    "category": "light"
+  },
+  {
+    "word": "background",
+    "frequency": 326,
+    "category": "light"
+  },
+  {
+    "word": "clock",
+    "frequency": 305,
+    "category": "light"
+  },
+  {
+    "word": "spotlight",
+    "frequency": 259,
+    "category": "light"
+  },
+  {
+    "word": "spot",
+    "frequency": 259,
+    "category": "light"
+  },
+  {
+    "word": "is",
+    "frequency": 251,
+    "category": "light"
+  },
+  {
+    "word": "parachute",
+    "frequency": 237,
+    "category": "light"
+  },
+  {
+    "word": "chute",
+    "frequency": 237,
+    "category": "light"
+  },
+  {
+    "word": "holding",
+    "frequency": 234,
+    "category": "light"
+  },
+  {
+    "word": "field",
+    "frequency": 230,
+    "category": "light"
+  },
+  {
+    "word": "group",
+    "frequency": 227,
+    "category": "light"
+  },
+  {
+    "word": "water",
+    "frequency": 218,
+    "category": "light"
+  },
+  {
+    "word": "close",
+    "frequency": 215,
+    "category": "light"
+  },
+  {
+    "word": "up",
+    "frequency": 215,
+    "category": "light"
+  },
+  {
+    "word": "large",
+    "frequency": 213,
+    "category": "light"
+  },
+  {
+    "word": "from",
+    "frequency": 202,
+    "category": "light"
+  },
+  {
+    "word": "people",
+    "frequency": 195,
+    "category": "light"
+  },
+  {
+    "word": "sitting",
+    "frequency": 192,
+    "category": "light"
+  },
+  {
+    "word": "top",
+    "frequency": 191,
+    "category": "light"
+  },
+  {
+    "word": "site",
+    "frequency": 180,
+    "category": "light"
+  },
+  {
+    "word": "building",
+    "frequency": 177,
+    "category": "light"
+  },
+  {
+    "word": "standing",
+    "frequency": 172,
+    "category": "light"
+  },
+  {
+    "word": "signal",
+    "frequency": 171,
+    "category": "light"
+  },
+  {
+    "word": "stoplight",
+    "frequency": 171,
+    "category": "light"
+  },
+  {
+    "word": "wing",
+    "frequency": 168,
+    "category": "light"
+  },
+  {
+    "word": "volcano",
+    "frequency": 166,
+    "category": "light"
+  },
+  {
+    "word": "beacon",
+    "frequency": 164,
+    "category": "light"
+  }
+]

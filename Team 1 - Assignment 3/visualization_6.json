@@ -1,0 +1,18 @@
+{
+  "labels": [
+    "<25 Miles", "<40 Miles", "<50 Miles"
+  ],
+  "series": [
+    {
+      "label": "Closest Airport",
+      "values": [0.5941, 0.7204, 0.7574]
+    },
+    {
+      "label": "Closest Shooting",
+      "values": [0.6243, 0.7318, 0.7674]
+    },
+    {
+      "label": "Closest Hospital",
+      "values": [0.8274, 0.8548, 0.8648]
+    }]
+}

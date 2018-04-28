@@ -1,0 +1,6 @@
+[
+  {"title":"Western","subtitle":"Time Zone","ranges":[0.66,1.33,2],"measures":[0.5895,0.662],"markers":[0]},
+  {"title":"Mountain","subtitle":"Time Zone","ranges":[0.66,1.33,2],"measures":[0.5691, 0.639],"markers":[0]},
+  {"title":"Central","subtitle":"Time Zone","ranges":[0.66,1.33,2],"measures":[0.57, 0.637],"markers":[0]},
+  {"title":"Eastern","subtitle":"Time Zone","ranges":[0.66,1.33,2],"measures":[0.559, 0.628],"markers":[0]}
+]

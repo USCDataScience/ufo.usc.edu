@@ -1,0 +1,65 @@
+{
+  "name": "TOPICS",
+  "children": [
+    {
+      "name": "Closest Airport",
+      "children": [
+        {
+          "name": "<25 Miles: 32061 Entries",
+          "size": 32061,
+          "rank": 1
+        },
+        {
+          "name": "<40 Miles: 38872 Entries",
+          "size": 38872,
+          "rank": 1
+        },
+        {
+          "name": "<50 Miles: 40870 Entries",
+          "size": 40870,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "name": "Closest Shooting",
+      "children": [
+        {
+          "name": "<25 Miles: 33687 Entries",
+          "size": 33687,
+          "rank": 1
+        },
+        {
+          "name": "<40 Miles: 39489 Entries",
+          "size": 39489,
+          "rank": 1
+        },
+        {
+          "name": "<50 Miles: 41406 Entries",
+          "size": 41406,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "name": "Closest Hospital",
+      "children": [
+        {
+          "name": "<25 Miles: 44643 Entries",
+          "size": 44643,
+          "rank": 1
+        },
+        {
+          "name": "<40 Miles: 46123 Entries",
+          "size": 46123,
+          "rank": 1
+        },
+        {
+          "name": "<50 Miles: 46662 Entries",
+          "size": 46662,
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}
