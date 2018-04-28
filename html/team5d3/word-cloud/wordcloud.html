@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Word Cloud Generator</title>
+<style>
+body {
+  position: relative;
+  font-family: "Helvetica Neue", sans-serif;
+  width: 960px;
+  margin: auto;
+  margin-bottom: 1em;
+  margin-top: 20px;
+}
+#presets a { border-left: solid #666 1px; padding: 0 10px; }
+#presets a.first { border-left: none; }
+#keyword { width: 300px; }
+#fetcher { width: 500px; }
+#keyword, #go { font-size: 1.5em; }
+#text { width: 100%; height: 100px; }
+p.copy { font-size: small; }
+#form { font-size: small; position: relative; }
+hr { border: none; border-bottom: solid #ccc 1px; }
+a.active { text-decoration: none; color: #000; font-weight: bold; cursor: text; }
+#angles line, #angles path, #angles circle { stroke: #666; }
+#angles text { fill: #333; }
+#angles path.drag { fill: #666; cursor: move; }
+#angles { text-align: center; margin: 0 auto; width: 350px; }
+#angles input, #max { width: 42px; }
+</style>
+
+<h3>Word cloud of top image tags extracted from UFO images</h3>
+
+<div id="vis"></div>
+
+<form id="form" >
+
+<p style="position: absolute; right: 0; top: 0" id="status"></p>
+
+<div style="text-align: center">
+  <div id="presets"></div>
+  <div id="custom-area">
+    <p hidden><label for="text">Paste your text below!</label>
+    <p hidden><textarea id="text" >
+        television, television system spotlight, spot spotlight, spot obelisk monitor spotlight, spot window screen obelisk Band Aid volcano yurt television, television system spotlight, spot television, television system spotlight, spot web site, website, internet site, site washbasin, handbasin, washbowl, lavabo, wash-hand basin parachute, chute web site, website, internet site, site pole window screen fountain lakeside, lakeshore file, file cabinet, filing cabinet obelisk obelisk nematode, nematode worm, roundworm kite nematode, nematode worm, roundworm parachute, chute solar dish, solar collector, solar furnace water snake digital clock web site, website, internet site, site kite balloon geyser church, church building spotlight, spot solar dish, solar collector, solar furnace fire engine, fire truck jeep, landrover nematode, nematode worm, roundworm web site, website, internet site, site volcano limousine, limo television, television system flagpole, flagstaff kite obelisk window screen flagpole, flagstaff platypus, duckbill, duckbilled platypus, duck-billed platypus, Ornithorhynchus anatinus nematode, nematode worm, roundworm platypus, duckbill, duckbilled platypus, duck-billed platypus, Ornithorhynchus anatinus seashore, coast, seacoast, sea-coast window screen wing wing file, file cabinet, filing cabinet file, file cabinet, filing cabinet spotlight, spot television, television system gong, tam-tam volcano nematode, nematode worm, roundworm stupa, tope  wing suit, suit of clothes analog clock lakeside, lakeshore castle geyser jellyfish envelope stage nematode, nematode worm, roundworm shopping cart beacon, lighthouse, beacon light, pharos nematode, nematode worm, roundworm analog clock hook, claw home theater, home theatre guillotine alp valley, vale volcano flagpole, flagstaff traffic light, traffic signal, stoplight  alp traffic light, traffic signal, stoplight nematode, nematode worm, roundworm viaduct sliding door barn ant, emmet, pismire alp spotlight, spot water bottle spotlight, spot lakeside, lakeshore lakeside, lakeshore web site, website, internet site, site flagpole, flagstaff abaya crate rapeseed obelisk monitor wild boar, boar, Sus scrofa web site, website, internet site, site digital clock web site, website, internet site, site candle, taper, wax light mobile home, manufactured home seashore, coast, seacoast, sea-coast castle monitor lakeside, lakeshore television, television system window screen television, television system airship, dirigible pedestal, plinth, footstall envelope parachute, chute obelisk flagpole, flagstaff lakeside, lakeshore envelope envelope nematode, nematode worm, roundworm  bow television, television system volcano spotlight, spot beacon, lighthouse, beacon light, pharos web site, website, internet site, site flagpole, flagstaff home theater, home theatre monitor fire engine, fire truck jellyfish pole crane jellyfish spotlight, spot suspension bridge brass, memorial tablet, plaque barn obelisk volcano envelope snowmobile alp car mirror alp alp volcano nematode, nematode worm, roundworm planetarium monitor lakeside, lakeshore obelisk walking stick, walkingstick, stick insect  traffic light, traffic signal, stoplight nematode, nematode worm, roundworm spotlight, spot spotlight, spot spotlight, spot traffic light, traffic signal, stoplight projector monitor traffic light, traffic signal, stoplight wing picket fence, paling projector abaya fountain pen beacon, lighthouse, beacon light, pharos fountain alp lakeside, lakeshore nematode, nematode worm, roundworm flagpole, flagstaff alp fountain minivan mobile home, manufactured home vulture nematode, nematode worm, roundworm kite nematode, nematode worm, roundworm nematode, nematode worm, roundworm traffic light, traffic signal, stoplight spotlight, spot handkerchief, hankie, hanky, hankey nematode, nematode worm, roundworm sliding door digital clock fountain alp web site, website, internet site, site nematode, nematode worm, roundworm obelisk alp prison, prison house stupa, tope convertible alp nematode, nematode worm, roundworm flagpole, flagstaff nematode, nematode worm, roundworm web site, website, internet site, site nematode, nematode worm, roundworm nematode, nematode worm, roundworm pole cinema, movie theater, movie theatre, movie house, picture palace binder, ring-binder digital clock geyser television, television system traffic light, traffic signal, stoplight cliff, drop, drop-off bison nematode, nematode worm, roundworm notebook, notebook computer obelisk web site, website, internet site, site remote control, remote plastic bag balloon nematode, nematode worm, roundworm church, church building racket, racquet barn traffic light, traffic signal, stoplight candle, taper, wax light torch alp television, television system barn spider, Araneus cavaticus guillotine scoreboard book jacket, dust cover, dust jacket, dust wrapper geyser pedestal, plinth, footstall spotlight, spot spotlight, spot seashore, coast, seacoast, sea-coast obelisk television, television system lakeside, lakeshore nematode, nematode worm, roundworm television, television system traffic light, traffic signal, stoplight nematode, nematode worm, roundworm iPod envelope envelope seashore, coast, seacoast, sea-coast seashore, coast, seacoast, sea-coast fountain breakwater, groin, groyne, mole, bulwark, seawall, jetty obelisk cinema, movie theater, movie theatre, movie house, picture palace hay hay bullet train, bullet balloon balloon nematode, nematode worm, roundworm pole nematode, nematode worm, roundworm bow envelope balloon alp obelisk monitor beacon, lighthouse, beacon light, pharos seashore, coast, seacoast, sea-coast spotlight, spot sliding door digital clock digital clock nematode, nematode worm, roundworm Band Aid flagpole, flagstaff obelisk Arabian camel, dromedary, Camelus dromedarius lakeside, lakeshore alp alp parachute, chute obelisk monitor volcano terrapin nematode, nematode worm, roundworm traffic light, traffic signal, stoplight castle bullet train, bullet suspension bridge cinema, movie theater, movie theatre, movie house, picture palace web site, website, internet site, site alp gong, tam-tam mountain bike, all-terrain bike, off-roader web site, website, internet site, site pedestal, plinth, footstall maillot obelisk cinema, movie theater, movie theatre, movie house, picture palace menu traffic light, traffic signal, stoplight  fountain spotlight, spot web site, website, internet site, site wing monitor stage suspension bridge television, television system nematode, nematode worm, roundworm seashore, coast, seacoast, sea-coast car mirror spotlight, spot nematode, nematode worm, roundworm binder, ring-binder wing parachute, chute flagpole, flagstaff hay trailer truck, tractor trailer, trucking rig, rig, articulated lorry, semi nematode, nematode worm, roundworm trimaran car mirror Band Aid lakeside, lakeshore spotlight, spot ballpoint, ballpoint pen, ballpen, Biro web site, website, internet site, site balloon sunglasses, dark glasses, shades  rule, ruler crane home theater, home theatre four-poster four-poster parachute, chute nematode, nematode worm, roundworm fire engine, fire truck lakeside, lakeshore parachute, chute digital clock hay alp theater curtain, theatre curtain dam, dike, dyke black grouse black grouse guillotine flagpole, flagstaff traffic light, traffic signal, stoplight bubble nematode, nematode worm, roundworm abaya book jacket, dust cover, dust jacket, dust wrapper sliding door liner, ocean liner volcano parachute, chute airship, dirigible kite wing airship, dirigible iPod digital clock pole cannon rule, ruler airliner window screen seashore, coast, seacoast, sea-coast megalith, megalithic structure sundial book jacket, dust cover, dust jacket, dust wrapper nematode, nematode worm, roundworm pole window shade minibus menu pole spotlight, spot television, television system window shade parachute, chute wing web site, website, internet site, site television, television system matchstick loudspeaker, speaker, speaker unit, loudspeaker system, speaker system monitor digital clock nematode, nematode worm, roundworm screen, CRT screen spotlight, spot nematode, nematode worm, roundworm carton parachute, chute geyser barn obelisk limousine, limo geyser drilling platform, offshore rig jack-o'-lantern spotlight, spot alp promontory, headland, head, foreland television, television system tile roof book jacket, dust cover, dust jacket, dust wrapper nematode, nematode worm, roundworm school bus beacon, lighthouse, beacon light, pharos home theater, home theatre window screen monitor analog clock nematode, nematode worm, roundworm digital clock web site, website, internet site, site nematode, nematode worm, roundworm nematode, nematode worm, roundworm television, television system airship, dirigible church, church building bubble steel arch bridge fountain nematode, nematode worm, roundworm television, television system sliding door sliding door hand-held computer, hand-held microcomputer lampshade, lamp shade candle, taper, wax light parachute, chute web site, website, internet site, site car mirror mobile home, manufactured home mobile home, manufactured home mobile home, manufactured home obelisk perfume, essence alp spotlight, spot monitor digital clock warplane, military plane lakeside, lakeshore oscilloscope, scope, cathode-ray oscilloscope, CRO book jacket, dust cover, dust jacket, dust wrapper web site, website, internet site, site traffic light, traffic signal, stoplight parachute, chute envelope traffic light, traffic signal, stoplight torch church, church building nematode, nematode worm, roundworm menu spotlight, spot alp cab, hack, taxi, taxicab spotlight, spot airship, dirigible television, television system beacon, lighthouse, beacon light, pharos parachute, chute trailer truck, tractor trailer, trucking rig, rig, articulated lorry, semi     spotlight, spot ski mask nematode, nematode worm, roundworm nematode, nematode worm, roundworm pole parachute, chute pedestal, plinth, footstall suspension bridge geyser matchstick matchstick television, television system obelisk television, television system envelope lampshade, lamp shade nematode, nematode worm, roundworm obelisk geyser traffic light, traffic signal, stoplight home theater, home theatre cinema, movie theater, movie theatre, movie house, picture palace airliner screen, CRT screen rapeseed mosque seashore, coast, seacoast, sea-coast crane meerkat, mierkat kite traffic light, traffic signal, stoplight spotlight, spot pole spotlight, spot monitor book jacket, dust cover, dust jacket, dust wrapper barn traffic light, traffic signal, stoplight spotlight, spot flagpole, flagstaff wing hay nematode, nematode worm, roundworm obelisk seashore, coast, seacoast, sea-coast flagpole, flagstaff alp web site, website, internet site, site kite nematode, nematode worm, roundworm space shuttle obelisk alp beacon, lighthouse, beacon light, pharos spotlight, spot spotlight, spot geyser window screen spotlight, spot church, church building church, church building safe nematode, nematode worm, roundworm nematode, nematode worm, roundworm television, television system lakeside, lakeshore geyser nematode, nematode worm, roundworm spotlight, spot flagpole, flagstaff geyser monitor window screen nematode, nematode worm, roundworm car mirror traffic light, traffic signal, stoplight traffic light, traffic signal, stoplight television, television system spotlight, spot spotlight, spot balloon traffic light, traffic signal, stoplight notebook, notebook computer digital clock stethoscope beacon, lighthouse, beacon light, pharos spotlight, spot flagpole, flagstaff shoji obelisk ping-pong ball geyser spotlight, spot suspension bridge spotlight, spot bow fountain shower curtain lakeside, lakeshore lakeside, lakeshore sliding door tick nematode, nematode worm, roundworm obelisk warplane, military plane jellyfish wing monitor viaduct bubble web site, website, internet site, site suspension bridge web site, website, internet site, site 
+    </textarea>
+    <button id="go" type="submit" >Go!</button>
+  </div>
+</div>
+
+<hr>
+
+<div style="float: right; text-align: right" >
+  <p><label for="max">Number of words:</label> <input type="number" value="250" min="1" id="max">
+  <p><label for="per-line"><input type="checkbox" id="per-line"> One word per line</label>
+  <!--<p><label for="colours">Colours:</label> <a href="#" id="random-palette">get random palette</a>-->
+</div>
+
+<div style="float: left" >
+  <p><label>Spiral:</label>
+    <label for="archimedean"><input type="radio" name="spiral" id="archimedean" value="archimedean" checked="checked"> Archimedean</label>
+    <label for="rectangular"><input type="radio" name="spiral" id="rectangular" value="rectangular"> Rectangular</label>
+  <p><label for="scale">Scale:</label>
+    <label for="scale-log"><input type="radio" name="scale" id="scale-log" value="log" checked="checked"> log n</label>
+    <label for="scale-sqrt"><input type="radio" name="scale" id="scale-sqrt" value="sqrt"> √n</label>
+    <label for="scale-linear"><input type="radio" name="scale" id="scale-linear" value="linear"> n</label>
+  <p><label for="font">Font:</label> <input type="text" id="font" value="Impact">
+</div>
+
+<div id="angles" >
+  <p><input type="number" id="angle-count" value="5" min="1"> <label for="angle-count">orientations</label>
+    <label for="angle-from">from</label> <input type="number" id="angle-from" value="-60" min="-90" max="90"> °
+    <label for="angle-to">to</label> <input type="number" id="angle-to" value="60" min="-90" max="90"> °
+</div>
+</form>
+
+
+<script src="../d3.min.js"></script>
+<script src="cloud.min.js"></script>
