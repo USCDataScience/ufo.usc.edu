@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<title>Movie heatmap visualization</title>
+		
+		<script type="text/javascript" src="http://d3js.org/d3.v3.js"></script>
+		<script type="text/javascript" src="http://d3js.org/d3.hexbin.v0.min.js"></script>	
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.1.0/topojson.min.js"></script>
+		<link href="../css/team11heatmap.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body style="overflow: scroll;">
+		<div class="header" style="text-align: center;"> 
+			Heatmap showing number of movies around sightings!
+		</div>
+		<div style="text-align: center;">
+			Legend - Each sighting is a hexagon. Darker sightings implies more movies released in context!
+		</div>
+	    <div class="header" style="text-align: center;">
+			Heatmaps showing distribution of sci-fi movies realeased within a week of the sighted date for sightings after 2010
+		</div>
+		<div id="chart"></div>
+		<div class="header" style="text-align: center;">
+			Heatmaps showing distribution of sci-fi movies realeased within a week of the reported date for sightings after 2010
+		</div>
+		<div id="chart2"></div>
+		<script type="text/javascript" src="../js/team11heatmap.js"></script>
+
+	</body>
+</html>
