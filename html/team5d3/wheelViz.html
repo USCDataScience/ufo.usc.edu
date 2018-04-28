@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<style>
+	.state{
+		fill: none;
+		stroke: #a9a9a9;
+		stroke-width: 1;
+	}
+	.state:hover{
+		fill-opacity:0.5;
+	}
+	#tooltip {   
+		position: absolute;           
+		text-align: center;
+		padding: 20px;             
+		margin: 10px;
+		font: 12px sans-serif;        
+		background: lightsteelblue;   
+		border: 1px;      
+		border-radius: 2px;           
+		pointer-events: none;         
+	}
+	#tooltip h4{
+		margin:0;
+		font-size:14px;
+	}
+	#tooltip{
+		background:rgba(0,0,0,0.9);
+		border:1px solid grey;
+		border-radius:5px;
+		font-size:12px;
+		width:auto;
+		padding:4px;
+		color:white;
+		opacity:0;
+	}
+	#tooltip table{
+		table-layout:fixed;
+	}
+	#tooltip tr td{
+		padding:0;
+		margin:0;
+	}
+	#tooltip tr td:nth-child(1){
+		width:50px;
+	}
+	#tooltip tr td:nth-child(2){
+		text-align:center;
+	}
+	.box {
+        border: 1px solid #555555;
+        font-size: 1em;
+        margin: 0px 1px 1px 1px;
+        padding: 8px;
+        display: inline-block;
+		margin-left: 30em;
+    }
+</style>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team 5 UFO Insights</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scrolling Nav CSS -->
+    <link href="../../css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../../css/styles.css" rel="stylesheet">
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <div id="nav-main">
+    <nav class="navbar mav-main navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">  
+              <nav id="nav-wrap">
+                <ul class="nav navbar-nav navbar-custom">
+					<li class="current"><a class="page-scroll" href="../../index.html#intro" style="color:white">Home</a></li>
+                    <li class="hidden"><a class="page-scroll" href="../../index.html#intro" style="color:white"></a></li>
+                    <li><a class="page-scroll" href="../../index.html#about" style="color:#ffffff">About</a></li>
+                    <li><a class="page-scroll" href="../../index.html#features" style="color:#ffffff">Insights</a></li>
+                    <li><a class="page-scroll" style="color:#ffffff" href="../../index.html#learn-more">Partners</a></li>
+                </ul>
+              </nav>
+
+                <a href="http://usc.edu" class="pull-right">
+                  <img src="../../images/usc-primary-logotype.svg" width="176px" height="38px">
+                </a>
+            </div>
+        </div>
+    </nav>
+  </div>
+  <br><br><br><br>
+  <div id="wrapper" style="text-align: center;">
+        <div class="box"><b>Wheel visualization</b>
+            <p>Hover on the states to get the average distance to the nearest military base from a sighting</p>
+			<p>The center of the wheel shows the average for all the states</p>
+        </div>
+  </div>
+<script src="draw.js" ></script>
+
+</body>
+</html>
