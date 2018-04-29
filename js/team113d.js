@@ -62,7 +62,7 @@ Plotly.d3.json('../data/team113d.json', function(figure){
   var data = [trace1, trace2, trace3, trace4, trace5, trace6, trace7,trace8];
 
 var layout = {
-  title: 'Frequency distribution of different shapes for the period 2005-2010 (rotate the plot using mouse)',
+  title: 'Frequency distribution of different shapes for the period 2005-2010 (Hover and orotate the plot using mouse)',
   showlegend: false,
   scene: {
     xaxis: {title: 'Shape'},
