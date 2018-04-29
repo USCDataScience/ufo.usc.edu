@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+
+text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.node--hover circle {
+  stroke: #000;
+  stroke-width: 1.2px;
+}
+
+</style>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team 09 Insights</title>
+	
+	 <link rel="stylesheet" type="text/css" href="../../css/Team09/multiline.css">
+    <!-- Bootstrap Core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scrolling Nav CSS -->
+    <link href="../../css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../../css/styles.css" rel="stylesheet">
+	
+	
+	<!-- css for viz1 -->
+    <link href="../../css/Team09/styles.css" rel="stylesheet">
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <div id="nav-main">
+    <nav class="navbar mav-main navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">  
+              <nav id="nav-wrap">
+                <ul class="nav navbar-nav navbar-custom">
+                    <li class="current"><a class="page-scroll" href="../index.html#page-top" style="color:white">Home</a></li>
+                    <li class="hidden"><a class="page-scroll" href="#page-top" style="color:white"></a></li>
+                    <li><a class="page-scroll" href="../index.html#about" style="color:#ffffff">About</a></li>
+                    <li><a class="page-scroll" href="../index.html#features" style="color:#ffffff">Insights</a></li>
+                    <li><a class="page-scroll" style="color:#ffffff" href="../index.html#learn-more">Partners</a></li>
+                </ul>
+              </nav>
+
+                <a href="http://usc.edu" class="pull-right">
+                  <img src="../../images/usc-primary-logotype.svg" width="176px" height="38px">
+                </a>
+            </div>
+        </div>
+    </nav>
+  </div>
+
+
+    <hr class="featurette-divider">
+    <div>
+        <div class="container">
+            <footer>
+                <p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+            </footer>
+        </div>
+    </div>
+	
+	
+	<div class="container">
+	
+		<div class="row">
+			<center><h1>Trend of the shapes reported </h1></center>
+		</div>
+	
+		<div class="row">
+			<div class="col-md-2">
+				<h4><b>Description</b></h4>
+				<p>This visualization displays the trend of different shapes over the years.</p>
+				
+			</div>
+			<div class="col-md-10 chart-wrapper" id="chart-line1">
+				
+			</div>
+			
+		</div>
+		<!--Footer-->
+<footer class="page-footer font-small blue pt-4 mt-4">
+
+    <!--Footer Links-->
+    <div class="container-fluid text-right text-md-right">
+        <div class="row">
+
+           
+
+            <!--Second column-->
+            <div class="col-md-6.offset-md-6">
+                <h5 class="text-uppercase">Credits</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="https://www.linkedin.com/in/arpitbh/" target="_blank">Arpit Bhardwaj</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/renuka-raju/" target="_blank">Renuka Raju</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/sanchit-lodha/" target="_blank">Sanchit Lodha</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!--/.Second column-->
+        </div>
+    </div>
+    <!--/.Footer Links--><p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+
+    
+</footer>
+<!--/.Footer-->
+	
+	</div>
+<!-- jQuery -->
+    <script src="../../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="../../js/jquery.easing.min.js"></script>
+    <script src="../../js/scrolling-nav.js"></script>
+    <script src="../../js/cardpanel.js"></script>
+	
+	
+    <script src="http://d3js.org/d3.v3.js" charset="utf-8"></script>
+	
+
+<script type="text/javascript">
+    d3.csv('data/visualization10/shape_data.csv', function(error, data) {
+    data.forEach(function (d) {
+        d.year = +d.year;
+        // d.variableA = +d.variableA;
+        // d.variableB = +d.variableB;
+        // d.variableC = +d.variableC;
+        // d.variableD = +d.variableD;
+        d.Changing = +d.Changing
+        d.Cigar = +d.Cigar
+        d.Circle = +d.Circle
+        d.Disk = +d.Disk
+        d.Fireball = +d.Fireball
+        d.Formation = +d.Formation
+        d.Light = +d.Light
+        d.Oval = +d.Oval
+        d.Sphere = +d.Sphere
+        d.Triangle = +d.Triangle
+    });
+
+    var chart = makeLineChart(data, 'year', {
+        'Changing': {column: 'Changing'},
+        'Cigar': {column: 'Cigar'},
+        'Circle': {column: 'Circle'},
+        'Disk': {column: 'Disk'},
+        'Fireball': {column: 'Fireball'},
+        'Formation': {column: 'Formation'},
+        'Light': {column: 'Light'},
+        'Oval': {column: 'Oval'},
+        'Sphere': {column: 'Sphere'},
+        'Triangle': {column: 'Triangle'}
+        // 'Variable A': {column: 'variableA'},
+        // 'Variable B': {column: 'variableB'},
+        // 'Variable C': {column: 'variableC'},
+        // 'Variable D': {column: 'variableD'}
+    }, {xAxis: 'Years', yAxis: 'Amount'});
+    chart.bind("#chart-line1");
+    chart.render();
+
+});
+</script>
+<script src="../../js/Team09/multiline.js" charset="utf-8"></script>
+</body>
+</html>
