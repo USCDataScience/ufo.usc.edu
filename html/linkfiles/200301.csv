@@ -1,0 +1,379 @@
+origin,destination
+Burbank  CA,San Francisco  CA
+San Francisco  CA,Burbank  CA
+Burbank  CA,Lodi  WI
+Lodi  WI,Burbank  CA
+Burbank  CA,Holden  ME
+Holden  ME,Burbank  CA
+Burbank  CA,Marion  IN
+Marion  IN,Burbank  CA
+Burbank  CA,Yuma  AZ
+Yuma  AZ,Burbank  CA
+Burbank  CA,San Jose  CA
+San Jose  CA,Burbank  CA
+Burbank  CA,Bellevue  NE
+Bellevue  NE,Burbank  CA
+Burbank  CA,Houston  TX
+Houston  TX,Burbank  CA
+Burbank  CA,Imperial Beach  CA
+Imperial Beach  CA,Burbank  CA
+Burbank  CA,Pismo Beach  CA
+Pismo Beach  CA,Burbank  CA
+Burbank  CA,Conyers  GA
+Conyers  GA,Burbank  CA
+Burbank  CA,Mocksville  NC
+Mocksville  NC,Burbank  CA
+Burbank  CA,McAllen  TX
+McAllen  TX,Burbank  CA
+Los Angeles  CA,Torrance  CA
+Torrance  CA,Los Angeles  CA
+Los Angeles  CA,San Jose  CA
+San Jose  CA,Los Angeles  CA
+Los Angeles  CA,Winnebago  MN
+Winnebago  MN,Los Angeles  CA
+Los Angeles  CA,Orange County  CA
+Orange County  CA,Los Angeles  CA
+Los Angeles  CA,Dillsburg  PA
+Dillsburg  PA,Los Angeles  CA
+Westminster  MD,Marshall  TX
+Marshall  TX,Westminster  MD
+Westminster  MD,Bayport  NY
+Bayport  NY,Westminster  MD
+Westminster  MD,Chula Vista  CA
+Chula Vista  CA,Westminster  MD
+Westminster  MD,Elsberry  MO
+Elsberry  MO,Westminster  MD
+Westminster  MD,San Isidro  TX
+San Isidro  TX,Westminster  MD
+Westminster  MD,Rte 85 South  Exit 74  NC
+Rte 85 South  Exit 74  NC,Westminster  MD
+Westminster  MD,Medina  OH
+Medina  OH,Westminster  MD
+Westminster  MD,Cashiers  NC
+Cashiers  NC,Westminster  MD
+Westminster  MD,Unity  NH
+Unity  NH,Westminster  MD
+Portland  OR,Navarre Beach  FL
+Navarre Beach  FL,Portland  OR
+Portland  OR,Plain Dealing  LA
+Plain Dealing  LA,Portland  OR
+Portland  OR,Clare  MI
+Clare  MI,Portland  OR
+San Diego  CA,Charlotte  NC
+Charlotte  NC,San Diego  CA
+San Diego  CA,Moundville  AL
+Moundville  AL,San Diego  CA
+San Diego  CA,Montclair  CA
+Montclair  CA,San Diego  CA
+San Diego  CA,San Francisco  CA
+San Francisco  CA,San Diego  CA
+San Diego  CA,Bellingham  WA
+Bellingham  WA,San Diego  CA
+San Diego  CA,Moab  UT
+Moab  UT,San Diego  CA
+San Diego  CA,Miami  FL
+Miami  FL,San Diego  CA
+Palos Heights  IL,Middlesex Township  PA
+Middlesex Township  PA,Palos Heights  IL
+Palos Heights  IL,Washington Courthouse  OH
+Washington Courthouse  OH,Palos Heights  IL
+Palos Heights  IL,Chula Vista  CA
+Chula Vista  CA,Palos Heights  IL
+Palos Heights  IL,Hephzibah  GA
+Hephzibah  GA,Palos Heights  IL
+Palos Heights  IL,McKinleyville  CA
+McKinleyville  CA,Palos Heights  IL
+Palos Heights  IL,Pittsburgh  PA
+Pittsburgh  PA,Palos Heights  IL
+Palos Heights  IL,Post Falls  ID
+Post Falls  ID,Palos Heights  IL
+Palos Heights  IL,Morro Bay  CA
+Morro Bay  CA,Palos Heights  IL
+Palos Heights  IL,Houston  TX
+Houston  TX,Palos Heights  IL
+Palos Heights  IL,Philadelphia  PA
+Philadelphia  PA,Palos Heights  IL
+Wichita  KS,Carol Stream  IL
+Carol Stream  IL,Wichita  KS
+Wichita  KS,Pendleton  KY
+Pendleton  KY,Wichita  KS
+Wichita  KS,Spicewood  TX
+Spicewood  TX,Wichita  KS
+Wichita  KS,Union City  CA
+Union City  CA,Wichita  KS
+Wichita  KS,Wauwatosa  WI
+Wauwatosa  WI,Wichita  KS
+Wichita  KS,Williamsburg  OH
+Williamsburg  OH,Wichita  KS
+Wichita  KS,Albany  NY
+Albany  NY,Wichita  KS
+Wichita  KS,Daedanelle  AR
+Daedanelle  AR,Wichita  KS
+Wichita  KS,Cincinnati  OH
+Cincinnati  OH,Wichita  KS
+Wichita  KS,Rock Springs  WY
+Rock Springs  WY,Wichita  KS
+Wichita  KS,Santa Barbara  CA
+Santa Barbara  CA,Wichita  KS
+Cibolo  TX,Portsmouth  OH
+Portsmouth  OH,Cibolo  TX
+Cibolo  TX,Pageland  SC
+Pageland  SC,Cibolo  TX
+Cibolo  TX,Havre  MT
+Havre  MT,Cibolo  TX
+Cibolo  TX,Vancleave  MS
+Vancleave  MS,Cibolo  TX
+Cibolo  TX,Snohomish  WA
+Snohomish  WA,Cibolo  TX
+Cibolo  TX,Sun City Center  FL
+Sun City Center  FL,Cibolo  TX
+Burbank  CA,Lockport  NY
+Lockport  NY,Burbank  CA
+Burbank  CA,Old Town  ME
+Old Town  ME,Burbank  CA
+Burbank  CA,Aiken  SC
+Aiken  SC,Burbank  CA
+Burbank  CA,Falls Church  VA
+Falls Church  VA,Burbank  CA
+Burbank  CA,Cullman  AL
+Cullman  AL,Burbank  CA
+Burbank  CA,Olympia  WA
+Olympia  WA,Burbank  CA
+Burbank  CA,Woodbury  CT
+Woodbury  CT,Burbank  CA
+Burbank  CA,Carbondale  IL
+Carbondale  IL,Burbank  CA
+Burbank  CA,Huntsville  AR
+Huntsville  AR,Burbank  CA
+Burbank  CA,Princess Anne  MD
+Princess Anne  MD,Burbank  CA
+Norman  OK,Winter Springs  FL
+Winter Springs  FL,Norman  OK
+Norman  OK,Mahwah  NJ
+Mahwah  NJ,Norman  OK
+Norman  OK,Williamsburg  VA
+Williamsburg  VA,Norman  OK
+Apple Valley  CA,Pleasant Hill  CA
+Pleasant Hill  CA,Apple Valley  CA
+Apple Valley  CA,Burbank  CA
+Burbank  CA,Apple Valley  CA
+Apple Valley  CA,Biloxi  MS
+Biloxi  MS,Apple Valley  CA
+Apple Valley  CA,Moab  UT
+Moab  UT,Apple Valley  CA
+Apple Valley  CA,Pillager  MN
+Pillager  MN,Apple Valley  CA
+Chicago  IL,Ponca  OK
+Ponca  OK,Chicago  IL
+Chicago  IL,Jackson  NJ
+Jackson  NJ,Chicago  IL
+Lorain  OH,Ridgefield  WA
+Ridgefield  WA,Lorain  OH
+Lorain  OH,Greenwood  WI
+Greenwood  WI,Lorain  OH
+Lorain  OH,Capitola  FL
+Capitola  FL,Lorain  OH
+Lorain  OH,Grandview  MO
+Grandview  MO,Lorain  OH
+Lorain  OH,Wisconsin Dells  WI
+Wisconsin Dells  WI,Lorain  OH
+Lorain  OH,Boise  ID
+Boise  ID,Lorain  OH
+Lorain  OH,West Bend  WI
+West Bend  WI,Lorain  OH
+Lorain  OH,Peru  IN
+Peru  IN,Lorain  OH
+Lorain  OH,Henderson  NV
+Henderson  NV,Lorain  OH
+Burbank  CA,Fair Oaks  CA
+Fair Oaks  CA,Burbank  CA
+Burbank  CA,Reedsburg  WI
+Reedsburg  WI,Burbank  CA
+Burbank  CA,Washington  PA
+Washington  PA,Burbank  CA
+Burbank  CA,Grand Junction  CO
+Grand Junction  CO,Burbank  CA
+Burbank  CA,Jackson  NJ
+Jackson  NJ,Burbank  CA
+Burbank  CA,Millville  NJ
+Millville  NJ,Burbank  CA
+Burbank  CA,Taos  NM
+Taos  NM,Burbank  CA
+Burbank  CA,Napa  CA
+Napa  CA,Burbank  CA
+Burbank  CA,Lewisville  TX
+Lewisville  TX,Burbank  CA
+Burbank  CA,Simi Valley  CA
+Simi Valley  CA,Burbank  CA
+Burbank  CA,Sterling Heights  MI
+Sterling Heights  MI,Burbank  CA
+Boaz  AL,Dallas  TX
+Dallas  TX,Boaz  AL
+Boaz  AL,Sturgeon Bay  WI
+Sturgeon Bay  WI,Boaz  AL
+Boaz  AL,Phoenixville  PA
+Phoenixville  PA,Boaz  AL
+Boaz  AL,El Paso  TX
+El Paso  TX,Boaz  AL
+Boaz  AL,Hudson Falls  NY
+Hudson Falls  NY,Boaz  AL
+Boaz  AL,Simi Valley  CA
+Simi Valley  CA,Boaz  AL
+Boaz  AL,Tucker  GA
+Tucker  GA,Boaz  AL
+Boaz  AL,Escondido  CA
+Escondido  CA,Boaz  AL
+Boaz  AL,na  WA
+na  WA,Boaz  AL
+Boaz  AL,Wildrose  ND
+Wildrose  ND,Boaz  AL
+Boaz  AL,Portchester  NY
+Portchester  NY,Boaz  AL
+Boaz  AL,Mountain View  AR
+Mountain View  AR,Boaz  AL
+Boaz  AL,Martinez  CA
+Martinez  CA,Boaz  AL
+Boaz  AL,Boylston  MA
+Boylston  MA,Boaz  AL
+Mokena  IL,Burbank  CA
+Burbank  CA,Mokena  IL
+Mokena  IL,Sequoia National Park  CA
+Sequoia National Park  CA,Mokena  IL
+Mokena  IL,Danville  PA
+Danville  PA,Mokena  IL
+Mokena  IL,Stryker  OH
+Stryker  OH,Mokena  IL
+Glen Mills  PA,Lynnwood  WA
+Lynnwood  WA,Glen Mills  PA
+Glen Mills  PA,Oveido  FL
+Oveido  FL,Glen Mills  PA
+Glen Mills  PA,Shasta Lake  CA
+Shasta Lake  CA,Glen Mills  PA
+Glen Mills  PA,Fort Hood  TX
+Fort Hood  TX,Glen Mills  PA
+Everett  WA,Dillsburg  PA
+Dillsburg  PA,Everett  WA
+Everett  WA,Sandwich  MA
+Sandwich  MA,Everett  WA
+Everett  WA,Spanaway  WA
+Spanaway  WA,Everett  WA
+Everett  WA,Newark  NJ
+Newark  NJ,Everett  WA
+Everett  WA,Huntsville  AL
+Huntsville  AL,Everett  WA
+Maricopa  AZ,Oxnard  CA
+Oxnard  CA,Maricopa  AZ
+Maricopa  AZ,Crawfordsville  IN
+Crawfordsville  IN,Maricopa  AZ
+Maricopa  AZ,Salisbury  MD
+Salisbury  MD,Maricopa  AZ
+Maricopa  AZ,Salem  OR
+Salem  OR,Maricopa  AZ
+Maricopa  AZ,Prospect  CT
+Prospect  CT,Maricopa  AZ
+Maricopa  AZ,Costa Mesa  CA
+Costa Mesa  CA,Maricopa  AZ
+Maricopa  AZ,Derry  NH
+Derry  NH,Maricopa  AZ
+Maricopa  AZ,Labelle  TX
+Labelle  TX,Maricopa  AZ
+Maricopa  AZ,Union Beach  NJ
+Union Beach  NJ,Maricopa  AZ
+Kelso  WA,Alma Center  WI
+Alma Center  WI,Kelso  WA
+Kelso  WA,Burbank  CA
+Burbank  CA,Kelso  WA
+Kelso  WA,Gilbert  AZ
+Gilbert  AZ,Kelso  WA
+Kelso  WA,Prescott  WI
+Prescott  WI,Kelso  WA
+Kelso  WA,Napa  CA
+Napa  CA,Kelso  WA
+Natchitoches  LA,New York City  NY
+New York City  NY,Natchitoches  LA
+Natchitoches  LA,Windham  NH
+Windham  NH,Natchitoches  LA
+Natchitoches  LA,San Rafael  CA
+San Rafael  CA,Natchitoches  LA
+Natchitoches  LA,Fort Smith  AR
+Fort Smith  AR,Natchitoches  LA
+Natchitoches  LA,Anchorage  AK
+Anchorage  AK,Natchitoches  LA
+Natchitoches  LA,Prescot  AZ
+Prescot  AZ,Natchitoches  LA
+Sutherlin  OR,Burbank  CA
+Burbank  CA,Sutherlin  OR
+Sutherlin  OR,Fruita  CO
+Fruita  CO,Sutherlin  OR
+Sutherlin  OR,Van Nuys  CA
+Van Nuys  CA,Sutherlin  OR
+Sutherlin  OR,Lancaster  PA
+Lancaster  PA,Sutherlin  OR
+Sherman Oaks  CA,Mabank  TX
+Mabank  TX,Sherman Oaks  CA
+Sherman Oaks  CA,Chickasaw  AL
+Chickasaw  AL,Sherman Oaks  CA
+Sherman Oaks  CA,Van Nuys  CA
+Van Nuys  CA,Sherman Oaks  CA
+Washington  DC,Doylestown  PA
+Doylestown  PA,Washington  DC
+Washington  DC,Gresham  OR
+Gresham  OR,Washington  DC
+Washington  DC,Fernley @ Intersate 80 West  NV
+Fernley @ Intersate 80 West  NV,Washington  DC
+Washington  DC,Monroe  MI
+Monroe  MI,Washington  DC
+Puyallup  WA,Jacksonville  FL
+Jacksonville  FL,Puyallup  WA
+Puyallup  WA,Apex  NC
+Apex  NC,Puyallup  WA
+Puyallup  WA,Bend  OR
+Bend  OR,Puyallup  WA
+Puyallup  WA,National City  CA
+National City  CA,Puyallup  WA
+Puyallup  WA,Beaverton  OR
+Beaverton  OR,Puyallup  WA
+Puyallup  WA,Satellite Beach  FL
+Satellite Beach  FL,Puyallup  WA
+Morehead City  NC,North Las Vegas  NV
+North Las Vegas  NV,Morehead City  NC
+Morehead City  NC,Riverside  CA
+Riverside  CA,Morehead City  NC
+Morehead City  NC,Azusa  CA
+Azusa  CA,Morehead City  NC
+Morehead City  NC,Stockbridge  GA
+Stockbridge  GA,Morehead City  NC
+Morehead City  NC,Irvine  CA
+Irvine  CA,Morehead City  NC
+Morehead City  NC,Los Angeles  CA
+Los Angeles  CA,Morehead City  NC
+Morehead City  NC,Oklahoma City  OK
+Oklahoma City  OK,Morehead City  NC
+Morehead City  NC,Sand Lake  MI
+Sand Lake  MI,Morehead City  NC
+Morehead City  NC,Houghton  MI
+Houghton  MI,Morehead City  NC
+Spanish Fork  UT,Gorham  ME
+Gorham  ME,Spanish Fork  UT
+Spanish Fork  UT,Beachwood  OH
+Beachwood  OH,Spanish Fork  UT
+Spanish Fork  UT,Hot Springs  AR
+Hot Springs  AR,Spanish Fork  UT
+Spanish Fork  UT,Columbus  OH
+Columbus  OH,Spanish Fork  UT
+Littleton  CO,Pinellas Park  FL
+Pinellas Park  FL,Littleton  CO
+Littleton  CO,Farmington  CT
+Farmington  CT,Littleton  CO
+Littleton  CO,Albany  NY
+Albany  NY,Littleton  CO
+Littleton  CO,Columbus  OH
+Columbus  OH,Littleton  CO
+Littleton  CO,Orchid Island  FL
+Orchid Island  FL,Littleton  CO
+Littleton  CO,Tustin  CA
+Tustin  CA,Littleton  CO
+Littleton  CO,Summit Point  WV
+Summit Point  WV,Littleton  CO
+Littleton  CO,Deltona  FL
+Deltona  FL,Littleton  CO

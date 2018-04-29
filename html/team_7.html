@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Smog</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scrolling Nav CSS -->
+    <link href="../css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/styles.css" rel="stylesheet">
+
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Play:700,400' type='text/css'>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="http://iop.io/js/vendor/d3.v3.min.js"></script>
+    <script type="text/javascript" src="http://iop.io/js/vendor/polymer/PointerEvents/pointerevents.js"></script>
+    <script type="text/javascript" src="http://iop.io/js/vendor/polymer/PointerGestures/pointergestures.js"></script>
+    <script type="text/javascript" src="http://iop.io/js/iopctrl.js"></script>
+
+    <style>
+        .slider {
+            height: 1em;
+            margin: 5%;
+            min-width: 11em;
+            max-width: 90%;
+        }
+        .slider-digit {
+            cursor:            pointer;
+            margin:            -.6em;
+            position:        absolute;
+            top:            .32em;
+        }
+
+        /* Taken from jQueryUI */
+
+        .ui-slider { background-color: #FA0; position: relative; text-align: left; }
+        .ui-slider .ui-slider-handle { background-color: #FF0; position: absolute; z-index: 2; width: 1.2em; height: 1.2em; cursor: default; }
+        .ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; background-position: 0 0; }
+
+        .ui-slider-horizontal { height: .8em; }
+        .ui-slider-horizontal .ui-slider-handle { top: -.3em; margin-left: -.6em; }
+        .ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
+        .ui-slider-horizontal .ui-slider-range-min { left: 0; }
+        .ui-slider-horizontal .ui-slider-range-max { right: 0; }
+
+        .ui-slider-vertical { width: .8em; height: 100px; }
+        .ui-slider-vertical .ui-slider-handle { left: -.3em; margin-left: 0; margin-bottom: -.6em; }
+        .ui-slider-vertical .ui-slider-range { left: 0; width: 100%; }
+        .ui-slider-vertical .ui-slider-range-min { bottom: 0; }
+        .ui-slider-vertical .ui-slider-range-max { top: 0; }
+        body {
+            background-color: #515151;
+        }
+
+        .unselectable {
+            -moz-user-select: -moz-none;
+            -khtml-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        /* css formats for the gauge */
+        .gauge .domain {
+            stroke-width: 2px;
+            stroke: #fff;
+        }
+
+        .gauge .tick line {
+            stroke: #fff;
+            stroke-width: 2px;
+        }
+        
+        .gauge line {
+            stroke: #fff;
+        }
+
+        .gauge .arc, .gauge .cursor {
+            opacity: 0;
+        }
+
+        .gauge .major {
+            fill: #fff;
+            font-size: 20px;
+            font-family: 'Play', verdana, sans-serif;
+            font-weight: normal;
+        }
+        
+        .gauge .indicator {
+            stroke: #EE3311;
+            fill: #000;
+            stroke-width: 4px;
+        }
+
+        /* css formats for the segment display */
+        .segdisplay .on {
+            fill: #00FFFF;
+
+        }
+
+        .segdisplay .off {
+            fill: #00FFFF;
+            opacity: 0.15;
+        }
+
+    </style>
+</head>
+
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <div id="nav-main">
+    <nav class="navbar mav-main navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">  
+              <nav id="nav-wrap">
+                <ul class="nav navbar-nav navbar-custom">
+                    <li class="current"><a class="page-scroll" href="#page-top" style="color:white">Home</a></li>
+                    <li class="hidden"><a class="page-scroll" href="#page-top" style="color:white"></a></li>
+                    <li><a class="page-scroll" href="#about" style="color:#ffffff">About</a></li>
+                    <li><a class="page-scroll" href="#features" style="color:#ffffff">Insights</a></li>
+                    <li><a class="page-scroll" style="color:#ffffff" href="#learn-more">Partners</a></li>
+                </ul>
+              </nav>
+
+                <a href="http://usc.edu" class="pull-right">
+                  <img src="../images/usc-primary-logotype.svg" width="176px" height="38px">
+                </a>
+            </div>
+        </div>
+    </nav>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <br>
+    <div>
+        <div class="container">
+            <nav class="navbar navbar-default navbar-static-top">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse" style="color:#fff">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a style="color:#fff" href="#">Smog</a></li>
+                    <li><a style="color:#fff" href="Team7_duration.html">Duration</a></li>
+                    <li><a style="color:#fff" href="Team7_sightingConnect.html">Sightings</a></li>
+                    <li><a style="color:#fff" href="Team7_pieShapeSighting.html">Shapes</a></li>
+                    <li><a style="color:#fff" href="AerialObjectCount.html">Aerial</a></li>
+                    <li><a style="color:#fff" href="ufo-bubble-chart.html">Events</a></li>
+                    <li><a style="color:#fff" href="Grouped+Stacked bars.html">Airport Distance</a></li>
+                    <li><a style="color:#fff" href="wordcloud.html">Image captions</a></li>
+                    <li><a style="color:#fff" href="loc.html">Location Map</a></li>
+                    <li><a style="color:#fff" href="drinking.html" target="_blank">Drinking</a></li>
+                    <li><a style="color:#fff" href="overall.html" target="_blank">Overall</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+        <div style="color:white; font-size: 20px;">Number of occurrances with same smog value</div><br>
+        <div style="color:white;">Move the yellow bar to different smog values to view the number of UFO sightings with the specified value. Note: move the bar slowly to allow the meter to catch up. 
+        <div>
+            <span id="smogLevel"></span>
+        </div>
+        <div style="color:white;">Smog Value: <span id="smogVal"></span></div>
+        <div class="slider ui-corner-all"></div>
+        </div>
+
+        <footer>
+                <p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+        </footer>
+        
+    </div>
+
+    <script>
+
+        d3.json("smog.json", function(data){
+            var smogDict = {};
+            var smogList = [];
+            var i;
+            for(i = 0; i < data.length; i++)
+            {
+                smogDict[data[i]["smogValue"]] = data[i]["occurrence"];
+                smogList.push(data[i]["smogValue"]);
+            }
+            smogList.sort(function(a,b){return a - b});
+
+            
+            var svg = d3.select("#smogLevel")
+                    .append("svg:svg")
+                    .attr("width", 800)
+                    .attr("height", 500);
+
+
+            var gauge = iopctrl.arcslider()
+                    .radius(240)
+                    .events(false)
+                    .indicator(iopctrl.defaultGaugeIndicator);
+            gauge.axis().orient("in")
+                    .normalize(true)
+                    .ticks(12)
+                    .tickSubdivide(3)
+                    .tickSize(10, 8, 10)
+                    .tickPadding(5)
+                    .scale(d3.scale.linear()
+                            .domain([0, 520])
+                            .range([-3*Math.PI/4, 3*Math.PI/4]));
+
+            var segDisplay = iopctrl.segdisplay()
+                    .width(160)
+                    .digitCount(6)
+                    .negative(false)
+                    .decimals(0);
+
+            svg.append("g")
+                    .attr("class", "segdisplay")
+                    .attr("transform", "translate(130, 200)")
+                    .call(segDisplay);
+
+            svg.append("g")
+                    .attr("class", "gauge")
+                    .call(gauge);
+
+            segDisplay.value(0);
+            gauge.value(0);
+
+            $(function() {
+                var araObj = smogList;
+                
+                $(".slider").slider({
+                        min: 0,
+                        max: araObj.length,
+                        value: 0,
+                        create: function() {
+                            $(this).children().addClass("ui-corner-all");
+                            $(this).append($('<span></span>').css("left","0%").addClass("slider-digit"));
+                            for (i=0;i<=araObj.length;i++)
+                            {
+                                $(this).append($('<span></span>').css("left",((i+1)*(100/araObj.length))+"%").addClass("slider-digit").text("|"));
+                            };
+                        },
+                         slide: function( event, ui ) {
+                            $("#smogVal").text(araObj[ui.value]);
+                            segDisplay.value(smogDict[araObj[ui.value]]);
+                            gauge.value(smogDict[araObj[ui.value]]);
+                        }
+                    });
+            });
+
+        });
+    </script>
+    
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/scrolling-nav.js"></script>
+    <script src="../js/cardpanel.js"></script>
+</body>
+</html>

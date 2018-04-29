@@ -1,0 +1,459 @@
+origin,destination
+Lemont  PA,Middletown  NJ
+Middletown  NJ,Lemont  PA
+Lemont  PA,Flagstaff  AZ
+Flagstaff  AZ,Lemont  PA
+Lemont  PA,Arlington  MO
+Arlington  MO,Lemont  PA
+Lemont  PA,Dothan  AL
+Dothan  AL,Lemont  PA
+Lemont  PA,Bee Cave  TX
+Bee Cave  TX,Lemont  PA
+Lemont  PA,Coldwater  MI
+Coldwater  MI,Lemont  PA
+Lemont  PA,Dora  MO
+Dora  MO,Lemont  PA
+Modesto  CA,Port Charlotte Harbor  FL
+Port Charlotte Harbor  FL,Modesto  CA
+Modesto  CA,Orangevale  CA
+Orangevale  CA,Modesto  CA
+Modesto  CA,Cold Spring  NY
+Cold Spring  NY,Modesto  CA
+Modesto  CA,Millville  NJ
+Millville  NJ,Modesto  CA
+Modesto  CA,Lodi  CA
+Lodi  CA,Modesto  CA
+Modesto  CA,Minneapolis  MN
+Minneapolis  MN,Modesto  CA
+Modesto  CA,Rodanthe  NC
+Rodanthe  NC,Modesto  CA
+Modesto  CA,Boomer  NC
+Boomer  NC,Modesto  CA
+Williamsburg  VA,Moore  OK
+Moore  OK,Williamsburg  VA
+Williamsburg  VA,Brookfield  CT
+Brookfield  CT,Williamsburg  VA
+Chicago  IL,Birmingham  AL
+Birmingham  AL,Chicago  IL
+Chicago  IL,Fort White  FL
+Fort White  FL,Chicago  IL
+Jacksonville  FL,Northlake  IL
+Northlake  IL,Jacksonville  FL
+Jacksonville  FL,Charlotte  NC
+Charlotte  NC,Jacksonville  FL
+Jacksonville  FL,Parkersburg  WV
+Parkersburg  WV,Jacksonville  FL
+Jacksonville  FL,Fresno  CA
+Fresno  CA,Jacksonville  FL
+Jacksonville  FL,Margate  FL
+Margate  FL,Jacksonville  FL
+Jacksonville  FL,Atascadero  CA
+Atascadero  CA,Jacksonville  FL
+Jacksonville  FL,Belleville  IL
+Belleville  IL,Jacksonville  FL
+Jacksonville  FL,Columbia  MO
+Columbia  MO,Jacksonville  FL
+Jacksonville  FL,Keysville  GA
+Keysville  GA,Jacksonville  FL
+Jacksonville  FL,Olive Branch  MS
+Olive Branch  MS,Jacksonville  FL
+Jacksonville  FL,Watertown  TN
+Watertown  TN,Jacksonville  FL
+Jacksonville  FL,Orangevale  CA
+Orangevale  CA,Jacksonville  FL
+Port Clinton  OH,Columbus  OH
+Columbus  OH,Port Clinton  OH
+Port Clinton  OH,Pittsburgh  PA
+Pittsburgh  PA,Port Clinton  OH
+Port Clinton  OH,Duncansville  PA
+Duncansville  PA,Port Clinton  OH
+Port Clinton  OH,Park Ridge  IL
+Park Ridge  IL,Port Clinton  OH
+Port Clinton  OH,Mont Clare  PA
+Mont Clare  PA,Port Clinton  OH
+Port Clinton  OH,Mundelein  IL
+Mundelein  IL,Port Clinton  OH
+Port Clinton  OH,Arlington  VA
+Arlington  VA,Port Clinton  OH
+Port Clinton  OH,Carroll  OH
+Carroll  OH,Port Clinton  OH
+Port Clinton  OH,Gay  WV
+Gay  WV,Port Clinton  OH
+Port Clinton  OH,Winchester  KY
+Winchester  KY,Port Clinton  OH
+Port Clinton  OH,Suwannee  GA
+Suwannee  GA,Port Clinton  OH
+Port Clinton  OH,Mebane  NC
+Mebane  NC,Port Clinton  OH
+Port Clinton  OH,Mukwonago  WI
+Mukwonago  WI,Port Clinton  OH
+Port Clinton  OH,Ripley  OH
+Ripley  OH,Port Clinton  OH
+Port Clinton  OH,Smithville  MO
+Smithville  MO,Port Clinton  OH
+Port Clinton  OH,Buford  GA
+Buford  GA,Port Clinton  OH
+Dawsonville  GA,Tulare  CA
+Tulare  CA,Dawsonville  GA
+Dawsonville  GA,Somerset  NJ
+Somerset  NJ,Dawsonville  GA
+Dawsonville  GA,Dorsey  IL
+Dorsey  IL,Dawsonville  GA
+Dawsonville  GA,Hancock  MD
+Hancock  MD,Dawsonville  GA
+Dawsonville  GA,Atlanta  GA
+Atlanta  GA,Dawsonville  GA
+Dawsonville  GA,Annapolis  MD
+Annapolis  MD,Dawsonville  GA
+Dawsonville  GA,Tucson  AZ
+Tucson  AZ,Dawsonville  GA
+Dawsonville  GA,Glendale  CA
+Glendale  CA,Dawsonville  GA
+Dawsonville  GA,Butler  MO
+Butler  MO,Dawsonville  GA
+Dawsonville  GA,San Luis Obispo  CA
+San Luis Obispo  CA,Dawsonville  GA
+Dawsonville  GA,Antioch Community  SC
+Antioch Community  SC,Dawsonville  GA
+Dawsonville  GA,Saint Joseph  MO
+Saint Joseph  MO,Dawsonville  GA
+Dawsonville  GA,Brooklyn  MI
+Brooklyn  MI,Dawsonville  GA
+Dawsonville  GA,Mount Ida  AR
+Mount Ida  AR,Dawsonville  GA
+Dawsonville  GA,Hot Springs  AR
+Hot Springs  AR,Dawsonville  GA
+Dawsonville  GA,Pattonville  TX
+Pattonville  TX,Dawsonville  GA
+Dawsonville  GA,Mountain View  CA
+Mountain View  CA,Dawsonville  GA
+Portage  MI,Prescott  AZ
+Prescott  AZ,Portage  MI
+Portage  MI,Gary  IN
+Gary  IN,Portage  MI
+Portage  MI,Bushkill  PA
+Bushkill  PA,Portage  MI
+Parker  CO,Tucson  AZ
+Tucson  AZ,Parker  CO
+Parker  CO,Santa Clara  CA
+Santa Clara  CA,Parker  CO
+Parker  CO,Honey Grove  TX
+Honey Grove  TX,Parker  CO
+Phoenix  AZ,West Chester  PA
+West Chester  PA,Phoenix  AZ
+Phoenix  AZ,Cincinnati  OH
+Cincinnati  OH,Phoenix  AZ
+Phoenix  AZ,Barberton  OH
+Barberton  OH,Phoenix  AZ
+Phoenix  AZ,Portage  MI
+Portage  MI,Phoenix  AZ
+Phoenix  AZ,Houston  TX
+Houston  TX,Phoenix  AZ
+Phoenix  AZ,Newburgh  NY
+Newburgh  NY,Phoenix  AZ
+Phoenix  AZ,Edwardsburg  MI
+Edwardsburg  MI,Phoenix  AZ
+Phoenix  AZ,Grayton Beach  FL
+Grayton Beach  FL,Phoenix  AZ
+Flint  TX,El Paso  TX
+El Paso  TX,Flint  TX
+Flint  TX,Bay City  MI
+Bay City  MI,Flint  TX
+Flint  TX,Richmond  KY
+Richmond  KY,Flint  TX
+Flint  TX,Tuckerton  NJ
+Tuckerton  NJ,Flint  TX
+Flint  TX,Clayton  GA
+Clayton  GA,Flint  TX
+Tulsa  OK,Peshastin  WA
+Peshastin  WA,Tulsa  OK
+Tulsa  OK,Harrington  WA
+Harrington  WA,Tulsa  OK
+Tulsa  OK,Honolulu  HI
+Honolulu  HI,Tulsa  OK
+Tulsa  OK,Kennewick  WA
+Kennewick  WA,Tulsa  OK
+Tulsa  OK,Rachel  NV
+Rachel  NV,Tulsa  OK
+Tulsa  OK,Attica  MI
+Attica  MI,Tulsa  OK
+Tulsa  OK,Phoenix  AZ
+Phoenix  AZ,Tulsa  OK
+Tulsa  OK,Statesville  NC
+Statesville  NC,Tulsa  OK
+Tulsa  OK,Blue Hills  MA
+Blue Hills  MA,Tulsa  OK
+Tulsa  OK,Nacogdoches  TX
+Nacogdoches  TX,Tulsa  OK
+Tulsa  OK,Las Vegas  NV
+Las Vegas  NV,Tulsa  OK
+Elko  NV,Edmonds  WA
+Edmonds  WA,Elko  NV
+Elko  NV,Castaic  CA
+Castaic  CA,Elko  NV
+Elko  NV,Hemet  CA
+Hemet  CA,Elko  NV
+Elko  NV,Cypress  CA
+Cypress  CA,Elko  NV
+Elko  NV,Munster  IN
+Munster  IN,Elko  NV
+Elko  NV,Van Nuys  CA
+Van Nuys  CA,Elko  NV
+Elko  NV,New Braunfels  TX
+New Braunfels  TX,Elko  NV
+Elko  NV,San Bernardino  CA
+San Bernardino  CA,Elko  NV
+Elko  NV,Edwardsburg  MI
+Edwardsburg  MI,Elko  NV
+Elko  NV,Brooklyn  MI
+Brooklyn  MI,Elko  NV
+Elko  NV,Sedona  AZ
+Sedona  AZ,Elko  NV
+Elko  NV,Pacific Palisades  CA
+Pacific Palisades  CA,Elko  NV
+Elko  NV,Edison  NJ
+Edison  NJ,Elko  NV
+Elko  NV,Batesville  IN
+Batesville  IN,Elko  NV
+Williamstown  NJ,York  PA
+York  PA,Williamstown  NJ
+Williamstown  NJ,Tipton  MI
+Tipton  MI,Williamstown  NJ
+Williamstown  NJ,Orange  CA
+Orange  CA,Williamstown  NJ
+Williamstown  NJ,Bel Air  MD
+Bel Air  MD,Williamstown  NJ
+Williamstown  NJ,Mogadore  OH
+Mogadore  OH,Williamstown  NJ
+Williamstown  NJ,Cumberland  MD
+Cumberland  MD,Williamstown  NJ
+Williamstown  NJ,Corona  CA
+Corona  CA,Williamstown  NJ
+Williamstown  NJ,Green Bay  WI
+Green Bay  WI,Williamstown  NJ
+Williamstown  NJ,Kingman  AZ
+Kingman  AZ,Williamstown  NJ
+Williamstown  NJ,Dundee  NY
+Dundee  NY,Williamstown  NJ
+Euharlee  GA,Orlando  FL
+Orlando  FL,Euharlee  GA
+Euharlee  GA,Greenwood  IN
+Greenwood  IN,Euharlee  GA
+Euharlee  GA,Arkadelphia  AR
+Arkadelphia  AR,Euharlee  GA
+Euharlee  GA,Hastings  NE
+Hastings  NE,Euharlee  GA
+Roanoke  VA,Rineyville  KY
+Rineyville  KY,Roanoke  VA
+Roanoke  VA,Washington  PA
+Washington  PA,Roanoke  VA
+Roanoke  VA,Fremont  CA
+Fremont  CA,Roanoke  VA
+Roanoke  VA,Chicago  IL
+Chicago  IL,Roanoke  VA
+Roanoke  VA,Arlington  MA
+Arlington  MA,Roanoke  VA
+Roanoke  VA,Ventura  CA
+Ventura  CA,Roanoke  VA
+Roanoke  VA,San Francisco  CA
+San Francisco  CA,Roanoke  VA
+Roanoke  VA,Barstow  CA
+Barstow  CA,Roanoke  VA
+Roanoke  VA,Lancaster  PA
+Lancaster  PA,Roanoke  VA
+Roanoke  VA,Los Angeles  CA
+Los Angeles  CA,Roanoke  VA
+Roanoke  VA,Johns Island  SC
+Johns Island  SC,Roanoke  VA
+Hayden  CO,Philipsburg  PA
+Philipsburg  PA,Hayden  CO
+Hayden  CO,Vancouver  WA
+Vancouver  WA,Hayden  CO
+Hayden  CO,Port Saint Lucie  FL
+Port Saint Lucie  FL,Hayden  CO
+Hayden  CO,Parlier  CA
+Parlier  CA,Hayden  CO
+Hayden  CO,Palmdale  CA
+Palmdale  CA,Hayden  CO
+Hayden  CO,Chatsworth  CA
+Chatsworth  CA,Hayden  CO
+Hayden  CO,Santa Barbara  CA
+Santa Barbara  CA,Hayden  CO
+Hayden  CO,Petaluma  CA
+Petaluma  CA,Hayden  CO
+Hayden  CO,Shoreline  WA
+Shoreline  WA,Hayden  CO
+Hayden  CO,Bayfield  WI
+Bayfield  WI,Hayden  CO
+Hayden  CO,Newport  OH
+Newport  OH,Hayden  CO
+Hayden  CO,Watertown  MA
+Watertown  MA,Hayden  CO
+Hayden  CO,Unknown  NM
+Unknown  NM,Hayden  CO
+Hayden  CO,Cloverdale  CA
+Cloverdale  CA,Hayden  CO
+Hayden  CO,West Chester  OH
+West Chester  OH,Hayden  CO
+Hayden  CO,Kingston  TN
+Kingston  TN,Hayden  CO
+Forks  WA,Adams  WI
+Adams  WI,Forks  WA
+Forks  WA,Lake Forest  CA
+Lake Forest  CA,Forks  WA
+Forks  WA,Festus  MO
+Festus  MO,Forks  WA
+Forks  WA,Winnetka  CA
+Winnetka  CA,Forks  WA
+Forks  WA,Chicago  IL
+Chicago  IL,Forks  WA
+Forks  WA,Shawnee  KS
+Shawnee  KS,Forks  WA
+Forks  WA,North East  MD
+North East  MD,Forks  WA
+Forks  WA,Dana Point  CA
+Dana Point  CA,Forks  WA
+Forks  WA,West Chester  OH
+West Chester  OH,Forks  WA
+Forks  WA,Hamilton  NJ
+Hamilton  NJ,Forks  WA
+Forks  WA,Shoreham  NY
+Shoreham  NY,Forks  WA
+Forks  WA,Novi  MI
+Novi  MI,Forks  WA
+Forks  WA,North Hollywood  CA
+North Hollywood  CA,Forks  WA
+Forks  WA,Liberty  IN
+Liberty  IN,Forks  WA
+Forks  WA,Coos County  NH
+Coos County  NH,Forks  WA
+Forks  WA,Jacksonville  FL
+Jacksonville  FL,Forks  WA
+Forks  WA,Willcox  AZ
+Willcox  AZ,Forks  WA
+Forks  WA,Newtown  CT
+Newtown  CT,Forks  WA
+Forks  WA,Thornton  CO
+Thornton  CO,Forks  WA
+Forks  WA,Lake Arrowhead  CA
+Lake Arrowhead  CA,Forks  WA
+Madison  WI,Simi Valley  CA
+Simi Valley  CA,Madison  WI
+Madison  WI,Abingdon  VA
+Abingdon  VA,Madison  WI
+Madison  WI,Orlando  FL
+Orlando  FL,Madison  WI
+Madison  WI,Rolla  MO
+Rolla  MO,Madison  WI
+Madison  WI,Bremerton  WA
+Bremerton  WA,Madison  WI
+Madison  WI,Franklin  NJ
+Franklin  NJ,Madison  WI
+Kendall  FL,Houston  TX
+Houston  TX,Kendall  FL
+Kendall  FL,Cromwell  CT
+Cromwell  CT,Kendall  FL
+Kendall  FL,Wallingford  CT
+Wallingford  CT,Kendall  FL
+Kendall  FL,Whitefish  MT
+Whitefish  MT,Kendall  FL
+Kendall  FL,Hickory  NC
+Hickory  NC,Kendall  FL
+Kendall  FL,Greensboro  NC
+Greensboro  NC,Kendall  FL
+Kendall  FL,Silver City  NC
+Silver City  NC,Kendall  FL
+Kendall  FL,Arvada  CO
+Arvada  CO,Kendall  FL
+Kendall  FL,Sterling  VA
+Sterling  VA,Kendall  FL
+Shamokin  PA,Gladstone  MI
+Gladstone  MI,Shamokin  PA
+Shamokin  PA,Bellingham  MA
+Bellingham  MA,Shamokin  PA
+Shamokin  PA,Gray  TN
+Gray  TN,Shamokin  PA
+Shamokin  PA,Myrtle Beach  SC
+Myrtle Beach  SC,Shamokin  PA
+Shamokin  PA,Ocean Isle  NC
+Ocean Isle  NC,Shamokin  PA
+Shamokin  PA,Buckeye  AZ
+Buckeye  AZ,Shamokin  PA
+East Brunswick  NJ,Dix Hills  NY
+Dix Hills  NY,East Brunswick  NJ
+East Brunswick  NJ,Northport  NY
+Northport  NY,East Brunswick  NJ
+East Brunswick  NJ,Cuchara  CO
+Cuchara  CO,East Brunswick  NJ
+East Brunswick  NJ,Texarkana  TX
+Texarkana  TX,East Brunswick  NJ
+East Brunswick  NJ,Waterbury  CT
+Waterbury  CT,East Brunswick  NJ
+East Brunswick  NJ,Long Lake  NY
+Long Lake  NY,East Brunswick  NJ
+Elko  NV,Lake Orion  MI
+Lake Orion  MI,Elko  NV
+Elko  NV,Hooks  TX
+Hooks  TX,Elko  NV
+Elko  NV,Camanche  TX
+Camanche  TX,Elko  NV
+Elko  NV,Boulder  CO
+Boulder  CO,Elko  NV
+Elko  NV,Cadott  WI
+Cadott  WI,Elko  NV
+Elko  NV,San Antonio  TX
+San Antonio  TX,Elko  NV
+Elko  NV,New Brunswick  NJ
+New Brunswick  NJ,Elko  NV
+Elko  NV,Gardendale  AL
+Gardendale  AL,Elko  NV
+Philadelphia  PA,Cape Girardeau  MO
+Cape Girardeau  MO,Philadelphia  PA
+Philadelphia  PA,Lexington  TN
+Lexington  TN,Philadelphia  PA
+Philadelphia  PA,Goodlettsville  TN
+Goodlettsville  TN,Philadelphia  PA
+Philadelphia  PA,Milton  FL
+Milton  FL,Philadelphia  PA
+Philadelphia  PA,Auburn Hills  MI
+Auburn Hills  MI,Philadelphia  PA
+Philadelphia  PA,San Ramon  CA
+San Ramon  CA,Philadelphia  PA
+Philadelphia  PA,Las Cruces  NM
+Las Cruces  NM,Philadelphia  PA
+Philadelphia  PA,Liberty  NY
+Liberty  NY,Philadelphia  PA
+Bismarck  ND,Orlando  FL
+Orlando  FL,Bismarck  ND
+Bismarck  ND,Gainesville  FL
+Gainesville  FL,Bismarck  ND
+Bismarck  ND,Valley Village  CA
+Valley Village  CA,Bismarck  ND
+Bismarck  ND,Springdale  AR
+Springdale  AR,Bismarck  ND
+Bismarck  ND,St Helens  OR
+St Helens  OR,Bismarck  ND
+Bismarck  ND,Fairlawn  NJ
+Fairlawn  NJ,Bismarck  ND
+Bismarck  ND,Marlborough  MA
+Marlborough  MA,Bismarck  ND
+Bismarck  ND,Yakima  WA
+Yakima  WA,Bismarck  ND
+Bismarck  ND,Wolf Point  MT
+Wolf Point  MT,Bismarck  ND
+Bismarck  ND,Alligator Point  FL
+Alligator Point  FL,Bismarck  ND
+Bismarck  ND,Salinas  CA
+Salinas  CA,Bismarck  ND
+Bismarck  ND,Ann Arbor  MI
+Ann Arbor  MI,Bismarck  ND
+Bismarck  ND,Youngstown  OH
+Youngstown  OH,Bismarck  ND
+Bismarck  ND,Huntington  WV
+Huntington  WV,Bismarck  ND
+Bismarck  ND,Hale  MI
+Hale  MI,Bismarck  ND
+Bismarck  ND,Clovis  CA
+Clovis  CA,Bismarck  ND
+Bismarck  ND,Rogue River  OR
+Rogue River  OR,Bismarck  ND

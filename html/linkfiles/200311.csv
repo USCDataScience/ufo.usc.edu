@@ -1,0 +1,445 @@
+origin,destination
+Fairfield  CA,San Francisco  CA
+San Francisco  CA,Fairfield  CA
+Fairfield  CA,Grand Rapids  MI
+Grand Rapids  MI,Fairfield  CA
+Fairfield  CA,Miami  FL
+Miami  FL,Fairfield  CA
+Fairfield  CA,Grand Junction  CO
+Grand Junction  CO,Fairfield  CA
+Fairfield  CA,Hanover Park  IL
+Hanover Park  IL,Fairfield  CA
+Fairfield  CA,Hayward  CA
+Hayward  CA,Fairfield  CA
+Fairfield  CA,Wind Creek State Park  AL
+Wind Creek State Park  AL,Fairfield  CA
+Fairfield  CA,Oil Trough  AR
+Oil Trough  AR,Fairfield  CA
+Fairfield  CA,Ewa Beach  HI
+Ewa Beach  HI,Fairfield  CA
+Fairfield  CA,Portland  OR
+Portland  OR,Fairfield  CA
+Fairfield  CA,Lemoore  CA
+Lemoore  CA,Fairfield  CA
+Fairfield  CA,Palm Coast  FL
+Palm Coast  FL,Fairfield  CA
+Fairfield  CA,Cheyenne  WY
+Cheyenne  WY,Fairfield  CA
+Fairfield  CA,Philadelphia  PA
+Philadelphia  PA,Fairfield  CA
+Spring  TX,Inola  OK
+Inola  OK,Spring  TX
+Spring  TX,Dallas  TX
+Dallas  TX,Spring  TX
+Spring  TX,Rockford  IL
+Rockford  IL,Spring  TX
+Spring  TX,Forest Lake  MN
+Forest Lake  MN,Spring  TX
+Spring  TX,Round Lake Beach  IL
+Round Lake Beach  IL,Spring  TX
+Everett  WA,Lake Buena Vista  FL
+Lake Buena Vista  FL,Everett  WA
+Everett  WA,North Bergen  NJ
+North Bergen  NJ,Everett  WA
+Everett  WA,Charlotte  NC
+Charlotte  NC,Everett  WA
+Everett  WA,Holly Pond  AL
+Holly Pond  AL,Everett  WA
+Everett  WA,Mobile  AL
+Mobile  AL,Everett  WA
+Everett  WA,Ashdown  AR
+Ashdown  AR,Everett  WA
+Everett  WA,Morris  AL
+Morris  AL,Everett  WA
+Everett  WA,Campbell  CA
+Campbell  CA,Everett  WA
+Everett  WA,Rockledge  FL
+Rockledge  FL,Everett  WA
+Everett  WA,Miami  FL
+Miami  FL,Everett  WA
+Seattle  WA,Deming  NM
+Deming  NM,Seattle  WA
+Seattle  WA,The Colony  TX
+The Colony  TX,Seattle  WA
+Seattle  WA,Greenville  MO
+Greenville  MO,Seattle  WA
+Seattle  WA,Rye  CO
+Rye  CO,Seattle  WA
+Seattle  WA,Loveland  CO
+Loveland  CO,Seattle  WA
+Seattle  WA,Belvidere  NC
+Belvidere  NC,Seattle  WA
+Seattle  WA,Ellsinore  MO
+Ellsinore  MO,Seattle  WA
+Seattle  WA,Phoenxiville  PA
+Phoenxiville  PA,Seattle  WA
+Seattle  WA,Wexford  PA
+Wexford  PA,Seattle  WA
+Seattle  WA,Poulsbo  WA
+Poulsbo  WA,Seattle  WA
+Alexandria  VA,Pass Christian  MS
+Pass Christian  MS,Alexandria  VA
+Alexandria  VA,Granite Falls  WA
+Granite Falls  WA,Alexandria  VA
+Alexandria  VA,Parrish  FL
+Parrish  FL,Alexandria  VA
+Alexandria  VA,Burlington  VT
+Burlington  VT,Alexandria  VA
+Alexandria  VA,Horn Lake  MS
+Horn Lake  MS,Alexandria  VA
+Alexandria  VA,Portland  OR
+Portland  OR,Alexandria  VA
+Alexandria  VA,Weona-Harrisburg-Waldenburg  AR
+Weona-Harrisburg-Waldenburg  AR,Alexandria  VA
+Alexandria  VA,Mabank  TX
+Mabank  TX,Alexandria  VA
+Santa Clarita  CA,Kittery  ME
+Kittery  ME,Santa Clarita  CA
+Santa Clarita  CA,Moultrie  GA
+Moultrie  GA,Santa Clarita  CA
+Santa Clarita  CA,New Richmond  WI
+New Richmond  WI,Santa Clarita  CA
+Santa Clarita  CA,San Jose  CA
+San Jose  CA,Santa Clarita  CA
+Santa Clarita  CA,Poulsbo  WA
+Poulsbo  WA,Santa Clarita  CA
+Santa Clarita  CA,Gulfporty  MS
+Gulfporty  MS,Santa Clarita  CA
+Santa Clarita  CA,Reno  NV
+Reno  NV,Santa Clarita  CA
+El Paso  TX,Newport  OR
+Newport  OR,El Paso  TX
+El Paso  TX,Livingston  MT
+Livingston  MT,El Paso  TX
+El Paso  TX,Horizon City  TX
+Horizon City  TX,El Paso  TX
+El Paso  TX,Tulsa  OK
+Tulsa  OK,El Paso  TX
+El Paso  TX,Oxford  AL
+Oxford  AL,El Paso  TX
+El Paso  TX,Englewood  FL
+Englewood  FL,El Paso  TX
+El Paso  TX,Port Angeles  WA
+Port Angeles  WA,El Paso  TX
+El Paso  TX,Pikeville  KY
+Pikeville  KY,El Paso  TX
+El Paso  TX,Glendale  AZ
+Glendale  AZ,El Paso  TX
+New York City  NY,Holtsville  NY
+Holtsville  NY,New York City  NY
+New York City  NY,Richmond  VA
+Richmond  VA,New York City  NY
+New York City  NY,Bellingham  WA
+Bellingham  WA,New York City  NY
+New York City  NY,Battle Creek  MI
+Battle Creek  MI,New York City  NY
+New York City  NY,Parkertown  NJ
+Parkertown  NJ,New York City  NY
+New York City  NY,Sayreville  NJ
+Sayreville  NJ,New York City  NY
+New York City  NY,Phoenix  AZ
+Phoenix  AZ,New York City  NY
+New York City  NY,Washington  NC
+Washington  NC,New York City  NY
+New York City  NY,College Point  NY
+College Point  NY,New York City  NY
+Rutledge  PA,Rocklin  CA
+Rocklin  CA,Rutledge  PA
+Rutledge  PA,Hayward  CA
+Hayward  CA,Rutledge  PA
+Rutledge  PA,Batavia  IL
+Batavia  IL,Rutledge  PA
+Rutledge  PA,Springfield  MA
+Springfield  MA,Rutledge  PA
+Rutledge  PA,Kau  HI
+Kau  HI,Rutledge  PA
+Woodstock  GA,Hawks  MI
+Hawks  MI,Woodstock  GA
+Woodstock  GA,Aurora  IL
+Aurora  IL,Woodstock  GA
+Woodstock  GA,South Lyon  MI
+South Lyon  MI,Woodstock  GA
+Woodstock  GA,Lansdale  PA
+Lansdale  PA,Woodstock  GA
+Woodstock  GA,Williamstownm  MA
+Williamstownm  MA,Woodstock  GA
+Huber Heights  OH,Livermore  CA
+Livermore  CA,Huber Heights  OH
+Huber Heights  OH,El Monte  CA
+El Monte  CA,Huber Heights  OH
+Huber Heights  OH,Tomball  TX
+Tomball  TX,Huber Heights  OH
+Huber Heights  OH,Nashville  TN
+Nashville  TN,Huber Heights  OH
+Huber Heights  OH,Canton  MI
+Canton  MI,Huber Heights  OH
+Huber Heights  OH,Charlotte  NC
+Charlotte  NC,Huber Heights  OH
+Huber Heights  OH,Orlando  FL
+Orlando  FL,Huber Heights  OH
+Huber Heights  OH,Munising  MI
+Munising  MI,Huber Heights  OH
+Huber Heights  OH,Boothbay Harbor  ME
+Boothbay Harbor  ME,Huber Heights  OH
+Huber Heights  OH,Lyons  CO
+Lyons  CO,Huber Heights  OH
+Boothbay Harbor  ME,Port Orchard  WA
+Port Orchard  WA,Boothbay Harbor  ME
+Boothbay Harbor  ME,Eden  UT
+Eden  UT,Boothbay Harbor  ME
+Boothbay Harbor  ME,Hanover Park  IL
+Hanover Park  IL,Boothbay Harbor  ME
+Boothbay Harbor  ME,Vallejo  CA
+Vallejo  CA,Boothbay Harbor  ME
+Boothbay Harbor  ME,Warren  MI
+Warren  MI,Boothbay Harbor  ME
+Boothbay Harbor  ME,Hortense  GA
+Hortense  GA,Boothbay Harbor  ME
+Boothbay Harbor  ME,South Portsmouth  KY
+South Portsmouth  KY,Boothbay Harbor  ME
+Boothbay Harbor  ME,Montour Falls  NY
+Montour Falls  NY,Boothbay Harbor  ME
+Boothbay Harbor  ME,Virginia Beach  VA
+Virginia Beach  VA,Boothbay Harbor  ME
+Salisbury  MD,Palm Coast  FL
+Palm Coast  FL,Salisbury  MD
+Salisbury  MD,Englewood  FL
+Englewood  FL,Salisbury  MD
+Salisbury  MD,Bradenton  FL
+Bradenton  FL,Salisbury  MD
+Salisbury  MD,Sacramento  CA
+Sacramento  CA,Salisbury  MD
+Salisbury  MD,Jacksonville Beach  FL
+Jacksonville Beach  FL,Salisbury  MD
+Salisbury  MD,Twenty Nine Palms  CA
+Twenty Nine Palms  CA,Salisbury  MD
+Salisbury  MD,Coachella Valley  CA
+Coachella Valley  CA,Salisbury  MD
+Salisbury  MD,Superior  AZ
+Superior  AZ,Salisbury  MD
+Salisbury  MD,Tracy  CA
+Tracy  CA,Salisbury  MD
+Salisbury  MD,Santee  CA
+Santee  CA,Salisbury  MD
+Salisbury  MD,South Portsmouth  KY
+South Portsmouth  KY,Salisbury  MD
+Salisbury  MD,Sierra Vista  AZ
+Sierra Vista  AZ,Salisbury  MD
+Salisbury  MD,Sky CIty  NM
+Sky CIty  NM,Salisbury  MD
+Salisbury  MD,Gilbert  AZ
+Gilbert  AZ,Salisbury  MD
+Salisbury  MD,Watersmeet  MI
+Watersmeet  MI,Salisbury  MD
+Salisbury  MD,Apex  NC
+Apex  NC,Salisbury  MD
+Salisbury  MD,Athens  AL
+Athens  AL,Salisbury  MD
+Salisbury  MD,Albuquerque  NM
+Albuquerque  NM,Salisbury  MD
+Salisbury  MD,Irmo  SC
+Irmo  SC,Salisbury  MD
+Salisbury  MD,Poughkeepsie  NY
+Poughkeepsie  NY,Salisbury  MD
+Salisbury  MD,Strawberry  AZ
+Strawberry  AZ,Salisbury  MD
+Salisbury  MD,Union City  MI
+Union City  MI,Salisbury  MD
+Salisbury  MD,Fuquay Varina  NC
+Fuquay Varina  NC,Salisbury  MD
+Wentzville  MO,Texas City  TX
+Texas City  TX,Wentzville  MO
+Wentzville  MO,Lawton  OK
+Lawton  OK,Wentzville  MO
+Wentzville  MO,Los Angeles  CA
+Los Angeles  CA,Wentzville  MO
+Wentzville  MO,San Diego  CA
+San Diego  CA,Wentzville  MO
+Wentzville  MO,Mebane  NC
+Mebane  NC,Wentzville  MO
+Wentzville  MO,Enterprise  AL
+Enterprise  AL,Wentzville  MO
+Wentzville  MO,Corona  CA
+Corona  CA,Wentzville  MO
+Wentzville  MO,Woodland  Hills  CA
+Woodland  Hills  CA,Wentzville  MO
+Miami  FL,Yuma  AZ
+Yuma  AZ,Miami  FL
+Miami  FL,San Francisco  CA
+San Francisco  CA,Miami  FL
+Miami  FL,Burbank  CA
+Burbank  CA,Miami  FL
+Huachuca City  AZ,Los Fresnos  TX
+Los Fresnos  TX,Huachuca City  AZ
+Huachuca City  AZ,Muskego  WI
+Muskego  WI,Huachuca City  AZ
+Huachuca City  AZ,Illinois  IL
+Illinois  IL,Huachuca City  AZ
+Huachuca City  AZ,Yucaipa  CA
+Yucaipa  CA,Huachuca City  AZ
+Huachuca City  AZ,Fontana  CA
+Fontana  CA,Huachuca City  AZ
+Huachuca City  AZ,Chillicothe  OH
+Chillicothe  OH,Huachuca City  AZ
+Huachuca City  AZ,Pine Bluff  AR
+Pine Bluff  AR,Huachuca City  AZ
+Trenton  MO,Delton  MI
+Delton  MI,Trenton  MO
+Trenton  MO,Eustis  FL
+Eustis  FL,Trenton  MO
+Trenton  MO,Farisita  CO
+Farisita  CO,Trenton  MO
+Trenton  MO,Fairfield  IA
+Fairfield  IA,Trenton  MO
+Trenton  MO,Magnolia  AR
+Magnolia  AR,Trenton  MO
+Trenton  MO,Hattiesburg  MS
+Hattiesburg  MS,Trenton  MO
+Los Gatos  CA,Denham Springs  LA
+Denham Springs  LA,Los Gatos  CA
+Los Gatos  CA,Rohnert Park  CA
+Rohnert Park  CA,Los Gatos  CA
+Los Gatos  CA,Parker  KS
+Parker  KS,Los Gatos  CA
+Los Gatos  CA,Campbell  CA
+Campbell  CA,Los Gatos  CA
+Los Gatos  CA,Scotta Valley  CA
+Scotta Valley  CA,Los Gatos  CA
+Los Gatos  CA,Sunnyvale  CA
+Sunnyvale  CA,Los Gatos  CA
+Los Gatos  CA,El Rito  NM
+El Rito  NM,Los Gatos  CA
+Los Gatos  CA,Kuna  ID
+Kuna  ID,Los Gatos  CA
+Los Gatos  CA,Watertown  WI
+Watertown  WI,Los Gatos  CA
+Los Gatos  CA,Trinity  NC
+Trinity  NC,Los Gatos  CA
+Barnesville  OH,Morehead  KY
+Morehead  KY,Barnesville  OH
+Barnesville  OH,Gettysburg  PA
+Gettysburg  PA,Barnesville  OH
+Barnesville  OH,Bourbonnais  IL
+Bourbonnais  IL,Barnesville  OH
+Barnesville  OH,Mesa  AZ
+Mesa  AZ,Barnesville  OH
+Barnesville  OH,Irvine  CA
+Irvine  CA,Barnesville  OH
+Barnesville  OH,Afton  MI
+Afton  MI,Barnesville  OH
+Barnesville  OH,Waterville  ME
+Waterville  ME,Barnesville  OH
+Barnesville  OH,Lewiston  ID
+Lewiston  ID,Barnesville  OH
+Barnesville  OH,Dayton area  OH
+Dayton area  OH,Barnesville  OH
+Barnesville  OH,na  DC
+na  DC,Barnesville  OH
+Vista  CA,West Palm Beach  FL
+West Palm Beach  FL,Vista  CA
+Vista  CA,Near Harding  WV
+Near Harding  WV,Vista  CA
+Muskogee  OK,Brunswick  ME
+Brunswick  ME,Muskogee  OK
+Muskogee  OK,Seekonk  MA
+Seekonk  MA,Muskogee  OK
+Muskogee  OK,Santa Maria  CA
+Santa Maria  CA,Muskogee  OK
+Muskogee  OK,Napa  CA
+Napa  CA,Muskogee  OK
+Muskogee  OK,Cabot  AR
+Cabot  AR,Muskogee  OK
+Muskogee  OK,San Diego  CA
+San Diego  CA,Muskogee  OK
+Muskogee  OK,Piscataway  NJ
+Piscataway  NJ,Muskogee  OK
+Muskogee  OK,Ponca City  OK
+Ponca City  OK,Muskogee  OK
+Muskogee  OK,Berkeley  CA
+Berkeley  CA,Muskogee  OK
+Muskogee  OK,Seattle  WA
+Seattle  WA,Muskogee  OK
+Muskogee  OK,Johnson City  NY
+Johnson City  NY,Muskogee  OK
+Muskogee  OK,Morehead  KY
+Morehead  KY,Muskogee  OK
+Sacramento  CA,Laredo  TX
+Laredo  TX,Sacramento  CA
+Sacramento  CA,Colorado Springs  CO
+Colorado Springs  CO,Sacramento  CA
+Sacramento  CA,Coos Bay  OR
+Coos Bay  OR,Sacramento  CA
+Sacramento  CA,Fairbanks  AK
+Fairbanks  AK,Sacramento  CA
+Sacramento  CA,White Sulphur Springs  MT
+White Sulphur Springs  MT,Sacramento  CA
+Sacramento  CA,San Diego  CA
+San Diego  CA,Sacramento  CA
+Sacramento  CA,Kaufman  TX
+Kaufman  TX,Sacramento  CA
+Sacramento  CA,Destin  FL
+Destin  FL,Sacramento  CA
+Hartford  WI,Portland  OR
+Portland  OR,Hartford  WI
+Hartford  WI,Indianapolis  IN
+Indianapolis  IN,Hartford  WI
+Hartford  WI,Manitowoc  WI
+Manitowoc  WI,Hartford  WI
+Hartford  WI,Atlanta  GA
+Atlanta  GA,Hartford  WI
+Hartford  WI,Tower  MI
+Tower  MI,Hartford  WI
+Hartford  WI,Warren  OH
+Warren  OH,Hartford  WI
+Hartford  WI,Portland  ME
+Portland  ME,Hartford  WI
+Hartford  WI,Chilhowie  VA
+Chilhowie  VA,Hartford  WI
+Hartford  WI,Scarborough  ME
+Scarborough  ME,Hartford  WI
+Indianapolis  IN,Woburn  MA
+Woburn  MA,Indianapolis  IN
+Indianapolis  IN,Vernonia  OR
+Vernonia  OR,Indianapolis  IN
+Indianapolis  IN,Wichita Falls  TX
+Wichita Falls  TX,Indianapolis  IN
+Indianapolis  IN,Valencia  CA
+Valencia  CA,Indianapolis  IN
+Indianapolis  IN,Milton  VT
+Milton  VT,Indianapolis  IN
+Indianapolis  IN,York  PA
+York  PA,Indianapolis  IN
+Indianapolis  IN,The Dalles  OR
+The Dalles  OR,Indianapolis  IN
+Indianapolis  IN,Cape May County  NJ
+Cape May County  NJ,Indianapolis  IN
+Indianapolis  IN,Sellic  WA
+Sellic  WA,Indianapolis  IN
+Indianapolis  IN,Bellemont  AZ
+Bellemont  AZ,Indianapolis  IN
+Clifton  NJ,Palo Alto  CA
+Palo Alto  CA,Clifton  NJ
+Clifton  NJ,Paris  TN
+Paris  TN,Clifton  NJ
+Clifton  NJ,Walnut Creek  CA
+Walnut Creek  CA,Clifton  NJ
+Clifton  NJ,Bismarck  ND
+Bismarck  ND,Clifton  NJ
+Clifton  NJ,Cloudcroft  NM
+Cloudcroft  NM,Clifton  NJ
+Clifton  NJ,Jackson  MS
+Jackson  MS,Clifton  NJ
+Clifton  NJ,Hayward  CA
+Hayward  CA,Clifton  NJ
+Clifton  NJ,Thomas  OK
+Thomas  OK,Clifton  NJ
+Siren  WI,Bergenfield  NJ
+Bergenfield  NJ,Siren  WI
+Siren  WI,Stoughton  MA
+Stoughton  MA,Siren  WI
+Siren  WI,To remain unknown  MN
+To remain unknown  MN,Siren  WI
+Siren  WI,Limerick  PA
+Limerick  PA,Siren  WI
+Siren  WI,Grasonville  MD
+Grasonville  MD,Siren  WI

@@ -1,0 +1,269 @@
+origin,destination
+Columbia  SC,Chicago  IL
+Chicago  IL,Columbia  SC
+Columbia  SC,Belleview  FL
+Belleview  FL,Columbia  SC
+Columbia  SC,Fullerton  CA
+Fullerton  CA,Columbia  SC
+Columbia  SC,Brentwood  CA
+Brentwood  CA,Columbia  SC
+Columbia  SC,Tampa  FL
+Tampa  FL,Columbia  SC
+Columbia  SC,Ocean Shores  WA
+Ocean Shores  WA,Columbia  SC
+Columbia  SC,Columbus  GA
+Columbus  GA,Columbia  SC
+Columbia  SC,Las Vegas  NV
+Las Vegas  NV,Columbia  SC
+Columbia  SC,Route 202  NJ
+Route 202  NJ,Columbia  SC
+Columbia  SC,Chester  WV
+Chester  WV,Columbia  SC
+Columbia  SC,North Hollywood  CA
+North Hollywood  CA,Columbia  SC
+Columbia  SC,Baltimore  MD
+Baltimore  MD,Columbia  SC
+Columbia  SC,Phoenix  AZ
+Phoenix  AZ,Columbia  SC
+Columbia  SC,Wikitravel  HI
+Wikitravel  HI,Columbia  SC
+Seattle  WA,Pawtucket  RI
+Pawtucket  RI,Seattle  WA
+Seattle  WA,Helena  AL
+Helena  AL,Seattle  WA
+Seattle  WA,Brentwood  CA
+Brentwood  CA,Seattle  WA
+Seattle  WA,Melba  ID
+Melba  ID,Seattle  WA
+Seattle  WA,Fortuna  CA
+Fortuna  CA,Seattle  WA
+Seattle  WA,Alpine  CA
+Alpine  CA,Seattle  WA
+Seattle  WA,Charlotte  NC
+Charlotte  NC,Seattle  WA
+Sunnyvale  CA,Calabasas  CA
+Calabasas  CA,Sunnyvale  CA
+Sunnyvale  CA,Bremerton  WA
+Bremerton  WA,Sunnyvale  CA
+Sunnyvale  CA,Harrisburg  NC
+Harrisburg  NC,Sunnyvale  CA
+Sunnyvale  CA,Dallas  OR
+Dallas  OR,Sunnyvale  CA
+Sunnyvale  CA,Castro Valley  CA
+Castro Valley  CA,Sunnyvale  CA
+Sunnyvale  CA,Sammamish  WA
+Sammamish  WA,Sunnyvale  CA
+Dallas  OR,Buffalo  NY
+Buffalo  NY,Dallas  OR
+Dallas  OR,Orange  CA
+Orange  CA,Dallas  OR
+Dallas  OR,Los Angeles  CA
+Los Angeles  CA,Dallas  OR
+Dallas  OR,Wellington  FL
+Wellington  FL,Dallas  OR
+Dallas  OR,Renton  WA
+Renton  WA,Dallas  OR
+Dallas  OR,Cullman  AL
+Cullman  AL,Dallas  OR
+Dallas  OR,Lewisville  NC
+Lewisville  NC,Dallas  OR
+Dallas  TX,Castro Valley  CA
+Castro Valley  CA,Dallas  TX
+Dallas  TX,Chicago  IL
+Chicago  IL,Dallas  TX
+Dallas  TX,Cumberland  RI
+Cumberland  RI,Dallas  TX
+Sedona  AZ,Ashville  OH
+Ashville  OH,Sedona  AZ
+Sedona  AZ,Worcester  MA
+Worcester  MA,Sedona  AZ
+Sedona  AZ,Orinda  CA
+Orinda  CA,Sedona  AZ
+Bellevue  WA,Scottsdale  AZ
+Scottsdale  AZ,Bellevue  WA
+Bellevue  WA,Houston  TX
+Houston  TX,Bellevue  WA
+Bellevue  WA,Murfreesboro  TN
+Murfreesboro  TN,Bellevue  WA
+Bellevue  WA,Lincoln City  OR
+Lincoln City  OR,Bellevue  WA
+Bellevue  WA,Barryton  MI
+Barryton  MI,Bellevue  WA
+Bellevue  WA,Savannah  GA
+Savannah  GA,Bellevue  WA
+Bellevue  WA,Marathon  FL
+Marathon  FL,Bellevue  WA
+Modesto  CA,Lincoln City  OR
+Lincoln City  OR,Modesto  CA
+Modesto  CA,Muskego  WI
+Muskego  WI,Modesto  CA
+Modesto  CA,El Paso  TX
+El Paso  TX,Modesto  CA
+Modesto  CA,Bel Air  MD
+Bel Air  MD,Modesto  CA
+College City  CA,Lancaster  CA
+Lancaster  CA,College City  CA
+College City  CA,Thousand Oaks  CA
+Thousand Oaks  CA,College City  CA
+College City  CA,Ashtabula  OH
+Ashtabula  OH,College City  CA
+College City  CA,Chico  CA
+Chico  CA,College City  CA
+College City  CA,Belleville  IL
+Belleville  IL,College City  CA
+College City  CA,Greenfield  MA
+Greenfield  MA,College City  CA
+College City  CA,Smiths  AL
+Smiths  AL,College City  CA
+Lexington  KY,Mansfield  OH
+Mansfield  OH,Lexington  KY
+Lexington  KY,New Braunfels  TX
+New Braunfels  TX,Lexington  KY
+Lexington  KY,Wading River  NY
+Wading River  NY,Lexington  KY
+Lexington  KY,Mililani  HI
+Mililani  HI,Lexington  KY
+Phoenix  AZ,Manitowoc  WI
+Manitowoc  WI,Phoenix  AZ
+Phoenix  AZ,Baker City  OR
+Baker City  OR,Phoenix  AZ
+Phoenix  AZ,Elizabeth City  NC
+Elizabeth City  NC,Phoenix  AZ
+Phoenix  AZ,Las Vegas  NV
+Las Vegas  NV,Phoenix  AZ
+Phoenix  AZ,Atlanta  TX
+Atlanta  TX,Phoenix  AZ
+Phoenix  AZ,Portland  ME
+Portland  ME,Phoenix  AZ
+Phoenix  AZ,Morton  IL
+Morton  IL,Phoenix  AZ
+Phoenix  AZ,Birmingham  AL
+Birmingham  AL,Phoenix  AZ
+Phoenix  AZ,Riverview  MI
+Riverview  MI,Phoenix  AZ
+Phoenix  AZ,Kildeer  IL
+Kildeer  IL,Phoenix  AZ
+Phoenix  AZ,Richmond  VA
+Richmond  VA,Phoenix  AZ
+Phoenix  AZ,Urbana  IL
+Urbana  IL,Phoenix  AZ
+Phoenix  AZ,Searchlight  NV
+Searchlight  NV,Phoenix  AZ
+Phoenix  AZ,Manchester  CT
+Manchester  CT,Phoenix  AZ
+Phoenix  AZ,San Diego  CA
+San Diego  CA,Phoenix  AZ
+Phoenix  AZ,San Antonio  TX
+San Antonio  TX,Phoenix  AZ
+Phoenix  AZ,Westminster  CO
+Westminster  CO,Phoenix  AZ
+Phoenix  AZ,South El Monte  CA
+South El Monte  CA,Phoenix  AZ
+Phoenix  AZ,Baytown  TX
+Baytown  TX,Phoenix  AZ
+Phoenix  AZ,Howell  MI
+Howell  MI,Phoenix  AZ
+Phoenix  AZ,West Dover  VT
+West Dover  VT,Phoenix  AZ
+Granton  WI,Olathe  KS
+Olathe  KS,Granton  WI
+Granton  WI,San Diego  CA
+San Diego  CA,Granton  WI
+Granton  WI,Chicago  IL
+Chicago  IL,Granton  WI
+Granton  WI,San Jose  CA
+San Jose  CA,Granton  WI
+Oakwood  GA,Portland  OR
+Portland  OR,Oakwood  GA
+Oakwood  GA,Mission Viejo  CA
+Mission Viejo  CA,Oakwood  GA
+Oakwood  GA,Hawthorne  CA
+Hawthorne  CA,Oakwood  GA
+Lewes  DE,Walton  NY
+Walton  NY,Lewes  DE
+Lewes  DE,Ocala  FL
+Ocala  FL,Lewes  DE
+Lewes  DE,Jacksonville  FL
+Jacksonville  FL,Lewes  DE
+Oxford  CT,Bruce  MS
+Bruce  MS,Oxford  CT
+Oxford  CT,Henderson  NV
+Henderson  NV,Oxford  CT
+Oxford  CT,Asheville  NC
+Asheville  NC,Oxford  CT
+Ashtabula  OH,Surf City  NC
+Surf City  NC,Ashtabula  OH
+Ashtabula  OH,Ocala  FL
+Ocala  FL,Ashtabula  OH
+Ashtabula  OH,Sentinel  AZ
+Sentinel  AZ,Ashtabula  OH
+Tacoma  WA,Rancho Cucamonga  CA
+Rancho Cucamonga  CA,Tacoma  WA
+Tacoma  WA,Cartersville  GA
+Cartersville  GA,Tacoma  WA
+Tacoma  WA,Olympia  WA
+Olympia  WA,Tacoma  WA
+Tulsa  OK,Newtown  CT
+Newtown  CT,Tulsa  OK
+Tulsa  OK,Arden  NC
+Arden  NC,Tulsa  OK
+Tulsa  OK,Maryville  TN
+Maryville  TN,Tulsa  OK
+Tulsa  OK,San Antonio  TX
+San Antonio  TX,Tulsa  OK
+Tulsa  OK,Wimberley  TX
+Wimberley  TX,Tulsa  OK
+Tulsa  OK,Maui  HI
+Maui  HI,Tulsa  OK
+New Carrollton  MD,Anchorage  AK
+Anchorage  AK,New Carrollton  MD
+New Carrollton  MD,Fountain Inn  SC
+Fountain Inn  SC,New Carrollton  MD
+New Carrollton  MD,Center Harbor  NH
+Center Harbor  NH,New Carrollton  MD
+Minneapolis  MN,Piedmont  SC
+Piedmont  SC,Minneapolis  MN
+Minneapolis  MN,Rogersville  TN
+Rogersville  TN,Minneapolis  MN
+Minneapolis  MN,Morristown  TN
+Morristown  TN,Minneapolis  MN
+Minneapolis  MN,Saybrook  OH
+Saybrook  OH,Minneapolis  MN
+Phoenix  AZ,Abingdon  MD
+Abingdon  MD,Phoenix  AZ
+Phoenix  AZ,Naperville  IL
+Naperville  IL,Phoenix  AZ
+Phoenix  AZ,State College  PA
+State College  PA,Phoenix  AZ
+Phoenix  AZ,Corsica  PA
+Corsica  PA,Phoenix  AZ
+Phoenix  AZ,Miami  FL
+Miami  FL,Phoenix  AZ
+Mesa  AZ,Waianae  HI
+Waianae  HI,Mesa  AZ
+Mesa  AZ,Lyndeborough  NH
+Lyndeborough  NH,Mesa  AZ
+Mesa  AZ,Moultrie  GA
+Moultrie  GA,Mesa  AZ
+Orangevale  CA,Los Angeles  CA
+Los Angeles  CA,Orangevale  CA
+Orangevale  CA,Carson  CA
+Carson  CA,Orangevale  CA
+Modesto  CA,Yelm  WA
+Yelm  WA,Modesto  CA
+Modesto  CA,Mason  OH
+Mason  OH,Modesto  CA
+Tallahassee  FL,Homer Glen  IL
+Homer Glen  IL,Tallahassee  FL
+Tallahassee  FL,Hartford  CT
+Hartford  CT,Tallahassee  FL
+Tallahassee  FL,Puyallup  WA
+Puyallup  WA,Tallahassee  FL
+Tallahassee  FL,Penn Valley  CA
+Penn Valley  CA,Tallahassee  FL
+Tallahassee  FL,Columbia City  IN
+Columbia City  IN,Tallahassee  FL
+Tallahassee  FL,Commack  NY
+Commack  NY,Tallahassee  FL
+Tallahassee  FL,Wood River  NE
+Wood River  NE,Tallahassee  FL

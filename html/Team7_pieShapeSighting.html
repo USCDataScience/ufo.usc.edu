@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UFO Shapes</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scrolling Nav CSS -->
+    <link href="../css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/styles.css" rel="stylesheet">
+
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+<style>
+polyline{
+  opacity: .3;
+  stroke: black;
+  stroke-width: 2px;
+  fill: none;
+}
+body {
+
+}
+</style>
+
+</head>
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <div id="nav-main">
+    <nav class="navbar mav-main navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <nav id="nav-wrap">
+                <ul class="nav navbar-nav navbar-custom">
+                    <li class="current"><a class="page-scroll" href="#page-top" style="color:white">Home</a></li>
+                    <li class="hidden"><a class="page-scroll" href="#page-top" style="color:white"></a></li>
+                    <li><a class="page-scroll" href="#about" style="color:#ffffff">About</a></li>
+                    <li><a class="page-scroll" href="#features" style="color:#ffffff">Insights</a></li>
+                    <li><a class="page-scroll" style="color:#ffffff" href="#learn-more">Partners</a></li>
+                </ul>
+              </nav>
+
+                <a href="http://usc.edu" class="pull-right">
+                  <img src="../images/usc-primary-logotype.svg" width="176px" height="38px">
+                </a>
+            </div>
+        </div>
+    </nav>
+  </div>
+
+<hr class="featurette-divider">
+
+<br>
+    <div>
+        <div class="container">
+            <nav class="navbar navbar-default navbar-static-top">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse" style="color:#fff">
+                  <ul class="nav navbar-nav">
+                    <li><a style="color:#fff" href="team_7.html">Smog</a></li>
+                    <li><a style="color:#fff" href="Team7_duration.html">Duration</a></li>
+                    <li><a style="color:#fff" href="Team7_sightingConnect.html">Sightings</a></li>
+                    <li class="active"><a style="color:#fff" href="#">Shapes</a></li>
+                    <li><a style="color:#fff" href="AerialObjectCount.html">Aerial</a></li>
+                    <li><a style="color:#fff" href="ufo-bubble-chart.html">Events</a></li>
+                    <li><a style="color:#fff" href="Grouped+Stacked bars.html">Airport Distance</a></li>
+                    <li><a style="color:#fff" href="wordcloud.html">Image captions</a></li>
+                    <li><a style="color:#fff" href="loc.html">Location Map</a></li>
+                    <li><a style="color:#fff" href="drinking.html" target="_blank">Drinking</a></li>
+                    <li><a style="color:#fff" href="overall.html" target="_blank">Overall</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+            <div style="text-align: left; font-size: 20px;">Number of occurrences with UFO Shape</div>
+            <div id="chart" style="width: 1050px;height: 800px;"></div>
+
+
+            <footer>
+                <p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+            </footer>
+
+    </div>
+
+
+<script>
+d3.json("pieShapeSighting.json", function(data){
+  //var data=[{  city:"Deesa",  beautifulRatio:30},{  city:"Patan",  beautifulRatio:20},{  city:"Ahmedabad",  beautifulRatio:15},{  city:"Bhabhar",  beautifulRatio:35},{  city:"BHakhasar",  beautifulRatio:50}];
+    $("#chart").empty();
+    var pieChartConfig = {
+    mainDiv: "#chart",
+    colorRange: ["#f44842", "#f4b841", "#f4f141", "#46f441", "#41f4d9", "#4941f4"],
+    data: data,
+    caption:"label",
+    tooltipLable:"Shape",
+    value:"value"
+  };
+  var pieChart = new pieChart(pieChartConfig);
+
+  function pieChart(config) {
+    function setReSizeEvent(data) {
+        var resizeTimer;
+        window.removeEventListener('resize', function() {});
+        window.addEventListener('resize', function(event) {
+
+            if (resizeTimer !== false) {
+                clearTimeout(resizeTimer);
+            }
+            resizeTimer = setTimeout(function() {
+                $(data.mainDiv).empty();
+                drawPieChart(data);
+                clearTimeout(resizeTimer);
+            }, 500);
+        });
+    }
+    drawPieChart(config);
+    setReSizeEvent(config);
+  }
+
+  function drawPieChart(config) {
+      var data = config.data;
+      var colorRange = config.colorRange;
+      var mainDiv = config.mainDiv;
+      var mainDivName = mainDiv.substr(1, mainDiv.length);
+      var caption = config.caption;
+      var tooltipLable = config.tooltipLable;
+      var value = config.value;
+      d3.select(mainDiv).append("svg").attr("width", $(mainDiv).width()).attr("height", $(mainDiv).height());
+      var svg = d3.select(mainDiv + " svg"),
+          margin = {
+              top: 50,
+              right: 20,
+              bottom: 30,
+              left: 40
+          },
+          width = +svg.attr("width") - margin.left - margin.right,
+          height = +svg.attr("height") - margin.top - margin.bottom;
+      var g = svg.append("g").attr("transform", "translate(" + width / 2 + "," + (height+100) / 2 + ")");
+      var color = d3.scaleOrdinal(colorRange);
+      var radius = Math.min(width, height) * 0.5;
+      var pie = d3.pie()
+          .sort(null)
+          .value(function(d) {
+              return d[value];
+          });
+
+      var path = d3.arc()
+          .outerRadius(radius - 20)
+          .innerRadius(0)
+          .cornerRadius(5);
+
+      var label = d3.arc()
+          .outerRadius(radius - 40)
+          .innerRadius(radius - 40);
+      var arc = g.selectAll(".arc")
+          .data(pie(data))
+          .enter().append("g")
+          .classed("arc", true);
+
+      var pathArea = arc.append("path")
+          .attr("d", path)
+          .attr("id", function(d, i) {
+              return "arc-" + i
+          })
+          .attr("style", "fill-opacity: 0.85;")
+          .attr("fill", function(d) {
+              return color(d.data[caption]);
+          })
+          .attr("data", function(d) {
+              d.data["percentage"] = (d.endAngle - d.startAngle) / (2 * Math.PI) * 100;
+              return JSON.stringify(d.data);
+          });
+
+
+/*-----*/
+
+      function midAngle(d){
+        return d.startAngle + (d.endAngle - d.startAngle)/2;
+      }
+      var outerArc = d3.arc()
+        .innerRadius(radius )
+        .outerRadius(radius );
+
+      var tmparc = d3.arc()
+        .outerRadius(radius )
+        .innerRadius(radius * 0.9);
+
+      arc.append("polyline")
+      .attr("style","opacity: .3; stroke: black; stroke-width: 2px; fill: none; visibility: hidden;")
+      .transition().duration(1000)
+        .attrTween("points", function(d){
+          this._current = this._current || d;
+          var interpolate = d3.interpolate(this._current, d);
+          this._current = interpolate(0);
+          return function(t) {
+            var d2 = interpolate(t);
+            var pos = outerArc.centroid(d2);
+            pos[0] = radius * 1.15 * (midAngle(d2) < Math.PI ? 1 : -1);
+            return [tmparc.centroid(d2), outerArc.centroid(d2), pos];
+          };
+        });
+
+
+/*-----*/
+
+
+      //CBT:give blinking effect on mouse over
+      pathArea.on("mouseover", function(d) {
+          var currentEl = d3.select(this);
+          currentEl.attr("style", "fill-opacity:1;");
+          d3.select(this.parentNode).select("polyline").attr("style","visibility:visible");
+          d3.select(this.parentNode).select("text").attr("style","visibility:visible");
+
+          var fadeInSpeed = 120;
+          d3.select("#tooltip_" + mainDivName)
+              .transition()
+              .duration(fadeInSpeed)
+              .style("opacity", function() {
+                  return 1;
+              });
+          d3.select("#tooltip_" + mainDivName)
+              .attr("transform", function(d) {
+                  var mouseCoords = d3.mouse(this.parentNode);
+                  var xCo = mouseCoords[0] + 10;;
+                  var yCo = mouseCoords[0] + 10;
+                  return "translate(" + xCo + "," + yCo + ")";
+              });
+          //CBT:calculate tooltips text
+          var tooltipData = JSON.parse(currentEl.attr("data"));
+          var tooltipsText = "";
+          d3.selectAll("#tooltipText_" + mainDivName).text("");
+          var yPos = 0;
+          d3.selectAll("#tooltipText_" + mainDivName).append("tspan").attr("x", 0).attr("y", yPos * 10).attr("dy", "1.9em").text(tooltipLable + ":  " + d3.format("0.2f")(tooltipData["percentage"]) + "%");
+          var dims = helpers.getDimensions("tooltipText_" + mainDivName);
+          d3.selectAll("#tooltipText_" + mainDivName + " tspan")
+              .attr("x", dims.w + 2);
+
+          d3.selectAll("#tooltipRect_" + mainDivName)
+              .attr("width", dims.w + 10)
+              .attr("height", dims.h + 20);
+      });
+      pathArea.on("mousemove", function(d) {
+          var currentEl = d3.select(this);
+          d3.selectAll("#tooltip_" + mainDivName)
+              .attr("transform", function(d) {
+                  var mouseCoords = d3.mouse(this.parentNode);
+                  var xCo = mouseCoords[0] + 10;
+                  var yCo = mouseCoords[1] + 10;
+                  return "translate(" + xCo + "," + yCo + ")";
+              });
+      });
+      pathArea.on("mouseout", function(d) {
+          var currentEl = d3.select(this);
+          currentEl.attr("style", "fill-opacity:0.85;");
+          d3.select(this.parentNode).select("polyline").attr("style","visibility:hidden");
+          d3.select(this.parentNode).select("text").attr("style","visibility:hidden");
+
+          d3.select("#tooltip_" + mainDivName)
+              .style("opacity", function() {
+                  return 0;
+              });
+          d3.select("#tooltip_" + mainDivName).attr("transform", function(d, i) {
+              var x = -1000;
+              var y = -1000;
+              return "translate(" + x + "," + y + ")";
+          });
+      });
+
+      //CBT:tooltips start
+      var tooltipg = g.append("g")
+          .attr("font-family", "sans-serif")
+          .attr("font-size", 20)
+          .attr("font-weight", "bold")
+          .attr("text-anchor", "end")
+          .attr("id", "tooltip_" + mainDivName)
+          .attr("style", "opacity:0")
+          .attr("transform", "translate(-1000,-1000)");
+
+      tooltipg.append("rect")
+          .attr("id", "tooltipRect_" + mainDivName)
+          .attr("x", 0)
+          .attr("width", 120)
+          .attr("height", 80)
+          .attr("opacity", 0.8)
+          .style("fill", "#000000");
+
+      tooltipg
+          .append("text")
+          .attr("id", "tooltipText_" + mainDivName)
+          .attr("x", 30)
+          .attr("y", 15)
+          .attr("fill", "#fff")
+          .style("font-size", 20)
+          .style("font-family", "arial")
+          .attr("font-weight", "bold")
+          .text(function(d, i) {
+              return "";
+          });
+      //CBT:tooltips end
+
+
+      arc.append("text")
+          .attr("style","visibility:hidden")
+          .attr("font-size", 20)
+          .attr("font-weight", "bold")
+          .text(function(d) {
+              return d.data[caption].toString();
+          })
+          .transition().duration(1000)
+            .attrTween("transform", function(d) {
+              this._current = this._current || d;
+              var interpolate = d3.interpolate(this._current, d);
+              this._current = interpolate(0);
+              return function(t) {
+                var d2 = interpolate(t);
+                var pos = outerArc.centroid(d2);
+                pos[0] = radius *1.15* (midAngle(d2) < Math.PI ? 1 : -1);
+                return "translate("+ pos +")";
+              };
+            })
+            .styleTween("text-anchor", function(d){
+              this._current = this._current || d;
+              var interpolate = d3.interpolate(this._current, d);
+              this._current = interpolate(0);
+              return function(t) {
+                var d2 = interpolate(t);
+                return midAngle(d2) < Math.PI ? "start":"end";
+              };
+            });
+      arc.append("text")
+          //.attr("style","visibility:hidden")
+          .attr("transform", function(d) {
+              return "translate(" + label.centroid(d) + ")";
+          })
+          .attr("dy", "0.35em")
+          .attr("font-size", 20)
+          .attr("font-weight", "bold")
+          .text(function(d) {
+              return d.data[value];
+          });
+          /*
+      arc.append("text")
+        .attr("dx", 30)
+        .attr("dy", -5)
+        .append("textPath")
+        .attr("xlink:href", function(d, i) {
+            return "#arc-" + i;
+        })
+        .text(function(d) {
+            return d.data[caption].toString();
+        });
+*/
+
+
+  }
+
+  var helpers = {
+      getDimensions: function(id) {
+          var el = document.getElementById(id);
+          var w = 0,
+              h = 0;
+          if (el) {
+              var dimensions = el.getBBox();
+              w = dimensions.width;
+              h = dimensions.height;
+          } else {
+              console.log("error: getDimensions() " + id + " not found.");
+          }
+          return {
+              w: w,
+              h: h
+          };
+      }
+  }
+});
+
+</script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/scrolling-nav.js"></script>
+    <script src="../js/cardpanel.js"></script>
+</body>
+</html>
