@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+    <script src="liquidFillGauge.js" language="JavaScript"></script>
+    <style>
+        .liquidFillGaugeText { font-family: Helvetica; font-weight: bold; }
+    </style>
+</head>
+
+<style>
+
+.textrow td {
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+</style>
+<body id="body">
+
+<h2>Percentage of UFO sightings reported in Urban areas vs Rural areas based on year </h2>
+<p>Aggregation on joined dataset - The UFO sightings data when joined with Census dataset.</p>
+<p><i>Please note the data covered is 60.7 percent of the whole data. The reason being we could not gather census data before 1990 in the format we needed.</i></p>
+
+
+<div id="chart"></div>
+
+<script language="JavaScript">
+
+    function getRandomColor() {
+      var letters = '0123456789ABCDEF';
+      var color = '#';
+      for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+      }
+      return color;
+    }
+
+    var config = liquidFillGaugeDefaultSettings();
+    config.circleThickness = 0.1;
+    config.circleFillGap = 0.2;
+    config.textVertPosition = 0.8;
+    config.waveAnimateTime = 2000;
+    config.waveHeight = 0.3;
+    config.waveCount = 1;
+
+
+    $.getJSON('data.json', function(data) {
+        population = data["Data"]
+
+        for(var i=0 ; i<population.length ; i++) {
+
+            <!--var tbl = document.createElement('table');-->
+            <!--var tr1 = document.createElement('tr');-->
+            <!--var td1 = document.createElement('td');-->
+            <!--td1.setAttribute("id", "chartArea");-->
+            <!--tr1.appendChild(td1)-->
+            <!--var tr2 = document.createElement('tr');-->
+            <!--var td2 = document.createElement('td');-->
+            <!--td2.setAttribute("id", "textArea");-->
+            <!--tr2.appendChild(td2)-->
+            <!--tbl.appendChild(tr1)-->
+            <!--tbl.appendChild(tr2)-->
+
+            <!--$("#chart").append(tbl);-->
+
+            <!--var vis = d3.select("#chartArea").append("svg:svg")-->
+                <!--.attr("width", "20%")-->
+                <!--.attr("height", "200")-->
+                <!--.attr("id", "fillgauge"+population[i]["Year"])-->
+                <!--.append("svg:title")-->
+                    <!--.text(population[i]["Year"]);-->
+
+            <!--$("#textArea").append("<b>"+population[i]["Year"]+"</b>");-->
+
+
+
+
+
+            var vis = d3.select("#fillgauge"+population[i]["Year"]).append("svg:svg")
+                .attr("width", "20%")
+                .attr("height", "200")
+                .attr("id", "fillgauge"+population[i]["Year"])
+                .append("svg:title")
+                    .text(population[i]["Year"]);
+
+            color = getRandomColor();
+            config.circleColor = color;
+            config.textColor = "black";
+            config.waveTextColor = color;
+            config.waveColor = color;
+            var gauge = loadLiquidFillGauge("fillgauge"+population[i]["Year"], population[i]["Percent"], config);
+
+
+        }
+    });
+
+
+</script>
+
+<table>
+    <tr id="row1">
+        <td><svg id="fillgauge1991" width="100%" height="200"></svg></td>
+        <td><svg id="fillgauge1992" width="100%" height="200"></svg></td>
+        <td><svg id="fillgauge1993" width="100%" height="200"></svg></td>
+        <td><svg id="fillgauge1994" width="100%" height="200"></svg></td>
+        <td><svg id="fillgauge1995" width="100%" height="200"></svg></td>
+    </tr>
+    <tr class = "textrow">
+        <td>1991</td>
+        <td>1992</td>
+        <td>1993</td>
+        <td>1994</td>
+        <td>1995</td>
+    </tr>
+    <tr id="row2">
+        <td><svg id="fillgauge1996" width="100%" height="200"></svg></td>
+        <td><svg id="fillgauge1997" width="100%" height="200"></svg></td>
+        <td><svg id="fillgauge1998" width="100%" height="200"></svg></td>
+        <td><svg id="fillgauge1999" width="100%" height="200"></svg></td>
+        <td><svg id="fillgauge2000" width="100%" height="200"></svg></td>
+    </tr>
+    <tr class = "textrow">
+        <td>1996</td>
+        <td>1997</td>
+        <td>1998</td>
+        <td>1999</td>
+        <td>2000</td>
+    </tr>
+    <tr id="row3">
+        <td><svg id="fillgauge2001" width="100%" height="200"></svg></td>
+        <td><svg id="fillgauge2002" width="100%" height="200"></svg></td>
+        <td><svg id="fillgauge2003" width="100%" height="200"></svg></td>
+        <td><svg id="fillgauge2004" width="100%" height="200"></svg></td>
+        <td><svg id="fillgauge2005" width="100%" height="200"></svg></td>
+    </tr>
+    <tr class = "textrow">
+        <td>2001</td>
+        <td>2002</td>
+        <td>2003</td>
+        <td>2004</td>
+        <td>2005</td>
+    </tr>
+    <tr id="row4">
+        <td><svg id="fillgauge2006" width="100%" height="200"></svg></td>
+        <td><svg id="fillgauge2007" width="100%" height="200"></svg></td>
+        <td><svg id="fillgauge2008" width="100%" height="200"></svg></td>
+        <td><svg id="fillgauge2009" width="100%" height="200"></svg></td>
+        <td><svg id="fillgauge2010" width="100%" height="200"></svg></td>
+    </tr>
+    <tr class = "textrow">
+        <td>2006</td>
+        <td>2007</td>
+        <td>2008</td>
+        <td>2009</td>
+        <td>2010</td>
+    </tr>
+
+</table>
+
+
+</body>
+</html>
