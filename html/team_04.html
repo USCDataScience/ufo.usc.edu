@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team 04 Insights</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scrolling Nav CSS -->
+    <link href="../css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/styles.css" rel="stylesheet">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script>
+        function show_obj(obj) {
+            if (obj === 'barchart') {
+                document.getElementById("chartHeading").innerHTML = 'Top 10 Highest populated States';
+                document.getElementById("chart").innerHTML = '<object style="display: block; width: 1000px; height:1000px;" type="text/html" data="../TEAM04Files/BarChart/population_bar.html" ></object>';
+            }
+            if (obj === 'bubble') {
+                document.getElementById("chartHeading").innerHTML = '100 Cities with highest number of Sightings';
+                document.getElementById("chart").innerHTML = '<object style="display: block; width: 1000px; height:1000px;" type="text/html" data="../TEAM04Files/BubbleChart/sightings_bubble.html" ></object>';
+            }
+            if (obj === 'donut') {
+                document.getElementById("chartHeading").innerHTML = 'Chart to show different shapes reported(Top 15)';
+                document.getElementById("chart").innerHTML = '<object style="display: block; width: 1000px; height:1000px;" type="text/html" data="../TEAM04Files/DonutChart/shape_donut.html" ></object>';
+            }
+            if (obj === 'pie') {
+                document.getElementById("chartHeading").innerHTML = 'DUI consumption in different states';
+                document.getElementById("chart").innerHTML = '<object style="display: block; width: 1000px; height:1000px;" type="text/html" data="../TEAM04Files/LiquorPie/liquor_pie.html" ></object>';
+            }
+            if (obj === 'meteorite_map') {
+                document.getElementById("chartHeading").innerHTML = 'Meteorites\' Location record \ \ (Pannable)';
+                document.getElementById("chart").innerHTML = '<object style="display: block; width: 1000px; height:1000px;" type="text/html" data="../TEAM04Files/Meteorite_Map/meteorite_map.html" ></object>';
+            }
+            if (obj === 'sightings_map') {
+                document.getElementById("chartHeading").innerHTML = 'Location of sightings throughout the US';
+                document.getElementById("chart").innerHTML = '<object style="display: block; width: 1000px; height:1000px;" type="text/html" data="../TEAM04Files/SightingsDensityMap/sightings_density_map.html" ></object>';
+            }
+            if (obj === 'arc_map') {
+                document.getElementById("chartHeading").innerHTML = 'Connectivity of different Airports';
+                document.getElementById("chart").innerHTML = '<object style="display: block; width: 1000px; height:1000px;" type="text/html" data="../TEAM04Files/VoronoiArcMap/voronoi_arc_map.html" ></object>';
+            }
+            if (obj === 'military_bar') {
+                document.getElementById("chartHeading").innerHTML = 'Number of Military Bases in each state.';
+                document.getElementById("chart").innerHTML = '<object style="display: block; width: 1000px; height:1000px;" type="text/html" data="../TEAM04Files/Bar2Chart/military_bar.html" ></object>';
+            }
+            if (obj === 'movie_pie') {
+                document.getElementById("chartHeading").innerHTML = 'Probable Movie Influence based on time of release';
+                document.getElementById("chart").innerHTML = '<object style="display: block; width: 1000px; height:1000px;" type="text/html" data="../TEAM04Files/WholePie/movie_influence.html" ></object>';
+            }
+            if (obj === 'line_chart') {
+                document.getElementById("chartHeading").innerHTML = 'Number of sightings on a given date';
+                document.getElementById("chart").innerHTML = '<object style="display: block; width: 1000px; height:1000px;" type="text/html" data="../TEAM04Files/LineChart/sightings_line_chart.html" ></object>';
+            }
+            //TEAM04Files/D3_SOLR/solr-php-client
+            if (obj === 'solr') {
+                document.getElementById("chartHeading").innerHTML = 'Dynamic results from Solr Search';
+                document.getElementById("chart").innerHTML = '<object style="display: block; width: 1000px; height:1000px;" type="text/html" data="../TEAM04Files/D3_SOLR/solr-php-client/d3_solr.php" ></object>';
+                // formvalue = encodeURI(document.getElementById('query_form').elements["query"].value);
+                // console.log(formvalue);
+            }
+        }
+    </script>
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Navigation -->
+<div id="nav-main">
+    <nav class="navbar mav-main navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse" style="display: block">
+                <nav id="nav-wrap">
+                    <ul class="nav navbar-nav navbar-custom">
+                        <li class="current"><a class="page-scroll" href="#page-top" style="color:white">Home</a></li>
+                        <li class="hidden"><a class="page-scroll" href="#page-top" style="color:white"></a></li>
+                        <li><a class="page-scroll" href="#about" style="color:#ffffff">About</a></li>
+                        <li><a class="page-scroll" href="#features" style="color:#ffffff">Insights</a></li>
+                        <li><a class="page-scroll" style="color:#ffffff" href="#learn-more">Partners</a></li>
+                    </ul>
+                </nav>
+                <a href="http://usc.edu" class="pull-right">
+                    <img src="../images/usc-primary-logotype.svg" width="176px" height="38px">
+                </a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+<hr class="featurette-divider">
+<div>
+    <div class="container" style="display: block; width: 1000px; height:1000px;">
+
+        <div class="sidenav" id="side">
+            <a href="">Dummy</a>
+            <a href="javascript:show_obj('barchart');">1. Population Bar Chart</a>
+            <a href="javascript:show_obj('bubble');">2. Sightings Count Bubble Chart</a>
+            <a href="javascript:show_obj('donut');">3. UFO Shapes Donut Chart</a>
+            <a href="javascript:show_obj('pie');">4. DUI Pie Chart</a>
+            <a href="javascript:show_obj('meteorite_map');">5. Meteorite Location Map</a>
+            <a href="javascript:show_obj('sightings_map');">6. UFO Sightings Density Map</a>
+            <a href="javascript:show_obj('arc_map');">7. Air-routes N/W Map</a>
+            <a href="javascript:show_obj('military_bar');">8. Military Base Locations</a>
+            <a href="javascript:show_obj('movie_pie');">9. Movie Influenced states</a>
+            <a href="javascript:show_obj('line_chart');">10. Sightings per day</a>
+            <!--<a href="javascript:show_obj('solr');">Solr Web Service Example Query</a>-->
+            <!--<form id="query_form" action="JavaScript:show_obj('solr')">-->
+            <!--<form id="query_form" action="JavaScript:show_obj('solr')">-->
+            <a href="javascript:show_obj('solr');">Solr Visualization</a>
+            <!--<input style="margin-left: 20px" type="text" name="query">-->
+            <!--<input name="Submit" type="submit" value="Visualize"/>-->
+            </form>
+        </div>
+        <p>Hello World</p>
+        <h1 id="chartHeading"></h1>
+        <div id="chart" style="width: 1000px; height:1000px;">
+
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+           <h1> Please Click on any of the visualizations on the right.<br>
+            Thanks.</h1>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../js/bootstrap.min.js"></script>
+
+<!-- Scrolling Nav JavaScript -->
+<script src="../js/jquery.easing.min.js"></script>
+<script src="../js/scrolling-nav.js"></script>
+<script src="../js/cardpanel.js"></script>
+<footer>
+    <p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+</footer>
+</body>
+
+</html>
