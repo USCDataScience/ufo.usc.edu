@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+ <style> 
+  select {
+      right:100;
+      width: 100%;
+      padding: 16px 20px;
+      border: none;
+      border-radius: 4px;
+      background-color: #C7CBF9;
+  }
+  </style>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team 09 Insights</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scrolling Nav CSS -->
+    <link href="../../css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../../css/styles.css" rel="stylesheet">
+	
+	
+	<!-- css for viz1 -->
+    <link href="../../css/Team09/styles.css" rel="stylesheet">
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <div id="nav-main">
+    <nav class="navbar mav-main navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">  
+              <nav id="nav-wrap">
+                <ul class="nav navbar-nav navbar-custom">
+                    <li class="current"><a class="page-scroll" href="../index.html#page-top" style="color:white">Home</a></li>
+                    <li class="hidden"><a class="page-scroll" href="#page-top" style="color:white"></a></li>
+                    <li><a class="page-scroll" href="../index.html#about" style="color:#ffffff">About</a></li>
+                    <li><a class="page-scroll" href="../index.html#features" style="color:#ffffff">Insights</a></li>
+                    <li><a class="page-scroll" style="color:#ffffff" href="../index.html#learn-more">Partners</a></li>
+                </ul>
+              </nav>
+
+                <a href="http://usc.edu" class="pull-right">
+                  <img src="../../images/usc-primary-logotype.svg" width="176px" height="38px">
+                </a>
+            </div>
+        </div>
+    </nav>
+  </div>
+
+
+    <hr class="featurette-divider">
+    <div>
+        <div class="container">
+            <footer>
+                <p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+            </footer>
+        </div>
+    </div>
+	
+	
+	<div class="container">
+		<div class="row">
+			<center><h1>Word Cloud of Description by Year range</h1></center>	
+		</div>
+		
+	
+		<div class="row">
+			 <select name="year" onchange="passtod3chart(this.value)"> 
+				<option value="">Select a year range</option>
+				<option value="Before1900">Before 1900</option>
+				<option value="1900-1925">1900 - 1925</option>
+				<option value="1925-1950">1925 - 1950</option>
+				<option value="1950-1975">1950 - 1975</option>
+				<option value="1975-2000">1975 - 2000</option>
+				<option value="After2000">After 2000</option>
+			</select>
+			<div id="chart">
+			</div>
+			<br/><br/>
+			<div style="top:200px;border:1px solid #ccbebe;">
+				<h4><b>Description</b></h4>
+				<p>Size of the words indicate how frequently the words were used in that year range. <br/> *Note: Select a year range to see the word cloud</p>
+				
+			</div>
+			
+		</div>
+		
+		<footer class="page-footer font-small blue pt-4 mt-4">
+
+			<!--Footer Links-->
+			<div class="container-fluid text-right text-md-right">
+				<div class="row">
+
+				   
+
+					<!--Second column-->
+					<div class="col-md-6.offset-md-6">
+						<h5 class="text-uppercase">Credits</h5>
+						<ul class="list-unstyled">
+							<li>
+								<a href="https://www.linkedin.com/in/arpitbh/" target="_blank">Arpit Bhardwaj</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/renuka-raju/" target="_blank">Renuka Raju</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/sanchit-lodha/" target="_blank">Sanchit Lodha</a>
+							</li>
+							
+						</ul>
+					</div>
+					<!--/.Second column-->
+				</div>
+			</div>
+			<!--/.Footer Links--><p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+
+    
+		</footer>
+	
+	</div>
+<!-- jQuery -->
+    <script src="../../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="../../js/jquery.easing.min.js"></script>
+    <script src="../../js/scrolling-nav.js"></script>
+    <script src="../../js/cardpanel.js"></script>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="../../js/Team09/cloud.js"></script>
+	<!-- <body> -->
+   
+    <script>
+      var filename1 = "data/visualization3/Before1900.csv"
+      var filename2 = "data/visualization3/1900-1925.csv"
+      var filename3 = "data/visualization3/1925-1950.csv"
+      var filename4 = "data/visualization3/1950-1975.csv"
+      var filename5 = "data/visualization3/1975-2000.csv"
+      var filename6 = "data/visualization3/After2000.csv"
+
+      function passtod3chart(period){
+        if(period=="Before1900"){
+          d3.select("svg").remove();
+          drawWordCloud(filename1);
+        }
+        else if(period=="1900-1925"){
+          d3.selectAll("svg > *").remove();
+          d3.select("svg").remove();
+          drawWordCloud(filename2);
+        }
+        else if(period=="1925-1950"){
+          d3.selectAll("svg > *").remove();
+          d3.select("svg").remove();
+          drawWordCloud(filename3);
+        }
+        else if(period=="1950-1975"){
+          d3.select("svg").remove();
+          drawWordCloud(filename4);
+        }
+        else if(period=="1975-2000"){
+          d3.select("svg").remove();
+          drawWordCloud(filename5);
+        }
+        else if(period=="After2000"){
+          d3.select("svg").remove();
+          drawWordCloud(filename6);
+        }
+     }
+
+
+
+      function drawWordCloud(filename){
+
+        var common = "poop,i,me,my,myself,we,us,our,ours,ourselves,you,your,yours,yourself,yourselves,he,him,his,himself,she,her,hers,herself,it,its,itself,they,them,their,theirs,themselves,what,which,who,whom,whose,this,that,these,those,am,is,are,was,were,be,been,being,have,has,had,having,do,does,did,doing,will,would,should,can,could,ought,i'm,you're,he's,she's,it's,we're,they're,i've,you've,we've,they've,i'd,you'd,he'd,she'd,we'd,they'd,i'll,you'll,he'll,she'll,we'll,they'll,isn't,aren't,wasn't,weren't,hasn't,haven't,hadn't,doesn't,don't,didn't,won't,wouldn't,shan't,shouldn't,can't,cannot,couldn't,mustn't,let's,that's,who's,what's,here's,there's,when's,where's,why's,how's,a,an,the,and,but,if,or,because,as,until,while,of,at,by,for,with,about,against,between,into,through,during,before,after,above,below,to,from,up,upon,down,in,out,on,off,over,under,again,further,then,once,here,there,when,where,why,how,all,any,both,each,few,more,most,other,some,such,no,nor,not,only,own,same,so,than,too,very,say,says,said,shall";
+
+
+        var svg_location = "#chart";
+       // var width = $(document).width();
+        //var height = $(document).height();
+		var width = 1000;
+		var height = 500;
+        var fill = d3.scale.category20();
+        console.log(word_count)
+        var word_entries = d3.entries(word_count);
+        var word_count = {};
+        var words=new Array(100);
+        d3.csv(filename, function(error, data) {
+        for(var i=0;i<100;i++){
+          word_count[data[i].name]=parseInt(data[i].count);
+        }
+        console.log(word_count) 
+        var word_entries = d3.entries(word_count);
+        var xScale = d3.scale.linear()
+         .domain([0, d3.max(word_entries, function(d) {
+            return d.value;
+          })
+         ])
+         .range([10,100]);
+
+          d3.layout.cloud().size([width, height])
+          .timeInterval(20)
+          .words(word_entries)
+          .fontSize(function(d) { return xScale(+d.value); })
+          .text(function(d) { return d.key; })
+          .rotate(function() { return ~~(Math.random() * 2) * 90; })
+          .font("Impact")
+          .on("end", draw)
+          .start();
+
+        function draw(words) {
+          d3.select(svg_location).append("svg")
+              .attr("width", width)
+              .attr("height", height)
+            .append("g")
+              .attr("transform", "translate(" + [width >> 1, height >> 1] + ")")
+            .selectAll("text")
+              .data(words)
+            .enter().append("text")
+              .style("font-size", function(d) { return xScale(d.value) + "px"; })
+              .style("font-family", "Impact")
+              .style("fill", function(d, i) { return fill(i); })
+              .attr("text-anchor", "middle")
+              .attr("transform", function(d) {
+                return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+              })
+              .text(function(d) { return d.key; });
+        }
+
+        d3.layout.cloud().stop();
+      });
+      }
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+
+text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.node--hover circle {
+  stroke: #000;
+  stroke-width: 1.2px;
+}
+
+</style>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team 09 Insights</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scrolling Nav CSS -->
+    <link href="../../css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../../css/styles.css" rel="stylesheet">
+	
+	
+	<!-- css for viz1 -->
+    <link href="../../css/Team09/styles.css" rel="stylesheet">
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <div id="nav-main">
+    <nav class="navbar mav-main navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">  
+              <nav id="nav-wrap">
+                <ul class="nav navbar-nav navbar-custom">
+                    <li class="current"><a class="page-scroll" href="../index.html#page-top" style="color:white">Home</a></li>
+                    <li class="hidden"><a class="page-scroll" href="#page-top" style="color:white"></a></li>
+                    <li><a class="page-scroll" href="../index.html#about" style="color:#ffffff">About</a></li>
+                    <li><a class="page-scroll" href="../index.html#features" style="color:#ffffff">Insights</a></li>
+                    <li><a class="page-scroll" style="color:#ffffff" href="../index.html#learn-more">Partners</a></li>
+                </ul>
+              </nav>
+
+                <a href="http://usc.edu" class="pull-right">
+                  <img src="../../images/usc-primary-logotype.svg" width="176px" height="38px">
+                </a>
+            </div>
+        </div>
+    </nav>
+  </div>
+
+
+    <hr class="featurette-divider">
+    <div>
+        <div class="container">
+            <footer>
+                <p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+            </footer>
+        </div>
+    </div>
+	
+	
+	<div class="container">
+	
+		<div class="row">
+			<center><h1>Airports with maximum sightings near by</h1></center>
+		</div>
+	
+		<div class="row">
+			<div class="col-md-2">
+				<h4><b>Description</b></h4>
+				<p>The size of the circles is proportional to the frequency (how many sightings are close to a particular airport).For the sake of simplicity, we included only the 25 most popular airports</p>
+				
+			</div>
+			<div class="col-md-10">
+				
+				<svg width="770" height="600"><g transform="translate(1,1)"></g></svg>
+				<!-- </div> -->
+			</div>
+			
+		</div>
+		<!--Footer-->
+<footer class="page-footer font-small blue pt-4 mt-4">
+
+    <!--Footer Links-->
+    <div class="container-fluid text-right text-md-right">
+        <div class="row">
+
+           
+
+            <!--Second column-->
+            <div class="col-md-6.offset-md-6">
+                <h5 class="text-uppercase">Credits</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="https://www.linkedin.com/in/arpitbh/" target="_blank">Arpit Bhardwaj</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/renuka-raju/" target="_blank">Renuka Raju</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/sanchit-lodha/" target="_blank">Sanchit Lodha</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!--/.Second column-->
+        </div>
+    </div>
+    <!--/.Footer Links--><p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+
+    
+</footer>
+<!--/.Footer-->
+	
+	</div>
+<!-- jQuery -->
+    <script src="../../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="../../js/jquery.easing.min.js"></script>
+    <script src="../../js/scrolling-nav.js"></script>
+    <script src="../../js/cardpanel.js"></script>
+
+	
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+var format = d3.format(",d");
+
+var color = d3.scaleSequential(d3.interpolateMagma)
+    .domain([-4, 4]);
+
+var stratify = d3.stratify()
+    .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
+
+var pack = d3.pack()
+    .size([width - 2, height - 2])
+    .padding(3);
+
+d3.csv("data/visualization4/flare.csv", function(error, data) {
+  if (error) throw error;
+
+  var root = stratify(data)
+      .sum(function(d) { return d.value; })
+      .sort(function(a, b) { return b.value - a.value; });
+
+  pack(root);
+
+  var node = svg.select("g")
+    .selectAll("g")
+    .data(root.descendants())
+    .enter().append("g")
+      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+      .attr("class", function(d) { return "node" + (!d.children ? " node--leaf" : d.depth ? "" : " node--root"); })
+      .each(function(d) { d.node = this; })
+     .on("mouseover", hovered(true))
+	  //.on("mouseover",function(d){return "skdml"})
+      //.on("mouseout", function(d){return "skdml"});
+      .on("mouseout", hovered(false))
+	  .on("click",function(d){
+		console.log(d.id)
+	  return d});
+
+  node.append("circle")
+      .attr("id", function(d) { return "node-" + d.id; })
+      .attr("r", function(d) { return d.r; })
+      .style("fill", function(d) { 
+		
+		if(d.depth == 1){
+			return "rgb(234, 231, 231)"; 
+		}
+		else{
+			return "rgb(148, 179, 233)"
+		}
+		});
+
+  var leaf = node.filter(function(d) { return !d.children; });
+
+  leaf.append("clipPath")
+      .attr("id", function(d) { return "clip-" + d.id; })
+    .append("use")
+      .attr("xlink:href", function(d) { return "#node-" + d.id + ""; });
+
+  leaf.append("text")
+      .attr("clip-path", function(d) { return "url(#clip-" + d.id + ")"; })
+    .selectAll("tspan")
+    .data(function(d) { return d.id.substring(d.id.lastIndexOf(".") + 1).split(/(?=[A-Z][^A-Z])/g); })
+    .enter().append("tspan")
+      .attr("x", 0)
+      .attr("y", function(d, i, nodes) { return 13 + (i - nodes.length / 2 - 0.5) * 10; })
+      .text(function(d) { return d; });
+
+  node.append("title")
+      .text(function(d) { 
+	  if (d.id != "flare"){
+	  return (d.id).split(".")[1] + "\n" + format(d.value);
+	  }
+	  else{
+	  return "All" + "\n" + format(d.value)
+	  }
+
+	  });
+});
+
+function hovered(hover) {
+  return function(d) {
+    d3.selectAll(d.ancestors().map(function(d) { 
+	//return "hello";
+	return d.node; 
+	})).classed("node--hover", hover);
+  };
+}
+
+</script>
+
+	
+	
+</body>
+
+</html>

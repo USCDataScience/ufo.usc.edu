@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+        text {
+            font: 12px sans-serif;
+        }
+        svg {
+            display: block;
+            float: left;
+            height: 350px !important;
+            width: 350px !important;
+        }
+        html, body {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team 09 Insights</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scrolling Nav CSS -->
+    <link href="../../css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../../css/styles.css" rel="stylesheet">
+	
+	
+	<!-- css for viz1 -->
+    <link href="../../css/Team09/styles.css" rel="stylesheet">
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" class="with-3d-shadow with-transitions" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <div id="nav-main">
+    <nav class="navbar mav-main navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">  
+              <nav id="nav-wrap">
+                <ul class="nav navbar-nav navbar-custom">
+                    <li class="current"><a class="page-scroll" href="../index.html#page-top" style="color:white">Home</a></li>
+                    <li class="hidden"><a class="page-scroll" href="#page-top" style="color:white"></a></li>
+                    <li><a class="page-scroll" href="../index.html#about" style="color:#ffffff">About</a></li>
+                    <li><a class="page-scroll" href="../index.html#features" style="color:#ffffff">Insights</a></li>
+                    <li><a class="page-scroll" style="color:#ffffff" href="../index.html#learn-more">Partners</a></li>
+                </ul>
+              </nav>
+
+                <a href="http://usc.edu" class="pull-right">
+                  <img src="../../images/usc-primary-logotype.svg" width="176px" height="38px">
+                </a>
+            </div>
+        </div>
+    </nav>
+  </div>
+
+
+    <hr class="featurette-divider">
+    <div>
+        <div class="container">
+            <footer>
+                <p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+            </footer>
+        </div>
+    </div>
+	
+	
+	<div class="container">
+		
+		<div class="row">
+			
+			<h1>Sightings coinciding with satellite launches </h1>
+		</div>
+		<div class="row">
+			<div class="col-md-6" id="test1">
+			</div>
+			<div class="col-md-6">
+				<h4><b>Description</b></h4>
+				<p>The pie chart compares the satellite launch sites based on the sightings that occurred on the same date as the satellite launches from these sites.<br/>*Note: Click on the legend to see particular launch site</p>
+			</div>
+		</div>
+		<footer class="page-footer font-small blue pt-4 mt-4">
+
+			<!--Footer Links-->
+			<div class="container-fluid text-right text-md-right">
+				<div class="row">
+
+				   
+
+					<!--Second column-->
+					<div class="col-md-6.offset-md-6">
+						<h5 class="text-uppercase">Credits</h5>
+						<ul class="list-unstyled">
+							<li>
+								<a href="https://www.linkedin.com/in/arpitbh/" target="_blank">Arpit Bhardwaj</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/renuka-raju/" target="_blank">Renuka Raju</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/sanchit-lodha/" target="_blank">Sanchit Lodha</a>
+							</li>
+							
+						</ul>
+					</div>
+					<!--/.Second column-->
+				</div>
+			</div>
+			<!--/.Footer Links--><p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+
+    
+		</footer>
+	
+	</div>
+<!-- jQuery -->
+    <script src="../../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="../../js/jquery.easing.min.js"></script>
+    <script src="../../js/scrolling-nav.js"></script>
+    <script src="../../js/cardpanel.js"></script>
+	<link href="../../css/Team09/nv.d3.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js" charset="utf-8"></script>
+    <script src="../../js/Team09/nv.d3.js"></script>
+    <script src="../../js/Team09/stream_layers.js"></script>
+	
+<script>
+
+ nv.addGraph(function() {
+  var chart = nv.models.pieChart()
+      .x(function(d) { return d.label })
+      .y(function(d) { return d.value })
+      .showLabels(true);
+
+    d3.select("#test1").append('svg')
+        .datum(exampleData())
+        .transition().duration(350)
+        .call(chart);
+
+  return chart;
+});
+
+
+
+
+//Pie chart example data. Note how there is only a single array of key-value pairs.
+function exampleData() {
+  return  [
+      { 
+        "label": "Vandenberg AFB",
+        "value" : 28.56
+      } , 
+      { 
+        "label": "Cape Canaveral",
+        "value" : 57.53
+      } , 
+      { 
+        "label": "Wallops Island Flight Facility",
+        "value" : 0.05
+      } , 
+      { 
+        "label": "Sea Launch Odyssey",
+        "value" : 13.86
+      } 
+    ];
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+
+.svg_div{
+    float: left;
+
+}
+
+#numtext {
+font-size: 30px;
+display: none;
+float: left;
+}
+
+#num {
+    font-size: 30px;
+}
+
+.svg-gauge
+{
+    left:20;
+    position:all;
+    display: block;
+
+}
+/*.line-svg
+{
+     display: inline-block;
+     margin: 0 auto;
+}*/
+    .liquidFillGaugeText { font-family: Helvetica; font-weight: bold; }
+    body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+
+}
+
+.grid path,
+.grid line {
+  fill: none;
+  stroke: rgba(0, 0, 0, 0.25);
+  shape-rendering: crispEdges;
+  
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke-width: 7.5px;
+
+}
+</style>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team 09 Insights</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scrolling Nav CSS -->
+    <link href="../../css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../../css/styles.css" rel="stylesheet">
+	
+	
+	<!-- css for viz1 -->
+    <link href="../../css/Team09/styles.css" rel="stylesheet">
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <div id="nav-main">
+    <nav class="navbar mav-main navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">  
+              <nav id="nav-wrap">
+                <ul class="nav navbar-nav navbar-custom">
+                    <li class="current"><a class="page-scroll" href="../index.html#page-top" style="color:white">Home</a></li>
+                    <li class="hidden"><a class="page-scroll" href="../index.html#page-top" style="color:white"></a></li>
+                    <li><a class="page-scroll" href="../index.html#about" style="color:#ffffff">About</a></li>
+                    <li><a class="page-scroll" href="../index.html#features" style="color:#ffffff">Insights</a></li>
+                    <li><a class="page-scroll" style="color:#ffffff" href="../index.html#learn-more">Partners</a></li>
+                </ul>
+              </nav>
+
+                <a href="http://usc.edu" class="pull-right">
+                  <img src="../../images/usc-primary-logotype.svg" width="176px" height="38px">
+                </a>
+            </div>
+        </div>
+    </nav>
+  </div>
+	
+
+    <hr class="featurette-divider">
+    <div>
+        <div class="container">
+            <footer>
+                <p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+            </footer>
+        </div>
+    </div>
+	
+	
+	<div class="container">
+	
+		<div class="row">
+			
+			<h1>Insights by State</h1>
+		</div>
+
+		<div class="row" id="chart1">
+      
+
+       
+        <select id="query" style="width:600px">
+          <option disabled selected value> -- select a state -- </option>
+                <option value="AK">Alaska</option>
+                <option value="AL">Alabama</option>
+                <option value="AR">Arkansas</option>
+                <option value="AS">American Samoa</option>
+                <option value="AZ">Arizona</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DC">District of Columbia</option>
+                <option value="DE">Delaware</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="GU">Guam</option>
+                <option value="HI">Hawaii</option>
+                <option value="IA">Iowa</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MD">Maryland</option>
+                <option value="ME">Maine</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MO">Missouri</option>
+                <option value="MS">Mississippi</option>
+                <option value="MT">Montana</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="NE">Nebraska</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NV">Nevada</option>
+                <option value="NY">New York</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="PR">Puerto Rico</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VA">Virginia</option>
+                <option value="VI">Virgin Islands</option>
+                <option value="VT">Vermont</option>
+                <option value="WA">Washington</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WV">West Virginia</option>
+                <option value="WY">Wyoming</option>
+        </select> 
+
+
+<!--<input id="query" /> 
+      <button id="search">Search</button> -->
+    
+    <div id="parent">
+      <div id="numtext">Sightings: </div>
+      <div id="num"></div>
+    </div>
+
+    <div id="results" style="font-size: 15px;"></div> 
+    <div class="svg_div">
+      <svg class="svg-gauge" id="fillgauge1" width="97%" height="250" onclick="gauge1.update(NewValue());"></svg>
+			
+			
+		</div>
+    </div>
+		<footer class="page-footer font-small blue pt-4 mt-4">
+
+			<!--Footer Links-->
+			<div class="container-fluid text-right text-md-right">
+				<div class="row">
+
+				   
+
+					<!--Second column-->
+					<div class="col-md-6.offset-md-6">
+						<h5 class="text-uppercase">Credits</h5>
+						<ul class="list-unstyled">
+							<li>
+								<a href="https://www.linkedin.com/in/arpitbh/" target="_blank">Arpit Bhardwaj</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/renuka-raju/" target="_blank">Renuka Raju</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/sanchit-lodha/" target="_blank">Sanchit Lodha</a>
+							</li>
+							
+						</ul>
+					</div>
+					<!--/.Second column-->
+				</div>
+			</div>
+			<!--/.Footer Links-->
+			<!--/.Footer Links-->
+			<p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+
+    
+		</footer>
+	
+	</div>
+<!-- jQuery -->
+    <script src="../../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="../../js/jquery.easing.min.js"></script>
+    <script src="../../js/scrolling-nav.js"></script>
+    <script src="../../js/cardpanel.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+  <script src="../../js/Team09/liquidFillGauge.js" language="JavaScript"></script>
+  <script>
+    var total_sightings = 0;
+    var flag = 0;
+    $('#results').prepend(flag);
+
+    function on_data(data) {
+        $('#results').empty();
+        if (flag == 0)
+        {
+          total_sightings = data.response.numFound;
+          flag = 1;
+          return;
+        }
+        // $('#results').prepend(flag);
+        var docs = data.response.docs;
+        var airport_counts = {};
+        var years = {}
+        var num_to_month = {01:"January", 02:"February", 03:"March", 04:"April", 05:"May", 06:"June", 07:"July", 08:"August", 09:"September", 10:"October", 11:"November", 12:"December"}
+        var months = {}
+        $.each(docs, function(i, item) {
+            airport_counts[item.airport] = (airport_counts[item.airport] || 0) + 1;
+            var year = (item.sighted_at.toString()).substring(0,4);
+            year = Number(year);
+            // console.log(year);
+            if (year > 1900)
+            years[year] = (years[year] || 0) + 1;
+            var month = item.sighted_at.toString().substring(4,6);
+            month = Number(month);
+            months[month] = (months[month] || 0) + 1;
+        });
+        console.log(months[2]);
+        // console.log(years[2002]);
+        var max = -Infinity, x, ap;
+        var month_max = "";
+        var month_max_val = -Infinity;
+        for (x in airport_counts) {
+            if( airport_counts[x] > max) 
+              {
+                max = airport_counts[x];
+                ap = x;
+              }
+        }
+        for (x in months) {
+            if( months[x] > month_max_val) 
+              {
+                month_max_val = months[x];
+                month_max = x;
+              }
+        }
+        $('#results').append("Majority of the Sightings ("+max.toString()+") in "+docs[0].state+" are close to "+ap +"<br><br>");
+        $('#results').append("Most Sightings ("+month_max_val.toString()+") are seen in "+num_to_month[month_max]+". Maybe it's the weather?");
+
+        document.getElementById("numtext").style.display = 'block';
+        // console.log(typeof(parseInt('2')));
+
+        sorted = [{label:data.responseHeader.params.q.toString().split(":")[1],x:[],y:[]}];
+        for (x = 1980; x <= 2010; x++)
+        {
+            // console.log(years[x]);
+            // console.log(typeof(x))
+            sorted[0].x.push(x);
+            sorted[0].y.push(years[x]||0);
+            // console.log(year_list[x], years[year_list[x]]);
+        }
+            // console.log(sorted[0].y);
+
+        d3.select("#fillgauge1").text("");
+        // $('#results').prepend("<br>"+docs.length/total_sightings+"<br>");
+
+        
+
+        var total = 'Found ' + docs.length + ' results';
+        // $('#results').prepend('<div>' + total + '</div>');
+
+        var gauge1 = loadLiquidFillGauge("fillgauge1", docs.length/total_sightings*100);
+        var config1 = liquidFillGaugeDefaultSettings();
+        config1.circleColor = "#FF7777";
+        config1.textColor = "#FF4444";
+        config1.waveTextColor = "#FFAAAA";
+        config1.waveColor = "#FFDDDD";
+        config1.circleThickness = 0.2;
+        config1.textVertPosition = 0.2;
+        config1.waveAnimate = true;
+        config1.waveRise = false;
+        config1.waveHeightScaling = false;
+        config1.waveOffset = 0.25;
+        config1.textSize = 0.75;
+        config1.waveCount = 3;
+        config1.waveAnimateTime = 1000;
+        config1.waveHeight = 0.05;  
+
+
+d3.select("#num").transition().duration(1500).delay(0)
+    .tween("text", function(d) {
+      var i = d3.interpolateRound(0, docs.length);
+      return function(t) {
+        d3.select(this).text((i(t)));
+      };
+    });
+
+        // d3.svg.remove();
+d3.select("#svg2").remove();
+
+var data = sorted;
+var xy_chart = d3_xy_chart()
+    .width(1000)
+    .height(400)
+    .xlabel("Year")
+    .ylabel("Sightings") ;
+var svg = d3.select("#chart1").append("svg").attr("id","svg2")
+    .datum(data)
+    .call(xy_chart) ;
+
+function d3_xy_chart() {
+    var width = 900,  
+        height = 720, 
+        xlabel = "X Axis Label",
+        ylabel = "Y Axis Label" ;
+    
+    function chart(selection) {
+        selection.each(function(datasets) {
+            //
+            // Create the plot. 
+            //
+            var margin = {top: 20, right: 80, bottom: 30, left: 50}, 
+                innerwidth = width - margin.left - margin.right,
+                innerheight = height - margin.top - margin.bottom ;
+            
+            var x_scale = d3.scale.linear()
+                .range([0, innerwidth])
+                .domain([ d3.min(datasets, function(d) { return d3.min(d.x); }), 
+                          d3.max(datasets, function(d) { return d3.max(d.x); }) ]) ;
+            
+            var y_scale = d3.scale.linear()
+                .range([innerheight, 0])
+                .domain([ d3.min(datasets, function(d) { return d3.min(d.y); }),
+                          d3.max(datasets, function(d) { return d3.max(d.y); }) ]) ;
+
+            var color_scale = d3.scale.category10()
+                .domain(d3.range(datasets.length)) ;
+
+            var x_axis = d3.svg.axis().tickValues([])
+                // .scale(x_scale)
+                // .orient("bottom") ;
+
+            var y_axis = d3.svg.axis()
+                .scale(y_scale)
+                .orient("left") ;
+
+            var x_grid = d3.svg.axis()
+                .scale(x_scale)
+                .orient("bottom")
+                .tickSize(-innerheight)
+                .tickFormat(d3.format("d")) ;
+
+            var y_grid = d3.svg.axis()
+                .scale(y_scale)
+                .orient("left") 
+                .tickSize(-innerwidth)
+                .tickFormat("") ;
+
+            var draw_line = d3.svg.line()
+                .interpolate("basis")
+                .x(function(d) { return x_scale(d[0]); })
+                .y(function(d) { return y_scale(d[1]); }) ;
+
+            var svg = d3.select(this)
+                .attr("width", width)
+                .attr("height", height)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")") ;
+            
+            svg.append("g")
+                .attr("class", "x grid")
+                .attr("transform", "translate(0," + innerheight + ")")
+                .call(x_grid) ;
+
+            svg.append("g")
+                .attr("class", "y grid")
+                .call(y_grid) ;
+
+            svg.append("g")
+                .attr("class", "x axis")
+                .attr("transform", "translate(0," + innerheight + ")") 
+                .call(x_axis)
+                .append("text")
+                .attr("dy", "-.71em")
+                .attr("x", innerwidth)
+                .style("text-anchor", "end")
+                .text(xlabel) ;
+            
+            svg.append("g")
+                .attr("class", "y axis")
+                .call(y_axis)
+                .append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", 6)
+                .attr("dy", "0.71em")
+                .style("text-anchor", "end")
+                .text(ylabel) ;
+
+            var data_lines = svg.selectAll(".d3_xy_chart_line")
+                .data(datasets.map(function(d) {return d3.zip(d.x, d.y);}))
+                .enter().append("g")
+                .attr("class", "d3_xy_chart_line") ;
+            
+            data_lines.append("path")
+                .attr("class", "line")
+                .attr("d", function(d) {return draw_line(d); })
+                .attr("stroke", function(_, i) {return color_scale(i);}) ;
+            
+            data_lines.append("text")
+                .datum(function(d, i) { return {name: datasets[i].label, final: d[d.length-1]}; }) 
+                .attr("transform", function(d) { 
+                    return ( "translate(" + x_scale(d.final[0]) + "," + 
+                             y_scale(d.final[1]) + ")" ) ; })
+                .attr("x", 3)
+                .attr("dy", ".35em")
+                .attr("fill", function(_, i) { return color_scale(i); })
+                .style("font-size", "34px")
+                .text(function(d) { return d.name; }) ;
+
+        }) ;
+    }
+
+    chart.width = function(value) {
+        if (!arguments.length) return width;
+        width = value;
+        return chart;
+    };
+
+    chart.height = function(value) {
+        if (!arguments.length) return height;
+        height = value;
+        return chart;
+    };
+
+    chart.xlabel = function(value) {
+        if(!arguments.length) return xlabel ;
+        xlabel = value ;
+        return chart ;
+    } ;
+
+    chart.ylabel = function(value) {
+        if(!arguments.length) return ylabel ;
+        ylabel = value ;
+        return chart ;
+    } ;
+
+    return chart;
+
+}
+
+    
+
+
+
+    }
+        // $('#h1').append(docs.length);
+
+    function on_search() {
+        var query = $('#query').val();
+        if (query.length == 0) {
+            return;
+        }
+        //change this URL for SOLR
+        var url='http://localhost:8983/solr/sightings/select/?q=state:'+query+'&version=2.2&start=0&rows=100000&indent=on&wt=json&callback=?&json.wrf=on_data';
+        $.getJSON(url);
+    }
+
+    function on_ready() {
+
+        $('#query').change(on_search);
+        /* Hook enter to search */
+        $('body').keypress(function(e) {
+            if (e.keyCode == '13') {
+                on_search();
+            }
+        });
+    }
+    //change this URL for SOLR
+    var url='http://localhost:8983/solr/sightings/select/?q=*:*&version=2.2&start=0&rows=10&indent=on&wt=json&callback=?&json.wrf=on_data';
+
+        $.getJSON(url);
+
+    $(document).ready(on_ready);
+</script>
+</body>
+</html>

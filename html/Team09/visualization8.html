@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+    .tooltip{
+position: absolute; 
+  text-align: center; 
+  width: 13%; 
+  height:20%;   
+  padding: 2vw; 
+  font: 2vw sans-serif;  
+  font-weight:bold;
+  color:blue;
+  border: 0px;          
+  border-radius: 8px;
+  color:black;
+  box-shadow: -3px 3px 15px #cccccc;
+  opacity:3;  
+
+}
+</style>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team 09 Insights</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scrolling Nav CSS -->
+    <link href="../../css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../../css/styles.css" rel="stylesheet">
+	
+	
+	<!-- css for viz1 -->
+    <link href="../../css/Team09/styles.css" rel="stylesheet">
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <div id="nav-main">
+    <nav class="navbar mav-main navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">  
+              <nav id="nav-wrap">
+                <ul class="nav navbar-nav navbar-custom">
+                    <li class="current"><a class="page-scroll" href="../index.html#page-top" style="color:white">Home</a></li>
+                    <li class="hidden"><a class="page-scroll" href="#page-top" style="color:white"></a></li>
+                    <li><a class="page-scroll" href="../index.html#about" style="color:#ffffff">About</a></li>
+                    <li><a class="page-scroll" href="../index.html#features" style="color:#ffffff">Insights</a></li>
+                    <li><a class="page-scroll" style="color:#ffffff" href="../index.html#learn-more">Partners</a></li>
+                </ul>
+              </nav>
+
+                <a href="http://usc.edu" class="pull-right">
+                  <img src="../../images/usc-primary-logotype.svg" width="176px" height="38px">
+                </a>
+            </div>
+        </div>
+    </nav>
+  </div>
+
+
+    <hr class="featurette-divider">
+    <div>
+        <div class="container">
+            <footer>
+                <p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+            </footer>
+        </div>
+    </div>
+	
+	
+	<div class="container">
+	
+		<div class="row">
+			<center><h1>Effect of Movies on Sightings</h1></center>
+		</div>
+	
+		<div class="row">
+			<div class="col-md-2">
+				<h4><b>Description</b></h4>
+				<p>This visualization is to show which movies had most sightings close (within 100 days after) to its release date. Hover for more information</p>
+			</div>
+			<div class="col-md-10" id="svgContent">
+				
+					<!-- <div id = "svgContent"></div> -->
+			</div>
+			
+		</div>
+		<footer class="page-footer font-small blue pt-4 mt-4">
+
+			<!--Footer Links-->
+			<div class="container-fluid text-right text-md-right">
+				<div class="row">
+
+				   
+
+					<!--Second column-->
+					<div class="col-md-6.offset-md-6">
+						<h5 class="text-uppercase">Credits</h5>
+						<ul class="list-unstyled">
+							<li>
+								<a href="https://www.linkedin.com/in/arpitbh/" target="_blank">Arpit Bhardwaj</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/renuka-raju/" target="_blank">Renuka Raju</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/sanchit-lodha/" target="_blank">Sanchit Lodha</a>
+							</li>
+							
+						</ul>
+					</div>
+					<!--/.Second column-->
+				</div>
+			</div>
+			<!--/.Footer Links--><p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+
+    
+		</footer>
+	
+	
+	</div>
+<!-- jQuery -->
+    <script src="../../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="../../js/jquery.easing.min.js"></script>
+    <script src="../../js/scrolling-nav.js"></script>
+    <script src="../../js/cardpanel.js"></script>
+	<!-- <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>  -->
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script>
+var data = [ { "movie": "Battle for Terra", "date": "01 May 2009", "size": 5355 }, { "movie": "Night Skies", "date": "23 Jan 2007", "size": 1504 }, { "movie": "Galaxy Quest", "date": "25 Dec 1999", "size": 1351 }, { "movie": "Alien Agent", "date": "08 Apr 2008", "size": 1303 }, { "movie": "Decoys", "date": "27 Feb 2004", "size": 1204 }, { "movie": "Flying Saucer Rock 'N'Roll", "date": "18 Mar 2006", "size": 1199 }, { "movie": "Evolution", "date": "08 Jun 2001", "size": 1184 }, { "movie": "HG Wells' War with the World", "date": "30 Sep 2006", "size": 1170 }, { "movie": "Solaris", "date": "27 Nov 2002", "size": 1022 }, { "movie": "Star Wars: Episode II - Attack of the Clones", "date": "16 May 2002", "size": 982 }, { "movie": "Ghosts of Mars", "date": "24 Aug 2001", "size": 954 }, { "movie": "The Shadow Men", "date": "25 Sep 1998", "size": 947 }, { "movie": "AVP: Alien vs.Predator", "date": "13 Aug 2004", "size": 875 }, { "movie": "Starship Troopers 2:Hero of the Federation", "date": "04 May 2004", "size": 866 }, { "movie": "Doom", "date": "21 Oct 2005", "size": 857 }, { "movie": "Dreamcatcher", "date": "21 Mar 2003", "size": 854 }, { "movie": "Species III", "date": "27 Nov 2004", "size": 816 }, { "movie": "Lilo & Stitch 2: Stitch Has a Glitch", "date": "30 Aug 2005", "size": 802 }, { "movie": "Good Boy!", "date": "10 Oct 2003", "size": 791 }, { "movie": "Leroy & Stitch", "date": "23 Jun 2006", "size": 723 } ]
+var margin = {top:10,left:40,right:60,bottom:40};
+width = 500;
+height = 400;
+radius = Math.min(width-100,height-100)/2;
+var color = d3.scale.category10();
+var arc = d3.svg.arc()  
+         .outerRadius(radius -230)
+         .innerRadius(radius - 50)
+     .cornerRadius(20);
+var arcOver = d3.svg.arc()  
+.outerRadius(radius +50)
+.innerRadius(0);
+
+var a=width/2 - 50;
+var b=height/2 - 100;
+var svg = d3.select("#svgContent").append("svg")
+          .attr("viewBox", "0 0 " + width + " " + height/2)
+    .attr("preserveAspectRatio", "xMidYMid meet")
+          .append("g")
+          .attr("transform","translate("+a+","+b+")");
+
+      div = d3.select("body")
+			.append("div") 
+			.attr("class", "tooltip");
+var pie = d3.layout.pie()
+          .sort(null)
+          .value(function(d){return d.size;})
+      .padAngle(.02);
+var g = svg.selectAll(".arc")
+        .data(pie(data))
+        .enter()
+        .append("g")
+        .attr("class","arc")
+         .on("mousemove",function(d){
+          var mouseVal = d3.mouse(this);
+          div.style("display","none");
+          div
+          .html("Movie:"+d.data.movie+"</br>"+"Release:"+d.data.date+"</br>"+"Count:"+d.data.size)
+            .style("left", (d3.event.pageX+12) + "px")
+            .style("top", (d3.event.pageY-10) + "px")
+            .style("opacity", 1)
+            .style("display","block");
+        })
+        .on("mouseout",function(){div.html(" ").style("display","none");});
+        
+        
+        
+    g.append("path")
+    .attr("d",arc)
+    .style("fill",function(d){return color(d.data.movie);})
+     .attr("d", arc);;
+/*
+                svg.selectAll("text").data(pie(data)).enter()
+                 .append("text")
+                 .attr("class","label1")
+                 .attr("transform", function(d) {
+                 var dist=radius+15;
+               var winkel=(d.startAngle+d.endAngle)/2;
+               var x=dist*Math.sin(winkel)-4;
+               var y=-dist*Math.cos(winkel)-4;
+               
+               return "translate(" + x + "," + y + ")";
+                })
+                .attr("dy", "0.35em")
+                .attr("text-anchor", "middle")
+                
+              .text(function(d){
+                return d.value;
+              });
+              
+             
+    
+*/
+</script>
+
+
+</body>
+</html>
