@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-geo.v1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/0.0.39/topojson.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
+    <script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic");
+
+        body {
+            font-family: 'Open Sans';
+        }
+
+        svg {
+            background-color: #6699cc;
+            width: 75%;
+        }
+
+        path {
+            stroke: #333;
+            stroke-width: 0.25px;
+            fill: #33cc66;
+        }
+
+        .meteorite {
+            cursor: pointer;
+        }
+
+        .meteorite:hover {
+            opacity: 0.5;
+            border: 0.25px solid #000;
+        }
+
+        .d3-tip {
+            text-align: center;
+            background-color: #333;
+            line-height: 1.3em;
+            color: #fff;
+            width: 150px;
+            opacity: 0.7;
+            font-size: 13px;
+            padding: 5px 6px;
+            border: 1px solid #fff;
+        }
+    </style>
+    <title>Meteorite map</title>
+
+</head>
+<body>
+<script type="text/javascript">
+    // URL for world map data. from d3noob.com
+    var geoURL = "https://gist.githubusercontent.com/d3noob/5193723/raw/6e1434b2c2de24aedde9bcfe35f6a267bd2c04f5/world-110m2.json";
+    // FreeCodeCamp meteor strike data
+    var meteoriteURL = "https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json";
+    // set SVG height and width
+    var svgW = 1100;
+    var svgH = 700;
+    var map, meteorites;
+
+    // get the mapping data
+    d3.json(geoURL, function (error, json) {
+        if (error) return console.warn(error);
+        map = json;
+
+        d3.json(meteoriteURL, function (error, json) {
+            if (error) return console.warn(error);
+
+            meteorites = json;
+            makeTheMap(map, meteorites);
+        });
+    });
+
+    // make a world map!
+    function makeTheMap(map, meteorites) {
+        // simple date converter to make dates in
+        // meteorite tooltips more readable.
+        var convertDate = function (date) {
+            var format = d3.time.format("%b. %Y");
+            return format(new Date(date));
+        }
+
+        // first step in D3 map is to set projection
+        var projection = d3.geo.mercator()
+            .center([-5, 40]) // center points
+            .scale([145])  //zoom level
+            .rotate([0, 0]); // map rotation
+
+        // set the SVG width and height and append to body
+        var svg = d3.select("body")
+            .append("svg")
+            .attr("width", svgW)
+            .attr("height", svgH);
+
+        // add mercator projection
+        var path = d3.geo.path()
+            .projection(projection);
+
+        var g = svg.append("g");
+
+        // get the country paths. uses the
+        g.selectAll("path")
+            .data(topojson.object(map, map.objects.countries).geometries)
+            .enter()
+            .append("path")
+            .attr("d", path);
+
+        // add meteorite data tooltips
+        var tip = d3.tip()
+            .attr("class", "d3-tip")
+            .offset([-10, 0])
+            .html(function (d) {
+                return '<strong>Name:</strong> ' + d.properties.name + '<br>'
+                    + '<strong>Classification:</strong> '
+                    + d.properties.recclass + '<br>'
+                    + '<strong>Date:</strong> '
+                    + convertDate(d.properties.year) + '<br>'
+                    + '<strong>Fell:</strong> ' + d.properties.fall + '<br>'
+                    + '<strong>Mass:</strong> '
+                    + (d.properties.mass != null ? parseInt(d.properties.mass) +
+                        ' tons' : 'N/A') + '<br>'
+                    + '<strong>Longitude:</strong> '
+                    + (d.properties.reclong != null ? parseFloat(d.properties.reclong).toFixed(3) : 'N/A')
+                    + '<br>'
+                    + '<strong>Latitude:</strong> '
+                    + (d.properties.reclat != null ? parseFloat(d.properties.reclat).toFixed(3) : 'N/A')
+                    + '<br>';
+            });
+
+        svg.call(tip);
+
+        // add meteorites to the map
+        var meteor = g.selectAll("circle")
+            .data(meteorites.features)
+            .enter()
+            .append("circle")
+            .attr("class", "meteorite")
+            .attr("r", function (d) {
+                if (d.properties.mass != null) {
+                    var s = Math.round(Math.sqrt(d.properties.mass) / 4);
+
+                    if (s >= 0 && s <= 50) {
+                        return 3;
+                    }
+                    else if (s > 50 && s <= 100) {
+                        return 5;
+                    }
+                    else if (s > 100 && s <= 200) {
+                        return 8;
+                    }
+                    else if (s > 200) {
+                        return 14;
+                    }
+                }
+                else {
+                    return 2;
+                }
+            })
+            .attr("transform", function (d) {
+                if (d.geometry != null) {
+                    return "translate(" + projection([
+                        d.geometry.coordinates[0],
+                        d.geometry.coordinates[1]
+                    ]) + ")";
+                }
+            })
+            .attr("fill", function (d) {
+                // different fill colors based on circle
+                // radius
+                if (d.properties.mass != null) {
+                    var s = Math.round(Math.sqrt(d.properties.mass) / 4);
+
+                    if (s >= 0 && s <= 50) {
+                        return "#333399"; // purple
+                    }
+                    else if (s > 50 && s <= 100) {
+                        return "#ff6600"; // orange
+                    }
+                    else if (s > 100 && s <= 200) {
+                        return "#000099"; // blue
+                    }
+                    else if (s > 200) {
+                        return "#9933ff";
+                    }
+                }
+                else {
+                    return "#9966cc";
+                }
+            })
+            .on("mouseover", tip.show)
+            .on("mouseout", tip.hide);
+
+        // zoom this baby - can use the mouse to move in to
+        // see more map detail.
+        var zoom = d3.behavior.zoom()
+            .on("zoom", function () {
+                g.attr("transform", "translate(" +
+                    d3.event.translate.join(",") + ")scale(" + d3.event.scale + ")");
+                g.selectAll("circle")
+                    .attr("d", path.projection(projection));
+                g.selectAll("path")
+                    .attr("d", path.projection(projection));
+            });
+
+        svg.call(zoom);
+
+    }
+</script>
+
+</body>
+</html>
