@@ -15,7 +15,7 @@ footer {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 15px;
   margin-top: .3em;
   margin-bottom: 0;
 }
@@ -78,7 +78,7 @@ h1 {
   width: 420px;
 }
 #fireball-chart {
-  width: 420px;
+  width: 500px;
 }
 
 #pilotballon-chart {
@@ -156,7 +156,7 @@ aside {
 
 <div id="body">
 
-<h1>Crossfilter for the following attributes</h1>
+<h1>Create a crossfilter(click and drag on bar chart) on any of the attributes to view the sightings for that range of values</h1>
 
 
 <div id="charts">
@@ -206,9 +206,9 @@ aside {
 
 <footer>
   <span style="float:right;">
-    Released under the <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License 2.0</a>.
+    Released under the <a href="https://urldefense.proofpoint.com/v2/url?u=http-3A__www.apache.org_licenses_LICENSE-2D2.0.html&d=DwMGAg&c=clK7kQUTWtAVEOVIgvi0NU5BOUHhpN0H8p7CSfnc_gI&r=hvbIxKmCZBM4yQLUddQqgg&m=J2X1k2oMd2Aud3ESkhZ_9RDotdNJVRejhimBFnbY4QU&s=NCXdmAHMyzdOKLDrDMjjNroGkRV_Qjcrpkh4nsc7OZk&e=">Apache License 2.0</a>.
   </span>
-  Copyright 2012 <a href="http://squareup.com">Square, Inc.</a>
+  Copyright 2012 <a href="https://urldefense.proofpoint.com/v2/url?u=http-3A__squareup.com&d=DwMGAg&c=clK7kQUTWtAVEOVIgvi0NU5BOUHhpN0H8p7CSfnc_gI&r=hvbIxKmCZBM4yQLUddQqgg&m=J2X1k2oMd2Aud3ESkhZ_9RDotdNJVRejhimBFnbY4QU&s=ZVqnB5HfwJgwF_qV8XI4PZZOfpmamFluirCqIFEaCK8&e=">Square, Inc.</a>
 </footer>
 
 </div>
@@ -258,19 +258,19 @@ d3.csv("data.csv", function(error, flights) {
       distance = flight.dimension(function(d) { return Math.min(1999, d.distance); }),
       distances = distance.group(function(d) { return Math.floor(d / 50) * 50; }),
       drinking= flight.dimension(function(d) { return Math.round(d.drinking); }),
-      drinkings=drinking.group(function(d) { return d!=null; }),
+      drinkings=drinking.group(function(d) { if (d!="") return d; }),
       fireball= flight.dimension(function(d) { return Math.round(d.fireball); }),
-      fireballs=fireball.group(function(d) { return d!=null; }),
-      satellite= flight.dimension(function(d) { return d.satellite; }),
-      satellites=satellite.group(function(d) { return d!=null; }),
+      fireballs=fireball.group(function(d) { if (d!="") return d; }),
+      satellite= flight.dimension(function(d) { return formatDecimal(d.satellite); }),
+      satellites=satellite.group(function(d) { if (d!="") return d; }),
       pilotballon= flight.dimension(function(d) { return Math.round(d.pilotballon);}),
-      pilotballons=pilotballon.group(function(d) { return d!=null; }),
+      pilotballons=pilotballon.group(function(d) { if (d!="") return d; }),
       precipitation= flight.dimension(function(d){return formatDecimal(d.precipitation);}),
-      precipitations=precipitation.group(function(d) { return d!=null; }),
+      precipitations=precipitation.group(function(d) { if (d!="") return d; }),
       visibility= flight.dimension(function(d) { return Math.round(d.visibility); }),
-      visibilitys=visibility.group(function(d) { return d!=null; }),
+      visibilitys=visibility.group(function(d) { if (d!="") return d; }),
       smog= flight.dimension(function(d) { return d.smog; }),
-      smogs=smog.group(function(d) { return d!=null; });
+      smogs=smog.group(function(d) { if (d!="") return d; });
 
    //   population= flight.dimension(function(d) { return d.population; }),
     //  populations=drinking.group(function(d) { return d; });

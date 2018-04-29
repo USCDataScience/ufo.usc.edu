@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Connecting UFO Sightings by date</title>
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 
@@ -125,9 +125,11 @@ body {
               </div>
             </nav>
 
-             <h3>
+      <div>Select an year and a month from the list. The blue dots are where a UFO sighting occurred. Hover over the larger dots of the blue dots to see other sightings from the same date. Larger dot means more sightings are connected to it. Note: more sightings occurred in the recent years. </div>
+    <h3>
       <span>UFO sightings on the same date</span><br>
     </h3>
+    <h4><span></span></h4>
 
     <div>
       <select onChange="change(value)">
@@ -666,7 +668,7 @@ function change(data)
       g.append("svg:path")
           .attr("class", "cell")
           .attr("d", function(d, i) { return "M" + polygons[i].join("L") + "Z"; })
-          .on("mouseover", function(d, i) { d3.select("h2 span").text(d.UFO_location); });
+          .on("mouseover", function(d, i) { d3.select("h4 span").text("Day: "+(d.Sighted_Date).substring(6,8)); });
 
       g.selectAll("path.arc")
           .data(function(d) { return linksByOrigin[d.UFO_location] || []; })
