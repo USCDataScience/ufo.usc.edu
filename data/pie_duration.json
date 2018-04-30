@@ -1,0 +1,1737 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 162,
+    "params": {
+      "q": "source:ufo_awesome",
+      "facet.pivot": "duration,rural_urban",
+      "indent": "on",
+      "fl": "rural_urban,duration",
+      "rows": "1",
+      "facet": "on",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 51285,
+    "start": 0,
+    "docs": [
+      {
+        "rural_urban": [
+          "RURAL"
+        ]
+      }
+    ]
+  },
+  "facet_counts": {
+    "facet_queries": {},
+    "facet_fields": {},
+    "facet_ranges": {},
+    "facet_intervals": {},
+    "facet_heatmaps": {},
+    "facet_pivot": {
+      "duration,rural_urban": [
+        {
+          "field": "duration",
+          "value": "5 minutes",
+          "count": 2051,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 1069
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 982
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "2 minutes",
+          "count": 1489,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 796
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 693
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "1 minute",
+          "count": 1465,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 794
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 671
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "10 minutes",
+          "count": 1456,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 795
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 661
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "30 seconds",
+          "count": 1163,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 616
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 547
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "10 seconds",
+          "count": 1075,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 551
+            },
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 524
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "3 minutes",
+          "count": 1065,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 572
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 493
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "5 seconds",
+          "count": 989,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 502
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 487
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "15 minutes",
+          "count": 964,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 520
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 444
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "1 hour",
+          "count": 712,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 376
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 336
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "20 minutes",
+          "count": 688,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 396
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 292
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "30 minutes",
+          "count": 670,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 375
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 295
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "15 seconds",
+          "count": 629,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 330
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 299
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "20 seconds",
+          "count": 579,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 317
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 262
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "5 min",
+          "count": 524,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 276
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 248
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "3 seconds",
+          "count": 474,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 252
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 222
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "10 min",
+          "count": 435,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 229
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 206
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "2 seconds",
+          "count": 394,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 204
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 190
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "4 minutes",
+          "count": 356,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 202
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 154
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "2 min",
+          "count": 333,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 195
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 138
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "15 min",
+          "count": 309,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 179
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 130
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "2 hours",
+          "count": 305,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 175
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 130
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "1 min",
+          "count": 304,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 167
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 137
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "3 min",
+          "count": 275,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 160
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 115
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "5 min.",
+          "count": 272,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 141
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 131
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "45 minutes",
+          "count": 266,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 137
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 129
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "seconds",
+          "count": 266,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 145
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 121
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "2-3 minutes",
+          "count": 259,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 130
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 129
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "45 seconds",
+          "count": 254,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 132
+            },
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 122
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "20 min",
+          "count": 240,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 135
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 105
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "1-2 minutes",
+          "count": 231,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 126
+            },
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 105
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "unknown",
+          "count": 230,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 129
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 101
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "4 seconds",
+          "count": 218,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 114
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 104
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "30 min",
+          "count": 190,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 101
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 89
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "30 sec",
+          "count": 189,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 106
+            },
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 83
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "2 min.",
+          "count": 183,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 92
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 91
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "10 min.",
+          "count": 178,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 95
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 83
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "1 second",
+          "count": 170,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 93
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 77
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "5 Minutes",
+          "count": 170,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 93
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 77
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "5-10 minutes",
+          "count": 169,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 95
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 74
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "5 mins",
+          "count": 167,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 85
+            },
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 82
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "7 minutes",
+          "count": 154,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 80
+            },
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 74
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "10 sec",
+          "count": 153,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 79
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 74
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "60 seconds",
+          "count": 148,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 80
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 68
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "2 Minutes",
+          "count": 142,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 78
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 64
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "15 min.",
+          "count": 141,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 75
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 66
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "3 hours",
+          "count": 141,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 76
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 65
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "10 Minutes",
+          "count": 140,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 73
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 67
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "3 min.",
+          "count": 140,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 84
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 56
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "3-5 minutes",
+          "count": 138,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 73
+            },
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 65
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "6 seconds",
+          "count": 137,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 85
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 52
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "3-4 minutes",
+          "count": 134,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 68
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 66
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "10 mins",
+          "count": 131,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 79
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 52
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "?",
+          "count": 128,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 74
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 54
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "8 minutes",
+          "count": 125,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 66
+            },
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 59
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "10-15 seconds",
+          "count": 124,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 69
+            },
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 55
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "30 min.",
+          "count": 123,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 72
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 51
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "6 minutes",
+          "count": 121,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 64
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 57
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "5 sec",
+          "count": 116,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 70
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 46
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "25 minutes",
+          "count": 115,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 60
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 55
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "30 sec.",
+          "count": 115,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 64
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 51
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "15 sec",
+          "count": 114,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 64
+            },
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 50
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "2-3 seconds",
+          "count": 112,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 67
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 45
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "7 seconds",
+          "count": 108,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 65
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 43
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "10 sec.",
+          "count": 107,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 55
+            },
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 52
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "2 mins",
+          "count": 104,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 56
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 48
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "one minute",
+          "count": 104,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 55
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 49
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "5 sec.",
+          "count": 102,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 51
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 51
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "10-15 minutes",
+          "count": 100,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 58
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 42
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "5-10 seconds",
+          "count": 100,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 56
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 44
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "45 min",
+          "count": 99,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 57
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 42
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "8 seconds",
+          "count": 99,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 50
+            },
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 49
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "20 min.",
+          "count": 98,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 50
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 48
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "15 mins",
+          "count": 97,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 53
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 44
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "5min",
+          "count": 97,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 51
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 46
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "40 seconds",
+          "count": 96,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 55
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 41
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "20 sec",
+          "count": 93,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 55
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 38
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "2min",
+          "count": 89,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 46
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 43
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "3-5 seconds",
+          "count": 89,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 55
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 34
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "4 min",
+          "count": 85,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 52
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 33
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "10min",
+          "count": 84,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 42
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 42
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "15 Minutes",
+          "count": 84,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 46
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 38
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "1 min.",
+          "count": 82,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 48
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 34
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "3-4 seconds",
+          "count": 82,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 42
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 40
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "a few seconds",
+          "count": 82,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 44
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 38
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "25 seconds",
+          "count": 81,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 50
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 31
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "30 Seconds",
+          "count": 81,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 42
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 39
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "15-20 minutes",
+          "count": 80,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 42
+            },
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 38
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "3 Minutes",
+          "count": 78,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 41
+            },
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 37
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "15-20 seconds",
+          "count": 77,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 42
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 35
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "40 minutes",
+          "count": 77,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 39
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 38
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "15min",
+          "count": 76,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 42
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 34
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "few seconds",
+          "count": 76,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 43
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 33
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "several minutes",
+          "count": 76,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 44
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 32
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "90 seconds",
+          "count": 75,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 39
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 36
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "Unknown",
+          "count": 74,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 41
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 33
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "3 mins",
+          "count": 73,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 40
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 33
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "30 mins",
+          "count": 73,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 38
+            },
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 35
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "1-2 seconds",
+          "count": 72,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 39
+            },
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 33
+            }
+          ]
+        },
+        {
+          "field": "duration",
+          "value": "4 hours",
+          "count": 72,
+          "pivot": [
+            {
+              "field": "rural_urban",
+              "value": "urban",
+              "count": 38
+            },
+            {
+              "field": "rural_urban",
+              "value": "rural",
+              "count": 34
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

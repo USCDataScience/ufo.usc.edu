@@ -1,0 +1,50 @@
+body {
+				margin: 0px; 
+				overflow: hidden; 
+				font-family: "Helvetica Neue", Helvetica; 
+				font-size: 14px;
+				background: black
+			}
+
+			.header {
+				margin-top: 20px;
+				margin-left: 20px;
+				font-size: 24px; 
+				font-weight: 300; 
+				display: block; 
+				z-index: 1; 
+				text-shadow: 0 1px 0 #fff;
+			}
+			.hint {
+				width: 1280px; 
+				right: 0px; 
+				color: rgb(153, 153, 153); 
+				font-size: 12px;
+				padding-bottom: 20px;
+			}
+      
+      .align,#chart,#chart2{
+        text-align: center;
+        color:white;
+      }
+
+
+			.hr-style {
+			   border: 0;
+			   height: 2px;
+			   width: 80%;
+			   color: #E8E8E8;
+			   background-color: #E8E8E8;
+			}
+
+			.toolTip {
+				  position: absolute;
+				  display: none;
+				  width: auto;
+				  font-size: 12px;
+				  height: auto;
+				  background: none repeat scroll 0 0 #ffffff;
+				  border: 1px solid #6F257F;
+				  padding: 5px;
+				  text-align: left;
+			}
