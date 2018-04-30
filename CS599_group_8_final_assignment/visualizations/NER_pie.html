@@ -1,0 +1,372 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>CS599: UFO Data Analysis Visualization</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="../css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../css/materialize.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+    <!-- some quick dirty styling -->
+    <style>
+
+        .arc text {
+            font: 10px sans-serif;
+            text-anchor: middle;
+        }
+
+        .arc path {
+            stroke: #fff;
+        }
+
+        #pie {
+            margin-top: 2em;
+        }
+
+        .tabs .tab a {
+
+            color: #9e9e9e!important;
+            /*color: #039be5 !important;*/
+        }
+
+        .tabs .indicator {
+
+            background-color: #0d47a1;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<nav>
+    <div class="nav-wrapper valign-wrapper">
+        <div class="row">
+            <div class="col s12">
+                <p id="site_title_txt" class="center-align">CS599: Content Detection and Analysis for Big Data</p>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div id="main_content_div" class="container">
+    <div class="row" style="height: 10px;">
+        <div class="col s12">
+            <div class="site_logo_img_div center-align">
+                <img id="site_logo_img" src="../images/ufo_img_1.png">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <p id="visualization_page_title_txt" class="center-align">HOW WELL DID NAMED ENTITY RECOGNITION PERFORM?</p>
+        </div>
+        <div class="col s12">
+            <p class="center-align vis_page_sub_title">WHAT ARE WE ABLE TO ANSWER WITH THIS VISUALIZATION?</p>
+            <div>
+                <p class="vis_page_choice_reason">
+                    We seek to answer the question <span class="question_element">"How Well did Named Entity Recognition Perform?"</span>.
+                    Tika NER was run on texts associated with our TSV v2 dataset in the hopes of adding supplementary information regarding UFO sightings,
+                    that could then be used to better understand our data. Though unfortunately the tool was generally unreliable, it did fare exceedingly
+                    well in identifying “TIME” entities. We chose to plot a <span class="chart_type">Pie Chart</span> showing the top 10 tagged entities from the groups organization,
+                    person, location, date, and time.
+                </p>
+                <br>
+                <p class="vis_page_choice_reason">
+                    By looking at the each pie chart, we can show a breakdown of the tagged entities returned by Tika NER.
+                </p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row", style="margin-bottom: 0px;">
+        <div class="col s12">
+            <p class="center-align vis_page_sub_title">PIE CHART VISUALIZATION DISPLAYING NER STATISTICS</p>
+            <div class = "row">
+                <div class = "col s12">
+                    <ul class = "tabs">
+
+                        <li class = "tab col s3"><a id="NER_loc" class ="active">location</a></li>
+                        <li class = "tab col s3"><a id = "NER_org">organization</a></li>
+                        <li class = "tab col s3"><a id = "NER_person" >person</a></li>
+                        <li class = "tab col s3"><a id = "NER_time" >time</a></li>
+                        <li class = "tab col s3"><a id = "NER_date" >date</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="pie" class="col s12"
+        ></div>
+
+    </div>
+</div>
+<footer style="text-align: center; margin-top:35px;" class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h5 class="white-text">CS599: Team 8 Final Project</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div>
+                    <p>ERIC J. HACHUEL</p>
+                </div>
+                <div>
+                    <p>MATHEOS ASFAW</p>
+                </div>
+                <div>
+                    <p>PABLO GIUDICE</p>
+                </div>
+                <div>
+                    <p>BRUNO MAZETTI</p>
+                </div>
+                <div>
+                    <p>TEAGUE ASHCRAFT</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+
+</body>
+
+<!-- Compiled and minified JavaScript -->
+<script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type = "text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type = "text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+<script type = "text/javascript" src="../lib/d3pie.min.js"></script>
+
+
+<script>
+
+    var path = "../json_data/";
+    var file_type = ".json";
+
+    var dict = {"NER_loc": "NER Location Analysis", "NER_org": "NER Organization Analysis", "NER_person": "NER Person Analysis", "NER_time": "NER Time Analysis", "NER_date": "NER Date Analysis"};
+
+    var pie;
+
+    var values = [];
+
+
+    function center_svg() {
+
+        var style_set = document.querySelector("svg").style.display;
+
+        console.log("before center svg " + document.querySelector("svg").style.display + "\n");
+
+        if(style_set !== "block") {
+            document.querySelector("svg").style.display = "block";
+            document.querySelector("svg").style.margin = "auto";
+        }
+
+        console.log("after center svg " + document.querySelector("svg").style.display + "\n");
+
+    }
+
+    function safeSvgReset(){
+        console.log("before safe reset " + document.querySelector("svg").style.display + "\n");
+        document.querySelector("svg").style.display = "";
+        document.querySelector("svg").style.margin = "";
+        console.log("after safe reset " + document.querySelector("svg").style.display + "\n");
+    }
+
+
+    // set up initial pie
+    d3.json(path + "NER_loc" + file_type, json =>  {
+
+        $.each(json, function(d,i){
+
+        values.push({
+            label: i.id,
+            value: i.quantity
+        })
+
+    });
+
+    // note to teague: specified name MUST be pie. Library breaks otherwise--BUG!
+    pie = new d3pie("pie", {
+        "header": {
+            "title": {
+                "text": "NER Location Analysis",
+                "color": "#292f33",
+                "fontSize": 25,
+                "font": "Helvetica"
+            },
+        },
+        "size": {
+            "canvasHeight": 500,
+            "canvasWidth": 700
+        },
+        "data": {
+            "content": values
+        },
+        "labels": {
+            "percentage": {
+                fontSize: 15,
+                font: "Helvetica",
+                color: "#000000"
+            },
+            "outer": {
+                "pieDistance": 32
+            },
+            "inner": {
+                font: "Helvetica",
+                fontSize: 15,
+                hideWhenLessThanPercentage: 5
+            },
+            "mainLabel": {
+                color: "#292f33",
+                font: "Helvetica",
+                fontSize: 20
+            },
+            "lines": {
+                enabled: true,
+                style: "curved"
+            }
+        },
+        "misc": {
+            "colors": {
+                segments: [
+                    "rgb(131, 134, 144)", "#2191FB", "rgb(245, 108, 78)", "#B2ECE1", "#8CDEDC", "#8C001A",
+                    "#595F72", "#575D90", "#DB5A42", "#DBD3AD"
+                ],
+                segmentStroke: "#ffffff"
+            },
+            "canvasPadding": {
+                top: 5,
+                right: 5,
+                bottom: 5,
+                left: 5
+            },
+            "pieCenterOffset": {
+                x: 15,
+                y: -20
+            },
+        },
+        "effects": {
+            load: {
+                effect: "default",
+                speed: 1000
+            },
+            highlightSegmentOnMouseover: true,
+            highlightLuminosity: -0.2
+        },
+        "tooltips": {
+            enabled: true,
+            type: "placeholder",
+            string: "total count = {value}"
+        }
+    });
+    center_svg();
+    });
+
+    // Create function to update pizza
+    $('li[class="tab col s3"]').on("click", (el)  => {
+
+
+        var id = el.target.id;
+
+    d3.json(path + id + file_type, data => {
+
+        data.forEach( (val, i) => {
+
+        values[i].label = val.id;
+    values[i].value = val.quantity;
+
+    });
+
+    safeSvgReset();
+    pie.destroy();
+
+    var newTitle = dict[id];
+
+    // note to teague: specified name MUST be pie. Library breaks otherwise--BUG!
+    pie = new d3pie("pie", {
+        "header": {
+            "title": {
+                "text": newTitle,
+                "color": "#292f33",
+                "fontSize": 25,
+                "font": "Helvetica"
+            },
+        },
+        "size": {
+            "canvasHeight": 500,
+            "canvasWidth": 700
+        },
+        "data": {
+            "content": values
+        },
+        "labels": {
+            "percentage": {
+                fontSize: 15,
+                font: "Helvetica",
+                color: "#000000"
+            },
+            "outer": {
+                "pieDistance": 32
+            },
+            "inner": {
+                font: "Helvetica",
+                fontSize: 15,
+                hideWhenLessThanPercentage: 5
+            },
+            "mainLabel": {
+                color: "#292f33",
+                font: "Helvetica",
+                fontSize: 20
+            },
+            "lines": {
+                enabled: true,
+                style: "curved"
+            }
+        },
+        "misc": {
+            "colors": {
+                segments: [
+                    "rgb(131, 134, 144)", "#2191FB", "rgb(245, 108, 78)", "#B2ECE1", "#8CDEDC", "#8C001A",
+                    "#595F72", "#575D90", "#DB5A42", "#DBD3AD"
+                ],
+                segmentStroke: "#ffffff"
+            },
+            "canvasPadding": {
+                top: 5,
+                right: 5,
+                bottom: 5,
+                left: 5
+            },
+            "pieCenterOffset": {
+                x: 15,
+                y: -20
+            },
+        },
+        "effects": {
+            load: {
+                effect: "default",
+                speed: 1000
+            },
+            highlightSegmentOnMouseover: true,
+            highlightLuminosity: -0.2
+        },
+        "tooltips": {
+            enabled: true,
+            type: "placeholder",
+            string: "total count = {value}"
+        }
+    });
+    center_svg();
+    });
+    });
+
+</script>
+</html>
