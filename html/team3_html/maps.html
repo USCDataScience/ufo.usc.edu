@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../../css/styles.css" rel="stylesheet">
+
+    <link href="../../css/uk.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/usa.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+       ul {
+         list-style-type: none;
+        }
+    </style>
+
+    <!-- jQuery -->
+    <script src="../../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="../../js/jquery.easing.min.js"></script>
+
+    <!-- Elastic Search -->
+    <script src="../../js/team3_js_files/elasticsearch.jquery.js"></script>
+
+    <script src="http://d3js.org/topojson.v0.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+
+    <!-- Spinner js -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.0.1/spin.min.js'></script>
+
+    <!-- D3 js -->
+    <script src="../../js/d3.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <!-- <script src="../js/lodash.js"></script> -->
+    <script src="../../js/team3_js_files/map_data.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <ul id = "usa_checkbox">
+        <li><input type="checkbox" id = "airportid" name="ufoFilter" class="ufoFilter" value="airport"> Airports</input></li>
+        <li><input type="checkbox" id = "metroid" name="ufoFilter" class="ufoFilter" value="metro" > Metros</input></li>
+        <li><input type="checkbox" id="meteoriteid" name="ufoFilter" class="ufoFilter" value="meteorite" > meteorite</input></li>
+        <li><input type="checkbox" id="populationid" name="ufoFilter" class="ufoFilter" value="population" > Population</input></li>
+      </ul>
+      <ul id="uk_checkbox">
+        <li><input type="checkbox" id = "airportid" name="ufoFilter" class="ufoFilterUK" value="airport"> Airports</input></li>
+        <li><input type="checkbox" id = "metroid" name="ufoFilter" class="ufoFilterUK" value="metro" > Sports Hubs</input></li>
+      </ul>
+    </div>
+    <div id="mapArea">
+
+    </div>
+  </body>
+</html>
