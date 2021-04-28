@@ -91,7 +91,7 @@ var tip = d3.tip()
             .attr('class', 'd3-tip')
             .offset([-10, 0])
             .html(function(d) {
-              return "<strong>Country: </strong><span class='details'>" + d.id+ "<br></span>" + "<strong>Number of Attacks: </strong><span class='details'>" + format(d.value) +"</span>";
+              return "<strong>Country: </strong><span class='details'>" + d.id+ "<br></span>" + "<strong>Number of Attackers: </strong><span class='details'>" + format(d.value) +"</span>";
             })
 
 width = 960;
