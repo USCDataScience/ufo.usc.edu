@@ -98,8 +98,8 @@ path = d3.geoPath()
 outline = ({type: "Sphere"})
 
 queue()
-    .defer(d3.json, "/Data/team4/world-topo.json")
-  .defer(d3.json, "/Data/team4/Attacker_Country.json")
+    .defer(d3.json, "../../data/team4/world-topo.json")
+  .defer(d3.json, "../../data/team4/Attacker_Country.json")
     .await(ready);
 
 function ready(error, world, attacker_data) {
