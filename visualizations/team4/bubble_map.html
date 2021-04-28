@@ -157,13 +157,13 @@ const g = svg.append("g")
 
 g.append("use")
   .attr("xlink:href", new URL("#outline", location))
-  .attr("fill", "#fff"); 
+  .attr("fill", "lightblue"); //oceans 
 
-g.append("path")
+/*g.append("path")
   .attr("d", path(graticule))
   .attr("stroke", "#ddd")
   .attr("fill", "none");
-
+*/
 g.append("path")
   .attr("d", path(land))
   .attr("fill", "#ddd");
@@ -179,9 +179,9 @@ svg.append("g")
         .data(land.features)
         .enter()
         .append("path")
-        .attr( "d", path ).attr("fill", "#ddd")
+        .attr( "d", path ).attr("fill", "#fff") //land - was #ddd
         .attr("class", "countries")
-        .attr("stroke","#fff");
+        .attr("stroke","#ddd"); //country boundaries
 
 const legend = svg.append("g")
   .attr("fill", "#777")
