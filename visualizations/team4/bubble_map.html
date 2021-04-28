@@ -83,9 +83,16 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.0/d3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-queue/3.0.7/d3-queue.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.0/topojson.min.js"></script>
-<script src="/js/d3-tip.js"></script>
+<script src="../../js/team4/d3-tip.js"></script>
 <script>
 var format = d3.format(",");
+// Set tooltips
+var tip = d3.tip()
+            .attr('class', 'd3-tip')
+            .offset([-10, 0])
+            .html(function(d) {
+              return "<strong>Country: </strong><span class='details'>" + d.id+ "<br></span>" + "<strong>Number of Attacks: </strong><span class='details'>" + format(d.value) +"</span>";
+            })
 
 width = 960;
 height = 600;
@@ -96,6 +103,15 @@ graticule = d3.geoGraticule10()
 path = d3.geoPath()
         .projection(projection)
 outline = ({type: "Sphere"})
+
+var svg = d3.select("body")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .append('g')
+            .attr('class', 'map');
+
+svg.call(tip);
 
 d3.queue()
     .defer(d3.json, "../../data/team4/world-topo.json")
@@ -124,11 +140,6 @@ land = topojson.feature(world, world.objects.countries)
 countries = new Map(world.objects.countries.geometries.map(d => [d.properties.admin, d.properties]))
 
 radius = d3.scaleSqrt([0, d3.max(data, d => d.value)], [0, 40])
-var svg = d3.select( "body" )
-          .append( "svg" )
-          .attr( "width", width )
-          .attr( "height", height )
-          .attr("align", "center");
 
 const defs = svg.append("defs");
 
@@ -208,6 +219,22 @@ svg.append("g")
   .text(d => `${d.id}
 ${format(d.value)}`);  
 
+svg.selectAll("circle")
+.on('mouseover',function(d){
+      tip.show(d);
+      d3.select(this)
+      .style("opacity", 1)
+      .style("stroke","white")
+      .style("stroke-width",3);
+    })
+        .on('mouseout', function(d){
+          tip.hide(d);
+
+          d3.select(this)
+            .style("opacity", 0.8)
+            .style("stroke","white")
+            .style("stroke-width",0.3);
+        });
 
 
 }
