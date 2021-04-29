@@ -70,10 +70,7 @@ d3.csv("../../data/team4/time_urgency_for_d3.csv").then(function(data) {
         //     .attr('y', 0)
        
 
-        svg.append("g")
-        .style("font", "14px times")
-        .attr("transform", "translate(0," + height + ")")
-        .call(d3.axisBottom(x));
+        
 
         svg.append("g")
         .call(xAxis);
