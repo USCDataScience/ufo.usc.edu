@@ -4,7 +4,7 @@ d3.csv("../../data/team4/time_urgency_for_d3.csv").then(function(data) {
     console.log(series);
     console.log(series.length);
     
-    var margin = {top: 10, right: 10, bottom: 10, left: 10};
+    var margin = {top: 20, right: 20, bottom: 30, left: 40};
 
     var x = d3.scaleBand()
     .domain(data.map(d => d.Time))
