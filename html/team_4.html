@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>USC Data Science - Phishing Attacks Database</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scrolling Nav CSS -->
+    <link href="../css/scrolling-nav.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../css/styles.css" rel="stylesheet">
+	<script>
+	function clearContent()
+	{
+		$('#exampleModalCenter').modal('close');
+		document.getElementById('myiFrame').src = 'about:blank';
+		
+	}
+	function showModal(loc,title)
+	{
+		document.getElementById('myiFrame').src = loc;
+		document.getElementById('exampleModalLongTitle').innerHTML = title;
+		$('#exampleModalCenter').modal('show');
+	}
+	</script>
+    <script src="../js/jquery.js"></script>
+    <style>
+        .btn-primary:hover,
+        .btn-primary:focus
+        {
+            
+            box-shadow: none;
+            outline: none;
+        }
+
+        .btn-primary
+        {
+            color: #fff;
+            
+        }
+
+        section
+        {
+            padding: 60px 0;
+        }
+
+        section .section-title
+        {
+            text-align: center;
+            color: #305893;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+        }
+
+        .padtext
+        {
+        	padding: 10px;
+        }
+
+        #team .card
+        {
+            border: none;
+            background: #ffffff;
+        }
+
+        .image-flip:hover .backside,
+        .image-flip.hover .backside
+        {
+            -webkit-transform: rotateY(0deg);
+            -moz-transform: rotateY(0deg);
+            -o-transform: rotateY(0deg);
+            -ms-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+            border-radius: .25rem;
+        }
+
+        .image-flip:hover .frontside,
+        .image-flip.hover .frontside
+        {
+            -webkit-transform: rotateY(180deg);
+            -moz-transform: rotateY(180deg);
+            -o-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+        }
+
+        .mainflip
+        {
+            -webkit-transition: 1s;
+            -webkit-transform-style: preserve-3d;
+            -ms-transition: 1s;
+            -moz-transition: 1s;
+            -moz-transform: perspective(1000px);
+            -moz-transform-style: preserve-3d;
+            -ms-transform-style: preserve-3d;
+            transition: 1s;
+            transform-style: preserve-3d;
+            position: relative;
+        }
+    	iframe{
+            overflow:hidden;
+        }
+
+        .frontside
+        {
+            position: relative;
+            -webkit-transform: rotateY(0deg);
+            -ms-transform: rotateY(0deg);
+            z-index: 2;
+            margin-bottom: 30px;
+            -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+            -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+            box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+        }
+
+        .backside
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: white;
+            -webkit-transform: rotateY(-180deg);
+            -moz-transform: rotateY(-180deg);
+            -o-transform: rotateY(-180deg);
+            -ms-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+            -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+            -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+            box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+        }
+        .modal-dialog {
+            width: 80%;
+            height: 80%;
+            margin-top: 2%;
+            margin-left: 10%;
+            margin-right: 10%;
+
+        }
+
+        .modal-content {
+          height: auto;
+          min-height: 100%;
+          border-radius: 0;
+        }
+
+        .frontside,
+        .backside
+        {
+            -webkit-backface-visibility: hidden;
+            -moz-backface-visibility: hidden;
+            -ms-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -webkit-transition: 1s;
+            -webkit-transform-style: preserve-3d;
+            -moz-transition: 1s;
+            -moz-transform-style: preserve-3d;
+            -o-transition: 1s;
+            -o-transform-style: preserve-3d;
+            -ms-transition: 1s;
+            -ms-transform-style: preserve-3d;
+            transition: 1s;
+            transform-style: preserve-3d;
+        }
+
+        .frontside .card,
+        .backside .card
+        {
+            min-height: 312px;
+        }
+
+        .backside .card a
+        {
+            font-size: 18px;
+            color: #305893 !important;
+        }
+
+        .frontside .card .card-title,
+        .backside .card .card-title
+        {
+            color: #305893 !important;
+        }
+
+        .frontside .card .card-body img
+        {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+    	.row{
+    		text-align:center;
+    		padding:2dp;
+    	}
+
+        body {
+              background-image: url('../images/team4/background2.jfif');
+              background-repeat: no-repeat;
+              background-attachment: fixed;  
+              background-size: cover;-webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;
+              width:100%;
+              height:100%;
+            }
+
+    </style>
+</head>
+
+<body>
+<section id="team" class="pb-5">
+    <div class="container">
+        <h5 class="section-title h1" style="color: #14213d;">Data Visualizations</h5>
+        <div class="row"> 
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../visualizations/team4/calendar_view.html","Phishing Emails Frequency Prediction");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team4/phish_prediction_calendar.JPG" /></p>
+                                    <h4 class="card-title">Phishing Emails Frequency Prediction</h4>
+                                    <p class="card-text padtext">Plotting attack urgency with a bar plot visualizations</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Calendar View</h4>
+                                    <p class="card-text padtext">A calendar view of phishing emails frequency prediction</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../visualizations/team4/bubble_map.html","Bubble Map of Attacker Locations");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team4/bubble_map.JPG" /></p>
+                                    <h4 class="card-title">Phishing Attackers Locations</h4>
+                                    <p class="card-text padtext">Plotting Attackers Locations on the World Map</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Bubble Map</h4>
+                                    <p class="card-text padtext">The Bubble map visualizes Distribution of Attacker Locations on the world map. Te bigger the size of the bubble the higher the number of attacks.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../visualizations/team4/stacked_bar.html","Phishing attacks Frequency at different time in a day");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team4/stacked_bar.JPG" /></p>
+                                    <h4 class="card-title">Phishing Attacks Frequency</h4>
+                                    <p class="card-text padtext">Plotting attack frequency at different times in a day using a stakced bar plot visualization</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Stacked Bar Plot</h4>
+                                    <p class="card-text padtext">A stacked bar plot visualizing phishing attacks frequency at different times in a day. The attacks are categorized based on urgency.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../visualizations/team4/word_cloud.html","Most Frequent Words In Phishing Mails");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team4/word_cloud.JPG" /></p>
+                                    <h4 class="card-title">Phishing Mails Buzzwords</h4>
+                                    <p class="card-text padtext">A word cloud to depict the most frequent words used in phishing emails</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Word Cloud</h4>
+                                    <p class="card-text padtext">A word cloud to depict the most frequent words used in phishing emails. The words whose frequency is high occupy more area on the cloud</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>   
+    </div>
+</section>
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle" style="text-align:center; font-style:oblique;font-size:34px;margin: 2px;">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="clearContent();">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		.....
+		<iframe id="myiFrame" height="800" frameborder="0" scrolling="no" width="960" src="../d3-visualizations/showreel_sightings.html" >
+</iframe>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/scrolling-nav.js"></script>
+
+
+</body>
+
+</html>
