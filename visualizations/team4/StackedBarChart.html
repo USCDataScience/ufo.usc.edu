@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Stacked Bar Chart</title>
+<link rel="stylesheet" type="text/css" href="../../css/team4/inspector.css">
+<body>
+<script type="module">
+
+import define from "../../js/team4/stackedbar_index.js";
+import {Runtime, Library, Inspector} from "../../js/team4/stackedbar_runtime.js";
+
+const runtime = new Runtime();
+const main = runtime.module(define, Inspector.into(document.body));
+
+</script>
