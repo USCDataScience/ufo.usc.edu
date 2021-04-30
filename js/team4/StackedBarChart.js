@@ -96,7 +96,7 @@ g => g
 x => isNaN(x) ? "N/A" : x.toLocaleString("en")
 )});
   main.variable(observer("height")).define("height", function(){return(
-600
+575
 )});
   main.variable(observer("margin")).define("margin", function(){return(
 {top: 10, right: 10, bottom: 20, left: 40}
