@@ -2,7 +2,7 @@ import define1 from "../../js/team4/draw_legend.js";
 
 export default function define(runtime, observer) {
   const main = runtime.module();
-  const fileAttachments = new Map([["../../data/team4/time_urgency_for_d3.csv",new URL("../../data/team4/input",import.meta.url)]]);
+  const fileAttachments = new Map([["../../data/team4/time_urgency_for_d3.csv",new URL("../../data/team4/barchart_input",import.meta.url)]]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], function(md){return(
 md`# Stacked Bar Chart
