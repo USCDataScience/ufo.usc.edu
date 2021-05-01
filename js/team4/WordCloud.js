@@ -2,11 +2,8 @@ export default function define(runtime, observer) {
   const main = runtime.module();
   const fileAttachments = new Map([["../../data/team4/wordcloud_text.txt",new URL("../../data/team4/wordcloud_input",import.meta.url)]]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
-  main.variable(observer()).define(["md"], function(md){return(
-md`# Word Cloud of Email Subject when Reconnaissance is detected`
-)});
   main.variable(observer("chart")).define("chart", ["d3","width","height","fontFamily","data","padding","rotate","fontScale","invalidation"], function(d3,width,height,fontFamily,data,padding,rotate,fontScale,invalidation)
-{ var height = 640;
+{ var height = 690;
   const svg = d3.create("svg")
       .attr("viewBox", [0, 0, width, height])
       .attr("font-family", fontFamily)
