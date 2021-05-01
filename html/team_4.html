@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>USC Data Science - Phishing Attacks Database</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scrolling Nav CSS -->
+    <link href="../css/scrolling-nav.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../css/styles.css" rel="stylesheet">
+    <!-- Team 4 CSS -->
+    <link href="../css/team4/team-4.css" rel="stylesheet">
+	<script>
+	function clearContent()
+	{
+		$('#exampleModalCenter').modal('close');
+		document.getElementById('myiFrame').src = 'about:blank';
+		
+	}
+	function showModal(loc,title,insight)
+	{
+		document.getElementById('myiFrame').src = loc;
+		document.getElementById('exampleModalLongTitle').innerHTML = title;
+        document.getElementById('insight').innerHTML = insight
+		$('#exampleModalCenter').modal('show');
+	}
+
+	</script>
+    <script src="../js/jquery.js"></script>
+
+</head>
+
+<body>
+
+<section id="team" class="pb-5">
+    <div class="container">
+        <h5 class="section-title h1" style="color: #14213d;">Overview</h5>
+        <div style="color: #14213d; background-color:white;opacity: 0.9;">
+        <br>
+        <p class="para">Visualizations  are  graphical  representations  of  data.They help people communicate ideas and make informeddecisions.Visualizations  are  key  for  analyzing  complex  data  anddemonstrating the insights gained from it.In   this   assignment   we   summarize   the   work   donein  Assignment  1  and  Assignment  2  with  the  help  ofvisualizations.<br><br>The visualizations and insights have also been added to a website for easier access using GitHub pages.<br>It has been added under the Team 4 Link:<br>https://shruti-kk.github.io/ufo.usc.edu/html/team_4.html </p>
+    </div>
+    </div>
+    <div class="container">
+        <h5 class="section-title h1" style="color: #14213d;">Data Visualizations</h5>
+        <div class="row"> 
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../visualizations/team4/calendar_view.html","Phishing Emails Frequency Prediction","The calendar view shows the distribution of emails sent in a day for all years. The distribution acts as a prediction for 2021 to show that which date could have a higher or lower chance to receive fraudulent emails.");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team4/phish_prediction_calendar.JPG" /></p>
+                                    <h4 class="card-title">Phishing Emails Frequency Prediction</h4>
+                                    <p class="card-text padtext">Predict occurance and frequency of phishing emails</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Calendar View</h4>
+                                    <p class="card-text padtext">A calendar view of phishing emails frequency prediction</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../visualizations/team4/bubble_map.html","Bubble Map of Attacker Locations","The highest number of attacks are observed to be from Nigeria with 740 attackers, followed by Senegal with 245 attackers. Other notable countries are Liberia, Iraq, Zimbabwe. Majority of attackers(87%) claim they are from African countries.");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team4/bubble_map.JPG" /></p>
+                                    <h4 class="card-title">Phishing Attackers Locations</h4>
+                                    <p class="card-text padtext">Plotting Attackers Locations on the World Map</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Bubble Map</h4>
+                                    <p class="card-text padtext">The Bubble map visualizes number of attackers claiming to be from a particular country. The bigger the size of the bubble the higher the number of attacks.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../visualizations/team4/StackedBarChart.html","Phishing attacks Frequency at different Times in a Day","We divided the attack time into 24 sections, each section representing an hour in the day -- so the sections are from “00:00-00:59” to “23:00-23:59”, each bar shows the number of email attacks in that specific time period. At the same time, we realized that time of the day might also be a factor that influence attacker’s decision on the urgency of emails, so we also tried to show the urgency of email in the chart -- each bar consists of both the number of urgent emails, and the number of not urgent emails, while urgent and not urgent emails can be distinguished by different colors.");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team4/stacked_bar.JPG" /></p>
+                                    <h4 class="card-title">Phishing Attacks Frequency</h4>
+                                    <p class="card-text padtext">Plotting attack frequency at different times in a day using a stacked bar plot visualization</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Stacked Bar Plot</h4>
+                                    <p class="card-text padtext">A stacked bar plot visualizing phishing attacks frequency at different times in a day. The attacks are categorized based on urgency.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../visualizations/team4/word_cloud.html","Most Frequent Words In Phishing Mails","Words such as “money”, “account” and  “bank” are most frequently used. Words relating to money and currency such as “dollars”, “money”, “$” are also present. Other words relating to social engineering such as “kin”, “family” and “husband” are presnt. It is likely to make the receiver sympathise and provide money.");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team4/word_cloud.JPG" /></p>
+                                    <h4 class="card-title">Phishing Mails Buzzwords</h4>
+                                    <p class="card-text padtext">A word cloud to depict the most frequent words used in phishing emails</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Word Cloud</h4>
+                                    <p class="card-text padtext">A word cloud to depict the most frequent words used in phishing emails. The words with higher frequency occupy more area on the cloud</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../visualizations/team4/sun_burst.html","Language Styles of Phishing Mails"," Through the  result  graph  we  can  draw  a  conclusion  that  mostfraudulent emails have syntax,  organized structure andless  misspellings.   Attackers  believe  this  kind  of  emailmakes it more possible for victims to read so as to cheatthem of their information.");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team4/sun_burst.JPG" /></p>
+                                    <h4 class="card-title">Phishing Mails Language Styles</h4>
+                                    <p class="card-text padtext">A sun burst to depict the misspellings and capitalization in phishing emails</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Sun Burst</h4>
+                                    <p class="card-text padtext">A sun burst to depict language styles of phishing emails</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../visualizations/team4/WordCloud.html","Word Cloud of Email Subjects of Reconnaissance","A Word Cloud of Subject line is plotted for emails where the victim might reply. From analyzingthe word cloud we find that the most commonly foundkeywords  are  ‘please’  ,  ‘reply’,  ‘help’,  ‘need’,  ‘urgently’and  ‘offer’.   Hence  we  can  say  that  the  attacker  triesto  appeal  to  the  victim  and  gain  their  sympathy.   We also find words such as ‘god’, ‘christ’, and ‘lord’.  These indicate that the attacker may try and connect with thevictim on religious grounds.");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team4/WordCloud_EmailSubject.png" /></p>
+                                    <h4 class="card-title">Reconnaissance Mails Subject Buzzwords</h4>
+                                    <p class="card-text padtext">A word cloud to depict the most frequent words used in subject of reconnaissance emails</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Word Cloud</h4>
+                                    <p class="card-text padtext">A word cloud to depict the most frequent words used in subject of reconnaissance emails. The words with higher frequency occupy more area on the cloud</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>   
+    </div>
+
+    <div class="container">
+        <h5 class="section-title h1" style="color: #14213d;">Image Space</h5>
+        <div style="color: #14213d; background-color:white;opacity: 0.9;">
+        <br>
+        <p class="para">The Image Space allows us to search similar images with the image in hand, or search images based on metadata by just inputting a keyword. Below is an example of what we found.</p>
+        <p><img class=" img-fluid" alt="vizualization1" src="../images/team4/image_space.JPG" /></p>
+        
+        <p class="para">With the help of the Image Space, we could easily search for similar images that might not be easy to discern without the tool, especially when trying to find similar ones within a large number of images.</p>
+    </div>
+    </div>
+
+</section>
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle" style="text-align:center; font-style:oblique;font-size:34px;margin: 2px;">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="clearContent();">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body"  style="text-align:center;" >
+		<iframe id="myiFrame" height="700" frameborder="0" scrolling="no" width="960">
+</iframe>
+        <p id="insight" style="text-align:center;font-size:18px;"></p>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
