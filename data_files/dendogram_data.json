@@ -1,31 +1,11 @@
-{
-  "name": "UFO",
-  "children": [
-    {
-      "name": "Sightings",
-      "children": [
-        {
-          "name": "Lights",
-          "value": 3400
-        },
-        {
-          "name": "Orb",
-          "value": 1200
-        }
-      ]
-    },
-    {
-      "name": "Shapes",
-      "children": [
-        {
-          "name": "Triangle",
-          "value": 900
-        },
-        {
-          "name": "Disk",
-          "value": 1100
-        }
-      ]
-    }
-  ]
-}
+[
+  {"id": "UFO", "value": 0, "color": "#ccc"},
+  {"id": "UFO.Sightings", "value": 0, "color": "#aaa"},
+  {"id": "UFO.Sightings.Lights", "value": 34, "color": "#ff0"},
+  {"id": "UFO.Sightings.Orb", "value": 12, "color": "#0ff"},
+  {"id": "UFO.Sightings.Fireball", "value": 8, "color": "#f80"},
+  {"id": "UFO.Shapes", "value": 0, "color": "#aaa"},
+  {"id": "UFO.Shapes.Triangle", "value": 9, "color": "#f0f"},
+  {"id": "UFO.Shapes.Disk", "value": 11, "color": "#0f0"},
+  {"id": "UFO.Shapes.Other", "value": 6, "color": "#f00"}
+]

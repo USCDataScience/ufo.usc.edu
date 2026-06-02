@@ -1,4 +1,6 @@
-state,density_rank,population
-California,1,39000000
-Texas,3,29000000
-Florida,4,21000000
+state,pop_rank,density_rank,population
+California,1,1,39000000
+Texas,3,3,29000000
+Florida,4,4,21000000
+New York,2,2,19000000
+Washington,5,5,7700000

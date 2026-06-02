@@ -1,3 +1,6 @@
-team,city
-Lakers,Los Angeles
-Cowboys,Dallas
+state,population,ua_lon,ua_lat,major_6_cnt
+California,39000000,-118.24,34.05,5
+Texas,29000000,-97.33,32.75,3
+Florida,21000000,-80.19,25.76,4
+New York,19000000,-74.00,40.71,6
+Washington,7700000,-122.33,47.61,2

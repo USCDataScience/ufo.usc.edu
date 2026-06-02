@@ -1,3 +1,12 @@
-lat,lon,shape
-34.05,-118.24,light
-32.71,-97.3,orb
+geocoded_longitude,geocoded_latitude,shape
+-118.24,34.05,light
+-97.33,32.75,orb
+-74.00,40.71,disk
+-87.62,41.87,fireball
+-122.33,47.61,triangle
+-80.19,25.76,light
+-95.36,29.76,orb
+-71.06,42.36,disk
+-104.99,39.74,fireball
+-118.24,34.05,light
+-97.33,32.75,orb

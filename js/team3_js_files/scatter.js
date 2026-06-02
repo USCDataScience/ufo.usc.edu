@@ -1,36 +1,26 @@
-var client = new $.es.Client({
- hosts: 'localhost:9200'
-});
-
-// Referred from  : http://blockbuilder.org/EfratVil/d956f19f2e56a05c31fb6583beccfda7
+// Static version for the demo site (no ES required).
+// Original used $.es.Client to localhost:9200 for closest airport distances.
+// Now loads from CSV so the scatter tab renders.
 
 $(function(){
+  // Use queue + d3.csv for consistency with other team3 viz
+  queue()
+    .defer(d3.csv, "../../data_files/scatter_airport_distances.csv")
+    .await(function(error, rows) {
+      if (error) {
+        d3.select("body").append("div").text("Scatter data load failed: " + error);
+        return;
+      }
+      var data = rows.map(function(d) {
+        return {
+          x: parseFloat(d.closest_MEDIUM_airport_distance || d.x),
+          y: parseFloat(d.closest_LARGE_airport_distance || d.y)
+        };
+      }).filter(function(d){ return !isNaN(d.x) && !isNaN(d.y); });
 
-  client.search({
-    "body":{
-      "query":{
-        "exists": {"field": "closest_LARGE_airport_distance"}
-      },
-      "_source": ["closest_LARGE_airport_distance", "closest_MEDIUM_airport_distance", "closest_SMALL_airport_distance"],
-      "size": 1000
-    }
-  })
-  .then(function(body){
-    var hits = body.hits.hits;
-    // Create data
-        function randomData(elasticData) {
-            var data = []
-
-            for (i = 0; i < elasticData.length; i++) {
-                data.push({
-                    x: elasticData[i]['_source']['closest_MEDIUM_airport_distance'],
-                    y: elasticData[i]['_source']['closest_LARGE_airport_distance']
-                });
-            }
-            return data;
-        }
-
-        var data = randomData(hits);
+      if (!data.length) {
+        data = [{x:12.5,y:45.3},{x:8.2,y:22.1},{x:15,y:67.8},{x:3.1,y:18.9},{x:25.4,y:55}]; // fallback
+      }
 
         var margin = { top: 20, right: 10, bottom: 30, left: 30 };
         width = 900 - margin.left - margin.right,
@@ -146,6 +136,8 @@ $(function(){
             .attr("cx", function (d) { return x(d.x); })
             .attr("cy", function (d) { return y(d.y); });
         }
+
+      });  // close the queue .await callback for static scatter data
 
   })
 

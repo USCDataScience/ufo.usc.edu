@@ -44,8 +44,11 @@ $(function(){
                 || a.parent == b.parent.parent ? 0.5 : 0.8;
             });
 
-    var stratify = d3.stratify()            // This D3 API method gives cvs file flat data array dimensions.
-            .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
+    var stratify = d3.stratify()            // This D3 API method gives flat array dimensions using dot ids.
+            .parentId(function(d) { 
+              var dot = d.id.lastIndexOf(".");
+              return dot > 0 ? d.id.substring(0, dot) : null; 
+            });
 
 
     var root = stratify(arrayObj);
