@@ -1,0 +1,41 @@
+{
+  "nodes": [
+    {
+      "id": "California",
+      "group": 1
+    },
+    {
+      "id": "Texas",
+      "group": 1
+    },
+    {
+      "id": "population",
+      "group": 2
+    },
+    {
+      "id": "sightings",
+      "group": 3
+    },
+    {
+      "id": "closest_large_airport",
+      "group": 4
+    }
+  ],
+  "links": [
+    {
+      "source": "California",
+      "target": "population",
+      "value": 120
+    },
+    {
+      "source": "California",
+      "target": "sightings",
+      "value": 80
+    },
+    {
+      "source": "Texas",
+      "target": "sightings",
+      "value": 40
+    }
+  ]
+}

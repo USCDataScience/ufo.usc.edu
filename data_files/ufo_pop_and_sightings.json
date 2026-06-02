@@ -1,0 +1,17 @@
+[
+  {
+    "state": "CA",
+    "population": 39500000,
+    "sightings": 7562
+  },
+  {
+    "state": "WA",
+    "population": 7700000,
+    "sightings": 3330
+  },
+  {
+    "state": "TX",
+    "population": 29000000,
+    "sightings": 2890
+  }
+]

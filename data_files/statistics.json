@@ -1,0 +1,26 @@
+[
+  {
+    "key": "California",
+    "doc_count": 7562
+  },
+  {
+    "key": "Washington",
+    "doc_count": 3330
+  },
+  {
+    "key": "Texas",
+    "doc_count": 2890
+  },
+  {
+    "key": "Florida",
+    "doc_count": 2100
+  },
+  {
+    "key": "New York",
+    "doc_count": 1780
+  },
+  {
+    "key": "Illinois",
+    "doc_count": 1420
+  }
+]
