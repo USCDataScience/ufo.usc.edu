@@ -49,32 +49,63 @@ function loadUKMap(ufoCoords){
 
   function makeMyUKMap(error,sports,uk,airports,ukufo) {
 
+    // Compatible with topojson v1 (topojson.feature) and old v0 (topojson.object)
+    var subunits = { geometries: [] };
+    try {
+      if (uk && uk.type === "Topology") {
+        var subObj = uk.objects.subunits || uk.objects.uk || uk.objects.countries || {type: "GeometryCollection", geometries: []};
+        if (typeof topojson.object === "function") {
+          subunits = topojson.object(uk, subObj) || {geometries: []};
+        } else if (typeof topojson.feature === "function") {
+          var feat = topojson.feature(uk, subObj);
+          if (feat && feat.features) {
+            subunits = { geometries: feat.features.map(function(f){ return f.geometry || f; }) };
+          } else if (feat && feat.geometry) {
+            subunits = { geometries: [feat.geometry] };
+          }
+        }
+      } else if (uk && uk.features) {
+        subunits = { geometries: uk.features.map(function(f){ return f.geometry || f; }) };
+      }
+    } catch(e) { console.warn("UK topo subunits issue", e); }
 
-    var subunits = topojson.object(uk, uk.objects.subunits)
+    if (subunits.geometries && subunits.geometries.length) {
+      svg.selectAll(".subunit")
+          .data(subunits.geometries)
+        .enter().append("path")
+          .attr("class", function(d) { return "subunit " + (d.id || ""); })
+          .attr("d", path);
+    } else {
+      // fallback: draw a simple UK outline box so map isn't empty
+      svg.append("rect")
+        .attr("x", 200).attr("y", 150).attr("width", 500).attr("height", 400)
+        .style("fill", "none").style("stroke", "#555").style("stroke-width", 1);
+      svg.append("text").attr("x", 450).attr("y", 350).style("fill","#888").text("UK (simplified outline - add full topojson for boundaries)");
+    }
 
-    svg.selectAll(".subunit")
-        .data(subunits.geometries)
-      .enter().append("path")
-        .attr("class", function(d) { return "subunit " + d.id; })
-        .attr("d", path);
+    if (uk && uk.type === "Topology" && subunits.geometries && subunits.geometries.length > 0) {
+      try {
+        svg.append("path")
+            .datum(topojson.mesh(uk, uk.objects.subunits || uk.objects.uk, function(a, b) { return a !== b && a.id !== "IRL"; }))
+            .attr("d", path)
+            .attr("class", "subunit-boundary");
 
-    svg.append("path")
-        .datum(topojson.mesh(uk, uk.objects.subunits, function(a, b) { return a !== b && a.id !== "IRL"; }))
-        .attr("d", path)
-        .attr("class", "subunit-boundary");
+        svg.append("path")
+            .datum(topojson.mesh(uk, uk.objects.subunits || uk.objects.uk, function(a, b) { return a === b && a.id === "IRL"; }))
+            .attr("d", path)
+            .attr("class", "subunit-boundary IRL");
+      } catch(e){}
 
-    svg.append("path")
-        .datum(topojson.mesh(uk, uk.objects.subunits, function(a, b) { return a === b && a.id === "IRL"; }))
-        .attr("d", path)
-        .attr("class", "subunit-boundary IRL");
-
-    svg.selectAll(".subunit-label")
-        .data(subunits.geometries)
-      .enter().append("text")
-        .attr("class", function(d) { return "subunit-label " + d.id; })
-        .attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
-        .attr("dy", ".35em")
-        .text(function(d) { return d.properties.name; });
+      svg.selectAll(".subunit-label")
+          .data(subunits.geometries)
+        .enter().append("text")
+          .attr("class", function(d) { return "subunit-label " + (d.id || ""); })
+          .attr("transform", function(d) { 
+            var c = path.centroid(d); return c && c[0] ? "translate(" + c + ")" : ""; 
+          })
+          .attr("dy", ".35em")
+          .text(function(d) { return (d.properties && d.properties.name) || d.id || ""; });
+    }
 
        svg.selectAll("rect")
             .data(ukufo)
@@ -105,10 +136,12 @@ function loadUKMap(ufoCoords){
           .append("circle")
           .attr("class","sports")
           .attr("cx", function(d) {
-              return projection([parseFloat(d.lon), parseFloat(d.lat)])[0];
+              var p = projection([parseFloat(d.lon), parseFloat(d.lat)]);
+              return p ? p[0] : null;
           })
           .attr("cy", function(d) {
-              return projection([parseFloat(d.lon), parseFloat(d.lat)])[1];
+              var p = projection([parseFloat(d.lon), parseFloat(d.lat)]);
+              return p ? p[1] : null;
           })
           .attr("r", function(d) {
               return 8;
@@ -309,10 +342,12 @@ function loadUSMap(){
           .append("circle")
           .attr("class","sports")
           .attr("cx", function(d) {
-              return projection([parseFloat(d.ua_lon), parseFloat(d.ua_lat)])[0];
+              var p = projection([parseFloat(d.ua_lon), parseFloat(d.ua_lat)]);
+              return p ? p[0] : null;
           })
           .attr("cy", function(d) {
-              return projection([parseFloat(d.ua_lon), parseFloat(d.ua_lat)])[1];
+              var p = projection([parseFloat(d.ua_lon), parseFloat(d.ua_lat)]);
+              return p ? p[1] : null;
           })
           .attr("r", function(d) {
               return d.major_6_cnt * 5;
