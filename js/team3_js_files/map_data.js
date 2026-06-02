@@ -76,11 +76,7 @@ function loadUKMap(ufoCoords){
           .attr("class", function(d) { return "subunit " + (d.id || ""); })
           .attr("d", path);
     } else {
-      // fallback: draw a simple UK outline box so map isn't empty
-      svg.append("rect")
-        .attr("x", 200).attr("y", 150).attr("width", 500).attr("height", 400)
-        .style("fill", "none").style("stroke", "#555").style("stroke-width", 1);
-      svg.append("text").attr("x", 450).attr("y", 350).style("fill","#888").text("UK (simplified outline - add full topojson for boundaries)");
+      // No boundary data; points will still be plotted below.
     }
 
     if (uk && uk.type === "Topology" && subunits.geometries && subunits.geometries.length > 0) {
@@ -114,13 +110,13 @@ function loadUKMap(ufoCoords){
              .attr("x", function(d) {
                 proj = projection([parseFloat(d.lon), parseFloat(d.lat)]);
                 if (proj == null)
-                    return
+                    return 0;
                 return proj[0];
             })
             .attr("y", function(d) {
                 proj = projection([parseFloat(d.lon), parseFloat(d.lat)]);
                 if (proj == null)
-                    return
+                    return 0;
                 return proj[1];
             })
             //.attr("r", function(d) {return 2;})
@@ -130,18 +126,18 @@ function loadUKMap(ufoCoords){
             .style("opacity", 1);
 
 
-         svg.selectAll("circle")
+         svg.selectAll("circle.sports")
           .data(sports)
           .enter()
           .append("circle")
           .attr("class","sports")
           .attr("cx", function(d) {
               var p = projection([parseFloat(d.lon), parseFloat(d.lat)]);
-              return p ? p[0] : null;
+              return p ? p[0] : 0;
           })
           .attr("cy", function(d) {
               var p = projection([parseFloat(d.lon), parseFloat(d.lat)]);
-              return p ? p[1] : null;
+              return p ? p[1] : 0;
           })
           .attr("r", function(d) {
               return 8;
@@ -155,7 +151,7 @@ function loadUKMap(ufoCoords){
           .style("opacity", 0.0)
 
 
-          svg.selectAll("circle")
+          svg.selectAll("circle.airports")
             .data(airports)
             .enter()
             .append("circle")
@@ -163,13 +159,13 @@ function loadUKMap(ufoCoords){
             .attr("cx", function(d) {
               proj = projection([parseFloat(d.longitude_deg), parseFloat(d.latitude_deg)]);
               if (proj == null)
-                  return
+                  return 0;
               return proj[0];
             })
             .attr("cy", function(d) {
               proj = projection([parseFloat(d.longitude_deg), parseFloat(d.latitude_deg)]);
               if (proj == null)
-                  return
+                  return 0;
               return proj[1];
             })
             .attr("r", function(d) {
@@ -336,7 +332,7 @@ function loadUSMap(){
         .style("fill", "#FFFFFF")
 
 
-        svg.selectAll("circle")
+        svg.selectAll("circle.sports")
           .data(sports)
           .enter()
           .append("circle")
@@ -375,7 +371,7 @@ function loadUSMap(){
           })
           .style("opacity", 0.0)
 
-          svg.selectAll("circle")
+          svg.selectAll("circle.airports")
             .data(airports)
             .enter()
             .append("circle")
@@ -383,13 +379,13 @@ function loadUSMap(){
             .attr("cx", function(d) {
               proj = projection([parseFloat(d.longitude_deg), parseFloat(d.latitude_deg)]);
               if (proj == null)
-                  return
+                  return 0;
               return proj[0];
             })
             .attr("cy", function(d) {
               proj = projection([parseFloat(d.longitude_deg), parseFloat(d.latitude_deg)]);
               if (proj == null)
-                  return
+                  return 0;
               return proj[1];
             })
             .attr("r", function(d) {
@@ -405,7 +401,7 @@ function loadUSMap(){
             .style("opacity", 0.0)
 
             // NOTE : PLotting meteorite data here
-            svg.selectAll("circle")
+            svg.selectAll("circle.meteorites")
             .data(meteorites)
             .enter()
             .append("circle")
@@ -413,13 +409,13 @@ function loadUSMap(){
             .attr("cx", function(d) {
                 proj = projection([parseFloat(d.reclong), parseFloat(d.reclat)]);
                 if (proj == null)
-                    return
+                    return 0;
                 return proj[0];
             })
             .attr("cy", function(d) {
                 proj = projection([parseFloat(d.reclong), parseFloat(d.reclat)]);
                 if (proj == null)
-                    return
+                    return 0;
                 return proj[1];
             })
             .attr("r", function(d) {
@@ -437,13 +433,13 @@ function loadUSMap(){
              .attr("x", function(d) {
                 proj = projection([parseFloat(d.geocoded_longitude), parseFloat(d.geocoded_latitude)]);
                 if (proj == null)
-                    return
+                    return 0;
                 return proj[0];
             })
             .attr("y", function(d) {
                 proj = projection([parseFloat(d.geocoded_longitude), parseFloat(d.geocoded_latitude)]);
                 if (proj == null)
-                    return
+                    return 0;
                 return proj[1];
             })
             //.attr("r", function(d) {return 2;})
