@@ -1,0 +1,2502 @@
+[
+  {
+    "sight_time": "8/10/84",
+    "location": "Bellingham, WA",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "6/30/08",
+    "location": "Winnett (south of), MT",
+    "shape": "other"
+  },
+  {
+    "sight_time": "5/12/99",
+    "location": "Salem, OR",
+    "shape": "cylinder"
+  },
+  {
+    "sight_time": "10/31/00",
+    "location": "Grand Ledge, MI",
+    "shape": "light"
+  },
+  {
+    "sight_time": "3/29/03",
+    "location": "Iliamna, AK",
+    "shape": "cylinder"
+  },
+  {
+    "sight_time": "7/9/10",
+    "location": "Wolf Creek, MT",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "9/11/00",
+    "location": "Ashland, KY",
+    "shape": "other"
+  },
+  {
+    "sight_time": "8/31/04",
+    "location": "Herkimer, NY",
+    "shape": "other"
+  },
+  {
+    "sight_time": "6/1/72",
+    "location": "Tate, GA",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "7/31/08",
+    "location": "Allentown, PA",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "6/10/09",
+    "location": "Mountlake Terrace, WA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "10/1/09",
+    "location": "Whitefield, OK",
+    "shape": "light"
+  },
+  {
+    "sight_time": "7/14/07",
+    "location": "Oak Lawn, IL",
+    "shape": "light"
+  },
+  {
+    "sight_time": "6/1/73",
+    "location": "Pensacola, FL",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "1/16/00",
+    "location": "Becker (approx. 5 miles W of, on Hwy 10 towards St. Cloud), MN",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "11/6/05",
+    "location": "Lodi, CA",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "12/5/03",
+    "location": "DeKalb (outside of), IL",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "5/15/97",
+    "location": "Waco, TX",
+    "shape": "light"
+  },
+  {
+    "sight_time": "8/16/02",
+    "location": "Wilmington, NC",
+    "shape": "light"
+  },
+  {
+    "sight_time": "7/4/75",
+    "location": "Fair Haven, NY",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "9/1/07",
+    "location": "Rowland Heights, CA",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "8/18/08",
+    "location": "North Myrtle Beach, SC",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "6/10/07",
+    "location": "Buckeye, AZ",
+    "shape": "light"
+  },
+  {
+    "sight_time": "6/25/99",
+    "location": "Idaho Falls, ID",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "10/5/03",
+    "location": "Kingman, AZ",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "6/15/88",
+    "location": "North Freedom, WI",
+    "shape": "cylinder"
+  },
+  {
+    "sight_time": "2/7/01",
+    "location": "Laramie, WY",
+    "shape": "light"
+  },
+  {
+    "sight_time": "9/9/04",
+    "location": "Raeford, NC",
+    "shape": "teardrop"
+  },
+  {
+    "sight_time": "3/13/97",
+    "location": "Salt Lake City, UT",
+    "shape": "other"
+  },
+  {
+    "sight_time": "9/17/00",
+    "location": "Opelousas, LA",
+    "shape": "chevron"
+  },
+  {
+    "sight_time": "8/22/02",
+    "location": "Fort Sumner, NM",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "7/15/93",
+    "location": "Magnolia, DE",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "6/26/98",
+    "location": "Apple Valley, CA",
+    "shape": "other"
+  },
+  {
+    "sight_time": "9/3/04",
+    "location": "Hegins, PA",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "7/23/06",
+    "location": "Burton, TX",
+    "shape": "other"
+  },
+  {
+    "sight_time": "7/6/08",
+    "location": "Sylacauga, AL",
+    "shape": "rectangle"
+  },
+  {
+    "sight_time": "11/25/09",
+    "location": "Covington, LA",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "7/6/93",
+    "location": "Gorman (15 miles north of, I-5), CA",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "2/23/99",
+    "location": "Spur, TX",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "7/31/01",
+    "location": "Blanchester, OH",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "4/5/08",
+    "location": "Henderson, NV",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "12/22/08",
+    "location": "Oklahoma City, OK",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "6/15/01",
+    "location": "Santa Fe, NM",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "12/1/09",
+    "location": "Fremont, CA",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "3/1/05",
+    "location": "Las Vegas, NV",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "12/4/08",
+    "location": "New Britain, PA",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "10/19/08",
+    "location": "Auxvasse, MO",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "9/16/01",
+    "location": "College Park, MD",
+    "shape": "light"
+  },
+  {
+    "sight_time": "7/16/05",
+    "location": "Pullman, WA",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "5/19/03",
+    "location": "Westwego, LA",
+    "shape": "teardrop"
+  },
+  {
+    "sight_time": "8/7/01",
+    "location": "Mammoth Lakes, CA",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "5/23/07",
+    "location": "Cottonwood, CA",
+    "shape": "changing"
+  },
+  {
+    "sight_time": "7/1/90",
+    "location": "Fontana, CA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "10/1/08",
+    "location": "Arlington, TX",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "6/1/80",
+    "location": "Birmingham, AL",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "11/7/09",
+    "location": "Honolulu, HI",
+    "shape": "other"
+  },
+  {
+    "sight_time": "7/10/00",
+    "location": "Big Pine, CA",
+    "shape": "other"
+  },
+  {
+    "sight_time": "6/30/55",
+    "location": "Quartz Hill, CA",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "10/16/09",
+    "location": "Kissimmee, FL",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "12/20/01",
+    "location": "Aneta (by/near), ND",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "5/18/92",
+    "location": "Elmer, NJ",
+    "shape": "other"
+  },
+  {
+    "sight_time": "7/3/89",
+    "location": "Lawrence, KS",
+    "shape": "chevron"
+  },
+  {
+    "sight_time": "1/30/03",
+    "location": "Gorham, ME",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "7/10/09",
+    "location": "Tonopah, AZ",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "11/1/90",
+    "location": "Traverse City, MI",
+    "shape": "light"
+  },
+  {
+    "sight_time": "9/18/04",
+    "location": "Placitas, NM",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "12/12/07",
+    "location": "Manheim, PA",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "9/15/04",
+    "location": "Eureka, CA",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "7/1/06",
+    "location": "McMinnville, OR",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "12/16/06",
+    "location": "Millersburg, OH",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "10/13/07",
+    "location": "Irvine/Newport Beach, CA",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "10/30/02",
+    "location": "Hammond, IN",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "12/25/08",
+    "location": "Paintsville, KY",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "3/19/04",
+    "location": "Laona, WI",
+    "shape": "light"
+  },
+  {
+    "sight_time": "6/30/03",
+    "location": "Jamestown, KS",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "10/31/97",
+    "location": "Nocona, TX",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "11/8/99",
+    "location": "La Grande, OR",
+    "shape": "formation"
+  },
+  {
+    "sight_time": "9/19/05",
+    "location": "Boulder, CO",
+    "shape": "cigar"
+  },
+  {
+    "sight_time": "4/14/08",
+    "location": "Minneapolis, MN",
+    "shape": "light"
+  },
+  {
+    "sight_time": "2/17/00",
+    "location": "Auburn, WA",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "1/23/00",
+    "location": "Fontana, CA",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "11/6/04",
+    "location": "Lafayette (35 miles East of), IN",
+    "shape": "light"
+  },
+  {
+    "sight_time": "6/1/96",
+    "location": "Gibsonton, FL",
+    "shape": "light"
+  },
+  {
+    "sight_time": "3/19/10",
+    "location": "Rockmart, GA",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "6/13/06",
+    "location": "Leesburg, FL",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "2/27/03",
+    "location": "Nashua, NH",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "7/5/09",
+    "location": "Miami, FL",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "2/11/05",
+    "location": "Shelton, WA",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "7/12/02",
+    "location": "Rapid City, SD",
+    "shape": "light"
+  },
+  {
+    "sight_time": "5/15/09",
+    "location": "Wabash, IN",
+    "shape": "light"
+  },
+  {
+    "sight_time": "8/15/01",
+    "location": "Lake Placid (near), NY",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "5/30/99",
+    "location": "Vestal, NY",
+    "shape": "cylinder"
+  },
+  {
+    "sight_time": "1/1/03",
+    "location": "Bellevue, NE",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "1/19/06",
+    "location": "Torrance, CA",
+    "shape": "other"
+  },
+  {
+    "sight_time": "10/15/05",
+    "location": "Hiwassee, VA",
+    "shape": "changing"
+  },
+  {
+    "sight_time": "4/16/04",
+    "location": "Logansport, IN",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "9/2/07",
+    "location": "Cincinnati, OH",
+    "shape": "light"
+  },
+  {
+    "sight_time": "4/5/00",
+    "location": "Ocean City, MD",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "6/16/07",
+    "location": "Tucson, AZ",
+    "shape": "light"
+  },
+  {
+    "sight_time": "1/24/98",
+    "location": "Tucson, AZ",
+    "shape": "light"
+  },
+  {
+    "sight_time": "11/21/53",
+    "location": "Pendleton (2-2 1/2 mi. SE of), IN",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "7/6/04",
+    "location": "Kenmore, WA",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "2/4/08",
+    "location": "Jasper, AR",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "7/10/05",
+    "location": "Brook Park, OH",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "6/9/09",
+    "location": "Auburn, WA",
+    "shape": "formation"
+  },
+  {
+    "sight_time": "1/30/07",
+    "location": "Quincy, CA",
+    "shape": "cylinder"
+  },
+  {
+    "sight_time": "6/3/01",
+    "location": "Murfreesboro, TN",
+    "shape": "flash"
+  },
+  {
+    "sight_time": "8/1/69",
+    "location": "Minnetonka, MN",
+    "shape": "light"
+  },
+  {
+    "sight_time": "7/8/02",
+    "location": "Sylacauga, AL",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "8/24/09",
+    "location": "Neenah, WI",
+    "shape": "other"
+  },
+  {
+    "sight_time": "8/14/77",
+    "location": "Olney, IL",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "3/28/01",
+    "location": "Bouse, AZ",
+    "shape": "formation"
+  },
+  {
+    "sight_time": "5/10/97",
+    "location": "Provo/Orem/Salt Lake City, UT",
+    "shape": "light"
+  },
+  {
+    "sight_time": "10/9/06",
+    "location": "Arbuckle, CA",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "6/15/78",
+    "location": "Boston, MA",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "2/25/04",
+    "location": "Arlington, WA",
+    "shape": "other"
+  },
+  {
+    "sight_time": "11/4/06",
+    "location": "Magnolia, NJ",
+    "shape": "cylinder"
+  },
+  {
+    "sight_time": "5/16/01",
+    "location": "Columbia, IL",
+    "shape": "cigar"
+  },
+  {
+    "sight_time": "5/21/07",
+    "location": "Port Isabel, TX",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "8/1/67",
+    "location": "Roseburg, OR",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "7/30/03",
+    "location": "Birmingham, AL",
+    "shape": "rectangle"
+  },
+  {
+    "sight_time": "9/4/99",
+    "location": "Richmond (just east of), IN",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "1/25/06",
+    "location": "Annapolis/Severna Park, MD",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "7/25/09",
+    "location": "Chelsea, MI",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "6/11/05",
+    "location": "Rockford, IL",
+    "shape": "light"
+  },
+  {
+    "sight_time": "2/7/01",
+    "location": "Linthicum (BWI airport), MD",
+    "shape": "rectangle"
+  },
+  {
+    "sight_time": "8/25/08",
+    "location": "Chicago, IL",
+    "shape": "light"
+  },
+  {
+    "sight_time": "11/15/07",
+    "location": "Sandy Hook, MS",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "8/1/08",
+    "location": "Beecher, IL",
+    "shape": "flash"
+  },
+  {
+    "sight_time": "8/30/03",
+    "location": "McGregor, MN",
+    "shape": "other"
+  },
+  {
+    "sight_time": "7/25/00",
+    "location": "Glendale, CA",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "4/21/08",
+    "location": "Phoenix, AZ",
+    "shape": "formation"
+  },
+  {
+    "sight_time": "8/2/97",
+    "location": "Middletown, CT",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "8/4/07",
+    "location": "Baton Rouge, LA",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "11/1/08",
+    "location": "Kingwood, TX",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "3/14/00",
+    "location": "Ionia, MI",
+    "shape": "diamond"
+  },
+  {
+    "sight_time": "8/10/88",
+    "location": "Johnstown, PA",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "7/5/03",
+    "location": "Clive, IA",
+    "shape": "teardrop"
+  },
+  {
+    "sight_time": "3/22/01",
+    "location": "Las Vegas, NV",
+    "shape": "formation"
+  },
+  {
+    "sight_time": "9/13/02",
+    "location": "Scarborough, ME",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "8/6/10",
+    "location": "Peabody, MA",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "6/15/98",
+    "location": "Bryan, TX",
+    "shape": "light"
+  },
+  {
+    "sight_time": "7/25/09",
+    "location": "Chelsea, MI",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "4/2/92",
+    "location": "Pebble Beach, CA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "10/24/01",
+    "location": "Hayward, CA",
+    "shape": "cross"
+  },
+  {
+    "sight_time": "4/28/10",
+    "location": "Steger, IL",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "4/19/85",
+    "location": "Austin (near), TX",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "11/7/02",
+    "location": "Grand Isle, VT",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "2/19/08",
+    "location": "Sioux Falls, SD",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "4/19/09",
+    "location": "New Orleans, LA",
+    "shape": "rectangle"
+  },
+  {
+    "sight_time": "2/3/03",
+    "location": "Plymouth Meeting, PA",
+    "shape": "egg"
+  },
+  {
+    "sight_time": "9/2/09",
+    "location": "Westfield, IN",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "10/12/02",
+    "location": "San Francisco, CA",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "10/29/00",
+    "location": "Marion, KS",
+    "shape": "light"
+  },
+  {
+    "sight_time": "3/3/05",
+    "location": "Auburndale, FL",
+    "shape": "other"
+  },
+  {
+    "sight_time": "10/29/98",
+    "location": "Lihue (Kauai), HI",
+    "shape": "other"
+  },
+  {
+    "sight_time": "8/31/08",
+    "location": "Union, NJ",
+    "shape": "light"
+  },
+  {
+    "sight_time": "2/5/09",
+    "location": "Cocoa, FL",
+    "shape": "changing"
+  },
+  {
+    "sight_time": "4/15/63",
+    "location": "Lompoc/Vandenberg AFB, CA",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "5/13/03",
+    "location": "Anaheim, CA",
+    "shape": "cylinder"
+  },
+  {
+    "sight_time": "3/31/06",
+    "location": "Calabasas, CA",
+    "shape": "flash"
+  },
+  {
+    "sight_time": "8/1/98",
+    "location": "Howell, MI",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "8/28/97",
+    "location": "Page (Lake Powell), AZ",
+    "shape": "light"
+  },
+  {
+    "sight_time": "10/11/99",
+    "location": "Portville, NY",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "5/7/07",
+    "location": "West Plains, MO",
+    "shape": "light"
+  },
+  {
+    "sight_time": "11/10/08",
+    "location": "Uniontown, OH",
+    "shape": "changing"
+  },
+  {
+    "sight_time": "4/12/05",
+    "location": "Lake Forest, CA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "6/30/00",
+    "location": "St. Paul, MN",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "7/1/91",
+    "location": "St. David (near), IL",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "12/28/08",
+    "location": "Langdon, IA",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "11/24/99",
+    "location": "Anaheim, CA",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "9/13/04",
+    "location": "Honolulu, HI",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "3/14/10",
+    "location": "Pasadena, CA",
+    "shape": "changing"
+  },
+  {
+    "sight_time": "12/25/07",
+    "location": "Burbank, CA",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "5/15/06",
+    "location": "East Haven, CT",
+    "shape": "other"
+  },
+  {
+    "sight_time": "5/12/68",
+    "location": "Omaha, NE",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "1/2/03",
+    "location": "San Jose, CA",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "2/14/09",
+    "location": "Wethersfield, CT",
+    "shape": "light"
+  },
+  {
+    "sight_time": "6/16/08",
+    "location": "Jefferson City, MO",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "9/16/95",
+    "location": "Wilsonville, OR",
+    "shape": "light"
+  },
+  {
+    "sight_time": "10/13/00",
+    "location": "Newton, KS",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "11/5/02",
+    "location": "Caribou, ME",
+    "shape": "light"
+  },
+  {
+    "sight_time": "5/27/03",
+    "location": "Everett, WA",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "2/23/01",
+    "location": "Cincinnati, OH",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "9/9/05",
+    "location": "West Palm Beach, FL",
+    "shape": "light"
+  },
+  {
+    "sight_time": "8/20/75",
+    "location": "Brewster, NY",
+    "shape": "cylinder"
+  },
+  {
+    "sight_time": "8/1/00",
+    "location": "Erie, PA",
+    "shape": "rectangle"
+  },
+  {
+    "sight_time": "5/1/03",
+    "location": "Seattle (West Seattle), WA",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "7/4/07",
+    "location": "Loveland, CO",
+    "shape": "other"
+  },
+  {
+    "sight_time": "7/4/10",
+    "location": "Rancho Santa Margarita, CA",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "8/29/06",
+    "location": "Lincoln, NE",
+    "shape": "light"
+  },
+  {
+    "sight_time": "7/15/82",
+    "location": "Christiansburg, OH",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "3/10/07",
+    "location": "Franklin, VA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "3/15/04",
+    "location": "Springfield, MA",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "4/13/99",
+    "location": "Youngstown, OH",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "10/28/91",
+    "location": "Los Angeles, CA",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "4/22/08",
+    "location": "Rogers, AR",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "2/19/99",
+    "location": "Sarasota, FL",
+    "shape": "other"
+  },
+  {
+    "sight_time": "5/22/08",
+    "location": "Edwardsburg, MI",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "6/27/04",
+    "location": "Mentor, OH",
+    "shape": "light"
+  },
+  {
+    "sight_time": "6/15/89",
+    "location": "Pensacola, FL",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "6/23/07",
+    "location": "Salisbury, NC",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "6/22/04",
+    "location": "Brady (southwest), MT",
+    "shape": "other"
+  },
+  {
+    "sight_time": "3/16/09",
+    "location": "Mokena, IL",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "10/31/02",
+    "location": "Shepherdstown, WV",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "12/15/04",
+    "location": "Charleston, MO",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "1/12/02",
+    "location": "Portland, OR",
+    "shape": "light"
+  },
+  {
+    "sight_time": "6/15/99",
+    "location": "Acworth, GA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "11/20/06",
+    "location": "Hattiesburg, MS",
+    "shape": "other"
+  },
+  {
+    "sight_time": "10/20/00",
+    "location": "Westbury, NY",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "8/22/03",
+    "location": "Rome, GA",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "5/17/09",
+    "location": "Fargo, ND",
+    "shape": "other"
+  },
+  {
+    "sight_time": "9/12/96",
+    "location": "Victorville, CA",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "6/27/08",
+    "location": "Boulder, CO",
+    "shape": "flash"
+  },
+  {
+    "sight_time": "1/19/08",
+    "location": "La Mesa, CA",
+    "shape": "changing"
+  },
+  {
+    "sight_time": "6/22/06",
+    "location": "Sarasota, FL",
+    "shape": "other"
+  },
+  {
+    "sight_time": "1/19/06",
+    "location": "Byron, IL",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "9/11/02",
+    "location": "Elmont, NY",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "7/18/99",
+    "location": "Houston, TX",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "2/11/00",
+    "location": "Rockford, IL",
+    "shape": "formation"
+  },
+  {
+    "sight_time": "10/30/02",
+    "location": "Port Townsend, WA",
+    "shape": "chevron"
+  },
+  {
+    "sight_time": "12/1/97",
+    "location": "Greentown, IN",
+    "shape": "cigar"
+  },
+  {
+    "sight_time": "8/14/06",
+    "location": "Frankfort, IN",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "5/29/00",
+    "location": "Clovis, CA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "5/21/71",
+    "location": "Kennett Square, PA",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "10/29/03",
+    "location": "Russellville, AR",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "7/4/10",
+    "location": "Erie, PA",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "7/11/10",
+    "location": "Ceres, CA",
+    "shape": "changing"
+  },
+  {
+    "sight_time": "9/14/07",
+    "location": "San Francisco, CA",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "12/13/08",
+    "location": "Placentia, CA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "8/7/05",
+    "location": "Medicine Bow, WY",
+    "shape": "light"
+  },
+  {
+    "sight_time": "9/15/00",
+    "location": "Ozark, AL",
+    "shape": "light"
+  },
+  {
+    "sight_time": "5/14/84",
+    "location": "Los Angeles, CA",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "1/4/06",
+    "location": "Los Angeles, CA",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "1/29/89",
+    "location": "Montgomery, IL",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "6/4/07",
+    "location": "Capitola, CA",
+    "shape": "chevron"
+  },
+  {
+    "sight_time": "9/21/08",
+    "location": "Galesburg, IL",
+    "shape": "light"
+  },
+  {
+    "sight_time": "4/17/01",
+    "location": "Rancho Santa Margarita, CA",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "9/24/05",
+    "location": "Durant, OK",
+    "shape": "other"
+  },
+  {
+    "sight_time": "10/3/07",
+    "location": "Burnsville, MN",
+    "shape": "light"
+  },
+  {
+    "sight_time": "6/17/06",
+    "location": "Vancouver, WA",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "1/20/08",
+    "location": "East Dublin, GA",
+    "shape": "other"
+  },
+  {
+    "sight_time": "8/19/99",
+    "location": "Center, TX",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "7/18/07",
+    "location": "Phoenix, AZ",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "9/19/99",
+    "location": "Tampa, FL",
+    "shape": "flash"
+  },
+  {
+    "sight_time": "1/5/05",
+    "location": "Los Angeles, CA",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "8/2/97",
+    "location": "Albany (about 10 minutes from), OR",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "10/23/98",
+    "location": "Alexandria, LA",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "12/15/94",
+    "location": "Youngstown, OH",
+    "shape": "teardrop"
+  },
+  {
+    "sight_time": "4/25/09",
+    "location": "Batavia, OH",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "8/15/66",
+    "location": "Rochester (outside of), NY",
+    "shape": "other"
+  },
+  {
+    "sight_time": "9/6/04",
+    "location": "Zelienople, PA",
+    "shape": "other"
+  },
+  {
+    "sight_time": "9/8/05",
+    "location": "Gainesville, GA",
+    "shape": "other"
+  },
+  {
+    "sight_time": "8/31/06",
+    "location": "Chicago, IL",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "6/22/07",
+    "location": "Fayetteville, GA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "7/13/00",
+    "location": "Monterey Park, CA",
+    "shape": "cigar"
+  },
+  {
+    "sight_time": "4/15/09",
+    "location": "Tampa, FL",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "7/11/99",
+    "location": "Nicholasville, KY",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "8/10/03",
+    "location": "Albuquerque, NM",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "6/15/82",
+    "location": "Bowie, AZ",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "11/15/94",
+    "location": "Portsmouth, VA",
+    "shape": "flash"
+  },
+  {
+    "sight_time": "9/22/04",
+    "location": "Petaluma, CA",
+    "shape": "formation"
+  },
+  {
+    "sight_time": "1/20/08",
+    "location": "Lebanon, OR",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "9/30/95",
+    "location": "Baltimore, MD",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "5/30/08",
+    "location": "Bemidji, MN",
+    "shape": "other"
+  },
+  {
+    "sight_time": "6/25/98",
+    "location": "Las Cruces, NM",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "8/21/09",
+    "location": "Lafayette, IN",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "5/8/98",
+    "location": "Pompano Beach, FL",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "11/14/90",
+    "location": "New London, NH",
+    "shape": "other"
+  },
+  {
+    "sight_time": "7/6/09",
+    "location": "Salida, CO",
+    "shape": "light"
+  },
+  {
+    "sight_time": "3/13/97",
+    "location": "Goodyear, AZ",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "2/3/05",
+    "location": "Phoenix, AZ",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "7/22/09",
+    "location": "Cumberland, MD",
+    "shape": "light"
+  },
+  {
+    "sight_time": "12/28/06",
+    "location": "Huntington Beach, CA",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "8/9/04",
+    "location": "Sacramento, CA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "11/10/07",
+    "location": "San Diego, CA",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "6/30/65",
+    "location": "Tampa, FL",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "10/2/06",
+    "location": "Joplin, MO",
+    "shape": "light"
+  },
+  {
+    "sight_time": "7/4/10",
+    "location": "New Smyrna Beach, FL",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "6/23/07",
+    "location": "Washougal, WA",
+    "shape": "formation"
+  },
+  {
+    "sight_time": "9/6/04",
+    "location": "Littleton, CO",
+    "shape": "other"
+  },
+  {
+    "sight_time": "7/15/85",
+    "location": "Trumbull, CT",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "3/31/06",
+    "location": "Lincoln, NE",
+    "shape": "light"
+  },
+  {
+    "sight_time": "12/1/06",
+    "location": "Warner Robins, GA",
+    "shape": "cigar"
+  },
+  {
+    "sight_time": "7/9/05",
+    "location": "Tinley Park, IL",
+    "shape": "cigar"
+  },
+  {
+    "sight_time": "7/1/77",
+    "location": "Fenton, MI",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "9/5/05",
+    "location": "Summerville, SC",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "7/15/02",
+    "location": "Indianapolis, IN",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "2/11/04",
+    "location": "Bayonne, NJ",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "10/20/03",
+    "location": "Beckley, WV",
+    "shape": "rectangle"
+  },
+  {
+    "sight_time": "5/9/08",
+    "location": "Boulder (Gun Barrel Subdivision), CO",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "9/21/99",
+    "location": "San Diego, CA",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "7/19/10",
+    "location": "Scandia, MN",
+    "shape": "diamond"
+  },
+  {
+    "sight_time": "7/15/95",
+    "location": "Abilene, TX",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "4/20/08",
+    "location": "Tullahoma, TN",
+    "shape": "diamond"
+  },
+  {
+    "sight_time": "2/20/08",
+    "location": "Sharon, NH",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "12/29/03",
+    "location": "Salem, OR",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "1/11/01",
+    "location": "Nederland, CO",
+    "shape": "cylinder"
+  },
+  {
+    "sight_time": "1/6/03",
+    "location": "Charlotte, NC",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "7/15/96",
+    "location": "Ellensburg, WA",
+    "shape": "rectangle"
+  },
+  {
+    "sight_time": "5/14/04",
+    "location": "Cary, NC",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "10/16/03",
+    "location": "Pinos Altos, NM",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "4/17/02",
+    "location": "Mesa, AZ",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "5/10/01",
+    "location": "San Diego, CA",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "11/18/08",
+    "location": "Chiloquin, OR",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "6/21/10",
+    "location": "Trenton, NJ",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "3/19/10",
+    "location": "Tallahassee, FL",
+    "shape": "chevron"
+  },
+  {
+    "sight_time": "4/19/99",
+    "location": "Plant City, FL",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "7/4/02",
+    "location": "Naples, ME",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "2/28/98",
+    "location": "North Highlands, CA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "11/8/00",
+    "location": "Bellevue, WA",
+    "shape": "other"
+  },
+  {
+    "sight_time": "5/31/08",
+    "location": "Milliken, CO",
+    "shape": "light"
+  },
+  {
+    "sight_time": "3/27/04",
+    "location": "Watsonville, CA",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "5/30/09",
+    "location": "Centennial, CO",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "10/3/99",
+    "location": "Anson, ME",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "7/1/74",
+    "location": "Mishawaka, IN",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "2/3/09",
+    "location": "Yorktown Heights,, NY",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "6/28/03",
+    "location": "Layton, UT",
+    "shape": "light"
+  },
+  {
+    "sight_time": "7/7/10",
+    "location": "Kearney, NE",
+    "shape": "light"
+  },
+  {
+    "sight_time": "9/13/01",
+    "location": "Rockford, IL",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "10/3/07",
+    "location": "Plattsmouth, NE",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "10/5/00",
+    "location": "Topsfield, MA",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "5/30/07",
+    "location": "Elko, NV",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "5/14/10",
+    "location": "Cedar City, UT",
+    "shape": "light"
+  },
+  {
+    "sight_time": "6/9/08",
+    "location": "Norfolk, MA",
+    "shape": "cigar"
+  },
+  {
+    "sight_time": "8/8/09",
+    "location": "Chicago, IL",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "12/31/99",
+    "location": "Bellflower, CA",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "9/22/04",
+    "location": "Los Angeles, CA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "2/15/02",
+    "location": "Pinehurst, TX",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "1/3/09",
+    "location": "Winchester, VA",
+    "shape": "formation"
+  },
+  {
+    "sight_time": "6/11/98",
+    "location": "Kansas City, MO",
+    "shape": "light"
+  },
+  {
+    "sight_time": "10/12/02",
+    "location": "Tinton Falls, NJ",
+    "shape": "light"
+  },
+  {
+    "sight_time": "3/9/02",
+    "location": "Glenwood, NM",
+    "shape": "flash"
+  },
+  {
+    "sight_time": "3/15/02",
+    "location": "Pensacola, FL",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "3/28/05",
+    "location": "Mineral Springs, NC",
+    "shape": "other"
+  },
+  {
+    "sight_time": "12/20/09",
+    "location": "Simi Valley, CA",
+    "shape": "cross"
+  },
+  {
+    "sight_time": "10/26/06",
+    "location": "Coxsackie, NY",
+    "shape": "light"
+  },
+  {
+    "sight_time": "2/9/08",
+    "location": "Dana Point, CA",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "10/1/76",
+    "location": "Fairport, NY",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "10/29/03",
+    "location": "New Iberia, LA",
+    "shape": "cigar"
+  },
+  {
+    "sight_time": "7/1/99",
+    "location": "Birmingham, AL",
+    "shape": "flash"
+  },
+  {
+    "sight_time": "7/4/98",
+    "location": "Boston, MA",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "3/14/97",
+    "location": "Tonopah, AZ",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "6/16/99",
+    "location": "Denver, CO",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "7/26/99",
+    "location": "Monroe/Snohomish, WA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "7/15/80",
+    "location": "Omaha, NE",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "9/19/03",
+    "location": "Hutchinson, KS",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "9/3/01",
+    "location": "Midland, TX",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "4/3/07",
+    "location": "Queen Creek, AZ",
+    "shape": "light"
+  },
+  {
+    "sight_time": "2/5/09",
+    "location": "Maple Valley, WA",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "5/25/08",
+    "location": "North Mankato, MN",
+    "shape": "cigar"
+  },
+  {
+    "sight_time": "11/13/07",
+    "location": "San Diego, CA",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "7/24/05",
+    "location": "Brunswick, ME",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "9/11/99",
+    "location": "Bradley Beach, NJ",
+    "shape": "light"
+  },
+  {
+    "sight_time": "3/4/06",
+    "location": "Laguna Beach, CA",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "8/15/09",
+    "location": "Simi Valley, CA",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "2/13/02",
+    "location": "Webberville, MI",
+    "shape": "light"
+  },
+  {
+    "sight_time": "12/16/06",
+    "location": "Cadiz, OH",
+    "shape": "changing"
+  },
+  {
+    "sight_time": "1/29/09",
+    "location": "Brownwood, TX",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "2/14/00",
+    "location": "Hermitage, AR",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "11/16/99",
+    "location": "Joppatowne, MD",
+    "shape": "light"
+  },
+  {
+    "sight_time": "6/30/71",
+    "location": "Dayton, OH",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "10/31/04",
+    "location": "Oak Forest, IL",
+    "shape": "light"
+  },
+  {
+    "sight_time": "7/21/98",
+    "location": "Houston, TX",
+    "shape": "other"
+  },
+  {
+    "sight_time": "11/5/06",
+    "location": "Yorba Linda, CA",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "1/9/03",
+    "location": "Havre, MT",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "1/20/99",
+    "location": "Butte, MT",
+    "shape": "diamond"
+  },
+  {
+    "sight_time": "10/16/08",
+    "location": "Lindale, TX",
+    "shape": "chevron"
+  },
+  {
+    "sight_time": "6/14/04",
+    "location": "Orem, UT",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "7/27/05",
+    "location": "Brightwood, OR",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "7/8/09",
+    "location": "Camdenton, MO",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "11/16/99",
+    "location": "Fairfield, IA",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "7/10/05",
+    "location": "Tinton Falls, NJ",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "6/19/04",
+    "location": "Henderson, NV",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "4/27/01",
+    "location": "Gilbert, AZ",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "10/6/07",
+    "location": "Arlington Heights, IL",
+    "shape": "teardrop"
+  },
+  {
+    "sight_time": "10/3/92",
+    "location": "Raleigh - Durham (from cockpit), NC",
+    "shape": "chevron"
+  },
+  {
+    "sight_time": "1/29/04",
+    "location": "Woburn, MA",
+    "shape": "cigar"
+  },
+  {
+    "sight_time": "12/31/08",
+    "location": "Spring, TX",
+    "shape": "light"
+  },
+  {
+    "sight_time": "7/14/06",
+    "location": "Los Angeles, CA",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "8/1/89",
+    "location": "Clarksville, IN",
+    "shape": "light"
+  },
+  {
+    "sight_time": "6/30/67",
+    "location": "Glenview, IL",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "1/10/10",
+    "location": "Eunice, LA",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "12/8/08",
+    "location": "Virginia Beach, VA",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "7/6/06",
+    "location": "Simi Valley, CA",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "5/1/85",
+    "location": "Santa Cruz, CA",
+    "shape": "other"
+  },
+  {
+    "sight_time": "7/25/84",
+    "location": "Suffolk, VA",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "6/15/63",
+    "location": "Newaygo, MI",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "7/31/00",
+    "location": "Snohomish, WA",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "9/8/02",
+    "location": "Fallon, NV",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "3/13/97",
+    "location": "Phoenix, AZ",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "3/20/08",
+    "location": "Dallas, TX",
+    "shape": "cigar"
+  },
+  {
+    "sight_time": "2/6/10",
+    "location": "Vernon, NJ",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "12/27/08",
+    "location": "Laguna Niguel, CA",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "7/3/90",
+    "location": "North Miami Beach, FL",
+    "shape": "light"
+  },
+  {
+    "sight_time": "1/20/09",
+    "location": "Lake Geneva, WI",
+    "shape": "light"
+  },
+  {
+    "sight_time": "9/7/07",
+    "location": "Orland Park, IL",
+    "shape": "formation"
+  },
+  {
+    "sight_time": "6/30/77",
+    "location": "Lawrenceville, GA",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "7/21/03",
+    "location": "Woodinville, WA",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "5/5/04",
+    "location": "Concrete, WA",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "9/16/01",
+    "location": "South Bend, IN",
+    "shape": "other"
+  },
+  {
+    "sight_time": "5/2/04",
+    "location": "Sunnyvale, CA",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "6/15/06",
+    "location": "Sacramento, CA",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "1/5/01",
+    "location": "Seattle, WA",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "4/18/09",
+    "location": "El Paso, TX",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "7/15/08",
+    "location": "Scottsboro, AL",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "4/3/10",
+    "location": "Wesley Chapel, FL",
+    "shape": "other"
+  },
+  {
+    "sight_time": "12/16/06",
+    "location": "Dunbar, PA",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "8/28/07",
+    "location": "Marsing, ID",
+    "shape": "light"
+  },
+  {
+    "sight_time": "10/15/04",
+    "location": "Saint Paul, MN",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "3/13/04",
+    "location": "Orlando, FL",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "6/7/05",
+    "location": "Eagan, MN",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "5/10/08",
+    "location": "Scottsboro, AL",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "6/24/05",
+    "location": "Miami Beach, FL",
+    "shape": "chevron"
+  },
+  {
+    "sight_time": "3/30/10",
+    "location": "Clearwater, FL",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "7/15/95",
+    "location": "Spokane, WA",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "10/29/05",
+    "location": "Farmington, NM",
+    "shape": "other"
+  },
+  {
+    "sight_time": "8/28/02",
+    "location": "Colville, WA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "1/14/09",
+    "location": "Hammonton, NJ",
+    "shape": "other"
+  },
+  {
+    "sight_time": "1/17/09",
+    "location": "Loveland, OH",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "8/15/00",
+    "location": "Gilbert, AZ",
+    "shape": "light"
+  },
+  {
+    "sight_time": "10/24/07",
+    "location": "Casselberry, FL",
+    "shape": "light"
+  },
+  {
+    "sight_time": "12/2/08",
+    "location": "Plainfield, IN",
+    "shape": "light"
+  },
+  {
+    "sight_time": "6/16/09",
+    "location": "Bellingham, WA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "7/25/10",
+    "location": "St. Louis (Sappington/Crestwood), MO",
+    "shape": "light"
+  },
+  {
+    "sight_time": "8/10/02",
+    "location": "Export, PA",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "7/20/02",
+    "location": "Pinckney, MI",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "9/27/08",
+    "location": "Santa Rosa, NM",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "7/4/96",
+    "location": "San Angelo, TX",
+    "shape": "light"
+  },
+  {
+    "sight_time": "7/25/02",
+    "location": "Beaumont (Outside), TX",
+    "shape": "light"
+  },
+  {
+    "sight_time": "7/4/10",
+    "location": "Alpharetta, GA",
+    "shape": "cigar"
+  },
+  {
+    "sight_time": "3/4/03",
+    "location": "Clifton Park, NY",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "12/11/03",
+    "location": "Pasadena, CA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "1/14/03",
+    "location": "Peru, IN",
+    "shape": "light"
+  },
+  {
+    "sight_time": "3/7/00",
+    "location": "Venice/North Port, FL",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "11/21/05",
+    "location": "Fresno, CA",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "1/22/10",
+    "location": "Peekskill, NY",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "1/8/07",
+    "location": "Los Angeles, CA",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "7/18/06",
+    "location": "Dexterville, WI",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "1/10/01",
+    "location": "New Carlisle, IN",
+    "shape": "light"
+  },
+  {
+    "sight_time": "9/29/04",
+    "location": "Santa Rosa / Novato, CA",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "1/11/04",
+    "location": "Stony Point, NY",
+    "shape": "light"
+  },
+  {
+    "sight_time": "7/6/99",
+    "location": "Yakima, WA",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "8/2/01",
+    "location": "Ocala, FL",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "8/12/98",
+    "location": "San Marcos, CA",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "7/3/07",
+    "location": "Irvine, CA",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "6/19/04",
+    "location": "Wheeling, WV",
+    "shape": "other"
+  },
+  {
+    "sight_time": "5/17/03",
+    "location": "Andover, MN",
+    "shape": "light"
+  },
+  {
+    "sight_time": "4/15/10",
+    "location": "East Hazel Crest, IL",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "11/6/04",
+    "location": "Laguna Beach-Newport Beach border, CA",
+    "shape": "diamond"
+  },
+  {
+    "sight_time": "1/30/87",
+    "location": "Kenai, AK",
+    "shape": "light"
+  },
+  {
+    "sight_time": "1/1/09",
+    "location": "Tyler, TX",
+    "shape": "sphere"
+  },
+  {
+    "sight_time": "2/21/77",
+    "location": "Bloomington, IN",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "2/14/07",
+    "location": "San Ramon/Danville, CA",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "12/31/06",
+    "location": "Danville, IL",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "3/13/97",
+    "location": "Henderson, NV",
+    "shape": "formation"
+  },
+  {
+    "sight_time": "9/6/09",
+    "location": "Escondido, CA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "11/29/04",
+    "location": "Perrysburg, NY",
+    "shape": "light"
+  },
+  {
+    "sight_time": "12/3/04",
+    "location": "Jamestown, NY",
+    "shape": "formation"
+  },
+  {
+    "sight_time": "9/22/07",
+    "location": "La Mesilla, NM",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "11/15/93",
+    "location": "Gordon, NE",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "1/1/08",
+    "location": "Burbank, CA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "10/3/06",
+    "location": "Shreveport, LA",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "11/16/01",
+    "location": "Bayboro, NC",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "4/29/01",
+    "location": "Los Angeles (Westwood), CA",
+    "shape": "chevron"
+  },
+  {
+    "sight_time": "11/23/02",
+    "location": "Gallatin, TN",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "11/30/08",
+    "location": "Simi Valley, CA",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "2/10/02",
+    "location": "Fort Worth, TX",
+    "shape": "fireball"
+  },
+  {
+    "sight_time": "8/18/06",
+    "location": "Seattle, WA",
+    "shape": "other"
+  },
+  {
+    "sight_time": "1/13/07",
+    "location": "Seattle, WA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "11/7/06",
+    "location": "Laramie, WY",
+    "shape": "rectangle"
+  },
+  {
+    "sight_time": "6/7/86",
+    "location": "Panama City, FL",
+    "shape": "other"
+  },
+  {
+    "sight_time": "12/4/04",
+    "location": "Elmhurst, IL",
+    "shape": "light"
+  },
+  {
+    "sight_time": "1/6/04",
+    "location": "Phoenix, AZ",
+    "shape": "light"
+  },
+  {
+    "sight_time": "10/21/99",
+    "location": "Kansas City, MO",
+    "shape": "cylinder"
+  },
+  {
+    "sight_time": "7/7/99",
+    "location": "Loomis, CA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "11/29/02",
+    "location": "Fort Loudon, PA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "7/21/08",
+    "location": "Buffalo, NY",
+    "shape": "rectangle"
+  },
+  {
+    "sight_time": "5/23/00",
+    "location": "Tulsa, OK",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "9/21/09",
+    "location": "Compton, CA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "7/12/10",
+    "location": "Wauconda/Lake Zurich (between), IL",
+    "shape": "light"
+  },
+  {
+    "sight_time": "10/17/08",
+    "location": "Manteca, CA",
+    "shape": "changing"
+  },
+  {
+    "sight_time": "10/29/00",
+    "location": "Pottstown, PA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "8/13/00",
+    "location": "Bothell, WA",
+    "shape": "rectangle"
+  },
+  {
+    "sight_time": "8/31/08",
+    "location": "Philadelphia, PA",
+    "shape": "disk"
+  },
+  {
+    "sight_time": "7/29/79",
+    "location": "Ocala, FL",
+    "shape": "changing"
+  },
+  {
+    "sight_time": "11/1/04",
+    "location": "Abingdon, VA",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "6/26/98",
+    "location": "Trumann/Jonesboro, AR",
+    "shape": "other"
+  },
+  {
+    "sight_time": "12/14/97",
+    "location": "Prescott Valley, AZ",
+    "shape": "other"
+  },
+  {
+    "sight_time": "6/1/09",
+    "location": "Gainesville, VA",
+    "shape": "light"
+  },
+  {
+    "sight_time": "3/14/08",
+    "location": "Tuscaloosa, AL",
+    "shape": "other"
+  },
+  {
+    "sight_time": "11/10/07",
+    "location": "Jacksonville, FL",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "7/23/10",
+    "location": "Kure Beach, NC",
+    "shape": "light"
+  },
+  {
+    "sight_time": "1/1/10",
+    "location": "Haverhill, MA",
+    "shape": "triangle"
+  },
+  {
+    "sight_time": "1/4/01",
+    "location": "Beeville, TX",
+    "shape": "flash"
+  },
+  {
+    "sight_time": "11/5/04",
+    "location": "DeBary, FL",
+    "shape": "oval"
+  },
+  {
+    "sight_time": "1/1/88",
+    "location": "Kenner, LA",
+    "shape": "circle"
+  },
+  {
+    "sight_time": "3/12/03",
+    "location": "Tulsa, OK",
+    "shape": "cylinder"
+  },
+  {
+    "sight_time": "8/3/01",
+    "location": "Oconto Falls, WI",
+    "shape": "unknown"
+  },
+  {
+    "sight_time": "9/11/99",
+    "location": "Puyallup, WA",
+    "shape": "light"
+  }
+]
