@@ -74,7 +74,10 @@ function loadUKMap(ufoCoords){
           .data(subunits.geometries)
         .enter().append("path")
           .attr("class", function(d) { return "subunit " + (d.id || ""); })
-          .attr("d", path);
+          .attr("d", path)
+          .style("fill", "none")
+          .style("stroke", "#333")
+          .style("stroke-width", "1.5px");
     } else {
       // No boundary data; points will still be plotted below.
     }
