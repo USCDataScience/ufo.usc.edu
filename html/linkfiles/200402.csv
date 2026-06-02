@@ -1,0 +1,365 @@
+origin,destination
+South Bend  IN,Los Angeles  CA
+Los Angeles  CA,South Bend  IN
+South Bend  IN,Winter Park  FL
+Winter Park  FL,South Bend  IN
+South Bend  IN,Gastonia  NC
+Gastonia  NC,South Bend  IN
+South Bend  IN,Hawthorne  CA
+Hawthorne  CA,South Bend  IN
+South Bend  IN,Cohutta  GA
+Cohutta  GA,South Bend  IN
+South Bend  IN,Colebrook  NH
+Colebrook  NH,South Bend  IN
+South Bend  IN,Clifton  NJ
+Clifton  NJ,South Bend  IN
+South Bend  IN,Tucson  AZ
+Tucson  AZ,South Bend  IN
+South Bend  IN,Fontana  CA
+Fontana  CA,South Bend  IN
+South Bend  IN,Murfreesboro  TN
+Murfreesboro  TN,South Bend  IN
+South Bend  IN,Birmingham  AL
+Birmingham  AL,South Bend  IN
+Tillamook  OR,Coquille  OR
+Coquille  OR,Tillamook  OR
+Tillamook  OR,Maiden  NC
+Maiden  NC,Tillamook  OR
+Tillamook  OR,Waxahachie  TX
+Waxahachie  TX,Tillamook  OR
+Medford  OR,Suffolk  VA
+Suffolk  VA,Medford  OR
+Medford  OR,Salisbury  NC
+Salisbury  NC,Medford  OR
+Medford  OR,Grand Haven  MI
+Grand Haven  MI,Medford  OR
+Medford  OR,Roxboro  NC
+Roxboro  NC,Medford  OR
+Medford  OR,Sultana  CA
+Sultana  CA,Medford  OR
+Medford  OR,Scottsdale  AZ
+Scottsdale  AZ,Medford  OR
+Medford  OR,Licking  MO
+Licking  MO,Medford  OR
+Seatac  WA,Shalimar  FL
+Shalimar  FL,Seatac  WA
+Seatac  WA,San Marcos  TX
+San Marcos  TX,Seatac  WA
+Seatac  WA,Northfield  OH
+Northfield  OH,Seatac  WA
+Mesa  AZ,Sun City  CA
+Sun City  CA,Mesa  AZ
+Mesa  AZ,Sunnyside  WA
+Sunnyside  WA,Mesa  AZ
+Mesa  AZ,Monmouth County  NJ
+Monmouth County  NJ,Mesa  AZ
+Mesa  AZ,Burbank  CA
+Burbank  CA,Mesa  AZ
+Mesa  AZ,Lake Jackson  TX
+Lake Jackson  TX,Mesa  AZ
+Mesa  AZ,Bend  OR
+Bend  OR,Mesa  AZ
+Mesa  AZ,Lehigh Acres  FL
+Lehigh Acres  FL,Mesa  AZ
+Redmond  OR,Riverside  CA
+Riverside  CA,Redmond  OR
+Redmond  OR,Sarasota  FL
+Sarasota  FL,Redmond  OR
+Redmond  OR,Lone Pine  CA
+Lone Pine  CA,Redmond  OR
+Redmond  OR,Pottsville  AR
+Pottsville  AR,Redmond  OR
+Redmond  OR,Renton  WA
+Renton  WA,Redmond  OR
+Redmond  OR,Artesia  CA
+Artesia  CA,Redmond  OR
+Fredericksburg  VA,San Jose  CA
+San Jose  CA,Fredericksburg  VA
+Fredericksburg  VA,Lowrys  SC
+Lowrys  SC,Fredericksburg  VA
+Fredericksburg  VA,Hayward  CA
+Hayward  CA,Fredericksburg  VA
+Fredericksburg  VA,Shiloh  NC
+Shiloh  NC,Fredericksburg  VA
+Fredericksburg  VA,Middlebury  CT
+Middlebury  CT,Fredericksburg  VA
+Fredericksburg  VA,Houston  TX
+Houston  TX,Fredericksburg  VA
+Fredericksburg  VA,Valparaiso  IN
+Valparaiso  IN,Fredericksburg  VA
+Fredericksburg  VA,Statesville  NC
+Statesville  NC,Fredericksburg  VA
+Conyers  GA,Lebanon  IN
+Lebanon  IN,Conyers  GA
+Conyers  GA,Merriam  KS
+Merriam  KS,Conyers  GA
+Conyers  GA,Lincoln City  OR
+Lincoln City  OR,Conyers  GA
+Conyers  GA,Escondido  CA
+Escondido  CA,Conyers  GA
+Conyers  GA,Wallingford  IA
+Wallingford  IA,Conyers  GA
+Mansfield  OH,Pratt  KS
+Pratt  KS,Mansfield  OH
+Mansfield  OH,Titonka  IA
+Titonka  IA,Mansfield  OH
+Mansfield  OH,Annapolis  MO
+Annapolis  MO,Mansfield  OH
+Mansfield  OH,San Bernardino  CA
+San Bernardino  CA,Mansfield  OH
+West Palm Beach  FL,Peoria  IL
+Peoria  IL,West Palm Beach  FL
+West Palm Beach  FL,Fresno  CA
+Fresno  CA,West Palm Beach  FL
+West Palm Beach  FL,Lyndhurst  OH
+Lyndhurst  OH,West Palm Beach  FL
+West Palm Beach  FL,Irvine  CA
+Irvine  CA,West Palm Beach  FL
+West Palm Beach  FL,Wareham  MA
+Wareham  MA,West Palm Beach  FL
+West Palm Beach  FL,Linthicum  MD
+Linthicum  MD,West Palm Beach  FL
+West Palm Beach  FL,Yreka  CA
+Yreka  CA,West Palm Beach  FL
+West Palm Beach  FL,Kingman  IN
+Kingman  IN,West Palm Beach  FL
+West Palm Beach  FL,Nokomis  FL
+Nokomis  FL,West Palm Beach  FL
+West Palm Beach  FL,Cathedral City  CA
+Cathedral City  CA,West Palm Beach  FL
+West Palm Beach  FL,Bayonne  NJ
+Bayonne  NJ,West Palm Beach  FL
+Phoenix  AZ,Minneapolis  MN
+Minneapolis  MN,Phoenix  AZ
+Phoenix  AZ,Wenatchee  WA
+Wenatchee  WA,Phoenix  AZ
+Phoenix  AZ,Port Angeles  WA
+Port Angeles  WA,Phoenix  AZ
+Phoenix  AZ,Daly City  CA
+Daly City  CA,Phoenix  AZ
+Phoenix  AZ,Post Falls  ID
+Post Falls  ID,Phoenix  AZ
+Phoenix  AZ,Commerce  CA
+Commerce  CA,Phoenix  AZ
+Phoenix  AZ,Rodeo  CA
+Rodeo  CA,Phoenix  AZ
+Phoenix  AZ,Newland  NC
+Newland  NC,Phoenix  AZ
+Sterling Heights  MI,Seattle  WA
+Seattle  WA,Sterling Heights  MI
+Sterling Heights  MI,Maricopa  AZ
+Maricopa  AZ,Sterling Heights  MI
+Sterling Heights  MI,Yadkinville  NC
+Yadkinville  NC,Sterling Heights  MI
+Sterling Heights  MI,Oneonta  NY
+Oneonta  NY,Sterling Heights  MI
+Sterling Heights  MI,Flora  IN
+Flora  IN,Sterling Heights  MI
+Sterling Heights  MI,Eveleth  MN
+Eveleth  MN,Sterling Heights  MI
+Sterling Heights  MI,Fort Walton Beach  FL
+Fort Walton Beach  FL,Sterling Heights  MI
+Williston Park  NY,Majenica  IN
+Majenica  IN,Williston Park  NY
+Williston Park  NY,San Carlos  CA
+San Carlos  CA,Williston Park  NY
+Williston Park  NY,Blue Bell  PA
+Blue Bell  PA,Williston Park  NY
+Williston Park  NY,Parsippany  NJ
+Parsippany  NJ,Williston Park  NY
+Williston Park  NY,Sallisaw  OK
+Sallisaw  OK,Williston Park  NY
+Williston Park  NY,Newtown  PA
+Newtown  PA,Williston Park  NY
+Williston Park  NY,Wood-Ridge  NJ
+Wood-Ridge  NJ,Williston Park  NY
+Williston Park  NY,Pittsburgh  PA
+Pittsburgh  PA,Williston Park  NY
+Williston Park  NY,Bothell  WA
+Bothell  WA,Williston Park  NY
+Williston Park  NY,Casper  WY
+Casper  WY,Williston Park  NY
+Williston Park  NY,Tulsa  OK
+Tulsa  OK,Williston Park  NY
+Williston Park  NY,New York City  NY
+New York City  NY,Williston Park  NY
+Williston Park  NY,Belfair  WA
+Belfair  WA,Williston Park  NY
+San Antonio  TX,Bloomington  IN
+Bloomington  IN,San Antonio  TX
+San Antonio  TX,Cocoa Beach  FL
+Cocoa Beach  FL,San Antonio  TX
+San Antonio  TX,Saline  MI
+Saline  MI,San Antonio  TX
+San Antonio  TX,Romeo  MI
+Romeo  MI,San Antonio  TX
+San Antonio  TX,Charlotte  NC
+Charlotte  NC,San Antonio  TX
+San Antonio  TX,Oldsmar  FL
+Oldsmar  FL,San Antonio  TX
+San Antonio  TX,Rising Sun  MD
+Rising Sun  MD,San Antonio  TX
+San Antonio  TX,Bethlehem  CT
+Bethlehem  CT,San Antonio  TX
+San Antonio  TX,Doniphan  MO
+Doniphan  MO,San Antonio  TX
+San Antonio  TX,Novato  CA
+Novato  CA,San Antonio  TX
+San Antonio  TX,Elkader  IA
+Elkader  IA,San Antonio  TX
+San Antonio  TX,Auburn  WA
+Auburn  WA,San Antonio  TX
+San Antonio  TX,Sedro-Woolley  WA
+Sedro-Woolley  WA,San Antonio  TX
+San Antonio  TX,Heber  UT
+Heber  UT,San Antonio  TX
+San Antonio  TX,Cape Girardeau  MO
+Cape Girardeau  MO,San Antonio  TX
+Terre Haute  IN,Seattle  WA
+Seattle  WA,Terre Haute  IN
+Terre Haute  IN,Morongo Valley  CA
+Morongo Valley  CA,Terre Haute  IN
+Terre Haute  IN,Interstate-95  RI
+Interstate-95  RI,Terre Haute  IN
+Terre Haute  IN,Amityville  NY
+Amityville  NY,Terre Haute  IN
+Terre Haute  IN,Troy  MI
+Troy  MI,Terre Haute  IN
+Terre Haute  IN,Lander  WY
+Lander  WY,Terre Haute  IN
+Terre Haute  IN,Beckley  WV
+Beckley  WV,Terre Haute  IN
+Terre Haute  IN,Central Islip  NY
+Central Islip  NY,Terre Haute  IN
+Terre Haute  IN,Commack  NY
+Commack  NY,Terre Haute  IN
+Terre Haute  IN,Spokane  WA
+Spokane  WA,Terre Haute  IN
+Reston  VA,Renton  WA
+Renton  WA,Reston  VA
+Reston  VA,Centerville  OH
+Centerville  OH,Reston  VA
+Reston  VA,Covington  TN
+Covington  TN,Reston  VA
+Reston  VA,Carrollton  MO
+Carrollton  MO,Reston  VA
+Reston  VA,Pittsburgh  PA
+Pittsburgh  PA,Reston  VA
+Reston  VA,Phillipsburg  NJ
+Phillipsburg  NJ,Reston  VA
+Reston  VA,Howell  MI
+Howell  MI,Reston  VA
+Reston  VA,Harvard  MA
+Harvard  MA,Reston  VA
+Reston  VA,on highway  AR
+on highway  AR,Reston  VA
+Reston  VA,Jeffersonville  KY
+Jeffersonville  KY,Reston  VA
+Vincennes  IN,Muskegon  MI
+Muskegon  MI,Vincennes  IN
+Vincennes  IN,Round Rock  TX
+Round Rock  TX,Vincennes  IN
+Vincennes  IN,Lantana  FL
+Lantana  FL,Vincennes  IN
+Vincennes  IN,Lexington  KY
+Lexington  KY,Vincennes  IN
+Vincennes  IN,Scottsdale  AZ
+Scottsdale  AZ,Vincennes  IN
+Vincennes  IN,Blackshear  GA
+Blackshear  GA,Vincennes  IN
+Vincennes  IN,Newland  NC
+Newland  NC,Vincennes  IN
+Bellflower  CA,Freehold  NJ
+Freehold  NJ,Bellflower  CA
+Bellflower  CA,Meridian  MS
+Meridian  MS,Bellflower  CA
+Fairfax County  VA,Lewisville  TX
+Lewisville  TX,Fairfax County  VA
+Fairfax County  VA,Olathe  KS
+Olathe  KS,Fairfax County  VA
+Fairfax County  VA,Roseburg  OR
+Roseburg  OR,Fairfax County  VA
+Fairfax County  VA,Sioux City  IA
+Sioux City  IA,Fairfax County  VA
+Fairfax County  VA,Bowling Green  KY
+Bowling Green  KY,Fairfax County  VA
+Fairfax County  VA,Phoenix  AZ
+Phoenix  AZ,Fairfax County  VA
+Fairfax County  VA,Nebo  KY
+Nebo  KY,Fairfax County  VA
+Fairfax County  VA,Quartzite  AZ
+Quartzite  AZ,Fairfax County  VA
+Houston  TX,Colorado Springs  CO
+Colorado Springs  CO,Houston  TX
+Houston  TX,Nyack  NY
+Nyack  NY,Houston  TX
+Houston  TX,Portland  OR
+Portland  OR,Houston  TX
+Newfield  NY,Dayville  CT
+Dayville  CT,Newfield  NY
+Newfield  NY,Hartselle  AL
+Hartselle  AL,Newfield  NY
+Newfield  NY,Corinth Community  SC
+Corinth Community  SC,Newfield  NY
+Newfield  NY,Gaffney  SC
+Gaffney  SC,Newfield  NY
+Newfield  NY,Denton  TX
+Denton  TX,Newfield  NY
+Newfield  NY,Stone Ridge  NY
+Stone Ridge  NY,Newfield  NY
+Newfield  NY,Stony Brook  NY
+Stony Brook  NY,Newfield  NY
+Oneonta  NY,Scottsdale  AZ
+Scottsdale  AZ,Oneonta  NY
+Oneonta  NY,Bastrop  TX
+Bastrop  TX,Oneonta  NY
+Tucson  AZ,Spearfish Canyon  SD
+Spearfish Canyon  SD,Tucson  AZ
+Tucson  AZ,Lodge Grass  MT
+Lodge Grass  MT,Tucson  AZ
+Tucson  AZ,Dayton  OH
+Dayton  OH,Tucson  AZ
+Tucson  AZ,Gaffney  SC
+Gaffney  SC,Tucson  AZ
+Aurora  CO,Bellevue  OH
+Bellevue  OH,Aurora  CO
+Aurora  CO,Arlington  WA
+Arlington  WA,Aurora  CO
+Aurora  CO,Pinal County  AZ
+Pinal County  AZ,Aurora  CO
+Aurora  CO,Spring  TX
+Spring  TX,Aurora  CO
+Aurora  CO,Bladensburg  MD
+Bladensburg  MD,Aurora  CO
+Aledo  TX,East Springfield  PA
+East Springfield  PA,Aledo  TX
+Aledo  TX,Silverdale  WA
+Silverdale  WA,Aledo  TX
+Schenectady  NY,Chambersburg  PA
+Chambersburg  PA,Schenectady  NY
+Schenectady  NY,Studio City  CA
+Studio City  CA,Schenectady  NY
+Schenectady  NY,Newcastle  DE
+Newcastle  DE,Schenectady  NY
+Schenectady  NY,New Orleans  LA
+New Orleans  LA,Schenectady  NY
+Schenectady  NY,York  PA
+York  PA,Schenectady  NY
+Schenectady  NY,Brunswick Hills  OH
+Brunswick Hills  OH,Schenectady  NY
+Schenectady  NY,Danialson  CT
+Danialson  CT,Schenectady  NY
+Grapevine  TX,Seattle  WA
+Seattle  WA,Grapevine  TX
+Grapevine  TX,Brooklyn  MD
+Brooklyn  MD,Grapevine  TX
+Grapevine  TX,Kingsport  TN
+Kingsport  TN,Grapevine  TX
+Grapevine  TX,Bristol  TN
+Bristol  TN,Grapevine  TX
+Grapevine  TX,Roswell  NM
+Roswell  NM,Grapevine  TX
+Grapevine  TX,Livermore  CA
+Livermore  CA,Grapevine  TX
+Grapevine  TX,Miami Beach  FL
+Miami Beach  FL,Grapevine  TX

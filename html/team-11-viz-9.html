@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" href="../css/team11style.css"/>
+    <style type="text/css">
+
+text {
+  font-size: 18px;
+  pointer-events: none;
+  color: green;
+  
+}
+
+.changecolor{
+  color:#1f77b4;
+  font-weight: 500;
+}
+
+.changeback{
+  font-weight: 100;
+}
+text.parent {
+  fill: #1f77b4;
+color: green;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #999;
+  pointer-events: all;
+  width: 100px;
+}
+
+image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+circle.parent {
+  /*fill: #1f77b4;*/
+  /*fill-opacity: .1;*/
+  stroke: steelblue;
+  width: 100px;
+}
+
+circle.parent:hover {
+  stroke: #ff7f0e;
+  stroke-width: .5px;
+}
+
+circle.child {
+  pointer-events: none;
+}
+
+    </style>
+  </head>
+  <body style="color: red">
+  <div class="parent" style="margin-top: 20px;"></div>
+    <p style="font-weight: bold;font-size: 25px; text-align:center">
+      UFO-Stalkers image classification <br/> Click on each cicle to see the stats
+    </p>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript">
+
+var w = 1480,
+    h = 800,
+    r = 800,
+    x = d3.scale.linear().range([0, r]),
+    y = d3.scale.linear().range([0, r]),
+    node,
+    root;
+
+var pack = d3.layout.pack()
+    .size([r, r])
+    .value(function(d) {  return 10; })
+
+var vis = d3.select("body").insert("svg:svg", "h2")
+    .attr("width", w)
+    .attr("height", h)
+  .append("svg:g")
+    .attr("transform", "translate(" + (w - r) / 2 + "," + (h - r) / 2 + ")");
+
+var defs = vis.append('svg:defs');
+var flag=true;
+
+d3.json("../data/team11outfile.json", function(data) {
+  node = root = data;
+
+  var nodes = pack.nodes(root);
+
+
+
+i=0;
+
+images={"celestial_objects":"../images/team11celestial_images.jpg", "stars":"../images/team11stars.jpg","glider": "../images/team11glider.jpg", "aeroplane":"../images/team11aeroplane.jpg", "air_balloon":"../images/team11balloon.jpg"}
+radius={"Area": 0,"celestial_objects": 230, "stars": 200, "glider": 120, "aeroplane": 90, "air_balloon": 50}
+coord={"Area": [450,360],"celestial_objects": [400,578], "stars": [850,508], "glider": [675,180], "aeroplane": [274,180], "air_balloon": [90,485]}
+multiplier={"celestial_objects": 7, "stars": 6, "glider": 3, "aeroplane": 5, "air_balloon": 3}
+counts={"celestial_objects": 631, "stars": 158, "glider": 131, "aeroplane": 66, "air_balloon": 60}
+cities={"celestial_objects": "Oakland, US followed by Egypt", "stars": "Phoenix, US", "glider": "Wilmington, US", "aeroplane": "Syracuse, US", "air_balloon": "Wilmington, US"}
+
+j=-1
+z=-1
+  nodes.forEach(function(d,i){
+    defs.append("svg:pattern")
+    .attr("id",  "ufo" + d.name )
+    .attr("width", (multiplier[d.name]+1)*radius[d.name]) 
+    .attr("height", (multiplier[d.name]+1)*radius[d.name])
+    .attr("patternUnits", "userSpaceOnUse")
+    .append("svg:image")
+    .attr("xlink:href", images[d.name])
+    .attr("width", multiplier[d.name]*radius[d.name])
+    .attr("height", multiplier[d.name]*radius[d.name])
+    .attr("x", 0)
+    .attr("y", 0);
+    console.log(z);
+     j+=1; 
+  });
+
+// console.log(defs);
+
+t=0;
+
+j=0
+z=-1
+  vis.selectAll("circle")
+      .data(nodes)
+    .enter().append("svg:circle")
+      .attr("class", function(d) {  return "parent"; })
+      .attr("cx", function(d) {  console.log(d);  return coord[d.name][0]; })
+      .attr("cy", function(d) { return coord[d.name][1]; })
+      .attr("r", function(d) { j+=1; return radius[d.name]; })
+      .style("fill", "#fff")
+      .style("fill", function(d) {  if(d.name!="Area"){  if(d.parent){ return "url(#ufo" + d.name + ")";} }})
+      .on("click", function(d) { (node==d)? zoom(root) : zoom(d); });
+
+  vis.selectAll("text")
+      .data(nodes)
+    .enter().append("svg:text")
+      .attr("class", function(d) { return "parent"; })
+      .attr("x", function(d) { return coord[d.name][0]; })
+      .attr("y", function(d) { return coord[d.name][1]; })
+      .attr("dy", ".35em")
+      .attr("text-anchor", "start")
+      .style('fill', ' #ff5733')
+      .style("opacity", function(d) { return 1; })
+      .text(function(d) { if(d.name!="Area") return d.name; });
+
+  // vis.selectAll("image")
+  //   .data(nodes)
+  //   .enter().append("svg:image")
+  //   .attr("xlink:href", function(d) { console.log(d.children); return d.children ?"" : ""; })
+  //               .attr("x", function(d) { return d.x; })
+  //               .attr("y", function(d) { return d.x; })
+  //               .attr("width", "120")
+  //               .attr("height", "120");
+
+ // d3.select(window).on("click", function() { zoom(root); });
+});
+
+function zoom(d, i) {
+  console.log(r+" "+d.r);
+  if(!d.r)
+    d.r=1000;
+  var k = r / (d.r) / 2;
+  x.domain([coord[d.name][0] - d.r, coord[d.name][0] + d.r]);
+  y.domain([coord[d.name][1] - d.r, coord[d.name][1] + d.r]);
+
+  console.log(d);
+
+
+
+
+  var t = vis.transition()
+      .duration(d3.event.altKey ? 7500 : 750);
+
+  t.selectAll("circle")
+      .attr("cx", function(d) { return x(coord[d.name][0]); })
+      .attr("cy", function(d) { return y(coord[d.name][1]); })
+      .attr("r", function(d) { console.log(d.name); return k *radius[d.name]; });
+
+  if(flag){
+    t.selectAll("text")
+        .attr("x", function(d) { return x(coord[d.name][0]); })
+        .attr("y", function(d) { return y(coord[d.name][1]); })
+        .attr("class", "changecolor")
+        .style("opacity", function(d) { return k * radius[d.name] > 20 ? 1 : 0; })
+        .text(function(d) { console.log(d); return d.name +" " + " was classified "+counts[d.name]+" times " + cities[d.name]+ ", had most occurences"; });
+        flag=false;
+    }
+    else{
+      t.selectAll("text")
+        .attr("x", function(d) { return x(d.x); })
+        .attr("y", function(d) { return y(d.y); })
+        .attr("text-anchor", "start")
+        .style("opacity", function(d) { return k * radius[d.name] > 20 ? 1 : 0; })
+        .text(function(d) { return d.name; });
+        flag=true;
+    }
+
+  if(d.name!="Area"){
+
+  }
+
+  node = d;
+  d3.event.stopPropagation();
+}
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,409 @@
+origin,destination
+Evart  MI,Des Moines  IA
+Des Moines  IA,Evart  MI
+Evart  MI,Binghamton  NY
+Binghamton  NY,Evart  MI
+Evart  MI,Wayne  WV
+Wayne  WV,Evart  MI
+Evart  MI,Sweetwater  TN
+Sweetwater  TN,Evart  MI
+Evart  MI,Austin  TX
+Austin  TX,Evart  MI
+Evart  MI,Iroquois  SD
+Iroquois  SD,Evart  MI
+Evart  MI,Canton  CT
+Canton  CT,Evart  MI
+Evart  MI,Hagerstown  MD
+Hagerstown  MD,Evart  MI
+Evart  MI,Downers Grove  IL
+Downers Grove  IL,Evart  MI
+Evart  MI,Wetumpka  AL
+Wetumpka  AL,Evart  MI
+Evart  MI,Gastonia  NC
+Gastonia  NC,Evart  MI
+Evart  MI,Rockford  IL
+Rockford  IL,Evart  MI
+Evart  MI,Fleetville  PA
+Fleetville  PA,Evart  MI
+Evart  MI,Sandstone  MN
+Sandstone  MN,Evart  MI
+Evart  MI,Jupiter Farms  FL
+Jupiter Farms  FL,Evart  MI
+Evart  MI,Vail  CO
+Vail  CO,Evart  MI
+Evart  MI,Ashburn  VA
+Ashburn  VA,Evart  MI
+Lexington  KY,Alton  VA
+Alton  VA,Lexington  KY
+Lexington  KY,Ocala  FL
+Ocala  FL,Lexington  KY
+Jupiter  FL,Beaverton  OR
+Beaverton  OR,Jupiter  FL
+Jupiter  FL,Chehalis  WA
+Chehalis  WA,Jupiter  FL
+Jupiter  FL,Tempe  AZ
+Tempe  AZ,Jupiter  FL
+Jupiter  FL,Oconto Falls  WI
+Oconto Falls  WI,Jupiter  FL
+Jupiter  FL,Ontario  OR
+Ontario  OR,Jupiter  FL
+Jupiter  FL,Woodinville  WA
+Woodinville  WA,Jupiter  FL
+Jupiter  FL,Mercer  WI
+Mercer  WI,Jupiter  FL
+Colorado Springs  CO,Ashtabula  OH
+Ashtabula  OH,Colorado Springs  CO
+Colorado Springs  CO,Greenup  IL
+Greenup  IL,Colorado Springs  CO
+Colorado Springs  CO,Houston  TX
+Houston  TX,Colorado Springs  CO
+Colorado Springs  CO,Wheaton  IL
+Wheaton  IL,Colorado Springs  CO
+Colorado Springs  CO,Rincon  GA
+Rincon  GA,Colorado Springs  CO
+Colorado Springs  CO,Chesapeake  VA
+Chesapeake  VA,Colorado Springs  CO
+Chicago  IL,San Dimas  CA
+San Dimas  CA,Chicago  IL
+Chicago  IL,New York City  NY
+New York City  NY,Chicago  IL
+Chicago  IL,Everett  WA
+Everett  WA,Chicago  IL
+Chicago  IL,Poway  CA
+Poway  CA,Chicago  IL
+Evanston  IL,Apple Valley  CA
+Apple Valley  CA,Evanston  IL
+Evanston  IL,Nampa  ID
+Nampa  ID,Evanston  IL
+Spokane  WA,Bremerton  WA
+Bremerton  WA,Spokane  WA
+Spokane  WA,Seattle  WA
+Seattle  WA,Spokane  WA
+Spokane  WA,Shoreline  WA
+Shoreline  WA,Spokane  WA
+Spokane  WA,Yosemite National Park  CA
+Yosemite National Park  CA,Spokane  WA
+Spokane  WA,Ridge  NY
+Ridge  NY,Spokane  WA
+Spokane  WA,Keller  TX
+Keller  TX,Spokane  WA
+Spokane  WA,Brant Lake  NY
+Brant Lake  NY,Spokane  WA
+Covington  WA,Bakersfield  CA
+Bakersfield  CA,Covington  WA
+Covington  WA,Los Alamos  NM
+Los Alamos  NM,Covington  WA
+Covington  WA,Villa Ridge  MO
+Villa Ridge  MO,Covington  WA
+Covington  WA,Rosamond  CA
+Rosamond  CA,Covington  WA
+Covington  WA,Indianapolis  IN
+Indianapolis  IN,Covington  WA
+Covington  WA,Calico Rock  AR
+Calico Rock  AR,Covington  WA
+Salmon La Sac  WA,Watsonville  CA
+Watsonville  CA,Salmon La Sac  WA
+Salmon La Sac  WA,Arlington  TX
+Arlington  TX,Salmon La Sac  WA
+San Diego  CA,Mulino  OR
+Mulino  OR,San Diego  CA
+San Diego  CA,Ivanhoe  MN
+Ivanhoe  MN,San Diego  CA
+San Diego  CA,Royal Palm Beach  FL
+Royal Palm Beach  FL,San Diego  CA
+San Diego  CA,Sarasota  FL
+Sarasota  FL,San Diego  CA
+San Diego  CA,Corvallis  OR
+Corvallis  OR,San Diego  CA
+Seattle  WA,New Ulm  MN
+New Ulm  MN,Seattle  WA
+Seattle  WA,Arvada  CO
+Arvada  CO,Seattle  WA
+Seattle  WA,Fayetteville  GA
+Fayetteville  GA,Seattle  WA
+Seattle  WA,Petersburg  AK
+Petersburg  AK,Seattle  WA
+Seattle  WA,Reno  NV
+Reno  NV,Seattle  WA
+Seattle  WA,Boulder  CO
+Boulder  CO,Seattle  WA
+Seattle  WA,Kingman  AZ
+Kingman  AZ,Seattle  WA
+Seattle  WA,West Hollywood  CA
+West Hollywood  CA,Seattle  WA
+Seattle  WA,Northland  WI
+Northland  WI,Seattle  WA
+Seattle  WA,Kentucky  KY
+Kentucky  KY,Seattle  WA
+Seattle  WA,Fort Wayne  IN
+Fort Wayne  IN,Seattle  WA
+Seattle  WA,Jupiter  FL
+Jupiter  FL,Seattle  WA
+Elbe  WA,Bremerton  WA
+Bremerton  WA,Elbe  WA
+Elbe  WA,West Olive  MI
+West Olive  MI,Elbe  WA
+Elbe  WA,Rancho Palos Verdes  CA
+Rancho Palos Verdes  CA,Elbe  WA
+Elbe  WA,Euclid  OH
+Euclid  OH,Elbe  WA
+Elbe  WA,Dunlap  IL
+Dunlap  IL,Elbe  WA
+Elbe  WA,Lancaster  OH
+Lancaster  OH,Elbe  WA
+Portland  OR,Vancouver  WA
+Vancouver  WA,Portland  OR
+Portland  OR,Jupiter  FL
+Jupiter  FL,Portland  OR
+Portland  OR,Euclid  OH
+Euclid  OH,Portland  OR
+Portland  OR,Inola  OK
+Inola  OK,Portland  OR
+Portland  OR,Stow  OH
+Stow  OH,Portland  OR
+Portland  OR,South Bend  IN
+South Bend  IN,Portland  OR
+Portland  OR,Helena  MT
+Helena  MT,Portland  OR
+Redmond  WA,Lawton  OK
+Lawton  OK,Redmond  WA
+Redmond  WA,Glendale  KY
+Glendale  KY,Redmond  WA
+Redmond  WA,Del Norte  CO
+Del Norte  CO,Redmond  WA
+Redmond  WA,Berlin  WI
+Berlin  WI,Redmond  WA
+Redmond  WA,Weatherford  OK
+Weatherford  OK,Redmond  WA
+Redmond  WA,Savannah  GA
+Savannah  GA,Redmond  WA
+Redmond  WA,Firth  ID
+Firth  ID,Redmond  WA
+Redmond  WA,Sequoia  CA
+Sequoia  CA,Redmond  WA
+Redmond  WA,Bristol  RI
+Bristol  RI,Redmond  WA
+Redmond  WA,Newark  OH
+Newark  OH,Redmond  WA
+Redmond  WA,Roswell  NM
+Roswell  NM,Redmond  WA
+Redmond  WA,Wilmington  NC
+Wilmington  NC,Redmond  WA
+Redmond  WA,Lexington  KY
+Lexington  KY,Redmond  WA
+Redmond  WA,Taft  CA
+Taft  CA,Redmond  WA
+Redmond  WA,Rockville Centre  NY
+Rockville Centre  NY,Redmond  WA
+Redmond  WA,Blackwood  NJ
+Blackwood  NJ,Redmond  WA
+Redmond  WA,Enosburg Falls  VT
+Enosburg Falls  VT,Redmond  WA
+Texarkana  AR,Mission Viejo  CA
+Mission Viejo  CA,Texarkana  AR
+Texarkana  AR,Redding  CA
+Redding  CA,Texarkana  AR
+Texarkana  AR,Portland  OR
+Portland  OR,Texarkana  AR
+Texarkana  AR,Grand Canyon  AZ
+Grand Canyon  AZ,Texarkana  AR
+Texarkana  AR,Lowville  NY
+Lowville  NY,Texarkana  AR
+Texarkana  AR,Taft  CA
+Taft  CA,Texarkana  AR
+Texarkana  AR,Charlotte  NC
+Charlotte  NC,Texarkana  AR
+Rock River  WY,Cheyenne  WY
+Cheyenne  WY,Rock River  WY
+Rock River  WY,Vail  CO
+Vail  CO,Rock River  WY
+Rock River  WY,Boone  NC
+Boone  NC,Rock River  WY
+Rock River  WY,Rawlins  WY
+Rawlins  WY,Rock River  WY
+Rock River  WY,Laramie  WY
+Laramie  WY,Rock River  WY
+Rock River  WY,Dubois  WY
+Dubois  WY,Rock River  WY
+Rock River  WY,Arlington  WA
+Arlington  WA,Rock River  WY
+Medford  OR,Stow  OH
+Stow  OH,Medford  OR
+Medford  OR,Brazoria  TX
+Brazoria  TX,Medford  OR
+Medford  OR,Savannah  TN
+Savannah  TN,Medford  OR
+Medford  OR,Columbia  MO
+Columbia  MO,Medford  OR
+Medford  OR,Wrenshall  MN
+Wrenshall  MN,Medford  OR
+Medford  OR,Prescott  AZ
+Prescott  AZ,Medford  OR
+Medford  OR,Errol  NH
+Errol  NH,Medford  OR
+Medford  OR,Kennwick  WA
+Kennwick  WA,Medford  OR
+Medford  OR,Saratoga  CA
+Saratoga  CA,Medford  OR
+Medford  OR,Port Angeles  WA
+Port Angeles  WA,Medford  OR
+Medford  OR,Keizer  OR
+Keizer  OR,Medford  OR
+Medford  OR,Bothell  WA
+Bothell  WA,Medford  OR
+Medford  OR,Barnum  MN
+Barnum  MN,Medford  OR
+Muskego  WI,Bettendorf  IA
+Bettendorf  IA,Muskego  WI
+Muskego  WI,Sumner  WA
+Sumner  WA,Muskego  WI
+Muskego  WI,Fairmont  WV
+Fairmont  WV,Muskego  WI
+Muskego  WI,Orion  MI
+Orion  MI,Muskego  WI
+Muskego  WI,Waltham  MA
+Waltham  MA,Muskego  WI
+Muskego  WI,Normal  IL
+Normal  IL,Muskego  WI
+Muskego  WI,Columbia  MO
+Columbia  MO,Muskego  WI
+Muskego  WI,Yukon  OK
+Yukon  OK,Muskego  WI
+Muskego  WI,Ventura  CA
+Ventura  CA,Muskego  WI
+Muskego  WI,Santa Rosa  CA
+Santa Rosa  CA,Muskego  WI
+Rolla  MO,Edge  TX
+Edge  TX,Rolla  MO
+Rolla  MO,Bremerton  WA
+Bremerton  WA,Rolla  MO
+Rolla  MO,Lone Pine  CA
+Lone Pine  CA,Rolla  MO
+Rolla  MO,Grapevine  TX
+Grapevine  TX,Rolla  MO
+Rolla  MO,Milwaukie  OR
+Milwaukie  OR,Rolla  MO
+Rolla  MO,Arroyo Grande  CA
+Arroyo Grande  CA,Rolla  MO
+Rolla  MO,Concord  CA
+Concord  CA,Rolla  MO
+Rolla  MO,Brewster  MA
+Brewster  MA,Rolla  MO
+Rolla  MO,Dean  TX
+Dean  TX,Rolla  MO
+Rolla  MO,Denver  CO
+Denver  CO,Rolla  MO
+Seattle  WA,Arroyo Grande  CA
+Arroyo Grande  CA,Seattle  WA
+Seattle  WA,Kingman  AZ
+Kingman  AZ,Seattle  WA
+Seattle  WA,Vista  CA
+Vista  CA,Seattle  WA
+Seattle  WA,San Diego  CA
+San Diego  CA,Seattle  WA
+Seattle  WA,Camden  ME
+Camden  ME,Seattle  WA
+Scottsdale  AZ,Bloomington  IL
+Bloomington  IL,Scottsdale  AZ
+Scottsdale  AZ,Sabattus  ME
+Sabattus  ME,Scottsdale  AZ
+Scottsdale  AZ,Litchfield  ME
+Litchfield  ME,Scottsdale  AZ
+Scottsdale  AZ,Wyandotte  MI
+Wyandotte  MI,Scottsdale  AZ
+Scottsdale  AZ,Lewiston  ME
+Lewiston  ME,Scottsdale  AZ
+Scottsdale  AZ,Tracy  CA
+Tracy  CA,Scottsdale  AZ
+Garden City  KS,Galena  MO
+Galena  MO,Garden City  KS
+Garden City  KS,Glastonbury  CT
+Glastonbury  CT,Garden City  KS
+Renton  WA,Kennebunk  ME
+Kennebunk  ME,Renton  WA
+Renton  WA,Hot Springs  AR
+Hot Springs  AR,Renton  WA
+Renton  WA,Oxford  ME
+Oxford  ME,Renton  WA
+Renton  WA,Natick  MA
+Natick  MA,Renton  WA
+Quincy  CA,Lopez Island  WA
+Lopez Island  WA,Quincy  CA
+Quincy  CA,Bayside  NY
+Bayside  NY,Quincy  CA
+Quincy  CA,Lorane  OR
+Lorane  OR,Quincy  CA
+Quincy  CA,Shingletown  CA
+Shingletown  CA,Quincy  CA
+Quincy  CA,Deer Park  WA
+Deer Park  WA,Quincy  CA
+Quincy  CA,Glendora  CA
+Glendora  CA,Quincy  CA
+Quincy  CA,Levittown  NY
+Levittown  NY,Quincy  CA
+Quincy  CA,Jemez Springs  NM
+Jemez Springs  NM,Quincy  CA
+Quincy  CA,Bow-Edison  WA
+Bow-Edison  WA,Quincy  CA
+Quincy  CA,Wenatchee  WA
+Wenatchee  WA,Quincy  CA
+Quincy  CA,Laughlin  NV
+Laughlin  NV,Quincy  CA
+Quincy  CA,Oak Harbor  WA
+Oak Harbor  WA,Quincy  CA
+Quincy  CA,Port Angeles  WA
+Port Angeles  WA,Quincy  CA
+Quincy  CA,Sacramento  CA
+Sacramento  CA,Quincy  CA
+Quincy  CA,Healdsburg  CA
+Healdsburg  CA,Quincy  CA
+Quincy  CA,Carnation  WA
+Carnation  WA,Quincy  CA
+Phoenix  AZ,Seattle  WA
+Seattle  WA,Phoenix  AZ
+Phoenix  AZ,Ashtabula  OH
+Ashtabula  OH,Phoenix  AZ
+Phoenix  AZ,Bolingbrook  IL
+Bolingbrook  IL,Phoenix  AZ
+Phoenix  AZ,Fort Wayne  IN
+Fort Wayne  IN,Phoenix  AZ
+Danbury  CT,Fairbanks  AK
+Fairbanks  AK,Danbury  CT
+Danbury  CT,Negaunee  MI
+Negaunee  MI,Danbury  CT
+Danbury  CT,Martiez  CA
+Martiez  CA,Danbury  CT
+Danbury  CT,Martinez  CA
+Martinez  CA,Danbury  CT
+Green Bay  WI,Omaha  NE
+Omaha  NE,Green Bay  WI
+Green Bay  WI,Greene  ME
+Greene  ME,Green Bay  WI
+Green Bay  WI,Geyserville  CA
+Geyserville  CA,Green Bay  WI
+Green Bay  WI,Goodyear  AZ
+Goodyear  AZ,Green Bay  WI
+Green Bay  WI,Marietta  OH
+Marietta  OH,Green Bay  WI
+Green Bay  WI,East Killingly  CT
+East Killingly  CT,Green Bay  WI
+Green Bay  WI,North Hills  CA
+North Hills  CA,Green Bay  WI
+Green Bay  WI,Grantville  PA
+Grantville  PA,Green Bay  WI
+Green Bay  WI,Choctaw  OK
+Choctaw  OK,Green Bay  WI
+Green Bay  WI,Oil City  PA
+Oil City  PA,Green Bay  WI
+Owatonna  MN,Rapid City  SD
+Rapid City  SD,Owatonna  MN
+Owatonna  MN,North Hreo  VT
+North Hreo  VT,Owatonna  MN
+Owatonna  MN,Airway Heights  WA
+Airway Heights  WA,Owatonna  MN
+Owatonna  MN,Belleville  WI
+Belleville  WI,Owatonna  MN
+Owatonna  MN,The Dalles  OR
+The Dalles  OR,Owatonna  MN
+Owatonna  MN,Salt Lake City  UT
+Salt Lake City  UT,Owatonna  MN

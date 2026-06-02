@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Rural Urban split visualization</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.0/d3.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.js"></script>
+    <script type="text/javascript" src="../js/radial-progress-d3.min.js"></script>
+    <link href="../css/radial-duration.css" rel="stylesheet" type="text/css"/>
+
+  </head>
+  <body>
+    <div> 
+      <p class="title"> Percentage split of entries across rural and urban for <br/> different durations of UFO sightings </p>
+    </div>
+<div class="container" >
+  <div class="progress"></div>
+</div>
+
+<div style="color: black">
+<div class="left-align"> <p class="text"> Rural </p> <div id="rural" ></div></div>
+<div class="right-align"><p class="text"> Urban </p> <div id="urban"></div></div>
+</div>
+
+<script>
+
+function loadJSON (url) {
+                     var xmlhttp=new XMLHttpRequest();
+
+                     try{
+                     xmlhttp.open("GET",url,false); 
+                     xmlhttp.setRequestHeader("Content-type", "application/json");
+                     
+                     xmlhttp.send(); 
+                     }
+                     catch(err){
+                          alert("Entered file does not exist");
+                          return "";
+                     }
+                     if(xmlhttp.status==404){
+                         alert("Entered file does not exist");
+                         return "";
+                     }
+                     jsonDoc=xmlhttp.responseText;
+                     // console.log(jsonDoc);
+                     return jsonDoc;
+ }
+
+ jsonData=JSON.parse(loadJSON("../data/pie_duration.json"));
+ // console.log(jsonData["responseHeader"]);
+
+ var map = ["10 seconds","30 seconds","2 minutes","5 minutes","10 minutes","30 minutes","1 hour","2 hours"]
+
+var duration_list = jsonData.facet_counts.facet_pivot["duration,rural_urban"];
+
+var hm={}
+
+for(var i=0;i<duration_list.length;i++){
+  if (map.indexOf(duration_list[i]["value"]) > -1){
+    console.log(duration_list[i].value);
+  
+    hm[duration_list[i].value]={}
+    hm[duration_list[i].value][duration_list[i].pivot[0]["value"]] = duration_list[i].pivot[0]["count"];
+    hm[duration_list[i].value][duration_list[i].pivot[1]["value"]] = duration_list[i].pivot[1]["count"]
+  }
+}
+
+console.log(hm);
+
+ var progress = new RadialProgressChart('.progress', {
+   diameter: 200,
+   series: [{
+     value: 0,
+     color: {
+       linearGradient: {
+         x1: '0%',
+         y1: '100%',
+         x2: '50%',
+         y2: '0%',
+         spreadMethod: 'pad'
+       },
+       stops: [{
+         offset: '0%',
+         'stop-color': '#ff6600',
+         'stop-opacity': 1
+       }, {
+         offset: '100%',
+         'stop-color': '#ffff66',
+         'stop-opacity': 1
+       }]
+     }
+   }],
+   center: function(p) {
+    if(count==-1)
+      return "";
+    console.log(map[count]);
+
+      total = hm[map[count]].rural+hm[map[count]].urban
+      document.getElementById("rural").innerHTML=hm[map[count]].rural + "("+ Math.round(hm[map[count]].rural*100/total) +"%)";
+      document.getElementById("urban").innerHTML=hm[map[count]].urban + "("+ Math.round(hm[map[count]].urban*100/total) +"%)";
+      
+     return map[count];// + "<br>" + hm[map[count]].rural + "\n" + hm[map[count]].urban;
+   }
+ });
+
+ function getRandom(min, max) {
+   return Math.random() * (max - min) + min;
+ }
+
+count=-1;
+
+ // function geti(){
+ //   return count++;
+ // }
+
+ function loop(p) {
+  
+       if (p > 100) {
+         setTimeout(function() {
+           loop(0)
+         }, 3000)
+       } else {
+         progress.update(p);
+         setTimeout(function() {
+          count++;
+           loop(p + (100/8))
+         }, 2000)
+       }
+  
+ }
+
+ loop(0);
+</script>
+</body>
+</html>

@@ -1,0 +1,477 @@
+origin,destination
+South Bend  IN,Salt Lake City  UT
+Salt Lake City  UT,South Bend  IN
+South Bend  IN,Nashville  TN
+Nashville  TN,South Bend  IN
+South Bend  IN,Parma  OH
+Parma  OH,South Bend  IN
+South Bend  IN,Columbus  OH
+Columbus  OH,South Bend  IN
+South Bend  IN,Hermantown  MS
+Hermantown  MS,South Bend  IN
+South Bend  IN,Lexington  KY
+Lexington  KY,South Bend  IN
+South Bend  IN,Monroeton  PA
+Monroeton  PA,South Bend  IN
+South Bend  IN,Rancho Santa Fe  CA
+Rancho Santa Fe  CA,South Bend  IN
+South Bend  IN,Rural Dixon County  NE
+Rural Dixon County  NE,South Bend  IN
+South Bend  IN,Flowood  MS
+Flowood  MS,South Bend  IN
+South Bend  IN,Livermore  CA
+Livermore  CA,South Bend  IN
+South Bend  IN,Dallas  TX
+Dallas  TX,South Bend  IN
+Seattle  WA,Norman  OK
+Norman  OK,Seattle  WA
+Seattle  WA,Hazel Green  AL
+Hazel Green  AL,Seattle  WA
+Seattle  WA,Henderson  NV
+Henderson  NV,Seattle  WA
+Seattle  WA,Maple Valley  WA
+Maple Valley  WA,Seattle  WA
+Seattle  WA,Portland  OR
+Portland  OR,Seattle  WA
+Seattle  WA,Osseo  WI
+Osseo  WI,Seattle  WA
+Seattle  WA,Northumberland  PA
+Northumberland  PA,Seattle  WA
+Seattle  WA,Wisconsin Rapids  WI
+Wisconsin Rapids  WI,Seattle  WA
+Seattle  WA,Las Vegas  NV
+Las Vegas  NV,Seattle  WA
+Seattle  WA,North Royalton  OH
+North Royalton  OH,Seattle  WA
+Portland  OR,Chula Vista  CA
+Chula Vista  CA,Portland  OR
+Portland  OR,Papillion  NE
+Papillion  NE,Portland  OR
+Portland  OR,Aurora  CO
+Aurora  CO,Portland  OR
+Portland  OR,Churchville  MD
+Churchville  MD,Portland  OR
+Portland  OR,Sullivan  IL
+Sullivan  IL,Portland  OR
+Portland  OR,Lansing  MI
+Lansing  MI,Portland  OR
+Portland  OR,Florence  OR
+Florence  OR,Portland  OR
+Portland  OR,Whittier  CA
+Whittier  CA,Portland  OR
+Portland  OR,Bowleys Quarters  MD
+Bowleys Quarters  MD,Portland  OR
+Lutsen  MN,Mentor  OH
+Mentor  OH,Lutsen  MN
+Lutsen  MN,Charlotte  NC
+Charlotte  NC,Lutsen  MN
+New York City  NY,Landover Hills  MD
+Landover Hills  MD,New York City  NY
+New York City  NY,Garfield  NJ
+Garfield  NJ,New York City  NY
+New York City  NY,Houston  TX
+Houston  TX,New York City  NY
+New York City  NY,Brandywine  MD
+Brandywine  MD,New York City  NY
+New York City  NY,Baltimore  MD
+Baltimore  MD,New York City  NY
+New York City  NY,Watersmeet  MI
+Watersmeet  MI,New York City  NY
+New York City  NY,Ahwahnee  CA
+Ahwahnee  CA,New York City  NY
+New York City  NY,Riverside  CA
+Riverside  CA,New York City  NY
+New York City  NY,Skowhegan  ME
+Skowhegan  ME,New York City  NY
+New York City  NY,Northumberland  PA
+Northumberland  PA,New York City  NY
+Murfreesboro  TN,Humble  TX
+Humble  TX,Murfreesboro  TN
+Murfreesboro  TN,Richardson  TX
+Richardson  TX,Murfreesboro  TN
+Murfreesboro  TN,Barrington  IL
+Barrington  IL,Murfreesboro  TN
+Murfreesboro  TN,Arlington  WA
+Arlington  WA,Murfreesboro  TN
+Murfreesboro  TN,Petaluma  CA
+Petaluma  CA,Murfreesboro  TN
+Murfreesboro  TN,Tukwila  WA
+Tukwila  WA,Murfreesboro  TN
+Murfreesboro  TN,Luray  VA
+Luray  VA,Murfreesboro  TN
+Murfreesboro  TN,Prospect Valley  CO
+Prospect Valley  CO,Murfreesboro  TN
+Murfreesboro  TN,Arlington  VA
+Arlington  VA,Murfreesboro  TN
+Murfreesboro  TN,Vancouver  WA
+Vancouver  WA,Murfreesboro  TN
+Murfreesboro  TN,Scottsville  KY
+Scottsville  KY,Murfreesboro  TN
+Seattle  WA,Cincinnati  OH
+Cincinnati  OH,Seattle  WA
+Seattle  WA,Fairlawn  NJ
+Fairlawn  NJ,Seattle  WA
+Seattle  WA,Batesburg  SC
+Batesburg  SC,Seattle  WA
+Seattle  WA,Burlington  VT
+Burlington  VT,Seattle  WA
+Seattle  WA,Saline  MI
+Saline  MI,Seattle  WA
+Seattle  WA,Dalton  GA
+Dalton  GA,Seattle  WA
+Seattle  WA,Keansburg  NJ
+Keansburg  NJ,Seattle  WA
+Seattle  WA,Revere  MA
+Revere  MA,Seattle  WA
+Seattle  WA,Mexican Water  AZ
+Mexican Water  AZ,Seattle  WA
+Seattle  WA,Pittsburgh  PA
+Pittsburgh  PA,Seattle  WA
+Seattle  WA,San Antonio  TX
+San Antonio  TX,Seattle  WA
+Seattle  WA,Kingsport  TN
+Kingsport  TN,Seattle  WA
+Seattle  WA,Spokane  WA
+Spokane  WA,Seattle  WA
+Seattle  WA,Hadley  MA
+Hadley  MA,Seattle  WA
+Seattle  WA,Manalapan  NJ
+Manalapan  NJ,Seattle  WA
+Seattle  WA,Las Vegas  NV
+Las Vegas  NV,Seattle  WA
+Seattle  WA,Martinez  CA
+Martinez  CA,Seattle  WA
+Seattle  WA,Graham  WA
+Graham  WA,Seattle  WA
+Seattle  WA,Arizona  AZ
+Arizona  AZ,Seattle  WA
+New York City  NY,Wichita Falls  TX
+Wichita Falls  TX,New York City  NY
+New York City  NY,Studio City  CA
+Studio City  CA,New York City  NY
+New York City  NY,Aitkin  MN
+Aitkin  MN,New York City  NY
+New York City  NY,Emory  TX
+Emory  TX,New York City  NY
+New York City  NY,Methuen  MA
+Methuen  MA,New York City  NY
+New York City  NY,Grand Rapids  MI
+Grand Rapids  MI,New York City  NY
+New York City  NY,San diego  CA
+San diego  CA,New York City  NY
+Palm Coast  FL,Mt Ayr  IA
+Mt Ayr  IA,Palm Coast  FL
+Palm Coast  FL,Roxbury  CT
+Roxbury  CT,Palm Coast  FL
+Palm Coast  FL,Burien  WA
+Burien  WA,Palm Coast  FL
+Palm Coast  FL,Rochester (west of)  NY
+Rochester (west of)  NY,Palm Coast  FL
+Palm Coast  FL,Rochester  NY
+Rochester  NY,Palm Coast  FL
+Palm Coast  FL,Weldon  CA
+Weldon  CA,Palm Coast  FL
+Palm Coast  FL,Marblemount  WA
+Marblemount  WA,Palm Coast  FL
+Palm Coast  FL,San Rafael  CA
+San Rafael  CA,Palm Coast  FL
+Palm Coast  FL,Belleville  MI
+Belleville  MI,Palm Coast  FL
+Palm Coast  FL,Two Creeks  WI
+Two Creeks  WI,Palm Coast  FL
+Palm Coast  FL,Albuquerque  NM
+Albuquerque  NM,Palm Coast  FL
+Palm Coast  FL,Stanwood  WA
+Stanwood  WA,Palm Coast  FL
+Palm Coast  FL,Elm Grove  LA
+Elm Grove  LA,Palm Coast  FL
+Great Barrington  MA,Jackson  MI
+Jackson  MI,Great Barrington  MA
+Great Barrington  MA,Rochester  WA
+Rochester  WA,Great Barrington  MA
+Great Barrington  MA,Rifle  CO
+Rifle  CO,Great Barrington  MA
+Great Barrington  MA,Fitchburg  MA
+Fitchburg  MA,Great Barrington  MA
+Great Barrington  MA,Baker City  OR
+Baker City  OR,Great Barrington  MA
+Great Barrington  MA,Toppenish  WA
+Toppenish  WA,Great Barrington  MA
+Great Barrington  MA,Huffman  TX
+Huffman  TX,Great Barrington  MA
+Great Barrington  MA,Seattle  WA
+Seattle  WA,Great Barrington  MA
+Great Barrington  MA,Breckenridge  CO
+Breckenridge  CO,Great Barrington  MA
+Great Barrington  MA,Salem  UT
+Salem  UT,Great Barrington  MA
+Great Barrington  MA,Beaver Falls  PA
+Beaver Falls  PA,Great Barrington  MA
+Great Barrington  MA,Ludlow  CA
+Ludlow  CA,Great Barrington  MA
+Great Barrington  MA,Concord  CA
+Concord  CA,Great Barrington  MA
+Midland  VA,Goshen  CT
+Goshen  CT,Midland  VA
+Midland  VA,Rochester  NY
+Rochester  NY,Midland  VA
+Midland  VA,Roseville  MN
+Roseville  MN,Midland  VA
+Midland  VA,Laplata  MD
+Laplata  MD,Midland  VA
+Brunswick  ME,Bristol  TN
+Bristol  TN,Brunswick  ME
+Brunswick  ME,Federal Way  WA
+Federal Way  WA,Brunswick  ME
+Brunswick  ME,NJ Turnpike  NJ
+NJ Turnpike  NJ,Brunswick  ME
+Brunswick  ME,Syracuse  NY
+Syracuse  NY,Brunswick  ME
+Brunswick  ME,unknown  KS
+unknown  KS,Brunswick  ME
+Brunswick  ME,Ojai  CA
+Ojai  CA,Brunswick  ME
+Brunswick  ME,Leeds  ME
+Leeds  ME,Brunswick  ME
+Knoxville  TN,Yanush  OK
+Yanush  OK,Knoxville  TN
+Knoxville  TN,Mesquite  TX
+Mesquite  TX,Knoxville  TN
+Knoxville  TN,Sonora  CA
+Sonora  CA,Knoxville  TN
+Knoxville  TN,Midland  VA
+Midland  VA,Knoxville  TN
+Knoxville  TN,Lake Sevens  WA
+Lake Sevens  WA,Knoxville  TN
+Knoxville  TN,Wickenburg  AZ
+Wickenburg  AZ,Knoxville  TN
+Knoxville  TN,Pacific Ridge  OR
+Pacific Ridge  OR,Knoxville  TN
+Knoxville  TN,Wenatchee  WA
+Wenatchee  WA,Knoxville  TN
+Knoxville  TN,Monroe  WA
+Monroe  WA,Knoxville  TN
+Knoxville  TN,Derry  NH
+Derry  NH,Knoxville  TN
+Knoxville  TN,Indianapolis  IN
+Indianapolis  IN,Knoxville  TN
+Knoxville  TN,Macomb  MI
+Macomb  MI,Knoxville  TN
+Knoxville  TN,Dunnellon  FL
+Dunnellon  FL,Knoxville  TN
+Knoxville  TN,Brookston  IN
+Brookston  IN,Knoxville  TN
+Knoxville  TN,Chicago  IL
+Chicago  IL,Knoxville  TN
+Knoxville  TN,Lancaster  PA
+Lancaster  PA,Knoxville  TN
+Knoxville  TN,Fawn Grove  PA
+Fawn Grove  PA,Knoxville  TN
+Knoxville  TN,Virginia Beach  VA
+Virginia Beach  VA,Knoxville  TN
+Knoxville  TN,Piner  KY
+Piner  KY,Knoxville  TN
+Knoxville  TN,Ocean City  MD
+Ocean City  MD,Knoxville  TN
+Indianapolis  IN,Wilmington  NC
+Wilmington  NC,Indianapolis  IN
+Indianapolis  IN,Round Rock  TX
+Round Rock  TX,Indianapolis  IN
+Indianapolis  IN,Seattle  WA
+Seattle  WA,Indianapolis  IN
+Indianapolis  IN,Myrtle Beach  SC
+Myrtle Beach  SC,Indianapolis  IN
+Indianapolis  IN,Moclips  OR
+Moclips  OR,Indianapolis  IN
+Indianapolis  IN,Ohiopyle  PA
+Ohiopyle  PA,Indianapolis  IN
+Indianapolis  IN,Alliance  OH
+Alliance  OH,Indianapolis  IN
+Burlington  MA,Ajo  AZ
+Ajo  AZ,Burlington  MA
+Burlington  MA,Emerald Isle  NC
+Emerald Isle  NC,Burlington  MA
+Burlington  MA,Braggs  OK
+Braggs  OK,Burlington  MA
+Burlington  MA,Erie  PA
+Erie  PA,Burlington  MA
+Burlington  MA,Salt Lake City  UT
+Salt Lake City  UT,Burlington  MA
+Burlington  MA,Utah  UT
+Utah  UT,Burlington  MA
+Burlington  MA,Pharisburg  OH
+Pharisburg  OH,Burlington  MA
+Stark  KS,Clearwater  FL
+Clearwater  FL,Stark  KS
+Stark  KS,Myrtle Beach  SC
+Myrtle Beach  SC,Stark  KS
+Stark  KS,Milledgeville  GA
+Milledgeville  GA,Stark  KS
+Stark  KS,Lowell  MI
+Lowell  MI,Stark  KS
+Stark  KS,Richmond  TX
+Richmond  TX,Stark  KS
+Stark  KS,Anna Maria Island  FL
+Anna Maria Island  FL,Stark  KS
+Mankato  MN,Detroit  MI
+Detroit  MI,Mankato  MN
+Mankato  MN,Hartford  AR
+Hartford  AR,Mankato  MN
+Mankato  MN,Wenona  IL
+Wenona  IL,Mankato  MN
+Mankato  MN,Leesburg  FL
+Leesburg  FL,Mankato  MN
+Mankato  MN,Bingham  ME
+Bingham  ME,Mankato  MN
+Mankato  MN,Sunset Beach  NC
+Sunset Beach  NC,Mankato  MN
+Virginia Beach  VA,Killeen  TX
+Killeen  TX,Virginia Beach  VA
+Virginia Beach  VA,Poland  ME
+Poland  ME,Virginia Beach  VA
+Virginia Beach  VA,Milan  TN
+Milan  TN,Virginia Beach  VA
+Virginia Beach  VA,Marion  OH
+Marion  OH,Virginia Beach  VA
+Virginia Beach  VA,Noxon  MT
+Noxon  MT,Virginia Beach  VA
+Virginia Beach  VA,New Castle  IN
+New Castle  IN,Virginia Beach  VA
+Virginia Beach  VA,Prestonsburg  KY
+Prestonsburg  KY,Virginia Beach  VA
+Virginia Beach  VA,Ann Arbor  MI
+Ann Arbor  MI,Virginia Beach  VA
+Virginia Beach  VA,Dwight  IL
+Dwight  IL,Virginia Beach  VA
+Virginia Beach  VA,Brison City  NC
+Brison City  NC,Virginia Beach  VA
+Virginia Beach  VA,Augusta  KS
+Augusta  KS,Virginia Beach  VA
+Champaign  IL,Knoxville  IL
+Knoxville  IL,Champaign  IL
+Champaign  IL,Madison  WI
+Madison  WI,Champaign  IL
+Champaign  IL,Lebanon  TN
+Lebanon  TN,Champaign  IL
+Champaign  IL,Olympia  WA
+Olympia  WA,Champaign  IL
+Champaign  IL,Isle of Palms  SC
+Isle of Palms  SC,Champaign  IL
+Champaign  IL,Boston  MA
+Boston  MA,Champaign  IL
+Champaign  IL,White Plains  NY
+White Plains  NY,Champaign  IL
+Champaign  IL,Harrison Township  MI
+Harrison Township  MI,Champaign  IL
+Champaign  IL,Elmwood  IL
+Elmwood  IL,Champaign  IL
+Champaign  IL,Sisseton  SD
+Sisseton  SD,Champaign  IL
+Crystal Lake  IL,Ontario  CA
+Ontario  CA,Crystal Lake  IL
+Crystal Lake  IL,Monroe  NY
+Monroe  NY,Crystal Lake  IL
+Crystal Lake  IL,Bohemia  NY
+Bohemia  NY,Crystal Lake  IL
+Crystal Lake  IL,Yelm  WA
+Yelm  WA,Crystal Lake  IL
+Crystal Lake  IL,River Falls  WI
+River Falls  WI,Crystal Lake  IL
+Odessa  TX,Albuquerque  NM
+Albuquerque  NM,Odessa  TX
+Odessa  TX,Olympia  WA
+Olympia  WA,Odessa  TX
+Odessa  TX,Monroe  WA
+Monroe  WA,Odessa  TX
+Odessa  TX,Gilbert  AZ
+Gilbert  AZ,Odessa  TX
+Odessa  TX,Louisville  KY
+Louisville  KY,Odessa  TX
+Odessa  TX,Mesa  AZ
+Mesa  AZ,Odessa  TX
+Odessa  TX,Bowleys Quarters  MD
+Bowleys Quarters  MD,Odessa  TX
+Englewood  FL,Tinley Park  IL
+Tinley Park  IL,Englewood  FL
+Englewood  FL,Gresham  OR
+Gresham  OR,Englewood  FL
+Englewood  FL,Sacramento  CA
+Sacramento  CA,Englewood  FL
+Englewood  FL,The Colony  TX
+The Colony  TX,Englewood  FL
+Englewood  FL,Seattle  WA
+Seattle  WA,Englewood  FL
+Englewood  FL,Jacksonville  FL
+Jacksonville  FL,Englewood  FL
+Englewood  FL,Sparta  TN
+Sparta  TN,Englewood  FL
+Englewood  FL,Gary  IN
+Gary  IN,Englewood  FL
+Englewood  FL,Conshohocken  PA
+Conshohocken  PA,Englewood  FL
+Englewood  FL,Canton  GA
+Canton  GA,Englewood  FL
+Richardson  TX,Cascade  ID
+Cascade  ID,Richardson  TX
+Richardson  TX,Chualar  CA
+Chualar  CA,Richardson  TX
+Richardson  TX,Gilbert  AZ
+Gilbert  AZ,Richardson  TX
+Chicago  IL,Eagle Creek  OR
+Eagle Creek  OR,Chicago  IL
+Chicago  IL,Maui  HI
+Maui  HI,Chicago  IL
+Deerfield  FL,Victorville  CA
+Victorville  CA,Deerfield  FL
+Deerfield  FL,Albuquerque  NM
+Albuquerque  NM,Deerfield  FL
+Deerfield  FL,Venice  FL
+Venice  FL,Deerfield  FL
+Deerfield  FL,South Beach  FL
+South Beach  FL,Deerfield  FL
+Bellingham  WA,Kelso  WA
+Kelso  WA,Bellingham  WA
+Bellingham  WA,Mattawa  WA
+Mattawa  WA,Bellingham  WA
+Bellingham  WA,Ashland  OR
+Ashland  OR,Bellingham  WA
+Bellingham  WA,Austin  TX
+Austin  TX,Bellingham  WA
+Bellingham  WA,Louisville  KY
+Louisville  KY,Bellingham  WA
+Bellingham  WA,Colville  WA
+Colville  WA,Bellingham  WA
+Bellingham  WA,Peach Orchard  AR
+Peach Orchard  AR,Bellingham  WA
+Bellingham  WA,Elma  WA
+Elma  WA,Bellingham  WA
+Bellingham  WA,Upland  CA
+Upland  CA,Bellingham  WA
+Bellingham  WA,Gold Beach  OR
+Gold Beach  OR,Bellingham  WA
+Littleton  CO,Toledo  OR
+Toledo  OR,Littleton  CO
+Littleton  CO,Camarillo  CA
+Camarillo  CA,Littleton  CO
+Littleton  CO,Rochester  NY
+Rochester  NY,Littleton  CO
+Cleveland  OH,Newark  NJ
+Newark  NJ,Cleveland  OH
+Cleveland  OH,Louisville  KY
+Louisville  KY,Cleveland  OH
+Cleveland  OH,Brighton  MI
+Brighton  MI,Cleveland  OH
+Cleveland  OH,Curlew  WA
+Curlew  WA,Cleveland  OH
+Cleveland  OH,Canton  MI
+Canton  MI,Cleveland  OH
+Cleveland  OH,Kern river  CA
+Kern river  CA,Cleveland  OH
+Cleveland  OH,Santa Cruz  CA
+Santa Cruz  CA,Cleveland  OH
+Cleveland  OH,Nyssa  OR
+Nyssa  OR,Cleveland  OH
+Cleveland  OH,Compton  CA
+Compton  CA,Cleveland  OH
+Cleveland  OH,Davenport  IA
+Davenport  IA,Cleveland  OH

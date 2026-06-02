@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<h2 align="center" style="font-family: 'Comic Sans MS', cursive, sans-serif">Distribution of sightings by population for 1000 sightings in 2010</h2>
+<canvas style="padding-left:18%" width="1200" height="600"></canvas>
+<div>
+<span style="font-family: 'Comic Sans MS', cursive, sans-serif; padding-left:21%; font-size:larger">Sparsely populated (< 5 million population)</span>
+<span style="float: right; font-family: 'Comic Sans MS', cursive, sans-serif; font-size: larger; padding-right: 24%;">Densely populated (>= 5 million population)</span>
+</div>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/queue.v1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+
+
+/***
+SOLR URL : http://192.168.0.4:8984/solr/ufo/select?fl=sighted_at,population&fq=sighted_at:[2010-01-01T00:00:00Z%20TO%202010-12-31T00:00:00Z]&q=*:*%20+population:[*%20TO%20*]&rows=1000&wt=json&sort=sighted_at%20desc
+
+Replace "./data.json" below with the solr url
+
+***/
+
+d3.json("../data/team11iso.json", function(error, respJSON) {
+    if (error) throw error;
+
+var data = respJSON["response"]["docs"];
+   // console.log("example1: ", data, data[0].population);
+    var nodes = [];
+    for(var i =0; i < data.length; i++){
+      var obj = {}
+      obj.index = i;
+      if(data[i].population < 5000000){
+        obj.color = "brown";
+      }
+      else{
+        obj.color = "steelblue";
+      }
+      obj.population = data[0].population;
+      nodes.push(obj);
+    }
+
+    var canvas = document.querySelector("canvas"),
+    context = canvas.getContext("2d"),
+    width = canvas.width,
+    height = canvas.height;
+
+var simulation = d3.forceSimulation(nodes)
+    .force("y", d3.forceY())
+    .force("brown", isolate(d3.forceX(-width / 6), function(d) { return d.color === "brown"; }))
+    .force("steelblue", isolate(d3.forceX(width / 6), function(d) { return d.color === "steelblue"; }))
+    .force("charge", d3.forceManyBody().strength(-10))
+    .on("tick", ticked);
+
+
+
+function ticked() {
+  
+ context.clearRect(0, 0, width, height);
+  context.save();
+  context.translate(width / 2, height / 2);
+  nodes.forEach(drawNode);
+  context.restore();
+
+  
+}
+
+function drawNode(d) {
+  context.beginPath();
+  context.moveTo(d.x + 3, d.y);
+  context.arc(d.x, d.y, 4, 0, 2 * Math.PI);
+  context.fillStyle = d.color;
+  context.fill();
+}
+
+function isolate(force, filter) {
+  var initialize = force.initialize;
+  force.initialize = function() { initialize.call(force, nodes.filter(filter)); };
+  return force;
+}
+
+}); 
+
+
+</script>
+</body>
+</html>

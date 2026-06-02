@@ -1,0 +1,407 @@
+origin,destination
+Titusville  FL,Norfolk  MA
+Norfolk  MA,Titusville  FL
+Titusville  FL,Buffalo  MN
+Buffalo  MN,Titusville  FL
+Titusville  FL,Sublimity  OR
+Sublimity  OR,Titusville  FL
+Titusville  FL,Fairfield  CA
+Fairfield  CA,Titusville  FL
+Titusville  FL,Valley Springs  CA
+Valley Springs  CA,Titusville  FL
+Titusville  FL,Leesville  SC
+Leesville  SC,Titusville  FL
+Titusville  FL,McMinnville  OR
+McMinnville  OR,Titusville  FL
+Titusville  FL,Newark  NJ
+Newark  NJ,Titusville  FL
+Waialua  HI,Northridge  CA
+Northridge  CA,Waialua  HI
+Waialua  HI,Virginia Beach  VA
+Virginia Beach  VA,Waialua  HI
+Waialua  HI,Bremerton  WA
+Bremerton  WA,Waialua  HI
+Bartlesville  OK,Gladstone  MI
+Gladstone  MI,Bartlesville  OK
+Bartlesville  OK,Eglin Air Force Base  FL
+Eglin Air Force Base  FL,Bartlesville  OK
+Bartlesville  OK,Champaign  IL
+Champaign  IL,Bartlesville  OK
+Bartlesville  OK,Merriville and Gary  IN
+Merriville and Gary  IN,Bartlesville  OK
+Columbia  MO,Tipton  PA
+Tipton  PA,Columbia  MO
+Columbia  MO,Oswego  IL
+Oswego  IL,Columbia  MO
+Columbia  MO,Omaha  NE
+Omaha  NE,Columbia  MO
+Columbia  MO,Key Largo  FL
+Key Largo  FL,Columbia  MO
+Columbia  MO,Orland Park  IL
+Orland Park  IL,Columbia  MO
+Tucson  AZ,Florence  AL
+Florence  AL,Tucson  AZ
+Tucson  AZ,Whitehall  NY
+Whitehall  NY,Tucson  AZ
+Tucson  AZ,Stockbridge  WI
+Stockbridge  WI,Tucson  AZ
+Los Angeles  CA,Simi Valley  CA
+Simi Valley  CA,Los Angeles  CA
+Los Angeles  CA,Laguna Beach  CA
+Laguna Beach  CA,Los Angeles  CA
+Los Angeles  CA,Lakeway  TX
+Lakeway  TX,Los Angeles  CA
+Los Angeles  CA,Mohnton  PA
+Mohnton  PA,Los Angeles  CA
+Los Angeles  CA,Warner Robbins  GA
+Warner Robbins  GA,Los Angeles  CA
+Los Angeles  CA,Anza Borrego  CA
+Anza Borrego  CA,Los Angeles  CA
+Los Angeles  CA,Beaver Dam  AZ
+Beaver Dam  AZ,Los Angeles  CA
+Los Angeles  CA,South Hollan  IL
+South Hollan  IL,Los Angeles  CA
+Mansfield  TX,Green Valley  AZ
+Green Valley  AZ,Mansfield  TX
+Mansfield  TX,Palm Coast  FL
+Palm Coast  FL,Mansfield  TX
+Mansfield  TX,Watts  CA
+Watts  CA,Mansfield  TX
+Mansfield  TX,Yakima  WA
+Yakima  WA,Mansfield  TX
+Mansfield  TX,Corpus Christi  TX
+Corpus Christi  TX,Mansfield  TX
+Mansfield  TX,Waverly  OH
+Waverly  OH,Mansfield  TX
+Mansfield  TX,Federal Way  WA
+Federal Way  WA,Mansfield  TX
+Mansfield  TX,Concord  GA
+Concord  GA,Mansfield  TX
+Alexandria  VA,Addy  WA
+Addy  WA,Alexandria  VA
+Alexandria  VA,San Jacinto  CA
+San Jacinto  CA,Alexandria  VA
+Alexandria  VA,San Dimas  CA
+San Dimas  CA,Alexandria  VA
+Alexandria  VA,Dublin  CA
+Dublin  CA,Alexandria  VA
+Alexandria  VA,Las Vegas  NV
+Las Vegas  NV,Alexandria  VA
+Los Angels  CA,Wilmington  NC
+Wilmington  NC,Los Angels  CA
+Los Angels  CA,Phoenix  AZ
+Phoenix  AZ,Los Angels  CA
+Los Angels  CA,Fullerton  CA
+Fullerton  CA,Los Angels  CA
+Los Angels  CA,Portland  OR
+Portland  OR,Los Angels  CA
+Los Angels  CA,Longmont  CO
+Longmont  CO,Los Angels  CA
+Oak Harbor  WA,Tucson  AZ
+Tucson  AZ,Oak Harbor  WA
+Oak Harbor  WA,Ridgewood  NJ
+Ridgewood  NJ,Oak Harbor  WA
+Oak Harbor  WA,San Pedro  CA
+San Pedro  CA,Oak Harbor  WA
+Oak Harbor  WA,Twinning  MI
+Twinning  MI,Oak Harbor  WA
+Oak Harbor  WA,Milwaukee  WI
+Milwaukee  WI,Oak Harbor  WA
+Silver City  NM,Maroa  IL
+Maroa  IL,Silver City  NM
+Silver City  NM,Cary  NC
+Cary  NC,Silver City  NM
+Silver City  NM,Hooper  CO
+Hooper  CO,Silver City  NM
+Silver City  NM,Phoenixville  PA
+Phoenixville  PA,Silver City  NM
+Silver City  NM,Panama City Beach  FL
+Panama City Beach  FL,Silver City  NM
+Yakima  WA,Imperial Beach  CA
+Imperial Beach  CA,Yakima  WA
+Yakima  WA,Redwood City  CA
+Redwood City  CA,Yakima  WA
+Yakima  WA,Manchester  MI
+Manchester  MI,Yakima  WA
+Yakima  WA,Litchfield  SC
+Litchfield  SC,Yakima  WA
+Yakima  WA,Avon  CO
+Avon  CO,Yakima  WA
+Yakima  WA,Maywood  CA
+Maywood  CA,Yakima  WA
+Yakima  WA,Leesburg  GA
+Leesburg  GA,Yakima  WA
+Yakima  WA,Hancock  WI
+Hancock  WI,Yakima  WA
+Yakima  WA,Clarklake  MI
+Clarklake  MI,Yakima  WA
+Yakima  WA,Los Angeles  CA
+Los Angeles  CA,Yakima  WA
+Yakima  WA,Beaufort  SC
+Beaufort  SC,Yakima  WA
+Los Angeles  CA,East Elmhurst  NY
+East Elmhurst  NY,Los Angeles  CA
+Los Angeles  CA,Espanola  NM
+Espanola  NM,Los Angeles  CA
+Los Angeles  CA,Indio  CA
+Indio  CA,Los Angeles  CA
+Los Angeles  CA,Myrtle Beach-Cherry Grove  SC
+Myrtle Beach-Cherry Grove  SC,Los Angeles  CA
+Los Angeles  CA,Panama City Beach  FL
+Panama City Beach  FL,Los Angeles  CA
+Los Angeles  CA,Brookfield  WI
+Brookfield  WI,Los Angeles  CA
+Los Angeles  CA,Port Saint Lucie  FL
+Port Saint Lucie  FL,Los Angeles  CA
+Los Angeles  CA,Harpers Ferry  IA
+Harpers Ferry  IA,Los Angeles  CA
+Hailey  ID,Crivitz  WI
+Crivitz  WI,Hailey  ID
+Hailey  ID,Champaign  IL
+Champaign  IL,Hailey  ID
+Hailey  ID,Tinley Park  IL
+Tinley Park  IL,Hailey  ID
+Hailey  ID,Dundee  WI
+Dundee  WI,Hailey  ID
+Hailey  ID,Algonac  MI
+Algonac  MI,Hailey  ID
+Hailey  ID,Sea Bright  NJ
+Sea Bright  NJ,Hailey  ID
+Hailey  ID,Columbia  PA
+Columbia  PA,Hailey  ID
+Hailey  ID,Southwick  MA
+Southwick  MA,Hailey  ID
+Hailey  ID,Shakopee  MN
+Shakopee  MN,Hailey  ID
+Hailey  ID,Sacramento  CA
+Sacramento  CA,Hailey  ID
+Hailey  ID,Sonoma  CA
+Sonoma  CA,Hailey  ID
+Hailey  ID,Mundelein  IL
+Mundelein  IL,Hailey  ID
+Hailey  ID,Yosemite National Park  CA
+Yosemite National Park  CA,Hailey  ID
+Hailey  ID,Woodland Hills  CA
+Woodland Hills  CA,Hailey  ID
+Hailey  ID,Osmond  NE
+Osmond  NE,Hailey  ID
+Hailey  ID,Salem  WV
+Salem  WV,Hailey  ID
+Hailey  ID,Westwood  NJ
+Westwood  NJ,Hailey  ID
+Hailey  ID,Ottumwa  IA
+Ottumwa  IA,Hailey  ID
+Hailey  ID,Lake Villa  IL
+Lake Villa  IL,Hailey  ID
+Hailey  ID,Schaumburg  IL
+Schaumburg  IL,Hailey  ID
+Hailey  ID,Dell City  TX
+Dell City  TX,Hailey  ID
+Hailey  ID,Whitefish  MT
+Whitefish  MT,Hailey  ID
+Kingston  NY,Las Vegas  NV
+Las Vegas  NV,Kingston  NY
+Kingston  NY,Sevierville  TN
+Sevierville  TN,Kingston  NY
+Kingston  NY,Canton  GA
+Canton  GA,Kingston  NY
+Kingston  NY,Pasadena  MD
+Pasadena  MD,Kingston  NY
+Kingston  NY,Kent  WA
+Kent  WA,Kingston  NY
+Kingston  NY,Gig Harbor  WA
+Gig Harbor  WA,Kingston  NY
+Kingston  NY,Doraville  GA
+Doraville  GA,Kingston  NY
+Kingston  NY,Lebanon  IL
+Lebanon  IL,Kingston  NY
+Kingston  NY,Newport  RI
+Newport  RI,Kingston  NY
+Boise  ID,Lapeer  MI
+Lapeer  MI,Boise  ID
+Boise  ID,Hamilton  NJ
+Hamilton  NJ,Boise  ID
+Boise  ID,Big Sandy  WY
+Big Sandy  WY,Boise  ID
+Boise  ID,Port Richey  FL
+Port Richey  FL,Boise  ID
+Montgomery  AL,Albuquerque  NM
+Albuquerque  NM,Montgomery  AL
+Montgomery  AL,Scottsdale  AZ
+Scottsdale  AZ,Montgomery  AL
+Montgomery  AL,El Monte  CA
+El Monte  CA,Montgomery  AL
+Montgomery  AL,Sonora  CA
+Sonora  CA,Montgomery  AL
+Montgomery  AL,Murfreesboro  TN
+Murfreesboro  TN,Montgomery  AL
+Montgomery  AL,Guilderland  NY
+Guilderland  NY,Montgomery  AL
+Montgomery  AL,Tucson  AZ
+Tucson  AZ,Montgomery  AL
+Montgomery  AL,Nampa  ID
+Nampa  ID,Montgomery  AL
+Portland  OR,Albuquerque  NM
+Albuquerque  NM,Portland  OR
+Portland  OR,Milwaukie  OR
+Milwaukie  OR,Portland  OR
+Portland  OR,Shoreview  MN
+Shoreview  MN,Portland  OR
+Portland  OR,Girard  MI
+Girard  MI,Portland  OR
+Portland  OR,Kent  WA
+Kent  WA,Portland  OR
+Portland  OR,Bremerton  WA
+Bremerton  WA,Portland  OR
+Portland  OR,Idaho Falls  ID
+Idaho Falls  ID,Portland  OR
+Portland  OR,La Pine  OR
+La Pine  OR,Portland  OR
+Portland  OR,Spokane  WA
+Spokane  WA,Portland  OR
+Portland  OR,Newport Beach  CA
+Newport Beach  CA,Portland  OR
+Portland  OR,Branson  MO
+Branson  MO,Portland  OR
+Portland  OR,Yorba Linda  CA
+Yorba Linda  CA,Portland  OR
+Vancouver  WA,Medford  OR
+Medford  OR,Vancouver  WA
+Vancouver  WA,Erie  PA
+Erie  PA,Vancouver  WA
+Vancouver  WA,Sonoma  CA
+Sonoma  CA,Vancouver  WA
+Vancouver  WA,Lincoln  NE
+Lincoln  NE,Vancouver  WA
+Vancouver  WA,Novato  CA
+Novato  CA,Vancouver  WA
+Vancouver  WA,Myrtle Beach  SC
+Myrtle Beach  SC,Vancouver  WA
+Vancouver  WA,Middletown  OH
+Middletown  OH,Vancouver  WA
+Vancouver  WA,Palm Desert  CA
+Palm Desert  CA,Vancouver  WA
+Vancouver  WA,Three Rocks  CA
+Three Rocks  CA,Vancouver  WA
+Deltona  FL,Richmond  CA
+Richmond  CA,Deltona  FL
+Deltona  FL,St. Louis  MO
+St. Louis  MO,Deltona  FL
+Deltona  FL,Desmoines  IA
+Desmoines  IA,Deltona  FL
+Deltona  FL,Virginia Beach  VA
+Virginia Beach  VA,Deltona  FL
+Deltona  FL,Azusa  CA
+Azusa  CA,Deltona  FL
+Deltona  FL,Southport  NC
+Southport  NC,Deltona  FL
+Deltona  FL,Three Rivers  TX
+Three Rivers  TX,Deltona  FL
+Deltona  FL,Prescott Valley  AZ
+Prescott Valley  AZ,Deltona  FL
+Rome  NY,San Bruno  CA
+San Bruno  CA,Rome  NY
+Rome  NY,Burton  TX
+Burton  TX,Rome  NY
+Rome  NY,Danville  CA
+Danville  CA,Rome  NY
+Rome  NY,Kiel  WI
+Kiel  WI,Rome  NY
+Jonesboro  LA,Searcy  AR
+Searcy  AR,Jonesboro  LA
+Jonesboro  LA,Brookfield  CT
+Brookfield  CT,Jonesboro  LA
+Jonesboro  LA,Gila Bend - 14 mile west of  AZ
+Gila Bend - 14 mile west of  AZ,Jonesboro  LA
+Fort Lauderdale  FL,Corbett  OR
+Corbett  OR,Fort Lauderdale  FL
+Fort Lauderdale  FL,Delray Beach  FL
+Delray Beach  FL,Fort Lauderdale  FL
+Fort Lauderdale  FL,Bellevue  WA
+Bellevue  WA,Fort Lauderdale  FL
+Fort Lauderdale  FL,Urbandale  IA
+Urbandale  IA,Fort Lauderdale  FL
+Fort Lauderdale  FL,Billings  MO
+Billings  MO,Fort Lauderdale  FL
+Richmond  VA,San Fransisco  CA
+San Fransisco  CA,Richmond  VA
+Richmond  VA,De Pere  WI
+De Pere  WI,Richmond  VA
+Richmond  VA,Moultrie  GA
+Moultrie  GA,Richmond  VA
+Richmond  VA,Massey  MD
+Massey  MD,Richmond  VA
+Richmond  VA,Seattle  WA
+Seattle  WA,Richmond  VA
+Richmond  VA,McKinney  TX
+McKinney  TX,Richmond  VA
+Richmond  VA,Quincy  MA
+Quincy  MA,Richmond  VA
+Richmond  VA,Phoenix  AZ
+Phoenix  AZ,Richmond  VA
+Richmond  VA,Fresno  CA
+Fresno  CA,Richmond  VA
+Richmond  VA,Fenton  MI
+Fenton  MI,Richmond  VA
+Richmond  VA,New Iberia  LA
+New Iberia  LA,Richmond  VA
+Methuen  MA,Ronoke Rapids  NC
+Ronoke Rapids  NC,Methuen  MA
+Methuen  MA,Gamaliel  KY
+Gamaliel  KY,Methuen  MA
+Methuen  MA,Antelope Acres  CA
+Antelope Acres  CA,Methuen  MA
+Methuen  MA,Dublin  GA
+Dublin  GA,Methuen  MA
+Mayer  AZ,Ephrata  WA
+Ephrata  WA,Mayer  AZ
+Mayer  AZ,Atlantic City  NJ
+Atlantic City  NJ,Mayer  AZ
+Mayer  AZ,Nashville  TN
+Nashville  TN,Mayer  AZ
+Mayer  AZ,Richmond  CA
+Richmond  CA,Mayer  AZ
+Mayer  AZ,Canyon Country  CA
+Canyon Country  CA,Mayer  AZ
+Sonoma  CA,Exeter  NH
+Exeter  NH,Sonoma  CA
+Sonoma  CA,Fife  WA
+Fife  WA,Sonoma  CA
+Sonoma  CA,Myrtle Beach  SC
+Myrtle Beach  SC,Sonoma  CA
+Sonoma  CA,Manchester  VT
+Manchester  VT,Sonoma  CA
+Sanford  FL,Killeen  TX
+Killeen  TX,Sanford  FL
+Sanford  FL,Midlothian  TX
+Midlothian  TX,Sanford  FL
+Sanford  FL,Henderson  KY
+Henderson  KY,Sanford  FL
+Sanford  FL,West Gardiner  ME
+West Gardiner  ME,Sanford  FL
+Sanford  FL,Hyannis  MA
+Hyannis  MA,Sanford  FL
+Sanford  FL,Marysville  CA
+Marysville  CA,Sanford  FL
+Sanford  FL,Honolulu  HI
+Honolulu  HI,Sanford  FL
+Sanford  FL,Afton  OK
+Afton  OK,Sanford  FL
+Sanford  FL,Port Allen  LA
+Port Allen  LA,Sanford  FL
+Sanford  FL,Indialantic  FL
+Indialantic  FL,Sanford  FL
+Sanford  FL,Cedar Springs  MI
+Cedar Springs  MI,Sanford  FL
+Valley City  OH,Seattle  WA
+Seattle  WA,Valley City  OH
+Valley City  OH,Cave Creek  AZ
+Cave Creek  AZ,Valley City  OH
+Valley City  OH,High Point  NC
+High Point  NC,Valley City  OH
+Valley City  OH,Carmel  IN
+Carmel  IN,Valley City  OH
+Valley City  OH,SOHO satellite photo  IN
+SOHO satellite photo  IN,Valley City  OH
+Valley City  OH,San Antonio  TX
+San Antonio  TX,Valley City  OH

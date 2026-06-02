@@ -1,0 +1,215 @@
+origin,destination
+Denver  CO,Boston  MA
+Boston  MA,Denver  CO
+Denver  CO,Leo  IN
+Leo  IN,Denver  CO
+Denver  CO,Pensacola Beach  FL
+Pensacola Beach  FL,Denver  CO
+Denver  CO,Lake Wales  FL
+Lake Wales  FL,Denver  CO
+Denver  CO,Andrews  NC
+Andrews  NC,Denver  CO
+Denver  CO,Toledo  OH
+Toledo  OH,Denver  CO
+Denver  CO,Nipomo  CA
+Nipomo  CA,Denver  CO
+Denver  CO,Bozeman  MT
+Bozeman  MT,Denver  CO
+Denver  CO,Destrehan  LA
+Destrehan  LA,Denver  CO
+Denver  CO,West Richland  WA
+West Richland  WA,Denver  CO
+Denver  CO,Mechanicsburg  OH
+Mechanicsburg  OH,Denver  CO
+Denver  CO,Kelseyville  CA
+Kelseyville  CA,Denver  CO
+Denver  CO,Wilmington  DE
+Wilmington  DE,Denver  CO
+Denver  CO,Salem  OR
+Salem  OR,Denver  CO
+Denver  CO,Bakersfield  CA
+Bakersfield  CA,Denver  CO
+Denver  CO,Denmark  SC
+Denmark  SC,Denver  CO
+Denver  CO,New Rochelle  NY
+New Rochelle  NY,Denver  CO
+Denver  CO,Valencia  CA
+Valencia  CA,Denver  CO
+Denver  CO,Wendover  UT
+Wendover  UT,Denver  CO
+Denver  CO,Sulphur  LA
+Sulphur  LA,Denver  CO
+Denver  CO,West Plains  MO
+West Plains  MO,Denver  CO
+Denver  CO,Colville  WA
+Colville  WA,Denver  CO
+Denver  CO,Ellensburg  WA
+Ellensburg  WA,Denver  CO
+Clifton  NJ,Vero Beach  FL
+Vero Beach  FL,Clifton  NJ
+Clifton  NJ,Montverde  FL
+Montverde  FL,Clifton  NJ
+Clifton  NJ,Reno  NV
+Reno  NV,Clifton  NJ
+Clifton  NJ,Saint Louis  MO
+Saint Louis  MO,Clifton  NJ
+Clifton  NJ,Tampa  FL
+Tampa  FL,Clifton  NJ
+Clifton  NJ,Ashland  OH
+Ashland  OH,Clifton  NJ
+Clifton  NJ,Elba  NY
+Elba  NY,Clifton  NJ
+Clifton  NJ,Salinas  CA
+Salinas  CA,Clifton  NJ
+Phoenix  AZ,Chesterfield  MO
+Chesterfield  MO,Phoenix  AZ
+Phoenix  AZ,Cornville  AZ
+Cornville  AZ,Phoenix  AZ
+Phoenix  AZ,Los Angeles  CA
+Los Angeles  CA,Phoenix  AZ
+Phoenix  AZ,unknown  TX
+unknown  TX,Phoenix  AZ
+Phoenix  AZ,Framingham  MA
+Framingham  MA,Phoenix  AZ
+Phoenix  AZ,Watertown  NY
+Watertown  NY,Phoenix  AZ
+Chesterfield  MO,Salem  OR
+Salem  OR,Chesterfield  MO
+Chesterfield  MO,Newport  RI
+Newport  RI,Chesterfield  MO
+Lynch Mountain  KY,San Bernardino  CA
+San Bernardino  CA,Lynch Mountain  KY
+Lynch Mountain  KY,Brownsville  TX
+Brownsville  TX,Lynch Mountain  KY
+Kansas City  MO,Lincoln City  OR
+Lincoln City  OR,Kansas City  MO
+Kansas City  MO,Palm Springs  CA
+Palm Springs  CA,Kansas City  MO
+Kansas City  MO,Tampa  FL
+Tampa  FL,Kansas City  MO
+Kansas City  MO,Patterson  CA
+Patterson  CA,Kansas City  MO
+Santa Monica  CA,Perris  CA
+Perris  CA,Santa Monica  CA
+Santa Monica  CA,Halsey  OR
+Halsey  OR,Santa Monica  CA
+Santa Monica  CA,West Chicago  IL
+West Chicago  IL,Santa Monica  CA
+Santa Monica  CA,Grayling  MI
+Grayling  MI,Santa Monica  CA
+Bryan  TX,Kingsville  TX
+Kingsville  TX,Bryan  TX
+Bryan  TX,New Haven  KY
+New Haven  KY,Bryan  TX
+Bryan  TX,Rochester  IN
+Rochester  IN,Bryan  TX
+Bryan  TX,Navajo Lake  NM
+Navajo Lake  NM,Bryan  TX
+Bryan  TX,Boy Scout Camp Royenea  CA
+Boy Scout Camp Royenea  CA,Bryan  TX
+Bryan  TX,McHenry  IL
+McHenry  IL,Bryan  TX
+Bryan  TX,Edmond  OK
+Edmond  OK,Bryan  TX
+Bryan  TX,Cartago  CA
+Cartago  CA,Bryan  TX
+Bryan  TX,Irwindale  CA
+Irwindale  CA,Bryan  TX
+Bryan  TX,Florissant  CO
+Florissant  CO,Bryan  TX
+Bryan  TX,Glide  OR
+Glide  OR,Bryan  TX
+Bryan  TX,Kalkaska  MI
+Kalkaska  MI,Bryan  TX
+Bryan  TX,Campwood  TX
+Campwood  TX,Bryan  TX
+Bryan  TX,Lancaster  NY
+Lancaster  NY,Bryan  TX
+Bryan  TX,Valley Springs  CA
+Valley Springs  CA,Bryan  TX
+Bryan  TX,Stoddard Valley  CA
+Stoddard Valley  CA,Bryan  TX
+Bryan  TX,Beavercreek  OH
+Beavercreek  OH,Bryan  TX
+Marina  CA,Narcoossee  FL
+Narcoossee  FL,Marina  CA
+Marina  CA,Kirkland  WA
+Kirkland  WA,Marina  CA
+Eustace  TX,Covington  WA
+Covington  WA,Eustace  TX
+Eustace  TX,Superior  MT
+Superior  MT,Eustace  TX
+Eustace  TX,Morris  MN
+Morris  MN,Eustace  TX
+Eustace  TX,Medford  MA
+Medford  MA,Eustace  TX
+Eustace  TX,Rochester  NY
+Rochester  NY,Eustace  TX
+Eustace  TX,Claremore  OK
+Claremore  OK,Eustace  TX
+Eustace  TX,Hartsgrove  OH
+Hartsgrove  OH,Eustace  TX
+Eustace  TX,Cary  NC
+Cary  NC,Eustace  TX
+Eustace  TX,Dover  DE
+Dover  DE,Eustace  TX
+Eustace  TX,Wilmington  NC
+Wilmington  NC,Eustace  TX
+Eustace  TX,Wrightwood  CA
+Wrightwood  CA,Eustace  TX
+Eustace  TX,Jacksonville  FL
+Jacksonville  FL,Eustace  TX
+Corpus Christi  TX,Moundsville  WV
+Moundsville  WV,Corpus Christi  TX
+Corpus Christi  TX,San Bruno  CA
+San Bruno  CA,Corpus Christi  TX
+Corpus Christi  TX,Waveland  MS
+Waveland  MS,Corpus Christi  TX
+Evansville  IN,Santee  SC
+Santee  SC,Evansville  IN
+Evansville  IN,Austin  TX
+Austin  TX,Evansville  IN
+Evansville  IN,Ellsworth  WI
+Ellsworth  WI,Evansville  IN
+Flagstaff  AZ,Las Cruces  NM
+Las Cruces  NM,Flagstaff  AZ
+Flagstaff  AZ,Boise  ID
+Boise  ID,Flagstaff  AZ
+Flagstaff  AZ,Cleveland  OH
+Cleveland  OH,Flagstaff  AZ
+Flagstaff  AZ,Plymouth  WI
+Plymouth  WI,Flagstaff  AZ
+East Amwell Township  NJ,Penfield  NY
+Penfield  NY,East Amwell Township  NJ
+East Amwell Township  NJ,East Amwell  NJ
+East Amwell  NJ,East Amwell Township  NJ
+Sacramento  CA,Fitchburg  MA
+Fitchburg  MA,Sacramento  CA
+Sacramento  CA,Ellicott City  MD
+Ellicott City  MD,Sacramento  CA
+Sacramento  CA,Central Point  OR
+Central Point  OR,Sacramento  CA
+Reno  NV,Yakima  WA
+Yakima  WA,Reno  NV
+Reno  NV,Corbin  KY
+Corbin  KY,Reno  NV
+Reno  NV,Waterford  WI
+Waterford  WI,Reno  NV
+Bettendorf  IA,Rome  GA
+Rome  GA,Bettendorf  IA
+Bettendorf  IA,Pasadena  MD
+Pasadena  MD,Bettendorf  IA
+Bettendorf  IA,Waldorf  MD
+Waldorf  MD,Bettendorf  IA
+Bettendorf  IA,Indianola  IA
+Indianola  IA,Bettendorf  IA
+Bettendorf  IA,Commerce Township  MI
+Commerce Township  MI,Bettendorf  IA
+Bettendorf  IA,Quartzite  AZ
+Quartzite  AZ,Bettendorf  IA
+Bettendorf  IA,Jackson  MS
+Jackson  MS,Bettendorf  IA
+Bettendorf  IA,Los Angeles  CA
+Los Angeles  CA,Bettendorf  IA
+Bettendorf  IA,Urbana  IL
+Urbana  IL,Bettendorf  IA

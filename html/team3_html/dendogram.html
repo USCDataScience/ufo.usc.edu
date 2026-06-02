@@ -1,0 +1,94 @@
+<!--Reference for Dendrogram visualization: "https://bl.ocks.org/dahis39/f28369f0b17b456ac2f1fa9b937c5002"  -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../../css/styles.css" rel="stylesheet">
+
+    <link href="../../css/uk.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/usa.css">
+
+
+
+    <style>
+    .link {
+        fill: none;
+        stroke: #555;
+        stroke-opacity: 0.4;
+        stroke-width: 1px;
+    }
+    text {
+        font-family: "Arial Black", Gadget, sans-serif;
+        fill: black;
+        font-weight: bold;
+        font-size: 14px
+    }
+
+    .xAxis .tick text{
+        fill: black;
+    }
+    .grid .tick line{
+        stroke: grey;
+        stroke-dasharray: 5, 10;
+        opacity: 0.7;
+    }
+    .grid path{
+        stroke-width: 0;
+    }
+
+    .node circle {
+        fill: #999;
+    }
+    .node--internal circle {
+        fill: #555;
+    }
+    .node--internal text {
+        font-size: 16px;
+        text-shadow: 0 2px 0 #fff, 0 -2px 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff;
+    }
+    .node--leaf text {
+        fill: white;
+    }
+    .ballG text {
+        fill: white;
+    }
+
+    .shadow {
+        -webkit-filter: drop-shadow( -1.5px -1.5px 1.5px #000 );
+        filter: drop-shadow( -1.5px -1.5px 1.5px #000 );
+    }
+</style>
+
+
+    <!-- jQuery -->
+    <script src="../../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="../../js/jquery.easing.min.js"></script>
+    <!-- <script src="../js/scrolling-nav.js"></script> -->
+
+    <!-- Elastic Search -->
+    <script src="../../js/team3_js_files/elasticsearch.jquery.js"></script>
+
+    <script src="http://d3js.org/topojson.v0.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+
+    <!-- D3 js -->
+    <script src="../../js/d3.js"></script>
+    <script src="http://d3js.org/d3.v4.min.js"></script>
+    <!-- <script src="../js/team3_js_files/lodash.js"></script> -->
+    <script src="../../js/team3_js_files/dendogram_static.js"></script>
+
+  </head>
+  <body>
+    <svg width="960" height="1100"></svg>
+  </body>
+</html>

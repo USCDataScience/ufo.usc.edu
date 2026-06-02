@@ -1,0 +1,333 @@
+origin,destination
+Seattle  WA,Wylie  TX
+Wylie  TX,Seattle  WA
+Seattle  WA,Emison  IN
+Emison  IN,Seattle  WA
+Seattle  WA,Plano  TX
+Plano  TX,Seattle  WA
+Seattle  WA,Dublin  OH
+Dublin  OH,Seattle  WA
+Seattle  WA,Riverside  CA
+Riverside  CA,Seattle  WA
+Seattle  WA,Shelby  MT
+Shelby  MT,Seattle  WA
+Seattle  WA,Springfield  IL
+Springfield  IL,Seattle  WA
+Seattle  WA,Lincoln  NE
+Lincoln  NE,Seattle  WA
+Shaker  OH,Jamestown  NY
+Jamestown  NY,Shaker  OH
+Shaker  OH,Hershey  NE
+Hershey  NE,Shaker  OH
+Shaker  OH,Lakewood  OH
+Lakewood  OH,Shaker  OH
+Shaker  OH,Los Angeles  CA
+Los Angeles  CA,Shaker  OH
+Shaker  OH,Winnemucca  NV
+Winnemucca  NV,Shaker  OH
+Shaker  OH,Reed Spring  MO
+Reed Spring  MO,Shaker  OH
+Shaker  OH,Norwalk  CA
+Norwalk  CA,Shaker  OH
+Shaker  OH,Sacramento  CA
+Sacramento  CA,Shaker  OH
+Shaker  OH,Grapevine  TX
+Grapevine  TX,Shaker  OH
+Shaker  OH,Lexington  KY
+Lexington  KY,Shaker  OH
+Shaker  OH,York  PA
+York  PA,Shaker  OH
+Pittsburgh  PA,Hialeah  FL
+Hialeah  FL,Pittsburgh  PA
+Pittsburgh  PA,Elmhurst  IL
+Elmhurst  IL,Pittsburgh  PA
+Pittsburgh  PA,Kansas City  MO
+Kansas City  MO,Pittsburgh  PA
+Pittsburgh  PA,Papillion  NE
+Papillion  NE,Pittsburgh  PA
+Pittsburgh  PA,Santa Monica  CA
+Santa Monica  CA,Pittsburgh  PA
+Pittsburgh  PA,Rockford  IL
+Rockford  IL,Pittsburgh  PA
+Pittsburgh  PA,Tipton  MO
+Tipton  MO,Pittsburgh  PA
+Pittsburgh  PA,Sutherland  IA
+Sutherland  IA,Pittsburgh  PA
+Pittsburgh  PA,Cumming  GA
+Cumming  GA,Pittsburgh  PA
+Terre Haute  IN,East Stroudsburg  PA
+East Stroudsburg  PA,Terre Haute  IN
+Terre Haute  IN,Bainbridge  NY
+Bainbridge  NY,Terre Haute  IN
+Terre Haute  IN,Orlando  FL
+Orlando  FL,Terre Haute  IN
+Terre Haute  IN,Tampa  FL
+Tampa  FL,Terre Haute  IN
+Terre Haute  IN,Homosassa  FL
+Homosassa  FL,Terre Haute  IN
+Terre Haute  IN,Fort Pierce  FL
+Fort Pierce  FL,Terre Haute  IN
+Oakwood  GA,Brandford  FL
+Brandford  FL,Oakwood  GA
+Oakwood  GA,Elyria  OH
+Elyria  OH,Oakwood  GA
+Oakwood  GA,Harbor Beach  MI
+Harbor Beach  MI,Oakwood  GA
+Oakwood  GA,Oahu  HI
+Oahu  HI,Oakwood  GA
+Kingsport  TN,Fort Worth  TX
+Fort Worth  TX,Kingsport  TN
+Kingsport  TN,Chattanooga  TN
+Chattanooga  TN,Kingsport  TN
+Kingsport  TN,Johnson City  TN
+Johnson City  TN,Kingsport  TN
+Kingsport  TN,Myrtle Beach  SC
+Myrtle Beach  SC,Kingsport  TN
+Kingsport  TN,Alexandria  LA
+Alexandria  LA,Kingsport  TN
+Kingsport  TN,Tucson  AZ
+Tucson  AZ,Kingsport  TN
+Kingsport  TN,Salters  SC
+Salters  SC,Kingsport  TN
+Kingsport  TN,Aiea  HI
+Aiea  HI,Kingsport  TN
+Kingsport  TN,Denton  TX
+Denton  TX,Kingsport  TN
+Kingsport  TN,Boca Raton  FL
+Boca Raton  FL,Kingsport  TN
+Myrtle Beach  SC,Peebles  OH
+Peebles  OH,Myrtle Beach  SC
+Myrtle Beach  SC,Surfside Beach  SC
+Surfside Beach  SC,Myrtle Beach  SC
+Myrtle Beach  SC,Greenwood Lake  NY
+Greenwood Lake  NY,Myrtle Beach  SC
+Myrtle Beach  SC,Henderson  NE
+Henderson  NE,Myrtle Beach  SC
+Myrtle Beach  SC,Lithonia  GA
+Lithonia  GA,Myrtle Beach  SC
+Myrtle Beach  SC,Goldbar  WA
+Goldbar  WA,Myrtle Beach  SC
+Lindsborg to Lyons  KS,Mariposa  CA
+Mariposa  CA,Lindsborg to Lyons  KS
+Lindsborg to Lyons  KS,Chico  CA
+Chico  CA,Lindsborg to Lyons  KS
+Lindsborg to Lyons  KS,Nason  IL
+Nason  IL,Lindsborg to Lyons  KS
+Lindsborg to Lyons  KS,Palm Desert  CA
+Palm Desert  CA,Lindsborg to Lyons  KS
+Lindsborg to Lyons  KS,Bristol  TN
+Bristol  TN,Lindsborg to Lyons  KS
+Lindsborg to Lyons  KS,Clarksville  TN
+Clarksville  TN,Lindsborg to Lyons  KS
+Lindsborg to Lyons  KS,League City  TX
+League City  TX,Lindsborg to Lyons  KS
+Los Angeles  CA,Adrian  MI
+Adrian  MI,Los Angeles  CA
+Los Angeles  CA,Sausalito  CA
+Sausalito  CA,Los Angeles  CA
+Van Alstyne  TX,Baltimore  MD
+Baltimore  MD,Van Alstyne  TX
+Van Alstyne  TX,Hagerstown  MD
+Hagerstown  MD,Van Alstyne  TX
+Van Alstyne  TX,King  NC
+King  NC,Van Alstyne  TX
+Van Alstyne  TX,Denton  TX
+Denton  TX,Van Alstyne  TX
+Phoenix  AZ,Puyallup  WA
+Puyallup  WA,Phoenix  AZ
+Phoenix  AZ,Tinley Park  IL
+Tinley Park  IL,Phoenix  AZ
+Phoenix  AZ,Friendswood  TX
+Friendswood  TX,Phoenix  AZ
+Phoenix  AZ,College Station  TX
+College Station  TX,Phoenix  AZ
+Phoenix  AZ,Mesa  AZ
+Mesa  AZ,Phoenix  AZ
+Phoenix  AZ,Santa Clarita  CA
+Santa Clarita  CA,Phoenix  AZ
+Phoenix  AZ,Nashville  TN
+Nashville  TN,Phoenix  AZ
+Phoenix  AZ,La Junta  CO
+La Junta  CO,Phoenix  AZ
+Phoenix  AZ,Chino Hills  CA
+Chino Hills  CA,Phoenix  AZ
+Phoenix  AZ,Dallas  TX
+Dallas  TX,Phoenix  AZ
+Phoenix  AZ,New River  AZ
+New River  AZ,Phoenix  AZ
+Blue Springs  MO,Neosho  MO
+Neosho  MO,Blue Springs  MO
+Blue Springs  MO,Honolulu  HI
+Honolulu  HI,Blue Springs  MO
+Blue Springs  MO,Dulce  NM
+Dulce  NM,Blue Springs  MO
+Seattle  WA,Garland  TX
+Garland  TX,Seattle  WA
+Seattle  WA,Tremont  MS
+Tremont  MS,Seattle  WA
+Seattle  WA,Phoenix  AZ
+Phoenix  AZ,Seattle  WA
+Seattle  WA,Orrville  OH
+Orrville  OH,Seattle  WA
+Seattle  WA,Lucerne Valley  CA
+Lucerne Valley  CA,Seattle  WA
+Seattle  WA,Brooklyn  MI
+Brooklyn  MI,Seattle  WA
+Seattle  WA,Sandy  UT
+Sandy  UT,Seattle  WA
+Seattle  WA,Portland  OR
+Portland  OR,Seattle  WA
+Seattle  WA,Frankenmuth  MI
+Frankenmuth  MI,Seattle  WA
+Palo Alto  CA,Carmel  IN
+Carmel  IN,Palo Alto  CA
+Palo Alto  CA,Paola  KS
+Paola  KS,Palo Alto  CA
+Palo Alto  CA,Long Beach  MS
+Long Beach  MS,Palo Alto  CA
+Palo Alto  CA,Charleston  MO
+Charleston  MO,Palo Alto  CA
+Palo Alto  CA,Savanna  NY
+Savanna  NY,Palo Alto  CA
+Palo Alto  CA,Tampa  FL
+Tampa  FL,Palo Alto  CA
+Palo Alto  CA,Headland  AL
+Headland  AL,Palo Alto  CA
+Veedersburg  IN,Ardmore  PA
+Ardmore  PA,Veedersburg  IN
+Veedersburg  IN,Binghamton  NY
+Binghamton  NY,Veedersburg  IN
+Veedersburg  IN,Farmers  KY
+Farmers  KY,Veedersburg  IN
+Veedersburg  IN,Anaheim  CA
+Anaheim  CA,Veedersburg  IN
+Veedersburg  IN,Anderson  SC
+Anderson  SC,Veedersburg  IN
+Veedersburg  IN,Gaylesville  AL
+Gaylesville  AL,Veedersburg  IN
+Veedersburg  IN,Roy  UT
+Roy  UT,Veedersburg  IN
+Veedersburg  IN,Manassas  VA
+Manassas  VA,Veedersburg  IN
+Veedersburg  IN,Bethel  OH
+Bethel  OH,Veedersburg  IN
+East Islip  NY,Los Angeles  CA
+Los Angeles  CA,East Islip  NY
+East Islip  NY,Bellmar  NJ
+Bellmar  NJ,East Islip  NY
+East Islip  NY,Haleakala  HI
+Haleakala  HI,East Islip  NY
+Redmond  WA,Texarkana  TX
+Texarkana  TX,Redmond  WA
+Redmond  WA,Coronado  CA
+Coronado  CA,Redmond  WA
+Redmond  WA,Santa Monica  CA
+Santa Monica  CA,Redmond  WA
+Redmond  WA,San Francisco  CA
+San Francisco  CA,Redmond  WA
+Redmond  WA,Tacoma  WA
+Tacoma  WA,Redmond  WA
+Redmond  WA,Rockville  IN
+Rockville  IN,Redmond  WA
+Redmond  WA,Thousand Oaks  CA
+Thousand Oaks  CA,Redmond  WA
+Redmond  WA,Rocky Mount  MO
+Rocky Mount  MO,Redmond  WA
+Tulsa  OK,Prescott Valley  AZ
+Prescott Valley  AZ,Tulsa  OK
+Tulsa  OK,Salome  AZ
+Salome  AZ,Tulsa  OK
+Tulsa  OK,West Lafayette  IN
+West Lafayette  IN,Tulsa  OK
+Tulsa  OK,Indianapolis  IN
+Indianapolis  IN,Tulsa  OK
+Tulsa  OK,Fairbanks  AK
+Fairbanks  AK,Tulsa  OK
+Wenatchee  WA,North Miami  FL
+North Miami  FL,Wenatchee  WA
+Wenatchee  WA,Fairview  NC
+Fairview  NC,Wenatchee  WA
+Wenatchee  WA,North Myrtle Beach Cherry Grove  SC
+North Myrtle Beach Cherry Grove  SC,Wenatchee  WA
+Wenatchee  WA,Chillicothe  OH
+Chillicothe  OH,Wenatchee  WA
+Wenatchee  WA,Orlando  GA
+Orlando  GA,Wenatchee  WA
+Murfreesboro  TN,Palo Alto  CA
+Palo Alto  CA,Murfreesboro  TN
+Murfreesboro  TN,Somerville  TX
+Somerville  TX,Murfreesboro  TN
+Murfreesboro  TN,Chatsworth  GA
+Chatsworth  GA,Murfreesboro  TN
+Murfreesboro  TN,Malvern  IA
+Malvern  IA,Murfreesboro  TN
+Murfreesboro  TN,Abilene  TX
+Abilene  TX,Murfreesboro  TN
+Peshastin  WA,Vienna  VA
+Vienna  VA,Peshastin  WA
+Peshastin  WA,Columbia  MD
+Columbia  MD,Peshastin  WA
+Peshastin  WA,South Webster  OH
+South Webster  OH,Peshastin  WA
+Peshastin  WA,Madera  CA
+Madera  CA,Peshastin  WA
+Peshastin  WA,Philadelphia  PA
+Philadelphia  PA,Peshastin  WA
+Peshastin  WA,Harlingen  TX
+Harlingen  TX,Peshastin  WA
+Eugene  OR,Garden City  NY
+Garden City  NY,Eugene  OR
+Eugene  OR,Baker  CA
+Baker  CA,Eugene  OR
+Eugene  OR,Gloucester  MA
+Gloucester  MA,Eugene  OR
+Eugene  OR,Lafayette  LA
+Lafayette  LA,Eugene  OR
+Eugene  OR,Bellefonte  PA
+Bellefonte  PA,Eugene  OR
+Eugene  OR,Audubon  NJ
+Audubon  NJ,Eugene  OR
+Eugene  OR,Long Beach  CA
+Long Beach  CA,Eugene  OR
+Eugene  OR,Republic  WA
+Republic  WA,Eugene  OR
+Eugene  OR,Rio Hondo  TX
+Rio Hondo  TX,Eugene  OR
+Sarasota  FL,Tobyhanna  PA
+Tobyhanna  PA,Sarasota  FL
+Sarasota  FL,Winter Park  FL
+Winter Park  FL,Sarasota  FL
+Sarasota  FL,Green Lake  WI
+Green Lake  WI,Sarasota  FL
+Sarasota  FL,North Little Rock  AR
+North Little Rock  AR,Sarasota  FL
+Sarasota  FL,Tahlequah  OK
+Tahlequah  OK,Sarasota  FL
+Sebring  FL,Washington  IN
+Washington  IN,Sebring  FL
+Sebring  FL,Wenatchee  WA
+Wenatchee  WA,Sebring  FL
+Sebring  FL,Bend  OR
+Bend  OR,Sebring  FL
+Terre Haute  IN,Havre de Grace  MD
+Havre de Grace  MD,Terre Haute  IN
+Terre Haute  IN,Phoenixville  PA
+Phoenixville  PA,Terre Haute  IN
+Terre Haute  IN,Fox Chapel  PA
+Fox Chapel  PA,Terre Haute  IN
+Lake City  FL,Gainesville  FL
+Gainesville  FL,Lake City  FL
+Lake City  FL,Billerica  MA
+Billerica  MA,Lake City  FL
+Lake City  FL,Rockford  MI
+Rockford  MI,Lake City  FL
+Lake City  FL,Emporia  KS
+Emporia  KS,Lake City  FL
+Anchorage  AK,Sebring  FL
+Sebring  FL,Anchorage  AK
+Anchorage  AK,Fullerton  CA
+Fullerton  CA,Anchorage  AK
+Anchorage  AK,Inglewood  CA
+Inglewood  CA,Anchorage  AK
+Anchorage  AK,Wellsville  NY
+Wellsville  NY,Anchorage  AK

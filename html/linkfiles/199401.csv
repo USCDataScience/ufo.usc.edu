@@ -1,0 +1,9 @@
+origin,destination
+Interstate 10  FL,Fort Lauderdale  FL
+Fort Lauderdale  FL,Interstate 10  FL
+Interstate 10  FL,Honolulu  HI
+Honolulu  HI,Interstate 10  FL
+Interstate 10  FL,Ringwood  NJ
+Ringwood  NJ,Interstate 10  FL
+Interstate 10  FL,Redding  CA
+Redding  CA,Interstate 10  FL

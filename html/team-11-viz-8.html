@@ -1,0 +1,22 @@
+<!-- IMPORTANT GUIDELINES
+1. div #canvas wraps this html block. 
+2. div #canvas-svg is used for svg rendering. It can be placed anywhere here.
+3. Do not define an html page here, i.e. including html, head, body tags. -->
+<!DOCTYPE html>
+<html>
+  <head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<title>State wise sightings</title>
+		
+		<script type="text/javascript" src="http://d3js.org/d3.v3.js"></script>
+		<script type="text/javascript" src="http://d3js.org/d3.hexbin.v0.min.js"></script>	
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.1.0/topojson.min.js"></script>
+		<script type="text/javascript" src="../js/team11us_maps.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/team11us_maps.css">
+	</head>
+	<body>
+	<h1>States for the year of 2010 : Number of sightings observed and the marijuna consumption in those states</h1>
+<div id="canvas-svg"></div>
+</body>
+</html>

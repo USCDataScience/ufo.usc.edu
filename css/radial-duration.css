@@ -1,0 +1,51 @@
+ body {
+   background: white;
+   margin: 0 auto;
+ }
+ 
+ .container {
+   text-align: center;
+
+ }
+
+ .progress{
+  color:black;
+ }
+ 
+ .title{
+  text-align:center;
+  font-size:40px;
+  font-color:black;
+ }
+
+ .container div {
+   display: inline-block;
+   padding: 20px;
+   width: 450px;
+   
+ }
+ 
+ .rbc-label-start {
+   font-family: fontawesome;
+   font-weight: bold;
+   font-size: 30px;
+ }
+ 
+ .rbc-center-text {
+   font-family: 'Roboto', 'Myriad Set Pro', 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial;
+   font-size: 30px;
+ }
+
+ .right-align{
+   float: right;
+   margin-right: 18%;
+   font-size: 40px;
+  color:black;
+ }
+
+ .left-align{
+   float: left;
+   margin-left: 18%;
+   font-size: 40px;
+  color:black;
+ }

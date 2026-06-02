@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+.label{
+	font-size:22.5px;
+	fill:#ffffff;
+	text-anchor:middle;
+	alignment-baseline:middle;
+}
+.face{
+	stroke:#c8c8c8;
+	stroke-width:2;
+}
+.minorTicks{
+	stroke-width:2;
+	stroke:white;
+}
+.majorTicks{
+	stroke:white;
+	stroke-width:3;
+}
+</style>
+<body>
+<div>
+<select id="easeModes" onChange="changeEase(this.value)">
+  <option value="linear">linear</option>
+  <option value="quad-in">quad-in</option>
+  <option value="quad-out">quad-out</option>
+  <option value="quad-in-out">quad-in-out</option>
+  <option value="cubic-in">cubic-in</option>
+  <option value="cubic-out">cubic-out</option>
+  <option value="cubic-in-out">cubic-in-out</option>
+  <option value="sin-in">sin-in</option>
+  <option value="sin-out">sin-out</option>
+  <option value="sin-in-out">sin-in-out</option>
+  <option value="exp-in">exp-in</option>
+  <option value="exp-out">exp-out</option>
+  <option value="exp-in-out">exp-in-out</option>
+  <option value="circle-in">circle-in</option>
+  <option value="circle-out">circle-out</option>
+  <option value="circle-in-out">circle-in-out</option>
+  <option selected value="bounce-in">bounce-in</option>
+  <option value="bounce-out">bounce-out</option>
+  <option value="bounce-in-out">bounce-in-out</option>
+  <option value="back-in">back-in</option>
+  <option value="back-out">back-out</option>
+  <option value="back-in-out">back-in-out</option>
+  <option value="elastic-in">elastic-in</option>
+  <option value="elastic-out">elastic-out</option>
+  <option value="elastic-in-out">elastic-in-out</option>
+</select>
+</div>
+<div style="color: black;font-style: italic;font-size: x-large;"> The chart shows the percentage of UFO sightings in each of the rural and urban areas category. The chart gives the insights that more than 65% of UFO sightings occur in urban area with 62% occuring in Metropolitan area core.</div>
+<svg width="960" height="600"></svg>
+<div>
+<button type="button" onclick="setData(this)">Rural areas</button>
+<button type="button" onclick="setData(this)">Metropolitan area high commuting</button>
+<button type="button" onclick="setData(this)">Small town core</button>
+<button type="button" onclick="setData(this)">Metropolitan area core</button>
+<button type="button" onclick="setData(this)">Micropolitan area core</button>
+<button type="button" onclick="setData(this)">Small town high</button>
+<button type="button" onclick="setData(this)">Micropolitan low commuting</button>
+<button type="button" onclick="setData(this)">Micropolitan high commuting</button>
+<button type="button" onclick="setData(this)">Metropolitan area low commuting</button>
+<button type="button" onclick="setData(this)">Small town low</button>
+</div>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="http://vizjs.org/viz.v1.0.0.min.js"></script>
+<script type="text/javascript" src="RuralUrban.json"></script>
+<script>
+	arr =[];
+  	var mydata = JSON.parse(RuralUrban);
+  	for(x in mydata){
+  		for (key in mydata[x]){
+  		arr[key] = mydata[x][key];
+  	}
+  	}
+  	// create a gauge object by setting various options.
+  	var gg = viz.gg()
+			.faceColor("#003CEC")
+			.innerFaceColor("#003CEC")
+			.needleColor("#fff")
+			.outerRadius(300)
+			.innerRadius(40)
+			.minorTickStart(0.9)
+			.majorTickStart(0.85)
+			.labelLocation(.78)
+			.ease("linear")			
+			.ease("bounce-in")
+		;
+	
+	// create the gradients and filters in svg.
+	gg.defs(d3.select("svg"),1);
+	
+	// draw the gauge in the svg
+	d3.select("svg")
+		.append("g")
+		.attr("transform","translate(480,300)")
+		.call(gg);
+
+	function changeEase(v){ gg = gg.ease(v); }
+	function setData(ele, event){
+	// setInterval( function(){ gg.setNeedle(arr[ele.innerText]); },	500);
+	//event.stopPropagation();
+	gg.setNeedle(arr[ele.innerText]);
+	}
+	 d3.select(self.frameElement).style("height", "620px");
+</script>
+
+
+</body>
+</html>

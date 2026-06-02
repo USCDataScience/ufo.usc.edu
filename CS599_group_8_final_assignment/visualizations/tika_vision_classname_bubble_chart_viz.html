@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS599: UFO Data Analysis Visualization</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="../css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../css/materialize.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<!--D3 STYLES-->
+<style>
+
+    .d3-tip {
+        line-height: 1;
+        font-weight: bold;
+        padding: 12px;
+        background: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        border-radius: 2px;
+    }
+
+    /* Creates a small triangle extender for the tooltip */
+    .d3-tip:after {
+        box-sizing: border-box;
+        display: inline;
+        font-size: 10px;
+        width: 100%;
+        line-height: 1;
+        color: rgba(0, 0, 0, 0.8);
+        content: "\25BC";
+        position: absolute;
+        text-align: center;
+    }
+
+
+    circle:hover {
+        fill: #29b6f6!important;
+    }
+
+
+
+
+
+</style>
+
+
+
+<body>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<nav>
+    <div class="nav-wrapper valign-wrapper">
+        <div class="row">
+            <div class="col s12">
+                <p id="site_title_txt" class="center-align">CS599: Content Detection and Analysis for Big Data</p>
+            </div>
+        </div>
+    </div>
+</nav>
+<div id="main_content_div" class="container">
+    <div class="row" style="height: 10px;">
+        <div class="col s12">
+            <div class="site_logo_img_div center-align">
+                <img id="site_logo_img" src="../images/ufo_img_1.png">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <p id="visualization_page_title_txt" class="center-align">HOW ACCURATE IS TIKA AND VISION AT DISCERNING ENTITIES FROM IMAGES?</p>
+        </div>
+        <div class="col s12">
+            <img id="roundworm_img" src="../images/visualization_page_images/roundworm_img.png" style="display:block; margin: auto; height:150px; margin-bottom:15px;">
+        </div>
+        <div class="col s12">
+            <p class="center-align vis_page_sub_title">WHAT ARE WE ABLE TO ANSWER WITH THIS VISUALIZATION?</p>
+            <div>
+                <p class="vis_page_choice_reason">
+                    One of the main questions we’ve had to answer throughout the course of the UFO dataset analysis has been whether or not the tools we
+                    used for reading large quantities of data (i.e., computer vision) performed as intended. Thus, we decided to answer the question
+                    <span class="question_element">“Of the UFO Images, How Accurate was Tika & Vision in Discerning Class Names for the Entities?”</span>
+                </p>
+                <br>
+                <p class="vis_page_choice_reason">
+                    In this example, we decided to visualize such performance using a <span class="chart_type">Class Name Density Bubble Chart</span>. As expected, and potentially
+                    due to the fact that the tool was not trained for our particular domain (UFO, Sky, etc.), most entities were misclassified as
+                    biological lifeforms - particularly nematodes and other worms.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <div class="col s12">
+            <p class="center-align vis_page_sub_title">TIKA VISION RECOGNIZED ENTITIES BY NUMBER (BUBBLE CHART)</p>
+        </div>
+    </div>
+    <div id="d3_visual_div" class="container">
+    <!--TODO: D3 GOES IN HERE-->
+    </div>
+</div>
+<footer style="text-align: center; margin-top: 50px;" class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h5 class="white-text">CS599: Team 8 Final Project</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div>
+                    <a target="_blank" href="https://www.linkedin.com/in/mahteosasfaw/" class="waves-effect waves-light btn btn-small">MATHEOS ASFAW</a>
+                </div>
+                <div style="margin-top: 10px;">
+                    <a target="_blank" href="https://www.linkedin.com/in/teagueashcraft/" class="waves-effect waves-light btn btn-small">TEAGUE ASHCRAFT</a>
+                </div>
+                <div style="margin-top: 10px;">
+                    <a target="_blank" href="https://www.linkedin.com/in/pablogiudice/" class="waves-effect waves-light btn btn-small">PABLO GIUDICE</a>
+                </div>
+                <div style="margin-top: 10px;">
+                    <a target="_blank" href="https://www.linkedin.com/in/erichachuel/" class="waves-effect waves-light btn btn-small">ERIC J. HACHUEL</a>
+                </div>
+                <div style="margin-top: 10px;">
+                    <a target="_blank" href="https://www.linkedin.com/in/bruno-mazetti-043ba676/" class="waves-effect waves-light btn btn-small">BRUNO MAZETTI</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
+<script type="text/javascript" src="../js/materialize.js"></script>
+
+
+<!--d3 script-->
+<script>
+
+    var diameter = 1000, //max size of the bubbles
+        color    = d3.scale.category20b(); //color category
+
+    var bubble = d3.layout.pack()
+        .sort(null)
+        .size([diameter, diameter])
+        .padding(1.5);
+
+
+    /* add interactive tooltip */
+    var tip = d3.tip()
+        .attr('class', 'd3-tip')
+        .offset([-10, 0])
+        .html(function(d) {
+            return "<strong>Entity Name:</strong> <span style='color:#29b6f6'>" + d.class_name + "<br></span><strong>Count:</strong> <span style='color:#29b6f6'>" + d.class_count + "</span>";
+        })
+
+    var svg = d3.select("#d3_visual_div").append("svg")
+        .attr("width", diameter)
+        .attr("height", diameter)
+        .attr("class", "bubble")
+        .attr("class", "center_svg");
+
+    /* call tip function on svg element */
+    svg.call(tip);
+
+
+    function draw(data){
+
+        data = data.map(function(d){ d.value = +d.class_count; return d; });
+
+        // bubbles needs very specific format, convert data to this.
+        var nodes = bubble.nodes({children:data}).filter(function(d) { return !d.children; });
+
+
+        //setup the chart
+        var bubbles = svg.append("g")
+            .attr("transform", "translate(0,0)")
+            .selectAll(".bubble")
+            .data(nodes)
+            .enter();
+
+
+        //create the bubbles
+        bubbles.append("circle")
+            .attr("r", function(d){ return d.r; })
+            .attr("cx", function(d){ return d.x; })
+            .attr("cy", function(d){ return d.y; })
+            .style("fill", function(d) { return color(d.value); });
+
+
+        //format the text for each bubble
+        bubbles.append("text")
+            .attr("x", function(d){ return d.x; })
+            .attr("y", function(d){ return d.y + 5; })
+            .attr("text-anchor", "middle")
+            .text(function(d){
+                /* add class name if threshold met */
+                if(d.class_count > 15){
+                    return d.class_name;
+                }
+            })
+            .style({
+                "fill":"white",
+                "font-family":"Helvetica Neue, Helvetica, Arial, san-serif",
+                "font-size": "12px"
+            });
+
+
+
+        svg.selectAll("circle")
+            .on('mouseover', tip.show)
+            .on('mouseout', tip.hide);
+
+
+    }
+
+
+    // draw the chart
+    d3.json("../json_data/TikaVisionClassnamesBubble.json")
+        .get(function(error, data) {
+            draw(data);
+        });
+
+
+</script>
+</body>
+</html>
+
+
+
+

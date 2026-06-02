@@ -1,0 +1,25 @@
+body {
+    font-family:"Lucida Grande","Droid Sans",Arial,Helvetica,sans-serif;
+    /*background-image: url(../images/ufosky.jpg);*/
+    /*background-size:cover;*/
+}
+.legend {
+    border: 1px solid #555555;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 2em;
+    margin: 10px;
+    padding: 8px;
+    text-align: center;
+    margin-left:25%;
+    margin-right:25%;
+    color:black;
+}
+.bld {
+    font-weight: bold;
+    color:black;
+}
+.title{
+  text-align:center;
+  font-size:40px;
+  color:black;
+ }

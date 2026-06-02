@@ -1,8 +1,10 @@
 @font-face {
-     font-family: National; src: url('//www.usc.edu/assets/fonts/NationalWeb-Regular.eot'); src: local(':)'), url('//www.usc.edu/assets/fonts/NationalWeb-Regular.woff') format('woff'), url('//www.usc.edu/assets/fonts/NationalWeb-Regular.ttf') format('truetype'), url('//www.usc.edu/assets/fonts/NationalWeb-Regular.svg') format('svg');
-     font-weight: 500;
-     font-style: normal;
- }
+    font-family: National;
+    src: url('//www.usc.edu/assets/fonts/NationalWeb-Regular.eot');
+    src: local(':)'), url('//www.usc.edu/assets/fonts/NationalWeb-Regular.woff') format('woff'), url('//www.usc.edu/assets/fonts/NationalWeb-Regular.ttf') format('truetype'), url('//www.usc.edu/assets/fonts/NationalWeb-Regular.svg') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
 
 /* Custom CSS */
 
@@ -12,13 +14,13 @@
 .navbar .navbar-nav > .active > a:hover,
 .navbar .navbar-nav > .active > a:focus {
     color: #fff;
-    background-color: rgba(227,190,66,0.8);
+    background-color: rgba(227, 190, 66, 0.8);
 }
 
 .navbar .nav li.dropdown.open > .dropdown-toggle,
 .navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
-      background-color: rgba(227,190,66,0.8);
+    background-color: rgba(227, 190, 66, 0.8);
 }
 
 body {
@@ -26,12 +28,12 @@ body {
 }
 
 .nav-ul-second > li > a {
-  padding-top: 12px;
-  padding-bottom:2px !important;
+    padding-top: 12px;
+    padding-bottom: 2px !important;
 }
 
 .nav-ul-second {
-  margin-left: 134px;
+    margin-left: 134px;
 }
 
 /* Buttons */
@@ -41,17 +43,19 @@ body {
 }
 
 #nav-secondary {
-  margin-top: 50px;
-  max-height: 50px;
-  height: 64px;
-  background-color: #000;
+    margin-top: 50px;
+    max-height: 50px;
+    height: 64px;
+    background-color: #000;
 }
 
 .btn-primary:hover {
     background-color: #ffdb4d;
 }
 
-.navbar-collapse { background:#990000;  }
+.navbar-collapse {
+    background: #990000;
+}
 
 .btn-default {
     color: #fff;
@@ -83,8 +87,8 @@ body {
 }
 
 .media-object {
-    max-width:64px;
-    max-height:64px;
+    max-width: 64px;
+    max-height: 64px;
 }
 
 .media-body {
@@ -96,45 +100,44 @@ body {
     margin-top: 4.5cm;
 }
 
-.thumbnail h3{
-   padding: 3mm 0cm 0cm 0cm;
+.thumbnail h3 {
+    padding: 3mm 0cm 0cm 0cm;
 }
 
-#mime-viz .thumbnail img{
+#mime-viz .thumbnail img {
     height: 200px;
     width: 400px;
 }
 
-#regular-viz .thumbnail img{
+#regular-viz .thumbnail img {
     height: 200px;
     width: 400px;
 }
 
-#dynamic-viz .thumbnail img{
+#dynamic-viz .thumbnail img {
     height: 200px;
     width: 400px;
 }
 
-#sce-viz .thumbnail img{
+#sce-viz .thumbnail img {
     height: 200px;
     width: 400px;
 }
 
-#sce-viz .thumbnail{
+#sce-viz .thumbnail {
     height: 30%;
 }
 
-#eval-viz .thumbnail img{
+#eval-viz .thumbnail img {
     height: 200px;
     width: 400px;
 }
 
-#eval-viz .thumbnail{
+#eval-viz .thumbnail {
     height: 30%;
 }
 
-
-#d3-other .thumbnail img{
+#d3-other .thumbnail img {
     height: 200px;
     width: 400px;
 }
@@ -143,13 +146,15 @@ body {
     padding: 20px 0;
     text-align: center;
 }
-#about .stylish-panel > div > div{
+
+#about .stylish-panel > div > div {
     padding: 10px;
     border: 1px solid transparent;
     border-radius: 4px;
     transition: 0.2s;
 }
-#about .stylish-panel > div:hover > div{
+
+#about .stylish-panel > div:hover > div {
     margin-top: -10px;
     border: 1px solid rgb(200, 200, 200);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
@@ -166,16 +171,149 @@ body {
     transform: rotate(360deg);
 }
 
-#learn-more .panel .panel-body{
-    min-height:280px;
+#learn-more .panel .panel-body {
+    min-height: 280px;
 }
 
-
-#irdsgroup{
-    color:white;
+#irdsgroup {
+    color: white;
     text-decoration: none;
 }
 
-#irdsgroup:hover{
-    color:#FFCC00;
+#irdsgroup:hover {
+    color: #FFCC00;
 }
+
+.sidenav {
+    height: 100%;
+    width: 320px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #990000;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFF;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+div#centered {
+    margin: 40px auto;
+    display: inline-block;
+    width: 76%;
+    padding: 30px;
+}
+
+div#side > a:hover {
+    background-color: #ffffaa;
+    color: #ff0000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+    background: #eee;
+}
+
+th {
+    background: #333;
+    color: white;
+    font-weight: bold;
+    cursor: s-resize;
+    background-repeat: no-repeat;
+    background-position: 3% center;
+}
+
+td, th {
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th.des:after {
+    content: "\21E9";
+}
+
+th.aes:after {
+    content: "\21E7";
+}
+
+@media
+	only screen and (max-width: 760px),
+	(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+		/* Force table to not be like tables anymore */
+		table, thead, tbody, th, td, tr {
+			display: block;
+		}
+
+		/* Hide table headers (but not display: none;, for accessibility) */
+		thead tr {
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+
+		tr { border: 1px solid #ccc; }
+
+		td {
+			/* Behave  like a "row" */
+			border: none;
+			border-bottom: 1px solid #eee;
+			position: relative;
+			padding-left: 50%;
+		}
+
+		td:before {
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			top: 6px;
+			left: 6px;
+			width: 45%;
+			padding-right: 10px;
+			white-space: nowrap;
+		}
+
+		/*
+		Label the data
+		*/
+		td:before {
+		  content: attr(data-th) ": ";
+          font-weight: bold;
+          width: 6.5em;
+          display: inline-block;
+		}
+	}
+
+	/* Smartphones (portrait and landscape) ----------- */
+	@media only screen
+	and (min-device-width : 320px)
+	and (max-device-width : 480px) {
+		body {
+			padding: 0;
+			margin: 0;
+			width: 320px; }
+		}
+
+	/* iPads (portrait and landscape) ----------- */
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+		body {
+			width: 495px;
+		}
+	}

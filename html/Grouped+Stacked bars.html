@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <title>Weather + Sightings</title>
+  <meta charset="utf-8">
+
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Scrolling Nav CSS -->
+  <link href="../css/scrolling-nav.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="../css/styles.css" rel="stylesheet">
+
+<style>
+
+form {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+label {
+  display: block;
+}
+
+.country-name {
+    margin: 0 !important;
+}
+.key-dot {
+    display: inline-block;
+    height: 10px;
+    margin-right: .5em;
+    width: 10px;
+}
+
+.one { background: #3182BD;}
+.two { background: #6BAED6;}
+.three { background: #9ECAE1;}
+.four { background: #C6DBEF;}
+.five { background: #E6550D;}
+
+#legend2{
+    overflow:hidden;
+}
+.legend2 {
+    float:left;
+    margin-right: 1em;
+}
+
+</style>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <div id="nav-main">
+    <nav class="navbar mav-main navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">  
+              <nav id="nav-wrap">
+                <ul class="nav navbar-nav navbar-custom">
+                    <li class="current"><a class="page-scroll" href="#page-top" style="color:white">Home</a></li>
+                    <li class="hidden"><a class="page-scroll" href="#page-top" style="color:white"></a></li>
+                    <li><a class="page-scroll" href="#about" style="color:#ffffff">About</a></li>
+                    <li><a class="page-scroll" href="#features" style="color:#ffffff">Insights</a></li>
+                    <li><a class="page-scroll" style="color:#ffffff" href="#learn-more">Partners</a></li>
+                </ul>
+              </nav>
+
+                <a href="http://usc.edu" class="pull-right">
+                  <img src="../images/usc-primary-logotype.svg" width="176px" height="38px">
+                </a>
+            </div>
+        </div>
+    </nav>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <br>
+    <div>
+        <div class="container">
+            <nav class="navbar navbar-default navbar-static-top">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse" style="color:#fff">
+                  <ul class="nav navbar-nav">
+                    <li><a style="color:#fff" href="team_7.html">Smog</a></li>
+                    <li><a style="color:#fff" href="Team7_duration.html">Duration</a></li>
+                    <li><a style="color:#fff" href="Team7_sightingConnect.html">Sightings</a></li>
+                    <li><a style="color:#fff" href="Team7_pieShapeSighting.html">Shapes</a></li>
+                    <li><a style="color:#fff" href="AerialObjectCount.html">Aerial</a></li>
+                    <li><a style="color:#fff" href="ufo-bubble-chart.html">Events</a></li>
+                    <li class="active"><a style="color:#fff" href="Grouped+Stacked bars.html">Airport Distance</a></li>
+                    <li><a style="color:#fff" href="wordcloud.html">Image captions</a></li>
+                    <li><a style="color:#fff" href="loc.html">Location Map</a></li>
+                    <li><a style="color:#fff" href="drinking.html" target="_blank">Drinking</a></li>
+                    <li><a style="color:#fff" href="overall.html" target="_blank">Overall</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+        <font size="3" color="orange">Percentage of sightings within 25 miles of an airport</font>    
+        
+        <form>
+          <label><input type="radio" name="mode" value="grouped"> Grouped</label>
+          <label><input type="radio" name="mode" value="stacked" checked> Stacked</label>
+        </form>
+        
+        <svg width="1200" height="500"></svg>
+
+        <div id="legend2">
+          <div class="legend2"> <p class="country-name"><span class="key-dot one"></span>1-5 miles</p> </div>
+          <div class="legend2"> <p class="country-name"><span class="key-dot two"></span>5-10 miles</p> </div>
+          <div class="legend2"> <p class="country-name"><span class="key-dot three"></span>10-15 miles</p> </div>
+          <div class="legend2"> <p class="country-name"><span class="key-dot four"></span>15-20 miles</p> </div>
+          <div class="legend2"> <p class="country-name"><span class="key-dot five"></span>20-25 miles</p> </div>
+        </div>
+        
+    </div>
+</body>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+var n = 5, // The number of series.
+    m = 46; // The number of values per series.
+
+// The xz array has m elements, representing the x-values shared by all series.
+// The yz array has n elements, representing the y-values of each of the n series.
+// Each yz[i] is an array of m non-negative numbers representing a y-value for xz[i].
+// The y01z array has the same structure as yz, but with stacked [y₀, y₁] instead of y.
+var xz = d3.range(m);
+var yz = [];
+
+yz[0] = [47.19101124 ,52.15053763 ,51.03092784 ,49.28229665 ,49.01960784 ,40.84507042 ,33.87096774 ,40.69767442 ,56.75675676 ,41.19850187 ,41.23376623 ,52.01465201 ,49.42528736 ,42.30769231 ,49.18699187 ,50.84745763 ,49.04458599 ,44.79166667 ,39.33333333 ,50 ,43.68932039 ,45.95959596 ,46.11872146 ,37.33333333 ,51.00401606 ,38.671875 ,41.70212766 ,45.94594595 ,43.29268293 ,41.46919431 ,56.99928212 ,48.29787234 ,47.868362 ,48.42864503 ,49.38030007 ,52.52659574 ,53.10043668 ,51.6075388 ,48.2702952 ,48.59351514 ,48.51305335 ,46.87731424 ,49.51118836 ,51.41518641 ,48.60499266 ,51.87613843]; 
+
+yz[1] = [3.93258427 ,4.838709677 ,3.608247423 ,5.263157895 ,5.882352941 ,4.225352113 ,4.838709677 ,7.558139535 ,2.702702703 ,3.745318352 ,7.792207792 ,4.761904762 ,6.130268199 ,4.733727811 ,2.845528455 ,7.627118644 ,3.821656051 ,7.8125 ,3.333333333 ,6.382978723 ,5.339805825 ,7.575757576 ,7.762557078 ,4.444444444 ,8.43373494 ,3.90625 ,6.808510638 ,4.247104247 ,2.43902439 ,6.872037915 ,5.5994257 ,6.489361702 ,5.684367988 ,4.945904173 ,4.924983692 ,5.285904255 ,4.890829694 ,5.432372506 ,4.704797048 ,3.951041443 ,5.107832009 ,3.604048383 ,4.583966978 ,4.177239898 ,4.468219006 ,4.808743169];
+
+yz[2] =	[0.561797753 ,0 ,0 ,1.913875598 ,0.653594771 ,2.112676056 ,4.032258065 ,1.162790698 ,0.900900901 ,2.247191011 ,1.623376623 ,1.465201465 ,1.149425287 ,1.183431953 ,1.62601626 ,0 ,1.910828025 ,2.083333333 ,2 ,2.127659574 ,0.485436893 ,0.505050505 ,2.283105023 ,2.666666667 ,0 ,1.171875 ,2.127659574 ,0.386100386 ,1.829268293 ,0.947867299 ,1.435750179 ,1.595744681 ,1.271503366 ,1.081916538 ,1.500326158 ,1.329787234 ,1.048034934 ,1.247228381 ,0.922509225 ,1.116598669 ,1.225879682 ,1.11083683 ,0.955898327 ,0.936951005 ,1.111810363 ,0.947176685];
+
+yz[3] =	[0.561797753 ,0.537634409 ,0.515463918 ,1.913875598 ,0 ,0 ,0 ,0 ,0 ,0.374531835 ,0.324675325 ,0.366300366 ,0.383141762 ,0 ,0.81300813 ,0 ,0 ,0 ,0.666666667 ,0 ,0.485436893 ,0 ,0.456621005 ,0 ,0.401606426 ,0.390625 ,0 ,0.386100386 ,0 ,0.236966825 ,0.215362527 ,0.531914894 ,0.224382947 ,0.412158681 ,0.293542074 ,0.598404255 ,0.291120815 ,0.554323725 ,0.415129151 ,0.429461026 ,0.317820658 ,0.246852629 ,0.391049316 ,0.390396252 ,0.356618418 ,0.327868852];
+
+yz[4] =	[0.561797753 ,0.537634409 ,0.515463918 ,1.913875598 ,0 ,0 ,0 ,0 ,0 ,0.374531835 ,0.324675325 ,0.366300366 ,0.383141762 ,0 ,0.81300813 ,0 ,0 ,0 ,0.666666667 ,0 ,0.485436893 ,0 ,0.456621005 ,0 ,0.401606426 ,0.390625 ,0 ,0.386100386 ,0 ,0.236966825 ,0.215362527 ,0.531914894 ,0.224382947 ,0.412158681 ,0.293542074 ,0.598404255 ,0.291120815 ,0.554323725 ,0.415129151 ,0.429461026 ,0.317820658 ,0.246852629 ,0.391049316 ,0.390396252 ,0.356618418 ,0.327868852];
+
+console.log(xz);
+console.log(yz);
+
+var y01z = d3.stack().keys(d3.range(n))(d3.transpose(yz)),
+    yMax = d3.max(yz, function(y) { return d3.max(y); }),
+    y1Max = d3.max(y01z, function(y) { return d3.max(y, function(d) { return d[1]; }); });
+
+var svg = d3.select("svg"),
+    margin = {top: 100, right: 0, bottom: 60, left: 30},
+    width = +svg.attr("width") - margin.left - margin.right,
+    height = +svg.attr("height") - margin.top - margin.bottom,
+    g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+	g2 = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.right + ")");
+	
+var xz_copy = d3.range(1965,2011,1);
+var x = d3.scaleBand()
+    .domain(xz)
+    .rangeRound([0, width])
+    .padding(0.08);
+
+var x_copy = d3.scaleBand()
+.domain(xz_copy)
+.rangeRound([0, width])
+    .padding(0.08);
+
+var y = d3.scaleLinear()
+    .domain([0, 100])
+    .range([height, 0]);
+
+
+var color = d3.scaleOrdinal()
+    .domain(d3.range(n))
+    .range(d3.schemeCategory20c);
+
+var series = g.selectAll(".series")
+  .data(y01z)
+  .enter().append("g")
+    .attr("fill", function(d, i) { return color(i); });
+
+var rect = series.selectAll("rect")
+  .data(function(d) {   
+  return d; })
+  .enter().append("rect")
+    .attr("x", function(d, i) { 
+	return x(i); })
+    .attr("y", height)
+    .attr("width", 10)
+    .attr("height", 0);
+
+rect.transition()
+    .delay(function(d, i) { return i * 10; })
+    .attr("y", function(d) { return y(d[1]); })
+    .attr("height", function(d) { return y(d[0]) - y(d[1]); });
+
+g.append("g")
+    .attr("class", "axis axis--x")
+    .attr("transform", "translate(0," + height + ")")
+    .call(d3.axisBottom(x_copy)
+        .tickSize(0)
+        .tickPadding(6));
+
+var axis_left = d3.axisLeft().scale(y)
+		
+g.append("g")
+	.attr("class", "axis axis--y")
+    .attr("transform", "translate(0,0)")
+	.call(axis_left);
+		
+d3.selectAll("input")
+    .on("change", changed);
+
+var timeout = d3.timeout(function() {
+  d3.select("input[value=\"grouped\"]")
+      .property("checked", true)
+      .dispatch("change");
+}, 2000);
+
+function changed() {
+  timeout.stop();
+  if (this.value === "grouped") transitionGrouped();
+  else transitionStacked();
+}
+
+function transitionGrouped() {
+  y.domain([0, 100]);
+
+  rect.transition()
+      .duration(500)
+      .delay(function(d, i) { return i * 10; })
+      .attr("x", function(d, i) { return x(i) + x.bandwidth() / n * this.parentNode.__data__.key; })
+      .attr("width", 10 / n)
+    .transition()
+      .attr("y", function(d) { return y(d[1] - d[0]); })
+      .attr("height", function(d) { return y(0) - y(d[1] - d[0]); });
+}
+
+function transitionStacked() {
+  y.domain([0, 100]);
+
+  rect.transition()
+      .duration(500)
+      .delay(function(d, i) { return i * 10; })
+      .attr("y", function(d) { return y(d[1]); })
+      .attr("height", function(d) { return y(d[0]) - y(d[1]); })
+    .transition()
+      .attr("x", function(d, i) { return x(i); })
+      .attr("width", 10);
+}
+
+</script>
+</html>
