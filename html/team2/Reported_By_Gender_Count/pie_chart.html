@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<body>
+<h2>Count of UFO sightings reported on gender basis and on Adult vs Non-Adult basis by year </h2>
+<p>We have aggregated the data based on gender and age by utilizing the description which mentions "a Male reported", or "a Female reported" or "2 kids reported" etc. Both male and female categories are merged into Adult Category.</p>
+<p><i>Please note the data covered is 9.1 percent of the whole data.</i></p>
+</body>
+<meta charset="utf-8">
+<style>
+
+.arc text {
+  font: 20px sans-serif;
+  text-anchor: middle;
+}
+
+.arc path {
+  stroke: #fff;
+}
+
+</style>
+<svg width="960" height="500"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+//Create a consolidated pie chart from ReportedBy.csv with all 4 types : Man, Female, Adult, Kid
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height"),
+    radius = Math.min(width, height) / 2,
+    g = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+var color = d3.scaleOrdinal(["#FF3333", "#4CFF33", "#ECFF33", "#3342FF"]);
+
+var pie = d3.pie()
+    .sort(null)
+    .value(function(d) { return d.Count; });
+
+var path = d3.arc()
+    .outerRadius(radius - 10)
+    .innerRadius(0);
+
+var label = d3.arc()
+    .outerRadius(radius - 40)
+    .innerRadius(radius - 40);
+
+d3.csv("ReportedBy_Male_Female_Adult_kid_year_count_total.csv", function(d) {
+  d.Count = +d.Count;
+  return d;
+}, function(error, data) {
+  if (error) throw error;
+
+  var arc = g.selectAll(".arc")
+    .data(pie(data))
+    .enter().append("g")
+      .attr("class", "arc");
+
+  arc.append("path")
+      .attr("d", path)
+      .attr("fill", function(d) { return color(d.data.Type); });
+
+  arc.append("text")
+      .attr("transform", function(d) { return "translate(" + label.centroid(d) + ")"; })
+      .attr("dy", "0.35em")
+      .text(function(d) { return d.data.Type; });
+});
+
+</script>
