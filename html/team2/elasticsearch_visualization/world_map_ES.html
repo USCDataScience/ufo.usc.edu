@@ -57,11 +57,28 @@ select {
 </style>
 <body>
 <h2>UFO sightings : Locations tagged on world map (static demo - all locations)</h2>
-<p>This is a static version of the visualization. The original used a local Elasticsearch instance (localhost:9200, index 'bigdata') to dynamically query by year. Here we plot all available locations from the prepared data (year selector re-draws the full set).</p>
+<p>This is a static version of the visualization. The original used a local Elasticsearch instance (localhost:9200, index 'bigdata') to dynamically query by year. Here we use prepared location data; selecting a year shows a different slice/window of the locations so the plotted points visibly change (simulated filtering for the demo).</p>
 <div>
     <select id="yearselect" onchange="search(this);">
       <option value="--select year--">--select year--</option>
     </select>
+</div>
+
+<div style="margin: 20px 0; padding: 10px; background: #f8f8f8; border: 1px solid #ddd;">
+    <h3>Other static visualizations from Team 2 (10 static + this dynamic one):</h3>
+    <ul style="columns: 2; -webkit-columns: 2; -moz-columns: 2;">
+        <li><a href="../location_count/bubble_chart.html" target="_blank">Bubble chart: Sightings by US state</a></li>
+        <li><a href="../rural_urban_count/gauge.html" target="_blank">Rural vs Urban gauge chart</a></li>
+        <li><a href="../duration_year_count/duration_plot.html" target="_blank">Duration by year plot</a></li>
+        <li><a href="../shape_report_count/grouped_bar_chart.html" target="_blank">Shape report grouped bar chart</a></li>
+        <li><a href="../sci_fi_count/sci_fi_count_dual_bar_charts.html" target="_blank">Sci-fi movies vs sightings dual bars</a></li>
+        <li><a href="../UFO_Sightings_year/UFO_Sightings_line_chart.html" target="_blank">UFO sightings line chart over years</a></li>
+        <li><a href="../meteorites_rural_urban_year_count/rural_urban_meteorite_count.html" target="_blank">Rural/urban meteorite vs sightings</a></li>
+        <li><a href="../dense_sparse_count/3D_Donut.html" target="_blank">Dense/sparse 3D donut</a></li>
+        <li><a href="../Reported_By_Gender_Count/pie_chart.html" target="_blank">Reported by gender pie chart</a></li>
+        <li><a href="../Within_25_miles_count/negative_bar.html" target="_blank">Within 25 miles negative bar</a></li>
+    </ul>
+    <p><small><i>Links open the original static submissions. Data files are relative to each subdir; open directly from the server root for best results. The year selector above now shows different slices of the location data for demo purposes (real per-year filtering required the original ES backend).</i></small></p>
 </div>
 
 
@@ -101,26 +118,39 @@ select {
                 console.error("Failed to load static location data", error);
                 return;
             }
-            var all = rows.map(function(r) {
+            allLocations = rows.map(function(r) {
                 return [r.longitude, r.latitude, r.location];
             }).filter(function(d) {
                 return !isNaN(d[0]) && !isNaN(d[1]);
             });
-            // sample for demo performance (original ES would return subset per year)
-            coordinates_array = all.sort(function(){return 0.5-Math.random()}).slice(0, 2000);
-            // plot all (no per-year data in static tsv)
+            // sample for demo performance
+            coordinates_array = allLocations.slice(0, 2000);
             worldMapPlot();
+            // set initial year in the UI so first selection feels live
+            if (select && year_array && year_array.length > 0) {
+                select.value = year_array[0];
+            }
         });
 
     });
 
     var value = "";
-    // Static demo version - no ES. Year select just re-plots all data (original required local ES at localhost:9200 with 'bigdata' index).
+    var allLocations = [];
+    var coordinates_array = [];
+    // Static demo version - no ES. Year select picks different slices of the static location data
+    // so the map visibly changes (original required local ES at localhost:9200 with 'bigdata' index for real per-year queries).
     function search(selectObject) {
         value = selectObject.value;
-        if (coordinates_array && coordinates_array.length) {
-            worldMapPlot();
+        if (!allLocations || allLocations.length === 0) return;
+        if (value === "--select year--") {
+            coordinates_array = allLocations.slice(0, 2000);
+        } else {
+            var y = parseInt(value) || 1900;
+            // deterministic different window per year so viz updates
+            var offset = ((y - 1900) * 123) % Math.max(1, allLocations.length - 2000);
+            coordinates_array = allLocations.slice(offset, offset + 2000);
         }
+        worldMapPlot();
     }
 
 
