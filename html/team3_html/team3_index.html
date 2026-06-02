@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>USC Data Science - UFO Sightings Dataset</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scrolling Nav CSS -->
+    <link href="../../css/scrolling-nav.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../../css/styles.css" rel="stylesheet">
+
+    <link href="../../css/uk.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/usa.css">
+    <link rel="stylesheet" href="../../css/team3.css">
+
+
+    <!-- jQuery -->
+    <script src="../../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="../../js/jquery.easing.min.js"></script>
+    <script src="../../js/scrolling-nav.js"></script>
+
+    <style type="text/css">
+        p{
+            font-size: 15px;
+            font-family: sans-serif;
+            color: #0099ff;
+        }
+
+        li{
+            font-size: 18px;
+            margin: 0;
+        }
+
+        h3{
+            color: #cc0000;
+            font-weight: bold;
+        }
+        .nav-tabs>li>a {
+          margin-right: -4px;
+          padding: 8px;}
+    </style>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Header -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="../index.html#page-top" style="color:white">Home</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-custom">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden"><a class="page-scroll" href="../index.html#page-top" style="color:white"></a></li>
+                <li><a class="page-scroll" href="../index.html#about" style="color:#ffffff">About</a></li>
+                <li><a class="page-scroll" href="../index.html#features" style="color:#ffffff">Insights</a></li>
+                <li><a class="page-scroll" href="../index.html#search" style="color:#ffffff">Search</a></li>
+                <li><a class="page-scroll" style="color:#ffffff" href="../index.html#learn-more">Partners</a></li>
+            </ul>
+            <a href="http://usc.edu" class="pull-right">
+              <img src="../../images/usc-primary-logotype.svg" width="176px" height="38px"></img>
+            </a>
+
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+
+<!-- Navigation -->
+    <div id="secondary-header"> </div>
+    <div class="container" style="margin-bottom: 2%">
+    <ul class="nav nav-tabs" id="tabs" style="margin-top:7%">
+
+      <li><a data-toggle="tab" href="#map" data-toggle="tab">Map Viz</a></li>
+      <li><a data-toggle="tab" href="#relation" data-toggle="tab">Relation Graph</a></li>
+      <li><a data-toggle="tab" href="#stats" data-toggle="tab">Stats</a></li>
+      <li><a data-toggle="tab" href="#indentedtree" data-toggle="tab">Indented Tree</a></li>
+      <li><a data-toggle="tab" href="#scatter" data-toggle="tab">Scatter</a></li>
+      <li><a data-toggle="tab" href="#donut" data-toggle="tab">Donut Chart</a></li>
+      <li><a data-toggle="tab" href="#pie" data-toggle="tab">Pie Chart</a></li>
+      <li><a data-toggle="tab" href="#bubblechart" data-toggle="tab">Bubble Chart</a></li>
+      <li><a data-toggle="tab" href="#dendogram" data-toggle="tab">Dendrogram</a></li>
+      <li><a data-toggle="tab" href="#wordcloud" data-toggle="tab">Word Cloud</a></li>
+      <li><a data-toggle="tab" href="#trendline" data-toggle="tab">Trend Line</a></li>
+    </ul>
+    </div>
+
+    <div class="tab-content">
+
+
+        <div role="tabpanel" class="tab-pane fade in active" id="map">
+          <div id="mapContainer" class="container">
+            <p>
+              Maps:
+              <select id="countries" name="">
+                <option value="us">USA Map</option>
+                <option value="uk">UK Map</option>
+              </select>
+            </p>
+            <iframe src="maps.html" class="nob" width="960" height="700"></iframe>
+          </div>
+        </div>
+
+        <div role="tabpanel" class="tab-pane fade" id="relation">
+            <div class="container" style="margin-top:-35px">
+              <h3>Relationship Graph</h3>
+                <p> This is a collapsable visualization showing poplulation as well as UFO sightings per state.
+                </p>
+              <iframe src="relation.html" width="960" height="500"></iframe>
+            </div>
+        </div>
+
+
+        <div role="tabpanel" class="tab-pane fade" id="stats">
+          <div class="container" style="margin-top:-35px">
+            <h3>Bar Chart</h3>
+            <p>This interactive bar chart shows number of UFO sightings across the different states of United States</p>
+            <iframe src="statistics.html" width="960" height="1160"></iframe>
+          </div>
+        </div>
+
+
+        <div role="tabpanel" class="tab-pane fade" id="indentedtree">
+          <div class="container" style="margin-top:-35px">
+            <h3>Indented Tree</h3>
+            <p> This is a collapsable visualization showing poplulation as well as UFO sightings per state.
+            </p>
+            <iframe src="indent.html" width="960" height="960"></iframe>
+          </div>
+        </div>
+
+
+        <div role="tabpanel" class="tab-pane fade" id="scatter">
+          <div class="container" style="margin-top:-35px">
+            <h3> Scatter Plot</h3>
+            <p style="color:green"><i>This implementation was done using Elastic search.<br>
+               Once the elastic search is up and running on the ufo.usc.edu website , please uncomment the "< iframe >" for Scatter plot in "team3_index.html"<br>
+             Also change the url for the elastic search in "js/team3_js_files/scatter.js" file</i></p>
+            <p>This is a scatter plot for UFO sightings based on distance of closest airports from the sighting.</p>
+            <p style="font-size: 18"> Here, the x-azis is the nearest large airport and y-axis is nearest medium sized airport from the UFO sightings. <br> So, the sightings which are at reasonably equal distances from largest and medium sized airport would be clustered together.
+            </p>
+            <!-- <iframe src="scatter.html" width="960" height="960"></iframe> -->
+          </div>
+        </div>
+
+
+        <div role="tabpanel" class="tab-pane fade" id="donut">
+          <div class="container" style="margin-top:-35px">
+            <h3>Donut Chart</h3>
+            <p> An interesting visualization of UFO sightings over the months.
+            <br> Here the number in the center represents the total UFO sightings. Whereas it shows the sightings of a given month when we hover over that segment on the donut.
+            </p>
+            <iframe src="donut.html" width="960" height="500"></iframe>
+          </div>
+        </div>
+
+
+        <div role="tabpanel" class="tab-pane fade" id="pie">
+          <div class="container" style="margin-top:-35px">
+            <h3>Pie Chart</h3>
+            <p> This pie chart shows the distribution of UFO sightings day-wise.
+            <br>There is almost uniform distribution over the days, but <b>Saturday</b> has the most UFO sightings.
+            </p>
+            <iframe src="piechart.html" width="960" height="500"></iframe>
+          </div>
+        </div>
+
+
+        <div role="tabpanel" class="tab-pane fade" id="bubblechart">
+          <div class="container" style="margin-top:-35px">
+            <h3>Bubble Chart</h3>
+            <p> This clickable Bubble Chart is an apt representation of the number of UFO sightings based on the classes obtained from Tika Vision API.
+            <br> Every bubble represents a class and has the number of UFO sightings corresponding to that class on a sampled dataset.
+            </p>
+            <iframe src="bubble_chart.html" width="960" height="960"></iframe>
+          </div>
+        </div>
+
+
+        <div role="tabpanel" class="tab-pane fade" id="dendogram">
+              <div class="container" style="margin-top:-35px">
+                <h3>Dendrogram</h3>
+                <p> This is a hierarchial visualization showing frequency map of most popular shapes for sample of 10 states.
+                </p>
+                <iframe src="dendogram.html" width="960" height="960"></iframe>
+            </div>
+        </div>
+
+        <div role="tabpanel" class="tab-pane fade" id="wordcloud">
+          <div class="container" style="margin-top:-35px">
+            <h3>Word Cloud</h3>
+            <p> This is a word cloud of the most frequently used words in description of British UFO sightings pdf files.
+            </p>
+            <iframe src="word_cloud.html" width="1160" height="500"></iframe>
+          </div>
+        </div>
+
+        <div role="tabpanel" class="tab-pane fade" id="trendline">
+          <div class="container" style="margin-top:-35px">
+            <h3>Trend Line</h3>
+            <p> Trends of number of UFO sightings over the years in US.
+            </p>
+            <iframe src="trend_line.html" width="960" height="500"></iframe>
+          </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+      <p>Made by Team 3: Khyati, Pavneet, Prerana, Sanjay and Sachin</p>
+    </div>
+
+</body>
+
+</html>
