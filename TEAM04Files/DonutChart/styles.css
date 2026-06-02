@@ -1,0 +1,35 @@
+#chart {
+    position: relative; /* To allow the tooltip to be positioned relative to the div */
+    display: block;
+    margin: 0 auto;
+}
+
+.tooltip {
+    position: absolute;
+    width: 80px;
+    padding: 10px;
+    background: #eee;
+    color: #333;
+    display: none;
+    font-size: 12px;
+    text-align: center;
+    box-shadow: 0 0 5px #999;
+    z-index: 10;
+}
+
+rect {
+    cursor: pointer;
+    stroke-width: 2;
+}
+
+rect.disabled {
+    fill: transparent !important;
+}
+
+legend {
+    font-size: 18px;
+}
+
+rect {
+    stroke-width: 2;
+}
