@@ -199,7 +199,7 @@ function loadUKMap(ufoCoords){
               }
             });
 
-            if(_.contains(choices, "metro")){
+            if(choices.indexOf("metro") !== -1){
               svg.selectAll("circle.sports")
               .style("opacity", 0.5)
             }else{
@@ -209,7 +209,7 @@ function loadUKMap(ufoCoords){
             }
 
 
-            if(_.contains(choices, "airport")){
+            if(choices.indexOf("airport") !== -1){
               svg.selectAll("circle.airports")
               .style("opacity", 0.7)
             }else{
@@ -467,7 +467,7 @@ function loadUSMap(){
               }
             });
 
-            if(_.contains(choices, "population")){
+            if(choices.indexOf("population") !== -1){
               svg.selectAll("path")
               .attr("d", path)
               .style("stroke", "#fff")
@@ -501,7 +501,7 @@ function loadUSMap(){
               .style("fill", "#FFFFFF")
             }
 
-            if(_.contains(choices, "metro")){
+            if(choices.indexOf("metro") !== -1){
               svg.selectAll("circle.sports")
               .style("opacity", 0.95)
             }else{
@@ -511,7 +511,7 @@ function loadUSMap(){
             }
 
 
-            if(_.contains(choices, "airport")){
+            if(choices.indexOf("airport") !== -1){
               svg.selectAll("circle.airports")
               .style("opacity", 0.7)
             }else{
@@ -519,7 +519,7 @@ function loadUSMap(){
               .style("opacity", 0.0)
             }
 
-            if(_.contains(choices, "meteorite")){
+            if(choices.indexOf("meteorite") !== -1){
               svg.selectAll("circle.meteorites")
               .style("opacity", 0.8)
             }else{
