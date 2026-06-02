@@ -1,0 +1,453 @@
+origin,destination
+Salem  MA,South Bend  IN
+South Bend  IN,Salem  MA
+Salem  MA,Galliano  LA
+Galliano  LA,Salem  MA
+Salem  MA,Kalispell  MT
+Kalispell  MT,Salem  MA
+Salem  MA,San Francisco  TX
+San Francisco  TX,Salem  MA
+Salem  MA,Wilmington  CA
+Wilmington  CA,Salem  MA
+Salem  MA,Reno  NV
+Reno  NV,Salem  MA
+Salem  MA,Moxee  WA
+Moxee  WA,Salem  MA
+Salem  MA,Cle Elum  WA
+Cle Elum  WA,Salem  MA
+Salem  MA,Granite Falls  WA
+Granite Falls  WA,Salem  MA
+Salem  MA,Jackson  KY
+Jackson  KY,Salem  MA
+Santa Ana  CA,Bristol  TN
+Bristol  TN,Santa Ana  CA
+Santa Ana  CA,Port Angeles  WA
+Port Angeles  WA,Santa Ana  CA
+Santa Ana  CA,Tioga  ND
+Tioga  ND,Santa Ana  CA
+Santa Ana  CA,Magnolia  WA
+Magnolia  WA,Santa Ana  CA
+Manville  NJ,Oceanside  CA
+Oceanside  CA,Manville  NJ
+Manville  NJ,Fridley  MN
+Fridley  MN,Manville  NJ
+Manville  NJ,Porum  OK
+Porum  OK,Manville  NJ
+Manville  NJ,Placerville  CA
+Placerville  CA,Manville  NJ
+Manville  NJ,Joshua Tree  CA
+Joshua Tree  CA,Manville  NJ
+Manville  NJ,Pollock  LA
+Pollock  LA,Manville  NJ
+Manville  NJ,Long Beach  CA
+Long Beach  CA,Manville  NJ
+Manville  NJ,Santa Fe  NM
+Santa Fe  NM,Manville  NJ
+Manville  NJ,Kirkland  WA
+Kirkland  WA,Manville  NJ
+Manville  NJ,Toledo  OH
+Toledo  OH,Manville  NJ
+Manville  NJ,Burleson  TX
+Burleson  TX,Manville  NJ
+Manville  NJ,Raymore  MO
+Raymore  MO,Manville  NJ
+Manville  NJ,Jackson  NJ
+Jackson  NJ,Manville  NJ
+Littleton  CO,Washington State coastline  WA
+Washington State coastline  WA,Littleton  CO
+Littleton  CO,Bloomfield  NY
+Bloomfield  NY,Littleton  CO
+Littleton  CO,Ouray  CO
+Ouray  CO,Littleton  CO
+Littleton  CO,Hereford  AZ
+Hereford  AZ,Littleton  CO
+Kalispell  MT,Ashland  OR
+Ashland  OR,Kalispell  MT
+Kalispell  MT,Huntington  IN
+Huntington  IN,Kalispell  MT
+Greeley  CO,Littleton  CO
+Littleton  CO,Greeley  CO
+Greeley  CO,Weston  CO
+Weston  CO,Greeley  CO
+Greeley  CO,Wabash  IN
+Wabash  IN,Greeley  CO
+Greeley  CO,Yakima  WA
+Yakima  WA,Greeley  CO
+Greeley  CO,San Diego  CA
+San Diego  CA,Greeley  CO
+Greeley  CO,Waldorf  MD
+Waldorf  MD,Greeley  CO
+Greeley  CO,NJ Turnpike  NJ
+NJ Turnpike  NJ,Greeley  CO
+Greeley  CO,Wrightsville Beach  NC
+Wrightsville Beach  NC,Greeley  CO
+Greeley  CO,Duxbury  MA
+Duxbury  MA,Greeley  CO
+Fairbanks  AK,Endicott  NY
+Endicott  NY,Fairbanks  AK
+Fairbanks  AK,Wilmington  CA
+Wilmington  CA,Fairbanks  AK
+Fairbanks  AK,Granada Hills  CA
+Granada Hills  CA,Fairbanks  AK
+Fairbanks  AK,Sierra Nevada Mountains  CA
+Sierra Nevada Mountains  CA,Fairbanks  AK
+Fairbanks  AK,Newberry  MI
+Newberry  MI,Fairbanks  AK
+Fairbanks  AK,Saint John  IN
+Saint John  IN,Fairbanks  AK
+Fairbanks  AK,Newberry Crater National Monument  OR
+Newberry Crater National Monument  OR,Fairbanks  AK
+Phoenix  AZ,Modesto  CA
+Modesto  CA,Phoenix  AZ
+Phoenix  AZ,Scottsdale  AZ
+Scottsdale  AZ,Phoenix  AZ
+Phoenix  AZ,Tempe  AZ
+Tempe  AZ,Phoenix  AZ
+Phoenix  AZ,Manchester  NH
+Manchester  NH,Phoenix  AZ
+Phoenix  AZ,Aztalan State Park  WI
+Aztalan State Park  WI,Phoenix  AZ
+Scotts Valley  CA,Glendive  MT
+Glendive  MT,Scotts Valley  CA
+Scotts Valley  CA,Exland  WI
+Exland  WI,Scotts Valley  CA
+Scotts Valley  CA,Nashville  TN
+Nashville  TN,Scotts Valley  CA
+Scotts Valley  CA,Duck  NC
+Duck  NC,Scotts Valley  CA
+Scotts Valley  CA,Gresham  OR
+Gresham  OR,Scotts Valley  CA
+Amarillo  TX,Vashon Island  WA
+Vashon Island  WA,Amarillo  TX
+Amarillo  TX,Altadena  CA
+Altadena  CA,Amarillo  TX
+Amarillo  TX,Rome  GA
+Rome  GA,Amarillo  TX
+Amarillo  TX,Tucson  AZ
+Tucson  AZ,Amarillo  TX
+Burnsville  MN,Jordan Valley  OR
+Jordan Valley  OR,Burnsville  MN
+Burnsville  MN,Las Vegas  NV
+Las Vegas  NV,Burnsville  MN
+Burnsville  MN,Tucson  AZ
+Tucson  AZ,Burnsville  MN
+Burnsville  MN,Bruneau  ID
+Bruneau  ID,Burnsville  MN
+Green Bay  WI,Marysville  WA
+Marysville  WA,Green Bay  WI
+Green Bay  WI,Fort Walton Beach  FL
+Fort Walton Beach  FL,Green Bay  WI
+Green Bay  WI,Orcas Island  WA
+Orcas Island  WA,Green Bay  WI
+Green Bay  WI,Cradon  WI
+Cradon  WI,Green Bay  WI
+Green Bay  WI,Sacramento  CA
+Sacramento  CA,Green Bay  WI
+Green Bay  WI,Springfield  OH
+Springfield  OH,Green Bay  WI
+Temecula  CA,New York City  NY
+New York City  NY,Temecula  CA
+Temecula  CA,Binghamton  NY
+Binghamton  NY,Temecula  CA
+Temecula  CA,Roosevelt  NY
+Roosevelt  NY,Temecula  CA
+Temecula  CA,Des Moines  WA
+Des Moines  WA,Temecula  CA
+Temecula  CA,Cashmere  WA
+Cashmere  WA,Temecula  CA
+Temecula  CA,New Port Richey  FL
+New Port Richey  FL,Temecula  CA
+Los Angeles  CA,Colorado Springs  CO
+Colorado Springs  CO,Los Angeles  CA
+Los Angeles  CA,Ogdensburg  NJ
+Ogdensburg  NJ,Los Angeles  CA
+Los Angeles  CA,Salem  OR
+Salem  OR,Los Angeles  CA
+Los Angeles  CA,Bellevue  WA
+Bellevue  WA,Los Angeles  CA
+Los Angeles  CA,Miami  FL
+Miami  FL,Los Angeles  CA
+Los Angeles  CA,Centreville  VA
+Centreville  VA,Los Angeles  CA
+Los Angeles  CA,Tacoma  WA
+Tacoma  WA,Los Angeles  CA
+Los Angeles  CA,Issaquah  WA
+Issaquah  WA,Los Angeles  CA
+Los Angeles  CA,Richfield  UT
+Richfield  UT,Los Angeles  CA
+Los Angeles  CA,Gilbert  AZ
+Gilbert  AZ,Los Angeles  CA
+Los Angeles  CA,Seattle  WA
+Seattle  WA,Los Angeles  CA
+Los Angeles  CA,Conchas Dam  NM
+Conchas Dam  NM,Los Angeles  CA
+Los Angeles  CA,Kerman  CA
+Kerman  CA,Los Angeles  CA
+Los Angeles  CA,Loma Linda  CA
+Loma Linda  CA,Los Angeles  CA
+Los Angeles  CA,Wheeling  WV
+Wheeling  WV,Los Angeles  CA
+Los Angeles  CA,Ashford  WA
+Ashford  WA,Los Angeles  CA
+Los Angeles  CA,Kalamazoo  MI
+Kalamazoo  MI,Los Angeles  CA
+Los Angeles  CA,Millinocket  ME
+Millinocket  ME,Los Angeles  CA
+Houston  TX,Sacramento  CA
+Sacramento  CA,Houston  TX
+Houston  TX,Bloomington  CA
+Bloomington  CA,Houston  TX
+Houston  TX,Beaumont  CA
+Beaumont  CA,Houston  TX
+Fort Lauderdale  FL,Tustin  CA
+Tustin  CA,Fort Lauderdale  FL
+Fort Lauderdale  FL,Joliet  IL
+Joliet  IL,Fort Lauderdale  FL
+Fort Lauderdale  FL,Bartlesville  OK
+Bartlesville  OK,Fort Lauderdale  FL
+Fort Lauderdale  FL,Federal Way  WA
+Federal Way  WA,Fort Lauderdale  FL
+Fort Lauderdale  FL,Weed  CA
+Weed  CA,Fort Lauderdale  FL
+Fort Lauderdale  FL,Sedro-Woolley  WA
+Sedro-Woolley  WA,Fort Lauderdale  FL
+Fort Lauderdale  FL,Lakewood  CA
+Lakewood  CA,Fort Lauderdale  FL
+Fort Lauderdale  FL,Kirkland  WA
+Kirkland  WA,Fort Lauderdale  FL
+Fort Lauderdale  FL,Mission Viejo  CA
+Mission Viejo  CA,Fort Lauderdale  FL
+Fort Lauderdale  FL,Gracemont  OK
+Gracemont  OK,Fort Lauderdale  FL
+Fort Lauderdale  FL,Woodland  CA
+Woodland  CA,Fort Lauderdale  FL
+Fort Lauderdale  FL,Madison  WI
+Madison  WI,Fort Lauderdale  FL
+Fort Lauderdale  FL,Wichita  KS
+Wichita  KS,Fort Lauderdale  FL
+Fort Lauderdale  FL,San Diego  CA
+San Diego  CA,Fort Lauderdale  FL
+Fort Lauderdale  FL,Los Angeles  CA
+Los Angeles  CA,Fort Lauderdale  FL
+Fort Lauderdale  FL,Alfred  ME
+Alfred  ME,Fort Lauderdale  FL
+Wyandotte  MI,Ridgefield  WA
+Ridgefield  WA,Wyandotte  MI
+Wyandotte  MI,Culpeper  VA
+Culpeper  VA,Wyandotte  MI
+Wyandotte  MI,Eagle Lake Manor  WI
+Eagle Lake Manor  WI,Wyandotte  MI
+Wyandotte  MI,Rockerville  SD
+Rockerville  SD,Wyandotte  MI
+Wyandotte  MI,Rockledge  FL
+Rockledge  FL,Wyandotte  MI
+San Antonio  TX,Woodinville  WA
+Woodinville  WA,San Antonio  TX
+San Antonio  TX,San Rafael  CA
+San Rafael  CA,San Antonio  TX
+San Antonio  TX,Manlius  NY
+Manlius  NY,San Antonio  TX
+San Antonio  TX,Henderson  NC
+Henderson  NC,San Antonio  TX
+San Antonio  TX,Lynn Haven  FL
+Lynn Haven  FL,San Antonio  TX
+San Antonio  TX,Woodside  CA
+Woodside  CA,San Antonio  TX
+San Antonio  TX,Burbank  CA
+Burbank  CA,San Antonio  TX
+San Antonio  TX,Sarasota  FL
+Sarasota  FL,San Antonio  TX
+San Antonio  TX,Palmer  MA
+Palmer  MA,San Antonio  TX
+San Antonio  TX,Bowling Green  KY
+Bowling Green  KY,San Antonio  TX
+San Antonio  TX,Dallas  TX
+Dallas  TX,San Antonio  TX
+Bellingham  WA,Bethel  OH
+Bethel  OH,Bellingham  WA
+Bellingham  WA,Folly Beach  SC
+Folly Beach  SC,Bellingham  WA
+Bellingham  WA,Essexville  MI
+Essexville  MI,Bellingham  WA
+Bellingham  WA,Atlantic Ocean  RI
+Atlantic Ocean  RI,Bellingham  WA
+Bellingham  WA,Las Vegas  NV
+Las Vegas  NV,Bellingham  WA
+Bellingham  WA,Bristol  IN
+Bristol  IN,Bellingham  WA
+Fort Worth  TX,Crown Point  IN
+Crown Point  IN,Fort Worth  TX
+Fort Worth  TX,Rentz  GA
+Rentz  GA,Fort Worth  TX
+Fort Worth  TX,Antioch  TN
+Antioch  TN,Fort Worth  TX
+Fort Worth  TX,Rome  GA
+Rome  GA,Fort Worth  TX
+Fort Worth  TX,Wichita  KS
+Wichita  KS,Fort Worth  TX
+Fort Worth  TX,Hillsboro  OH
+Hillsboro  OH,Fort Worth  TX
+Fort Worth  TX,Columbus  OH
+Columbus  OH,Fort Worth  TX
+Fort Worth  TX,Ballston Lake  NY
+Ballston Lake  NY,Fort Worth  TX
+Fort Worth  TX,Potter-middile sex  NY
+Potter-middile sex  NY,Fort Worth  TX
+San Marcos  CA,West Springfield  MA
+West Springfield  MA,San Marcos  CA
+San Marcos  CA,Reno  NV
+Reno  NV,San Marcos  CA
+San Marcos  CA,Moline  IL
+Moline  IL,San Marcos  CA
+San Marcos  CA,Hallandale  FL
+Hallandale  FL,San Marcos  CA
+San Marcos  CA,Sedona  AZ
+Sedona  AZ,San Marcos  CA
+Monroe  WA,Los Angeles  CA
+Los Angeles  CA,Monroe  WA
+Monroe  WA,Bothell  WA
+Bothell  WA,Monroe  WA
+Monroe  WA,Westland  MI
+Westland  MI,Monroe  WA
+Monroe  WA,Venice  NE
+Venice  NE,Monroe  WA
+Monroe  WA,Minot  ND
+Minot  ND,Monroe  WA
+Orlando  FL,Palm Desert  CA
+Palm Desert  CA,Orlando  FL
+Orlando  FL,Sunbury  OH
+Sunbury  OH,Orlando  FL
+Orlando  FL,South Daytona Beach  FL
+South Daytona Beach  FL,Orlando  FL
+Orlando  FL,Tulsa  OK
+Tulsa  OK,Orlando  FL
+Orlando  FL,Maumee  OH
+Maumee  OH,Orlando  FL
+Orlando  FL,Roseville  CA
+Roseville  CA,Orlando  FL
+Orlando  FL,Lompoc  CA
+Lompoc  CA,Orlando  FL
+Orlando  FL,Lafayette  IN
+Lafayette  IN,Orlando  FL
+Orlando  FL,Grass Valley  CA
+Grass Valley  CA,Orlando  FL
+Orlando  FL,Phoenix  AZ
+Phoenix  AZ,Orlando  FL
+Los Angeles  CA,Orlando  FL
+Orlando  FL,Los Angeles  CA
+Los Angeles  CA,Burbank  CA
+Burbank  CA,Los Angeles  CA
+Los Angeles  CA,Poway  CA
+Poway  CA,Los Angeles  CA
+Los Angeles  CA,Greenwood  WI
+Greenwood  WI,Los Angeles  CA
+Los Angeles  CA,Asheville  NC
+Asheville  NC,Los Angeles  CA
+Los Angeles  CA,North Hollywood  CA
+North Hollywood  CA,Los Angeles  CA
+Los Angeles  CA,Christoval  TX
+Christoval  TX,Los Angeles  CA
+Los Angeles  CA,Billerica  MA
+Billerica  MA,Los Angeles  CA
+Los Angeles  CA,Patriot  OH
+Patriot  OH,Los Angeles  CA
+Los Angeles  CA,Everett  WA
+Everett  WA,Los Angeles  CA
+Los Angeles  CA,Myrtle Beach  SC
+Myrtle Beach  SC,Los Angeles  CA
+Los Angeles  CA,Fort Smith  AR
+Fort Smith  AR,Los Angeles  CA
+Los Angeles  CA,Jacksonville  FL
+Jacksonville  FL,Los Angeles  CA
+Richmond  VA,Jacksonville  FL
+Jacksonville  FL,Richmond  VA
+Richmond  VA,Davison  MI
+Davison  MI,Richmond  VA
+Richmond  VA,Sedro-Woolley  WA
+Sedro-Woolley  WA,Richmond  VA
+Richmond  VA,Mesa  AZ
+Mesa  AZ,Richmond  VA
+Richmond  VA,Eulonia  GA
+Eulonia  GA,Richmond  VA
+Richmond  VA,Maricopa  AZ
+Maricopa  AZ,Richmond  VA
+Richmond  VA,Marblehead  OH
+Marblehead  OH,Richmond  VA
+Richmond  VA,Westminster  CO
+Westminster  CO,Richmond  VA
+Richmond  VA,Stryker  OH
+Stryker  OH,Richmond  VA
+Richmond  VA,San Diego  CA
+San Diego  CA,Richmond  VA
+Richmond  VA,Akron  OH
+Akron  OH,Richmond  VA
+Richmond  VA,Houston  TX
+Houston  TX,Richmond  VA
+Ferrisburg  VT,Sacramento  CA
+Sacramento  CA,Ferrisburg  VT
+Ferrisburg  VT,McClellanville  SC
+McClellanville  SC,Ferrisburg  VT
+Ferrisburg  VT,Apache Junction  AZ
+Apache Junction  AZ,Ferrisburg  VT
+Ferrisburg  VT,Glenburn  ME
+Glenburn  ME,Ferrisburg  VT
+Ferrisburg  VT,Evansville  IN
+Evansville  IN,Ferrisburg  VT
+Ferrisburg  VT,Delaware  OH
+Delaware  OH,Ferrisburg  VT
+Ferrisburg  VT,Surprise  AZ
+Surprise  AZ,Ferrisburg  VT
+Ferrisburg  VT,Eunice  LA
+Eunice  LA,Ferrisburg  VT
+Ferrisburg  VT,Milton  FL
+Milton  FL,Ferrisburg  VT
+Ferrisburg  VT,Fort Smith  AR
+Fort Smith  AR,Ferrisburg  VT
+Ferrisburg  VT,Sandstone  MN
+Sandstone  MN,Ferrisburg  VT
+Ferrisburg  VT,Montebello  CA
+Montebello  CA,Ferrisburg  VT
+Ferrisburg  VT,Hollywood  CA
+Hollywood  CA,Ferrisburg  VT
+Ferrisburg  VT,Kingman  AZ
+Kingman  AZ,Ferrisburg  VT
+Ferrisburg  VT,Austin  TX
+Austin  TX,Ferrisburg  VT
+Ferrisburg  VT,Sanders  AZ
+Sanders  AZ,Ferrisburg  VT
+Ferrisburg  VT,Coldwater  MI
+Coldwater  MI,Ferrisburg  VT
+Katy  TX,Portland  OR
+Portland  OR,Katy  TX
+Katy  TX,Atlantic City  NJ
+Atlantic City  NJ,Katy  TX
+Katy  TX,Margate  FL
+Margate  FL,Katy  TX
+Katy  TX,Barstow  CA
+Barstow  CA,Katy  TX
+McGregor  MN,Columbus  OH
+Columbus  OH,McGregor  MN
+McGregor  MN,Heber  AZ
+Heber  AZ,McGregor  MN
+McGregor  MN,Sisseton  SD
+Sisseton  SD,McGregor  MN
+McGregor  MN,Springfield  NJ
+Springfield  NJ,McGregor  MN
+McGregor  MN,Sandy  UT
+Sandy  UT,McGregor  MN
+McGregor  MN,Vining  MN
+Vining  MN,McGregor  MN
+McGregor  MN,Daytona Beach  FL
+Daytona Beach  FL,McGregor  MN
+McGregor  MN,Vining  MI
+Vining  MI,McGregor  MN
+Montebello  CA,West Palm Beach  FL
+West Palm Beach  FL,Montebello  CA
+Montebello  CA,Centereach  NY
+Centereach  NY,Montebello  CA
+Montebello  CA,Mulino  OR
+Mulino  OR,Montebello  CA
+Montebello  CA,Dansville  NY
+Dansville  NY,Montebello  CA
+Montebello  CA,Milwaukee  WI
+Milwaukee  WI,Montebello  CA

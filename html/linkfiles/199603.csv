@@ -1,0 +1,53 @@
+origin,destination
+Issaquah  WA,Redmond  WA
+Redmond  WA,Issaquah  WA
+Issaquah  WA,Seatac  WA
+Seatac  WA,Issaquah  WA
+Issaquah  WA,Bothell  WA
+Bothell  WA,Issaquah  WA
+Issaquah  WA,Princeton  WI
+Princeton  WI,Issaquah  WA
+Issaquah  WA,Bath  IL
+Bath  IL,Issaquah  WA
+Issaquah  WA,Seattle  WA
+Seattle  WA,Issaquah  WA
+Issaquah  WA,Byron  NY
+Byron  NY,Issaquah  WA
+Issaquah  WA,Norman  OK
+Norman  OK,Issaquah  WA
+Evansville  IN,Sewickly  PA
+Sewickly  PA,Evansville  IN
+Evansville  IN,Wethersfield  CT
+Wethersfield  CT,Evansville  IN
+Evansville  IN,Houston  TX
+Houston  TX,Evansville  IN
+Seattle  WA,Woodland  CA
+Woodland  CA,Seattle  WA
+Seattle  WA,Apalachin  NY
+Apalachin  NY,Seattle  WA
+Bethesda  MD,Meridian  MS
+Meridian  MS,Bethesda  MD
+Bethesda  MD,Houston  TX
+Houston  TX,Bethesda  MD
+Bethesda  MD,Maple Valley  WA
+Maple Valley  WA,Bethesda  MD
+Salinas  CA,Guemes Island  WA
+Guemes Island  WA,Salinas  CA
+Salinas  CA,Middletown  NJ
+Middletown  NJ,Salinas  CA
+Salinas  CA,Ocalla  FL
+Ocalla  FL,Salinas  CA
+Austin  TX,Medford  NY
+Medford  NY,Austin  TX
+Austin  TX,Allentown  PA
+Allentown  PA,Austin  TX
+Pleasant Valley  CT,Thousand Oaks  CA
+Thousand Oaks  CA,Pleasant Valley  CT
+Pleasant Valley  CT,Miami  FL
+Miami  FL,Pleasant Valley  CT
+Pleasant Valley  CT,Irvine  CA
+Irvine  CA,Pleasant Valley  CT
+Auburn  WA,Anderson  CA
+Anderson  CA,Auburn  WA
+Auburn  WA,Throop  PA
+Throop  PA,Auburn  WA

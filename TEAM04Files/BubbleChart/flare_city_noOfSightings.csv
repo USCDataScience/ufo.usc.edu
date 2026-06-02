@@ -1,0 +1,251 @@
+,id,value
+0,Seattle,413
+1,Phoenix,377
+2,Los Angeles,311
+3,Las Vegas,284
+4,San Diego,280
+5,Portland,261
+6,Houston,253
+7,Chicago,227
+8,Tucson,183
+9,Austin,163
+10,Miami,161
+11,San Antonio,151
+12,Denver,149
+13,San Francisco,145
+14,Orlando,138
+15,Dallas,136
+16,Albuquerque,134
+17,San Jose,134
+18,Springfield,133
+19,Columbus,132
+20,Sacramento,132
+21,Tinley Park,131
+22,Jacksonville,117
+23,Columbia,112
+24,Washington,110
+25,Mesa,109
+26,Charlotte,108
+27,Rockford,106
+28,Salem,106
+29,Arlington,104
+30,Saint Louis,102
+31,Louisville,96
+32,Tampa,95
+33,Kansas City,95
+34,Reno,94
+35,Indianapolis,93
+36,Tacoma,93
+37,Spokane,91
+38,Colorado Springs,90
+39,Philadelphia,88
+40,Richmond,86
+41,Atlanta,85
+42,Vancouver,84
+43,Salt Lake City,83
+44,Scottsdale,81
+45,Cleveland,80
+46,Tulsa,78
+47,El Paso,78
+48,Auburn,77
+49,Omaha,76
+50,Madison,76
+51,Fresno,75
+52,Long Beach,73
+53,Minneapolis,73
+54,Nashville,73
+55,Rochester,73
+56,Everett,72
+57,Baltimore,72
+58,Bellevue,72
+59,Gilbert,71
+60,Myrtle Beach,70
+61,Lancaster,70
+62,Riverside,70
+63,Burbank,69
+64,Chandler,68
+65,Greenville,67
+66,Pittsburgh,66
+67,Memphis,66
+68,Wilmington,65
+69,Glendale,65
+70,Lincoln,64
+71,Fort Worth,64
+72,Eugene,63
+73,Cincinnati,63
+74,Grand Rapids,63
+75,Franklin,62
+76,Jackson,61
+77,Modesto,61
+78,Buffalo,60
+79,Santa Rosa,60
+80,Bellingham,59
+81,Aurora,59
+82,Oklahoma City,58
+83,Virginia Beach,58
+84,Milwaukee,57
+85,Wichita,57
+86,Albany,56
+87,Yakima,56
+88,Lexington,56
+89,Lakewood,56
+90,Gainesville,55
+91,El Cajon,55
+92,Monroe,54
+93,Boise,53
+94,Boulder,53
+95,Bakersfield,53
+96,Bremerton,52
+97,Lafayette,51
+98,Saint Paul,51
+99,Olympia,51
+100,Boston,50
+101,Newark,50
+102,Tempe,50
+103,Knoxville,50
+104,Kent,50
+105,Hayward,50
+106,Fayetteville,49
+107,Santa Barbara,49
+108,Bloomington,48
+109,Irvine,48
+110,Sedona,48
+111,Fort Lauderdale,48
+112,Santa Fe,48
+113,Renton,48
+114,Oakland,47
+115,Ashland,47
+116,Little Rock,47
+117,Fairfield,47
+118,Des Moines,46
+119,Toledo,46
+120,Simi Valley,45
+121,Saint Petersburg,45
+122,Canton,44
+123,Marion,44
+124,Fort Collins,44
+125,Henderson,44
+126,Pasadena,43
+127,Huntsville,43
+128,Alexandria,43
+129,Redding,43
+130,Plymouth,43
+131,Anchorage,42
+132,Florence,42
+133,Clinton,42
+134,Bristol,42
+135,Huntington Beach,42
+136,Kirkland,42
+137,Pensacola,41
+138,Sarasota,41
+139,Santa Monica,40
+140,Flagstaff,40
+141,Yuma,40
+142,Savannah,39
+143,Littleton,39
+144,Birmingham,39
+145,Santa Cruz,38
+146,Charleston,38
+147,Manchester,38
+148,Raleigh,38
+149,Naples,38
+150,Corpus Christi,38
+151,Longmont,37
+152,Carlsbad,37
+153,Lebanon,37
+154,Roseville,37
+155,Peoria,37
+156,West Palm Beach,37
+157,Fremont,37
+158,Loveland,37
+159,Detroit,37
+160,Redmond,36
+161,Newport,36
+162,Marysville,36
+163,Englewood,36
+164,Syracuse,36
+165,Beaverton,36
+166,Palm Springs,36
+167,Westminster,35
+168,Whittier,35
+169,Fort Wayne,35
+170,Tallahassee,35
+171,Concord,35
+172,Saint Charles,35
+173,Norwalk,35
+174,Middletown,35
+175,Greensboro,34
+176,Chico,34
+177,Burlington,34
+178,Terre Haute,34
+179,Orland Park,34
+180,Duluth,34
+181,Bothell,34
+182,Hillsboro,33
+183,Clovis,33
+184,San Bernardino,33
+185,Escondido,33
+186,Prescott,33
+187,Kennewick,33
+188,Dover,33
+189,Las Cruces,33
+190,Harrisburg,33
+191,Anaheim,33
+192,Huntington,32
+193,Surprise,32
+194,Orange,32
+195,Bowling Green,32
+196,Lake Havasu City,31
+197,Erie,31
+198,Troy,31
+199,Medford,31
+200,Baton Rouge,30
+201,Plano,30
+202,Corona,30
+203,Marietta,30
+204,Fort Smith,30
+205,Eureka,30
+206,San Marcos,30
+207,Frankfort,30
+208,Port Angeles,30
+209,Dublin,30
+210,Santa Ana,30
+211,Lynnwood,29
+212,Kingston,29
+213,Federal Way,29
+214,New Orleans,29
+215,Kokomo,29
+216,Lansing,29
+217,Milford,29
+218,Wenatchee,29
+219,Daytona Beach,29
+220,Antioch,29
+221,Grants Pass,29
+222,Roswell,29
+223,Flint,29
+224,Evansville,28
+225,Stockton,28
+226,Ocala,28
+227,Lawrence,28
+228,Edmonds,28
+229,Berkeley,28
+230,Fairbanks,28
+231,Danville,28
+232,Puyallup,28
+233,Saint Augustine,28
+234,Covington,28
+235,Napa,28
+236,Rome,27
+237,Portsmouth,27
+238,Highland,27
+239,Temecula,27
+240,Bradenton,27
+241,Palmdale,27
+242,York,27
+243,Cedar Rapids,27
+244,Murfreesboro,27
+245,Montgomery,27
+246,Santa Clara,27
+247,Sonora,26
+248,Topeka,26
+249,Decatur,26

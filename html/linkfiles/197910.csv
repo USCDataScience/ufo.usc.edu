@@ -1,0 +1,11 @@
+origin,destination
+Pittsburgh  PA,Buffalo  NY
+Buffalo  NY,Pittsburgh  PA
+Pittsburgh  PA,Olympia  WA
+Olympia  WA,Pittsburgh  PA
+Pittsburgh  PA,Lomita  CA
+Lomita  CA,Pittsburgh  PA
+Security  CO,San Diego  CA
+San Diego  CA,Security  CO
+Security  CO,Poughkeepsie  NY
+Poughkeepsie  NY,Security  CO

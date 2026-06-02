@@ -1,0 +1,453 @@
+origin,destination
+Wrightsville Beach  NC,Marietta  GA
+Marietta  GA,Wrightsville Beach  NC
+Wrightsville Beach  NC,Seattle  WA
+Seattle  WA,Wrightsville Beach  NC
+Wrightsville Beach  NC,Astoria  NY
+Astoria  NY,Wrightsville Beach  NC
+Wrightsville Beach  NC,Kent  WA
+Kent  WA,Wrightsville Beach  NC
+Wrightsville Beach  NC,Richmond  VA
+Richmond  VA,Wrightsville Beach  NC
+Wrightsville Beach  NC,Windsor Locks  CT
+Windsor Locks  CT,Wrightsville Beach  NC
+Wrightsville Beach  NC,Queensbury  NY
+Queensbury  NY,Wrightsville Beach  NC
+Roy  UT,Sedro Woolley  WA
+Sedro Woolley  WA,Roy  UT
+Roy  UT,Sebastopol  CA
+Sebastopol  CA,Roy  UT
+Roy  UT,Scio  NY
+Scio  NY,Roy  UT
+Roy  UT,Portland  OR
+Portland  OR,Roy  UT
+Roy  UT,Wrangell  AK
+Wrangell  AK,Roy  UT
+Roy  UT,Orlando  FL
+Orlando  FL,Roy  UT
+Aurora  CO,Bloomfield Hills  MI
+Bloomfield Hills  MI,Aurora  CO
+Aurora  CO,Apple Valley  MN
+Apple Valley  MN,Aurora  CO
+Aurora  CO,Shade Gap  PA
+Shade Gap  PA,Aurora  CO
+Aurora  CO,Roseville  MI
+Roseville  MI,Aurora  CO
+Sparks  NV,Eugene  OR
+Eugene  OR,Sparks  NV
+Sparks  NV,Truckee  CA
+Truckee  CA,Sparks  NV
+Sparks  NV,Murfreesboro  TN
+Murfreesboro  TN,Sparks  NV
+Sparks  NV,Prescott  FL
+Prescott  FL,Sparks  NV
+Utica  KY,Tualatin  OR
+Tualatin  OR,Utica  KY
+Utica  KY,Sedro Woolley  WA
+Sedro Woolley  WA,Utica  KY
+Utica  KY,Huntsville  AL
+Huntsville  AL,Utica  KY
+Utica  KY,Norfolk  VA
+Norfolk  VA,Utica  KY
+Utica  KY,Palm Springs  CA
+Palm Springs  CA,Utica  KY
+Utica  KY,Marion  MA
+Marion  MA,Utica  KY
+Johnson City  TN,Phoenix  AZ
+Phoenix  AZ,Johnson City  TN
+Johnson City  TN,Fort Worth  TX
+Fort Worth  TX,Johnson City  TN
+Johnson City  TN,El Cajon  CA
+El Cajon  CA,Johnson City  TN
+Johnson City  TN,Loveland  CO
+Loveland  CO,Johnson City  TN
+Johnson City  TN,Ridgeland  MS
+Ridgeland  MS,Johnson City  TN
+Johnson City  TN,West Hampton  NY
+West Hampton  NY,Johnson City  TN
+Johnson City  TN,Hopkinton  MA
+Hopkinton  MA,Johnson City  TN
+Johnson City  TN,Valentine  TX
+Valentine  TX,Johnson City  TN
+Lancaster  PA,Redmond  WA
+Redmond  WA,Lancaster  PA
+Lancaster  PA,York  PA
+York  PA,Lancaster  PA
+Lancaster  PA,Wilmington  DE
+Wilmington  DE,Lancaster  PA
+Lancaster  PA,Fargo  ND
+Fargo  ND,Lancaster  PA
+Lancaster  PA,Shelton  WA
+Shelton  WA,Lancaster  PA
+Lancaster  PA,Rochester  NY
+Rochester  NY,Lancaster  PA
+Lancaster  PA,Antioch  CA
+Antioch  CA,Lancaster  PA
+Lancaster  PA,Memphis  TN
+Memphis  TN,Lancaster  PA
+Lancaster  PA,East Williston  NY
+East Williston  NY,Lancaster  PA
+Lancaster  PA,Sonora  CA
+Sonora  CA,Lancaster  PA
+Lancaster  PA,Stevensville  MT
+Stevensville  MT,Lancaster  PA
+Lancaster  PA,Johnston  RI
+Johnston  RI,Lancaster  PA
+Pottstown  PA,Arlington  TX
+Arlington  TX,Pottstown  PA
+Pottstown  PA,Winsted  CT
+Winsted  CT,Pottstown  PA
+Pottstown  PA,Sacramento  CA
+Sacramento  CA,Pottstown  PA
+Pottstown  PA,Mayfield Heights  OH
+Mayfield Heights  OH,Pottstown  PA
+Sterling  OK,Guilderland  NY
+Guilderland  NY,Sterling  OK
+Sterling  OK,Portland  OR
+Portland  OR,Sterling  OK
+Sterling  OK,Jackson  MO
+Jackson  MO,Sterling  OK
+Phoenix  AZ,North Dallas  TX
+North Dallas  TX,Phoenix  AZ
+Phoenix  AZ,Fort Worth  TX
+Fort Worth  TX,Phoenix  AZ
+Phoenix  AZ,Moorsville  NC
+Moorsville  NC,Phoenix  AZ
+Phoenix  AZ,Reinbeck  IA
+Reinbeck  IA,Phoenix  AZ
+Phoenix  AZ,Eugene  OR
+Eugene  OR,Phoenix  AZ
+Phoenix  AZ,Toledo  OH
+Toledo  OH,Phoenix  AZ
+Phoenix  AZ,Burke  VA
+Burke  VA,Phoenix  AZ
+Phoenix  AZ,Boulder  MT
+Boulder  MT,Phoenix  AZ
+Phoenix  AZ,College Park  MD
+College Park  MD,Phoenix  AZ
+Phoenix  AZ,Great Falls  MT
+Great Falls  MT,Phoenix  AZ
+Phoenix  AZ,Cleveland  OH
+Cleveland  OH,Phoenix  AZ
+Phoenix  AZ,Barnegat Light  NJ
+Barnegat Light  NJ,Phoenix  AZ
+Phoenix  AZ,Fort Yates  ND
+Fort Yates  ND,Phoenix  AZ
+Phoenix  AZ,Miami  FL
+Miami  FL,Phoenix  AZ
+Phoenix  AZ,Bozeman  MT
+Bozeman  MT,Phoenix  AZ
+Phoenix  AZ,Columbus  OH
+Columbus  OH,Phoenix  AZ
+Phoenix  AZ,Klingerstown  PA
+Klingerstown  PA,Phoenix  AZ
+Longmont  CO,Mercer Island  WA
+Mercer Island  WA,Longmont  CO
+Longmont  CO,Kansas City  MO
+Kansas City  MO,Longmont  CO
+Longmont  CO,Maryville  TN
+Maryville  TN,Longmont  CO
+Longmont  CO,Gardiner  NY
+Gardiner  NY,Longmont  CO
+Longmont  CO,Arlington  TX
+Arlington  TX,Longmont  CO
+Longmont  CO,Olympia  WA
+Olympia  WA,Longmont  CO
+Kenner  LA,San Jose  CA
+San Jose  CA,Kenner  LA
+Kenner  LA,North Branch  MN
+North Branch  MN,Kenner  LA
+Kenner  LA,Baton Rouge  LA
+Baton Rouge  LA,Kenner  LA
+Kenner  LA,Hampton  GA
+Hampton  GA,Kenner  LA
+Kenner  LA,Bismarck  ND
+Bismarck  ND,Kenner  LA
+Kenner  LA,Stow  OH
+Stow  OH,Kenner  LA
+Kenner  LA,Westmont  IL
+Westmont  IL,Kenner  LA
+Kenner  LA,Modesto  CA
+Modesto  CA,Kenner  LA
+Kenner  LA,Longmont  CO
+Longmont  CO,Kenner  LA
+Kenner  LA,St Marie  CA
+St Marie  CA,Kenner  LA
+Kenner  LA,Kennewick  WA
+Kennewick  WA,Kenner  LA
+Kenner  LA,Albuquerque  NM
+Albuquerque  NM,Kenner  LA
+Eugene  OR,Round Rock  TX
+Round Rock  TX,Eugene  OR
+Eugene  OR,Spring Valley  CA
+Spring Valley  CA,Eugene  OR
+Eugene  OR,Denver  CO
+Denver  CO,Eugene  OR
+Eugene  OR,Lebanon  NH
+Lebanon  NH,Eugene  OR
+Eugene  OR,Firebaugh Exit  CA
+Firebaugh Exit  CA,Eugene  OR
+Eugene  OR,Bear Valley  CA
+Bear Valley  CA,Eugene  OR
+Eugene  OR,South Bend  IN
+South Bend  IN,Eugene  OR
+Eugene  OR,Eldon  MO
+Eldon  MO,Eugene  OR
+Eugene  OR,La Mesa  CA
+La Mesa  CA,Eugene  OR
+Eugene  OR,West Lebanon  NH
+West Lebanon  NH,Eugene  OR
+Eugene  OR,Junction  TX
+Junction  TX,Eugene  OR
+Eugene  OR,Savannah  GA
+Savannah  GA,Eugene  OR
+Eugene  OR,Pelzer  SC
+Pelzer  SC,Eugene  OR
+Eugene  OR,Cashion  AZ
+Cashion  AZ,Eugene  OR
+Eugene  OR,Roswell  NM
+Roswell  NM,Eugene  OR
+Eugene  OR,Cranston  RI
+Cranston  RI,Eugene  OR
+Meriden  CT,San Bernardino  CA
+San Bernardino  CA,Meriden  CT
+Meriden  CT,Renton  WA
+Renton  WA,Meriden  CT
+Meriden  CT,Granite Falls  WA
+Granite Falls  WA,Meriden  CT
+Meriden  CT,Plainfield  IL
+Plainfield  IL,Meriden  CT
+Meriden  CT,Yukon  OK
+Yukon  OK,Meriden  CT
+Meriden  CT,Scituate  RI
+Scituate  RI,Meriden  CT
+Meriden  CT,Redmond  WA
+Redmond  WA,Meriden  CT
+Meriden  CT,Maupin  OR
+Maupin  OR,Meriden  CT
+Meriden  CT,Phoenix  AZ
+Phoenix  AZ,Meriden  CT
+Meriden  CT,Pembroke Pines  FL
+Pembroke Pines  FL,Meriden  CT
+Meriden  CT,Anchorage  AK
+Anchorage  AK,Meriden  CT
+Meriden  CT,Palmdale  CA
+Palmdale  CA,Meriden  CT
+Meriden  CT,Kill Devil Hills  NC
+Kill Devil Hills  NC,Meriden  CT
+Meriden  CT,Bel Air  MD
+Bel Air  MD,Meriden  CT
+Meriden  CT,Morgantown  WV
+Morgantown  WV,Meriden  CT
+Meriden  CT,Gulf Shores  AL
+Gulf Shores  AL,Meriden  CT
+Fallon  NV,Granite Falls  WA
+Granite Falls  WA,Fallon  NV
+Fallon  NV,Holladay  UT
+Holladay  UT,Fallon  NV
+Fallon  NV,Scituate  MA
+Scituate  MA,Fallon  NV
+Fallon  NV,Monroe  LA
+Monroe  LA,Fallon  NV
+Fallon  NV,College Fjord  AK
+College Fjord  AK,Fallon  NV
+Issaquah  WA,Sultan  WA
+Sultan  WA,Issaquah  WA
+Issaquah  WA,Mercer Island  WA
+Mercer Island  WA,Issaquah  WA
+Issaquah  WA,Weed  CA
+Weed  CA,Issaquah  WA
+Issaquah  WA,Meriden  CT
+Meriden  CT,Issaquah  WA
+Issaquah  WA,Lincoln  NE
+Lincoln  NE,Issaquah  WA
+Issaquah  WA,Cairo  NY
+Cairo  NY,Issaquah  WA
+Issaquah  WA,Chula Vista  CA
+Chula Vista  CA,Issaquah  WA
+Issaquah  WA,Plymouth  MN
+Plymouth  MN,Issaquah  WA
+Issaquah  WA,Whitesboro  NY
+Whitesboro  NY,Issaquah  WA
+Minneapolis  MN,Shorewood  MN
+Shorewood  MN,Minneapolis  MN
+Minneapolis  MN,Baltimore  MD
+Baltimore  MD,Minneapolis  MN
+Chicago  IL,Peekskill  NY
+Peekskill  NY,Chicago  IL
+Chicago  IL,Grand Marais  MN
+Grand Marais  MN,Chicago  IL
+Chicago  IL,Salida  CO
+Salida  CO,Chicago  IL
+Chicago  IL,Bethel Island  CA
+Bethel Island  CA,Chicago  IL
+Woodbury  CT,Lovell  ME
+Lovell  ME,Woodbury  CT
+Woodbury  CT,Pearland  TX
+Pearland  TX,Woodbury  CT
+Woodbury  CT,Dexter  KS
+Dexter  KS,Woodbury  CT
+Woodbury  CT,Boise  ID
+Boise  ID,Woodbury  CT
+Phoenixville  PA,Redondo Beach  CA
+Redondo Beach  CA,Phoenixville  PA
+Phoenixville  PA,Tega Cay  SC
+Tega Cay  SC,Phoenixville  PA
+Phoenixville  PA,Greenville  SC
+Greenville  SC,Phoenixville  PA
+Phoenixville  PA,Denver  CO
+Denver  CO,Phoenixville  PA
+Phoenixville  PA,Silver City  NM
+Silver City  NM,Phoenixville  PA
+Phoenixville  PA,Englewood  CO
+Englewood  CO,Phoenixville  PA
+Phoenixville  PA,Midlothian  IL
+Midlothian  IL,Phoenixville  PA
+West Chester  PA,Susanville  CA
+Susanville  CA,West Chester  PA
+West Chester  PA,Denver  CO
+Denver  CO,West Chester  PA
+West Chester  PA,Springview  NE
+Springview  NE,West Chester  PA
+West Chester  PA,San Diego  CA
+San Diego  CA,West Chester  PA
+West Chester  PA,Canyon  TX
+Canyon  TX,West Chester  PA
+West Chester  PA,Sea Isle  NJ
+Sea Isle  NJ,West Chester  PA
+West Chester  PA,Long Beach  MS
+Long Beach  MS,West Chester  PA
+West Chester  PA,Millersville  TN
+Millersville  TN,West Chester  PA
+West Chester  PA,Clermont  GA
+Clermont  GA,West Chester  PA
+Haltom City  TX,Luling  LA
+Luling  LA,Haltom City  TX
+Haltom City  TX,Midland  TX
+Midland  TX,Haltom City  TX
+Haltom City  TX,Vienna  MO
+Vienna  MO,Haltom City  TX
+Haltom City  TX,Madison  CT
+Madison  CT,Haltom City  TX
+Haltom City  TX,Social Hill  AR
+Social Hill  AR,Haltom City  TX
+Haltom City  TX,Topeka  KS
+Topeka  KS,Haltom City  TX
+Haltom City  TX,Indianapolis  IN
+Indianapolis  IN,Haltom City  TX
+Haltom City  TX,Carlsbad  CA
+Carlsbad  CA,Haltom City  TX
+Baton Rouge  LA,Coppell  TX
+Coppell  TX,Baton Rouge  LA
+Baton Rouge  LA,Westerly  RI
+Westerly  RI,Baton Rouge  LA
+Baton Rouge  LA,Terre Haute  IN
+Terre Haute  IN,Baton Rouge  LA
+Baton Rouge  LA,Flagler  FL
+Flagler  FL,Baton Rouge  LA
+Baton Rouge  LA,Danville  VA
+Danville  VA,Baton Rouge  LA
+Baton Rouge  LA,Garden Grove  CA
+Garden Grove  CA,Baton Rouge  LA
+Baton Rouge  LA,Sunol  CA
+Sunol  CA,Baton Rouge  LA
+Baton Rouge  LA,Chatsworth  NJ
+Chatsworth  NJ,Baton Rouge  LA
+Kenner  LA,Hampton  VA
+Hampton  VA,Kenner  LA
+Kenner  LA,West Palm Beach  FL
+West Palm Beach  FL,Kenner  LA
+Kenner  LA,Beaumont  TX
+Beaumont  TX,Kenner  LA
+Kenner  LA,Celoron  NY
+Celoron  NY,Kenner  LA
+Corinth  KY,Vienna  MO
+Vienna  MO,Corinth  KY
+Corinth  KY,Baker  LA
+Baker  LA,Corinth  KY
+Corinth  KY,Fremont  CA
+Fremont  CA,Corinth  KY
+Corinth  KY,Liberty Hill  TX
+Liberty Hill  TX,Corinth  KY
+Corinth  KY,New York City  NY
+New York City  NY,Corinth  KY
+Corinth  KY,West Los Angeles  CA
+West Los Angeles  CA,Corinth  KY
+Corinth  KY,Pahrump  NV
+Pahrump  NV,Corinth  KY
+Sedona  AZ,Boynton Beach  FL
+Boynton Beach  FL,Sedona  AZ
+Sedona  AZ,Englewood  CO
+Englewood  CO,Sedona  AZ
+Sedona  AZ,Albuquerque  NM
+Albuquerque  NM,Sedona  AZ
+Sedona  AZ,San Jaun  Batista  CA
+San Jaun  Batista  CA,Sedona  AZ
+Sedona  AZ,Nordland  WA
+Nordland  WA,Sedona  AZ
+Sedona  AZ,Cocoa Beach  FL
+Cocoa Beach  FL,Sedona  AZ
+Sedona  AZ,Washington  IL
+Washington  IL,Sedona  AZ
+Sedona  AZ,Durham  NC
+Durham  NC,Sedona  AZ
+Sedona  AZ,Fresno  CA
+Fresno  CA,Sedona  AZ
+Kingsville  OH,Verona  NY
+Verona  NY,Kingsville  OH
+Kingsville  OH,Ohio (eastern)  OH
+Ohio (eastern)  OH,Kingsville  OH
+Kingsville  OH,Herkimer  NY
+Herkimer  NY,Kingsville  OH
+Kingsville  OH,Fort Wayne  IN
+Fort Wayne  IN,Kingsville  OH
+Kingsville  OH,New York City  NY
+New York City  NY,Kingsville  OH
+Kingsville  OH,Neptune  NJ
+Neptune  NJ,Kingsville  OH
+Kingsville  OH,Malden Bridge  NY
+Malden Bridge  NY,Kingsville  OH
+Kingsville  OH,Morgantown  WV
+Morgantown  WV,Kingsville  OH
+Kingsville  OH,Cottage Grove  OR
+Cottage Grove  OR,Kingsville  OH
+Kingsville  OH,New Philadelphia  OH
+New Philadelphia  OH,Kingsville  OH
+Kingsville  OH,Elkins  WV
+Elkins  WV,Kingsville  OH
+Kingsville  OH,Beaver  WV
+Beaver  WV,Kingsville  OH
+Kingsville  OH,Palm Bay  FL
+Palm Bay  FL,Kingsville  OH
+Kingsville  OH,Endwell  NY
+Endwell  NY,Kingsville  OH
+Kingsville  OH,Au Sable Forks  NY
+Au Sable Forks  NY,Kingsville  OH
+Kingsville  OH,Willowick  OH
+Willowick  OH,Kingsville  OH
+Kingsville  OH,Bristol  TN
+Bristol  TN,Kingsville  OH
+Kingsville  OH,Salem  CT
+Salem  CT,Kingsville  OH
+Kingsville  OH,North Kingstown  RI
+North Kingstown  RI,Kingsville  OH
+Kingsville  OH,Kennett Square  PA
+Kennett Square  PA,Kingsville  OH
+Kingsville  OH,Nashville  TN
+Nashville  TN,Kingsville  OH
+Kingsville  OH,Danville  CA
+Danville  CA,Kingsville  OH
+Kingsville  OH,Choctaw  OK
+Choctaw  OK,Kingsville  OH
+Kingsville  OH,Wellsboro  PA
+Wellsboro  PA,Kingsville  OH
+Kingsville  OH,Santa Fe  NM
+Santa Fe  NM,Kingsville  OH
+Kingsville  OH,Reynoldsburg  OH
+Reynoldsburg  OH,Kingsville  OH
+Kingsville  OH,Sea Girt  NJ
+Sea Girt  NJ,Kingsville  OH
+Kingsville  OH,Tinley Park  IL
+Tinley Park  IL,Kingsville  OH
+Kingsville  OH,Raynham  MA
+Raynham  MA,Kingsville  OH

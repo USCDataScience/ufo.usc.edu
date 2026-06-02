@@ -1,0 +1,29 @@
+origin,destination
+Phoenix  AZ,Key Largo  FL
+Key Largo  FL,Phoenix  AZ
+Phoenix  AZ,Elizabethtown  NC
+Elizabethtown  NC,Phoenix  AZ
+Phoenix  AZ,Seattle  WA
+Seattle  WA,Phoenix  AZ
+Phoenix  AZ,San Diego  CA
+San Diego  CA,Phoenix  AZ
+Phoenix  AZ,Crescent City  CA
+Crescent City  CA,Phoenix  AZ
+Lancaster  MO,Osage Beach  MO
+Osage Beach  MO,Lancaster  MO
+Lancaster  MO,Springfield  MO
+Springfield  MO,Lancaster  MO
+Lancaster  MO,Selma  OR
+Selma  OR,Lancaster  MO
+Collinsville  IL,Chesterfield  VA
+Chesterfield  VA,Collinsville  IL
+Collinsville  IL,Charleston  SC
+Charleston  SC,Collinsville  IL
+Spanaway  WA,Panama City Beach  FL
+Panama City Beach  FL,Spanaway  WA
+Spanaway  WA,Hill City  MN
+Hill City  MN,Spanaway  WA
+Phoenix  AZ,Bartlett  TN
+Bartlett  TN,Phoenix  AZ
+Phoenix  AZ,Redding  CA
+Redding  CA,Phoenix  AZ

@@ -1,0 +1,51 @@
+State,DUI,Fatalities,Population,Sunday.Sales
+Alabama,7863,247,4858979,Prohibited
+Alaska,3163,24,738432,Permitted
+Arizona,22367,272,6828065,Permitted
+Arkansas,6919,149,2978204,Local
+California,141458,914,39144818,Permitted
+Colorado,25562,151,5456574,Permitted
+Connecticut,8148,103,3590886,Local
+Delaware,386,42,945934,Permitted
+Florida,31783,797,20271272,Local
+Georgia,19217,365,10214860,Local
+Hawaii,5250,33,1431603,Permitted
+Idaho,5844,70,1654930,Local
+Illinois,3659,307,12859995,Local
+Indiana,14428,178,6619680,Prohibited
+Iowa,9028,78,3123899,Permitted
+Kansas,7186,84,2911641,Local
+Kentucky,17825,192,4425092,Local
+Louisiana,5598,253,4670724,Local
+Maine,5756,52,1329328,Permitted
+Maryland,17100,160,6006401,Local
+Massachusetts,8258,96,6794422,Local
+Michigan,26845,268,9922576,Local
+Minnesota,20830,115,5489594,Permitted
+Mississippi,6889,175,2992333,Prohibited
+Missouri,19449,224,6083672,Permitted
+Montana,3674,76,1032949,Prohibited
+Nebraska,5348,65,1896190,Local
+Nevada,7612,96,2890845,Local
+New Hampshire,4746,33,1330608,Restricted
+New Jersey,22201,111,8958013,Local
+New Mexico,8542,98,2085109,Local
+New York,28988,311,19795791,Permitted
+North Carolina,35967,411,10042802,Prohibited
+North Dakota,6351,50,756927,Local
+Ohio,34254,313,11613423,Local
+Oklahoma,11101,170,3911338,Prohibited
+Oregon,9019,155,4028977,Permitted
+Pennsylvania,44615,363,12802503,Restricted
+Rhode Island,2591,19,1056298,Permitted
+South Carolina,16272,301,4896146,Prohibited
+South Dakota,7305,44,858469,Local
+Tennessee,23150,251,6600299,Prohibited
+Texas,64971,1323,27469114,Prohibited
+Utah,8813,43,2995919,Prohibited
+Vermont,2144,16,626042,Permitted
+Virginia,20477,208,8382993,Restricted
+Washington,24627,147,7170351,Permitted
+West Virginia,4543,71,1844128,Prohibited
+Wisconsin,24588,189,5771337,Permitted
+Wyoming,3157,56,586107,Permitted

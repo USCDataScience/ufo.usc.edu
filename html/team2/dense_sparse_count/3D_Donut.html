@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 1210px;
+  height: 800px;
+  position: relative;
+}
+path.slice{
+	stroke-width:10px;
+}
+polyline{
+	opacity: .3;
+	stroke: black;
+	stroke-width: 2px;
+	fill: none;
+}
+svg text.percent{
+	fill:white;
+	text-anchor:middle;
+	font-size:12px;
+}
+
+td {
+    text-align: center;
+}
+
+</style>
+
+<body>
+<h2>UFO sightings : Densely populated areas vs Sparsely populated areas based on year</h2>
+<p>This visualization has side to side comparision of the UFO Sightings that happened in densely populated areas vs sparsely populated areas based on year.</p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="Donut3D.js"></script>
+<script>
+
+var margin = {top: 20, right: 80, bottom: 30, left: 100};
+var svg = d3.select("body").append("svg").attr("width",1200).attr("height",550);
+
+svg.append("g").attr("id","Dense_Population");
+svg.append("g").attr("id","Sparse_Population");
+
+//Random Color Generator
+function getRandomColor() {
+  var letters = '0123456789ABCDEF';
+  var color = '#';
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+
+//Fetch the population.json and split the data into Dense_Population and Sparse Population and draw the 3D Donuts for both Dense and Sparse Population
+$.getJSON('population.json', function(data) {
+    dense_population_data = data["Data"][0]["Dense"]
+    sparse_population_data = data["Data"][1]["Sparse"]
+
+
+    Donut3D.draw("Dense_Population", denseData(), 290, 250, 290, 230, 30, 0.4);
+    Donut3D.draw("Sparse_Population", sparseData(), 880, 250, 290, 230, 30, 0);
+
+
+    function denseData(){
+	return dense_population_data.map(function(d){
+		return {label:d.Year, value:d.Dense, color:getRandomColor()};});
+    }
+
+    function sparseData(){
+	return sparse_population_data.map(function(d){
+		return {label:d.Year, value:d.Sparse, color:getRandomColor()};});
+    }
+
+});
+
+</script>
+
+<div>
+    <table style="width:1200px">
+        <tr>
+            <td><h1>Dense</h1></td>
+            <td><h1>Sparse</h1></td>
+        </tr>
+    </table>
+</div>
+
+</body>

@@ -1,0 +1,417 @@
+origin,destination
+Brighton  MA,Brooklyn  CT
+Brooklyn  CT,Brighton  MA
+Brighton  MA,Pie Town  NM
+Pie Town  NM,Brighton  MA
+Brighton  MA,Hillsboro  OH
+Hillsboro  OH,Brighton  MA
+Brighton  MA,Ashgrove  MO
+Ashgrove  MO,Brighton  MA
+Brighton  MA,Providence  RI
+Providence  RI,Brighton  MA
+Brighton  MA,Arcadia  CA
+Arcadia  CA,Brighton  MA
+Brighton  MA,Franklinton  LA
+Franklinton  LA,Brighton  MA
+Brighton  MA,Monticello  IN
+Monticello  IN,Brighton  MA
+Brighton  MA,Destin  FL
+Destin  FL,Brighton  MA
+Brighton  MA,Evergreen  CO
+Evergreen  CO,Brighton  MA
+Brighton  MA,Linglestown  PA
+Linglestown  PA,Brighton  MA
+Kirkland  WA,National Park  CA
+National Park  CA,Kirkland  WA
+Kirkland  WA,Fort Lauderdale  FL
+Fort Lauderdale  FL,Kirkland  WA
+Hegins  PA,River Falls  WI
+River Falls  WI,Hegins  PA
+Hegins  PA,Tacoma  WA
+Tacoma  WA,Hegins  PA
+Hegins  PA,Weehawken  NJ
+Weehawken  NJ,Hegins  PA
+Austin  TX,Baton Rouge  LA
+Baton Rouge  LA,Austin  TX
+Austin  TX,Monticello  IN
+Monticello  IN,Austin  TX
+Austin  TX,Murrieta  CA
+Murrieta  CA,Austin  TX
+Austin  TX,Corpus Christi  TX
+Corpus Christi  TX,Austin  TX
+Austin  TX,Dale Hollow Lake  TN
+Dale Hollow Lake  TN,Austin  TX
+Austin  TX,Glendale  AZ
+Glendale  AZ,Austin  TX
+Austin  TX,Zelienople  PA
+Zelienople  PA,Austin  TX
+Austin  TX,Lakeville  MN
+Lakeville  MN,Austin  TX
+Austin  TX,Harbor Springs  MI
+Harbor Springs  MI,Austin  TX
+Austin  TX,Jackson  KY
+Jackson  KY,Austin  TX
+Austin  TX,Highland  CA
+Highland  CA,Austin  TX
+Austin  TX,New York City  NY
+New York City  NY,Austin  TX
+Austin  TX,Littleton  CO
+Littleton  CO,Austin  TX
+Austin  TX,Bedford  TX
+Bedford  TX,Austin  TX
+Austin  TX,Seattle  WA
+Seattle  WA,Austin  TX
+Austin  TX,Lakeland  FL
+Lakeland  FL,Austin  TX
+Austin  TX,Cleveland  OH
+Cleveland  OH,Austin  TX
+Austin  TX,Waynesboro  VA
+Waynesboro  VA,Austin  TX
+Austin  TX,West Palm Beach  FL
+West Palm Beach  FL,Austin  TX
+Fort Smith  AR,Lakeville  MN
+Lakeville  MN,Fort Smith  AR
+Fort Smith  AR,Torrington  CT
+Torrington  CT,Fort Smith  AR
+Fort Smith  AR,Depew  NY
+Depew  NY,Fort Smith  AR
+Fort Smith  AR,Jackson  MI
+Jackson  MI,Fort Smith  AR
+Fort Smith  AR,Montrose  CO
+Montrose  CO,Fort Smith  AR
+Fort Smith  AR,Davenport  IA
+Davenport  IA,Fort Smith  AR
+Austin  TX,Pacheco  CA
+Pacheco  CA,Austin  TX
+Austin  TX,Waikele  HI
+Waikele  HI,Austin  TX
+Austin  TX,Maywood  CA
+Maywood  CA,Austin  TX
+Austin  TX,Euless  TX
+Euless  TX,Austin  TX
+Austin  TX,Puxico  MO
+Puxico  MO,Austin  TX
+Austin  TX,Park City  UT
+Park City  UT,Austin  TX
+Asheboro  NC,Mastic Beach  NY
+Mastic Beach  NY,Asheboro  NC
+Asheboro  NC,Vine Grove  KY
+Vine Grove  KY,Asheboro  NC
+Asheboro  NC,Darien Center  NY
+Darien Center  NY,Asheboro  NC
+Asheboro  NC,Sonora  CA
+Sonora  CA,Asheboro  NC
+Asheboro  NC,Mount Cobb  PA
+Mount Cobb  PA,Asheboro  NC
+Asheboro  NC,North Hollywood  CA
+North Hollywood  CA,Asheboro  NC
+Asheboro  NC,Columbia  MO
+Columbia  MO,Asheboro  NC
+Asheboro  NC,Alpharetta  GA
+Alpharetta  GA,Asheboro  NC
+Asheboro  NC,Ellicott City  MD
+Ellicott City  MD,Asheboro  NC
+Asheboro  NC,Marblehead  MA
+Marblehead  MA,Asheboro  NC
+Seattle  WA,Palo Alto  CA
+Palo Alto  CA,Seattle  WA
+Seattle  WA,Sunnyside  WA
+Sunnyside  WA,Seattle  WA
+Seattle  WA,Auburn Hills  MI
+Auburn Hills  MI,Seattle  WA
+Seattle  WA,Lead  SD
+Lead  SD,Seattle  WA
+Seattle  WA,Torrington  CT
+Torrington  CT,Seattle  WA
+Seattle  WA,North Bend  OR
+North Bend  OR,Seattle  WA
+Seattle  WA,Fairbanks  AK
+Fairbanks  AK,Seattle  WA
+Seattle  WA,Sequim  WA
+Sequim  WA,Seattle  WA
+Seattle  WA,Lithia Springs  GA
+Lithia Springs  GA,Seattle  WA
+Casselberry  FL,Kingwood  TX
+Kingwood  TX,Casselberry  FL
+Casselberry  FL,Los Angeles  CA
+Los Angeles  CA,Casselberry  FL
+Casselberry  FL,Colorado Springs  CO
+Colorado Springs  CO,Casselberry  FL
+Casselberry  FL,Franklin  MA
+Franklin  MA,Casselberry  FL
+Casselberry  FL,Honolulu  HI
+Honolulu  HI,Casselberry  FL
+Casselberry  FL,Harleysville  PA
+Harleysville  PA,Casselberry  FL
+Casselberry  FL,South Phoenix  AZ
+South Phoenix  AZ,Casselberry  FL
+Dallas  TX,Carroll  IA
+Carroll  IA,Dallas  TX
+Dallas  TX,Irving  TX
+Irving  TX,Dallas  TX
+Dallas  TX,Tucson  AZ
+Tucson  AZ,Dallas  TX
+Dallas  TX,Rockland  ME
+Rockland  ME,Dallas  TX
+Salinas  CA,Antioch  CA
+Antioch  CA,Salinas  CA
+Salinas  CA,Copperas Cove  TX
+Copperas Cove  TX,Salinas  CA
+Salinas  CA,Robinson  TX
+Robinson  TX,Salinas  CA
+Salinas  CA,Lewiston  ME
+Lewiston  ME,Salinas  CA
+Salinas  CA,Oklahoma City  OK
+Oklahoma City  OK,Salinas  CA
+Salinas  CA,Charlotte  NC
+Charlotte  NC,Salinas  CA
+Salinas  CA,Rancho Cucamonga  CA
+Rancho Cucamonga  CA,Salinas  CA
+Salinas  CA,Warren  OH
+Warren  OH,Salinas  CA
+Salinas  CA,Eureka  CA
+Eureka  CA,Salinas  CA
+Salinas  CA,Gainesville  FL
+Gainesville  FL,Salinas  CA
+Salinas  CA,Willow River  MN
+Willow River  MN,Salinas  CA
+Salinas  CA,Union  MO
+Union  MO,Salinas  CA
+Salinas  CA,Omaha  NE
+Omaha  NE,Salinas  CA
+Salinas  CA,Minot  ND
+Minot  ND,Salinas  CA
+Salinas  CA,Independence  MO
+Independence  MO,Salinas  CA
+Wallingford  VT,Poulsbo  WA
+Poulsbo  WA,Wallingford  VT
+Wallingford  VT,Truth or Consequences  NM
+Truth or Consequences  NM,Wallingford  VT
+Wallingford  VT,Albuquerque  NM
+Albuquerque  NM,Wallingford  VT
+Wallingford  VT,Myrtle Beach  SC
+Myrtle Beach  SC,Wallingford  VT
+Wallingford  VT,Grand Rapids  MN
+Grand Rapids  MN,Wallingford  VT
+Wallingford  VT,Pasadena  CA
+Pasadena  CA,Wallingford  VT
+Wallingford  VT,Marysville  WA
+Marysville  WA,Wallingford  VT
+Wallingford  VT,Grand Junction  CO
+Grand Junction  CO,Wallingford  VT
+Wallingford  VT,Boss  MO
+Boss  MO,Wallingford  VT
+Wallingford  VT,Topanga  CA
+Topanga  CA,Wallingford  VT
+Wallingford  VT,Frostburg  MD
+Frostburg  MD,Wallingford  VT
+Wallingford  VT,Charlotte  NC
+Charlotte  NC,Wallingford  VT
+Austin  TX,San Antonio  TX
+San Antonio  TX,Austin  TX
+Austin  TX,Grand Junction  CO
+Grand Junction  CO,Austin  TX
+Austin  TX,Littleton  CO
+Littleton  CO,Austin  TX
+Austin  TX,Phoenix  AZ
+Phoenix  AZ,Austin  TX
+Austin  TX,China Lake  CA
+China Lake  CA,Austin  TX
+Austin  TX,Dugas  AZ
+Dugas  AZ,Austin  TX
+Austin  TX,Sonora  CA
+Sonora  CA,Austin  TX
+Austin  TX,Eureka  CA
+Eureka  CA,Austin  TX
+Austin  TX,Bremerton  WA
+Bremerton  WA,Austin  TX
+Austin  TX,Gatesville  NC
+Gatesville  NC,Austin  TX
+Austin  TX,Scottsdale  AZ
+Scottsdale  AZ,Austin  TX
+Austin  TX,New York City  NY
+New York City  NY,Austin  TX
+Austin  TX,Duluth  MN
+Duluth  MN,Austin  TX
+Chicago  IL,Rancho Cucamonga  CA
+Rancho Cucamonga  CA,Chicago  IL
+Chicago  IL,Marion  MI
+Marion  MI,Chicago  IL
+Chicago  IL,Sedona  MT
+Sedona  MT,Chicago  IL
+Temecula  CA,Canton  OH
+Canton  OH,Temecula  CA
+Temecula  CA,Huron  OH
+Huron  OH,Temecula  CA
+Temecula  CA,Manchester  NH
+Manchester  NH,Temecula  CA
+Temecula  CA,Conway  SC
+Conway  SC,Temecula  CA
+Temecula  CA,Johnson City  TN
+Johnson City  TN,Temecula  CA
+Temecula  CA,Waynesburg  OH
+Waynesburg  OH,Temecula  CA
+Temecula  CA,Blue Mound  IL
+Blue Mound  IL,Temecula  CA
+Crozet  VA,Coatesville  PA
+Coatesville  PA,Crozet  VA
+Crozet  VA,Southern Pines  NC
+Southern Pines  NC,Crozet  VA
+Crozet  VA,Watauga  TN
+Watauga  TN,Crozet  VA
+Crozet  VA,Berkeley  CA
+Berkeley  CA,Crozet  VA
+Crozet  VA,Shumway  IL
+Shumway  IL,Crozet  VA
+Crozet  VA,Tryon  NC
+Tryon  NC,Crozet  VA
+Crozet  VA,Prescott  AZ
+Prescott  AZ,Crozet  VA
+Crozet  VA,San Francisco  CA
+San Francisco  CA,Crozet  VA
+Crozet  VA,Whitney  TX
+Whitney  TX,Crozet  VA
+Crozet  VA,Chandler  AZ
+Chandler  AZ,Crozet  VA
+Crozet  VA,Edmonds  WA
+Edmonds  WA,Crozet  VA
+Crozet  VA,San Diego  CA
+San Diego  CA,Crozet  VA
+Crozet  VA,Pine Bush  NY
+Pine Bush  NY,Crozet  VA
+Crozet  VA,Florence  SC
+Florence  SC,Crozet  VA
+Columbus  OH,Portland  OR
+Portland  OR,Columbus  OH
+Columbus  OH,Cincinnati  OH
+Cincinnati  OH,Columbus  OH
+Columbus  OH,Brick  NJ
+Brick  NJ,Columbus  OH
+Columbus  OH,Bremerton  WA
+Bremerton  WA,Columbus  OH
+Columbus  OH,Eagle  WI
+Eagle  WI,Columbus  OH
+Columbus  OH,Browns Point  WA
+Browns Point  WA,Columbus  OH
+Columbus  OH,Levasy  MO
+Levasy  MO,Columbus  OH
+Columbus  OH,Hartville  MO
+Hartville  MO,Columbus  OH
+Columbus  OH,Morehead  KY
+Morehead  KY,Columbus  OH
+Columbus  OH,Simsbury  CT
+Simsbury  CT,Columbus  OH
+Columbus  OH,Raleigh  NC
+Raleigh  NC,Columbus  OH
+Columbus  OH,State College  PA
+State College  PA,Columbus  OH
+Memphis  TX,Brookpark  OH
+Brookpark  OH,Memphis  TX
+Memphis  TX,Marsing  ID
+Marsing  ID,Memphis  TX
+Memphis  TX,Plover  WI
+Plover  WI,Memphis  TX
+Memphis  TX,Novato  CA
+Novato  CA,Memphis  TX
+Memphis  TX,Eastlake  OH
+Eastlake  OH,Memphis  TX
+Memphis  TX,Mason  OH
+Mason  OH,Memphis  TX
+Memphis  TX,South Phoenix  AZ
+South Phoenix  AZ,Memphis  TX
+Memphis  TX,Coloma  WI
+Coloma  WI,Memphis  TX
+Memphis  TX,Columbus Junction  IA
+Columbus Junction  IA,Memphis  TX
+Memphis  TX,Pacific Palisades  CA
+Pacific Palisades  CA,Memphis  TX
+Yarmouth  MA,Bowie  AZ
+Bowie  AZ,Yarmouth  MA
+Yarmouth  MA,Felton  CA
+Felton  CA,Yarmouth  MA
+Yarmouth  MA,Twin Falls  ID
+Twin Falls  ID,Yarmouth  MA
+Libertyville  IL,Strattanville  PA
+Strattanville  PA,Libertyville  IL
+Libertyville  IL,Charlotte  NC
+Charlotte  NC,Libertyville  IL
+Libertyville  IL,Oak Forest  IL
+Oak Forest  IL,Libertyville  IL
+Libertyville  IL,Saint Augustine  FL
+Saint Augustine  FL,Libertyville  IL
+Chicago  IL,Windsor  CO
+Windsor  CO,Chicago  IL
+Chicago  IL,Lizton  IN
+Lizton  IN,Chicago  IL
+Chicago  IL,Gibson City  IL
+Gibson City  IL,Chicago  IL
+Portland  OR,Philadelphia  PA
+Philadelphia  PA,Portland  OR
+Portland  OR,Santa Clara  CA
+Santa Clara  CA,Portland  OR
+Portland  OR,Tyro  NC
+Tyro  NC,Portland  OR
+Portland  OR,Three Rivers  MA
+Three Rivers  MA,Portland  OR
+Portland  OR,Hartland  MI
+Hartland  MI,Portland  OR
+Portland  OR,Englewood  CO
+Englewood  CO,Portland  OR
+Portland  OR,Fairview  UT
+Fairview  UT,Portland  OR
+Portland  OR,Middle Island  NY
+Middle Island  NY,Portland  OR
+Portland  OR,Kokomo  IN
+Kokomo  IN,Portland  OR
+Portland  OR,Batavia  NY
+Batavia  NY,Portland  OR
+Portland  OR,Bardstown  KY
+Bardstown  KY,Portland  OR
+Brandon  FL,Murfreesboro  TN
+Murfreesboro  TN,Brandon  FL
+Brandon  FL,Thorp  WI
+Thorp  WI,Brandon  FL
+Brandon  FL,Noblesville  IN
+Noblesville  IN,Brandon  FL
+Brandon  FL,Chicago  IL
+Chicago  IL,Brandon  FL
+Phoenix  AZ,Fort Collins  CO
+Fort Collins  CO,Phoenix  AZ
+Phoenix  AZ,Muskego  WI
+Muskego  WI,Phoenix  AZ
+Phoenix  AZ,Fresno  CA
+Fresno  CA,Phoenix  AZ
+Phoenix  AZ,Davenport  FL
+Davenport  FL,Phoenix  AZ
+Phoenix  AZ,Portage  WI
+Portage  WI,Phoenix  AZ
+Phoenix  AZ,Caliphon  NJ
+Caliphon  NJ,Phoenix  AZ
+Baltimore  MD,Plover  WI
+Plover  WI,Baltimore  MD
+Baltimore  MD,Chaska  MN
+Chaska  MN,Baltimore  MD
+Baltimore  MD,Pickett  WI
+Pickett  WI,Baltimore  MD
+Baltimore  MD,Wartrace  TN
+Wartrace  TN,Baltimore  MD
+Baltimore  MD,Batesville  AR
+Batesville  AR,Baltimore  MD
+Baltimore  MD,Mojave  CA
+Mojave  CA,Baltimore  MD
+Baltimore  MD,Evansville  IN
+Evansville  IN,Baltimore  MD
+Salt Lake City  UT,Angola  IN
+Angola  IN,Salt Lake City  UT
+Salt Lake City  UT,Burley  WA
+Burley  WA,Salt Lake City  UT
+Salt Lake City  UT,Seattle  WA
+Seattle  WA,Salt Lake City  UT
+Salt Lake City  UT,Davis  CA
+Davis  CA,Salt Lake City  UT
+Salt Lake City  UT,Golden  CO
+Golden  CO,Salt Lake City  UT
+Salt Lake City  UT,Sunbright  TN
+Sunbright  TN,Salt Lake City  UT
+Salt Lake City  UT,Boston  MA
+Boston  MA,Salt Lake City  UT

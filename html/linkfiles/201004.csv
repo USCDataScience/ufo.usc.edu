@@ -1,0 +1,247 @@
+origin,destination
+Somers  CT,Naples  FL
+Naples  FL,Somers  CT
+Somers  CT,Milton  MA
+Milton  MA,Somers  CT
+Somers  CT,Kittitas  WA
+Kittitas  WA,Somers  CT
+Somers  CT,Norfolk  VA
+Norfolk  VA,Somers  CT
+Santa Ana  CA,Colorado Springs  CO
+Colorado Springs  CO,Santa Ana  CA
+Santa Ana  CA,Howell  MI
+Howell  MI,Santa Ana  CA
+Santa Ana  CA,Tamarac  FL
+Tamarac  FL,Santa Ana  CA
+Santa Ana  CA,Mandeville  LA
+Mandeville  LA,Santa Ana  CA
+Santa Ana  CA,Greenville  RI
+Greenville  RI,Santa Ana  CA
+Santa Ana  CA,Gallatin  TN
+Gallatin  TN,Santa Ana  CA
+Santa Ana  CA,Vancouver  WA
+Vancouver  WA,Santa Ana  CA
+Muskegon  MI,Monterey  CA
+Monterey  CA,Muskegon  MI
+Muskegon  MI,Wesley Chapel  FL
+Wesley Chapel  FL,Muskegon  MI
+Muskegon  MI,Georgetown  TX
+Georgetown  TX,Muskegon  MI
+Muskegon  MI,Milwaukee  WI
+Milwaukee  WI,Muskegon  MI
+Muskegon  MI,Punta Gorda  FL
+Punta Gorda  FL,Muskegon  MI
+Muskegon  MI,Las Vegas  NV
+Las Vegas  NV,Muskegon  MI
+Los Angeles  CA,Modesto  CA
+Modesto  CA,Los Angeles  CA
+Los Angeles  CA,Haddam  CT
+Haddam  CT,Los Angeles  CA
+Lynn  MA,Marshfield  MA
+Marshfield  MA,Lynn  MA
+Lynn  MA,Burnsville  NC
+Burnsville  NC,Lynn  MA
+Lynn  MA,Wilmington  NC
+Wilmington  NC,Lynn  MA
+Lynn  MA,Springfield  MO
+Springfield  MO,Lynn  MA
+Lynn  MA,Scott  AR
+Scott  AR,Lynn  MA
+Lynn  MA,Lexington  OH
+Lexington  OH,Lynn  MA
+Lynn  MA,Lakeridge  VA
+Lakeridge  VA,Lynn  MA
+San Marcos  CA,Cleveland  OH
+Cleveland  OH,San Marcos  CA
+San Marcos  CA,Columbus  OH
+Columbus  OH,San Marcos  CA
+Tulsa  OK,Pomona  CA
+Pomona  CA,Tulsa  OK
+Tulsa  OK,New Tazewell  TN
+New Tazewell  TN,Tulsa  OK
+Tulsa  OK,Burns  OR
+Burns  OR,Tulsa  OK
+San Antonio  TX,Plainview  NY
+Plainview  NY,San Antonio  TX
+San Antonio  TX,Wenden  AZ
+Wenden  AZ,San Antonio  TX
+San Antonio  TX,Independence  MO
+Independence  MO,San Antonio  TX
+San Antonio  TX,Yuma  AZ
+Yuma  AZ,San Antonio  TX
+San Antonio  TX,Indianapolis  IN
+Indianapolis  IN,San Antonio  TX
+Warwick  RI,Augusta  GA
+Augusta  GA,Warwick  RI
+Warwick  RI,Branson  MO
+Branson  MO,Warwick  RI
+Warwick  RI,Charlotte  TX
+Charlotte  TX,Warwick  RI
+Rialto  CA,Flossmoor  IL
+Flossmoor  IL,Rialto  CA
+Rialto  CA,Hudson  NY
+Hudson  NY,Rialto  CA
+Rialto  CA,Terre Haute  IN
+Terre Haute  IN,Rialto  CA
+Rialto  CA,Riverview  MI
+Riverview  MI,Rialto  CA
+Rialto  CA,Concord  NC
+Concord  NC,Rialto  CA
+Sunset Beach  NC,Rutland  VT
+Rutland  VT,Sunset Beach  NC
+Sunset Beach  NC,Camillus  NY
+Camillus  NY,Sunset Beach  NC
+Sunset Beach  NC,Waxahachie  TX
+Waxahachie  TX,Sunset Beach  NC
+Sunset Beach  NC,Salem  OR
+Salem  OR,Sunset Beach  NC
+Sunnyside  WA,Mahomet  IL
+Mahomet  IL,Sunnyside  WA
+Sunnyside  WA,Aiken  SC
+Aiken  SC,Sunnyside  WA
+Sunnyside  WA,Northfield  VT
+Northfield  VT,Sunnyside  WA
+Sunnyside  WA,Hugo  MN
+Hugo  MN,Sunnyside  WA
+Auburn  NY,Rochester  MN
+Rochester  MN,Auburn  NY
+Auburn  NY,Santa Cruz  CA
+Santa Cruz  CA,Auburn  NY
+Auburn  NY,East Wenatchee  WA
+East Wenatchee  WA,Auburn  NY
+Auburn  NY,Kent  WA
+Kent  WA,Auburn  NY
+Auburn  NY,Moline  IL
+Moline  IL,Auburn  NY
+Auburn  NY,Bowling Green  KY
+Bowling Green  KY,Auburn  NY
+Auburn  NY,Ohio  OH
+Ohio  OH,Auburn  NY
+Dearborn Heights  MI,Bakersfield  CA
+Bakersfield  CA,Dearborn Heights  MI
+Dearborn Heights  MI,Nederland  TX
+Nederland  TX,Dearborn Heights  MI
+Dearborn Heights  MI,East Hazel Crest  IL
+East Hazel Crest  IL,Dearborn Heights  MI
+Dearborn Heights  MI,Ventura  CA
+Ventura  CA,Dearborn Heights  MI
+Dearborn Heights  MI,Buxton  NC
+Buxton  NC,Dearborn Heights  MI
+Marquette  MI,Santa Cruz  CA
+Santa Cruz  CA,Marquette  MI
+Marquette  MI,Holt  MI
+Holt  MI,Marquette  MI
+Ocean Springs  MS,Nipomo  CA
+Nipomo  CA,Ocean Springs  MS
+Ocean Springs  MS,Queen Creek  AZ
+Queen Creek  AZ,Ocean Springs  MS
+Ocean Springs  MS,Angola  NY
+Angola  NY,Ocean Springs  MS
+Ocean Springs  MS,Albuquerque  NM
+Albuquerque  NM,Ocean Springs  MS
+Ocean Springs  MS,Lac Du Flambeau  WI
+Lac Du Flambeau  WI,Ocean Springs  MS
+Truman  MN,Colton  CA
+Colton  CA,Truman  MN
+Truman  MN,Merced  CA
+Merced  CA,Truman  MN
+Truman  MN,New Lenox  IL
+New Lenox  IL,Truman  MN
+Truman  MN,Erin  TN
+Erin  TN,Truman  MN
+Truman  MN,Meadville  PA
+Meadville  PA,Truman  MN
+Cocoa  FL,Honolulu  HI
+Honolulu  HI,Cocoa  FL
+Cocoa  FL,Tempe  AZ
+Tempe  AZ,Cocoa  FL
+San Clemente  CA,Philadelphia  PA
+Philadelphia  PA,San Clemente  CA
+San Clemente  CA,Las Vegas  NV
+Las Vegas  NV,San Clemente  CA
+San Clemente  CA,Post Falls  ID
+Post Falls  ID,San Clemente  CA
+San Clemente  CA,Vancouver  WA
+Vancouver  WA,San Clemente  CA
+San Clemente  CA,North Myrtle Beach  SC
+North Myrtle Beach  SC,San Clemente  CA
+Sherman Oaks  CA,Yarmouth  ME
+Yarmouth  ME,Sherman Oaks  CA
+Sherman Oaks  CA,Squaw Valley  CA
+Squaw Valley  CA,Sherman Oaks  CA
+Sherman Oaks  CA,Kirkland  WA
+Kirkland  WA,Sherman Oaks  CA
+Sherman Oaks  CA,Waldport  OR
+Waldport  OR,Sherman Oaks  CA
+Hagerstown  MD,Yorba Linda  CA
+Yorba Linda  CA,Hagerstown  MD
+Hagerstown  MD,Los Altos Hills  CA
+Los Altos Hills  CA,Hagerstown  MD
+Hagerstown  MD,Westwood  NJ
+Westwood  NJ,Hagerstown  MD
+Hagerstown  MD,Fort Lauderdale  FL
+Fort Lauderdale  FL,Hagerstown  MD
+Hagerstown  MD,Stillwater  MN
+Stillwater  MN,Hagerstown  MD
+Hagerstown  MD,Norcoss  GA
+Norcoss  GA,Hagerstown  MD
+Houston  TX,Louisville  KY
+Louisville  KY,Houston  TX
+Houston  TX,Lake Elsinore  CA
+Lake Elsinore  CA,Houston  TX
+Houston  TX,Austin  TX
+Austin  TX,Houston  TX
+Houston  TX,West Covina  CA
+West Covina  CA,Houston  TX
+Houston  TX,East Islip  NY
+East Islip  NY,Houston  TX
+Tallahassee  FL,Laguna Hills  CA
+Laguna Hills  CA,Tallahassee  FL
+Tallahassee  FL,Markle  IN
+Markle  IN,Tallahassee  FL
+Chicago  IL,Broomfield  CO
+Broomfield  CO,Chicago  IL
+Chicago  IL,Saxtons River  VT
+Saxtons River  VT,Chicago  IL
+Honolulu  HI,New Bern  NC
+New Bern  NC,Honolulu  HI
+Honolulu  HI,Durant  OK
+Durant  OK,Honolulu  HI
+Honolulu  HI,Kinston  NC
+Kinston  NC,Honolulu  HI
+Honolulu  HI,Steger  IL
+Steger  IL,Honolulu  HI
+Honolulu  HI,Senatobia  MS
+Senatobia  MS,Honolulu  HI
+Honolulu  HI,Durham  CT
+Durham  CT,Honolulu  HI
+Honolulu  HI,Plymouth  PA
+Plymouth  PA,Honolulu  HI
+Honolulu  HI,Capitola  CA
+Capitola  CA,Honolulu  HI
+Honolulu  HI,Mount Vernon  WA
+Mount Vernon  WA,Honolulu  HI
+Honolulu  HI,Virginia Beach  VA
+Virginia Beach  VA,Honolulu  HI
+Honolulu  HI,Bloomington  IN
+Bloomington  IN,Honolulu  HI
+Honolulu  HI,Phoenix  AZ
+Phoenix  AZ,Honolulu  HI
+Honolulu  HI,Portland  OR
+Portland  OR,Honolulu  HI
+Massapequa  NY,Indian Mound  TN
+Indian Mound  TN,Massapequa  NY
+Massapequa  NY,Cheyenne  WY
+Cheyenne  WY,Massapequa  NY
+Massapequa  NY,Las Vegas  NV
+Las Vegas  NV,Massapequa  NY
+Katonah  CT,Lincoln  NE
+Lincoln  NE,Katonah  CT
+Katonah  CT,Evansville  WY
+Evansville  WY,Katonah  CT
+Katonah  CT,Somerset  MA
+Somerset  MA,Katonah  CT
+Katonah  CT,Broadview Heights  OH
+Broadview Heights  OH,Katonah  CT
+Katonah  CT,Savannah  TN
+Savannah  TN,Katonah  CT

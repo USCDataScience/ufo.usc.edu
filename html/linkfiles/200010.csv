@@ -1,0 +1,343 @@
+origin,destination
+Albuquerque  NM,Jones Beach  NY
+Jones Beach  NY,Albuquerque  NM
+Albuquerque  NM,Belmont  CA
+Belmont  CA,Albuquerque  NM
+Albuquerque  NM,Chandler  AZ
+Chandler  AZ,Albuquerque  NM
+Albuquerque  NM,Colorado Springs  CO
+Colorado Springs  CO,Albuquerque  NM
+Albuquerque  NM,Maryville  MO
+Maryville  MO,Albuquerque  NM
+Albuquerque  NM,Vaughn  WA
+Vaughn  WA,Albuquerque  NM
+Albuquerque  NM,Prineville  OR
+Prineville  OR,Albuquerque  NM
+Albuquerque  NM,STURGIS  MI
+STURGIS  MI,Albuquerque  NM
+Albuquerque  NM,Orange Park  FL
+Orange Park  FL,Albuquerque  NM
+Albuquerque  NM,Jackson  TN
+Jackson  TN,Albuquerque  NM
+Albuquerque  NM,Stockton  CA
+Stockton  CA,Albuquerque  NM
+Albuquerque  NM,Wheaton  MD
+Wheaton  MD,Albuquerque  NM
+Crossville  TN,San Antonio  TX
+San Antonio  TX,Crossville  TN
+Crossville  TN,Fairbanks  AK
+Fairbanks  AK,Crossville  TN
+Buckley  WA,Hayward  CA
+Hayward  CA,Buckley  WA
+Buckley  WA,Los Angeles  CA
+Los Angeles  CA,Buckley  WA
+Caldwell  ID,Fargo  ND
+Fargo  ND,Caldwell  ID
+Caldwell  ID,Niles  MI
+Niles  MI,Caldwell  ID
+Caldwell  ID,Cleburne  TX
+Cleburne  TX,Caldwell  ID
+Caldwell  ID,Kalama  WA
+Kalama  WA,Caldwell  ID
+Caldwell  ID,Charlotte  NC
+Charlotte  NC,Caldwell  ID
+Caldwell  ID,Severn  MD
+Severn  MD,Caldwell  ID
+Caldwell  ID,Richwood  TX
+Richwood  TX,Caldwell  ID
+Caldwell  ID,Janesville  WI
+Janesville  WI,Caldwell  ID
+Caldwell  ID,New Brighton  MN
+New Brighton  MN,Caldwell  ID
+Phoenix  AZ,Kennewick  WA
+Kennewick  WA,Phoenix  AZ
+Phoenix  AZ,Show Low  AZ
+Show Low  AZ,Phoenix  AZ
+Phoenix  AZ,Snohomish  WA
+Snohomish  WA,Phoenix  AZ
+Phoenix  AZ,Pima  AZ
+Pima  AZ,Phoenix  AZ
+Phoenix  AZ,Montara  CA
+Montara  CA,Phoenix  AZ
+Phoenix  AZ,Jerome  AZ
+Jerome  AZ,Phoenix  AZ
+Phoenix  AZ,Topsfield  MA
+Topsfield  MA,Phoenix  AZ
+Phoenix  AZ,Daphne  AL
+Daphne  AL,Phoenix  AZ
+Phoenix  AZ,Colorado Springs  CO
+Colorado Springs  CO,Phoenix  AZ
+Seattle  WA,Las Vegas  NV
+Las Vegas  NV,Seattle  WA
+Seattle  WA,Rohnert Park  CA
+Rohnert Park  CA,Seattle  WA
+Seattle  WA,Mesa  AZ
+Mesa  AZ,Seattle  WA
+Seattle  WA,Springfield  MO
+Springfield  MO,Seattle  WA
+Katy  TX,Toledo to Marion  OH
+Toledo to Marion  OH,Katy  TX
+Katy  TX,Vallejo  CA
+Vallejo  CA,Katy  TX
+Katy  TX,Clearwater  FL
+Clearwater  FL,Katy  TX
+Katy  TX,Palm Desert  CA
+Palm Desert  CA,Katy  TX
+Katy  TX,Oak Lawn  IL
+Oak Lawn  IL,Katy  TX
+Chemung  NY,Pismo Beach  CA
+Pismo Beach  CA,Chemung  NY
+Chemung  NY,Fairfield  IA
+Fairfield  IA,Chemung  NY
+Bozeman  MT,Kimberly  AL
+Kimberly  AL,Bozeman  MT
+Bozeman  MT,Border  WY
+Border  WY,Bozeman  MT
+Bozeman  MT,Minnetonka  MN
+Minnetonka  MN,Bozeman  MT
+Perryville  MO,Boynton Beach  FL
+Boynton Beach  FL,Perryville  MO
+Perryville  MO,Florence  KY
+Florence  KY,Perryville  MO
+Perryville  MO,Brinktown  MO
+Brinktown  MO,Perryville  MO
+Perryville  MO,Jueanu  WI
+Jueanu  WI,Perryville  MO
+Perryville  MO,Port Orchard  WA
+Port Orchard  WA,Perryville  MO
+Gilbert  AZ,Mountain City  TN
+Mountain City  TN,Gilbert  AZ
+Gilbert  AZ,Breckenridge  TX
+Breckenridge  TX,Gilbert  AZ
+Mohawk Valley  AZ,Baird  TX
+Baird  TX,Mohawk Valley  AZ
+Mohawk Valley  AZ,Jenks  OK
+Jenks  OK,Mohawk Valley  AZ
+Mohawk Valley  AZ,Orwigsburg  PA
+Orwigsburg  PA,Mohawk Valley  AZ
+Mohawk Valley  AZ,Orangeville  PA
+Orangeville  PA,Mohawk Valley  AZ
+Mohawk Valley  AZ,Tulsa  OK
+Tulsa  OK,Mohawk Valley  AZ
+Mohawk Valley  AZ,Clyde  TX
+Clyde  TX,Mohawk Valley  AZ
+Mohawk Valley  AZ,Louisville  KY
+Louisville  KY,Mohawk Valley  AZ
+Denver  CO,Sarasota  FL
+Sarasota  FL,Denver  CO
+Denver  CO,Mechanicsville  VA
+Mechanicsville  VA,Denver  CO
+Denver  CO,Breezewood  PA
+Breezewood  PA,Denver  CO
+Denver  CO,Gonzales  LA
+Gonzales  LA,Denver  CO
+Denver  CO,Escondido  CA
+Escondido  CA,Denver  CO
+Denver  CO,Salinas  CA
+Salinas  CA,Denver  CO
+Southgate  MI,Long Beach  CA
+Long Beach  CA,Southgate  MI
+Southgate  MI,New Castle  PA
+New Castle  PA,Southgate  MI
+Southgate  MI,Martins Ferry  OH
+Martins Ferry  OH,Southgate  MI
+Southgate  MI,Middletown  CA
+Middletown  CA,Southgate  MI
+Southgate  MI,Houston  TX
+Houston  TX,Southgate  MI
+Southgate  MI,Phoenix  AZ
+Phoenix  AZ,Southgate  MI
+Southgate  MI,Del Valle  TX
+Del Valle  TX,Southgate  MI
+Southgate  MI,Alabama  AL
+Alabama  AL,Southgate  MI
+Southgate  MI,Strawberry  AZ
+Strawberry  AZ,Southgate  MI
+Southgate  MI,Palm Springs  CT
+Palm Springs  CT,Southgate  MI
+Southgate  MI,Spring Lake  NC
+Spring Lake  NC,Southgate  MI
+Southgate  MI,Nassau Bay  TX
+Nassau Bay  TX,Southgate  MI
+Southgate  MI,Clear Lake  TX
+Clear Lake  TX,Southgate  MI
+Southgate  MI,Portland  OR
+Portland  OR,Southgate  MI
+Southgate  MI,Greensboro  NC
+Greensboro  NC,Southgate  MI
+Bellerose  NY,Kenosha  WI
+Kenosha  WI,Bellerose  NY
+Bellerose  NY,Jefferson City  MO
+Jefferson City  MO,Bellerose  NY
+Bellerose  NY,Woodstock  CT
+Woodstock  CT,Bellerose  NY
+Napoleonville  LA,Tucson  AZ
+Tucson  AZ,Napoleonville  LA
+Napoleonville  LA,Oakland Park  FL
+Oakland Park  FL,Napoleonville  LA
+Napoleonville  LA,Yampa  CO
+Yampa  CO,Napoleonville  LA
+Napoleonville  LA,Eureka  CA
+Eureka  CA,Napoleonville  LA
+Seattle  WA,Boynton Beach  FL
+Boynton Beach  FL,Seattle  WA
+Seattle  WA,Royal Palm Beach  FL
+Royal Palm Beach  FL,Seattle  WA
+Seattle  WA,McKinney  TX
+McKinney  TX,Seattle  WA
+Salt Lake City  UT,Waxhaw  NC
+Waxhaw  NC,Salt Lake City  UT
+Salt Lake City  UT,Old Fort  TN
+Old Fort  TN,Salt Lake City  UT
+Salt Lake City  UT,Vineland  CO
+Vineland  CO,Salt Lake City  UT
+Salt Lake City  UT,Hatfield  MA
+Hatfield  MA,Salt Lake City  UT
+Westbury  NY,Greenville  NC
+Greenville  NC,Westbury  NY
+Westbury  NY,Allegan  MI
+Allegan  MI,Westbury  NY
+Westbury  NY,Kenosha  WI
+Kenosha  WI,Westbury  NY
+Westbury  NY,LOUISVILLE  KY
+LOUISVILLE  KY,Westbury  NY
+Westbury  NY,West Branch  IA
+West Branch  IA,Westbury  NY
+Westbury  NY,Ridgefield  CT
+Ridgefield  CT,Westbury  NY
+Westbury  NY,Easley  SC
+Easley  SC,Westbury  NY
+Rocky Hill  CT,DeSmet  SD
+DeSmet  SD,Rocky Hill  CT
+Rocky Hill  CT,Modesto  CA
+Modesto  CA,Rocky Hill  CT
+Rocky Hill  CT,Alma  WI
+Alma  WI,Rocky Hill  CT
+Rocky Hill  CT,Saginaw  MI
+Saginaw  MI,Rocky Hill  CT
+Rocky Hill  CT,West Manchester  OH
+West Manchester  OH,Rocky Hill  CT
+Rocky Hill  CT,Fayetteville  AR
+Fayetteville  AR,Rocky Hill  CT
+Oshkosh  WI,San Jose  CA
+San Jose  CA,Oshkosh  WI
+Oshkosh  WI,Turlock  CA
+Turlock  CA,Oshkosh  WI
+Oshkosh  WI,Lebanon  PA
+Lebanon  PA,Oshkosh  WI
+Oshkosh  WI,Puyallup  WA
+Puyallup  WA,Oshkosh  WI
+Oshkosh  WI,Tulsa  OK
+Tulsa  OK,Oshkosh  WI
+Oshkosh  WI,Cooper City  FL
+Cooper City  FL,Oshkosh  WI
+Seattle  WA,Yamhill  PA
+Yamhill  PA,Seattle  WA
+Seattle  WA,White Bear Lake  MN
+White Bear Lake  MN,Seattle  WA
+Seattle  WA,Sacramento  CA
+Sacramento  CA,Seattle  WA
+Seattle  WA,Elmira  WA
+Elmira  WA,Seattle  WA
+Seattle  WA,Nolensville  TN
+Nolensville  TN,Seattle  WA
+Kent  WA,Medina  OH
+Medina  OH,Kent  WA
+Kent  WA,Street  MD
+Street  MD,Kent  WA
+Kent  WA,Gila Bend  AZ
+Gila Bend  AZ,Kent  WA
+Poulsbo  WA,Peoria  AZ
+Peoria  AZ,Poulsbo  WA
+Poulsbo  WA,Portland  ME
+Portland  ME,Poulsbo  WA
+Poulsbo  WA,Northampton  MA
+Northampton  MA,Poulsbo  WA
+Poulsbo  WA,Seattle  WA
+Seattle  WA,Poulsbo  WA
+Poulsbo  WA,Alma  NM
+Alma  NM,Poulsbo  WA
+Poulsbo  WA,Munhall  PA
+Munhall  PA,Poulsbo  WA
+Scottsdale  AZ,Greeley  CO
+Greeley  CO,Scottsdale  AZ
+Scottsdale  AZ,Buckeye  AZ
+Buckeye  AZ,Scottsdale  AZ
+Scottsdale  AZ,Anchorage  AK
+Anchorage  AK,Scottsdale  AZ
+Scottsdale  AZ,Agency  MO
+Agency  MO,Scottsdale  AZ
+Scottsdale  AZ,Panama City Beach  FL
+Panama City Beach  FL,Scottsdale  AZ
+Scottsdale  AZ,Longville  LA
+Longville  LA,Scottsdale  AZ
+Scottsdale  AZ,Aurora  CO
+Aurora  CO,Scottsdale  AZ
+Ward  AR,Prattsburgh  NY
+Prattsburgh  NY,Ward  AR
+Ward  AR,Seattle  WA
+Seattle  WA,Ward  AR
+Ward  AR,Parker Canyon Lake  AZ
+Parker Canyon Lake  AZ,Ward  AR
+Ward  AR,San Antonio  TX
+San Antonio  TX,Ward  AR
+Ward  AR,Phoenix  AZ
+Phoenix  AZ,Ward  AR
+Laurel  MD,Jersey City  NJ
+Jersey City  NJ,Laurel  MD
+Laurel  MD,Springfield  MO
+Springfield  MO,Laurel  MD
+Laurel  MD,Scranton  PA
+Scranton  PA,Laurel  MD
+Laurel  MD,Kintnersville  PA
+Kintnersville  PA,Laurel  MD
+Gilbert  AZ,Munroe Falls  OH
+Munroe Falls  OH,Gilbert  AZ
+Gilbert  AZ,Mt Vernon  WA
+Mt Vernon  WA,Gilbert  AZ
+Gilbert  AZ,Norwalk  OH
+Norwalk  OH,Gilbert  AZ
+Gilbert  AZ,Pottstown  PA
+Pottstown  PA,Gilbert  AZ
+Gilbert  AZ,Aberdeen  WA
+Aberdeen  WA,Gilbert  AZ
+Gilbert  AZ,Graham  WA
+Graham  WA,Gilbert  AZ
+Gilbert  AZ,Olympia  WA
+Olympia  WA,Gilbert  AZ
+Gilbert  AZ,Flint  MI
+Flint  MI,Gilbert  AZ
+Gilbert  AZ,Marion  KS
+Marion  KS,Gilbert  AZ
+Gilbert  AZ,Edgewood  WA
+Edgewood  WA,Gilbert  AZ
+Gilbert  AZ,Camano Island  WA
+Camano Island  WA,Gilbert  AZ
+Gilbert  AZ,La Canada  CA
+La Canada  CA,Gilbert  AZ
+Gilbert  AZ,Fairview  MI
+Fairview  MI,Gilbert  AZ
+Woodland  CA,Sulphur Springs  TX
+Sulphur Springs  TX,Woodland  CA
+Woodland  CA,Pearl  MS
+Pearl  MS,Woodland  CA
+Cygnet  OH,New City  NY
+New City  NY,Cygnet  OH
+Cygnet  OH,Roseville  CA
+Roseville  CA,Cygnet  OH
+Cygnet  OH,Perry  MI
+Perry  MI,Cygnet  OH
+Cygnet  OH,Rochester Hills  MI
+Rochester Hills  MI,Cygnet  OH
+Cygnet  OH,Fostoria  OH
+Fostoria  OH,Cygnet  OH
+Cygnet  OH,Whitmore Lake  MI
+Whitmore Lake  MI,Cygnet  OH
+Cygnet  OH,Saginaw  MI
+Saginaw  MI,Cygnet  OH
+Cygnet  OH,Germantown  WI
+Germantown  WI,Cygnet  OH
+Cygnet  OH,Riverdale  MD
+Riverdale  MD,Cygnet  OH
+Cygnet  OH,Sipsey  AL
+Sipsey  AL,Cygnet  OH

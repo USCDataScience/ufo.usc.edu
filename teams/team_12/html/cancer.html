@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="../css/cancer.css" rel="stylesheet">
+	<title></title>
+	    <!-- Bootstrap Core CSS -->
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<!-- Scrolling Nav CSS -->
+	<link href="../css/scrolling-nav.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="../css/styles.css" rel="stylesheet">
+	<link href="../css/team-12.css" rel="stylesheet">
+	<link rel="stylesheet" href="../css/plugin.css">
+</head>
+
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<div id="nav-main">
+        <nav class="navbar nav-main navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                </div>
+
+                <div class="collapse navbar-collapse navbar-ex1-collapse">  
+                  <nav id="nav-wrap">
+                    <ul class="nav navbar-nav navbar-custom">
+                        <li class="current"><a class="page-scroll" href="../team_12.html#page-top" style="color:white">Home</a></li>
+                    </ul>
+                  </nav>
+
+                    <a href="http://usc.edu" class="pull-right">
+                      <img src="../../../images/usc-primary-logotype.svg" width="176px" height="38px">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="team-12-space">
+        <div class = "container" style="margin-bottom: 2%;">
+            <ul class="nav nav-tabs" id="tabs">
+                <li><a href="../team_12.html#overview" data-toggle="tab">Overview</a></li>
+                <li class="active" ><a href="../team_12.html#static_visualizations" data-toggle="tab">Static Visualizations</a></li>
+                <li><a href="../team_12.html#dynamic_visualizations" data-toggle="tab">Dynamic Visualizations</a></li>
+            </ul>
+        
+        </div>
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in container" id="overview">
+                <div class="row">
+                    <center><h3>Number of Features</h3></center>
+                </div>
+                <div class ="row" style="margin-top: 1%">
+                  <div class= "col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <div class="row"> 
+                        <div class = "" id ="featuresAdded1"></div>
+                      </div>
+                      <div class="row"> 
+                        <div><center><b>UFO Awesome dataset</b></center></div>
+                      </div>
+                  </div>
+                  <div class= "col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <div class="row"> 
+                        <div class = "" id ="featuresAdded2"></div>
+                      </div>
+                      <div class="row"> 
+                        <div><center><b>Merged USA UFO dataset</b></center></div>
+                      </div>
+                  </div>
+                  <div class= "col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <div class="row"> 
+                        <div class = "" id ="featuresAdded3"></div>
+                      </div>
+                      <div class="row"> 
+                        <div><center><b>USA-British-UFOStalker dataset</b></center></div>
+                      </div>
+                  </div>
+                    <br>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade in active container" id="static_visualizations">
+              <ol class="breadcrumb">
+                <li ><a href="../team_12.html#static_visualizations" data-toggle="tab">List of Visualizations</a></li>
+                <li class="active">Cancer</li>
+              </ol>
+                <div class="row" id ="chloro">
+                    <center><h1>Cancer Incidences in different Races</h1></center>
+                    <br>
+					<div class = "row">
+						<div class = "offset-lg-1 offset-md-1 offset-sm-1 offset-xs-1 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+              <label for="inds">Choose Race</label>
+							<select id="inds">
+								<option value="hispanic" selected="selected">hispanic</option>
+								<option value="white">whites</option>
+								<option value="allraces">all races</option>
+							</select>
+						</div>
+						<div class = "col-lg-3 col-md-3 col-sm-3 col-xs-3" id="showAll">
+							<input name="showAllButton"
+							 type="button"
+							 value="Show All"
+							 onclick="showAll()" />
+						</div>
+						<div class = "col-lg-3 col-md-3 col-sm-3 col-xs-3" id="clearAll">
+							<input name="clearAllButton"
+							 type="button"
+							 value="Clear All"
+							 onclick="clearAll()" />
+						</div>
+					</div>
+					<div class = "row container"><br><h4>States</h4>
+							<div id="legendContainer" class="legendContainer col-lg-3 col-md-3 col-sm-3 col-xs-3">
+
+								<svg id="legend" viewbox = "0 0 100 750"></svg>
+							</div>
+							<div class= "col-lg-9 col-md-9 col-sm-9 col-xs-9">
+								<svg id="graph-svg" viewbox = "0 0 900 900"></svg>
+							</div>
+
+					</div>
+					<div class = "row container ">
+						<center><h3>Graph Details</h3></center>
+						<br>
+						<p>
+							The above graph plots cancer incidence counts in whites, hispanics and all races (cummulative) for each year across the different states in the United States of America. Using the select box, we can filter the different races to observe the distributions. The States legend to the left of the graph maps the states (in codes) to their colors on the maps. Clicking on the color boxes will filter the state information.Using the clear all or show all button, incidences in different states can be filtered. <br>
+						</p>
+						<center><h3>Inferences</h3></center>
+						<br>
+						<p>
+							<h4>Hispanics</h4>
+							<span style="color:#fff; background-color: #f00;"><b>California</b></span>, <span style="color:#fff; background-color: #f00;"><b>Texas</b></span>, <span style="color:#fff; background-color: #f00;"><b>Florida</b></span> and <span style="color:#fff; background-color: #f00;"><b>New York</b></span> face the highest instances of cancer in places where UFO's have been sighted. 
+							<br>
+
+							<span style="color:#000; background-color: #0f0;"><b>Mississippi</b></span> has the fewest instances of cancer.
+
+							<h4>Whites</h4>
+							<span style="color:#fff; background-color: #f00;"><b>California</b></span>, 
+							<span style="color:#fff; background-color: #f00;"><b>Florida</b></span>,
+							<span style="color:#fff; background-color: #f00;"><b>New York</b></span>, 
+							<span style="color:#fff; background-color: #f00;"><b>Texas</b></span>,  and 
+							<span style="color:#fff; background-color: #f00;"><b>Pennsylvania</b></span> 
+							following closely, face the highest instances of cancer in places where UFO's have been sighted. 
+							<br><span style="color:#000; background-color: #0f0;"><b>Hawaii</b></span> and <span style="color:#000; background-color: #0f0;"><b>Wyoming</b></span> has the fewest instances of cancer.
+
+							<h4>All Races</h4>
+							Cummulatively, we observe that <span style="color:#fff; background-color: #f00;"><b>California</b></span> has the most number of cancer incidences reported, followed by  <span style="color:#fff; background-color: #f00;"><b>Texas</b></span> and <span style="color:#fff; background-color: #f00;"><b>Florida</b></span> closely.  <span style="color:#fff; background-color: #f00;"><b>New York</b></span> and <span style="color:#fff; background-color: #f00;"><b>Pennsylvania</b></span> too face the very high instances of cancer in places where UFO's have been sighted. 
+							<br>Overall <span style="color:#000; background-color: #0f0;"><b>Wyoming</b></span> has the fewest instances of cancer in all races as observed frok UFO sightings in these areas.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane fade in container" id="dynamic_visualizations">
+            </div>
+</div></div>
+  <hr class="featurette-divider">
+    <div class =" row">
+        <div class="container">
+            <footer>
+                <p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+            </footer>
+        </div>
+    </div>
+
+
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\/script>')</script>
+  <script src="../js/plugin.js"></script>
+ 
+   
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+
+<script src="../js/d3_cancer.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+origin,destination
+PottsVille  AR,San Francisco  CA
+San Francisco  CA,PottsVille  AR
+PottsVille  AR,Canton  OH
+Canton  OH,PottsVille  AR
+PottsVille  AR,Sitka  OR
+Sitka  OR,PottsVille  AR
+Arlington  WA,Spokane  WA
+Spokane  WA,Arlington  WA
+Arlington  WA,Kingston  NY
+Kingston  NY,Arlington  WA
+Arlington  WA,Andover  MA
+Andover  MA,Arlington  WA
+Arlington  WA,Melbourne  AR
+Melbourne  AR,Arlington  WA
+Arlington  WA,North Washington  PA
+North Washington  PA,Arlington  WA
+Rancho Cordova  CA,Higginsville  MO
+Higginsville  MO,Rancho Cordova  CA
+Rancho Cordova  CA,Dickson City  PA
+Dickson City  PA,Rancho Cordova  CA

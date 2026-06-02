@@ -1,0 +1,385 @@
+origin,destination
+Chicago  IL,Benicia  CA
+Benicia  CA,Chicago  IL
+Chicago  IL,Rimrock  CA
+Rimrock  CA,Chicago  IL
+Chicago  IL,Newark  CA
+Newark  CA,Chicago  IL
+Chicago  IL,Pittsburg  KS
+Pittsburg  KS,Chicago  IL
+Chicago  IL,Cedar Rapids  IA
+Cedar Rapids  IA,Chicago  IL
+Chicago  IL,Tallahassee  FL
+Tallahassee  FL,Chicago  IL
+Chicago  IL,Bradford  MA
+Bradford  MA,Chicago  IL
+Chicago  IL,Mt  Rainier  WA
+Mt  Rainier  WA,Chicago  IL
+Chicago  IL,Spanaway  WA
+Spanaway  WA,Chicago  IL
+Spokane  WA,Bellevue  WA
+Bellevue  WA,Spokane  WA
+Spokane  WA,Albuquerque  NM
+Albuquerque  NM,Spokane  WA
+Spokane  WA,Manville  NJ
+Manville  NJ,Spokane  WA
+Spokane  WA,Port Angeles  WA
+Port Angeles  WA,Spokane  WA
+Spokane  WA,Bellingham  WA
+Bellingham  WA,Spokane  WA
+Spokane  WA,Chandler  AZ
+Chandler  AZ,Spokane  WA
+Spokane  WA,Centralia  WA
+Centralia  WA,Spokane  WA
+Spokane  WA,Bainbridge Island  WA
+Bainbridge Island  WA,Spokane  WA
+Spokane  WA,Snohomish  WA
+Snohomish  WA,Spokane  WA
+Spokane  WA,Milford  MA
+Milford  MA,Spokane  WA
+Spokane  WA,Douglasville  GA
+Douglasville  GA,Spokane  WA
+Spokane  WA,Beckley  WV
+Beckley  WV,Spokane  WA
+Spokane  WA,Kennewick  WA
+Kennewick  WA,Spokane  WA
+Spokane  WA,Peoria  IL
+Peoria  IL,Spokane  WA
+Spokane  WA,Seattle  WA
+Seattle  WA,Spokane  WA
+Spokane  WA,Doylestown  PA
+Doylestown  PA,Spokane  WA
+Dennisport  MA,Victorville  CA
+Victorville  CA,Dennisport  MA
+Dennisport  MA,Eagle  CO
+Eagle  CO,Dennisport  MA
+Dennisport  MA,Galena  IL
+Galena  IL,Dennisport  MA
+Dennisport  MA,Reno  NV
+Reno  NV,Dennisport  MA
+Dennisport  MA,Maple Valley  WA
+Maple Valley  WA,Dennisport  MA
+Dennisport  MA,Adrian  MI
+Adrian  MI,Dennisport  MA
+Dennisport  MA,Glendale  AZ
+Glendale  AZ,Dennisport  MA
+Dennisport  MA,Monterey  CA
+Monterey  CA,Dennisport  MA
+Dennisport  MA,Eugene  OR
+Eugene  OR,Dennisport  MA
+Bloomer  WI,Hickory  NC
+Hickory  NC,Bloomer  WI
+Bloomer  WI,Westminster  CO
+Westminster  CO,Bloomer  WI
+Bloomer  WI,Santa Barbara  CA
+Santa Barbara  CA,Bloomer  WI
+Bloomer  WI,Livonia  MI
+Livonia  MI,Bloomer  WI
+Bloomer  WI,Jasper  AR
+Jasper  AR,Bloomer  WI
+Bloomer  WI,Eureka  IL
+Eureka  IL,Bloomer  WI
+Bloomer  WI,Santa Rosa  CA
+Santa Rosa  CA,Bloomer  WI
+Bloomer  WI,Lake Alpine  CA
+Lake Alpine  CA,Bloomer  WI
+Bloomer  WI,Springville  CA
+Springville  CA,Bloomer  WI
+Bloomer  WI,Flushing  NY
+Flushing  NY,Bloomer  WI
+Bloomer  WI,Hanna  WY
+Hanna  WY,Bloomer  WI
+Bloomer  WI,El Dorado Hills  CA
+El Dorado Hills  CA,Bloomer  WI
+Bloomer  WI,Sacramento  CA
+Sacramento  CA,Bloomer  WI
+Bloomer  WI,New York City  NY
+New York City  NY,Bloomer  WI
+Bloomer  WI,Gaffney  SC
+Gaffney  SC,Bloomer  WI
+Bloomer  WI,Graham  WA
+Graham  WA,Bloomer  WI
+Bloomer  WI,Cloud Croft  NM
+Cloud Croft  NM,Bloomer  WI
+Christmas Valley  OR,Royal Palm Beach  FL
+Royal Palm Beach  FL,Christmas Valley  OR
+Christmas Valley  OR,Cotati  CA
+Cotati  CA,Christmas Valley  OR
+Christmas Valley  OR,Bastrop  LA
+Bastrop  LA,Christmas Valley  OR
+Christmas Valley  OR,Argyle  FL
+Argyle  FL,Christmas Valley  OR
+Christmas Valley  OR,Covington  LA
+Covington  LA,Christmas Valley  OR
+Christmas Valley  OR,Mandeville  LA
+Mandeville  LA,Christmas Valley  OR
+Christmas Valley  OR,Crestview  FL
+Crestview  FL,Christmas Valley  OR
+Christmas Valley  OR,Temple City  CA
+Temple City  CA,Christmas Valley  OR
+Maineville  OH,Birmingham  AL
+Birmingham  AL,Maineville  OH
+Maineville  OH,Argos  IN
+Argos  IN,Maineville  OH
+Maineville  OH,Mound  MN
+Mound  MN,Maineville  OH
+Maineville  OH,Columbia  TN
+Columbia  TN,Maineville  OH
+San Leandro  CA,Chula Vista  CA
+Chula Vista  CA,San Leandro  CA
+San Leandro  CA,Wilmington  NC
+Wilmington  NC,San Leandro  CA
+San Leandro  CA,Brewer  ME
+Brewer  ME,San Leandro  CA
+San Leandro  CA,Waterbury  CT
+Waterbury  CT,San Leandro  CA
+South Royalton  VT,Sonora  CA
+Sonora  CA,South Royalton  VT
+South Royalton  VT,San Antonio  TX
+San Antonio  TX,South Royalton  VT
+South Royalton  VT,Portland  OR
+Portland  OR,South Royalton  VT
+South Royalton  VT,Sturgis  SD
+Sturgis  SD,South Royalton  VT
+South Royalton  VT,Montville  OH
+Montville  OH,South Royalton  VT
+South Royalton  VT,Rehoboth Beach  DE
+Rehoboth Beach  DE,South Royalton  VT
+South Royalton  VT,Manilla  IA
+Manilla  IA,South Royalton  VT
+South Royalton  VT,Goldsboro  NC
+Goldsboro  NC,South Royalton  VT
+New Port Richey  FL,Charleston  IL
+Charleston  IL,New Port Richey  FL
+New Port Richey  FL,Pawtucket  RI
+Pawtucket  RI,New Port Richey  FL
+New Port Richey  FL,Ocracoke Island  NC
+Ocracoke Island  NC,New Port Richey  FL
+Torrance  CA,Long Beach  CA
+Long Beach  CA,Torrance  CA
+Torrance  CA,Phoenix  AZ
+Phoenix  AZ,Torrance  CA
+Torrance  CA,Endicott  NY
+Endicott  NY,Torrance  CA
+Torrance  CA,Steens  MS
+Steens  MS,Torrance  CA
+Sandy  UT,Parker  CO
+Parker  CO,Sandy  UT
+Sandy  UT,Burien  WA
+Burien  WA,Sandy  UT
+Sandy  UT,Conconully  WA
+Conconully  WA,Sandy  UT
+Sandy  UT,San Francisco  CA
+San Francisco  CA,Sandy  UT
+Sandy  UT,Toledo  OH
+Toledo  OH,Sandy  UT
+Sandy  UT,Midland  TX
+Midland  TX,Sandy  UT
+Sandy  UT,Los Angeles  CA
+Los Angeles  CA,Sandy  UT
+Sandy  UT,Mobile  AZ
+Mobile  AZ,Sandy  UT
+Sandy  UT,Steens  MS
+Steens  MS,Sandy  UT
+Phoenix  AZ,San Diego  CA
+San Diego  CA,Phoenix  AZ
+Phoenix  AZ,Cleveland  OH
+Cleveland  OH,Phoenix  AZ
+Phoenix  AZ,Hudson  FL
+Hudson  FL,Phoenix  AZ
+Phoenix  AZ,Bloomington  MN
+Bloomington  MN,Phoenix  AZ
+Phoenix  AZ,Flushing  NY
+Flushing  NY,Phoenix  AZ
+Bristol  TN,Willoughby Hills  OH
+Willoughby Hills  OH,Bristol  TN
+Bristol  TN,Portland  OR
+Portland  OR,Bristol  TN
+Bristol  TN,Milan  TN
+Milan  TN,Bristol  TN
+Bristol  TN,Ames  IA
+Ames  IA,Bristol  TN
+Bristol  TN,Gerber Reservoir  OR
+Gerber Reservoir  OR,Bristol  TN
+Bristol  TN,Avondale  AZ
+Avondale  AZ,Bristol  TN
+Bristol  TN,Thornton  WA
+Thornton  WA,Bristol  TN
+Bristol  TN,Clovis  CA
+Clovis  CA,Bristol  TN
+Bristol  TN,Lahaina  HI
+Lahaina  HI,Bristol  TN
+Bristol  TN,Littleton  CO
+Littleton  CO,Bristol  TN
+Redding  CA,Puyallup  WA
+Puyallup  WA,Redding  CA
+Redding  CA,Ranshaw  PA
+Ranshaw  PA,Redding  CA
+Redding  CA,Phoenix  AZ
+Phoenix  AZ,Redding  CA
+Redding  CA,Poway  CA
+Poway  CA,Redding  CA
+Redding  CA,Chandler  AZ
+Chandler  AZ,Redding  CA
+Columbus  OH,Phoenix  AZ
+Phoenix  AZ,Columbus  OH
+Columbus  OH,Westland  MI
+Westland  MI,Columbus  OH
+Columbus  OH,Holly  MI
+Holly  MI,Columbus  OH
+Columbus  OH,Mesquite  NV
+Mesquite  NV,Columbus  OH
+Columbus  OH,Los Angeles  CA
+Los Angeles  CA,Columbus  OH
+Columbus  OH,Wheeling  WV
+Wheeling  WV,Columbus  OH
+Columbus  OH,Avondale  AZ
+Avondale  AZ,Columbus  OH
+Columbus  OH,Kingwood  TX
+Kingwood  TX,Columbus  OH
+Columbus  OH,Kansas City  MO
+Kansas City  MO,Columbus  OH
+Columbus  OH,Indio  CA
+Indio  CA,Columbus  OH
+Columbus  OH,Tecate  CA
+Tecate  CA,Columbus  OH
+Columbus  OH,Henderson  NV
+Henderson  NV,Columbus  OH
+Seattle  WA,Bellingham  WA
+Bellingham  WA,Seattle  WA
+Seattle  WA,Columbus  OH
+Columbus  OH,Seattle  WA
+Seattle  WA,Hiawasee  GA
+Hiawasee  GA,Seattle  WA
+Seattle  WA,Oriental  NC
+Oriental  NC,Seattle  WA
+Newark  OH,Ames  IA
+Ames  IA,Newark  OH
+Newark  OH,Richmond Hill  NY
+Richmond Hill  NY,Newark  OH
+Newark  OH,Bow  NH
+Bow  NH,Newark  OH
+Newark  OH,Buckeye  AZ
+Buckeye  AZ,Newark  OH
+Newark  OH,Mansfield  TX
+Mansfield  TX,Newark  OH
+Newark  OH,Crescent City  CA
+Crescent City  CA,Newark  OH
+Buffalo  NY,Euclid  OH
+Euclid  OH,Buffalo  NY
+Buffalo  NY,Santa Maria  CA
+Santa Maria  CA,Buffalo  NY
+Buffalo  NY,San Antonio  TX
+San Antonio  TX,Buffalo  NY
+Buffalo  NY,Onalaska  WI
+Onalaska  WI,Buffalo  NY
+Fort Wayne  IN,McLean  VA
+McLean  VA,Fort Wayne  IN
+Fort Wayne  IN,Lancaster  OH
+Lancaster  OH,Fort Wayne  IN
+Fort Wayne  IN,Newton Falls  OH
+Newton Falls  OH,Fort Wayne  IN
+Fort Wayne  IN,Mesa  AZ
+Mesa  AZ,Fort Wayne  IN
+Fort Wayne  IN,Fairport  NY
+Fairport  NY,Fort Wayne  IN
+Fort Wayne  IN,Prosser  WA
+Prosser  WA,Fort Wayne  IN
+Lafayette  CA,Palo Verde  AZ
+Palo Verde  AZ,Lafayette  CA
+Lafayette  CA,Norwalk  CT
+Norwalk  CT,Lafayette  CA
+Lafayette  CA,Newborn  GA
+Newborn  GA,Lafayette  CA
+Lafayette  CA,Hillsboro  OR
+Hillsboro  OR,Lafayette  CA
+Seattle  WA,Olympia  WA
+Olympia  WA,Seattle  WA
+Seattle  WA,Round Rock  TX
+Round Rock  TX,Seattle  WA
+Seattle  WA,Milwaukee  WI
+Milwaukee  WI,Seattle  WA
+Seattle  WA,Portland  OR
+Portland  OR,Seattle  WA
+Seattle  WA,Reno  NV
+Reno  NV,Seattle  WA
+Channelview  TX,Rotan  TX
+Rotan  TX,Channelview  TX
+Channelview  TX,Humansville  MO
+Humansville  MO,Channelview  TX
+Channelview  TX,Levittown  PA
+Levittown  PA,Channelview  TX
+Channelview  TX,Salt Lake City  UT
+Salt Lake City  UT,Channelview  TX
+Wheeling  WV,New York City  NY
+New York City  NY,Wheeling  WV
+Wheeling  WV,Port Aransas  TX
+Port Aransas  TX,Wheeling  WV
+Wheeling  WV,Tempe  AZ
+Tempe  AZ,Wheeling  WV
+Wheeling  WV,Smethport  PA
+Smethport  PA,Wheeling  WV
+Wheeling  WV,Dripping Springs  TX
+Dripping Springs  TX,Wheeling  WV
+Wheeling  WV,Georgetown  TX
+Georgetown  TX,Wheeling  WV
+Wheeling  WV,Mentor  OH
+Mentor  OH,Wheeling  WV
+Wheeling  WV,Gold Bar  WA
+Gold Bar  WA,Wheeling  WV
+Wheeling  WV,Austin  TX
+Austin  TX,Wheeling  WV
+Wheeling  WV,Pearland  TX
+Pearland  TX,Wheeling  WV
+Wheeling  WV,Sherwood  OR
+Sherwood  OR,Wheeling  WV
+Wheeling  WV,Pratt  KS
+Pratt  KS,Wheeling  WV
+Wheeling  WV,Portland  OR
+Portland  OR,Wheeling  WV
+Wheeling  WV,Akron  OH
+Akron  OH,Wheeling  WV
+Columbus  OH,Nation Wide  FL
+Nation Wide  FL,Columbus  OH
+Columbus  OH,Waterloo  IA
+Waterloo  IA,Columbus  OH
+Columbus  OH,Wilmington  MA
+Wilmington  MA,Columbus  OH
+Anacortes  WA,Boston  MA
+Boston  MA,Anacortes  WA
+Anacortes  WA,Hamilton  OH
+Hamilton  OH,Anacortes  WA
+Anacortes  WA,Bolivar  MO
+Bolivar  MO,Anacortes  WA
+Anacortes  WA,Lafayette  CA
+Lafayette  CA,Anacortes  WA
+Anacortes  WA,Olympia  WA
+Olympia  WA,Anacortes  WA
+Hubbard  MN,Las Vegas  NV
+Las Vegas  NV,Hubbard  MN
+Hubbard  MN,New Springfield  OH
+New Springfield  OH,Hubbard  MN
+Hubbard  MN,San Diego  CA
+San Diego  CA,Hubbard  MN
+Hubbard  MN,Jacksonville  FL
+Jacksonville  FL,Hubbard  MN
+Hubbard  MN,Pittsford  MI
+Pittsford  MI,Hubbard  MN
+Hubbard  MN,Palm Desert  CA
+Palm Desert  CA,Hubbard  MN
+Hubbard  MN,Pomona  CA
+Pomona  CA,Hubbard  MN
+Hubbard  MN,Chicago  IL
+Chicago  IL,Hubbard  MN
+Hubbard  MN,Coulterville  IL
+Coulterville  IL,Hubbard  MN
+Hubbard  MN,Cary  NC
+Cary  NC,Hubbard  MN
+Hubbard  MN,Riverside  CA
+Riverside  CA,Hubbard  MN
+Hubbard  MN,Alsip  IL
+Alsip  IL,Hubbard  MN
+Hubbard  MN,Holiday  FL
+Holiday  FL,Hubbard  MN
+Hubbard  MN,Ridgefield  WA
+Ridgefield  WA,Hubbard  MN

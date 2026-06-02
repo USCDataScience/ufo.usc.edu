@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="../../css/team4/inspector_wordcloud.css">
+<body>
+<script type="module">
+
+import define from "../../js/team4/wordcloud_index.js";
+import {Runtime, Library, Inspector} from "../../js/team4/WordCloud_runtime.js";
+
+const runtime = new Runtime();
+const main = runtime.module(define, Inspector.into(document.body));
+
+</script>

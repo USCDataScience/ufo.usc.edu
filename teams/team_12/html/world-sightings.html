@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+ 
+    <title>Point on a map D3</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scrolling Nav CSS -->
+    <link href="../css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/team-12.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/plugin.css">
+    <style>
+
+        .names {
+        fill: none;
+        stroke: #fff;
+        stroke-linejoin: round;
+        }
+
+        /* Tooltip CSS */
+        .d3-tip {
+        line-height: 1.5;
+        font-weight: 400;
+        font-family:"avenir next", Arial, sans-serif;
+        padding: 6px;
+        background: rgba(0, 0, 0, 0.6);
+        color: #FFA500;
+        border-radius: 1px;
+        pointer-events: none;
+        }
+
+        /* Creates a small triangle extender for the tooltip */
+        .d3-tip:after {      
+          box-sizing: border-box;
+          display: inline;
+          font-size: 8px;
+          width: 100%;
+          line-height: 1.5;
+          color: rgba(0, 0, 0, 0.6);
+          position: absolute;
+          pointer-events: none;
+          
+        }
+
+        /* Northward tooltips */
+        .d3-tip.n:after {
+          content: "\25BC";
+          margin: -1px 0 0 0;
+          top: 100%;
+          left: 0;
+          text-align: center;
+        }
+
+        /* Eastward tooltips */
+        .d3-tip.e:after {
+          content: "\25C0";
+          margin: -4px 0 0 0;
+          top: 50%;
+          left: -8px;
+        }
+
+        /* Southward tooltips */
+        .d3-tip.s:after {
+          content: "\25B2";
+          margin: 0 0 1px 0;
+          top: -8px;
+          left: 0;
+          text-align: center;
+        }
+
+        /* Westward tooltips */
+        .d3-tip.w:after {
+          content: "\25B6";
+          margin: -4px 0 0 -1px;
+          top: 50%;
+          left: 100%;
+        }
+
+    /*    text{
+          pointer-events:none;
+        }*/
+
+        .details{
+          color:white;
+        }
+        #map{
+          background-color: #0000CD;
+        }
+
+    </style>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    
+
+    <div id="nav-main">
+        <nav class="navbar nav-main navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                </div>
+
+                <div class="collapse navbar-collapse navbar-ex1-collapse">  
+                  <nav id="nav-wrap">
+                    <ul class="nav navbar-nav navbar-custom">
+                        <li class="current"><a class="page-scroll" href="../team_12.html#page-top" style="color:white">Home</a></li>
+                    </ul>
+                  </nav>
+
+                    <a href="http://usc.edu" class="pull-right">
+                      <img src="../../../images/usc-primary-logotype.svg" width="176px" height="38px">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="team-12-space">
+        <div class = "container" style="margin-bottom: 2%;">
+            <ul class="nav nav-tabs" id="tabs">
+                <li><a href="../team_12.html#overview" data-toggle="tab">Overview</a></li>
+                <li class="active" ><a href="../team_12.html#static_visualizations" data-toggle="tab">Static Visualizations</a></li>
+                <li><a href="../team_12.html#dynamic_visualizations" data-toggle="tab">Dynamic Visualizations</a></li>
+            </ul>
+        
+        </div>
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in container" id="overview">
+                <div class="row">
+                    <center><h3>Number of Features</h3></center>
+                </div>
+                <div class ="row" style="margin-top: 1%">
+                    <div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4" id ="featuresAdded1"></div>
+                    <div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4" id ="featuresAdded2"></div>
+                    <div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4" id ="featuresAdded3"></div><br>
+                </div>
+                <div class="row" style="margin-top: 1%">
+                    <div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4" ><center><b>UFO Awesome dataset</center></div>
+                    <div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4" ><center>Merged USA UFO dataset</center></div>
+                    <div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4" ><center>USA-British-UFOStalker dataset</b></center></div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade in active container" id="static_visualizations">
+              <ol class="breadcrumb">
+                <li ><a href="../team_12.html#static_visualizations" data-toggle="tab">List of Visualizations</a></li>
+                <li class="active">World Sightings on a Map</li>
+              </ol>
+                <div class="row" id= "map">
+                  <center>
+                    <div class="row container" >
+                    <h1><span style="color: #fff">UFO sightings across the world</span></h1>
+                    <h1><span style="color: #0000CD">HI</span></h1>
+                    <h1><span style="color: #0000CD;">UFO sightings and US Population</span></h1>
+                    <br>
+                  </div>
+                </center>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id ="map">
+                      <svg id="world-sightings" viewbox="-50 -100 1450 900"></svg>
+    
+                    </div>
+                    <br>
+                    
+                    <div class="row container">
+                      <h3><center><span style="color: #fff"><br>Inferences</span></center></h3>
+                      <br>
+                      <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10">
+                        <span style="color: #fff">Having merged three main datasets of UFO sightings, we observe that there have been several incidents of such sightings in the last 100 years. As a major component of our dataset is the sightings reported in the US, we see that it is dense here. Further sightings in the UK are also dense, but turn to be more sparse in countries like India, China, and countires in South America.</span><br>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <span style="color: #0000CD;">UFO sightings in United States representing population counts</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade in container" id="dynamic_visualizations">
+            </div>
+            
+          </div>
+
+      </div>
+
+  <hr class="featurette-divider">
+    <div class =" row">
+        <div class="container">
+            <footer>
+                <p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+            </footer>
+        </div>
+    </div>
+
+  <script src="http://d3js.org/d3.v4.min.js"></script>
+  <script src="http://d3js.org/queue.v1.min.js"></script>
+  <script src="http://d3js.org/topojson.v1.min.js"></script>
+  <script src="../js/d3-tip.js"></script>
+  <script src="../js/d3_world_sightings.js"></script>
+
+  <!-- <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script> -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\/script>')</script>
+  <script src="../js/plugin.js"></script>
+  <script>
+   
+  </script>
+    
+</body>
+</html>

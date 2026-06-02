@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>USC Data Science - Polar Database</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scrolling Nav CSS -->
+    <link href="../css/scrolling-nav.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../css/styles.css" rel="stylesheet">
+	<script>
+	function clearContent()
+	{
+		$('#exampleModalCenter').modal('close');
+		document.getElementById('myiFrame').src = 'about:blank';
+		
+	}
+	function showModal(loc,title)
+	{
+		document.getElementById('myiFrame').src = loc;
+		document.getElementById('exampleModalLongTitle').innerHTML = title;
+		$('#exampleModalCenter').modal('show');
+	}
+	</script>
+    <script src="../js/jquery.js"></script>
+    <style>
+        .btn-primary:hover,
+        .btn-primary:focus
+        {
+            
+            box-shadow: none;
+            outline: none;
+        }
+
+        .btn-primary
+        {
+            color: #fff;
+            
+        }
+
+        section
+        {
+            padding: 60px 0;
+        }
+
+        section .section-title
+        {
+            text-align: center;
+            color: #305893;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+        }
+
+        .padtext
+        {
+        	padding: 10px;
+        }
+
+        #team .card
+        {
+            border: none;
+            background: #ffffff;
+        }
+
+        .image-flip:hover .backside,
+        .image-flip.hover .backside
+        {
+            -webkit-transform: rotateY(0deg);
+            -moz-transform: rotateY(0deg);
+            -o-transform: rotateY(0deg);
+            -ms-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+            border-radius: .25rem;
+        }
+
+        .image-flip:hover .frontside,
+        .image-flip.hover .frontside
+        {
+            -webkit-transform: rotateY(180deg);
+            -moz-transform: rotateY(180deg);
+            -o-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+        }
+
+        .mainflip
+        {
+            -webkit-transition: 1s;
+            -webkit-transform-style: preserve-3d;
+            -ms-transition: 1s;
+            -moz-transition: 1s;
+            -moz-transform: perspective(1000px);
+            -moz-transform-style: preserve-3d;
+            -ms-transform-style: preserve-3d;
+            transition: 1s;
+            transform-style: preserve-3d;
+            position: relative;
+        }
+    	iframe{
+            overflow:hidden;
+        }
+
+        .frontside
+        {
+            position: relative;
+            -webkit-transform: rotateY(0deg);
+            -ms-transform: rotateY(0deg);
+            z-index: 2;
+            margin-bottom: 30px;
+            -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+            -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+            box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+        }
+
+        .backside
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: white;
+            -webkit-transform: rotateY(-180deg);
+            -moz-transform: rotateY(-180deg);
+            -o-transform: rotateY(-180deg);
+            -ms-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+            -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+            -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+            box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+        }
+        .modal-dialog {
+            width: 80%;
+            height: 80%;
+            margin-top: 2%;
+            margin-left: 10%;
+            margin-right: 10%;
+
+        }
+
+        .modal-content {
+          height: auto;
+          min-height: 100%;
+          border-radius: 0;
+        }
+
+        .frontside,
+        .backside
+        {
+            -webkit-backface-visibility: hidden;
+            -moz-backface-visibility: hidden;
+            -ms-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -webkit-transition: 1s;
+            -webkit-transform-style: preserve-3d;
+            -moz-transition: 1s;
+            -moz-transform-style: preserve-3d;
+            -o-transition: 1s;
+            -o-transform-style: preserve-3d;
+            -ms-transition: 1s;
+            -ms-transform-style: preserve-3d;
+            transition: 1s;
+            transform-style: preserve-3d;
+        }
+
+        .frontside .card,
+        .backside .card
+        {
+            min-height: 312px;
+        }
+
+        .backside .card a
+        {
+            font-size: 18px;
+            color: #305893 !important;
+        }
+
+        .frontside .card .card-title,
+        .backside .card .card-title
+        {
+            color: #305893 !important;
+        }
+
+        .frontside .card .card-body img
+        {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+    	.row{
+    		text-align:center;
+    		padding:2dp;
+    	}
+
+    </style>
+</head>
+
+<body>
+<section id="team" class="pb-5">
+    <div class="container">
+        <h5 class="section-title h1">Visualizations</h5>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../d3-visualizations/team6/choropleth_sightings.html","Number of UFO sightings for countries of the world");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team6/choropleth_sightings.png" /></p>
+                                    <h4 class="card-title">Worldwide UFO Sightings</h4>
+                                    <p class="card-text padtext">Distribution of UFO sightings on the world map</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Choropleth Map</h4>
+                                    <p class="card-text padtext">The choropleth visualizes each country versus UFO sightings. Utilizes darker shading scheme to indicate higher number of sightings</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../d3-visualizations/team6/showreel_sightings.html","Showreel of sightings based on country");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team6/showreel_sightings.png" /></p>
+                                    <h4 class="card-title">Sightings Showreel</h4>
+                                    <p class="card-text padtext">Modelling sighting trends with a showreel of visualizations</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Visualization Showreel</h4>
+                                    <p class="card-text padtext">A small showreel which consists of various vizualizations like trends, pie chart etc</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../d3-visualizations/team6/bargraph_shape.html","Shapes of the UFO sightings");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team6/bargraph_shape.png" /></p>
+                                    <h4 class="card-title">Sightings by Shape</h4>
+                                    <p class="card-text padtext">Depicts the number of sightings with respect to shape of UFO</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Bar Graph</h4>
+                                    <p class="card-text padtext">The bar chart visualizes the number of sightings with respect to the respective shape of the UFO on x-axis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../d3-visualizations/team6/horizontal_stacked_distance_duration.html","Distance from airport versus duration of sighting");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team6/horizontal_stacked_distance_duration.png" /></p>
+                                    <h4 class="card-title">Airport Distance v/s Duration</h4>
+                                    <p class="card-text padtext">Represents distance from airport relative to the duration of the sighting</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Horizontal Stacked Chart</h4>
+                                    <p class="card-text padtext">Depicts the distance from airport ordered from closest to farthest and the corresponding number of UFO sightings. This is for 3 duration ranges.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../d3-visualizations/team6/heatmap_year_month_sightings.html","Global Sightings over the years");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team6/heatmap_year_month_sightings.png" /></p>
+                                    <h4 class="card-title">Timeseries Heatmap of Sightings</h4><small>Year-Month Sightings Over a Decade</small>
+                                    <p class="card-text padtext">Sightings by month and year</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Heatmap</h4>
+                                    <p class="card-text padtext">Shows the number of sightings globally broken down by year and month. The sightings cover a period of 10 years from 2005-2015</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../d3-visualizations/team6/worldcloud_sightings.html","Most Frequent Words In UFO Descriptions");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team6/cloud_sightings.png" /></p>
+                                    <h4 class="card-title">UFO Buzzwords</h4>
+                                    <p class="card-text padtext">A word cloud to depict the most frequent words used in UFO descriptions</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Word Cloud</h4>
+                                    <p class="card-text padtext">A word cloud to depict the most frequent words used in UFO descriptions. The words whose frequency is high occupy more area on the cloud</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../d3-visualizations/team6/bubble_chart_sightings.html","Sightings on the basis of the number of states");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team6/bubblechart_sightings.png" /></p>
+                                    <h4 class="card-title">Sightings per US State</h4>
+                                    <p class="card-text padtext">A bubble chart to depict the number of sightings based on state</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Bubble Chart</h4>
+                                    <p class="card-text padtext">A bubble chart to depict the number of sightings based on the number of state</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../d3-visualizations/team6/scatterplot_temperature_precipitation.html","Sightings from top 3 states wrt Temperature and Precipitation");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team6/scatterplot_temperature_precipitation.png" /></p>
+                                    <h4 class="card-title">Sightings v/s Climate</h4>
+                                    <p class="card-text padtext">Temperature vs precipitation for the 3 states with highest number of sightings</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Scatter Plot</h4>
+                                    <p class="card-text padtext">A scatter plot of temperature vs precipitation for the 3 states with most number of UFO sightings in United States</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../d3-visualizations/team6/dashboard_elevation_statewise_sightings.html","Elevation State Sightings");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class="img-fluid" style="width:250px;" alt="vizualization1" src="../images/team6/dashboard_elevation_statewise_sightings.png" /></p>
+                                    <h4 class="card-title">Elevation</h4>
+                                    <p class="card-text padtext">Relation of elevation and no of sightings per state in USA</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Dashboard</h4>
+                                    <p class="card-text padtext">Responsive dashboard which shows the relation of number of sightings to the elevation in the United States. Elevation divided in 3 ranges.The top 10 states with the maximum number of sighitngs in the United States are chosen. The number of sightings for each elevation range for each state can be viewed. The percentage distribution of sightings across all states for each elevation range is also viewable </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../d3-visualizations/team6/piechart_rural_vs_urban.html","Pie Chart");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team6/piechart_sightings.png" /></p>
+                                    <h4 class="card-title">Sightings in Rural Areas</h4>
+                                    <p class="card-text padtext">A pie chart to depict the ratio of number of sightings in rural and urban area</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Pie Chart</h4>
+                                    <p class="card-text padtext">This pie chart is useful for finding out the relation between the numner of sightings in rural and urban area</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4" style="cursor: pointer;" onclick='showModal("../d3-visualizations/team6/bullet_chart_state_shape_sightings","Variations in sightings for shapes and states at 5 years intervals");'>
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-xs-center">
+                                    <p>
+                                        <img class=" img-fluid" alt="vizualization1" src="../images/team6/bulletchart_solr_ingestion.png" /></p>
+                                    <h4 class="card-title">Dynamic Visualization</h4>
+                                    <p class="card-text padtext">A bullet chart that indicates variations in sightings for shape and state</p>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-xs-center mt-4">
+                                    <h4 class="card-title">Variations in sightings for shapes and states at 5 years intervals</h4>
+                                    <p class="card-text padtext">A bullet chart that indicates variations in sightings for shape and state at 5 year facets.</br>
+									It leverages SOLR web services for dynamically updating the contents of the bullet chart.</br>The states can be selected from dropdown for observing changes in data.<br/>For this visualization to work data has to be ingested into SOLR using the data ingestion scripts.
+									</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle" style="text-align:center; font-style:oblique;">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="clearContent();">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		.....
+		<iframe id="myiFrame" height="500" frameborder="0" scrolling="no" width="960" src="../d3-visualizations/showreel_sightings.html" >
+</iframe>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/scrolling-nav.js"></script>
+
+
+</body>
+
+</html>

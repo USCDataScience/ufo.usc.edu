@@ -1,0 +1,19 @@
+origin,destination
+Smith  KY,Lake Elsinore  CA
+Lake Elsinore  CA,Smith  KY
+Smith  KY,Las Vegas  NM
+Las Vegas  NM,Smith  KY
+Smith  KY,Pecos  NM
+Pecos  NM,Smith  KY
+Smith  KY,Chicago  IL
+Chicago  IL,Smith  KY
+Smith  KY,Albuquerque  NM
+Albuquerque  NM,Smith  KY
+Smith  KY,Palos Verdes Peninsula  CA
+Palos Verdes Peninsula  CA,Smith  KY
+Smith  KY,East Sparta  OH
+East Sparta  OH,Smith  KY
+Tucson  AZ,New Haven  CT
+New Haven  CT,Tucson  AZ
+Tucson  AZ,San Marcos  TX
+San Marcos  TX,Tucson  AZ

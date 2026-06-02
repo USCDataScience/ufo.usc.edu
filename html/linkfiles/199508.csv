@@ -1,0 +1,237 @@
+origin,destination
+Tacoma  WA,Seattle  WA
+Seattle  WA,Tacoma  WA
+Tacoma  WA,South East Merced  CA
+South East Merced  CA,Tacoma  WA
+Tacoma  WA,Van Nuys  CA
+Van Nuys  CA,Tacoma  WA
+Tacoma  WA,Las Vegas  NV
+Las Vegas  NV,Tacoma  WA
+Tacoma  WA,Jack Fork Mountains  OK
+Jack Fork Mountains  OK,Tacoma  WA
+Tacoma  WA,Pflugerville  TX
+Pflugerville  TX,Tacoma  WA
+Stanwood  WA,Lynnwood  WA
+Lynnwood  WA,Stanwood  WA
+Stanwood  WA,Deming  NM
+Deming  NM,Stanwood  WA
+Bellevue  WA,Vancouver  WA
+Vancouver  WA,Bellevue  WA
+Bellevue  WA,Lynnwood  WA
+Lynnwood  WA,Bellevue  WA
+Bellevue  WA,Bothell  WA
+Bothell  WA,Bellevue  WA
+Bellevue  WA,Sacramento  CA
+Sacramento  CA,Bellevue  WA
+Bellevue  WA,Santa Rosa  CA
+Santa Rosa  CA,Bellevue  WA
+Bellevue  WA,Hazel Dell  WA
+Hazel Dell  WA,Bellevue  WA
+Bellevue  WA,Shelton  WA
+Shelton  WA,Bellevue  WA
+Bellevue  WA,Crescent Lake  WA
+Crescent Lake  WA,Bellevue  WA
+Bellevue  WA,Nashua  NH
+Nashua  NH,Bellevue  WA
+Woodland  WA,Richmond  KY
+Richmond  KY,Woodland  WA
+Woodland  WA,Phillips  WI
+Phillips  WI,Woodland  WA
+Woodland  WA,Santee  CA
+Santee  CA,Woodland  WA
+Bakersfield  CA,Redwood  CA
+Redwood  CA,Bakersfield  CA
+Bakersfield  CA,Moosehead Lake  ME
+Moosehead Lake  ME,Bakersfield  CA
+Bakersfield  CA,Lacey  WA
+Lacey  WA,Bakersfield  CA
+Bakersfield  CA,Reno  NV
+Reno  NV,Bakersfield  CA
+Bakersfield  CA,Berthid  CO
+Berthid  CO,Bakersfield  CA
+Bakersfield  CA,Memphis  TN
+Memphis  TN,Bakersfield  CA
+Portland  OR,Clinton  MO
+Clinton  MO,Portland  OR
+Portland  OR,Oregon City  OR
+Oregon City  OR,Portland  OR
+Portland  OR,Tucson  AZ
+Tucson  AZ,Portland  OR
+Portland  OR,Clearwater  FL
+Clearwater  FL,Portland  OR
+Portland  OR,Alum Creek  WV
+Alum Creek  WV,Portland  OR
+Beaverton  OR,Sacramento  CA
+Sacramento  CA,Beaverton  OR
+Beaverton  OR,Puyallup  WA
+Puyallup  WA,Beaverton  OR
+Seattle  WA,Bellevue  WA
+Bellevue  WA,Seattle  WA
+Seattle  WA,Lancaster  WA
+Lancaster  WA,Seattle  WA
+Seattle  WA,Naples  FL
+Naples  FL,Seattle  WA
+Seattle  WA,Fort Myers Beach  FL
+Fort Myers Beach  FL,Seattle  WA
+Seattle  WA,Arlington  WA
+Arlington  WA,Seattle  WA
+Seattle  WA,Interstate 10  FL
+Interstate 10  FL,Seattle  WA
+Seattle  WA,Laughlin  NV
+Laughlin  NV,Seattle  WA
+Seattle  WA,Willamsburg  VA
+Willamsburg  VA,Seattle  WA
+Seattle  WA,Enola  PA
+Enola  PA,Seattle  WA
+Martinez  CA,Coon Valley  WI
+Coon Valley  WI,Martinez  CA
+Martinez  CA,Putman  CT
+Putman  CT,Martinez  CA
+Martinez  CA,Gig Harbor  WA
+Gig Harbor  WA,Martinez  CA
+Martinez  CA,Redmond  WA
+Redmond  WA,Martinez  CA
+Martinez  CA,Las Vegas  NV
+Las Vegas  NV,Martinez  CA
+Tacoma  WA,Martinez  CA
+Martinez  CA,Tacoma  WA
+Tacoma  WA,Snoqualmie Pass  WA
+Snoqualmie Pass  WA,Tacoma  WA
+Tacoma  WA,Federal Way  WA
+Federal Way  WA,Tacoma  WA
+Tacoma  WA,Silverton  OR
+Silverton  OR,Tacoma  WA
+Tacoma  WA,Redmond  WA
+Redmond  WA,Tacoma  WA
+Vashon Island  WA,Crescent City  CA
+Crescent City  CA,Vashon Island  WA
+Vashon Island  WA,Arcadia Shores  WA
+Arcadia Shores  WA,Vashon Island  WA
+Vashon Island  WA,Tacoma  WA
+Tacoma  WA,Vashon Island  WA
+Vashon Island  WA,Fife  WA
+Fife  WA,Vashon Island  WA
+Vashon Island  WA,Hoh River  WA
+Hoh River  WA,Vashon Island  WA
+Vashon Island  WA,Cuena Park  CA
+Cuena Park  CA,Vashon Island  WA
+Vashon Island  WA,Sandpoint  ID
+Sandpoint  ID,Vashon Island  WA
+Vashon Island  WA,Grand Haven  MI
+Grand Haven  MI,Vashon Island  WA
+Vashon Island  WA,Hampton  VA
+Hampton  VA,Vashon Island  WA
+Vashon Island  WA,Brunswick  ME
+Brunswick  ME,Vashon Island  WA
+Vashon Island  WA,Flagstaff  AZ
+Flagstaff  AZ,Vashon Island  WA
+Vashon Island  WA,Appalachian  NY
+Appalachian  NY,Vashon Island  WA
+Vashon Island  WA,Hampton  TN
+Hampton  TN,Vashon Island  WA
+Vashon Island  WA,Davis  CA
+Davis  CA,Vashon Island  WA
+Sumner  WA,Williston  VT
+Williston  VT,Sumner  WA
+Sumner  WA,Aurora  IL
+Aurora  IL,Sumner  WA
+Sumner  WA,Redmond  WA
+Redmond  WA,Sumner  WA
+Sumner  WA,Omaha  NE
+Omaha  NE,Sumner  WA
+Granite  WA,South Park  WA
+South Park  WA,Granite  WA
+Granite  WA,McKenzie  ND
+McKenzie  ND,Granite  WA
+Kearney  MO,Salt Lake City  UT
+Salt Lake City  UT,Kearney  MO
+Kearney  MO,Dearborn  MI
+Dearborn  MI,Kearney  MO
+Beaverton  OR,Culver City  CA
+Culver City  CA,Beaverton  OR
+Beaverton  OR,Shapleigh  ME
+Shapleigh  ME,Beaverton  OR
+Beaverton  OR,Holly  WA
+Holly  WA,Beaverton  OR
+Beaverton  OR,Colonial Beach  VA
+Colonial Beach  VA,Beaverton  OR
+Beaverton  OR,Brunswick  OH
+Brunswick  OH,Beaverton  OR
+Beaverton  OR,Bowman  SC
+Bowman  SC,Beaverton  OR
+La Crosse  WI,Olathe  KS
+Olathe  KS,La Crosse  WI
+La Crosse  WI,Tacoma  WA
+Tacoma  WA,La Crosse  WI
+La Crosse  WI,Dowling  MI
+Dowling  MI,La Crosse  WI
+La Crosse  WI,Laporte  WA
+Laporte  WA,La Crosse  WI
+La Crosse  WI,Seattle  WA
+Seattle  WA,La Crosse  WI
+Fontana  CA,Tempe  AZ
+Tempe  AZ,Fontana  CA
+Fontana  CA,Prescott  AZ
+Prescott  AZ,Fontana  CA
+Fontana  CA,Phoenix  AZ
+Phoenix  AZ,Fontana  CA
+Fontana  CA,Bothell  WA
+Bothell  WA,Fontana  CA
+Fontana  CA,Greensburg  KY
+Greensburg  KY,Fontana  CA
+Puyallup  WA,Louisville  KY
+Louisville  KY,Puyallup  WA
+Puyallup  WA,Anaheim  CA
+Anaheim  CA,Puyallup  WA
+Puyallup  WA,Upland  CA
+Upland  CA,Puyallup  WA
+Monticello  NY,Nelson Ledges  OH
+Nelson Ledges  OH,Monticello  NY
+Monticello  NY,Morris  AL
+Morris  AL,Monticello  NY
+Monticello  NY,Oxford  MA
+Oxford  MA,Monticello  NY
+Monticello  NY,Pittsburgh  PA
+Pittsburgh  PA,Monticello  NY
+Monticello  NY,Detroit  MI
+Detroit  MI,Monticello  NY
+Monticello  NY,Olean  NY
+Olean  NY,Monticello  NY
+Auburn  WA,Salida  CO
+Salida  CO,Auburn  WA
+Auburn  WA,Dade County  FL
+Dade County  FL,Auburn  WA
+Auburn  WA,Williston  ND
+Williston  ND,Auburn  WA
+Auburn  WA,Phoenix  AZ
+Phoenix  AZ,Auburn  WA
+Auburn  WA,Provo  UT
+Provo  UT,Auburn  WA
+Auburn  WA,Interstate-5  CA
+Interstate-5  CA,Auburn  WA
+Medford  OR,Oregon City  OR
+Oregon City  OR,Medford  OR
+Medford  OR,Lost Lake  OR
+Lost Lake  OR,Medford  OR
+Medford  OR,Los Angeles  CA
+Los Angeles  CA,Medford  OR
+Burbank  CA,Castle Rock  CO
+Castle Rock  CO,Burbank  CA
+Burbank  CA,Mass City  MI
+Mass City  MI,Burbank  CA
+Boise  ID,La Habra  CA
+La Habra  CA,Boise  ID
+Boise  ID,Inglewood  CA
+Inglewood  CA,Boise  ID
+Boise  ID,Elizabethtown  KY
+Elizabethtown  KY,Boise  ID
+Bakersfield  CA,Fresno  CA
+Fresno  CA,Bakersfield  CA
+Bakersfield  CA,Travis AFB  CA
+Travis AFB  CA,Bakersfield  CA
+Bakersfield  CA,Rock Valley  IA
+Rock Valley  IA,Bakersfield  CA
+Mukilteo  WA,Randolph  NJ
+Randolph  NJ,Mukilteo  WA
+Mukilteo  WA,Reno  NV
+Reno  NV,Mukilteo  WA

@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Word Cloud</title>
+    <script src="../../js/team4/d3.js" charset="utf-8"></script>
+    <script src="../../js/team4/d3.layout.cloud.js"></script>
+    <script src="../../js/team4/d3.wordcloud.js"></script>
+    <script src="../../data/team4/word_frequency.js"></script>
+  </head>
+  <body style="text-align: center">
+    <div id='wordcloud'></div>
+    
+   
+    <script>
+      console.log(words);
+      d3.wordcloud()
+        .size([750, 450])
+        .fill(d3.scale.ordinal().range(["#F94144","#F3722C","#f9c74f",
+        "#43aa8b","#4d908e","#7b2cbf","#277da1"]))
+        .words(words)
+        .onwordclick(function(d, i) {
+          if (d.href) { window.location = d.href; }
+        })
+        .start();
+    </script>
+  </body>
+</html>
+
