@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Point on a map D3</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scrolling Nav CSS -->
+    <link href="../css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/team-12.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/plugin.css">
+
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+  <div id="nav-main">
+        <nav class="navbar nav-main navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                </div>
+
+                <div class="collapse navbar-collapse navbar-ex1-collapse">  
+                  <nav id="nav-wrap">
+                    <ul class="nav navbar-nav navbar-custom">
+                        <li class="current"><a class="page-scroll" href="../team_12.html#page-top" style="color:white">Home</a></li>
+                    </ul>
+                  </nav>
+
+                    <a href="http://usc.edu" class="pull-right">
+                      <img src="../../../images/usc-primary-logotype.svg" width="176px" height="38px">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="team-12-space">
+        <div class = "container" style="margin-bottom: 2%;">
+            <ul class="nav nav-tabs" id="tabs">
+                <li><a href="../team_12.html#overview" data-toggle="tab">Overview</a></li>
+                <li class="active" ><a href="../team_12.html#static_visualizations" data-toggle="tab">Static Visualizations</a></li>
+                <li><a href="../team_12.html#dynamic_visualizations" data-toggle="tab">Dynamic Visualizations</a></li>
+            </ul>
+        
+        </div>
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in container" id="overview">
+                <div class="row">
+                    <center><h3>Number of Features</h3></center>
+                </div>
+                <div class ="row" style="margin-top: 1%">
+                  <div class= "col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <div class="row"> 
+                        <div class = "" id ="featuresAdded1"></div>
+                      </div>
+                      <div class="row"> 
+                        <div><center><b>UFO Awesome dataset</b></center></div>
+                      </div>
+                  </div>
+                  <div class= "col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <div class="row"> 
+                        <div class = "" id ="featuresAdded2"></div>
+                      </div>
+                      <div class="row"> 
+                        <div><center><b>Merged USA UFO dataset</b></center></div>
+                      </div>
+                  </div>
+                  <div class= "col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <div class="row"> 
+                        <div class = "" id ="featuresAdded3"></div>
+                      </div>
+                      <div class="row"> 
+                        <div><center><b>USA-British-UFOStalker dataset</b></center></div>
+                      </div>
+                  </div>
+                    <br>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade in active container" id="static_visualizations">
+              <ol class="breadcrumb">
+                <li ><a href="../team_12.html#static_visualizations" data-toggle="tab">List of Visualizations</a></li>
+                <li class="active">UFO Sightings and Locations</li>
+              </ol>
+                <div class="row" id ="chloro">
+                    <center><h1>UFO Sightings and Locations</h1></center>
+                    <br>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <svg  id = "UFO_sightings" width="960" height="500"></svg>
+                    </div>
+                    <br>
+                    
+                    
+                </div>
+                <div class="row container">
+                      <h3><center>Inferences</center></h3>
+                      <br>
+                      <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10">
+                        <span >We display the number of UFO sightings in US, UK, and other countries from 2001 to 2010. The legend shows which bar represents which country. Since there are many countries in the third group (other countires), the number of UFO sightings is always the highest. We found that most UFO sightings happended in 2003 and 2007 in US. In UK, most of UFO sightings happened in 2009. For other countries, most of UFO sightings happened in 2008.</span><br>
+                      </div>
+                      <!-- <div class="row"> -->
+                       <!--  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <span style="color: #000">UFO sightings in United States representing population counts</span>
+                        </div> -->
+                    <!-- </div> -->
+                    </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade in container" id="dynamic_visualizations">
+            </div>
+            
+          </div>
+
+      </div>
+
+  <hr class="featurette-divider">
+    <div class =" row">
+        <div class="container">
+            <footer>
+                <p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+            </footer>
+        </div>
+    </div>
+
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script>
+  var svg = d3.select("#UFO_sightings"),
+    margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = +svg.attr("width") - margin.left - margin.right,
+    height = +svg.attr("height") - margin.top - margin.bottom,
+    g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var x0 = d3.scaleBand()
+    .rangeRound([0, width])
+    .paddingInner(0.1);
+
+var x1 = d3.scaleBand()
+    .padding(0.05);
+
+var y = d3.scaleLinear()
+    .rangeRound([height, 0]);
+
+var z = d3.scaleOrdinal()
+    .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+
+d3.csv("../data/data_test.csv", function(d, i, columns) {
+  for (var i = 1, n = columns.length; i < n; ++i) d[columns[i]] = +d[columns[i]];
+  return d;
+}, function(error, data) {
+  if (error) throw error;
+
+  var keys = data.columns.slice(1);
+
+  x0.domain(data.map(function(d) { return d.State; }));
+  x1.domain(keys).rangeRound([0, x0.bandwidth()]);
+  y.domain([0, d3.max(data, function(d) { return d3.max(keys, function(key) { return d[key]; }); })]).nice();
+  console.log("HI")
+  g.append("g")
+    .selectAll("g")
+    .data(data)
+    .enter().append("g")
+      .attr("transform", function(d) { return "translate(" + x0(d.State) + ",0)"; })
+    .selectAll("rect")
+    .data(function(d) { return keys.map(function(key) { return {key: key, value: d[key]}; }); })
+    .enter().append("rect")
+      .attr("x", function(d) { return x1(d.key); })
+      .attr("y", function(d) { return y(d.value); })
+      .attr("width", x1.bandwidth())
+      .attr("height", function(d) { return height - y(d.value); })
+      .attr("fill", function(d) { return z(d.key); });
+
+  g.append("g")
+      .attr("class", "axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x0));
+
+  g.append("g")
+      .attr("class", "axis")
+      .call(d3.axisLeft(y).ticks(null, "s"))
+    .append("text")
+      .attr("x", 2)
+      .attr("y", y(y.ticks().pop()) + 0.5)
+      .attr("dy", "0.32em")
+      .attr("fill", "#000")
+      .attr("font-weight", "bold")
+      .attr("text-anchor", "start")
+      .text("UFO sightings");
+
+  var legend = g.append("g")
+      .attr("font-family", "sans-serif")
+      .attr("font-size", 10)
+      .attr("text-anchor", "end")
+    .selectAll("g")
+    .data(keys.slice().reverse())
+    .enter().append("g")
+      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+  legend.append("rect")
+      .attr("x", width - 19)
+      .attr("width", 19)
+      .attr("height", 19)
+      .attr("fill", z);
+
+  legend.append("text")
+      .attr("x", width - 24)
+      .attr("y", 9.5)
+      .attr("dy", "0.32em")
+      .text(function(d) { return d; });
+});
+</script>
+    
+</body>
+</html>
