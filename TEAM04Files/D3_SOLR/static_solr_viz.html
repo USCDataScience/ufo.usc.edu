@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Static Solr Search Demo - Team 04</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+        th, td { border: 1px solid #ddd; text-align: left; padding: 8px; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+        th { background-color: #4CAF50; color: white; }
+        .result-count { font-weight: bold; margin: 10px 0; }
+        #search-form { margin-bottom: 15px; }
+        .note { color: #666; font-size: 0.9em; margin-bottom: 10px; }
+        .bar { fill: steelblue; }
+        .bar:hover { fill: brown; }
+        .axis text { font-size: 10px; }
+    </style>
+</head>
+<body>
+    <center>
+        <h2>Dynamic results from Solr Search (static demo)</h2>
+        <p class="note">This is a static HTML version of the original PHP/Solr visualization. It searches over a sample of ~500 pre-loaded UFO sighting records (borrowed/derived from the team's own SightingsDensityMap data). No live Solr or PHP server required.</p>
+        
+        <form id="search-form" class="form-group" onsubmit="doSearch(event)">
+            <label for="q">Search (location or date):</label>
+            <input id="q" name="q" type="text" placeholder="e.g. CA or 2000" style="width: 300px;" />
+            <input type="submit" value="Search" class="btn btn-primary" />
+            <button type="button" onclick="resetSearch()" class="btn btn-secondary">Reset</button>
+        </form>
+    </center>
+    
+    <div id="results-header" class="result-count"></div>
+    <div id="results-table"></div>
+    
+    <hr>
+    <h4>Top Shapes in Current Results (D3 bar chart)</h4>
+    <div id="shape-chart"></div>
+    
+    <script>
+        var allData = [];
+        var currentResults = [];
+        
+        // Load the static sample data (JSON of {sight_time, location, shape})
+        d3.json("team4_solr_sightings.json").then(function(data) {
+            allData = data;
+            // initial show some results
+            currentResults = allData.slice(0, 10);
+            renderResults(currentResults);
+            renderShapeChart(currentResults);
+            document.getElementById("results-header").innerHTML = "Showing first 10 of " + allData.length + " sample records (enter query above to filter)";
+        }).catch(function(err) {
+            console.error("Failed to load data", err);
+            document.getElementById("results-header").innerHTML = "Error loading data. (Check that data_files/team4_solr_sightings.json exists)";
+        });
+        
+        function doSearch(e) {
+            e.preventDefault();
+            var q = document.getElementById("q").value.trim().toLowerCase();
+            if (!q) {
+                currentResults = allData.slice(0, 10);
+            } else {
+                currentResults = allData.filter(function(d) {
+                    var loc = (d.location || "").toLowerCase();
+                    var time = (d.sight_time || "").toLowerCase();
+                    var shp = (d.shape || "").toLowerCase();
+                    return loc.indexOf(q) !== -1 || time.indexOf(q) !== -1 || shp.indexOf(q) !== -1;
+                }).slice(0, 10);
+            }
+            renderResults(currentResults);
+            renderShapeChart(currentResults);
+            document.getElementById("results-header").innerHTML = "Showing " + currentResults.length + " matching results (of " + allData.length + " total samples)";
+        }
+        
+        function resetSearch() {
+            document.getElementById("q").value = "";
+            currentResults = allData.slice(0, 10);
+            renderResults(currentResults);
+            renderShapeChart(currentResults);
+            document.getElementById("results-header").innerHTML = "Showing first 10 of " + allData.length + " sample records";
+        }
+        
+        function renderResults(results) {
+            var html = '<table class="table table-hover"><thead><tr><th>sight_time</th><th>location</th><th>shape</th></tr></thead><tbody>';
+            if (results.length === 0) {
+                html += '<tr><td colspan="3">No matches found.</td></tr>';
+            } else {
+                results.forEach(function(d) {
+                    html += '<tr>' +
+                        '<td>' + escapeHtml(d.sight_time || '') + '</td>' +
+                        '<td>' + escapeHtml(d.location || '') + '</td>' +
+                        '<td>' + escapeHtml(d.shape || '') + '</td>' +
+                        '</tr>';
+                });
+            }
+            html += '</tbody></table>';
+            document.getElementById("results-table").innerHTML = html;
+        }
+        
+        function escapeHtml(str) {
+            return String(str).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+        }
+        
+        function renderShapeChart(results) {
+            var container = document.getElementById("shape-chart");
+            container.innerHTML = "";
+            
+            // count by shape
+            var counts = {};
+            results.forEach(function(d) {
+                var s = d.shape || "unknown";
+                if (!s) s = "unknown";
+                counts[s] = (counts[s] || 0) + 1;
+            });
+            
+            var items = Object.keys(counts).map(function(k) { return {shape: k, count: counts[k]}; })
+                .sort(function(a,b){ return b.count - a.count; })
+                .slice(0, 8); // top 8
+            
+            if (items.length === 0) return;
+            
+            var margin = {top: 20, right: 20, bottom: 60, left: 40},
+                width = 600 - margin.left - margin.right,
+                height = 300 - margin.top - margin.bottom;
+            
+            var svg = d3.select("#shape-chart").append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+              .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+            
+            var x = d3.scaleBand()
+                .range([0, width])
+                .padding(0.1)
+                .domain(items.map(function(d){ return d.shape; }));
+            
+            var y = d3.scaleLinear()
+                .range([height, 0])
+                .domain([0, d3.max(items, function(d){ return d.count; })]);
+            
+            svg.selectAll(".bar")
+                .data(items)
+              .enter().append("rect")
+                .attr("class", "bar")
+                .attr("x", function(d) { return x(d.shape); })
+                .attr("width", x.bandwidth())
+                .attr("y", function(d) { return y(d.count); })
+                .attr("height", function(d) { return height - y(d.count); })
+                .attr("fill", "steelblue");
+            
+            svg.append("g")
+                .attr("transform", "translate(0," + height + ")")
+                .call(d3.axisBottom(x))
+              .selectAll("text")
+                .attr("transform", "rotate(-45)")
+                .style("text-anchor", "end");
+            
+            svg.append("g")
+                .call(d3.axisLeft(y));
+            
+            svg.append("text")
+                .attr("x", width/2)
+                .attr("y", height + 55)
+                .style("text-anchor", "middle")
+                .text("Shape");
+            
+            svg.append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("x", -height/2)
+                .attr("y", -30)
+                .style("text-anchor", "middle")
+                .text("Count in results");
+        }
+    </script>
+</body>
+</html>
