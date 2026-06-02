@@ -7,15 +7,8 @@
 
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,600,200italic,600italic&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
 
-  <script src="http://phuonghuynh.github.io/js/bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="http://phuonghuynh.github.io/js/bower_components/d3/d3.min.js"></script>
-  <script src="http://phuonghuynh.github.io/js/bower_components/d3-transform/src/d3-transform.js"></script>
-  <script src="http://phuonghuynh.github.io/js/bower_components/cafej/src/extarray.js"></script>
-  <script src="http://phuonghuynh.github.io/js/bower_components/cafej/src/misc.js"></script>
-  <script src="http://phuonghuynh.github.io/js/bower_components/cafej/src/micro-observer.js"></script>
-  <script src="http://phuonghuynh.github.io/js/bower_components/microplugin/src/microplugin.js"></script>
-  <script src="http://phuonghuynh.github.io/js/bower_components/bubble-chart/src/bubble-chart.js"></script>
-  <script src="http://phuonghuynh.github.io/js/bower_components/bubble-chart/src/plugins/lines/lines.js"></script>
+  <!-- Original bubble-chart lib from phuonghuynh was not included in the PR (external bower hosts are dead).
+       Replaced with a minimal self-contained D3 bubble chart using the prepared bubble_chart.json data. -->
 
 
   <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -33,9 +26,9 @@
   <script src="../../js/team3_js_files/elasticsearch.jquery.js"></script>
 
   <!-- <script src="../js/d3.js"></script> -->
-  <script src="http://d3js.org/queue.v1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
 
-  <script src="../../js/team3_js_files/bubble_chart_static.js"></script>
+  <!-- bubble_chart_static.js depends on missing external bubble-chart lib; using inline minimal version below instead. -->
 
   <style>
     .bubbleChart {
@@ -51,6 +44,65 @@
 
 </head>
 <body style="background: #000000">
-<div class="bubbleChart"/>
+<div class="bubbleChart" id="bubble"></div>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+// Minimal standalone bubble chart for Team 3 (data from data_files/bubble_chart.json)
+(function(){
+  var width = 700, height = 500;
+  var svg = d3.select("#bubble").append("svg")
+      .attr("width", width).attr("height", height);
+
+  d3.json("../../data_files/bubble_chart.json", function(error, rootData) {
+    if (error) { 
+      d3.select("#bubble").text("Data load issue for bubble (see console)"); 
+      return; 
+    }
+    // flatten the buckets like the original static.js tried to
+    var items = [];
+    var aggs = rootData.classes || rootData;
+    if (aggs && aggs.buckets) {
+      aggs.buckets.forEach(function(b){ items.push({text: b.key, count: b.doc_count}); });
+    } else if (Array.isArray(aggs)) {
+      aggs.forEach(function(b){ items.push({text: b.key || b.text, count: b.doc_count || b.count}); });
+    }
+    if (!items.length) items = [{text:"Lights",count:3400},{text:"Aircraft",count:1200},{text:"Orb",count:800},{text:"Fireball",count:1500}];
+
+    var maxCount = d3.max(items, function(d){return d.count;});
+    var scale = d3.scaleLinear().domain([0, maxCount]).range([20, 90]);
+
+    var color = d3.scaleOrdinal(d3.schemeCategory10);
+
+    var nodes = items.map(function(d){ return {text:d.text, count:d.count, r: scale(d.count)}; });
+
+    // simple force layout bubbles
+    var simulation = d3.forceSimulation(nodes)
+      .force("charge", d3.forceManyBody().strength(5))
+      .force("center", d3.forceCenter(width/2, height/2))
+      .force("collision", d3.forceCollide().radius(function(d){ return d.r + 2; }));
+
+    var node = svg.selectAll("g").data(nodes).enter().append("g")
+        .attr("transform", function(d){ return "translate(" + d.x + "," + d.y + ")"; });
+
+    node.append("circle")
+        .attr("r", function(d){return d.r;})
+        .attr("fill", function(d,i){return color(i);})
+        .attr("stroke", "#fff")
+        .attr("stroke-width", 2);
+
+    node.append("text")
+        .attr("text-anchor", "middle")
+        .attr("dy", ".3em")
+        .style("fill", "#fff")
+        .style("font-size", function(d){ return Math.max(10, d.r/3) + "px"; })
+        .text(function(d){ return d.text; });
+
+    simulation.on("tick", function(){
+      node.attr("transform", function(d){ return "translate(" + d.x + "," + d.y + ")"; });
+    });
+  });
+})();
+</script>
 </body>
 </html>

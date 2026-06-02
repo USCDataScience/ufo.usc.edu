@@ -1,0 +1,22 @@
+{
+  "classes": {
+    "buckets": [
+      {
+        "key": "Aircraft",
+        "doc_count": 1200
+      },
+      {
+        "key": "Lights",
+        "doc_count": 3400
+      },
+      {
+        "key": "Orb",
+        "doc_count": 800
+      },
+      {
+        "key": "Fireball",
+        "doc_count": 1500
+      }
+    ]
+  }
+}

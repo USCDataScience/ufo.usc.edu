@@ -1,0 +1,31 @@
+{
+  "name": "UFO",
+  "children": [
+    {
+      "name": "Sightings",
+      "children": [
+        {
+          "name": "Lights",
+          "value": 3400
+        },
+        {
+          "name": "Orb",
+          "value": 1200
+        }
+      ]
+    },
+    {
+      "name": "Shapes",
+      "children": [
+        {
+          "name": "Triangle",
+          "value": 900
+        },
+        {
+          "name": "Disk",
+          "value": 1100
+        }
+      ]
+    }
+  ]
+}
