@@ -1,1 +1,15 @@
-{"type": "Topology", "objects": {"uk": {"geometries": []}}}
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "properties": { "name": "United Kingdom" },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[
+        [-8.2,49.9], [-5.3,49.9], [-4.5,50.5], [-1.5,50.2], [1.7,50.9],
+        [1.7,52.5], [0.2,54.0], [-1.5,55.5], [-2.5,57.0], [-3.0,58.5],
+        [-5.0,58.2], [-6.5,57.5], [-7.5,55.0], [-8.0,54.0], [-8.2,49.9]
+      ]]
+    }
+  }]
+}

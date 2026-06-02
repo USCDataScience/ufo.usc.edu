@@ -137,8 +137,5 @@ $(function(){
             .attr("cy", function (d) { return y(d.y); });
         }
 
-      });  // close the queue .await callback for static scatter data
-
-  })
-
-})
+    });  // close the queue .await callback for static scatter data
+  });  // close the outer $(function()
