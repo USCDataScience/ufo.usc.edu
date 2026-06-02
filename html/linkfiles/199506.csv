@@ -1,0 +1,155 @@
+origin,destination
+Los Angeles  CA,Kingsville  OH
+Kingsville  OH,Los Angeles  CA
+Los Angeles  CA,Murphuys  CA
+Murphuys  CA,Los Angeles  CA
+Los Angeles  CA,Austin  TX
+Austin  TX,Los Angeles  CA
+Los Angeles  CA,Wilton  NY
+Wilton  NY,Los Angeles  CA
+Los Angeles  CA,Benton City  WA
+Benton City  WA,Los Angeles  CA
+Los Angeles  CA,Mebane  NC
+Mebane  NC,Los Angeles  CA
+Los Angeles  CA,Mesa  AZ
+Mesa  AZ,Los Angeles  CA
+Los Angeles  CA,Pensacola  FL
+Pensacola  FL,Los Angeles  CA
+Los Angeles  CA,Durham  NC
+Durham  NC,Los Angeles  CA
+Los Angeles  CA,Craig  CO
+Craig  CO,Los Angeles  CA
+Marysville  WA,Goldsboro  NC
+Goldsboro  NC,Marysville  WA
+Marysville  WA,Gardendale  LA
+Gardendale  LA,Marysville  WA
+Marysville  WA,Olympia  WA
+Olympia  WA,Marysville  WA
+Marysville  WA,Syracuse  NY
+Syracuse  NY,Marysville  WA
+Oroville  CA,Golden  CO
+Golden  CO,Oroville  CA
+Oroville  CA,Albany  NY
+Albany  NY,Oroville  CA
+Oroville  CA,Dallas  TX
+Dallas  TX,Oroville  CA
+Glade Spring  VA,El Paso  TX
+El Paso  TX,Glade Spring  VA
+Glade Spring  VA,Crescent City  CA
+Crescent City  CA,Glade Spring  VA
+Puyallup  WA,Downey  CA
+Downey  CA,Puyallup  WA
+Puyallup  WA,Tacoma  WA
+Tacoma  WA,Puyallup  WA
+Puyallup  WA,Modesto  CA
+Modesto  CA,Puyallup  WA
+Puyallup  WA,Cleburne  TX
+Cleburne  TX,Puyallup  WA
+Puyallup  WA,Sharon  MA
+Sharon  MA,Puyallup  WA
+Puyallup  WA,Fairfield  CA
+Fairfield  CA,Puyallup  WA
+Puyallup  WA,Seattle  WA
+Seattle  WA,Puyallup  WA
+Puyallup  WA,Ogden  UT
+Ogden  UT,Puyallup  WA
+Puyallup  WA,Farmington  UT
+Farmington  UT,Puyallup  WA
+Fort Wayne  IN,Wichita  KS
+Wichita  KS,Fort Wayne  IN
+Fort Wayne  IN,San Francisco  CA
+San Francisco  CA,Fort Wayne  IN
+Fort Wayne  IN,Drain  OR
+Drain  OR,Fort Wayne  IN
+Tulare  CA,Sequim  WA
+Sequim  WA,Tulare  CA
+Tulare  CA,Long Valley  NJ
+Long Valley  NJ,Tulare  CA
+Tulare  CA,Omaha  NE
+Omaha  NE,Tulare  CA
+Glendale  AZ,Washington  UT
+Washington  UT,Glendale  AZ
+Glendale  AZ,Albuquerque  NM
+Albuquerque  NM,Glendale  AZ
+Glendale  AZ,Malvern  PA
+Malvern  PA,Glendale  AZ
+Glendale  AZ,Fort Bliss  TX
+Fort Bliss  TX,Glendale  AZ
+Glendale  AZ,Calipatria  CA
+Calipatria  CA,Glendale  AZ
+Glendale  AZ,Lakewood  CA
+Lakewood  CA,Glendale  AZ
+Glendale  AZ,Leveland  TX
+Leveland  TX,Glendale  AZ
+Glendale  AZ,Bridgeport  CT
+Bridgeport  CT,Glendale  AZ
+Glendale  AZ,Miami  FL
+Miami  FL,Glendale  AZ
+Glendale  AZ,Cameron  LA
+Cameron  LA,Glendale  AZ
+Glendale  AZ,Orange  CA
+Orange  CA,Glendale  AZ
+Glendale  AZ,Long Beach  CA
+Long Beach  CA,Glendale  AZ
+Glendale  AZ,Grand Rapids  MI
+Grand Rapids  MI,Glendale  AZ
+Glendale  AZ,Thomson  GA
+Thomson  GA,Glendale  AZ
+Glendale  AZ,Hesperia  CA
+Hesperia  CA,Glendale  AZ
+Adair County  IA,Cottonwood  CA
+Cottonwood  CA,Adair County  IA
+Adair County  IA,Belle Plaine  KS
+Belle Plaine  KS,Adair County  IA
+Adair County  IA,Las Vegas  NV
+Las Vegas  NV,Adair County  IA
+Hewitt  TX,Mascoutah  IL
+Mascoutah  IL,Hewitt  TX
+Hewitt  TX,Commerce  TX
+Commerce  TX,Hewitt  TX
+Hewitt  TX,Multi  OH
+Multi  OH,Hewitt  TX
+Hewitt  TX,Howell  NJ
+Howell  NJ,Hewitt  TX
+Hewitt  TX,Winchester  WI
+Winchester  WI,Hewitt  TX
+Raton  NM,Salem  OH
+Salem  OH,Raton  NM
+Raton  NM,Chelsea  MA
+Chelsea  MA,Raton  NM
+Raton  NM,Amarillo  TX
+Amarillo  TX,Raton  NM
+Snoqualmie  WA,Florence  AL
+Florence  AL,Snoqualmie  WA
+Snoqualmie  WA,Kirkland  WA
+Kirkland  WA,Snoqualmie  WA
+Snoqualmie  WA,Farmingdale  NY
+Farmingdale  NY,Snoqualmie  WA
+Snoqualmie  WA,Sibley County  MN
+Sibley County  MN,Snoqualmie  WA
+Snoqualmie  WA,Los Angeles County  CA
+Los Angeles County  CA,Snoqualmie  WA
+Tumwater  WA,Batesburg  SC
+Batesburg  SC,Tumwater  WA
+Tumwater  WA,Sioux Falls  SD
+Sioux Falls  SD,Tumwater  WA
+Tumwater  WA,Portland  OR
+Portland  OR,Tumwater  WA
+Tumwater  WA,Mojave Desert  CA
+Mojave Desert  CA,Tumwater  WA
+Irving  TX,Lisbon  ME
+Lisbon  ME,Irving  TX
+Irving  TX,Tacoma  WA
+Tacoma  WA,Irving  TX
+Irving  TX,New Providence  NJ
+New Providence  NJ,Irving  TX
+Port Angeles  WA,Olathe  KS
+Olathe  KS,Port Angeles  WA
+Port Angeles  WA,Medford  OR
+Medford  OR,Port Angeles  WA
+Port Angeles  WA,Portland  ME
+Portland  ME,Port Angeles  WA
+Port Angeles  WA,Canton  OH
+Canton  OH,Port Angeles  WA
+Port Angeles  WA,Rockwood  MI
+Rockwood  MI,Port Angeles  WA

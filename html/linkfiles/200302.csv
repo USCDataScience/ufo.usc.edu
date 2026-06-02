@@ -1,0 +1,241 @@
+origin,destination
+Auburn  AL,Miami  FL
+Miami  FL,Auburn  AL
+Auburn  AL,Sacramento  CA
+Sacramento  CA,Auburn  AL
+Billings  MT,Olympia  WA
+Olympia  WA,Billings  MT
+Billings  MT,Littleton  CO
+Littleton  CO,Billings  MT
+Billings  MT,Nipomo  CA
+Nipomo  CA,Billings  MT
+Billings  MT,Woodstock  GA
+Woodstock  GA,Billings  MT
+Billings  MT,Walnut Creek  CA
+Walnut Creek  CA,Billings  MT
+Billings  MT,Big Bear  CA
+Big Bear  CA,Billings  MT
+East Haven  CT,Clackamas  OR
+Clackamas  OR,East Haven  CT
+East Haven  CT,Spring Valley  CA
+Spring Valley  CA,East Haven  CT
+East Haven  CT,Tucson  AZ
+Tucson  AZ,East Haven  CT
+East Haven  CT,Burlington  CT
+Burlington  CT,East Haven  CT
+East Haven  CT,Concord  NC
+Concord  NC,East Haven  CT
+East Haven  CT,San Francisco  CA
+San Francisco  CA,East Haven  CT
+Arkport  NY,Portland  OR
+Portland  OR,Arkport  NY
+Arkport  NY,Miami  FL
+Miami  FL,Arkport  NY
+Arkport  NY,Washington Court House  OH
+Washington Court House  OH,Arkport  NY
+Arkport  NY,Burbank  CA
+Burbank  CA,Arkport  NY
+Garrett  IN,Palmetto  GA
+Palmetto  GA,Garrett  IN
+Garrett  IN,Hanson  KY
+Hanson  KY,Garrett  IN
+Garrett  IN,Sacramento  CA
+Sacramento  CA,Garrett  IN
+Garrett  IN,Turlock  CA
+Turlock  CA,Garrett  IN
+Garrett  IN,San Diego  CA
+San Diego  CA,Garrett  IN
+Garrett  IN,Burna  KY
+Burna  KY,Garrett  IN
+Garrett  IN,Renton  WA
+Renton  WA,Garrett  IN
+Sandpoint  ID,Chatham  NJ
+Chatham  NJ,Sandpoint  ID
+Sandpoint  ID,Burbank  CA
+Burbank  CA,Sandpoint  ID
+Sandpoint  ID,San Diego  CA
+San Diego  CA,Sandpoint  ID
+Sandpoint  ID,Highland  IL
+Highland  IL,Sandpoint  ID
+Sherman Oaks  CA,Stamford  CT
+Stamford  CT,Sherman Oaks  CA
+Sherman Oaks  CA,Lake Forest  CA
+Lake Forest  CA,Sherman Oaks  CA
+Sherman Oaks  CA,Gilbert  AZ
+Gilbert  AZ,Sherman Oaks  CA
+Sherman Oaks  CA,Waterford  MI
+Waterford  MI,Sherman Oaks  CA
+Sherman Oaks  CA,La Grande  OR
+La Grande  OR,Sherman Oaks  CA
+Sherman Oaks  CA,Grangeville  ID
+Grangeville  ID,Sherman Oaks  CA
+Sherman Oaks  CA,Santa Clarita  CA
+Santa Clarita  CA,Sherman Oaks  CA
+Sherman Oaks  CA,San Antonio  TX
+San Antonio  TX,Sherman Oaks  CA
+Sherman Oaks  CA,Windham  NH
+Windham  NH,Sherman Oaks  CA
+Grangeville  ID,Brinnon  WA
+Brinnon  WA,Grangeville  ID
+Grangeville  ID,Mexico Beach  FL
+Mexico Beach  FL,Grangeville  ID
+Grangeville  ID,Madras  OR
+Madras  OR,Grangeville  ID
+Seattle  WA,Boston  MA
+Boston  MA,Seattle  WA
+Seattle  WA,Gresham  OR
+Gresham  OR,Seattle  WA
+Seattle  WA,Downers Grove  IL
+Downers Grove  IL,Seattle  WA
+Seattle  WA,Merrillville  IN
+Merrillville  IN,Seattle  WA
+Seattle  WA,Bishops Head  MD
+Bishops Head  MD,Seattle  WA
+Seattle  WA,Orlando  DE
+Orlando  DE,Seattle  WA
+Seattle  WA,Fredericksburg  VA
+Fredericksburg  VA,Seattle  WA
+Seattle  WA,Apache Junction  AZ
+Apache Junction  AZ,Seattle  WA
+Seattle  WA,Huron  SD
+Huron  SD,Seattle  WA
+Seattle  WA,McVeytown  PA
+McVeytown  PA,Seattle  WA
+Seattle  WA,Boulder  UT
+Boulder  UT,Seattle  WA
+Smithtown  NY,Kingston  MI
+Kingston  MI,Smithtown  NY
+Smithtown  NY,South Paris  ME
+South Paris  ME,Smithtown  NY
+Smithtown  NY,Hillsboro  AL
+Hillsboro  AL,Smithtown  NY
+Smithtown  NY,Columbia  SC
+Columbia  SC,Smithtown  NY
+Smithtown  NY,Yakutat  AK
+Yakutat  AK,Smithtown  NY
+Brandon  FL,Miami  FL
+Miami  FL,Brandon  FL
+Brandon  FL,Burbank  CA
+Burbank  CA,Brandon  FL
+Brandon  FL,Lakewood  WA
+Lakewood  WA,Brandon  FL
+Brandon  FL,Sanford  NC
+Sanford  NC,Brandon  FL
+Brandon  FL,Baltimore  MD
+Baltimore  MD,Brandon  FL
+Milwaukee  WI,Benicia  CA
+Benicia  CA,Milwaukee  WI
+Milwaukee  WI,Virginia Beach  VA
+Virginia Beach  VA,Milwaukee  WI
+Milwaukee  WI,Fort Lauderdale  FL
+Fort Lauderdale  FL,Milwaukee  WI
+Milwaukee  WI,Cannon Falls  MN
+Cannon Falls  MN,Milwaukee  WI
+Milwaukee  WI,Buffalo  NY
+Buffalo  NY,Milwaukee  WI
+Milwaukee  WI,Houston  TX
+Houston  TX,Milwaukee  WI
+Milwaukee  WI,Linwood  PA
+Linwood  PA,Milwaukee  WI
+Milwaukee  WI,Buffalo  TX
+Buffalo  TX,Milwaukee  WI
+Milwaukee  WI,Fort Stockton  TX
+Fort Stockton  TX,Milwaukee  WI
+Milwaukee  WI,Miami  FL
+Miami  FL,Milwaukee  WI
+Milwaukee  WI,Lake City  FL
+Lake City  FL,Milwaukee  WI
+Chico  CA,Crestview  FL
+Crestview  FL,Chico  CA
+Chico  CA,Orlando  FL
+Orlando  FL,Chico  CA
+Burbank  CA,San Diego  CA
+San Diego  CA,Burbank  CA
+Burbank  CA,Roslindale  MA
+Roslindale  MA,Burbank  CA
+Burbank  CA,Price  UT
+Price  UT,Burbank  CA
+Burbank  CA,Scottsburg  IN
+Scottsburg  IN,Burbank  CA
+Springfield  MO,Raleigh  NC
+Raleigh  NC,Springfield  MO
+Springfield  MO,Pamplico  SC
+Pamplico  SC,Springfield  MO
+Springfield  MO,Kearney  NE
+Kearney  NE,Springfield  MO
+Florence  KY,Fullerton  CA
+Fullerton  CA,Florence  KY
+Florence  KY,Dallas  GA
+Dallas  GA,Florence  KY
+Florence  KY,San Francisco  CA
+San Francisco  CA,Florence  KY
+Florence  KY,Phoenix  AZ
+Phoenix  AZ,Florence  KY
+Florence  KY,Hauppauge  NY
+Hauppauge  NY,Florence  KY
+Florence  KY,Tooele  UT
+Tooele  UT,Florence  KY
+Florence  KY,San Diego  CA
+San Diego  CA,Florence  KY
+Florence  KY,Wheaton  IL
+Wheaton  IL,Florence  KY
+Florence  KY,Glendale  AZ
+Glendale  AZ,Florence  KY
+Silver Spring  MD,Portland  OR
+Portland  OR,Silver Spring  MD
+Silver Spring  MD,American Canyon  CA
+American Canyon  CA,Silver Spring  MD
+Silver Spring  MD,Winnemucca  NV
+Winnemucca  NV,Silver Spring  MD
+Silver Spring  MD,Pelion  SC
+Pelion  SC,Silver Spring  MD
+Silver Spring  MD,Camp Verde  AZ
+Camp Verde  AZ,Silver Spring  MD
+Wisconsin Dells  WI,Olympia  WA
+Olympia  WA,Wisconsin Dells  WI
+Wisconsin Dells  WI,Puyallup  WA
+Puyallup  WA,Wisconsin Dells  WI
+Wisconsin Dells  WI,Lynnwood  WA
+Lynnwood  WA,Wisconsin Dells  WI
+Wisconsin Dells  WI,Dallas  GA
+Dallas  GA,Wisconsin Dells  WI
+Wisconsin Dells  WI,College Station  TX
+College Station  TX,Wisconsin Dells  WI
+Wisconsin Dells  WI,Astoria  NY
+Astoria  NY,Wisconsin Dells  WI
+Wisconsin Dells  WI,Oakland  CA
+Oakland  CA,Wisconsin Dells  WI
+Wisconsin Dells  WI,Sodus  NY
+Sodus  NY,Wisconsin Dells  WI
+Homestead  FL,Rudolph  WI
+Rudolph  WI,Homestead  FL
+Homestead  FL,Olympic Mountains  WA
+Olympic Mountains  WA,Homestead  FL
+Homestead  FL,Twin Falls  ID
+Twin Falls  ID,Homestead  FL
+Homestead  FL,Westlake  LA
+Westlake  LA,Homestead  FL
+Homestead  FL,San Francisco  CA
+San Francisco  CA,Homestead  FL
+Homestead  FL,Everett  WA
+Everett  WA,Homestead  FL
+Everett  WA,Palm Springs  CA
+Palm Springs  CA,Everett  WA
+Everett  WA,Shawano  WI
+Shawano  WI,Everett  WA
+Everett  WA,Bremerton  WA
+Bremerton  WA,Everett  WA
+Antioch  CA,Weston  CT
+Weston  CT,Antioch  CA
+Antioch  CA,Bremerton  WA
+Bremerton  WA,Antioch  CA
+Anchorage  AK,Patoka  IN
+Patoka  IN,Anchorage  AK
+Anchorage  AK,Antioch  CA
+Antioch  CA,Anchorage  AK
+Anchorage  AK,Nashua  NH
+Nashua  NH,Anchorage  AK
+Anchorage  AK,Hudson  OH
+Hudson  OH,Anchorage  AK
+Anchorage  AK,Davie  FL
+Davie  FL,Anchorage  AK

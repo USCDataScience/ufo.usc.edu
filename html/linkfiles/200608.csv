@@ -1,0 +1,473 @@
+origin,destination
+Dallas  TX,Phoenix  AZ
+Phoenix  AZ,Dallas  TX
+Dallas  TX,Salem  OR
+Salem  OR,Dallas  TX
+Dallas  TX,Bethpage long island  NY
+Bethpage long island  NY,Dallas  TX
+Dallas  TX,Fort Worth  TX
+Fort Worth  TX,Dallas  TX
+Dallas  TX,Lodi  CA
+Lodi  CA,Dallas  TX
+Dallas  TX,Idaho Falls  ID
+Idaho Falls  ID,Dallas  TX
+Dallas  TX,Circleville  OH
+Circleville  OH,Dallas  TX
+Dallas  TX,New Holland  OH
+New Holland  OH,Dallas  TX
+Dallas  TX,Austin  TX
+Austin  TX,Dallas  TX
+Dallas  TX,Bellevue  NE
+Bellevue  NE,Dallas  TX
+Dallas  TX,Parkside  PA
+Parkside  PA,Dallas  TX
+Dallas  TX,Fort Pierce  FL
+Fort Pierce  FL,Dallas  TX
+Dallas  TX,Arlington  VA
+Arlington  VA,Dallas  TX
+Dallas  TX,Laguna Hills  CA
+Laguna Hills  CA,Dallas  TX
+Dallas  TX,International Falls  MN
+International Falls  MN,Dallas  TX
+Lafayette  IN,Tyler  TX
+Tyler  TX,Lafayette  IN
+Lafayette  IN,Middleton  WI
+Middleton  WI,Lafayette  IN
+Lafayette  IN,Lobelville  TN
+Lobelville  TN,Lafayette  IN
+Lafayette  IN,Miami  FL
+Miami  FL,Lafayette  IN
+Lafayette  IN,East Harwich  MA
+East Harwich  MA,Lafayette  IN
+Lafayette  IN,North Charleston  SC
+North Charleston  SC,Lafayette  IN
+Lafayette  IN,Yosemite Valley  CA
+Yosemite Valley  CA,Lafayette  IN
+Lafayette  IN,Klamath Falls  OR
+Klamath Falls  OR,Lafayette  IN
+South Pasadena  CA,Eldorado  IL
+Eldorado  IL,South Pasadena  CA
+South Pasadena  CA,Norwood  OH
+Norwood  OH,South Pasadena  CA
+South Pasadena  CA,Carbondale  PA
+Carbondale  PA,South Pasadena  CA
+South Pasadena  CA,Franklin  TN
+Franklin  TN,South Pasadena  CA
+South Pasadena  CA,George  WA
+George  WA,South Pasadena  CA
+Brooklyn Center  MN,Sissonville  WV
+Sissonville  WV,Brooklyn Center  MN
+Brooklyn Center  MN,Westfield  IN
+Westfield  IN,Brooklyn Center  MN
+Brooklyn Center  MN,Fresno  CA
+Fresno  CA,Brooklyn Center  MN
+Brooklyn Center  MN,Ferris  TX
+Ferris  TX,Brooklyn Center  MN
+Brooklyn Center  MN,New Douglas  IL
+New Douglas  IL,Brooklyn Center  MN
+Brooklyn Center  MN,San Francisco  CA
+San Francisco  CA,Brooklyn Center  MN
+Chesterfeild  VA,Millington  TN
+Millington  TN,Chesterfeild  VA
+Chesterfeild  VA,Yuma  AZ
+Yuma  AZ,Chesterfeild  VA
+Chesterfeild  VA,Foley  AL
+Foley  AL,Chesterfeild  VA
+Chesterfeild  VA,Phoenix  AZ
+Phoenix  AZ,Chesterfeild  VA
+Chesterfeild  VA,Trout Lake  WA
+Trout Lake  WA,Chesterfeild  VA
+Chesterfeild  VA,Auburn  CA
+Auburn  CA,Chesterfeild  VA
+Chesterfeild  VA,Tapiola  MI
+Tapiola  MI,Chesterfeild  VA
+Chesterfeild  VA,Lake Forest  CA
+Lake Forest  CA,Chesterfeild  VA
+Chesterfeild  VA,Missoula  MT
+Missoula  MT,Chesterfeild  VA
+Chesterfeild  VA,Woodbury  MN
+Woodbury  MN,Chesterfeild  VA
+Chesterfeild  VA,Binghamton  NY
+Binghamton  NY,Chesterfeild  VA
+Chesterfeild  VA,Yardville  NJ
+Yardville  NJ,Chesterfeild  VA
+Chesterfeild  VA,Scottsdale  AZ
+Scottsdale  AZ,Chesterfeild  VA
+Philadelphia  PA,Downingtown  PA
+Downingtown  PA,Philadelphia  PA
+Philadelphia  PA,Wynne  AR
+Wynne  AR,Philadelphia  PA
+Philadelphia  PA,Pineville  KY
+Pineville  KY,Philadelphia  PA
+San Antonio  TX,Lewisville  TX
+Lewisville  TX,San Antonio  TX
+San Antonio  TX,Lancaster  PA
+Lancaster  PA,San Antonio  TX
+San Antonio  TX,Fremont  CA
+Fremont  CA,San Antonio  TX
+San Antonio  TX,Oviedo  FL
+Oviedo  FL,San Antonio  TX
+San Antonio  TX,Garden Valley  CA
+Garden Valley  CA,San Antonio  TX
+San Antonio  TX,Boaz  AL
+Boaz  AL,San Antonio  TX
+San Antonio  TX,Cross Roads  TX
+Cross Roads  TX,San Antonio  TX
+San Diego  CA,Harpersfield  NY
+Harpersfield  NY,San Diego  CA
+San Diego  CA,Wilmington  DE
+Wilmington  DE,San Diego  CA
+San Diego  CA,Brownsville  TX
+Brownsville  TX,San Diego  CA
+San Diego  CA,Jacksonville  FL
+Jacksonville  FL,San Diego  CA
+San Diego  CA,Yakima  WA
+Yakima  WA,San Diego  CA
+San Diego  CA,Bloomington  IN
+Bloomington  IN,San Diego  CA
+San Diego  CA,Lakewood  CO
+Lakewood  CO,San Diego  CA
+San Diego  CA,Chatsworth  CA
+Chatsworth  CA,San Diego  CA
+San Diego  CA,Corpus Christi  TX
+Corpus Christi  TX,San Diego  CA
+Keller  TX,Indiana  PA
+Indiana  PA,Keller  TX
+Keller  TX,Eureka  MT
+Eureka  MT,Keller  TX
+Keller  TX,Fort Wayne  IN
+Fort Wayne  IN,Keller  TX
+Keller  TX,Stevensburg  MT
+Stevensburg  MT,Keller  TX
+Keller  TX,Ocean City  MD
+Ocean City  MD,Keller  TX
+Keller  TX,Dumont  NJ
+Dumont  NJ,Keller  TX
+Keller  TX,Orlando  FL
+Orlando  FL,Keller  TX
+Keller  TX,Florence  KY
+Florence  KY,Keller  TX
+Chicago  IL,Winter Springs to Sanford  FL
+Winter Springs to Sanford  FL,Chicago  IL
+Chicago  IL,Bridgeville  CA
+Bridgeville  CA,Chicago  IL
+Chicago  IL,Swarthmore  PA
+Swarthmore  PA,Chicago  IL
+Chicago  IL,Indiana  PA
+Indiana  PA,Chicago  IL
+Chicago  IL,Ashford Hollow  NY
+Ashford Hollow  NY,Chicago  IL
+Chicago  IL,Hamden  CT
+Hamden  CT,Chicago  IL
+Sacramento  CA,Pennsauken  NJ
+Pennsauken  NJ,Sacramento  CA
+Sacramento  CA,Fort Dodge  IA
+Fort Dodge  IA,Sacramento  CA
+Sacramento  CA,Oak Harbor  WA
+Oak Harbor  WA,Sacramento  CA
+Sacramento  CA,Green Valley  AZ
+Green Valley  AZ,Sacramento  CA
+Sacramento  CA,Chicago  IL
+Chicago  IL,Sacramento  CA
+Sacramento  CA,Fenton  MI
+Fenton  MI,Sacramento  CA
+Sacramento  CA,Holland  MI
+Holland  MI,Sacramento  CA
+Sacramento  CA,Boulder  CO
+Boulder  CO,Sacramento  CA
+Sacramento  CA,Jackson  NH
+Jackson  NH,Sacramento  CA
+Sacramento  CA,Burns Junction  OR
+Burns Junction  OR,Sacramento  CA
+Sacramento  CA,Murray  KY
+Murray  KY,Sacramento  CA
+Sacramento  CA,Kirkland  WA
+Kirkland  WA,Sacramento  CA
+Nelsonville  OH,Redding  CA
+Redding  CA,Nelsonville  OH
+Nelsonville  OH,Seattle  WA
+Seattle  WA,Nelsonville  OH
+Nelsonville  OH,West Richland  WA
+West Richland  WA,Nelsonville  OH
+Nelsonville  OH,Royal Oak  MI
+Royal Oak  MI,Nelsonville  OH
+Nelsonville  OH,Clinton  MO
+Clinton  MO,Nelsonville  OH
+Nelsonville  OH,Atlanta  GA
+Atlanta  GA,Nelsonville  OH
+Nelsonville  OH,Huntsville  AL
+Huntsville  AL,Nelsonville  OH
+Nelsonville  OH,Riverton  WY
+Riverton  WY,Nelsonville  OH
+Nelsonville  OH,Killeen  TX
+Killeen  TX,Nelsonville  OH
+Nelsonville  OH,Petersburgh  NY
+Petersburgh  NY,Nelsonville  OH
+Nelsonville  OH,Newark  NJ
+Newark  NJ,Nelsonville  OH
+Nelsonville  OH,Socastee  SC
+Socastee  SC,Nelsonville  OH
+Nelsonville  OH,Menifee  CA
+Menifee  CA,Nelsonville  OH
+Nelsonville  OH,Lincoln City  OR
+Lincoln City  OR,Nelsonville  OH
+Nelsonville  OH,Everett  WA
+Everett  WA,Nelsonville  OH
+Phoenix  AZ,Bainbridge Island  WA
+Bainbridge Island  WA,Phoenix  AZ
+Phoenix  AZ,Walden  NY
+Walden  NY,Phoenix  AZ
+Phoenix  AZ,Wenatchee  WA
+Wenatchee  WA,Phoenix  AZ
+Phoenix  AZ,Fitzgerald  GA
+Fitzgerald  GA,Phoenix  AZ
+Phoenix  AZ,Roanoke Rapids  NC
+Roanoke Rapids  NC,Phoenix  AZ
+Phoenix  AZ,Frankfort  IN
+Frankfort  IN,Phoenix  AZ
+Kennewick  WA,Russellville  AR
+Russellville  AR,Kennewick  WA
+Kennewick  WA,Milwaukie  OR
+Milwaukie  OR,Kennewick  WA
+Kennewick  WA,Chicago  IL
+Chicago  IL,Kennewick  WA
+Kennewick  WA,Escondido  CA
+Escondido  CA,Kennewick  WA
+Kennewick  WA,Macedonia  OH
+Macedonia  OH,Kennewick  WA
+Kennewick  WA,Lakewood  CO
+Lakewood  CO,Kennewick  WA
+Kennewick  WA,Granada Hills/Mission Hills  CA
+Granada Hills/Mission Hills  CA,Kennewick  WA
+Kennewick  WA,Seattle  WA
+Seattle  WA,Kennewick  WA
+Kennewick  WA,Lapeer  MI
+Lapeer  MI,Kennewick  WA
+Kennewick  WA,Gladeville  TN
+Gladeville  TN,Kennewick  WA
+Kennewick  WA,Wrightsville Beach  NC
+Wrightsville Beach  NC,Kennewick  WA
+Kennewick  WA,Orchard Park  NY
+Orchard Park  NY,Kennewick  WA
+Kennewick  WA,Red Bank  NJ
+Red Bank  NJ,Kennewick  WA
+Kennewick  WA,Mountaintop  PA
+Mountaintop  PA,Kennewick  WA
+Kennewick  WA,Miami  FL
+Miami  FL,Kennewick  WA
+Kennewick  WA,Tucson  AZ
+Tucson  AZ,Kennewick  WA
+Kennewick  WA,Trout Lake  WA
+Trout Lake  WA,Kennewick  WA
+Kennewick  WA,Bellevue  WA
+Bellevue  WA,Kennewick  WA
+Kennewick  WA,Ann Arbor  MI
+Ann Arbor  MI,Kennewick  WA
+Kennewick  WA,Honesdale  PA
+Honesdale  PA,Kennewick  WA
+Kennewick  WA,Edgar Springs  MO
+Edgar Springs  MO,Kennewick  WA
+Kennewick  WA,Malcolm  NE
+Malcolm  NE,Kennewick  WA
+Strongsville  OH,Bloomington  IN
+Bloomington  IN,Strongsville  OH
+Strongsville  OH,San Jose  CA
+San Jose  CA,Strongsville  OH
+Strongsville  OH,Forestdale  MA
+Forestdale  MA,Strongsville  OH
+Strongsville  OH,Lapeer  MI
+Lapeer  MI,Strongsville  OH
+Strongsville  OH,Spring Hill  TN
+Spring Hill  TN,Strongsville  OH
+Strongsville  OH,South Portsmouth  KY
+South Portsmouth  KY,Strongsville  OH
+Strongsville  OH,Austin  TX
+Austin  TX,Strongsville  OH
+Strongsville  OH,Chicopee  MA
+Chicopee  MA,Strongsville  OH
+Strongsville  OH,Yorba Linda  CA
+Yorba Linda  CA,Strongsville  OH
+Strongsville  OH,Roxbury  NH
+Roxbury  NH,Strongsville  OH
+Strongsville  OH,Campbell  CA
+Campbell  CA,Strongsville  OH
+Strongsville  OH,Cypress  TX
+Cypress  TX,Strongsville  OH
+El Cajon  CA,Garfield Heights  OH
+Garfield Heights  OH,El Cajon  CA
+El Cajon  CA,Lake Havasu  AZ
+Lake Havasu  AZ,El Cajon  CA
+El Cajon  CA,Midvale  UT
+Midvale  UT,El Cajon  CA
+El Cajon  CA,Coloma  CA
+Coloma  CA,El Cajon  CA
+El Cajon  CA,Cedar Lake  IN
+Cedar Lake  IN,El Cajon  CA
+El Cajon  CA,Florence  OR
+Florence  OR,El Cajon  CA
+El Cajon  CA,Georgtown  TX
+Georgtown  TX,El Cajon  CA
+El Cajon  CA,Naples  FL
+Naples  FL,El Cajon  CA
+El Cajon  CA,El Paso  IL
+El Paso  IL,El Cajon  CA
+El Cajon  CA,East Chicago  IN
+East Chicago  IN,El Cajon  CA
+El Cajon  CA,Murphysboro  IL
+Murphysboro  IL,El Cajon  CA
+El Cajon  CA,Eastpointe  MI
+Eastpointe  MI,El Cajon  CA
+Fargo  ND,Point Roberts  WA
+Point Roberts  WA,Fargo  ND
+Fargo  ND,Great Scott  MN
+Great Scott  MN,Fargo  ND
+Fargo  ND,Yakima  WA
+Yakima  WA,Fargo  ND
+Fargo  ND,Eldon  MO
+Eldon  MO,Fargo  ND
+Fargo  ND,Trout Lake  WA
+Trout Lake  WA,Fargo  ND
+Fargo  ND,Desolation Wilderness  CA
+Desolation Wilderness  CA,Fargo  ND
+Fargo  ND,Buckhannon  WV
+Buckhannon  WV,Fargo  ND
+Omaha  NE,San Diego  CA
+San Diego  CA,Omaha  NE
+Omaha  NE,Onion Creek  WA
+Onion Creek  WA,Omaha  NE
+Omaha  NE,Twin Lakes  CA
+Twin Lakes  CA,Omaha  NE
+Omaha  NE,Bridgeport  CA
+Bridgeport  CA,Omaha  NE
+Omaha  NE,Heber City  UT
+Heber City  UT,Omaha  NE
+Omaha  NE,Hampton  MN
+Hampton  MN,Omaha  NE
+Omaha  NE,Arnold  MD
+Arnold  MD,Omaha  NE
+Omaha  NE,Redding  CA
+Redding  CA,Omaha  NE
+Omaha  NE,Bend  OR
+Bend  OR,Omaha  NE
+Omaha  NE,Hamlin  NY
+Hamlin  NY,Omaha  NE
+McKinney  TX,Tomahawk  WI
+Tomahawk  WI,McKinney  TX
+McKinney  TX,Wyalusing  PA
+Wyalusing  PA,McKinney  TX
+McKinney  TX,Mancheater Center  VT
+Mancheater Center  VT,McKinney  TX
+McKinney  TX,Dearborn  MI
+Dearborn  MI,McKinney  TX
+McKinney  TX,Charlotte  MI
+Charlotte  MI,McKinney  TX
+McKinney  TX,Lancaster  CA
+Lancaster  CA,McKinney  TX
+McKinney  TX,Lake Forest  CA
+Lake Forest  CA,McKinney  TX
+McKinney  TX,Factoryville  PA
+Factoryville  PA,McKinney  TX
+Huntington  WV,Elgin  IL
+Elgin  IL,Huntington  WV
+Huntington  WV,Clark  NJ
+Clark  NJ,Huntington  WV
+Huntington  WV,Freehold  NJ
+Freehold  NJ,Huntington  WV
+Huntington  WV,Toney  AL
+Toney  AL,Huntington  WV
+Huntington  WV,Ponte Vedra Beach  FL
+Ponte Vedra Beach  FL,Huntington  WV
+Huntington  WV,Greensboro  NC
+Greensboro  NC,Huntington  WV
+Huntington  WV,Henderson County  TX
+Henderson County  TX,Huntington  WV
+Huntington  WV,Naples  FL
+Naples  FL,Huntington  WV
+Huntington  WV,Connellsville  PA
+Connellsville  PA,Huntington  WV
+Huntington  WV,Evart  MI
+Evart  MI,Huntington  WV
+Wallingford  CT,Marlboro  NY
+Marlboro  NY,Wallingford  CT
+Wallingford  CT,Clark  WY
+Clark  WY,Wallingford  CT
+Wallingford  CT,Chatsworth  CA
+Chatsworth  CA,Wallingford  CT
+Wallingford  CT,Sterling Heights  MI
+Sterling Heights  MI,Wallingford  CT
+Wallingford  CT,Hollywood  CA
+Hollywood  CA,Wallingford  CT
+Wallingford  CT,Edgewood  MD
+Edgewood  MD,Wallingford  CT
+Wallingford  CT,Fairfield  CA
+Fairfield  CA,Wallingford  CT
+Gray Summit  MO,Salt Lake City  UT
+Salt Lake City  UT,Gray Summit  MO
+Gray Summit  MO,Bel Air  MD
+Bel Air  MD,Gray Summit  MO
+Gray Summit  MO,Willis  TX
+Willis  TX,Gray Summit  MO
+Gray Summit  MO,San Jose  CA
+San Jose  CA,Gray Summit  MO
+Gray Summit  MO,Wilmington  NC
+Wilmington  NC,Gray Summit  MO
+Gray Summit  MO,Maui  HI
+Maui  HI,Gray Summit  MO
+Chandler  AZ,Redwood City  CA
+Redwood City  CA,Chandler  AZ
+Chandler  AZ,Fall City  WA
+Fall City  WA,Chandler  AZ
+Chandler  AZ,Burbank  CA
+Burbank  CA,Chandler  AZ
+Chandler  AZ,Lake  MI
+Lake  MI,Chandler  AZ
+Chandler  AZ,Rodman  NY
+Rodman  NY,Chandler  AZ
+Winterset  IA,Redwood City  CA
+Redwood City  CA,Winterset  IA
+Winterset  IA,Canton  GA
+Canton  GA,Winterset  IA
+Winterset  IA,Baldwin  FL
+Baldwin  FL,Winterset  IA
+Winterset  IA,Las Vegas  NV
+Las Vegas  NV,Winterset  IA
+Winterset  IA,Miami  FL
+Miami  FL,Winterset  IA
+Winterset  IA,Madison  AL
+Madison  AL,Winterset  IA
+Winterset  IA,Federal Way  WA
+Federal Way  WA,Winterset  IA
+Winterset  IA,South Gate  CA
+South Gate  CA,Winterset  IA
+Winterset  IA,Warren  MI
+Warren  MI,Winterset  IA
+Winterset  IA,Seatle  WA
+Seatle  WA,Winterset  IA
+Winterset  IA,Grants Pass  OR
+Grants Pass  OR,Winterset  IA
+Winterset  IA,Evart  MI
+Evart  MI,Winterset  IA
+Colorado Springs  CO,Havana  GA
+Havana  GA,Colorado Springs  CO
+Colorado Springs  CO,Portland  OR
+Portland  OR,Colorado Springs  CO
+Colorado Springs  CO,Alturas  CA
+Alturas  CA,Colorado Springs  CO
+Colorado Springs  CO,Lyndon Station  WI
+Lyndon Station  WI,Colorado Springs  CO
+Colorado Springs  CO,San Antonio  TX
+San Antonio  TX,Colorado Springs  CO
+Colorado Springs  CO,Lincoln  NE
+Lincoln  NE,Colorado Springs  CO
+Colorado Springs  CO,Myrtle Beach  SC
+Myrtle Beach  SC,Colorado Springs  CO
+Colorado Springs  CO,Bozeman  MT
+Bozeman  MT,Colorado Springs  CO
+Edina  MN,Chicago  IL
+Chicago  IL,Edina  MN
+Edina  MN,Port Barre  LA
+Port Barre  LA,Edina  MN
+Edina  MN,Onion Creek  WA
+Onion Creek  WA,Edina  MN
+Edina  MN,Mount Shasta  CA
+Mount Shasta  CA,Edina  MN

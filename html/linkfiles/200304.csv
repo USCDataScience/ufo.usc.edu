@@ -1,0 +1,185 @@
+origin,destination
+Holden  MA,Wapakoneta  OH
+Wapakoneta  OH,Holden  MA
+Holden  MA,Viola  PA
+Viola  PA,Holden  MA
+Holden  MA,Holmdel  NJ
+Holmdel  NJ,Holden  MA
+Holden  MA,Asheboro  NC
+Asheboro  NC,Holden  MA
+Holden  MA,South Windsor  CT
+South Windsor  CT,Holden  MA
+Holden  MA,Phoenix  AZ
+Phoenix  AZ,Holden  MA
+Blairs  VA,Wapakoneta  OH
+Wapakoneta  OH,Blairs  VA
+Blairs  VA,Carlisle  PA
+Carlisle  PA,Blairs  VA
+Concord  CA,Jacksonville  FL
+Jacksonville  FL,Concord  CA
+Concord  CA,White Bear Lake  MN
+White Bear Lake  MN,Concord  CA
+Phoenix  AZ,Isle of Palms  SC
+Isle of Palms  SC,Phoenix  AZ
+Phoenix  AZ,Saint James  MN
+Saint James  MN,Phoenix  AZ
+Phoenix  AZ,Studio City  CA
+Studio City  CA,Phoenix  AZ
+Franklin  TN,Willington  CT
+Willington  CT,Franklin  TN
+Franklin  TN,Anacortes  WA
+Anacortes  WA,Franklin  TN
+Tempe  AZ,Gold Bar  WA
+Gold Bar  WA,Tempe  AZ
+Tempe  AZ,Dubuque  IA
+Dubuque  IA,Tempe  AZ
+Millville  MN,Howe  IN
+Howe  IN,Millville  MN
+Millville  MN,Santa Rosa  CA
+Santa Rosa  CA,Millville  MN
+Millville  MN,Felton  PA
+Felton  PA,Millville  MN
+Yaphank  NY,Pensacola  FL
+Pensacola  FL,Yaphank  NY
+Yaphank  NY,Milford  MI
+Milford  MI,Yaphank  NY
+Yaphank  NY,Corona  CA
+Corona  CA,Yaphank  NY
+Yaphank  NY,Santa Monica  CA
+Santa Monica  CA,Yaphank  NY
+Yaphank  NY,Peru  IN
+Peru  IN,Yaphank  NY
+Yaphank  NY,Baytown  TX
+Baytown  TX,Yaphank  NY
+Charlotte  NC,Fresno  CA
+Fresno  CA,Charlotte  NC
+Charlotte  NC,Apopka  FL
+Apopka  FL,Charlotte  NC
+Charlotte  NC,Hazel  KY
+Hazel  KY,Charlotte  NC
+Charlotte  NC,Magna  UT
+Magna  UT,Charlotte  NC
+Charlotte  NC,Hobe Sound  FL
+Hobe Sound  FL,Charlotte  NC
+Charlotte  NC,Corona  CA
+Corona  CA,Charlotte  NC
+Miramar Beach  FL,Reading  PA
+Reading  PA,Miramar Beach  FL
+Miramar Beach  FL,Hot Springs  AR
+Hot Springs  AR,Miramar Beach  FL
+Miramar Beach  FL,Bristol  NH
+Bristol  NH,Miramar Beach  FL
+Plattsburgh  NY,Clay City  KY
+Clay City  KY,Plattsburgh  NY
+Plattsburgh  NY,Cement City  MI
+Cement City  MI,Plattsburgh  NY
+Plattsburgh  NY,Naples  ME
+Naples  ME,Plattsburgh  NY
+Royal  AR,Leavenworth  WA
+Leavenworth  WA,Royal  AR
+Royal  AR,Jackson  OH
+Jackson  OH,Royal  AR
+Royal  AR,Lapeer  MI
+Lapeer  MI,Royal  AR
+Anchorage  AK,Lafayette  KY
+Lafayette  KY,Anchorage  AK
+Anchorage  AK,Fenton  MI
+Fenton  MI,Anchorage  AK
+Anchorage  AK,Seattle  WA
+Seattle  WA,Anchorage  AK
+College Station  TX,Yorktown  IN
+Yorktown  IN,College Station  TX
+College Station  TX,San Diego  CA
+San Diego  CA,College Station  TX
+College Station  TX,Gallup  NM
+Gallup  NM,College Station  TX
+College Station  TX,Fort Worth  TX
+Fort Worth  TX,College Station  TX
+College Station  TX,Cardiff-by-the-Sea  CA
+Cardiff-by-the-Sea  CA,College Station  TX
+College Station  TX,Issaquah  WA
+Issaquah  WA,College Station  TX
+College Station  TX,Brandon  FL
+Brandon  FL,College Station  TX
+College Station  TX,Phoenix  AZ
+Phoenix  AZ,College Station  TX
+College Station  TX,Middletown  DE
+Middletown  DE,College Station  TX
+College Station  TX,Riverside  CA
+Riverside  CA,College Station  TX
+College Station  TX,Aurora  CO
+Aurora  CO,College Station  TX
+College Station  TX,Chesterfield  MO
+Chesterfield  MO,College Station  TX
+Gainesville  FL,Golden Valley  MN
+Golden Valley  MN,Gainesville  FL
+Gainesville  FL,Olympia  WA
+Olympia  WA,Gainesville  FL
+Gainesville  FL,Bellingham  WA
+Bellingham  WA,Gainesville  FL
+Sandpoint  ID,San Francisco  CA
+San Francisco  CA,Sandpoint  ID
+Sandpoint  ID,Hazel  KY
+Hazel  KY,Sandpoint  ID
+Sandpoint  ID,Montcalm County  MI
+Montcalm County  MI,Sandpoint  ID
+Sandpoint  ID,Hemet  CA
+Hemet  CA,Sandpoint  ID
+Plover  WI,Newark  CA
+Newark  CA,Plover  WI
+Plover  WI,Los Angeles  CA
+Los Angeles  CA,Plover  WI
+Plover  WI,Hammond  NY
+Hammond  NY,Plover  WI
+Plover  WI,Conyers  GA
+Conyers  GA,Plover  WI
+Costa Mesa  CA,Miramar Beach  FL
+Miramar Beach  FL,Costa Mesa  CA
+Costa Mesa  CA,Fallbrook  CA
+Fallbrook  CA,Costa Mesa  CA
+Costa Mesa  CA,El Dorado  AR
+El Dorado  AR,Costa Mesa  CA
+Costa Mesa  CA,Arlington  TX
+Arlington  TX,Costa Mesa  CA
+Costa Mesa  CA,Littleton  CO
+Littleton  CO,Costa Mesa  CA
+Costa Mesa  CA,Atlanta  GA
+Atlanta  GA,Costa Mesa  CA
+Austin  TX,Olympia  WA
+Olympia  WA,Austin  TX
+Austin  TX,San Diego  CA
+San Diego  CA,Austin  TX
+Austin  TX,Lynnwood  WA
+Lynnwood  WA,Austin  TX
+Austin  TX,Quebeck  TN
+Quebeck  TN,Austin  TX
+Austin  TX,Mesa  AZ
+Mesa  AZ,Austin  TX
+Everett  WA,Des Plaines  IL
+Des Plaines  IL,Everett  WA
+Everett  WA,Toluca Lake  CA
+Toluca Lake  CA,Everett  WA
+Everett  WA,Calabasas  CA
+Calabasas  CA,Everett  WA
+Everett  WA,Greenville  SC
+Greenville  SC,Everett  WA
+Everett  WA,Wethersfield  CT
+Wethersfield  CT,Everett  WA
+Everett  WA,Woodland Hills  CA
+Woodland Hills  CA,Everett  WA
+Everett  WA,Cheboygan  MI
+Cheboygan  MI,Everett  WA
+Everett  WA,Los Chavez  NM
+Los Chavez  NM,Everett  WA
+Everett  WA,Milpitas  CA
+Milpitas  CA,Everett  WA
+Everett  WA,Williamsport  PA
+Williamsport  PA,Everett  WA
+Seattle  WA,Pottstown  PA
+Pottstown  PA,Seattle  WA
+Seattle  WA,Port Aransas  TX
+Port Aransas  TX,Seattle  WA
+Seattle  WA,Southern Pines  NC
+Southern Pines  NC,Seattle  WA
+Seattle  WA,Beaumont  CA
+Beaumont  CA,Seattle  WA

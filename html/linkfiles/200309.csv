@@ -1,0 +1,425 @@
+origin,destination
+University Place  WA,Edmonds  WA
+Edmonds  WA,University Place  WA
+University Place  WA,Lyons  CO
+Lyons  CO,University Place  WA
+University Place  WA,Hillsboro  OR
+Hillsboro  OR,University Place  WA
+Minneapolis  MN,Sedro-Woolley  WA
+Sedro-Woolley  WA,Minneapolis  MN
+Minneapolis  MN,Mariposa  CA
+Mariposa  CA,Minneapolis  MN
+Minneapolis  MN,Walnut Creek  CA
+Walnut Creek  CA,Minneapolis  MN
+Minneapolis  MN,Rolla  MO
+Rolla  MO,Minneapolis  MN
+Minneapolis  MN,Rochelle  IL
+Rochelle  IL,Minneapolis  MN
+Minneapolis  MN,Belmont  CA
+Belmont  CA,Minneapolis  MN
+Minneapolis  MN,Forestville  CA
+Forestville  CA,Minneapolis  MN
+Minneapolis  MN,Roseville  CA
+Roseville  CA,Minneapolis  MN
+Minneapolis  MN,Gilmanton  NH
+Gilmanton  NH,Minneapolis  MN
+Minneapolis  MN,Oak Grove  MO
+Oak Grove  MO,Minneapolis  MN
+Phoenix  AZ,South Bend  IN
+South Bend  IN,Phoenix  AZ
+Phoenix  AZ,Reno  NV
+Reno  NV,Phoenix  AZ
+Phoenix  AZ,San Marcos  CA
+San Marcos  CA,Phoenix  AZ
+Phoenix  AZ,Burien  WA
+Burien  WA,Phoenix  AZ
+Phoenix  AZ,Hillsboro  OR
+Hillsboro  OR,Phoenix  AZ
+Phoenix  AZ,Lexington  KY
+Lexington  KY,Phoenix  AZ
+Phoenix  AZ,Chandler  AZ
+Chandler  AZ,Phoenix  AZ
+Phoenix  AZ,San Diego  CA
+San Diego  CA,Phoenix  AZ
+Phoenix  AZ,Calaveras Big Trees  CA
+Calaveras Big Trees  CA,Phoenix  AZ
+New York City  NY,Asheville  NC
+Asheville  NC,New York City  NY
+New York City  NY,Carrabasset Valley  ME
+Carrabasset Valley  ME,New York City  NY
+New York City  NY,Beach Haven Terrace  NJ
+Beach Haven Terrace  NJ,New York City  NY
+New York City  NY,Conway  SC
+Conway  SC,New York City  NY
+Weehawken  NJ,Indianapolis  IN
+Indianapolis  IN,Weehawken  NJ
+Weehawken  NJ,Cypress  TX
+Cypress  TX,Weehawken  NJ
+Weehawken  NJ,Maricopa  AZ
+Maricopa  AZ,Weehawken  NJ
+Weehawken  NJ,Riverside  CA
+Riverside  CA,Weehawken  NJ
+Weehawken  NJ,Millville  NJ
+Millville  NJ,Weehawken  NJ
+Weehawken  NJ,Montebello  CA
+Montebello  CA,Weehawken  NJ
+Westport  CT,Renton  WA
+Renton  WA,Westport  CT
+Westport  CT,Maple Valley  WA
+Maple Valley  WA,Westport  CT
+Westport  CT,Wichita Falls  TX
+Wichita Falls  TX,Westport  CT
+Westport  CT,Bedminster  NJ
+Bedminster  NJ,Westport  CT
+Westport  CT,Anchorage  AK
+Anchorage  AK,Westport  CT
+Westport  CT,Cedar Rapids  IA
+Cedar Rapids  IA,Westport  CT
+Westport  CT,North Myrtle Beach  SC
+North Myrtle Beach  SC,Westport  CT
+Westport  CT,Santa Fe  NM
+Santa Fe  NM,Westport  CT
+Westport  CT,Maui  HI
+Maui  HI,Westport  CT
+Myrtle Beach  SC,Surfside Beach  SC
+Surfside Beach  SC,Myrtle Beach  SC
+Myrtle Beach  SC,Sarasota  FL
+Sarasota  FL,Myrtle Beach  SC
+Myrtle Beach  SC,Prescott  AZ
+Prescott  AZ,Myrtle Beach  SC
+Valley Springs  CA,Glenfield  NY
+Glenfield  NY,Valley Springs  CA
+Valley Springs  CA,Kenai  AK
+Kenai  AK,Valley Springs  CA
+Valley Springs  CA,Patchogue  NY
+Patchogue  NY,Valley Springs  CA
+Valley Springs  CA,Stanley  VA
+Stanley  VA,Valley Springs  CA
+Valley Springs  CA,North Myrtle Beach  SC
+North Myrtle Beach  SC,Valley Springs  CA
+Valley Springs  CA,Marana  AZ
+Marana  AZ,Valley Springs  CA
+Valley Springs  CA,Weatherford  TX
+Weatherford  TX,Valley Springs  CA
+Valley Springs  CA,Myrtle Beach  SC
+Myrtle Beach  SC,Valley Springs  CA
+Valley Springs  CA,Converse  TX
+Converse  TX,Valley Springs  CA
+Valley Springs  CA,Clinton  MO
+Clinton  MO,Valley Springs  CA
+Valley Springs  CA,Cape May  NJ
+Cape May  NJ,Valley Springs  CA
+Valley Springs  CA,McAllen  TX
+McAllen  TX,Valley Springs  CA
+Valley Springs  CA,Osterburg  PA
+Osterburg  PA,Valley Springs  CA
+Valley Springs  CA,Soap Lake  WA
+Soap Lake  WA,Valley Springs  CA
+Valley Springs  CA,San Antonio  TX
+San Antonio  TX,Valley Springs  CA
+Alexandria  VA,Windsor  MO
+Windsor  MO,Alexandria  VA
+Alexandria  VA,Sonoran Desert  AZ
+Sonoran Desert  AZ,Alexandria  VA
+Alexandria  VA,Commerce City  CO
+Commerce City  CO,Alexandria  VA
+Alexandria  VA,Orwigsburg  PA
+Orwigsburg  PA,Alexandria  VA
+Alexandria  VA,Tupper Lake  NY
+Tupper Lake  NY,Alexandria  VA
+Alexandria  VA,Toledo  OH
+Toledo  OH,Alexandria  VA
+Alexandria  VA,Richmond  VA
+Richmond  VA,Alexandria  VA
+Alexandria  VA,Springfield  OH
+Springfield  OH,Alexandria  VA
+Alexandria  VA,Oakdale  IL
+Oakdale  IL,Alexandria  VA
+Yakima  WA,Fort Plain  NY
+Fort Plain  NY,Yakima  WA
+Yakima  WA,New Port Richey  FL
+New Port Richey  FL,Yakima  WA
+Yakima  WA,Malvern  OH
+Malvern  OH,Yakima  WA
+Yakima  WA,Troy  NY
+Troy  NY,Yakima  WA
+Yakima  WA,Vermillion  SD
+Vermillion  SD,Yakima  WA
+Yakima  WA,Claremont  CA
+Claremont  CA,Yakima  WA
+Yakima  WA,East Palo Alto  CA
+East Palo Alto  CA,Yakima  WA
+Yakima  WA,Alachua County  FL
+Alachua County  FL,Yakima  WA
+Yakima  WA,Selah  WA
+Selah  WA,Yakima  WA
+Yakima  WA,Christiansburg  VA
+Christiansburg  VA,Yakima  WA
+Yakima  WA,Beach City  TX
+Beach City  TX,Yakima  WA
+Yakima  WA,Ringgold  GA
+Ringgold  GA,Yakima  WA
+Yakima  WA,Turnersville  NJ
+Turnersville  NJ,Yakima  WA
+Tacoma  WA,El Reno  OK
+El Reno  OK,Tacoma  WA
+Tacoma  WA,Denver  CO
+Denver  CO,Tacoma  WA
+Mesa  AZ,Arlington  WA
+Arlington  WA,Mesa  AZ
+Mesa  AZ,Vernal  UT
+Vernal  UT,Mesa  AZ
+Mesa  AZ,Everett  WA
+Everett  WA,Mesa  AZ
+Mesa  AZ,East Falmouth  MA
+East Falmouth  MA,Mesa  AZ
+Mesa  AZ,Coffeyville  KS
+Coffeyville  KS,Mesa  AZ
+Mesa  AZ,Honolulu  HI
+Honolulu  HI,Mesa  AZ
+Mesa  AZ,Costa Mesa  CA
+Costa Mesa  CA,Mesa  AZ
+Mesa  AZ,Lake Stevens  WA
+Lake Stevens  WA,Mesa  AZ
+Adrian  MI,Parishville  NY
+Parishville  NY,Adrian  MI
+Adrian  MI,Lakeside  OR
+Lakeside  OR,Adrian  MI
+Adrian  MI,Elba  AL
+Elba  AL,Adrian  MI
+Adrian  MI,Framingham  MA
+Framingham  MA,Adrian  MI
+Adrian  MI,Sandy  UT
+Sandy  UT,Adrian  MI
+Adrian  MI,East Falmouth  MA
+East Falmouth  MA,Adrian  MI
+Adrian  MI,Fort Worth  TX
+Fort Worth  TX,Adrian  MI
+Saratoga Springs  NY,Big Spring  TX
+Big Spring  TX,Saratoga Springs  NY
+Saratoga Springs  NY,Kodak  TN
+Kodak  TN,Saratoga Springs  NY
+Saratoga Springs  NY,Sharon  VT
+Sharon  VT,Saratoga Springs  NY
+Saratoga Springs  NY,Atlanta  GA
+Atlanta  GA,Saratoga Springs  NY
+Saratoga Springs  NY,Corbin  KY
+Corbin  KY,Saratoga Springs  NY
+Saratoga Springs  NY,Lake Orion  MI
+Lake Orion  MI,Saratoga Springs  NY
+Saratoga Springs  NY,Orlando  FL
+Orlando  FL,Saratoga Springs  NY
+Saratoga Springs  NY,Springfield  OR
+Springfield  OR,Saratoga Springs  NY
+Saratoga Springs  NY,Indianapolis  IN
+Indianapolis  IN,Saratoga Springs  NY
+Saratoga Springs  NY,Sacramento  CA
+Sacramento  CA,Saratoga Springs  NY
+Saratoga Springs  NY,Milton  FL
+Milton  FL,Saratoga Springs  NY
+Saratoga Springs  NY,Bristol  NH
+Bristol  NH,Saratoga Springs  NY
+Saratoga Springs  NY,Charlotte  NC
+Charlotte  NC,Saratoga Springs  NY
+Saratoga Springs  NY,Honolulu  HI
+Honolulu  HI,Saratoga Springs  NY
+Saratoga Springs  NY,Montgomeryville  PA
+Montgomeryville  PA,Saratoga Springs  NY
+Saratoga Springs  NY,Elk Grove  CA
+Elk Grove  CA,Saratoga Springs  NY
+West Palm Beach  FL,Lompoc  CA
+Lompoc  CA,West Palm Beach  FL
+West Palm Beach  FL,Lancaster  CA
+Lancaster  CA,West Palm Beach  FL
+West Palm Beach  FL,San Francisco  CA
+San Francisco  CA,West Palm Beach  FL
+West Palm Beach  FL,Colorado Springs  CO
+Colorado Springs  CO,West Palm Beach  FL
+West Palm Beach  FL,Tucson  AZ
+Tucson  AZ,West Palm Beach  FL
+West Palm Beach  FL,Rocky Mount  NC
+Rocky Mount  NC,West Palm Beach  FL
+West Palm Beach  FL,Edmond  OK
+Edmond  OK,West Palm Beach  FL
+Fraser  MI,Saugus  MA
+Saugus  MA,Fraser  MI
+Fraser  MI,Amherst  MA
+Amherst  MA,Fraser  MI
+Fraser  MI,Hickory  NC
+Hickory  NC,Fraser  MI
+Bakersfield  CA,Glendale  CA
+Glendale  CA,Bakersfield  CA
+Bakersfield  CA,Crescent City  CA
+Crescent City  CA,Bakersfield  CA
+Bakersfield  CA,Oak View  CA
+Oak View  CA,Bakersfield  CA
+Bakersfield  CA,Northwood  NH
+Northwood  NH,Bakersfield  CA
+Bakersfield  CA,Provincetown  MA
+Provincetown  MA,Bakersfield  CA
+Bakersfield  CA,Corvallis  OR
+Corvallis  OR,Bakersfield  CA
+Bakersfield  CA,Fox Lake  IL
+Fox Lake  IL,Bakersfield  CA
+Bakersfield  CA,Elkin  NC
+Elkin  NC,Bakersfield  CA
+Bakersfield  CA,Las Vegas  NV
+Las Vegas  NV,Bakersfield  CA
+Bakersfield  CA,San Francisco  CA
+San Francisco  CA,Bakersfield  CA
+Bakersfield  CA,Milpitas  CA
+Milpitas  CA,Bakersfield  CA
+Phoenix  AZ,Spokane  WA
+Spokane  WA,Phoenix  AZ
+Phoenix  AZ,Cameron  OK
+Cameron  OK,Phoenix  AZ
+Phoenix  AZ,Arlington  WA
+Arlington  WA,Phoenix  AZ
+Phoenix  AZ,West Hills  CA
+West Hills  CA,Phoenix  AZ
+Phoenix  AZ,Portland  OR
+Portland  OR,Phoenix  AZ
+Phoenix  AZ,Fort Smith  AR
+Fort Smith  AR,Phoenix  AZ
+Phoenix  AZ,Lake George  NY
+Lake George  NY,Phoenix  AZ
+Phoenix  AZ,Garden city  GA
+Garden city  GA,Phoenix  AZ
+Phoenix  AZ,Gilberts  IL
+Gilberts  IL,Phoenix  AZ
+Phoenix  AZ,Auburn  ME
+Auburn  ME,Phoenix  AZ
+Phoenix  AZ,Boonville  AR
+Boonville  AR,Phoenix  AZ
+Phoenix  AZ,Columbia  MO
+Columbia  MO,Phoenix  AZ
+Phoenix  AZ,Santa Fe  NM
+Santa Fe  NM,Phoenix  AZ
+Phoenix  AZ,Northfield  MN
+Northfield  MN,Phoenix  AZ
+Fort Collins  CO,Sonoma  CA
+Sonoma  CA,Fort Collins  CO
+Fort Collins  CO,Palo Alto  CA
+Palo Alto  CA,Fort Collins  CO
+Fort Collins  CO,Morgan Hill  CA
+Morgan Hill  CA,Fort Collins  CO
+Fort Collins  CO,Lincoln City  OR
+Lincoln City  OR,Fort Collins  CO
+Cape May  NJ,Reno  NV
+Reno  NV,Cape May  NJ
+Cape May  NJ,Kennewick  WA
+Kennewick  WA,Cape May  NJ
+Cape May  NJ,Marstons Mills  MA
+Marstons Mills  MA,Cape May  NJ
+Cape May  NJ,Pensacola  FL
+Pensacola  FL,Cape May  NJ
+Cape May  NJ,Sarasota  FL
+Sarasota  FL,Cape May  NJ
+Cape May  NJ,Bellingham  WA
+Bellingham  WA,Cape May  NJ
+Cape May  NJ,Bicknell  IN
+Bicknell  IN,Cape May  NJ
+Cape May  NJ,Abilene  KS
+Abilene  KS,Cape May  NJ
+Cape May  NJ,Arlington  WA
+Arlington  WA,Cape May  NJ
+Cape May  NJ,Houston  TX
+Houston  TX,Cape May  NJ
+Cape May  NJ,Traverse City  MI
+Traverse City  MI,Cape May  NJ
+Cape May  NJ,Newport  AR
+Newport  AR,Cape May  NJ
+Cape May  NJ,San Jose  CA
+San Jose  CA,Cape May  NJ
+Cape May  NJ,Charlotte  NC
+Charlotte  NC,Cape May  NJ
+Cape May  NJ,Park Rapids  MN
+Park Rapids  MN,Cape May  NJ
+Cape May  NJ,Dothan  AL
+Dothan  AL,Cape May  NJ
+Cape May  NJ,Ormond Beach  FL
+Ormond Beach  FL,Cape May  NJ
+Miami  FL,Centerville  OH
+Centerville  OH,Miami  FL
+Miami  FL,Hudson  FL
+Hudson  FL,Miami  FL
+Miami  FL,Lakewood  CO
+Lakewood  CO,Miami  FL
+Miami  FL,Junction City  OR
+Junction City  OR,Miami  FL
+Miami  FL,Myrtle Beach  SC
+Myrtle Beach  SC,Miami  FL
+Miami  FL,Pitcairn  NY
+Pitcairn  NY,Miami  FL
+Miami  FL,Santa Clara  CA
+Santa Clara  CA,Miami  FL
+Miami  FL,Wapato  WA
+Wapato  WA,Miami  FL
+Miami  FL,Ontario  CA
+Ontario  CA,Miami  FL
+Miami  FL,Dora  AR
+Dora  AR,Miami  FL
+Miami  FL,Richmond  KY
+Richmond  KY,Miami  FL
+Miami  FL,Logan  WV
+Logan  WV,Miami  FL
+Miami  FL,Pleasant Lake  MI
+Pleasant Lake  MI,Miami  FL
+Seattle  WA,Lake Stevens  WA
+Lake Stevens  WA,Seattle  WA
+Seattle  WA,Frisco  TX
+Frisco  TX,Seattle  WA
+Seattle  WA,Gray  GA
+Gray  GA,Seattle  WA
+Seattle  WA,Sumner  WA
+Sumner  WA,Seattle  WA
+Seattle  WA,George  WA
+George  WA,Seattle  WA
+Seattle  WA,DeKalb  TX
+DeKalb  TX,Seattle  WA
+Seattle  WA,Oroville  WA
+Oroville  WA,Seattle  WA
+Seattle  WA,Johnson City  NY
+Johnson City  NY,Seattle  WA
+Seattle  WA,Kittatas  WA
+Kittatas  WA,Seattle  WA
+Seattle  WA,Millville  NJ
+Millville  NJ,Seattle  WA
+Seattle  WA,Myrtle Beach  SC
+Myrtle Beach  SC,Seattle  WA
+Santa Fe  NM,Cornelius  OR
+Cornelius  OR,Santa Fe  NM
+Santa Fe  NM,Amory  MS
+Amory  MS,Santa Fe  NM
+Palo Alto  CA,Mooers  NY
+Mooers  NY,Palo Alto  CA
+Palo Alto  CA,Mercer County  KY
+Mercer County  KY,Palo Alto  CA
+Palo Alto  CA,San Carlos  AZ
+San Carlos  AZ,Palo Alto  CA
+Palo Alto  CA,Arlington  WA
+Arlington  WA,Palo Alto  CA
+Palo Alto  CA,Tres Pinos  CA
+Tres Pinos  CA,Palo Alto  CA
+Palo Alto  CA,Glens Falls  NY
+Glens Falls  NY,Palo Alto  CA
+Palo Alto  CA,Verdi  NV
+Verdi  NV,Palo Alto  CA
+Palo Alto  CA,Yellowstone National Park  WY
+Yellowstone National Park  WY,Palo Alto  CA
+San Francisco  CA,Nantucket  MA
+Nantucket  MA,San Francisco  CA
+San Francisco  CA,Montauk  NY
+Montauk  NY,San Francisco  CA
+San Francisco  CA,Poplar Grove  IL
+Poplar Grove  IL,San Francisco  CA
+San Francisco  CA,Yukon  OK
+Yukon  OK,San Francisco  CA
+San Francisco  CA,La Sal  UT
+La Sal  UT,San Francisco  CA
+San Francisco  CA,Tucson  AZ
+Tucson  AZ,San Francisco  CA
+San Francisco  CA,Richfield  UT
+Richfield  UT,San Francisco  CA
+San Francisco  CA,De Kalb  NY
+De Kalb  NY,San Francisco  CA

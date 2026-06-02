@@ -1,0 +1,263 @@
+origin,destination
+Phoenix  AZ,Milford  NJ
+Milford  NJ,Phoenix  AZ
+Phoenix  AZ,Elizabeth  CO
+Elizabeth  CO,Phoenix  AZ
+Phoenix  AZ,West Covina  CA
+West Covina  CA,Phoenix  AZ
+Phoenix  AZ,Coram  NY
+Coram  NY,Phoenix  AZ
+Phoenix  AZ,Owls Head  ME
+Owls Head  ME,Phoenix  AZ
+Phoenix  AZ,Okeechobee  FL
+Okeechobee  FL,Phoenix  AZ
+Phoenix  AZ,Henderson  NV
+Henderson  NV,Phoenix  AZ
+Kennesaw  GA,Graham  WA
+Graham  WA,Kennesaw  GA
+Kennesaw  GA,Independence  MO
+Independence  MO,Kennesaw  GA
+Santa Monica  CA,Milwaukee  WI
+Milwaukee  WI,Santa Monica  CA
+Santa Monica  CA,Greenville  PA
+Greenville  PA,Santa Monica  CA
+Richmond  VA,Marion  IL
+Marion  IL,Richmond  VA
+Richmond  VA,Indianola  MS
+Indianola  MS,Richmond  VA
+Richmond  VA,Mountain View  CA
+Mountain View  CA,Richmond  VA
+Richmond  VA,Fairfield  CT
+Fairfield  CT,Richmond  VA
+Coto De Caza  CA,El Cajon  CA
+El Cajon  CA,Coto De Caza  CA
+Coto De Caza  CA,Stockton  NJ
+Stockton  NJ,Coto De Caza  CA
+Coto De Caza  CA,Phelan  CA
+Phelan  CA,Coto De Caza  CA
+LaPorte  IN,Seattle  WA
+Seattle  WA,LaPorte  IN
+LaPorte  IN,Everett  WA
+Everett  WA,LaPorte  IN
+LaPorte  IN,Sussex  NJ
+Sussex  NJ,LaPorte  IN
+LaPorte  IN,Oakland  CA
+Oakland  CA,LaPorte  IN
+LaPorte  IN,Arcadia  CA
+Arcadia  CA,LaPorte  IN
+LaPorte  IN,Dania Beach  FL
+Dania Beach  FL,LaPorte  IN
+LaPorte  IN,Santa Rosa  CA
+Santa Rosa  CA,LaPorte  IN
+Ames  IA,Moses Lake  WA
+Moses Lake  WA,Ames  IA
+Ames  IA,Kiel  WI
+Kiel  WI,Ames  IA
+Ames  IA,Tularosa  NM
+Tularosa  NM,Ames  IA
+San Diego  CA,Splendora  TX
+Splendora  TX,San Diego  CA
+San Diego  CA,Lawrence  KS
+Lawrence  KS,San Diego  CA
+San Diego  CA,Treasure Island  FL
+Treasure Island  FL,San Diego  CA
+San Diego  CA,Jacksboro  TX
+Jacksboro  TX,San Diego  CA
+San Diego  CA,Middletown  OH
+Middletown  OH,San Diego  CA
+San Diego  CA,Teasdale  UT
+Teasdale  UT,San Diego  CA
+San Diego  CA,Cloverdale  CA
+Cloverdale  CA,San Diego  CA
+San Diego  CA,Youngstown  OH
+Youngstown  OH,San Diego  CA
+San Diego  CA,Bear Creek  AL
+Bear Creek  AL,San Diego  CA
+Cleveland  OH,Houston  TX
+Houston  TX,Cleveland  OH
+Cleveland  OH,Newbury Park  CA
+Newbury Park  CA,Cleveland  OH
+Cleveland  OH,Roseberg  PA
+Roseberg  PA,Cleveland  OH
+Cleveland  OH,Horn Island  MS
+Horn Island  MS,Cleveland  OH
+Franklin  TN,Oklahoma City  OK
+Oklahoma City  OK,Franklin  TN
+Franklin  TN,Susanville  CA
+Susanville  CA,Franklin  TN
+Franklin  TN,Edmond  OK
+Edmond  OK,Franklin  TN
+Franklin  TN,Scappoose  OR
+Scappoose  OR,Franklin  TN
+Franklin  TN,Sunriver  OR
+Sunriver  OR,Franklin  TN
+Franklin  TN,Defiance  OH
+Defiance  OH,Franklin  TN
+Franklin  TN,Miami  FL
+Miami  FL,Franklin  TN
+Franklin  TN,Columbus  OH
+Columbus  OH,Franklin  TN
+Fort Worth  TX,Englewood  CO
+Englewood  CO,Fort Worth  TX
+Fort Worth  TX,Rexburg  ID
+Rexburg  ID,Fort Worth  TX
+Fort Worth  TX,Brea  CA
+Brea  CA,Fort Worth  TX
+Fort Worth  TX,Rockford  MI
+Rockford  MI,Fort Worth  TX
+Fort Worth  TX,Reedley  CA
+Reedley  CA,Fort Worth  TX
+Plantation  FL,Santa Barbara  CA
+Santa Barbara  CA,Plantation  FL
+Plantation  FL,San Anselmo  CA
+San Anselmo  CA,Plantation  FL
+Plantation  FL,Oakland  CA
+Oakland  CA,Plantation  FL
+Plantation  FL,Overton  TX
+Overton  TX,Plantation  FL
+Plantation  FL,Blackwater  MO
+Blackwater  MO,Plantation  FL
+Bellevue  NE,Watkins Glen  NY
+Watkins Glen  NY,Bellevue  NE
+Bellevue  NE,Mallory  NY
+Mallory  NY,Bellevue  NE
+Bellevue  NE,Alsip  IL
+Alsip  IL,Bellevue  NE
+Bellevue  NE,Vicksburg  MS
+Vicksburg  MS,Bellevue  NE
+Bellevue  NE,Lower Lake  CA
+Lower Lake  CA,Bellevue  NE
+Bellevue  NE,Valatie  NY
+Valatie  NY,Bellevue  NE
+Bellevue  NE,Dalton  MA
+Dalton  MA,Bellevue  NE
+Bellevue  NE,New Port Richey  FL
+New Port Richey  FL,Bellevue  NE
+Bellevue  NE,Alden  MN
+Alden  MN,Bellevue  NE
+Bellevue  NE,Warrensburg  MO
+Warrensburg  MO,Bellevue  NE
+Columbia  IL,Warner Robins  GA
+Warner Robins  GA,Columbia  IL
+Columbia  IL,New York City  NY
+New York City  NY,Columbia  IL
+Columbia  IL,Santa Barbara  CA
+Santa Barbara  CA,Columbia  IL
+Flat Rock  MI,Hoover   AL
+Hoover   AL,Flat Rock  MI
+Flat Rock  MI,Sapulpa  OK
+Sapulpa  OK,Flat Rock  MI
+Flat Rock  MI,Healdsburg  CA
+Healdsburg  CA,Flat Rock  MI
+Flat Rock  MI,New Albany  IN
+New Albany  IN,Flat Rock  MI
+Flat Rock  MI,Sheeps Bridge  AZ
+Sheeps Bridge  AZ,Flat Rock  MI
+Flat Rock  MI,Roanoke  VA
+Roanoke  VA,Flat Rock  MI
+Palatine  IL,Sweet Valley  PA
+Sweet Valley  PA,Palatine  IL
+Palatine  IL,Mesquite  TX
+Mesquite  TX,Palatine  IL
+Palatine  IL,Blowing Rock  NC
+Blowing Rock  NC,Palatine  IL
+Palatine  IL,Columbia  LA
+Columbia  LA,Palatine  IL
+Palatine  IL,East  Longmeadow  MA
+East  Longmeadow  MA,Palatine  IL
+Palatine  IL,Carson  WA
+Carson  WA,Palatine  IL
+Palatine  IL,Bear Canyon Lake  AZ
+Bear Canyon Lake  AZ,Palatine  IL
+Palatine  IL,Framingdale  ME
+Framingdale  ME,Palatine  IL
+Palatine  IL,Passaconway  NH
+Passaconway  NH,Palatine  IL
+Seattle  WA,Las Vegas  NV
+Las Vegas  NV,Seattle  WA
+Seattle  WA,Melbourne Beach  FL
+Melbourne Beach  FL,Seattle  WA
+Seattle  WA,Bowling Green  KY
+Bowling Green  KY,Seattle  WA
+Seattle  WA,New York City  NY
+New York City  NY,Seattle  WA
+Seattle  WA,Atlanta  GA
+Atlanta  GA,Seattle  WA
+Seattle  WA,La Mesa  CA
+La Mesa  CA,Seattle  WA
+Virginia Beach  VA,Allen Park  MI
+Allen Park  MI,Virginia Beach  VA
+Virginia Beach  VA,Ashland  KY
+Ashland  KY,Virginia Beach  VA
+Henderson  NV,Rochester  NY
+Rochester  NY,Henderson  NV
+Henderson  NV,Yuma  AZ
+Yuma  AZ,Henderson  NV
+Henderson  NV,Springfield  MI
+Springfield  MI,Henderson  NV
+Henderson  NV,Sandy  UT
+Sandy  UT,Henderson  NV
+Henderson  NV,Toledo  OH
+Toledo  OH,Henderson  NV
+McKinney  TX,Hicksville  NY
+Hicksville  NY,McKinney  TX
+McKinney  TX,Apex  NC
+Apex  NC,McKinney  TX
+Albuquerque  NM,Hillsboro  OR
+Hillsboro  OR,Albuquerque  NM
+Albuquerque  NM,Pittsburgh  PA
+Pittsburgh  PA,Albuquerque  NM
+Albuquerque  NM,Tucson  AZ
+Tucson  AZ,Albuquerque  NM
+Albuquerque  NM,White Hall  MD
+White Hall  MD,Albuquerque  NM
+Albuquerque  NM,Star lake  NY
+Star lake  NY,Albuquerque  NM
+Albuquerque  NM,La Quinta  CA
+La Quinta  CA,Albuquerque  NM
+Albuquerque  NM,Socorro  NM
+Socorro  NM,Albuquerque  NM
+Albuquerque  NM,Lake Buena Vista  FL
+Lake Buena Vista  FL,Albuquerque  NM
+Albuquerque  NM,Olympia  WA
+Olympia  WA,Albuquerque  NM
+Albuquerque  NM,Racine  WI
+Racine  WI,Albuquerque  NM
+Albuquerque  NM,Worden  MT
+Worden  MT,Albuquerque  NM
+Albuquerque  NM,Bates City  MO
+Bates City  MO,Albuquerque  NM
+Albuquerque  NM,Big Bear  CA
+Big Bear  CA,Albuquerque  NM
+Albuquerque  NM,Parkersburg  WV
+Parkersburg  WV,Albuquerque  NM
+White Hall  MD,Tempe  AZ
+Tempe  AZ,White Hall  MD
+White Hall  MD,Columbia City  IN
+Columbia City  IN,White Hall  MD
+White Hall  MD,Shelton  WA
+Shelton  WA,White Hall  MD
+Barstow  CA,Buckner  IL
+Buckner  IL,Barstow  CA
+Barstow  CA,Schaumburg  IL
+Schaumburg  IL,Barstow  CA
+Barstow  CA,Magna  UT
+Magna  UT,Barstow  CA
+Los Angeles  CA,Chandler  AZ
+Chandler  AZ,Los Angeles  CA
+Los Angeles  CA,Torrance  CA
+Torrance  CA,Los Angeles  CA
+Los Angeles  CA,Fyffe  AL
+Fyffe  AL,Los Angeles  CA
+Los Angeles  CA,Charlotte  NC
+Charlotte  NC,Los Angeles  CA
+El Sobrante  CA,Sacramento  CA
+Sacramento  CA,El Sobrante  CA
+El Sobrante  CA,Northbrook  IL
+Northbrook  IL,El Sobrante  CA
+El Sobrante  CA,Chicago  IL
+Chicago  IL,El Sobrante  CA
+Doylestown  PA,South Webster  OH
+South Webster  OH,Doylestown  PA
+Doylestown  PA,Patagonia  AZ
+Patagonia  AZ,Doylestown  PA

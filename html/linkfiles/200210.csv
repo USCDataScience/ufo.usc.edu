@@ -1,0 +1,321 @@
+origin,destination
+Seattle  WA,Port Hadlock  WA
+Port Hadlock  WA,Seattle  WA
+Seattle  WA,Castro Valley  CA
+Castro Valley  CA,Seattle  WA
+Seattle  WA,Rainier  WA
+Rainier  WA,Seattle  WA
+Seattle  WA,Edmonds  WA
+Edmonds  WA,Seattle  WA
+Seattle  WA,Oakland  CA
+Oakland  CA,Seattle  WA
+Seattle  WA,Courtland  VA
+Courtland  VA,Seattle  WA
+Seattle  WA,Grants  NM
+Grants  NM,Seattle  WA
+Seattle  WA,Santa Fe  NM
+Santa Fe  NM,Seattle  WA
+Seattle  WA,Athol  ID
+Athol  ID,Seattle  WA
+Seattle  WA,Germantown  MD
+Germantown  MD,Seattle  WA
+Seattle  WA,Orlando  FL
+Orlando  FL,Seattle  WA
+Seattle  WA,Monroe  WI
+Monroe  WI,Seattle  WA
+Seattle  WA,Riverton  UT
+Riverton  UT,Seattle  WA
+Seattle  WA,Kingston  NY
+Kingston  NY,Seattle  WA
+Seattle  WA,Nebraska City  NE
+Nebraska City  NE,Seattle  WA
+Seattle  WA,Winslow  AZ
+Winslow  AZ,Seattle  WA
+Watertown  NY,Northford  CT
+Northford  CT,Watertown  NY
+Watertown  NY,Santa Fe  NM
+Santa Fe  NM,Watertown  NY
+Augusta  GA,Palmdale  CA
+Palmdale  CA,Augusta  GA
+Augusta  GA,Morrisville  NC
+Morrisville  NC,Augusta  GA
+Augusta  GA,Smithville  TN
+Smithville  TN,Augusta  GA
+Augusta  GA,Olive Branch  MS
+Olive Branch  MS,Augusta  GA
+Pueblo West  CO,El Paso  TX
+El Paso  TX,Pueblo West  CO
+Pueblo West  CO,Alhambra  CA
+Alhambra  CA,Pueblo West  CO
+Pueblo West  CO,Newport Township  PA
+Newport Township  PA,Pueblo West  CO
+Pueblo West  CO,Quartzite  AZ
+Quartzite  AZ,Pueblo West  CO
+Pueblo West  CO,Houston  TX
+Houston  TX,Pueblo West  CO
+Boulder  CO,Lander  WY
+Lander  WY,Boulder  CO
+Boulder  CO,Taos  NM
+Taos  NM,Boulder  CO
+Boulder  CO,Provo  UT
+Provo  UT,Boulder  CO
+Boulder  CO,Farmingdale  NY
+Farmingdale  NY,Boulder  CO
+Boulder  CO,Union  NJ
+Union  NJ,Boulder  CO
+Boulder  CO,Harrisonville  IL
+Harrisonville  IL,Boulder  CO
+Boulder  CO,Denver  CO
+Denver  CO,Boulder  CO
+Boulder  CO,Corcoran  MN
+Corcoran  MN,Boulder  CO
+Boulder  CO,Inwood  NY
+Inwood  NY,Boulder  CO
+Boulder  CO,none  AZ
+none  AZ,Boulder  CO
+Boulder  CO,Spring Hill  FL
+Spring Hill  FL,Boulder  CO
+Boulder  CO,Grifton  NC
+Grifton  NC,Boulder  CO
+Boulder  CO,North Las Vegas  NV
+North Las Vegas  NV,Boulder  CO
+Camden  AR,San Bernardino  CA
+San Bernardino  CA,Camden  AR
+Camden  AR,Jersey City  NJ
+Jersey City  NJ,Camden  AR
+Camden  AR,Rome  NY
+Rome  NY,Camden  AR
+Camden  AR,Hayward  CA
+Hayward  CA,Camden  AR
+Camden  AR,Plymouth Meeting  PA
+Plymouth Meeting  PA,Camden  AR
+Camden  AR,Longmont  CO
+Longmont  CO,Camden  AR
+Camden  AR,Melbourne Village  FL
+Melbourne Village  FL,Camden  AR
+Camden  AR,Castle Rock  CO
+Castle Rock  CO,Camden  AR
+Camden  AR,Port Orchard  WA
+Port Orchard  WA,Camden  AR
+Camden  AR,Eugene  OR
+Eugene  OR,Camden  AR
+Camden  AR,Sky City  NM
+Sky City  NM,Camden  AR
+Golden  CO,Forest Park  IL
+Forest Park  IL,Golden  CO
+Golden  CO,Lone Pine  CA
+Lone Pine  CA,Golden  CO
+Hayward  WI,Philomath  OR
+Philomath  OR,Hayward  WI
+Hayward  WI,Seattle  WA
+Seattle  WA,Hayward  WI
+Hayward  WI,Cincinnati  OH
+Cincinnati  OH,Hayward  WI
+Hayward  WI,Portland  OR
+Portland  OR,Hayward  WI
+Reno  NV,Springfield  MO
+Springfield  MO,Reno  NV
+Reno  NV,Dallas  TX
+Dallas  TX,Reno  NV
+Reno  NV,Randolph  MA
+Randolph  MA,Reno  NV
+Renton  WA,Rose Lake  ID
+Rose Lake  ID,Renton  WA
+Renton  WA,Prescott  AZ
+Prescott  AZ,Renton  WA
+Renton  WA,Redmond  WA
+Redmond  WA,Renton  WA
+Renton  WA,Boca Raton  FL
+Boca Raton  FL,Renton  WA
+Renton  WA,San Francisco  CA
+San Francisco  CA,Renton  WA
+Renton  WA,San Leandro  CA
+San Leandro  CA,Renton  WA
+Renton  WA,Winfield  TX
+Winfield  TX,Renton  WA
+Renton  WA,Tinton Falls  NJ
+Tinton Falls  NJ,Renton  WA
+Renton  WA,Paris  TX
+Paris  TX,Renton  WA
+Chicago  IL,Eastman  GA
+Eastman  GA,Chicago  IL
+Chicago  IL,Alameda  CA
+Alameda  CA,Chicago  IL
+Chicago  IL,Port Angeles  WA
+Port Angeles  WA,Chicago  IL
+Chicago  IL,Mary Esther  FL
+Mary Esther  FL,Chicago  IL
+Chicago  IL,Smithfield  NC
+Smithfield  NC,Chicago  IL
+Chicago  IL,Ship Bottom  NJ
+Ship Bottom  NJ,Chicago  IL
+Chicago  IL,Heltonville  IN
+Heltonville  IN,Chicago  IL
+San Jose  CA,Littleton  CO
+Littleton  CO,San Jose  CA
+San Jose  CA,Westlake Village  CA
+Westlake Village  CA,San Jose  CA
+San Jose  CA,Truckee  CA
+Truckee  CA,San Jose  CA
+San Jose  CA,Ely  NV
+Ely  NV,San Jose  CA
+San Jose  CA,Clarks Summit  PA
+Clarks Summit  PA,San Jose  CA
+San Jose  CA,Gaysville  VT
+Gaysville  VT,San Jose  CA
+San Jose  CA,Goldendale  WA
+Goldendale  WA,San Jose  CA
+San Jose  CA,Ivins  UT
+Ivins  UT,San Jose  CA
+San Jose  CA,Medford  OR
+Medford  OR,San Jose  CA
+San Jose  CA,Joseph  UT
+Joseph  UT,San Jose  CA
+Noble  OK,Lake Forest Park  WA
+Lake Forest Park  WA,Noble  OK
+Noble  OK,West Valley  UT
+West Valley  UT,Noble  OK
+Noble  OK,Bremerton  WA
+Bremerton  WA,Noble  OK
+Noble  OK,Rexford  MT
+Rexford  MT,Noble  OK
+Noble  OK,San Marcos  CA
+San Marcos  CA,Noble  OK
+Noble  OK,Seattle  WA
+Seattle  WA,Noble  OK
+Noble  OK,Albrightsville  PA
+Albrightsville  PA,Noble  OK
+Noble  OK,Hancock  MN
+Hancock  MN,Noble  OK
+Noble  OK,Darien  CT
+Darien  CT,Noble  OK
+Noble  OK,Tyler  TX
+Tyler  TX,Noble  OK
+Noble  OK,San Diego  CA
+San Diego  CA,Noble  OK
+Noble  OK,Cadillac  MI
+Cadillac  MI,Noble  OK
+Noble  OK,Bosler  WY
+Bosler  WY,Noble  OK
+Noble  OK,San Clemente  CA
+San Clemente  CA,Noble  OK
+Noble  OK,Bland  MO
+Bland  MO,Noble  OK
+Noble  OK,Los Angeles  CA
+Los Angeles  CA,Noble  OK
+Noble  OK,Monroe  GA
+Monroe  GA,Noble  OK
+Savannah  GA,Indianapolis  IN
+Indianapolis  IN,Savannah  GA
+Savannah  GA,Renton  WA
+Renton  WA,Savannah  GA
+Savannah  GA,Ogden  UT
+Ogden  UT,Savannah  GA
+Savannah  GA,Waco  TX
+Waco  TX,Savannah  GA
+Savannah  GA,Austin  TX
+Austin  TX,Savannah  GA
+Savannah  GA,Germantown  TN
+Germantown  TN,Savannah  GA
+Savannah  GA,Gilmer County  GA
+Gilmer County  GA,Savannah  GA
+Savannah  GA,Portland  OR
+Portland  OR,Savannah  GA
+Savannah  GA,Brookline  MA
+Brookline  MA,Savannah  GA
+Savannah  GA,Ocala  FL
+Ocala  FL,Savannah  GA
+Savannah  GA,Halletsville  TX
+Halletsville  TX,Savannah  GA
+Savannah  GA,Chaco Canyon National Historic Park  NM
+Chaco Canyon National Historic Park  NM,Savannah  GA
+Savannah  GA,Las Vegas  NV
+Las Vegas  NV,Savannah  GA
+Savannah  GA,Galion  OH
+Galion  OH,Savannah  GA
+Columbus  OH,Renton  WA
+Renton  WA,Columbus  OH
+Columbus  OH,El Cajon  CA
+El Cajon  CA,Columbus  OH
+Columbus  OH,Seattle  WA
+Seattle  WA,Columbus  OH
+Columbus  OH,Brighton  MA
+Brighton  MA,Columbus  OH
+Memphis  IN,Street  MD
+Street  MD,Memphis  IN
+Memphis  IN,Kotzebue  AK
+Kotzebue  AK,Memphis  IN
+Story City  IA,Long Beach  CA
+Long Beach  CA,Story City  IA
+Story City  IA,New Orleans  LA
+New Orleans  LA,Story City  IA
+Story City  IA,LaCenter  WA
+LaCenter  WA,Story City  IA
+Story City  IA,Hells Canyon  OR
+Hells Canyon  OR,Story City  IA
+Houston  TX,San Francisco  CA
+San Francisco  CA,Houston  TX
+Houston  TX,Cocoa Beach  FL
+Cocoa Beach  FL,Houston  TX
+South Pasadena  CA,Garrison  NY
+Garrison  NY,South Pasadena  CA
+South Pasadena  CA,Roanoke  VA
+Roanoke  VA,South Pasadena  CA
+South Pasadena  CA,Phoenix  AZ
+Phoenix  AZ,South Pasadena  CA
+South Pasadena  CA,Summit Lake Exit  Hwy 42  OR
+Summit Lake Exit  Hwy 42  OR,South Pasadena  CA
+Syracuse  IN,Wittmann  AZ
+Wittmann  AZ,Syracuse  IN
+Syracuse  IN,Lisbon  OH
+Lisbon  OH,Syracuse  IN
+Syracuse  IN,Seattle  WA
+Seattle  WA,Syracuse  IN
+Austin  TX,Huntington  IN
+Huntington  IN,Austin  TX
+Austin  TX,Chandler  AZ
+Chandler  AZ,Austin  TX
+Austin  TX,Bertram  TX
+Bertram  TX,Austin  TX
+Austin  TX,Brown City  MI
+Brown City  MI,Austin  TX
+Seattle  WA,Port Townsend  WA
+Port Townsend  WA,Seattle  WA
+Seattle  WA,Potomac  MT
+Potomac  MT,Seattle  WA
+Seattle  WA,Auburn  CA
+Auburn  CA,Seattle  WA
+Seattle  WA,Salt Lake City  UT
+Salt Lake City  UT,Seattle  WA
+Seattle  WA,Wendover  UT
+Wendover  UT,Seattle  WA
+Seattle  WA,Boynton Beach  FL
+Boynton Beach  FL,Seattle  WA
+Seattle  WA,Hammond  IN
+Hammond  IN,Seattle  WA
+Seattle  WA,Austin  TX
+Austin  TX,Seattle  WA
+Seattle  WA,Marshallville  OH
+Marshallville  OH,Seattle  WA
+Seattle  WA,Santa Barbara  CA
+Santa Barbara  CA,Seattle  WA
+Seattle  WA,Crossing California into Arizona  AZ
+Crossing California into Arizona  AZ,Seattle  WA
+Seattle  WA,Sacramento  CA
+Sacramento  CA,Seattle  WA
+Seattle  WA,Ashland  MO
+Ashland  MO,Seattle  WA
+Seattle  WA,San Diego  TX
+San Diego  TX,Seattle  WA
+Seattle  WA,Orlando  FL
+Orlando  FL,Seattle  WA
+Seattle  WA,Ocala  FL
+Ocala  FL,Seattle  WA
+Seattle  WA,Edmonds  WA
+Edmonds  WA,Seattle  WA
+Seattle  WA,Yelm  WA
+Yelm  WA,Seattle  WA
+Seattle  WA,Houston  TX
+Houston  TX,Seattle  WA
+Seattle  WA,Shepherdstown  WV
+Shepherdstown  WV,Seattle  WA

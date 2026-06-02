@@ -1,0 +1,295 @@
+origin,destination
+Cincinnati  OH,Van Nuys  CA
+Van Nuys  CA,Cincinnati  OH
+Cincinnati  OH,Tucson  AZ
+Tucson  AZ,Cincinnati  OH
+Cincinnati  OH,Flagstaff  AZ
+Flagstaff  AZ,Cincinnati  OH
+Cincinnati  OH,Blyth  AZ
+Blyth  AZ,Cincinnati  OH
+Cincinnati  OH,Kansas  HI
+Kansas  HI,Cincinnati  OH
+Cincinnati  OH,Sedona  AZ
+Sedona  AZ,Cincinnati  OH
+Cincinnati  OH,Petoskey  MI
+Petoskey  MI,Cincinnati  OH
+Cincinnati  OH,Memphis  TN
+Memphis  TN,Cincinnati  OH
+Cincinnati  OH,Pomona  CA
+Pomona  CA,Cincinnati  OH
+Cincinnati  OH,Wentzville  MO
+Wentzville  MO,Cincinnati  OH
+Phoenix  AZ,Paragould  AR
+Paragould  AR,Phoenix  AZ
+Phoenix  AZ,Nashua  NH
+Nashua  NH,Phoenix  AZ
+Phoenix  AZ,Clovis  CA
+Clovis  CA,Phoenix  AZ
+Phoenix  AZ,Savannah  GA
+Savannah  GA,Phoenix  AZ
+Phoenix  AZ,Lake Oswego  OR
+Lake Oswego  OR,Phoenix  AZ
+Phoenix  AZ,Morgantown  WV
+Morgantown  WV,Phoenix  AZ
+Valdosta  GA,Ishpeming  MI
+Ishpeming  MI,Valdosta  GA
+Valdosta  GA,New Orleans  LA
+New Orleans  LA,Valdosta  GA
+Valdosta  GA,Jacksonville  NC
+Jacksonville  NC,Valdosta  GA
+Valdosta  GA,Palm Springs  FL
+Palm Springs  FL,Valdosta  GA
+Valdosta  GA,Soddy Daisy  TN
+Soddy Daisy  TN,Valdosta  GA
+Valdosta  GA,Minneapolis  MN
+Minneapolis  MN,Valdosta  GA
+Valdosta  GA,Slippery Rock  PA
+Slippery Rock  PA,Valdosta  GA
+Morehead City  NC,Nashville  TN
+Nashville  TN,Morehead City  NC
+Morehead City  NC,Dayville  CT
+Dayville  CT,Morehead City  NC
+Morehead City  NC,Wentzville  MO
+Wentzville  MO,Morehead City  NC
+Klamath Falls  OR,East Otis  MA
+East Otis  MA,Klamath Falls  OR
+Klamath Falls  OR,Phelan  CA
+Phelan  CA,Klamath Falls  OR
+Palm Springs  CA,Hinkley  CA
+Hinkley  CA,Palm Springs  CA
+Palm Springs  CA,Oakdale  CA
+Oakdale  CA,Palm Springs  CA
+Palm Springs  CA,Reno  NV
+Reno  NV,Palm Springs  CA
+Palm Springs  CA,Lake Mead  AZ
+Lake Mead  AZ,Palm Springs  CA
+Lake Havasu City  AZ,Hopkins  MN
+Hopkins  MN,Lake Havasu City  AZ
+Lake Havasu City  AZ,Carizzo Plains National Mounument  CA
+Carizzo Plains National Mounument  CA,Lake Havasu City  AZ
+Lake Havasu City  AZ,Omaha  NE
+Omaha  NE,Lake Havasu City  AZ
+Lake Havasu City  AZ,Chester  VA
+Chester  VA,Lake Havasu City  AZ
+Utica  NY,Greensboro  NC
+Greensboro  NC,Utica  NY
+Utica  NY,Dallas  TX
+Dallas  TX,Utica  NY
+Utica  NY,Kansas City  KS
+Kansas City  KS,Utica  NY
+Utica  NY,Jamestown  NY
+Jamestown  NY,Utica  NY
+Utica  NY,Hagerstown  MD
+Hagerstown  MD,Utica  NY
+Sidney  TX,El Cajon  CA
+El Cajon  CA,Sidney  TX
+Sidney  TX,Springfield  MA
+Springfield  MA,Sidney  TX
+Sidney  TX,Oak Harbor  WA
+Oak Harbor  WA,Sidney  TX
+Santa Cruz  CA,La Quinta  CA
+La Quinta  CA,Santa Cruz  CA
+Santa Cruz  CA,Greenwood  IN
+Greenwood  IN,Santa Cruz  CA
+Santa Cruz  CA,South Beach  FL
+South Beach  FL,Santa Cruz  CA
+Santa Cruz  CA,Salt Lake City  UT
+Salt Lake City  UT,Santa Cruz  CA
+Santa Cruz  CA,Phoenix  AZ
+Phoenix  AZ,Santa Cruz  CA
+Pompano Beach  FL,Austin  AR
+Austin  AR,Pompano Beach  FL
+Pompano Beach  FL,Northboro  MA
+Northboro  MA,Pompano Beach  FL
+Pompano Beach  FL,Northborough  MA
+Northborough  MA,Pompano Beach  FL
+Pompano Beach  FL,Ashland  OR
+Ashland  OR,Pompano Beach  FL
+Pompano Beach  FL,Fairbanks  AK
+Fairbanks  AK,Pompano Beach  FL
+Pompano Beach  FL,Ludlow  CA
+Ludlow  CA,Pompano Beach  FL
+Pompano Beach  FL,Dublin  VA
+Dublin  VA,Pompano Beach  FL
+Pompano Beach  FL,Island Pond  VT
+Island Pond  VT,Pompano Beach  FL
+Pompano Beach  FL,Tucson  AZ
+Tucson  AZ,Pompano Beach  FL
+Los Angeles  CA,Ricmond  CA
+Ricmond  CA,Los Angeles  CA
+Los Angeles  CA,Lake Forest  CA
+Lake Forest  CA,Los Angeles  CA
+Los Angeles  CA,Hollywood  CA
+Hollywood  CA,Los Angeles  CA
+Lehigh Acres  FL,Redmond  WA
+Redmond  WA,Lehigh Acres  FL
+Lehigh Acres  FL,Morgantown  WV
+Morgantown  WV,Lehigh Acres  FL
+Lehigh Acres  FL,Katy  TX
+Katy  TX,Lehigh Acres  FL
+Lehigh Acres  FL,Bentonville  AR
+Bentonville  AR,Lehigh Acres  FL
+Lehigh Acres  FL,Lomita  CA
+Lomita  CA,Lehigh Acres  FL
+Lehigh Acres  FL,Spokane  WA
+Spokane  WA,Lehigh Acres  FL
+Lehigh Acres  FL,Somerset  NJ
+Somerset  NJ,Lehigh Acres  FL
+Phoenix  AZ,Beaver Dam  WI
+Beaver Dam  WI,Phoenix  AZ
+Phoenix  AZ,Del Rio  TX
+Del Rio  TX,Phoenix  AZ
+Phoenix  AZ,McDonough  GA
+McDonough  GA,Phoenix  AZ
+Phoenix  AZ,Waterford  WI
+Waterford  WI,Phoenix  AZ
+Eagan  MN,Elizabethtown  KY
+Elizabethtown  KY,Eagan  MN
+Eagan  MN,Gulfport  MS
+Gulfport  MS,Eagan  MN
+Eagan  MN,South Point  OH
+South Point  OH,Eagan  MN
+Eagan  MN,Ringe  NH
+Ringe  NH,Eagan  MN
+Raleigh  NC,Kinderhook  NY
+Kinderhook  NY,Raleigh  NC
+Raleigh  NC,Sherwood  AR
+Sherwood  AR,Raleigh  NC
+Raleigh  NC,Kokomo  IN
+Kokomo  IN,Raleigh  NC
+Raleigh  NC,Defiance  OH
+Defiance  OH,Raleigh  NC
+Raleigh  NC,Mendon  MA
+Mendon  MA,Raleigh  NC
+Raleigh  NC,Pelham Manor  NY
+Pelham Manor  NY,Raleigh  NC
+Raleigh  NC,Brookston  IN
+Brookston  IN,Raleigh  NC
+Raleigh  NC,Houston  TX
+Houston  TX,Raleigh  NC
+Raleigh  NC,Van Nuys  CA
+Van Nuys  CA,Raleigh  NC
+Raleigh  NC,Monmouth County  NJ
+Monmouth County  NJ,Raleigh  NC
+Raleigh  NC,Mulberry  IN
+Mulberry  IN,Raleigh  NC
+Raleigh  NC,West Lafayette  IN
+West Lafayette  IN,Raleigh  NC
+Raleigh  NC,Lafayette  IN
+Lafayette  IN,Raleigh  NC
+Raleigh  NC,Lake Placid  FL
+Lake Placid  FL,Raleigh  NC
+Raleigh  NC,Bowling Green  KY
+Bowling Green  KY,Raleigh  NC
+Raleigh  NC,Sharpsville  IN
+Sharpsville  IN,Raleigh  NC
+Rutherford  NJ,Topeka  KS
+Topeka  KS,Rutherford  NJ
+Rutherford  NJ,Athol  MA
+Athol  MA,Rutherford  NJ
+Rutherford  NJ,Goshen  AR
+Goshen  AR,Rutherford  NJ
+Rutherford  NJ,Erie  PA
+Erie  PA,Rutherford  NJ
+Rutherford  NJ,Springfield  IL
+Springfield  IL,Rutherford  NJ
+Rutherford  NJ,Brick  NJ
+Brick  NJ,Rutherford  NJ
+Rutherford  NJ,Grovetown  GA
+Grovetown  GA,Rutherford  NJ
+Rutherford  NJ,Sonora  CA
+Sonora  CA,Rutherford  NJ
+Rutherford  NJ,Wake Forest  NC
+Wake Forest  NC,Rutherford  NJ
+Las Vegas  NV,Shreveport  LA
+Shreveport  LA,Las Vegas  NV
+Las Vegas  NV,Anchorage  AK
+Anchorage  AK,Las Vegas  NV
+Las Vegas  NV,Los Angeles  CA
+Los Angeles  CA,Las Vegas  NV
+Las Vegas  NV,Philadelphia  PA
+Philadelphia  PA,Las Vegas  NV
+Moberly  MO,Glennville  GA
+Glennville  GA,Moberly  MO
+Moberly  MO,San Francisco  CA
+San Francisco  CA,Moberly  MO
+Moberly  MO,Montgomery  AL
+Montgomery  AL,Moberly  MO
+Moberly  MO,North Hills  CA
+North Hills  CA,Moberly  MO
+Moberly  MO,Wilmington  DE
+Wilmington  DE,Moberly  MO
+Los Angeles  CA,Constableville  NY
+Constableville  NY,Los Angeles  CA
+Los Angeles  CA,Rapid City  SD
+Rapid City  SD,Los Angeles  CA
+Austin  TX,Idledale  CO
+Idledale  CO,Austin  TX
+Austin  TX,Flint  MI
+Flint  MI,Austin  TX
+Austin  TX,Sunnyvale  CA
+Sunnyvale  CA,Austin  TX
+Austin  TX,Piscataway  NJ
+Piscataway  NJ,Austin  TX
+New Strawn  KS,Juneau  AK
+Juneau  AK,New Strawn  KS
+New Strawn  KS,Crystal Beach  TX
+Crystal Beach  TX,New Strawn  KS
+New Strawn  KS,Peachtree City  GA
+Peachtree City  GA,New Strawn  KS
+New Strawn  KS,Homosassa  FL
+Homosassa  FL,New Strawn  KS
+Mattituck  NY,Pawtucket  RI
+Pawtucket  RI,Mattituck  NY
+Mattituck  NY,Hyde Park  NY
+Hyde Park  NY,Mattituck  NY
+Mattituck  NY,Boston  MA
+Boston  MA,Mattituck  NY
+Mattituck  NY,Newport  OR
+Newport  OR,Mattituck  NY
+Mattituck  NY,Manteno  IL
+Manteno  IL,Mattituck  NY
+Mattituck  NY,Superior  WI
+Superior  WI,Mattituck  NY
+Mattituck  NY,Willits  CA
+Willits  CA,Mattituck  NY
+Lompoc  CA,Lexington  KY
+Lexington  KY,Lompoc  CA
+Lompoc  CA,Durham  NC
+Durham  NC,Lompoc  CA
+Lompoc  CA,Rose City  MI
+Rose City  MI,Lompoc  CA
+Lompoc  CA,Laconia  NH
+Laconia  NH,Lompoc  CA
+Lompoc  CA,Mecca  CA
+Mecca  CA,Lompoc  CA
+Holualoa  HI,Phoenix  AZ
+Phoenix  AZ,Holualoa  HI
+Holualoa  HI,Orlando  FL
+Orlando  FL,Holualoa  HI
+Holualoa  HI,Blytheville  AR
+Blytheville  AR,Holualoa  HI
+Jupiter  FL,Pomona  CA
+Pomona  CA,Jupiter  FL
+Jupiter  FL,Waycross  GA
+Waycross  GA,Jupiter  FL
+Jupiter  FL,Wilmington  NC
+Wilmington  NC,Jupiter  FL
+Jupiter  FL,Miami  FL
+Miami  FL,Jupiter  FL
+Jupiter  FL,Comfort  TX
+Comfort  TX,Jupiter  FL
+Jupiter  FL,Waterboro  ME
+Waterboro  ME,Jupiter  FL
+Jupiter  FL,Kissimmee  FL
+Kissimmee  FL,Jupiter  FL
+Jupiter  FL,Bradenton  FL
+Bradenton  FL,Jupiter  FL
+Jupiter  FL,Contocook  NH
+Contocook  NH,Jupiter  FL
+Jupiter  FL,West Palm Beach  FL
+West Palm Beach  FL,Jupiter  FL
+Jupiter  FL,Hialeah  FL
+Hialeah  FL,Jupiter  FL
+Jupiter  FL,Tampa  FL
+Tampa  FL,Jupiter  FL
