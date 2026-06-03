@@ -65,46 +65,142 @@
 <button type="button" onclick="setData(this)">Small town low</button>
 </div>
 <script src="https://d3js.org/d3.v3.min.js"></script>
-<script src="http://vizjs.org/viz.v1.0.0.min.js"></script>
-<script type="text/javascript" src="RuralUrban.json"></script>
 <script>
-	arr =[];
-  	var mydata = JSON.parse(RuralUrban);
-  	for(x in mydata){
-  		for (key in mydata[x]){
-  		arr[key] = mydata[x][key];
-  	}
-  	}
-  	// create a gauge object by setting various options.
-  	var gg = viz.gg()
-			.faceColor("#003CEC")
-			.innerFaceColor("#003CEC")
-			.needleColor("#fff")
-			.outerRadius(300)
-			.innerRadius(40)
-			.minorTickStart(0.9)
-			.majorTickStart(0.85)
-			.labelLocation(.78)
-			.ease("linear")			
-			.ease("bounce-in")
-		;
-	
-	// create the gradients and filters in svg.
-	gg.defs(d3.select("svg"),1);
-	
-	// draw the gauge in the svg
-	d3.select("svg")
-		.append("g")
-		.attr("transform","translate(480,300)")
-		.call(gg);
+	// Static data (percentages from the original RuralUrban data for UFO sightings by area category)
+	var arr = {
+		"Rural areas": 7.15,
+		"Metropolitan area high commuting": 11.94,
+		"Small town core": 3.57,
+		"Metropolitan area core": 62.18,
+		"Not coded": 0.73,
+		"Micropolitan area core": 7.76,
+		"Small town high": 1.65,
+		"Micropolitan low commuting": 0.63,
+		"Micropolitan high commuting": 2.91,
+		"Metropolitan area low commuting": 0.99,
+		"Small town low": 0.48
+	};
 
-	function changeEase(v){ gg = gg.ease(v); }
-	function setData(ele, event){
-	// setInterval( function(){ gg.setNeedle(arr[ele.innerText]); },	500);
-	//event.stopPropagation();
-	gg.setNeedle(arr[ele.innerText]);
+	// Simple self-contained D3 v3 gauge (dial with needle + colored arc). No external viz.js dependency.
+	(function() {
+		var svg = d3.select("svg")
+			.attr("width", 960)
+			.attr("height", 600);
+
+		var g = svg.append("g")
+			.attr("transform", "translate(480, 300)");
+
+		var radius = 180;
+		var startAngle = -Math.PI * 0.75;
+		var endAngle = Math.PI * 0.75;
+
+		// Background gauge arc (gray)
+		var bgArc = d3.svg.arc()
+			.innerRadius(radius - 30)
+			.outerRadius(radius)
+			.startAngle(startAngle)
+			.endAngle(endAngle);
+
+		g.append("path")
+			.attr("d", bgArc)
+			.attr("fill", "#e0e0e0")
+			.attr("stroke", "#555")
+			.attr("stroke-width", 4);
+
+		// Dynamic value arc (blue)
+		var valueArc = d3.svg.arc()
+			.innerRadius(radius - 30)
+			.outerRadius(radius)
+			.startAngle(startAngle)
+			.endAngle(startAngle);
+
+		var valuePath = g.append("path")
+			.attr("fill", "#003CEC");
+
+		// Needle (white line with red tip)
+		var needle = g.append("line")
+			.attr("x1", 0)
+			.attr("y1", 0)
+			.attr("x2", 0)
+			.attr("y2", -radius + 40)
+			.attr("stroke", "#fff")
+			.attr("stroke-width", 6)
+			.attr("stroke-linecap", "round");
+
+		g.append("circle")
+			.attr("r", 10)
+			.attr("fill", "#003CEC")
+			.attr("stroke", "#fff")
+			.attr("stroke-width", 3);
+
+		// Percentage label
+		var label = g.append("text")
+			.attr("text-anchor", "middle")
+			.attr("y", 60)
+			.attr("font-size", "32px")
+			.attr("fill", "#003CEC")
+			.text("0%");
+
+		// Tick labels
+		[0, 25, 50, 75, 100].forEach(function(t) {
+			var a = startAngle + (t / 100) * (endAngle - startAngle);
+			var tx = Math.sin(a) * (radius + 15);
+			var ty = -Math.cos(a) * (radius + 15);
+			g.append("text")
+				.attr("x", tx)
+				.attr("y", ty)
+				.attr("text-anchor", "middle")
+				.attr("font-size", "12px")
+				.attr("fill", "#333")
+				.text(t);
+		});
+
+		function setNeedle(perc) {
+			perc = Math.max(0, Math.min(100, +perc || 0));
+			var angle = startAngle + (perc / 100) * (endAngle - startAngle);
+			var nx = Math.sin(angle) * (radius - 30);
+			var ny = -Math.cos(angle) * (radius - 30);
+
+			needle.transition()
+				.duration(800)
+				.ease("bounce-in")
+				.attr("x2", nx)
+				.attr("y2", ny);
+
+			label.text(perc.toFixed(1) + "%");
+
+			// update filled portion
+			var fillArc = d3.svg.arc()
+				.innerRadius(radius - 30)
+				.outerRadius(radius)
+				.startAngle(startAngle)
+				.endAngle(angle);
+			valuePath.attr("d", fillArc);
+		}
+
+		// initial position
+		setNeedle(0);
+
+		// expose for buttons
+		window.setNeedle = setNeedle;
+	})();
+
+	function changeEase(v) {
+		// simplified gauge uses fixed transition; mode logged for demo
+		console.log("Ease changed to " + v + " (using bounce-in transition)");
 	}
-	 d3.select(self.frameElement).style("height", "620px");
+
+	function setData(ele) {
+		var key = ele.innerText;
+		var val = arr[key];
+		if (val != null) {
+			window.setNeedle(val);
+		} else {
+			console.warn("No value for", key);
+		}
+	}
+
+	d3.select(self.frameElement).style("height", "620px");
 </script>
 
 
