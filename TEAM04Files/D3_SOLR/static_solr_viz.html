@@ -59,7 +59,7 @@
                 currentResults = allData.slice(0, 10);
                 renderResults(currentResults);
                 renderShapeChart(currentResults);
-                document.getElementById("results-header").innerHTML = "Loaded " + allData.length + " sample records. Enter a search term (e.g. CA, 2000, disk) and click Search. Showing initial 10.";
+                document.getElementById("results-header").innerHTML = "Loaded " + allData.length + " sample records. Enter a search term (e.g. CA, 00, disk, Lodi) and click Search. Showing initial 10.";
             })
             .catch(function(err) {
                 console.error("Failed to load data", err);
