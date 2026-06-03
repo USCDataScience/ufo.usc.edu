@@ -1,5 +1,5 @@
 // Static version - no Solr. Load CSV and aggregate counts per state per shape.
-var csvPath = "../../data/team6/bullet_chart_state_shape_sightings.csv";
+var csvPath = "/data/team6/bullet_chart_state_shape_sightings.csv";
 
 d3.csv(csvPath, function(error, rows) {
   if (error) {
