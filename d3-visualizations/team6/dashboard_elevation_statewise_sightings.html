@@ -2,8 +2,9 @@
 <meta charset="utf-8">
 <style>
 body{
-    width:1060px;
-    margin:50px auto;
+    width: 940px;
+    margin: 5px 10px;
+    font-family: sans-serif;
 }
 path {  stroke: #fff; }
 path:hover {  opacity:0.9; }
@@ -21,18 +22,18 @@ rect:hover {  fill:blue; }
 
 .x.axis path {  display: none; }
 .legend{
-    margin-bottom:76px;
-    display:inline-block;
+    margin-bottom: 10px;
+    display: inline-block;
     border-collapse: collapse;
     border-spacing: 0px;
 }
 .legend td{
-    padding:4px 5px;
-    vertical-align:bottom;
+    padding: 2px 4px;
+    vertical-align: bottom;
 }
 .legendFreq, .legendPerc{
-    align:right;
-    width:50px;
+    text-align: right;
+    width: 50px;
 }
 
 </style>
@@ -50,9 +51,9 @@ function dashboard(id, fData){
     
     // function to handle histogram.
     function histoGram(fD){
-        var hG={},    hGDim = {t: 60, r: 0, b: 30, l: 0};
-        hGDim.w = 500 - hGDim.l - hGDim.r, 
-        hGDim.h = 300 - hGDim.t - hGDim.b;
+        var hG={},    hGDim = {t: 20, r: 0, b: 20, l: 0};
+        hGDim.w = 520 - hGDim.l - hGDim.r, 
+        hGDim.h = 180 - hGDim.t - hGDim.b;
             
         //create svg for histogram.
         var hGsvg = d3.select(id).append("svg")
@@ -133,7 +134,7 @@ function dashboard(id, fData){
     
     // function to handle pieChart.
     function pieChart(pD){
-        var pC ={},    pieDim ={w:250, h: 250};
+        var pC ={},    pieDim ={w:180, h: 180};
         pieDim.r = Math.min(pieDim.w, pieDim.h) / 2;
                 
         // create svg for pie chart.
