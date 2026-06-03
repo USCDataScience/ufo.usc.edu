@@ -1,6 +1,5 @@
 # UFO Data Insights
 
-[![Live Site](https://img.shields.io/badge/Live-ufo.usc.edu-blue)](http://ufo.usc.edu)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-gh--pages-green)](https://github.com/USCDataScience/ufo.usc.edu)
 
 A static demo site hosting dozens of interactive **D3.js** visualizations of UFO sighting data. Originally developed by students in USC Data Science courses (primarily **DSCI 550 / CSCI 599 Spring 2018**) under the direction of Dr. Chris Mattmann as part of the [USC Information Retrieval and Data Science (IRDS) Group](http://irds.usc.edu/).
@@ -8,8 +7,8 @@ A static demo site hosting dozens of interactive **D3.js** visualizations of UFO
 The site demonstrates data collection, enrichment (joining public datasets, OCR on British MoD files, deep learning for image captioning/object recognition via Apache Tika + TensorFlow), similarity analysis (Tika-Similarity), and rich client-side visualization — all made fully self-contained for easy deployment and local viewing.
 
 ## Live Sites
-- http://ufo.usc.edu
 - http://www.usc.edu/ufodata
+- http://irds.usc.edu/ufo.usc.edu/
 - GitHub Pages mirror (this repo)
 
 ## Quick Start (Local)
