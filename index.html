@@ -32,16 +32,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                
+                <a class="navbar-brand page-scroll" href="#page-top" style="color:white">Home</a>
             </div>
 
             <div class="collapse navbar-collapse navbar-ex1-collapse">  
               <nav id="nav-wrap">
                 <ul class="nav navbar-nav navbar-custom">
-                    <li class="current"><a class="page-scroll" href="#page-top" style="color:white">Home</a></li>
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden"><a class="page-scroll" href="#page-top" style="color:white"></a></li>
                     <li><a class="page-scroll" href="#about" style="color:#ffffff">About</a></li>
                     <li><a class="page-scroll" href="#features" style="color:#ffffff">Insights</a></li>
+                    <li><a class="page-scroll" href="#search" style="color:#ffffff">Search</a></li>
                     <li><a class="page-scroll" style="color:#ffffff" href="#learn-more">Partners</a></li>
                 </ul>
               </nav>
@@ -70,17 +71,10 @@
                     <a class="btn btn-default btn-lg page-scroll" href="#about" style="margin-top:5%">Learn More</a>
                   </div>
                 </div>
-                <div class="row" style="padding-top:180px">
-                    <div class="col-md-3 col-md-offset-1">
-                      <a class="btn btn-default btn-lg page-scroll"
-                      href="html/d3-examples.html">Explore Visualizations</a>
-                    </div>
-
-                    <div class="col-sm-4"></div>
-                    <div class="col-md-3">
-                      <a class="btn btn-default btn-lg page-scroll pull-left"
-                      href="#" style="width:200px;">Deep Insights</a>
-                    </div>
+                <div class="row" style="padding-top:30px">
+                  <div class="col-md-12">
+                    <a class="btn btn-default btn-lg page-scroll" href="html/d3-examples.html">Explore Visualizations</a>
+                  </div>
                 </div>
 
             </div>
@@ -100,8 +94,8 @@
 
                     <div class="jumbotron" style="margin-bottom:5%; margin-top:3%">
                         <h2>What is UFO Data Insights?</h2>
-                        <p class="lead text-left" style="margin-top:2%">JPL and USC, under the direction of Dr. Chris Mattmann, have worked to collect a corpus of “deep web” UFO datasets spanning many file types containing scientific data such as images, videos, and other information on the Web. These pieces of data were collected using Apache Nutch, Apache Tika, and Apache Solr.</p>
-                        <p class="lead text-left">Our goal is to aggregate this data into an intuitive search engine that scientists can utilize for UFO research. Additionally, the data is analyzed and illustrated using D3.js, providing researchers a better understanding of the data's relationship of UFO sightings.</p>
+                        <p class="lead text-left" style="margin-top:2%">This site presents the results of three data science assignments (CS 599 / DSCI 550, Spring 2018) in which students took a core dataset of 60,000+ UFO sightings (1906–2007; example source data on <a href="https://www.kaggle.com/datasets/camnugent/ufo-sightings-around-the-world" target="_blank">Kaggle</a>) and enriched it using Apache Tika for parsing, Tesseract OCR on the British Ministry of Defence UFO files, and deep learning (TensorFlow/Inception models) for automatic object recognition and neural image captioning on photos from the <a href="https://ufostalker.com/" target="_blank">UFO Stalker</a> collection.</p>
+                        <p class="lead text-left">Students joined the sightings with airports, population, and other public datasets (different MIME types), computed features such as distance-to-airport, performed similarity/clustering analysis with Tika-Similarity (Jaccard, cosine, edit distance), built 10+ interactive D3.js visualizations per team, and deployed MEMEX ImageCat + ImageSpace for content-based image search and forensics. The visualizations and tools you see here are the student-built “mini sites” and gallery that resulted.</p>
                     </div>
 
                     <div class="col-md-4">
@@ -110,8 +104,8 @@
                               <img class="media-object" src="images/searchimg.jpg" alt="...">
                           </div>
                           <div class="media-body">
-                              <h4 class="media-heading">Search Engine</h4>
-                              Providing researchers with a powerful tool to find relevant data sets and websites.
+                              <h4 class="media-heading">Data Integration &amp; Search</h4>
+                              Joining UFO sightings with airports, census, and other sources; queryable via Solr/Elasticsearch and image-similarity search (ImageSpace).
                           </div>
                         </div>
                     </div>
@@ -122,8 +116,8 @@
                               <img class="media-object" src="images/visualimg.jpg" alt="...">
                           </div>
                           <div class="media-body">
-                              <h4 class="media-heading">Visualizer</h4>
-                              Illustrating data set connections and related terms to narrow searches.
+                              <h4 class="media-heading">Interactive Visualizer</h4>
+                              D3.js charts, maps, timelines, word clouds, dendrograms and cluster views created by student teams on the enriched, multi-modal dataset.
                           </div>
                         </div>
                     </div>
@@ -135,7 +129,7 @@
                           </div>
                           <div class="media-body">
                               <h4 class="media-heading">Publicizer</h4>
-                              Demonstrate the value of these UFO data sets to the NSF, USC, and NASA.
+                              Student UFO Data Insights mini-sites and image-forensics tools that demonstrate the educational and research value of open UFO data + modern data science tooling.
                           </div>
                         </div>
                     </div>
@@ -160,9 +154,9 @@
                     <hr class="featurette-divider">
                     <div class="row featurette" style="margin-top:3%; margin-bottom:3%">
                         <div class="col-md-7 col-md-push-5">
-                          <h2 align=left class="featurette-heading"><a href="https://d3js.org/">D3.js</a>. <span class="text-muted">See for yourself.</span></h2>
-                          <p align=left class="lead">View data sets from a variety of sources to better understand UFO relationships. </p>
-                          <p align=left class="lead"> <a href="html/d3-examples.html"> View some of our visualizations. </a> </p>
+                          <h2 align=left class="featurette-heading"><a href="https://d3js.org/">D3.js</a> Visualizations from the UFO Assignments. <span class="text-muted">See for yourself.</span></h2>
+                          <p align=left class="lead">Students built 10+ interactive visualizations per team (maps vs. airports, timelines, similarity dendrograms, image-object galleries, etc.) on the enriched sightings data produced by joining, OCR, and deep-learning captioning/object recognition steps.</p>
+                          <p align=left class="lead"> <a href="html/d3-examples.html"> Explore the full gallery of student visualizations. </a> </p>
                         </div>
                         <div class="col-md-5 col-md-pull-7">
                           <img class="featurette-image img-responsive center-block" src="images/d3_feature.png" alt="Generic placeholder image">
@@ -173,6 +167,30 @@
         </section>
     </div>
 
+    <!-- Search Section (for sub-page navbar consistency and to highlight exploration tools) -->
+    <div>
+        <section id="search" class="search-section" style="margin-top:-1%; margin-bottom:5%">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <hr class="featurette-divider">
+                        <h1>Search &amp; Explore</h1>
+                        <hr class="featurette-divider">
+                    </div>
+                    <div class="col-lg-12">
+                        <p class="lead">The visualizations in this gallery are the result of three hands-on data science assignments where students enriched a core set of 60,000+ UFO sightings (example source data on <a href="https://www.kaggle.com/datasets/camnugent/ufo-sightings-around-the-world" target="_blank">Kaggle</a>) using Apache Tika, OCR, and deep learning, then built interactive D3.js experiences and image-similarity search tools on top of the data.</p>
+                        <p><a class="btn btn-primary btn-lg" href="html/d3-examples.html">Browse the Student Visualizations</a></p>
+                        <p class="text-muted small">Originally many of the dynamic views queried Apache Solr and Elasticsearch. Image similarity and forensics are powered by MEMEX <strong>ImageCat</strong> + <strong>ImageSpace</strong>.</p>
+                        <p style="margin-top:10px; font-size: 0.95em;">
+                          <strong>ImageCat</strong> (from the <a href="http://github.com/chrismattmann/imagecat" target="_blank">chrismattmann/imagecat</a> repo) is an OODT/RADIX app that ingests tens of millions of images, extracts EXIF metadata and OCR text via Tika + Tesseract (see <a href="https://cwiki.apache.org/confluence/display/TIKA/TikaOCR" target="_blank">Tika's Tesseract integration</a>), and loads everything into Solr for search.
+                          <br>
+                          <strong>ImageSpace</strong> (from the <a href="http://github.com/nasa-jpl-memex/image_space" target="_blank">nasa-jpl-memex/image_space</a> repo, part of the DARPA MEMEX program) builds on ImageCat to let you browse, search, and find similar images (sourced from the <a href="https://ufostalker.com/" target="_blank">UFO Stalker</a> collection) using computer vision, metadata, OCR, and plugins like <a href="https://github.com/flann-lib/flann" target="_blank">FLANN</a> and <a href="http://github.com/kitware/SMQTK" target="_blank">SMQTK</a>. See <a href="http://nasa-jpl-memex.github.io" target="_blank">nasa-jpl-memex.github.io</a> for more.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <!-- Learn More Section -->
 	<div>
@@ -212,10 +230,8 @@
                   <h3 align=center>Credits</h3>
                   <hr class="featurette-divider">
                   <div class="row">
-                  <p>Dr. Chris Mattmann - <a href="http://sunset.usc.edu/~mattmann/">Visit his website</a></p>
-                  <p>CS401 Group (Lorraine Sposto, Jonathan Luu, Ruthvik Peddawandla, Titus Jung, Janet Kim)</p>
+                  <p>Dr. Chris Mattmann - <a href="http://mattmann.ai">Visit his website</a></p>
                   <p>CS599 Spring 2018 Class - <a href="http://irds.usc.edu/classes/cs599_2018a/">Visit the class website</a></p>
-                  <p>CS572 Spring 2015 Class - <a href="http://sunset.usc.edu/classes/cs572_2015/">Visit the class website</a></p>
 				</div>
             </div>
 			</div>
@@ -226,7 +242,7 @@
     <div>
         <div class="container">
             <footer>
-                <p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
+                <p align=center>© USC Data Science Group. All Rights Reserved</p>
             </footer>
         </div>
     </div>

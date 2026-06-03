@@ -71,7 +71,8 @@ footer.page-footer {
 #site_logo_img{
     height: 50px;
     width: auto;
-    margin-top: -20px;
+    margin-top: 5px;
+    margin-right: 10px;
 }
 
 .student_card{
