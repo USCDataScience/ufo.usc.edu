@@ -32,7 +32,7 @@
         </form>
     </center>
     
-    <div id="results-header" class="result-count"></div>
+    <div id="results-header" class="result-count">Loading sample data...</div>
     <div id="results-table"></div>
     
     <hr>
@@ -42,22 +42,38 @@
     <script>
         var allData = [];
         var currentResults = [];
+        var dataLoaded = false;
         
         // Load the static sample data (JSON of {sight_time, location, shape})
-        d3.json("team4_solr_sightings.json").then(function(data) {
-            allData = data;
-            // initial show some results
-            currentResults = allData.slice(0, 10);
-            renderResults(currentResults);
-            renderShapeChart(currentResults);
-            document.getElementById("results-header").innerHTML = "Showing first 10 of " + allData.length + " sample records (enter query above to filter)";
-        }).catch(function(err) {
-            console.error("Failed to load data", err);
-            document.getElementById("results-header").innerHTML = "Error loading data. (Check that data_files/team4_solr_sightings.json exists)";
-        });
+        // Use native fetch for reliability (independent of d3 load timing in <object> embed)
+        // Use absolute path for robustness when this page is loaded via <object> embed from html/team_04.html
+        fetch("/TEAM04Files/D3_SOLR/team4_solr_sightings.json")
+            .then(function(response) {
+                if (!response.ok) throw new Error("HTTP " + response.status);
+                return response.json();
+            })
+            .then(function(data) {
+                allData = data || [];
+                dataLoaded = true;
+                // initial show some results
+                currentResults = allData.slice(0, 10);
+                renderResults(currentResults);
+                renderShapeChart(currentResults);
+                document.getElementById("results-header").innerHTML = "Loaded " + allData.length + " sample records. Enter a search term (e.g. CA, 2000, disk) and click Search. Showing initial 10.";
+            })
+            .catch(function(err) {
+                console.error("Failed to load data", err);
+                dataLoaded = true;
+                allData = [];
+                document.getElementById("results-header").innerHTML = "Error loading data. (Check that /TEAM04Files/D3_SOLR/team4_solr_sightings.json is served correctly as JSON. See browser console for details.)";
+            });
         
         function doSearch(e) {
             e.preventDefault();
+            if (!dataLoaded || allData.length === 0) {
+                document.getElementById("results-header").innerHTML = "Data is still loading (or failed). Please wait a moment and try your search again.";
+                return;
+            }
             var q = document.getElementById("q").value.trim().toLowerCase();
             if (!q) {
                 currentResults = allData.slice(0, 10);
