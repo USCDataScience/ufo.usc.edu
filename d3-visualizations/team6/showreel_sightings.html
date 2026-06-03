@@ -55,7 +55,7 @@ var area = d3.svg.area()
     .x(function(d) { return x(d.date); })
     .y1(function(d) { return y(d.sightings); });
 
-d3.csv("../../Data/team6/showreel_sightings.csv", function(data) {
+d3.csv("../../data/team6/showreel_sightings.csv", function(data) {
   var parse = d3.time.format("%b %Y").parse;
 
   // Nest stock values by symbol.
