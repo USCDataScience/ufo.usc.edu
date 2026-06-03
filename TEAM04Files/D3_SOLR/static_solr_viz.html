@@ -86,7 +86,11 @@
                 }).slice(0, 10);
             }
             renderResults(currentResults);
-            renderShapeChart(currentResults);
+            if (typeof d3 !== "undefined") {
+                renderShapeChart(currentResults);
+            } else {
+                document.getElementById("shape-chart").innerHTML = "<i>(D3 chart will appear once library loads)</i>";
+            }
             document.getElementById("results-header").innerHTML = "Showing " + currentResults.length + " matching results (of " + allData.length + " total samples)";
         }
         
@@ -94,7 +98,11 @@
             document.getElementById("q").value = "";
             currentResults = allData.slice(0, 10);
             renderResults(currentResults);
-            renderShapeChart(currentResults);
+            if (typeof d3 !== "undefined") {
+                renderShapeChart(currentResults);
+            } else {
+                document.getElementById("shape-chart").innerHTML = "<i>(D3 chart will appear once library loads)</i>";
+            }
             document.getElementById("results-header").innerHTML = "Showing first 10 of " + allData.length + " sample records";
         }
         
