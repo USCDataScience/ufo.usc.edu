@@ -27,16 +27,17 @@ h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 20px; fo
 <body>
    
 	<div id="chart"></div>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+	<script src="/js/team6/d3.v4.min.js"></script>
     <script>
 	(function(){
-    var width = window.innerWidth,
-    height = window.innerHeight;
+    // Fixed size to fit the 960x500 modal iframe; append svg into #chart (instead of body) for containment
+    var width = 960,
+        height = 480;
     var tooltip = d3.select("body")
      .append("div")
     .attr('class', 'tooltip');
 
-    var svg = d3.select("body")
+    var svg = d3.select("#chart")
     .append("svg")
     .attr("width", width)
     .attr("height", height);
@@ -44,7 +45,7 @@ h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 20px; fo
     
 
 
-    var radiusScale = d3.scaleSqrt().domain([2,7562]).range([15,85])
+    var radiusScale = d3.scaleSqrt().domain([2,7562]).range([15,85]);
     var color = d3.scaleOrdinal(d3.schemeCategory20);
     //the simulation is a collection of forces 
     //about where we want our circles to go
@@ -55,31 +56,40 @@ h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 20px; fo
     .force("x",d3.forceX(width/2).strength(0.05))
     .force("y",d3.forceY(height/2).strength(0.05))
     .force("collide",d3.forceCollide(function(d){
-        return radiusScale(d.count) + 1;
-    }))
-    data  =d3.queue()
-    .defer(d3.csv,"../../Data/team6/bubble_chart_sightings.csv")
-    .await(ready)
+        return radiusScale(+d.count) + 1;
+    }));
 
-    function ready(error,datapoints){
+    d3.queue()
+    .defer(d3.csv, "/data/team6/bubble_chart_sightings.csv")
+    .await(ready);
+
+    function ready(error, datapoints){
+        if (error) {
+            console.error("Bubble data load failed:", error);
+            svg.append("text").attr("x", 20).attr("y", 20).text("Error loading bubble data");
+            return;
+        }
+        // d3.csv v4 leaves numbers as strings; coerce for scales/forces
+        datapoints.forEach(function(d) { d.count = +d.count; });
 
         var circles = svg.selectAll("circle")
         .data(datapoints)
         .enter().append("circle")
         .attr("class","artist")
-        .attr("r",function(d){
-            return radiusScale(d.count)
+        .attr("r", function(d){
+            return radiusScale(d.count);
         })
-        .attr("fill",function(d,i){return color(i);})
-        .on('click',function(d){
-            console.log(d)
+        .attr("fill", function(d,i){ return color(i); })
+        .on('click', function(d){
+            console.log(d);
         })
         .on("mouseover", function(d) {
-         return tooltip.style("visibility", "visible").text('sighted at = ' + d.state);
+         return tooltip.style("visibility", "visible").text(d.state + " (" + d.count + ")");
         })
-         .on("mousemove", function() {
-        return tooltip.style("top", (event.pageY - 30) + "px")
-        .style("left", event.pageX + "px");
+        .on("mousemove", function() {
+            var e = d3.event;
+            return tooltip.style("top", (e.pageY - 30) + "px")
+            .style("left", e.pageX + "px");
         })
   
         // we hide our tooltip on "mouseout"
@@ -88,29 +98,24 @@ h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 20px; fo
             return tooltip.style("visibility", "hidden");
         });
 
-        var texts= svg.selectAll("text").data(datapoints).enter().append("text");
+        var texts = svg.selectAll("text").data(datapoints).enter().append("text")
+            .attr("text-anchor", "middle")
+            .attr("font-family", "Arial")
+            .attr("font-size", "9px")
+            .attr("fill", "#fff");
 
         simulation.nodes(datapoints)
-        .on('tick',ticked)
+            .on('tick', ticked);
 
         function ticked(){
             circles
-            .attr("cx", function(d){
-                return d.x
-            })
-            .attr("cy",function(d){
-                return d.y
-            })
-            texts.attr('dy',function(d){
-                return d.y
-            })
-            texts.text(function(d){
-                return d.abbr
-            })
-            texts.attr('dx',function(d){
-                return d.x
-            })
-            texts.attr('font-family','Arial')
+            .attr("cx", function(d){ return d.x; })
+            .attr("cy", function(d){ return d.y; });
+
+            texts
+            .attr("x", function(d){ return d.x; })
+            .attr("y", function(d){ return d.y; })
+            .text(function(d){ return d.abbr; });
         }
 
     }

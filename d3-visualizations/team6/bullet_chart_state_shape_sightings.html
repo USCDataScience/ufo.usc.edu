@@ -33,18 +33,13 @@ button {
 <script src="/js/team6/d3.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/team6/bullet.js"></script>
-<body style="margin-top:10px;">
-	<div class="container">
-	  <div class="row">
-		<form class="form-inline" style="width: 920px;text-align: right;">
-			<label for="sel1">States:</label>
-				<select class="form-control" id="sel1">
-			</select>
-		</form>
+<body style="margin-top:5px; font-family: sans-serif;">
+	<div style="margin-left:10px;">
+	  <div style="margin-bottom:8px;">
+		<label for="sel1" style="font-size:13px; font-weight:600; margin-right:6px;">State:</label>
+		<select class="form-control" id="sel1" style="display:inline-block; width:auto; min-width:160px; vertical-align:middle; font-size:13px;"></select>
 	  </div>
-	  <div class="row">
-		<div id="bullet-chart" style="margin-top:10px;"></div>
-	  </div>
+	  <div id="bullet-chart"></div>
 	</div>
-</body>
 <script src="/js/team6/solr_bullet_chart_integration.js"></script>
+</body>
