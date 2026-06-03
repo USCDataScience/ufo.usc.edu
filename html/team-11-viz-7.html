@@ -10,9 +10,8 @@
 <span style="font-family: 'Comic Sans MS', cursive, sans-serif; padding-left:21%; font-size:larger">Sparsely populated (< 5 million population)</span>
 <span style="float: right; font-family: 'Comic Sans MS', cursive, sans-serif; font-size: larger; padding-right: 24%;">Densely populated (>= 5 million population)</span>
 </div>
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="https://d3js.org/queue.v1.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="/js/d3.v4.min.js"></script>
+<script src="/js/jquery.js"></script>
 <script>
 
 
@@ -23,7 +22,7 @@ Replace "./data.json" below with the solr url
 
 ***/
 
-d3.json("../data/team11iso.json", function(error, respJSON) {
+d3.json("/Data/team11iso.json", function(error, respJSON) {
     if (error) throw error;
 
 var data = respJSON["response"]["docs"];

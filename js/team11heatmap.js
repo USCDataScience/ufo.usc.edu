@@ -30,14 +30,37 @@ function mout(d) {
 };
 
 function constructTooltip(d) {
-
-var html  = d[0][2]+" movies"+"<ul>";
-for(var i = 0; i < d[0][3].length; i++){
-    html += "<li>"+d[0][3][i]+"</li>";
+  // support both pre-binned (old d[0][..]) and direct point [x,y,count,movies]
+  var count, movies;
+  if (Array.isArray(d) && d.length > 2) {
+    count = d[2];
+    movies = d[3];
+  } else if (d && d[0] && d[0].length > 2) {
+    count = d[0][2];
+    movies = d[0][3];
+  } else {
+    count = 0;
+    movies = [];
+  }
+  var html  = count + " movies" + "<ul>";
+  for(var i = 0; i < (movies ? movies.length : 0); i++){
+      html += "<li>"+movies[i]+"</li>";
+  }
+  html += "</ul>";
+  return html;
 }
-html += "</ul>";
-return html;
 
+// Manual hexagon path generator (replaces d3.hexbin dependency).
+// Produces pointy-top hex path string centered at (cx, cy) with radius r.
+function getHexagonPath(cx, cy, r) {
+  var path = [];
+  for (var i = 0; i < 6; i++) {
+    var angle = (Math.PI / 3) * i - (Math.PI / 2);
+    var x = cx + r * Math.cos(angle);
+    var y = cy + r * Math.sin(angle);
+    path.push((i === 0 ? "M" : "L") + x.toFixed(2) + "," + y.toFixed(2));
+  }
+  return path.join("") + "Z";
 }
 
 //svg sizes and margins
@@ -49,7 +72,6 @@ var margin = {
 };
 
 function shuffle(array) {
-    console.log(array);
   var currentIndex = array.length, temporaryValue, randomIndex;
 
   // While there remain elements to shuffle...
@@ -69,7 +91,8 @@ function shuffle(array) {
 }
 
 
-var data = d3.json("../data/team11heatmapdata.json", function(error, root){
+function startHeatmapViz() {
+  var data = d3.json("/Data/team11heatmapdata.json", function(error, root){
  // var arr = []
  // var max = 0
  var tooltip = d3.select("body").append("div").attr("class", "toolTip");
@@ -80,7 +103,7 @@ jsonList = shuffle(jsonList)
     console.log(jsonList.length);
 
     var width = 1062;
-var height = 437;
+var height = 280;  // reduced to fit better when embedded in iframe (was 437)
 
 //The number of columns and rows of the heatmap
 var MapColumns = 40,
@@ -92,11 +115,9 @@ var hexRadius = d3.min([width/((MapColumns + 0.5) * Math.sqrt(3)),
 
 //Set the new height and width of the SVG based on the max possible
 width = MapColumns*hexRadius*Math.sqrt(3);
-heigth = MapRows*1.5*hexRadius+0.5*hexRadius;
+// (heigth var was misspelled and unused; keep original height for svg)
 
-//Set the hexagon radius
-var hexbin = d3.hexbin()
-               .radius(hexRadius);
+// No hexbin plugin: we precompute centers and draw hexes directly below.
 
 //Calculate the center positions of each hexagon    
 var points = [];
@@ -136,20 +157,18 @@ var svg2 = d3.select("#chart2").append("svg")
 //Start drawing the hexagons
 svg.append("g")
     .selectAll(".hexagon")
-    .data(hexbin(points))
+    .data(points)
     .enter().append("path")
     .attr("class", "hexagon")
     .attr("d", function (d) {
-        console.log(d.x + "," + d.y)
-        return "M" + d.x + "," + d.y + hexbin.hexagon();
+        return getHexagonPath(d[0], d[1], hexRadius);
     })
     .attr("stroke", function (d,i) {
         return "#fff";
     })
     .attr("stroke-width", "1px")
     .style("fill", function (d,i) {
-        //console.log(color[d[0][2]]);
-        return color[d[0][2]];
+        return color[d[2]];
     })
     .on("mouseover", function (d) {
         tooltip
@@ -167,20 +186,18 @@ svg.append("g")
 
     svg2.append("g")
     .selectAll(".hexagon")
-    .data(hexbin(points2))
+    .data(points2)
     .enter().append("path")
     .attr("class", "hexagon")
     .attr("d", function (d) {
-        console.log(d.x + "," + d.y)
-        return "M" + d.x + "," + d.y + hexbin.hexagon();
+        return getHexagonPath(d[0], d[1], hexRadius);
     })
     .attr("stroke", function (d,i) {
         return "#fff";
     })
     .attr("stroke-width", "1px")
     .style("fill", function (d,i) {
-        //console.log(color[d[0][2]]);
-        return color[d[0][2]];
+        return color[d[2]];
     })
     .on("mouseover", function (d) {
         tooltip
@@ -193,5 +210,12 @@ svg.append("g")
         tooltip.style("display", "none");
     })
     ;
-})
+  });
+}
+
+if (document.readyState !== "loading") {
+  startHeatmapViz();
+} else {
+  document.addEventListener("DOMContentLoaded", startHeatmapViz);
+}
 

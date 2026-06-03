@@ -3,9 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Word Frequency in Image Captions</title>
-	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script> 
-    <link rel="stylesheet" href="normalize.css">
     <style>
+body {
+  margin: 0;
+  padding: 20px;
+  background: #fff;
+  font-family: sans-serif;
+  text-align: center;
+}
 	  .tooltip{
   position: absolute;	
   text-align: center;	
@@ -19,13 +24,17 @@
   box-shadow: -3px 3px 15px #888888;
   opacity:0;	
 }
+#svgContent {
+  text-align: center;
+  margin: 20px auto;
+}
 </style>
-      
+</head>
 <body>
-<script src="http://d3js.org/d3.v3.min.js"></script>
-    <div><p>We are trying to depict that more words </br>
-    related to background and scenery appearing  </br>
-      than to UFOs in the image itself</p></p1></div>
+<script src="/js/d3.v3.min.js"></script>
+    <div><p>We are trying to depict that more words <br>
+    related to background and scenery appearing <br>
+      than to UFOs in the image itself</p></div>
 <div id = "svgContent"></div>
 <script>
 var data = [{"caption":"Sunset","frequency":28},
@@ -37,55 +46,54 @@ var data = [{"caption":"Sunset","frequency":28},
 			{"caption":"Flying","frequency":2745},
             {"caption":"Mountains","frequency":49},
             {"caption":"Trees","frequency":71}];
-var margin = {top:40,left:40,right:40,bottom:40};
-width = 300;
-height = 300;
-radius = Math.min(width-100,height-100)/2;
+
+var width = 400;
+var height = 400;
+var radius = Math.min(width, height) / 2;
+
 var color = d3.scale.category10();
-var arc = d3.svg.arc()  
-         .outerRadius(radius -230)
-         .innerRadius(radius - 50)
-		 .cornerRadius(20);
-var arcOver = d3.svg.arc()  
-.outerRadius(radius +50)
-.innerRadius(0);
 
-var a=width/2 - 20;
-var b=height/2 - 90;
+var arc = d3.svg.arc()
+    .outerRadius(radius - 10)
+    .innerRadius(radius / 2);  // donut
+
 var svg = d3.select("#svgContent").append("svg")
-          .attr("viewBox", "0 0 " + width + " " + height/2)
-    .attr("preserveAspectRatio", "xMidYMid meet")
-          .append("g")
-          .attr("transform","translate("+a+","+b+")");
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-		  div = d3.select("body")
-.append("div") 
-.attr("class", "tooltip");
+var div = d3.select("body").append("div")
+    .attr("class", "tooltip");
+
 var pie = d3.layout.pie()
-          .sort(null)
-          .value(function(d){return d.frequency;})
-		  .padAngle(.02);
+    .sort(null)
+    .value(function(d) { return d.frequency; });
+
 var g = svg.selectAll(".arc")
-        .data(pie(data))
-        .enter()
-        .append("g")
-        .attr("class","arc")
-         .on("mousemove",function(d){
-        	var mouseVal = d3.mouse(this);
-        	div.style("display","none");
-        	div
-        	.html("Words in Captions:"+d.data.caption+"</br>"+"Frequency:"+d.data.frequency)
-            .style("left", (d3.event.pageX+12) + "px")
-            .style("top", (d3.event.pageY-10) + "px")
-            .style("opacity", 1)
-            .style("display","block");
-        })
-        .on("mouseout",function(){div.html(" ").style("display","none");});
-        
-		g.append("path")
-		.attr("d",arc)
-		.style("fill",function(d){return color(d.data.caption);})
-		 .attr("d", arc);;
+    .data(pie(data))
+  .enter().append("g")
+    .attr("class", "arc")
+    .on("mouseover", function(d) {
+      div.html("Words in Captions: " + d.data.caption + "<br/>Frequency: " + d.data.frequency)
+        .style("left", (d3.event.pageX + 10) + "px")
+        .style("top", (d3.event.pageY - 10) + "px")
+        .style("opacity", 1)
+        .style("display", "block");
+    })
+    .on("mouseout", function() {
+      div.style("opacity", 0).style("display", "none");
+    });
+
+g.append("path")
+    .attr("d", arc)
+    .style("fill", function(d) { return color(d.data.caption); });
+
+g.append("text")
+    .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+    .attr("dy", ".35em")
+    .style("text-anchor", "middle")
+    .text(function(d) { return d.data.caption; });
 </script>
 </body>
 </html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <title>D3 Dynamic Visualization via Static Data (from Solr sample)</title>
+ <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+ <style>
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  width: 960px;
+}
+.axis text {
+  font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.bar {
+  fill: steelblue;
+  fill-opacity: .9;
+}
+.x.axis path {
+  display: none;
+}
+label {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+ </style>
+</head>
+<body>
+<div style="width: auto; background-color: #f2f2f2;">
+ <table style="text-align: left;">
+ <form onsubmit="return doSearch();">
+<tr>
+ <th><img src="/html/Team_10_UFO/images/logo.png" alt="logo" height="80" width="250"></th>
+ <td><input id="q" name="q" type="text" size="50" value="" oninput="doSearch();"/></td>
+ <td><input type="submit" value="Search"/></td>
+ <td><label><input type="checkbox" id="sortcb" onchange="doSearch();"> Sort by jaccard!</label></td>
+</tr>
+ </form>
+</table>
+</div>
+
+<script src="/js/jquery.js"></script>
+<script src="/js/d3.v3.min.js"></script>
+<script>
+var allData = [];
+var svg, x, y, xAxis, yAxis, margin, width, height;
+
+d3.json("/html/Team_10_UFO/10_v2_sampled.json", function(error, d) {
+  if (error) { console.error(error); return; }
+  allData = d.ufo || [];
+  initChart();
+  doSearch();
+});
+
+function initChart() {
+  margin = {top: 20, right: 20, bottom: 30, left: 40};
+  width = 960 - margin.left - margin.right;
+  height = 600 - margin.top - margin.bottom;
+
+  var formatPercent = d3.format(".0%");
+
+  x = d3.scale.ordinal()
+      .rangeRoundBands([0, width], .1, 1);
+
+  y = d3.scale.linear()
+      .range([height, 0]);
+
+  xAxis = d3.svg.axis()
+      .scale(x)
+      .orient("bottom");
+
+  yAxis = d3.svg.axis()
+      .scale(y)
+      .orient("left")
+      .tickFormat(formatPercent);
+
+  svg = d3.select("body").append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+}
+
+function doSearch() {
+  var term = $('#q').val() || '';
+  var filtered = allData;
+  if (term.length > 0) {
+    var t = term.toLowerCase();
+    filtered = allData.filter(function(dd) {
+      return dd.description && dd.description.toLowerCase().indexOf(t) >= 0;
+    });
+  } else {
+    // show a sample if no query (999 is too many for bars)
+    filtered = allData.slice(0, 30);
+  }
+  render(filtered);
+  return false;
+}
+
+function render(_data) {
+  svg.selectAll("*").remove(); // clear
+
+  if (!_data || _data.length === 0) {
+    svg.append("text")
+      .attr("x", 100).attr("y", 100)
+      .text("No matches. Try a different search term (e.g. light, sky).");
+    return;
+  }
+
+  var data = _data.slice(); // copy for sorting
+  var checked = !!d3.select("#sortcb").property("checked");
+  if (checked) {
+    data.sort(function(a, b) { return b.jaccard_score - a.jaccard_score; });
+  } else {
+    data.sort(function(a, b) { return d3.ascending(a.reported_at, b.reported_at); });
+  }
+
+  var formatPercent = d3.format(".0%");
+  x.domain(data.map(function(d) { return d.reported_at; }));
+  y.domain([0, d3.max(data, function(d) { return (d.jaccard_score || 0) * 10; })]);
+
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("jaccard_score");
+
+  svg.selectAll(".bar")
+      .data(data)
+    .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", function(d) { return x(d.reported_at); })
+      .attr("width", x.rangeBand())
+      .attr("y", function(d) { return y(d.jaccard_score || 0); })
+      .attr("height", function(d) { return height - y(d.jaccard_score || 0); });
+}
+
+</script>
+</body>
+</html>

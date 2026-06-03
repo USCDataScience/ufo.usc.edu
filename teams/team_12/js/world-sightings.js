@@ -35,8 +35,8 @@ var path = d3.geoPath().projection(projection);
 svg.call(tip);
 
 queue()
-    .defer(d3.json, "../data/world_countries.json")
-    .defer(d3.tsv, "../data/world_population.tsv")
+    .defer(d3.json, "/teams/team_12/data/../data/world_countries.json")
+    .defer(d3.tsv, "/teams/team_12/data/../data/world_population.tsv")
     .await(ready);
 
 function ready(error, data, population) {
@@ -97,7 +97,7 @@ function plot(data){
   
 
 //plot sightings
-pop = d3.json("../data/population.json" , function(data){
+pop = d3.json("/teams/team_12/data/population.json" , function(data){
       var count = Object.keys(data).length
       var pop = []
 

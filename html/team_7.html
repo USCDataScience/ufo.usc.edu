@@ -15,13 +15,8 @@
     <!-- Custom CSS -->
     <link href="../css/styles.css" rel="stylesheet">
 
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Play:700,400' type='text/css'>
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="http://iop.io/js/vendor/d3.v3.min.js"></script>
-    <script type="text/javascript" src="http://iop.io/js/vendor/polymer/PointerEvents/pointerevents.js"></script>
-    <script type="text/javascript" src="http://iop.io/js/vendor/polymer/PointerGestures/pointergestures.js"></script>
-    <script type="text/javascript" src="http://iop.io/js/iopctrl.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/d3.v3.min.js"></script>
 
     <style>
         .slider {
@@ -135,10 +130,10 @@
               <nav id="nav-wrap">
                 <ul class="nav navbar-nav navbar-custom">
                     <li class="current"><a class="page-scroll" href="/index.html#page-top" style="color:white">Home</a></li>
-                    <li class="hidden"><a class="page-scroll" href="#page-top" style="color:white"></a></li>
-                    <li><a class="page-scroll" href="#about" style="color:#ffffff">About</a></li>
-                    <li><a class="page-scroll" href="#features" style="color:#ffffff">Insights</a></li>
-                    <li><a class="page-scroll" style="color:#ffffff" href="#learn-more">Partners</a></li>
+                    <li class="hidden"><a class="page-scroll" href="/index.html#page-top" style="color:white"></a></li>
+                    <li><a class="page-scroll" href="/index.html#about" style="color:#ffffff">About</a></li>
+                    <li><a class="page-scroll" href="/index.html#features" style="color:#ffffff">Insights</a></li>
+                    <li><a class="page-scroll" style="color:#ffffff" href="/index.html#learn-more">Partners</a></li>
                 </ul>
               </nav>
 
@@ -167,30 +162,54 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse" style="color:#fff">
                   <ul class="nav navbar-nav">
-                    <li class="active"><a style="color:#fff" href="#">Smog</a></li>
-                    <li><a style="color:#fff" href="Team7_duration.html">Duration</a></li>
-                    <li><a style="color:#fff" href="Team7_sightingConnect.html">Sightings</a></li>
-                    <li><a style="color:#fff" href="Team7_pieShapeSighting.html">Shapes</a></li>
-                    <li><a style="color:#fff" href="AerialObjectCount.html">Aerial</a></li>
-                    <li><a style="color:#fff" href="ufo-bubble-chart.html">Events</a></li>
-                    <li><a style="color:#fff" href="Grouped+Stacked bars.html">Airport Distance</a></li>
-                    <li><a style="color:#fff" href="wordcloud.html">Image captions</a></li>
-                    <li><a style="color:#fff" href="loc.html">Location Map</a></li>
-                    <li><a style="color:#fff" href="drinking.html" target="_blank">Drinking</a></li>
-                    <li><a style="color:#fff" href="overall.html" target="_blank">Overall</a></li>
+                    <li class="active"><a style="color:#fff" href="#" onclick="return loadTeam7Viz(this, this.href);">Smog</a></li>
+                    <li><a style="color:#fff" href="Team7_duration.html" onclick="return loadTeam7Viz(this, this.href);">Duration</a></li>
+                    <li><a style="color:#fff" href="Team7_sightingConnect.html" onclick="return loadTeam7Viz(this, this.href);">Sightings</a></li>
+                    <li><a style="color:#fff" href="Team7_pieShapeSighting.html" onclick="return loadTeam7Viz(this, this.href);">Shapes</a></li>
+                    <li><a style="color:#fff" href="AerialObjectCount.html" onclick="return loadTeam7Viz(this, this.href);">Aerial</a></li>
+                    <li><a style="color:#fff" href="ufo-bubble-chart.html" onclick="return loadTeam7Viz(this, this.href);">Events</a></li>
+                    <li><a style="color:#fff" href="Grouped+Stacked bars.html" onclick="return loadTeam7Viz(this, this.href);">Airport Distance</a></li>
+                    <li><a style="color:#fff" href="wordcloud.html" onclick="return loadTeam7Viz(this, this.href);">Image captions</a></li>
+                    <li><a style="color:#fff" href="loc.html" onclick="return loadTeam7Viz(this, this.href);">Location Map</a></li>
+                    <li><a style="color:#fff" href="drinking.html" onclick="return loadTeam7Viz(this, this.href);" target="_blank">Drinking</a></li>
+                    <li><a style="color:#fff" href="overall.html" onclick="return loadTeam7Viz(this, this.href);" target="_blank">Overall</a></li>
                   </ul>
                 </div>
               </div>
             </nav>
 
-        <div style="color:white; font-size: 20px;">Number of occurrances with same smog value</div><br>
-        <div style="color:white;">Move the yellow bar to different smog values to view the number of UFO sightings with the specified value. Note: move the bar slowly to allow the meter to catch up. 
-        <div>
-            <span id="smogLevel"></span>
+        <div id="team7-inline-smog">
+        <div style="color:white; font-size: 20px;">Number of occurrences with same smog value</div><br>
+        <div style="color:white;">Use the slider to select different smog values to view the number of UFO sightings with that value.</div>
+        <div id="smog-container" style="margin:20px 0; background:#333; padding:10px; border-radius:4px;">
+          <svg id="smogLevel" width="800" height="280"></svg>
         </div>
-        <div style="color:white;">Smog Value: <span id="smogVal"></span></div>
-        <div class="slider ui-corner-all"></div>
+        <div style="color:white; margin-bottom:8px;">Smog Value: <span id="smogVal" style="font-weight:bold;">0</span> &nbsp;&nbsp;|&nbsp;&nbsp; Sightings: <span id="smogCount" style="font-weight:bold;">0</span></div>
+        <input type="range" id="smogSlider" min="0" step="1" style="width:80%; max-width:700px; vertical-align:middle;" />
+        <span id="smogSliderLabel" style="color:#ccc; margin-left:8px;"></span>
         </div>
+        <iframe id="team7-frame" style="display:none; width:100%; height:650px; border:none; background:#fff;"></iframe>
+
+<script>
+function loadTeam7Viz(el, url) {
+  var inline = document.getElementById('team7-inline-smog');
+  var frame = document.getElementById('team7-frame');
+  if (!url || url === '#' || url.indexOf('team_7.html') !== -1) {
+    if (inline) inline.style.display = '';
+    if (frame) frame.style.display = 'none';
+  } else {
+    if (inline) inline.style.display = 'none';
+    if (frame) {
+      frame.src = url;
+      frame.style.display = '';
+    }
+  }
+  // simple active
+  var lis = el && el.parentNode && el.parentNode.parentNode ? el.parentNode.parentNode.children : [];
+  for (var i=0; i<lis.length; i++) lis[i].className = (lis[i] === el.parentNode ? 'active' : '');
+  return false;
+}
+</script>
 
         <footer>
                 <p align=center>©USC Data Science Group 2016, All Rights Reserved</p>
@@ -199,80 +218,123 @@
     </div>
 
     <script>
-
-        d3.json("smog.json", function(data){
+        // Pure D3 v3 gauge + html5 range slider for Smog (no iop.io or jquery-ui deps)
+        d3.json("/html/smog.json", function(data){
             var smogDict = {};
             var smogList = [];
             var i;
-            for(i = 0; i < data.length; i++)
-            {
-                smogDict[data[i]["smogValue"]] = data[i]["occurrence"];
-                smogList.push(data[i]["smogValue"]);
+            for(i = 0; i < data.length; i++) {
+                var sv = data[i]["smogValue"];
+                var oc = data[i]["occurrence"];
+                smogDict[sv] = oc;
+                smogList.push(sv);
             }
-            smogList.sort(function(a,b){return a - b});
+            smogList.sort(function(a,b){ return parseInt(a) - parseInt(b); });
 
-            
+            var maxOcc = 520;
             var svg = d3.select("#smogLevel")
-                    .append("svg:svg")
-                    .attr("width", 800)
-                    .attr("height", 500);
+                .attr("width", 800)
+                .attr("height", 280);
 
+            var g = svg.append("g")
+                .attr("transform", "translate(400, 150)");
 
-            var gauge = iopctrl.arcslider()
-                    .radius(240)
-                    .events(false)
-                    .indicator(iopctrl.defaultGaugeIndicator);
-            gauge.axis().orient("in")
-                    .normalize(true)
-                    .ticks(12)
-                    .tickSubdivide(3)
-                    .tickSize(10, 8, 10)
-                    .tickPadding(5)
-                    .scale(d3.scale.linear()
-                            .domain([0, 520])
-                            .range([-3*Math.PI/4, 3*Math.PI/4]));
+            var radius = 110;
+            var startAngle = -Math.PI * 0.75;
+            var endAngle = Math.PI * 0.75;
 
-            var segDisplay = iopctrl.segdisplay()
-                    .width(160)
-                    .digitCount(6)
-                    .negative(false)
-                    .decimals(0);
+            // bg arc
+            var bgArc = d3.svg.arc()
+                .innerRadius(radius - 18)
+                .outerRadius(radius)
+                .startAngle(startAngle)
+                .endAngle(endAngle);
+            g.append("path")
+                .attr("d", bgArc)
+                .attr("fill", "#444")
+                .attr("stroke", "#888")
+                .attr("stroke-width", 2);
 
-            svg.append("g")
-                    .attr("class", "segdisplay")
-                    .attr("transform", "translate(130, 200)")
-                    .call(segDisplay);
+            // value arc (dynamic)
+            var valuePath = g.append("path")
+                .attr("fill", "#ffcc00");
 
-            svg.append("g")
-                    .attr("class", "gauge")
-                    .call(gauge);
+            // needle
+            var needle = g.append("line")
+                .attr("x1", 0).attr("y1", 0)
+                .attr("x2", 0).attr("y2", -radius + 25)
+                .attr("stroke", "#fff")
+                .attr("stroke-width", 4)
+                .attr("stroke-linecap", "round");
 
-            segDisplay.value(0);
-            gauge.value(0);
+            g.append("circle")
+                .attr("r", 7)
+                .attr("fill", "#222")
+                .attr("stroke", "#ffcc00")
+                .attr("stroke-width", 2);
 
-            $(function() {
-                var araObj = smogList;
-                
-                $(".slider").slider({
-                        min: 0,
-                        max: araObj.length,
-                        value: 0,
-                        create: function() {
-                            $(this).children().addClass("ui-corner-all");
-                            $(this).append($('<span></span>').css("left","0%").addClass("slider-digit"));
-                            for (i=0;i<=araObj.length;i++)
-                            {
-                                $(this).append($('<span></span>').css("left",((i+1)*(100/araObj.length))+"%").addClass("slider-digit").text("|"));
-                            };
-                        },
-                         slide: function( event, ui ) {
-                            $("#smogVal").text(araObj[ui.value]);
-                            segDisplay.value(smogDict[araObj[ui.value]]);
-                            gauge.value(smogDict[araObj[ui.value]]);
-                        }
-                    });
+            // label in center
+            var label = g.append("text")
+                .attr("text-anchor", "middle")
+                .attr("y", 8)
+                .attr("font-size", "28px")
+                .attr("fill", "#ffcc00")
+                .attr("font-family", "sans-serif")
+                .text("0");
+
+            // ticks / labels for 0, 100, ..., 500
+            [0,100,200,300,400,500].forEach(function(t) {
+                var p = Math.min(1, t / maxOcc);
+                var a = startAngle + p * (endAngle - startAngle);
+                var tx = Math.sin(a) * (radius + 12);
+                var ty = -Math.cos(a) * (radius + 12);
+                g.append("text")
+                    .attr("x", tx).attr("y", ty + 4)
+                    .attr("text-anchor", "middle")
+                    .attr("font-size", "11px")
+                    .attr("fill", "#ccc")
+                    .text(t);
             });
 
+            function setGauge(occ, smogVal) {
+                occ = Math.max(0, Math.min(maxOcc, +occ || 0));
+                var p = occ / maxOcc;
+                var angle = startAngle + p * (endAngle - startAngle);
+                var nx = Math.sin(angle) * (radius - 18);
+                var ny = -Math.cos(angle) * (radius - 18);
+
+                needle.transition().duration(400).attr("x2", nx).attr("y2", ny);
+
+                var fillArc = d3.svg.arc()
+                    .innerRadius(radius - 18)
+                    .outerRadius(radius)
+                    .startAngle(startAngle)
+                    .endAngle(angle);
+                valuePath.attr("d", fillArc);
+
+                label.text(occ);
+                d3.select("#smogVal").text(smogVal);
+                d3.select("#smogCount").text(occ);
+            }
+
+            // init slider (html5 range over discrete list)
+            var slider = document.getElementById("smogSlider");
+            var labelEl = document.getElementById("smogSliderLabel");
+            slider.max = smogList.length - 1;
+            slider.value = 0;
+
+            function updateFromSlider() {
+                var idx = parseInt(slider.value, 10) || 0;
+                var sv = smogList[idx];
+                var oc = smogDict[sv] || 0;
+                setGauge(oc, sv);
+                if (labelEl) labelEl.textContent = idx + " / " + (smogList.length-1);
+            }
+            slider.addEventListener("input", updateFromSlider);
+
+            // initial
+            setGauge( smogDict[smogList[0]] || 0 , smogList[0] );
+            if (labelEl) labelEl.textContent = "0 / " + (smogList.length-1);
         });
     </script>
     

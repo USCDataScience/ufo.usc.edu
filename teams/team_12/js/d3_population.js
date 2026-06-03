@@ -19,7 +19,7 @@ catch(err){
 
 var date1,date2;
 try{
-d3.json("../data/us.json", function(error, topo) { //console.log(topo);
+d3.json("/teams/team_12/data/us.json", function(error, topo) { //console.log(topo);
 
     states = topojson.feature(topo, topo.objects.states).features
 
@@ -74,7 +74,7 @@ d3.json("../data/us.json", function(error, topo) { //console.log(topo);
       .attr("d", path);
     
 
-    pop = d3.json("../data/population.json" , function(data){
+    pop = d3.json("/teams/team_12/data/population.json" , function(data){
       var count = Object.keys(data).length
       var pop = []
 
@@ -103,7 +103,7 @@ d3.json("../data/us.json", function(error, topo) { //console.log(topo);
 });
 }
 catch(err){
-  d3.json("data/us.json", function(error, topo) { //console.log(topo);
+  d3.json("/teams/team_12/data/us.json", function(error, topo) { //console.log(topo);
 
     states = topojson.feature(topo, topo.objects.states).features
 
@@ -158,7 +158,7 @@ catch(err){
       .attr("d", path);
     
 
-    pop = d3.json("data/population.json" , function(data){
+    pop = d3.json("/teams/team_12/data/population.json" , function(data){
       var count = Object.keys(data).length
       var pop = []
 

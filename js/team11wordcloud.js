@@ -21,10 +21,10 @@
          return jsonDoc;
     }
 
-    var cities = getJSONData("../data/team11wordcloudcities.json");
+    var cities = getJSONData("/Data/team11wordcloudcities.json");
     var frequency_list = JSON.parse(cities);
 
-    var description = getJSONData("../data/team11wordcloudocr.json");
+    var description = getJSONData("/Data/team11wordcloudocr.json");
     var frequency_list1 = JSON.parse(description);
 
 

@@ -10,7 +10,7 @@ var tip = d3.tip()
             })
 
 var margin = {top: 0, right: 0, bottom: 0, left: 0},
-            width = 1300 - margin.left - margin.right,
+            width = 960 - margin.left - margin.right,
             height = 550 - margin.top - margin.bottom;
 
 var color = d3.scaleThreshold()
@@ -28,17 +28,21 @@ var path = d3.geoPath();
 var svg = d3.select("#world-sightings");
 console.log(svg)
 var projection = d3.geoMercator()
-                   .scale(200)
-                  .translate( [width / 2, height / 1.5]);
+                   .scale(250)
+                   .center([-98, 39])  // center on US
+                   .translate([width / 2, height / 2]);
 
 var path = d3.geoPath().projection(projection);
 
 svg.call(tip);
 
-queue()
-    .defer(d3.json, "../data/world_countries.json")
-    .defer(d3.tsv, "../data/world_population.tsv")
-    .await(ready);
+d3.json("/teams/team_12/data/world_countries.json", function(error, data) {
+  if (error) throw error;
+  d3.tsv("/teams/team_12/data/world_population.tsv", function(error, population) {
+    if (error) throw error;
+    ready(error, data, population);
+  });
+});
 
 function ready(error, data, population) {
   var populationById = {};
@@ -76,12 +80,25 @@ function ready(error, data, population) {
             .style("stroke-width",0.3);
         });
 
-  svg.append("path")
-      .datum(topojson.mesh(data.features, function(a, b) { return a.id !== b.id; }))
-       // .datum(topojson.mesh(data.features, function(a, b) { return a !== b; }))
-      .attr("class", "names")
-      .attr("d", path);
+  // borders: data is geojson, not topojson; skip to avoid error. Countries will still show.
+  // svg.append("path")
+  //     .datum(topojson.mesh(data.features, function(a, b) { return a.id !== b.id; }))
+  //     .attr("class", "names")
+  //     .attr("d", path);
 }
+
+// plot sample "sightings" as pink dots using high-pop locations as proxy (from US-focused data)
+d3.json("/teams/team_12/data/population.json", function(error, popdata) {
+  if (error) return;
+  var points = [];
+  for (var i = 0; i < popdata.length; i += 30) {  // sample ~1/30 to keep light
+    var d = popdata[i];
+    if (d.latitude != null && d.longitude != null) {
+      points.push([+d.longitude, +d.latitude]);
+    }
+  }
+  plot(points);
+});
 
 function plot(data){
     
@@ -97,26 +114,4 @@ function plot(data){
   }
   
 
-//plot sightings
-pop = d3.json("../data/population.json" , function(data){
-      var count = Object.keys(data).length
-      var pop = []
-
-      for(i =0;i<count;i++)
-      {
-          var p = []
-          if (data[i]["latitude"]!=null & data[i]["longitude"]!= null)
-          {
-            
-            p.push(data[i]["longitude"],data[i]["latitude"])
-            //console.log(p)
-            pop.push(p)
-            //plot([p])
-
-          }
-      }
-      date1 = new Date();
-      plot(pop);
-    });
-
-
+// (removed remnant plot code that was causing issues / not part of main map viz)

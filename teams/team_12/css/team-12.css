@@ -1,3 +1,61 @@
 .team-12-space{
 	margin-top: 90px;
 }
+
+/* Make the overview section (3 feature circles in the HUB) readable on the UFO dark background.
+   (Sub-viz leaves get their own inline style to hide their copied tabs.) */
+
+/* Hub card descriptions (in thumbnails) readable on dark UFO bg */
+#static_visualizations .caption p,
+#dynamic_visualizations .caption p,
+#static_visualizations .caption h3,
+#dynamic_visualizations .caption h3 {
+  color: #fff !important;
+  text-shadow: 0 0 3px #000;
+}
+
+/* Ensure sub-viz description text (inferences etc) is readable; the per-leaf dark containers now provide contrast */
+.inferences, .caption p, .caption span {
+  color: #fff !important;
+}
+#overview,
+[id^="featuresAdded"] {
+  /* keep visible in hub */
+}
+#overview h3 {
+  color: #fff;
+  text-shadow: 0 0 4px #000;
+}
+#overview .row > div > .row:last-child b,
+#overview .row > div > .row:last-child {
+  color: #fff;
+  text-shadow: 0 0 3px #000;
+}
+/* Light background box for the overview circles so they pop against dark UFO bg */
+#overview {
+  background: rgba(255,255,255,0.1);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/* Ensure the main viz content (e.g. appended SVGs, charts) is visible on dark bg */
+body {
+  color: #fff;
+}
+
+/* Make the overview section (3 feature circles) readable on the UFO dark background */
+#overview h3 {
+  color: #fff;
+  text-shadow: 0 0 4px #000;
+}
+#overview .row > div > .row:last-child b,
+#overview .row > div > .row:last-child {
+  color: #fff;
+  text-shadow: 0 0 3px #000;
+}
+/* Light background box for the overview circles so they pop */
+#overview {
+  background: rgba(255,255,255,0.1);
+  padding: 10px 20px;
+  border-radius: 8px;
+}

@@ -13,27 +13,21 @@
 	<link href="../css/styles.css" rel="stylesheet">
 	<link href="../css/team-12.css" rel="stylesheet">
 	<link rel="stylesheet" href="../css/plugin.css">
+
+<style>
+/* Hide inner tab nav and breadcrumbs only in sub-viz leaf pages (to avoid dupe when in iframe) */
+.nav-tabs, .breadcrumb { display: none !important; }
+/* Force the viz content panes visible */
+.tab-pane, .tab-content > div { display: block !important; opacity: 1 !important; }
+</style>
 </head>
 
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-	<div id="nav-main">
-        <nav class="navbar nav-main navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    
-                </div>
-
-                <div class="collapse navbar-collapse navbar-ex1-collapse">  
+	<div class="collapse navbar-collapse navbar-ex1-collapse">  
                   <nav id="nav-wrap">
                     <ul class="nav navbar-nav navbar-custom">
-                        <li class="current"><a class="page-scroll" href="/index.html#page-top" style="color:white">Home</a></li>
+                        <li class="current"><a class="page-scroll" href="../team_12.html#page-top" style="color:white">Home</a></li>
                     </ul>
                   </nav>
 
@@ -170,15 +164,15 @@
     </div>
 
 
-  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="/js/d3.v3.min.js"></script>
+  <script src="/js/jquery.js"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\/script>')</script>
   <script src="../js/plugin.js"></script>
  
    
 
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="/js/d3.v3.min.js"></script>
+<script src="/js/jquery.js"></script>
 
 <script src="../js/d3_cancer.js"></script>
 </body>

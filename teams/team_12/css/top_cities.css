@@ -1,22 +1,20 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
-
 svg {
-  font: 14px 'Open Sans';
+  font: 14px sans-serif;
 }
 
 .axis path,
 .axis line {
   fill: none;
-  stroke: #000;
+  stroke: #ccc;
   shape-rendering: crispEdges;
 }
 
 .axis text {
-  fill: #000;
+  fill: #fff;
 }
 
 .axis .tick line {
-  stroke: rgba(0, 0, 0, 0.1);
+  stroke: rgba(255, 255, 255, 0.2);
 }
 
 .area {
@@ -42,8 +40,17 @@ svg {
 }
 
 .legend .legend-bg {
-  fill: rgba(0, 0, 0, 0.5);
-  stroke: rgba(0, 0, 0, 0.5);
+  fill: rgba(0, 0, 0, 0.7);
+  stroke: #444;
+}
+
+.legend text {
+  fill: #fff;
+  font-weight: bold;
+}
+
+.axis text, .legend text {
+  fill: #fff !important;
 }
 
 /*.marker.client .marker-bg,

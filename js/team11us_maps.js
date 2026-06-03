@@ -24,7 +24,7 @@ function getCentroid(selection) {
     return [bbox.x + bbox.width/2, bbox.y + bbox.height/2];
 }
 
-var root = d3.json("../data/team11mapdata.json", function(error, data){
+var root = d3.json("/Data/team11mapdata.json", function(error, data){
 var cost_data = {}
 
 console.log(data);
@@ -99,52 +99,51 @@ var short_name_id_map = {
     0: null
 };
 
-d3.tsv("https://s3-us-west-2.amazonaws.com/vida-public/geo/us-state-names.tsv", function(error, names) {
+d3.json("/data_files/us-states.json", function(error, us) {
+  // local geojson; build maps (no tsv/topo needed)
+  var fips_to_abbr = {"01":"AL","02":"AK","04":"AZ","05":"AR","06":"CA","08":"CO","09":"CT","10":"DE","11":"DC","12":"FL","13":"GA","15":"HI","16":"ID","17":"IL","18":"IN","19":"IA","20":"KS","21":"KY","22":"LA","23":"ME","24":"MD","25":"MA","26":"MI","27":"MN","28":"MS","29":"MO","30":"MT","31":"NE","32":"NV","33":"NH","34":"NJ","35":"NM","36":"NY","37":"NC","38":"ND","39":"OH","40":"OK","41":"OR","42":"PA","44":"RI","45":"SC","46":"SD","47":"TN","48":"TX","49":"UT","50":"VT","51":"VA","53":"WA","54":"WV","55":"WI","56":"WY"};
+  us.features.forEach(function(f) {
+    var fid = (f.id || "").toString().padStart(2,"0");
+    var abbr = fips_to_abbr[fid] || fid;
+    var name = f.properties.name;
+    id_name_map[fid] = {id: fid, name: name, code: abbr};
+    short_name_id_map[abbr] = fid;
+    id_name_map[name] = {id: fid, name: name, code: abbr};
+  });
 
-  for (var i = 0; i < names.length; i++) {
-      id_name_map[names[i].id] = names[i];
-      short_name_id_map[names[i].code] = names[i].id;
+  // y scale not used in this viz (leftover); dummy to avoid errors
+  var y = d3.scale.linear().range([ height, 0 ]);
+  y.domain([0, 100]);
+
+  // use geojson features directly
+  function clicked(d) {
   }
 
-  var y = d3.scale.linear().range([ height, 0 ]);
+  g.append("g")
+      .attr("id", "states")
+    .selectAll("path")
+      .data(features)
+    .enter()
+      .append("g")
+      .attr("class","state-path")
+      .attr("state", function(d) {
+          return d.state;
+      })
+      .attr("fill","#3399a5");
 
-  y.domain([ 0, d3.max(data, function(d) {
-      return +d[config.totalPayments];
-  }) ]);
+  svg.selectAll('.state-path')
+        .append("path")
+        .attr("d", path)
+        .attr("centroid", function(d) {
+          var centroid = path.centroid(d);
+          var abbr = id_name_map[d.id] ? id_name_map[d.id].code : null;
+          if (abbr && cost_data[abbr]) {
+            centroid[1] = centroid[1] - cost_data[abbr].charge / 100;
+            cost_data[abbr].centroid = centroid;
+          }
+        });
 
-  d3.json("https://s3-us-west-2.amazonaws.com/vida-public/geo/us.json", function(error, us) {
-    function clicked(d) {
-    }
-
-    g.append("g")
-        .attr("id", "states")
-      .selectAll("path")
-        .data(topojson.feature(us, us.objects.states).features)
-      .enter()
-        .append("g")
-        .attr("class","state-path")
-        .attr("state", function(d) {
-            return d.state;
-        })
-        .attr("fill","#3399a5");
-  
-    svg.selectAll('.state-path')
-          .append("path")
-          .attr("d", path)
-          .attr("centroid", function(d) {
-            var centroid = path.centroid(d);
-           // console.log(id_name_map[d.id].code);
-              
-            if (cost_data[id_name_map[d.id].code]) {
-              centroid[1] = centroid[1] - cost_data[id_name_map[d.id].code].charge / 100;
-              cost_data[id_name_map[d.id].code].centroid = centroid;
-            }
-          });
-
-      g.append("path")
-        .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
-        .attr("id", "state-borders")
-        .attr("d", path);
+  // no mesh borders (using geojson); add stroke via css if needed
 
       for (var state in cost_data) {
           g.append("rect")

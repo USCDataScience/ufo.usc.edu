@@ -46,86 +46,19 @@
 </style>
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <div id="nav-main">
-    <nav class="navbar mav-main navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                
-            </div>
-
-            <div class="collapse navbar-collapse navbar-ex1-collapse">  
-              <nav id="nav-wrap">
-                <ul class="nav navbar-nav navbar-custom">
-                    <li class="current"><a class="page-scroll" href="/index.html#page-top" style="color:white">Home</a></li>
-                    <li class="hidden"><a class="page-scroll" href="#page-top" style="color:white"></a></li>
-                    <li><a class="page-scroll" href="#about" style="color:#ffffff">About</a></li>
-                    <li><a class="page-scroll" href="#features" style="color:#ffffff">Insights</a></li>
-                    <li><a class="page-scroll" style="color:#ffffff" href="#learn-more">Partners</a></li>
-                </ul>
-              </nav>
-
-                <a href="http://usc.edu" class="pull-right">
-                  <img src="../images/usc-primary-logotype.svg" width="176px" height="38px">
-                </a>
-            </div>
-        </div>
-    </nav>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <br>
-    <div>
-        <div class="container">
-            <nav class="navbar navbar-default navbar-static-top">
-              <div class="container-fluid">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse" style="color:#fff">
-                  <ul class="nav navbar-nav">
-                    <li><a style="color:#fff" href="team_7.html">Smog</a></li>
-                    <li><a style="color:#fff" href="Team7_duration.html">Duration</a></li>
-                    <li><a style="color:#fff" href="Team7_sightingConnect.html">Sightings</a></li>
-                    <li><a style="color:#fff" href="Team7_pieShapeSighting.html">Shapes</a></li>
-                    <li><a style="color:#fff" href="AerialObjectCount.html">Aerial</a></li>
-                    <li><a style="color:#fff" href="ufo-bubble-chart.html">Events</a></li>
-                    <li><a style="color:#fff" href="Grouped+Stacked bars.html">Airport Distance</a></li>
-                    <li><a style="color:#fff" href="wordcloud.html">Image captions</a></li>
-                    <li class="active"><a style="color:#fff" href="#">Location Map</a></li>
-                    <li><a style="color:#fff" href="drinking.html" target="_blank">Drinking</a></li>
-                    <li><a style="color:#fff" href="overall.html" target="_blank">Overall</a></li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
+<body style="margin:0; padding:8px; background:#fff; font-family: sans-serif; color:#222;">
             <div>Hover over map to see the count of UFO sightings in each state</div>
             <div id="tooltip-container"></div>
             <div id="canvas-svg"></div>
     </div>
 </body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.1.0/topojson.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="/js/d3.v3.min.js"></script>
+<script src="/js/jquery.js"></script>
 
 <script>
 
-d3.csv("population.csv", function(err, data) {
+d3.csv("/html/population.csv", function(err, data) {
 
   var config = {"color1":"#f1ff0f","color2":"#6b0808","stateDataColumn":"Row_Labels","valueDataColumn":"Count_of_City_name"}
   
@@ -197,7 +130,7 @@ d3.csv("population.csv", function(err, data) {
   var width = WIDTH,
       height = HEIGHT;
   
-  var valueById = d3.map();
+  var valueByName = {};
   
   var startColors = COLOR_START.getColors(),
       endColors = COLOR_END.getColors();
@@ -221,86 +154,78 @@ d3.csv("population.csv", function(err, data) {
       .attr("width", width)
       .attr("height", height);
   
-  d3.tsv("https://s3-us-west-2.amazonaws.com/vida-public/geo/us-state-names.tsv", function(error, names) {
+  // Use local geojson (FeatureCollection) instead of external S3 topojson + tsv
+  d3.json("/data_files/us-states.json", function(error, usGeo) {
+    if (error) {
+      console.error("Failed to load local us states geo", error);
+      d3.select("#canvas-svg").append("text").attr("x",10).attr("y",20).text("Map data unavailable");
+      return;
+    }
+    var features = usGeo.features || [];
   
-  name_id_map = {};
-  id_name_map = {};
+    data.forEach(function(d) {
+      valueByName[ d[MAP_STATE] ] = +d[MAP_VALUE]; 
+    });
   
-  for (var i = 0; i < names.length; i++) {
-    name_id_map[names[i].name] = names[i].id;
-    id_name_map[names[i].id] = names[i].name;
-  }
+    quantize.domain([d3.min(data, function(d){ return +d[MAP_VALUE] }),
+      d3.max(data, function(d){ return +d[MAP_VALUE] })]);
   
-  data.forEach(function(d) {
-    var id = name_id_map[d[MAP_STATE]];
-    valueById.set(id, +d[MAP_VALUE]); 
-  });
-  
-  quantize.domain([d3.min(data, function(d){ return +d[MAP_VALUE] }),
-    d3.max(data, function(d){ return +d[MAP_VALUE] })]);
-  
-  d3.json("https://s3-us-west-2.amazonaws.com/vida-public/geo/us.json", function(error, us) {
     svg.append("g")
         .attr("class", "states-choropleth")
       .selectAll("path")
-        .data(topojson.feature(us, us.objects.states).features)
+        .data(features)
       .enter().append("path")
         .attr("transform", "scale(" + SCALE + ")")
         .style("fill", function(d) {
-          if (valueById.get(d.id)) {
-            var i = quantize(valueById.get(d.id));
+          var nm = d.properties && d.properties.name;
+          if (nm && valueByName[nm] != null) {
+            var i = quantize(valueByName[nm]);
             var color = colors[i].getColors();
-            return "rgb(" + color.r + "," + color.g +
-                "," + color.b + ")";
+            return "rgb(" + color.r + "," + color.g + "," + color.b + ")";
           } else {
-            return "";
+            return "#ddd";
           }
         })
+        .style("stroke", "#fff")
+        .style("stroke-width", 0.5)
         .attr("d", path)
         .on("mousemove", function(d) {
+            var nm = d.properties && d.properties.name;
             var html = "";
-  
             html += "<div class=\"tooltip_kv\">";
             html += "<span class=\"tooltip_key\">";
-            html += id_name_map[d.id];
+            html += (nm || "Unknown");
             html += "</span>";
             html += "<span class=\"tooltip_value\">";
-            html += (valueById.get(d.id) ? valueFormat(valueById.get(d.id)) : "");
+            html += (nm && valueByName[nm] != null ? valueFormat(valueByName[nm]) : "");
             html += "";
             html += "</span>";
             html += "</div>";
             
             $("#tooltip-container").html(html);
-            $(this).attr("fill-opacity", "0.8");
+            d3.select(this).attr("fill-opacity", "0.8");
             $("#tooltip-container").show();
             
             var coordinates = d3.mouse(this);
             
-            var map_width = $('.states-choropleth')[0].getBoundingClientRect().width;
+            var map_width = $('.states-choropleth')[0] ? $('.states-choropleth')[0].getBoundingClientRect().width : 400;
             
-            if (d3.event.layerX < map_width / 2) {
+            var ev = d3.event;
+            if (ev.layerX < map_width / 2) {
               d3.select("#tooltip-container")
-                .style("top", (d3.event.layerY + 15) + "px")
-                .style("left", (d3.event.layerX + 15) + "px");
+                .style("top", (ev.layerY + 15) + "px")
+                .style("left", (ev.layerX + 15) + "px");
             } else {
-              var tooltip_width = $("#tooltip-container").width();
+              var tooltip_width = $("#tooltip-container").width() || 100;
               d3.select("#tooltip-container")
-                .style("top", (d3.event.layerY + 15) + "px")
-                .style("left", (d3.event.layerX - tooltip_width - 30) + "px");
+                .style("top", (ev.layerY + 15) + "px")
+                .style("left", (ev.layerX - tooltip_width - 30) + "px");
             }
         })
         .on("mouseout", function() {
-                $(this).attr("fill-opacity", "1.0");
+                d3.select(this).attr("fill-opacity", "1.0");
                 $("#tooltip-container").hide();
             });
-  
-    svg.append("path")
-        .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
-        .attr("class", "states")
-        .attr("transform", "scale(" + SCALE + ")")
-        .attr("d", path);
-  });
-  
   });
 });
 

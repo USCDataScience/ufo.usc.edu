@@ -234,8 +234,13 @@ function makeChart (data, markers) {
 
   var svg = d3.select('#top_cities')
     .attr('width',  svgWidth)
-    .attr('height', svgHeight)
-    .append('g')
+    .attr('height', svgHeight);
+  // ensure dark bg under the entire svg including axis label areas (to prevent white text on white)
+  svg.append("rect")
+    .attr("width", svgWidth)
+    .attr("height", svgHeight)
+    .attr("fill", "#111");
+  svg = svg.append('g')
       .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
   // clipping to start chart hidden and slide it in later
@@ -251,7 +256,7 @@ function makeChart (data, markers) {
 }
 
 var parseDate  = d3.time.format('%Y').parse;
-d3.json('../data/top_cities.json', function (error, rawData) {
+d3.json("/teams/team_12/data/top_cities.json", function (error, rawData) {
   if (error) {
     console.error(error);
     return;
@@ -268,7 +273,7 @@ d3.json('../data/top_cities.json', function (error, rawData) {
     };
   });
 
-  d3.json('../data/markers.json', function (error, markerData) {
+  d3.json("/teams/team_12/data/markers.json", function (error, markerData) {
     if (error) {
       console.error(error);
       return;

@@ -7,50 +7,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Team 12 Insights</title>
     <!-- Bootstrap Core CSS -->
-    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Scrolling Nav CSS -->
-    <link href="../../css/scrolling-nav.css" rel="stylesheet">
+    <link href="/css/scrolling-nav.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../../css/styles.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
     <link href="css/team-12.css" rel="stylesheet">
 
 </head>
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" style="background-image: url(/images/ufo-background.jpg); background-size:cover;">
 
-    <!-- Navigation -->
-
+<!-- Header / Navigation (consistent mav-main shell) -->
     <div id="nav-main">
-        <nav class="navbar nav-main navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    
-                </div>
+    <nav class="navbar mav-main navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="/index.html#page-top" style="color:white">Home</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-custom">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden"><a class="page-scroll" href="/index.html#page-top" style="color:white"></a></li>
+                <li><a class="page-scroll" href="/index.html#about" style="color:#ffffff">About</a></li>
+                <li><a class="page-scroll" href="/index.html#features" style="color:#ffffff">Insights</a></li>
+                <li><a class="page-scroll" href="/index.html#search" style="color:#ffffff">Search</a></li>
+                <li><a class="page-scroll" style="color:#ffffff" href="/index.html#learn-more">Partners</a></li>
+            </ul>
+            <a href="http://usc.edu" class="pull-right">
+              <img src="/images/usc-primary-logotype.svg" width="176px" height="38px"></img>
+            </a>
 
-                <div class="collapse navbar-collapse navbar-ex1-collapse">  
-                  <nav id="nav-wrap">
-                    <ul class="nav navbar-nav navbar-custom">
-                        <li class="current"><a class="page-scroll" href="/index.html#page-top" style="color:white">Home</a></li>
-                    </ul>
-                  </nav>
-
-                    <a href="http://usc.edu" class="pull-right">
-                      <img src="../../images/usc-primary-logotype.svg" width="176px" height="38px">
-                    </a>
-                </div>
-            </div>
-        </nav>
+        </div>
+        <!-- /.navbar-collapse -->
     </div>
+    </nav>
+  </div>
     <div class="team-12-space">
         <div class = "container" style="margin-bottom: 2%;">
             <ul class="nav nav-tabs" id="tabs">
@@ -100,7 +101,7 @@
                 <li class="active">List of Static Visualizations</li>
                 
               </ol>
-                <div class="row container" id ="chloro">
+                <div class="row container" id="chloro">
                     <div class="row">
                       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                         <div class="thumbnail">
@@ -108,7 +109,7 @@
                           <div class="caption">
                             <center><h3>UFOs on Earth!</h3></center>
                             <p>UFOs have been sighted all over the world. <br>In some countries more than others.<br> How do we know that? <br>Just take a look!</p>
-                            <p><center><a href="html/world-sightings.html" class="btn btn-primary">Sightings across the World</a></center></p>
+                            <p><center><a href="/teams/team_12/html/world-sightings.html" class="btn btn-primary" onclick="return loadTeam12Viz(this.href);">Sightings across the World</a></center></p>
                           </div>
                         </div>
                       </div>
@@ -118,7 +119,7 @@
                           <div class="caption">
                             <center><h3>Pollution and UFOs</h3></center>
                             <p>We think air pollution can lead to inconsistent UFO sighting reports. Does this always prove to be true? Which atmosperic gases have more effect?</p>
-                            <p><center><a href="html/airpollution.html" class="btn btn-primary">Air Pollution</a></center></p>
+                            <p><center><a href="/teams/team_12/html/airpollution.html" class="btn btn-primary" onclick="return loadTeam12Viz(this.href);">Air Pollution</a></center></p>
                           </div>
                         </div>
                       </div>
@@ -132,7 +133,7 @@
                           <div class="caption">
                             <center><h3>Airports and UFOs</h3></center>
                             <p>Are people imagining UFOs in the sky? Are they just airplanes or drones? <br>How about we find out looking at airport locations and their relevance to our reports of sightings.</p>
-                            <p><center><a href="html/airports.html" class="btn btn-primary">Airports and UFOs</a></center></p>
+                            <p><center><a href="/teams/team_12/html/airports.html" class="btn btn-primary" onclick="return loadTeam12Viz(this.href);">Airports and UFOs</a></center></p>
                           </div>
                         </div>
                       </div>
@@ -144,7 +145,7 @@
                           <div class="caption">
                             <center><h3>Cancer, Races, States</h3></center>
                             <p>Cancer incidences have increased in the past few decades. Do you think it could have a connection with the increased UFO sightings in the US?</p>
-                            <p><center><a href="html/cancer.html" class="btn btn-primary">Cancer incidences</a></center></p>
+                            <p><center><a href="/teams/team_12/html/cancer.html" class="btn btn-primary" onclick="return loadTeam12Viz(this.href);">Cancer incidences</a></center></p>
                           </div>
                         </div>
                       </div>
@@ -154,7 +155,7 @@
                           <div class="caption">
                             <center><h3>Population and UFOs!</h3></center>
                             <p>Each UFO sighting in the US is associated with the county's population recorded between 1995 - 2007. <br>How does population of a location influence UFO sightings?<br></p>
-                            <p><center><a href="html/population.html" class="btn btn-primary">Population distribution</a></center></p>
+                            <p><center><a href="/teams/team_12/html/population.html" class="btn btn-primary" onclick="return loadTeam12Viz(this.href);">Population distribution</a></center></p>
                           </div>
                         </div>
                       </div>
@@ -164,7 +165,7 @@
                           <div class="caption">
                             <center><h3>Top Citites</h3></center>
                             <p>Which are the three top cities to report UFO sightings over a decade?</p>
-                            <p><center><a href="html/top_cities.html" class="btn btn-primary">Top Cities</a></center></p>
+                            <p><center><a href="/teams/team_12/html/top_cities.html" class="btn btn-primary" onclick="return loadTeam12Viz(this.href);">Top Cities</a></center></p>
                           </div>
                         </div>
                       </div>
@@ -176,7 +177,7 @@
                           <div class="caption">
                             <center><h3>Airport *World* Cloud</h3></center>
                             <p>UFOs across the World may be influenced by locations close to airports.<br> Which such airports influence sightings?</p>
-                            <p><center><a href="html/Airport.html" class="btn btn-primary">Airport Word CLoud</a></center></p>
+                            <p><center><a href="/teams/team_12/html/Airport.html" class="btn btn-primary" onclick="return loadTeam12Viz(this.href);">Airport Word CLoud</a></center></p>
                           </div>
                         </div>
                       </div>
@@ -186,7 +187,7 @@
                           <div class="caption">
                             <center><h3>Shapes and States</h3></center>
                             <p>We saw a gist about the different observed shapes. But how do we know which shapes are common in which states?</p>
-                            <p><center><a href="html/Shape.html" class="btn btn-primary">Shapes and States</a></center></p>
+                            <p><center><a href="/teams/team_12/html/Shape.html" class="btn btn-primary" onclick="return loadTeam12Viz(this.href);">Shapes and States</a></center></p>
                           </div>
                         </div>
                       </div>
@@ -196,7 +197,7 @@
                           <div class="caption">
                             <center><h3>UFO Sightings and Locations</h3></center>
                             <p>How do the number of sightings compare amongst different countries like the US and UK?</p>
-                            <p><center><a href="html/UFO_sightings.html" class="btn btn-primary">UFO Sightings</a></center></p>
+                            <p><center><a href="/teams/team_12/html/UFO_sightings.html" class="btn btn-primary" onclick="return loadTeam12Viz(this.href);">UFO Sightings</a></center></p>
                           </div>
                         </div>
                       </div>
@@ -209,7 +210,7 @@
                           <div class="caption">
                             <center><h3>Location</h3></center>
                             <p>Dynamically see which Locations across the world make a difference to UFO exploration.</p>
-                            <p><center><a href="html/Location.html" class="btn btn-primary">Location</a></center></p>
+                            <p><center><a href="/teams/team_12/html/Location.html" class="btn btn-primary" onclick="return loadTeam12Viz(this.href);">Location</a></center></p>
                           </div>
                         </div>
                       </div>
@@ -222,7 +223,7 @@
                 <li class="active">List of Dynamic Visualizations</li>
                 
               </ol>
-                <div class="row container" id ="chloro">
+                <div class="row container" id="chloro">
                     <div class="row">
                       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                         <div class="thumbnail">
@@ -230,7 +231,7 @@
                           <div class="caption">
                             <center><h3>Someone said SHAPES?</h3></center>
                             <p>Who said all UFOs are sperical or Saturn Like?<br>Let's take a look at the variety of shapes reported. How many of each?</p>
-                            <p><center><a href="html/pie.html" class="btn btn-primary">Shapes</a></center></p>
+                            <p><center><a href="/teams/team_12/html/pie.html" class="btn btn-primary" onclick="return loadTeam12Viz(this.href);">Shapes</a></center></p>
                           </div>
                         </div>
                       </div>
@@ -240,7 +241,7 @@
                           <div class="caption">
                             <center><h3>Time and Month</h3></center>
                             <p>Do UFOs have a pattern with time? Are they more fond of some months than others? What is the time of the day are they most often sighted?</p>
-                            <p><center><a href="html/time.html" class="btn btn-primary">Time of the Day</a></center></p>
+                            <p><center><a href="/teams/team_12/html/time.html" class="btn btn-primary" onclick="return loadTeam12Viz(this.href);">Time of the Day</a></center></p>
                           </div>
                         </div>
                       </div>
@@ -252,6 +253,12 @@
         </div>
 
     </div>
+
+    <!-- iframe container to load sub-viz while keeping outer navbar (consistent with other teams) -->
+    <div id="viz-area" style="margin: 20px auto; max-width: 1000px; text-align: center; clear: both;">
+      <iframe id="team12-viz-frame" style="display: none; width: 100%; max-width: 1000px; height: 1100px; border: 0; background: #111; margin: 0 auto;"></iframe>
+    </div>
+
     <hr class="featurette-divider">
     <div class =" row">
         <div class="container">
@@ -262,25 +269,24 @@
     </div>
 
     <!-- jQuery -->
-    <script src="../../js/jquery.js"></script>
+    <script src="/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../../js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
 
     <!-- Scrolling Nav JavaScript -->
-    <script src="../../js/jquery.easing.min.js"></script>
-    <script src="../../js/scrolling-nav.js"></script>
-    <script src="../../js/cardpanel.js"></script>
-    <!--Team 12 JS-->
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <!-- <script src="https://d3js.org/d3.v3.min.js"></script> -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/scrolling-nav.js"></script>
+    <script src="/js/cardpanel.js"></script>
+    <!--Team 12 JS (local, no CDN for self-contained demo)-->
+    <script src="/js/d3.v4.min.js"></script>
+    <script src="/js/topojson.v1.min.js"></script>
+    <script src="/js/d3-scale-chromatic.v1.min.js"></script>
     <script type="text/javascript" src="js/ProgressBar.js"></script>
     <script type="text/javascript" src="js/overview-features-added.js"></script>
-    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-    <!-- <script src="https://d3js.org/topojson.v2.min.js"></script> -->
-    <script src="http://d3js.org/topojson.v1.min.js"></script>
     <!-- <script type="text/javascript" src = "js/map1.js"></script> -->
     <script type="text/javascript" src = "js/d3_population.js"></script>
+
     <script>
       // Javascript to enable link to tab
         var hash = document.location.hash;
@@ -292,7 +298,20 @@
         $('.nav-tabs a').on('shown.bs.tab', function (e) {
             window.location.hash = e.target.hash;
         });
-  </script>
+    </script>
+
+    <script>
+      // Load sub-viz into iframe below while keeping the top navbar (no dupe nav, like Team 7/10/11)
+      function loadTeam12Viz(url) {
+        var frame = document.getElementById('team12-viz-frame');
+        if (frame) {
+          frame.src = url;
+          frame.style.display = 'block';
+          frame.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        return false;
+      }
+    </script>
 </body>
 
 </html>

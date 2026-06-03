@@ -4,11 +4,9 @@
   <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <title>Rural Urban split visualization</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.0/d3.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.js"></script>
-    <script type="text/javascript" src="../js/radial-progress-d3.min.js"></script>
-    <link href="../css/radial-duration.css" rel="stylesheet" type="text/css"/>
+    <script src="/js/d3.v3.min.js"></script>
+    <script type="text/javascript" src="/js/radial-progress-d3.min.js"></script>
+    <link href="/css/radial-duration.css" rel="stylesheet" type="text/css"/>
 
   </head>
   <body>
@@ -48,7 +46,7 @@ function loadJSON (url) {
                      return jsonDoc;
  }
 
- jsonData=JSON.parse(loadJSON("../data/pie_duration.json"));
+ jsonData=JSON.parse(loadJSON("/Data/pie_duration.json"));
  // console.log(jsonData["responseHeader"]);
 
  var map = ["10 seconds","30 seconds","2 minutes","5 minutes","10 minutes","30 minutes","1 hour","2 hours"]

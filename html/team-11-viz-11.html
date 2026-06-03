@@ -3,7 +3,7 @@
   <head>
    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="../css/team11flight.css"/>
+    <link type="text/css" rel="stylesheet" href="/css/team11flight.css"/>
     <title>U.S. airports with nearest and farthest UFO sighting within 25 miles.</title>
     <style type="text/css">
 
@@ -53,19 +53,16 @@ circle {
       <input type="button" id="voronoi" onclick="reset()"> <label for="voronoi">Reset map</label>
     </div>
     <div style="padding-top: 18em;padding-left: 20em;">
-    <img src="../images/team11flufo.svg" style="width:20px;height: auto"><span id="min" style="font-size: 16px;"> Nearest UFO sighting</span>
+    <img src="/images/team11flufo.svg" style="width:20px;height: auto"><span id="min" style="font-size: 16px;"> Nearest UFO sighting</span>
       <br>
-    <img src="../images/team11flufo-flying.svg" style="width:20px;height: auto"><span id="max" style="font-size: 16px;"> Farthest UFO sighting</span>
+    <img src="/images/team11flufo-flying.svg" style="width:20px;height: auto"><span id="max" style="font-size: 16px;"> Farthest UFO sighting</span>
     </div>
     <!--script type="text/javascript" src="./d3.js"></script>
     <script type="text/javascript" src="./d3.csv.js"></script>
     <script type="text/javascript" src="./d3.geo.js"></script>
     <script type="text/javascript" src="./d3.geom.js"></script-->
-    <script src="http://d3js.org/d3.v4.min.js"></script>
-<script src="http://d3js.org/queue.v1.min.js"></script>
-<script src="http://d3js.org/topojson.v2.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://d3js.org/d3-selection.v1.min.js"></script>
+    <script src="/js/d3.v4.min.js"></script>
+<script src="/js/jquery.js"></script>
 
     
     <script type="text/javascript">
@@ -136,7 +133,7 @@ var ufo = svg.append("svg:g")
                 .attr("height", 50);*/
 
 
-d3.json("../data/team11us-states.json", function(error, us) {
+d3.json("/Data/team11us-states.json", function(error, us) {
   console.log(topojson.feature(us, us.objects.states).features);
   if (error) throw error;
     states.selectAll("path")
@@ -183,7 +180,7 @@ d3.json("../data/team11us-states.json", function(error, us) {
   
 });*/
 
-d3.csv("../data/team11new_airports2.csv", function(airports) {
+d3.csv("/Data/team11new_airports2.csv", function(airports) {
   var linksByOrigin = {},
       countByAirport = {},
       locationByAirport = {},
@@ -275,7 +272,7 @@ d3.csv("../data/team11new_airports2.csv", function(airports) {
               }
            }
               d3.select("#ufo").append("svg:image")
-                .attr("xlink:href", "../images/team11flufo.svg")
+                .attr("xlink:href", "/images/team11flufo.svg")
                 .attr("width", 50)
                 .attr("height", 50)
                 .attr("id",function() {
@@ -285,7 +282,7 @@ d3.csv("../data/team11new_airports2.csv", function(airports) {
                 .attr("y",minLocations[i][1])
 
                 d3.select("#ufo").append("svg:image")
-                .attr("xlink:href", "../images/team11flufo-flying.svg")
+                .attr("xlink:href", "/images/team11flufo-flying.svg")
                 .attr("width", 30)
                 .attr("height", 30)
                 .attr("id",function() {

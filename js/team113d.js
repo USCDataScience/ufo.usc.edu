@@ -1,4 +1,4 @@
-Plotly.d3.json('../data/team113d.json', function(figure){
+Plotly.d3.json('/Data/team113d.json', function(figure){
   	console.log(figure.data[0]);
   	
   var trace1 = {

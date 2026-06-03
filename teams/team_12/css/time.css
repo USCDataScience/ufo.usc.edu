@@ -134,3 +134,8 @@
     .x.axis path {
         display: none;
     }
+
+    /* Dark theme support for iframe (UFO bg) */
+    .axis text { fill: #fff; }
+    .axis path, .axis line { stroke: #ccc; }
+    .toolTip { background: #222; color: #fff; border: 1px solid #555; }
