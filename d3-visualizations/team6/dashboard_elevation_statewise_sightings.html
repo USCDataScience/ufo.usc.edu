@@ -39,7 +39,7 @@ rect:hover {  fill:blue; }
 <body>
 <div id='dashboard'>
 </div>
-<script src="../../js/team6/d3.js"></script>
+<script src="/js/team6/d3.js"></script>
 <script>
 function dashboard(id, fData){
     var barColor = 'steelblue';
@@ -243,7 +243,7 @@ function dashboard(id, fData){
 //json.parse('filename')
 
 var data_ = "";
-d3.json('../../data/team6/dashboard_elevation_statewise_sightings.json', function(data) {
+d3.json('/data/team6/dashboard_elevation_statewise_sightings.json', function(data) {
 	console.log(data);
 	data_ = data;
 	var freq_data = [];
