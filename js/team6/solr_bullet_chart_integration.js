@@ -1,45 +1,32 @@
-var SOLR_BASE_URL = "http://localhost:8983/solr/ufo/select";
+// Static version - no Solr. Load CSV and aggregate counts per state per shape.
+var csvPath = "../../data/team6/bullet_chart_state_shape_sightings.csv";
 
-var SOLR_GROUP_BY_STATES_QUERY_PARAM = {
-	fl:'state',
-	'group.field':'state',
-	group:true,
-	q:'state:*',
-	rows:100,
-	wt:'json'
-}
-
-var SOLR_FACET_START_RANGE = "2000-01-01T00:00:00.00Z"
-var SOLR_FACET_END_RANGE = "2010-01-01T00:00:00.00Z"
-var SOLR_FACET_COLUMN = "sighted_at"
-var SOLR_RANGE_DURATION = "+5YEAR"
-
-var SOLR_FACET_DATA_QUERY_PARAM = {
-	"facet.range.gap":SOLR_RANGE_DURATION,
-	"rows":"0",
-	"facet":"true",
-	"facet.range.start": SOLR_FACET_START_RANGE,
-	rows: 0,
-	"facet.range.end": SOLR_FACET_END_RANGE,
-	"facet.range": SOLR_FACET_COLUMN
-}
-
-populate_state_dropdown = function(data) {
-	var states = data.grouped.state.groups;
-	var states_arr = [];
-	for (var i = 0; i < states.length; i++) {
-		states_arr.push(states[i].groupValue);
-		$("#sel1").append('<option>' + states[i].groupValue +'</option>');
-	}
-	reload_bullet(true);
-}
-
-jQuery.ajax({
-  url: SOLR_BASE_URL,
-  data: SOLR_GROUP_BY_STATES_QUERY_PARAM,
-  success: populate_state_dropdown,
-  dataType: 'jsonp',
-  jsonp: 'json.wrf'
+d3.csv(csvPath, function(error, rows) {
+  if (error) {
+    console.error("Failed to load static data for bullet chart:", error);
+    return;
+  }
+  // Build per-state per-shape counts
+  window.stateShapeCounts = {};
+  rows.forEach(function(r) {
+    var st = r.state;
+    var shp = (r.shape || "").toLowerCase();
+    if (!window.stateShapeCounts[st]) window.stateShapeCounts[st] = {};
+    if (shapes.hasOwnProperty(shp)) {
+      window.stateShapeCounts[st][shp] = (window.stateShapeCounts[st][shp] || 0) + 1;
+    }
+  });
+  // populate dropdown
+  var states_arr = Object.keys(window.stateShapeCounts).sort();
+  var sel = $("#sel1");
+  sel.empty();
+  states_arr.forEach(function(s) {
+    sel.append('<option>' + s + '</option>');
+  });
+  if (states_arr.length > 0) {
+    sel.val(states_arr[0]);
+    reload_bullet(true);
+  }
 });
 
 var margin = {top: 5, right: 40, bottom: 20, left: 120},
@@ -81,33 +68,22 @@ $( "#sel1" ).change(function() {
 var reload_bullet = function (initialize) {
 	var state = $("#sel1").val();
 	var svg_d_ct = 0;
-	for (shape in shapes) {
-		SOLR_FACET_DATA_QUERY_PARAM.q = "shape:" + shape;
-		SOLR_FACET_DATA_QUERY_PARAM.fq = "state:"+state;
-		jQuery.ajax({
-			url: SOLR_BASE_URL,
-			data: SOLR_FACET_DATA_QUERY_PARAM,
-			success: function(response_data) {
-				var title = response_data.responseHeader.params.q.split(":")[1];
-				var count_1 = response_data.facet_counts.facet_ranges.sighted_at.counts[1]
-				var count_2 = response_data.facet_counts.facet_ranges.sighted_at.counts[3];
-				var total = count_1 + count_2
-				var d = {
-							"title":title,
-							"subtitle":"",
-							"ranges":[count_1,total],
-							"measures":[count_2],
-							"markers":[0]
-						}
-				svg_d_ct += 1
-				shapes[title] = d;
-				if(svg_d_ct == len_shapes) {
-					fetched_all_data(initialize);
-				}
-			},
-			dataType: 'jsonp',
-			jsonp: 'json.wrf'
-		});
+	for (var shape in shapes) {
+		var count = (window.stateShapeCounts && window.stateShapeCounts[state] && window.stateShapeCounts[state][shape]) || 0;
+		var title = shape;
+		// fabricate bullet data similar to original (using total count for ranges/measures)
+		var d = {
+					"title": title,
+					"subtitle": state + " (static)",
+					"ranges": [0, Math.round(count * 0.5), count],
+					"measures": [count],
+					"markers": [Math.round(count * 0.8)]
+				};
+		svg_d_ct += 1;
+		shapes[title] = d;
+		if (svg_d_ct == len_shapes) {
+			fetched_all_data(initialize);
+		}
 	}
 }
 
