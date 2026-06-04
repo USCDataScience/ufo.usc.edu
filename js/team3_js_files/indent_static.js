@@ -5,6 +5,21 @@ $(function(){
 .await(handleData)
 
  function handleData(error, finalObj){
+    if (error) throw error;
+    if (Array.isArray(finalObj)) {
+      finalObj = {
+        name: "UFO Data",
+        children: finalObj.map(function(d) {
+          return {
+            name: d.state,
+            children: [
+              {name: "Population: " + d.population},
+              {name: "Sightings: " + d.sightings}
+            ]
+          };
+        })
+      };
+    }
 
     var margin = {top: 30, right: 20, bottom: 30, left: 20},
     width = 960,
