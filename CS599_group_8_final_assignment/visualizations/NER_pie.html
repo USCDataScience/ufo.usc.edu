@@ -142,8 +142,46 @@
 <!-- Compiled and minified JavaScript -->
 <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type = "text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-<script type = "text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+<script type = "text/javascript" src="../../js/d3.v4.min.js"></script>
 <script type = "text/javascript" src="../lib/d3pie.min.js"></script>
+<script>
+  // Monkey-patch querySelector* to auto-escape dots in ID selectors (e.g. #p1_tooltip5.25...).
+  // d3pie generates tooltip IDs containing floating-point values from data labels (e.g. "2.2000001213747"),
+  // which produce invalid CSS selectors like "#p1_tooltip5.25" (dot treated as class selector).
+  // This prevents "not a valid selector" errors in d3.v4 when hovering or rendering tooltips.
+  (function() {
+    function escapeIdSelectors(sel) {
+      if (typeof sel !== "string") return sel;
+      // Replace #id.with.dots with #id\.with\.dots
+      return sel.replace(/#([^\s.#]+)/g, function(match, idPart) {
+        if (idPart.indexOf(".") === -1) return match;
+        return "#" + idPart.replace(/\./g, "\\.");
+      });
+    }
+    var proto = Document.prototype;
+    var origQS = proto.querySelector;
+    proto.querySelector = function(sel) {
+      return origQS.call(this, escapeIdSelectors(sel));
+    };
+    var origQSA = proto.querySelectorAll;
+    proto.querySelectorAll = function(sel) {
+      return origQSA.call(this, escapeIdSelectors(sel));
+    };
+    // Also for Element (some libs use it)
+    if (Element.prototype.querySelector) {
+      var elQS = Element.prototype.querySelector;
+      Element.prototype.querySelector = function(sel) {
+        return elQS.call(this, escapeIdSelectors(sel));
+      };
+    }
+    if (Element.prototype.querySelectorAll) {
+      var elQSA = Element.prototype.querySelectorAll;
+      Element.prototype.querySelectorAll = function(sel) {
+        return elQSA.call(this, escapeIdSelectors(sel));
+      };
+    }
+  })();
+</script>
 
 
 <script>
@@ -156,6 +194,11 @@
     var pie;
 
     var values = [];
+
+    function sanitizeForId(s) {
+      // remove dots and other chars that break CSS ID selectors (e.g. in d3pie tooltip IDs)
+      return String(s).replace(/[^a-zA-Z0-9_-]/g, "_");
+    }
 
 
     function center_svg() {
@@ -187,7 +230,7 @@
         $.each(json, function(d,i){
 
         values.push({
-            label: i.id,
+            label: sanitizeForId(i.id),
             value: i.quantity
         })
 
@@ -280,7 +323,7 @@
 
         data.forEach( (val, i) => {
 
-        values[i].label = val.id;
+        values[i].label = sanitizeForId(val.id);
     values[i].value = val.quantity;
 
     });
