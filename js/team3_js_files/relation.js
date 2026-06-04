@@ -11,7 +11,7 @@ var simulation = d3.forceSimulation()
     .force("charge", d3.forceManyBody())
     .force("center", d3.forceCenter(width/3, height/3.5));
 
-d3.json("../../data_files/relation.json", function(error, graph) {
+d3.json("/ufo.usc.edu/data_files/relation.json", function(error, graph) {
   if (error) throw error;
 
   var link = svg.append("g")
