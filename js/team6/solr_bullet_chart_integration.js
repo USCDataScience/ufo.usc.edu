@@ -75,7 +75,7 @@ $( "#sel1" ).change(function() {
 });
 
 // Start async load last. Callback will populate select and call initial reload.
-var csvPath = "../../Data/team6/bullet_chart_state_shape_sightings.csv"; // fixed for subdir live
+var csvPath = "../../Data/team6/bullet_chart_state_shape_sightings.csv"; // fixed for subdir live - v2
 
 d3.csv(csvPath, function(error, rows) {
   if (error) {
