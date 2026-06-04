@@ -47,7 +47,7 @@
         // Load the static sample data (JSON of {sight_time, location, shape})
         // Use native fetch for reliability (independent of d3 load timing in <object> embed)
         // Use absolute path for robustness when this page is loaded via <object> embed from html/team_04.html
-        fetch("/TEAM04Files/D3_SOLR/team4_solr_sightings.json")
+        fetch("team4_solr_sightings.json")
             .then(function(response) {
                 if (!response.ok) throw new Error("HTTP " + response.status);
                 return response.json();
@@ -65,7 +65,7 @@
                 console.error("Failed to load data", err);
                 dataLoaded = true;
                 allData = [];
-                document.getElementById("results-header").innerHTML = "Error loading data. (Check that /TEAM04Files/D3_SOLR/team4_solr_sightings.json is served correctly as JSON. See browser console for details.)";
+                document.getElementById("results-header").innerHTML = "Error loading data. (Check that team4_solr_sightings.json is served correctly as JSON. See browser console for details.)";
             });
         
         function doSearch(e) {
