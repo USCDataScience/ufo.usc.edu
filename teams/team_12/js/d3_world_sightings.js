@@ -109,7 +109,7 @@ function plot(data){
       return projection(d)[0]; })
     .attr("cy", function (d) { return projection(d)[1]; })
     .attr("r", "1px")
-    .attr("fill", "pink");
+    .attr("fill", "yellow"); /* brighter UFO color on dark map bg - Team12 subdir fix */
 
   }
   

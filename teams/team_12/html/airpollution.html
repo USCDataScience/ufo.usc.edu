@@ -32,7 +32,7 @@
                   </nav>
 
                     <a href="http://usc.edu" class="pull-right">
-                      <img src="../../../../../images/usc-primary-logotype.svg" width="176px" height="38px">
+                      <img src="../../../images/usc-primary-logotype.svg" width="176px" height="38px"> <!-- fixed depth for subdir /ufo.usc.edu/ and localhost - Team12 -->
                     </a>
                 </div>
             </div>
@@ -95,7 +95,7 @@
                       </select>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
-                      <div  id = "tester" style="width:auto;height:600px;"></div>
+                      <div  id = "tester" style="width:auto;height:600px;background:#111;"></div> <!-- dark for plotly - Team12 -->
                     </div>
                     <br>
                     
@@ -105,7 +105,7 @@
                       <br>
                       <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10">
                         <h3><small>UFO sightings before Year 2000</small></h3>
-                        <span style="color: #000">
+                        <span style="color:#fff" title="fixed black-on-dark for UFO theme in iframe - Team12">
                           Over the range of 100 years from 1900 to 1999, there have been a total of 4975 days on which UFOs have been sighted. On many of these days, there have been more than one reporting from the same location. The above graph represents mean parts per million (ppm) measures of Carbon Monoxide (CO), Sulphur Dioxide (SO2) and Ozone (O3) across the United States.<br>
                           Hovering over the graph lines provides the ppm counts for each sighting date of the three gases. We are aware that O3 in the stratosphere is responsible for protecting the Earth from UV rays. CO causes air pollution leading to both blood poisoning and health issues in humans. SO2 causes global warming and elevates greenhouse effect, thereby causing an increase in the average temperature of the earth.<br>
                           We observe that since 1950s, the levels of SO2 have increased and the time series shows multiple spikes. Zooming in shows that O3 values are the least overall and SO2, maximum.<br>
@@ -122,7 +122,7 @@
                       </div>
                       <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10">
                           <h3><small>UFO sightings from and after Year 2000</small></h3>
-                          <span style="color: #000">
+                          <span style="color:#fff" title="fixed black-on-dark for UFO theme in iframe - Team12">
                           Over the next 11 years from 2000 to 2010, there have been a total of 3883 days on which UFOs have been sighted. <br>
                           There has been a consistency in CO and and a depletion of O3 throughout this period. As we see that the number of UFO reportings have drastically increased, so has the SO2 levels.  
                           <br>
@@ -152,7 +152,7 @@
 
 
   <script src="../../../js/d3.v4.min.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="../../../js/plotly.min.js"></script> <!-- vendored local, no external CDN for self-contained (fixed for subdir /ufo.usc.edu/ + localhost) - Team12 -->
   <script src="../js/d3_airpollution.js"></script>
     
 </body>
