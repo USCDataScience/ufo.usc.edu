@@ -12,6 +12,7 @@
       if (typeof d3.geo.path === "undefined") d3.geo.path = d3.geoPath;
       if (typeof d3.time === "undefined") d3.time = {};
       if (typeof d3.time.format === "undefined") d3.time.format = d3.timeFormat;
+      // keep the object shim for any other old code, but meteorite code now uses feature() directly
       if (typeof topojson.object === "undefined" && typeof topojson.feature === "function") {
         topojson.object = function(topo, obj) { return topojson.feature(topo, obj); };
       }
@@ -66,10 +67,9 @@
 </head>
 <body>
 <script type="text/javascript">
-    // URL for world map data. from d3noob.com
-    var geoURL = "https://gist.githubusercontent.com/d3noob/5193723/raw/6e1434b2c2de24aedde9bcfe35f6a267bd2c04f5/world-110m2.json";
-    // FreeCodeCamp meteor strike data
-    var meteoriteURL = "https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json";
+    // local vendored copies (was external gist/github - now consistent for localhost root serve + /ufo.usc.edu/ subdir; avoids external/CORS/dependency)
+    var geoURL = "../../Data/world-110m2.json";
+    var meteoriteURL = "../../Data/meteorite-strike-data.json";
     // set SVG height and width
     var svgW = 1100;
     var svgH = 700;
@@ -116,8 +116,9 @@
         var g = svg.append("g");
 
         // get the country paths. uses the
+        // note: use .feature().features (not the object shim + .geometries) because topojson-client v1 returns FeatureCollection (has .features); this fixes "enter is not a function" after .data(undefined)
         g.selectAll("path")
-            .data(topojson.object(map, map.objects.countries).geometries)
+            .data(topojson.feature(map, map.objects.countries).features)
             .enter()
             .append("path")
             .attr("d", path);
