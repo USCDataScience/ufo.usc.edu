@@ -21,11 +21,11 @@
          return jsonDoc;
     }
 
-    var cities = getJSONData("/Data/team11wordcloudcities.json");
+    var cities = getJSONData("../Data/team11wordcloudcities.json");
     var frequency_list = JSON.parse(cities);
 
-    var description = getJSONData("/Data/team11wordcloudocr.json");
-    var frequency_list1 = JSON.parse(description);
+    var description = getJSONData("../Data/team11wordcloudocr.json");
+    var frequency_list1 = JSON.parse(description); // relative for subdir /ufo.usc.edu/ + localhost
 
 
     var color = d3.scale.linear()
