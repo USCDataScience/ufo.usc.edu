@@ -75,11 +75,7 @@ $( "#sel1" ).change(function() {
 });
 
 // Start async load last. Callback will populate select and call initial reload.
-<<<<<<< HEAD
-var csvPath = "../../data/team6/bullet_chart_state_shape_sightings.csv";
-=======
-var csvPath = "../../Data/team6/bullet_chart_state_shape_sightings.csv";
->>>>>>> gh-pages
+var csvPath = "../../Data/team6/bullet_chart_state_shape_sightings.csv"; // fixed for subdir live
 
 d3.csv(csvPath, function(error, rows) {
   if (error) {
