@@ -127,7 +127,7 @@ t=0;
 j=0
 z=-1
   vis.selectAll("circle")
-      .data(nodes)
+      .data(nodes.filter(function(d){ return images[d.name] && d.name != "Area" && coord[d.name] && radius[d.name]; }))
     .enter().append("svg:circle")
       .attr("class", function(d) {  return "parent"; })
       .attr("cx", function(d) {  console.log(d);  return coord[d.name][0]; })
@@ -138,7 +138,7 @@ z=-1
       .on("click", function(d) { (node==d)? zoom(root) : zoom(d); });
 
   vis.selectAll("text")
-      .data(nodes)
+      .data(nodes.filter(function(d){ return images[d.name] && d.name != "Area" && coord[d.name] && radius[d.name]; }))
     .enter().append("svg:text")
       .attr("class", function(d) { return "parent"; })
       .attr("x", function(d) { return coord[d.name][0]; })
