@@ -2,7 +2,7 @@ $(function(){
 
 
 queue()
-.defer(d3.json, '/ufo.usc.edu/data_files/statistics.json')
+.defer(d3.json, '../../data_files/statistics.json')
 .await(handleData)
 
  function handleData(error, stateCount){

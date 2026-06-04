@@ -1,6 +1,6 @@
 $(function(){
   queue()
-  .defer(d3.csv, '/ufo.usc.edu/data_files/uk_word_reduced_freq.csv')
+  .defer(d3.csv, '../../data_files/uk_word_reduced_freq.csv')
   .await(handleData);
 
 function handleData(error, data){

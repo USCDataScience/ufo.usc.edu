@@ -1,7 +1,7 @@
 
 $(function(){
   queue()
-  .defer(d3.json, '/ufo.usc.edu/data_files/bubble_chart.json')
+  .defer(d3.json, '../../data_files/bubble_chart.json')
   .await(handleData)
 
    function handleData(error, aggregations){
