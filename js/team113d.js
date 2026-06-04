@@ -1,4 +1,4 @@
-Plotly.d3.json('/Data/team113d.json', function(figure){
+Plotly.d3.json('../Data/team113d.json', function(figure){ // relative for subdir /ufo.usc.edu/ + localhost
   	console.log(figure.data[0]);
   	
   var trace1 = {

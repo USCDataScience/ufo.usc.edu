@@ -92,7 +92,7 @@ function shuffle(array) {
 
 
 function startHeatmapViz() {
-  var data = d3.json("/Data/team11heatmapdata.json", function(error, root){
+  var data = d3.json("../Data/team11heatmapdata.json", function(error, root){ // relative for subdir /ufo.usc.edu/ + localhost
  // var arr = []
  // var max = 0
  var tooltip = d3.select("body").append("div").attr("class", "toolTip");
