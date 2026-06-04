@@ -104,6 +104,7 @@ cities={"celestial_objects": "Oakland, US followed by Egypt", "stars": "Phoenix,
 j=-1
 z=-1
   nodes.forEach(function(d,i){
+    if (!images[d.name] || d.name === "Area" || !multiplier[d.name] || !radius[d.name]) return;
     defs.append("svg:pattern")
     .attr("id",  "ufo" + d.name )
     .attr("width", (multiplier[d.name]+1)*radius[d.name]) 
