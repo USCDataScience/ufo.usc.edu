@@ -37,6 +37,17 @@
   padding: 10px 20px;
   border-radius: 8px;
 }
+[id^="featuresAdded"], .gauge {
+  width: 160px !important;
+  height: 160px !important;
+  margin: 0 auto !important;
+  display: block !important;
+  box-sizing: content-box;
+}
+/* Center gauges inside bootstrap cols for overview */
+#overview .col-xs-4, #overview .col-sm-4, #overview .col-md-4, #overview .col-lg-4 {
+  text-align: center;
+}
 
 /* Ensure the main viz content (e.g. appended SVGs, charts) is visible on dark bg */
 body {

@@ -60,6 +60,9 @@ function before()
 
 			var layout = {
 				  title: 'Air Pollution Time Series',
+				  paper_bgcolor: '#111',
+				  plot_bgcolor: '#111',
+				  font: { color: '#fff' },
 				  xaxis: {
 				    autorange: true,
 				    rangeselector: {buttons: [
@@ -132,6 +135,9 @@ function after()
 
 			var layout = {
 				  title: 'Air Pollution Time Series',
+				  paper_bgcolor: '#111',
+				  plot_bgcolor: '#111',
+				  font: { color: '#fff' },
 				  xaxis: {
 				    autorange: true,
 				    rangeselector: {buttons: [

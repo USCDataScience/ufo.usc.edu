@@ -19,6 +19,10 @@
 .nav-tabs, .breadcrumb { display: none !important; }
 /* Force the viz content panes visible */
 .tab-pane, .tab-content > div { display: block !important; opacity: 1 !important; }
+/* Dark UFO theme for this leaf when in #111 iframe, white text/contrast */
+body { background:#111 !important; color:#fff !important; }
+#graph-svg, #legend { background:#111; }
+text, .axis text, .tick text { fill:#fff !important; color:#fff !important; }
 </style>
 </head>
 
@@ -32,7 +36,7 @@
                   </nav>
 
                     <a href="http://usc.edu" class="pull-right">
-                      <img src="../../../../../images/usc-primary-logotype.svg" width="176px" height="38px">
+                      <img src="../../../images/usc-primary-logotype.svg" width="176px" height="38px"> <!-- fixed depth for subdir /ufo.usc.edu/ and localhost - Team12 -->
                     </a>
                 </div>
             </div>
@@ -171,8 +175,8 @@
  
    
 
-<script src="../../../../../js/d3.v3.min.js"></script>
-<script src="../../../../../js/jquery.js"></script>
+<script src="../../../js/d3.v3.min.js"></script>
+<script src="../../../js/jquery.js"></script> <!-- fixed depth for subdir /ufo.usc.edu/ and localhost - Team12 -->
 
 <script src="../js/d3_cancer.js"></script>
 </body>

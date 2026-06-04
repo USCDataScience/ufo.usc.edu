@@ -3,8 +3,29 @@
 <style>
 
 </style>
-<svg width="1100" height="800"></svg>
-<script src="//d3js.org/d3.v4.min.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Time Series (placeholder)</title>
+<link href="../../../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/team-12.css" rel="stylesheet">
+<style>
+/* bare leaf styles for iframe */
+.nav-tabs, .breadcrumb { display: none !important; }
+body { background:#111; color:#fff; }
+</style>
+</head>
+<body>
+<div style="max-width:960px; margin:0 auto; padding:20px; color:#fff; text-align:center; background:#111; border-radius:8px;">
+  <h1>Time Series</h1>
+  <p style="color:#aaa">(This visualization is not currently linked from the Team 12 hub. Placeholder.)</p>
+  <svg width="800" height="400"></svg>
+</div>
+<script src="../../../js/d3.v4.min.js"></script> <!-- fixed CDN + depth for subdir /ufo.usc.edu/ and localhost - Team12 -->
 <script>
-
+// placeholder d3 to avoid blank
+d3.select("svg").append("text").attr("x",100).attr("y",100).attr("fill","#ffcc00").text("Time series placeholder - see other time viz");
 </script>
+</body>
+</html>
