@@ -38,7 +38,7 @@ label {
  <table style="text-align: left;">
  <form onsubmit="return doSearch();">
 <tr>
- <th><img src="/html/Team_10_UFO/images/logo.png" alt="logo" height="80" width="250"></th>
+ <th><img src="../images/logo.png" alt="logo" height="80" width="250"></th>
  <td><input id="q" name="q" type="text" size="50" value="" oninput="doSearch();"/></td>
  <td><input type="submit" value="Search"/></td>
  <td><label><input type="checkbox" id="sortcb" onchange="doSearch();"> Sort by jaccard!</label></td>
@@ -53,7 +53,7 @@ label {
 var allData = [];
 var svg, x, y, xAxis, yAxis, margin, width, height;
 
-d3.json("/html/Team_10_UFO/10_v2_sampled.json", function(error, d) {
+d3.json("../10_v2_sampled.json", function(error, d) {
   if (error) { console.error(error); return; }
   allData = d.ufo || [];
   initChart();
