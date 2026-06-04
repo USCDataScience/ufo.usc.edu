@@ -75,7 +75,7 @@ d3.queue().await(populate);
 
 function populate()
 {
-        pop = d3.json("/teams/team_12/data/airport3.json" , function(data){
+        pop = d3.json("../data/airport3.json" , function(data){
       var count = Object.keys(data).length
       var pop = []
 

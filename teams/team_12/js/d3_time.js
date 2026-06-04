@@ -1,4 +1,4 @@
-d3.json("/teams/team_12/data/timeMonths.json", function(data){
+d3.json("../data/timeMonths.json", function(data){
         var new_data = [];
         for (var item in data) {
             if (data.hasOwnProperty(item)) {

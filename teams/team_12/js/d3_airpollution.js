@@ -17,7 +17,7 @@ d3.select('#year')
 
 function before()
 {
-	d3.json("/teams/team_12/data/airpoll_1900s.json", function(error, data) {
+	d3.json("../data/airpoll_1900s.json", function(error, data) {
 				var co_data = data["co"]
 				var so2_data = data["so2"]
 				var o3_data = data["o3"]
@@ -93,7 +93,7 @@ function before()
 
 function after()
 {
-	d3.json("/teams/team_12/data/airpoll_2000s.json", function(error, data) {
+	d3.json("../data/airpoll_2000s.json", function(error, data) {
 				var co_data = data["co"]
 				var so2_data = data["so2"]
 				var o3_data = data["o3"]

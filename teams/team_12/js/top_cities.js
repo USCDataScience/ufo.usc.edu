@@ -256,7 +256,7 @@ function makeChart (data, markers) {
 }
 
 var parseDate  = d3.time.format('%Y').parse;
-d3.json("/teams/team_12/data/top_cities.json", function (error, rawData) {
+d3.json("../data/top_cities.json", function (error, rawData) {
   if (error) {
     console.error(error);
     return;
@@ -273,7 +273,7 @@ d3.json("/teams/team_12/data/top_cities.json", function (error, rawData) {
     };
   });
 
-  d3.json("/teams/team_12/data/markers.json", function (error, markerData) {
+  d3.json("../data/markers.json", function (error, markerData) {
     if (error) {
       console.error(error);
       return;

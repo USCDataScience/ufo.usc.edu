@@ -53,8 +53,8 @@
     </div>
 </body>
 
-<script src="/js/d3.v3.min.js"></script>
-<script src="/js/jquery.js"></script>
+<script src="../js/d3.v3.min.js"></script>
+<script src="../js/jquery.js"></script>
 
 <script>
 
@@ -155,7 +155,7 @@ d3.csv("/html/population.csv", function(err, data) {
       .attr("height", height);
   
   // Use local geojson (FeatureCollection) instead of external S3 topojson + tsv
-  d3.json("/data_files/us-states.json", function(error, usGeo) {
+  d3.json("../data_files/us-states.json", function(error, usGeo) {
     if (error) {
       console.error("Failed to load local us states geo", error);
       d3.select("#canvas-svg").append("text").attr("x",10).attr("y",20).text("Map data unavailable");

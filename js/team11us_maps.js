@@ -8,7 +8,7 @@
     and define them in Properties tab ---*/
 
 config={
-  "width" : 1000, "height" : 600, "color1" : "rgb(14, 71, 6)", "color2" : "rgb(32, 22, 188)"
+  "width" : 900, "height" : 550, "color1" : "#ff8c00", "color2" : "#4169e1"
 }
 
 var BAR_COLOR_1 = config.color1;
@@ -24,7 +24,7 @@ function getCentroid(selection) {
     return [bbox.x + bbox.width/2, bbox.y + bbox.height/2];
 }
 
-var root = d3.json("/Data/team11mapdata.json", function(error, data){
+var root = d3.json("../Data/team11mapdata.json", function(error, data){
 var cost_data = {}
 
 console.log(data);
@@ -55,7 +55,7 @@ var width = config.width,
     radius = Math.min(width, height) / 3;
 
 var projection = d3.geo.albersUsa()
-    .scale(1000)
+    .scale(width)
     .translate([width / 2, height / 2 + 20]);
 
 var path = d3.geo.path()
@@ -99,7 +99,7 @@ var short_name_id_map = {
     0: null
 };
 
-d3.json("/data_files/us-states.json", function(error, us) {
+d3.json("../data_files/us-states.json", function(error, us) {
   // local geojson; build maps (no tsv/topo needed)
   var fips_to_abbr = {"01":"AL","02":"AK","04":"AZ","05":"AR","06":"CA","08":"CO","09":"CT","10":"DE","11":"DC","12":"FL","13":"GA","15":"HI","16":"ID","17":"IL","18":"IN","19":"IA","20":"KS","21":"KY","22":"LA","23":"ME","24":"MD","25":"MA","26":"MI","27":"MN","28":"MS","29":"MO","30":"MT","31":"NE","32":"NV","33":"NH","34":"NJ","35":"NM","36":"NY","37":"NC","38":"ND","39":"OH","40":"OK","41":"OR","42":"PA","44":"RI","45":"SC","46":"SD","47":"TN","48":"TX","49":"UT","50":"VT","51":"VA","53":"WA","54":"WV","55":"WI","56":"WY"};
   us.features.forEach(function(f) {
@@ -115,67 +115,70 @@ d3.json("/data_files/us-states.json", function(error, us) {
   var y = d3.scale.linear().range([ height, 0 ]);
   y.domain([0, 100]);
 
-  // use geojson features directly
-  function clicked(d) {
-  }
-
+  // draw US states map (geojson features)
   g.append("g")
       .attr("id", "states")
     .selectAll("path")
-      .data(features)
+      .data(us.features)
     .enter()
-      .append("g")
-      .attr("class","state-path")
+      .append("path")
+      .attr("d", path)
+      .attr("class", "state-path")
       .attr("state", function(d) {
-          return d.state;
+          var fid = (d.id || "").toString().padStart(2, "0");
+          var info = id_name_map[fid];
+          return info ? info.code : "";
       })
-      .attr("fill","#3399a5");
+      .attr("fill", "#3399a5")
+      .attr("stroke", "#fff")
+      .attr("stroke-width", 0.5);
 
-  svg.selectAll('.state-path')
-        .append("path")
-        .attr("d", path)
-        .attr("centroid", function(d) {
-          var centroid = path.centroid(d);
-          var abbr = id_name_map[d.id] ? id_name_map[d.id].code : null;
-          if (abbr && cost_data[abbr]) {
-            centroid[1] = centroid[1] - cost_data[abbr].charge / 100;
-            cost_data[abbr].centroid = centroid;
-          }
-        });
+  // compute/store centroids for states that have data (for bar positioning)
+  us.features.forEach(function(feat) {
+    var fid = (feat.id || "").toString().padStart(2, "0");
+    var info = id_name_map[fid];
+    if (!info) return;
+    var abbr = info.code;
+    if (cost_data[abbr]) {
+      var c = path.centroid(feat);
+      // pre-shift y like original intent (bar height offset)
+      c[1] = c[1] - (cost_data[abbr].charge || 0) / 50;
+      cost_data[abbr].centroid = c;
+    }
+  });
 
   // no mesh borders (using geojson); add stroke via css if needed
 
       for (var state in cost_data) {
+          if (!cost_data[state] || !cost_data[state].centroid) continue;
           g.append("rect")
               .attr("class", "bar_charge")
               .style("fill", BAR_COLOR_1)
-              .attr("width", 10)
+              .attr("width", 16)
               .attr("state", state)
               .attr("transform", function(d) {
-                  console.log(state);
-                  if(state=="E")
-                    return;
-                  if(cost_data[state].centroid){
+                  if(cost_data[state] && cost_data[state].centroid){
                     var centroid = cost_data[state].centroid;
-                    centroid[0] = centroid[0] ;
                     return "translate(" + centroid + ")";
                   }
               })
               .attr("height", function(d) {
                   if (cost_data[state]) {
-                      return cost_data[state].charge / 100;
+                      return cost_data[state].charge / 50;
                   } else {
                       return 0;
                   }
               })
               .on("mouseover", function(d) {
                   var state = $(this).attr("state");
-                  var centroid = cost_data[state].centroid;
+                  var cdata = cost_data[state];
+                  if (!cdata || !cdata.centroid) return;
+                  var centroid = cdata.centroid;
                   var x = centroid[0] - 15;
-                  var y = centroid[0] - 20;// cost_data[state].charge / 100 - 20;
+                  var y = centroid[1] - 20;
                   div.transition().duration(200).style("opacity", 1);
                   div.html(state + "<br/>" +
-                          Math.round(cost_data[state].charge/30))
+                          Math.round(cdata.charge/30))
                       .style("left", x + "px")
                       .style("top", y + "px");
               }).on("mouseout", function(d) {
@@ -185,34 +188,34 @@ d3.json("/data_files/us-states.json", function(error, us) {
               .attr("class", "bar_pay")
               .style("fill", BAR_COLOR_2)
               .attr("state", state)
-              .attr("width", 12)
+              .attr("width", 18)
               .attr("transform", function(d) {
-                if(cost_data[state].centroid){
-                  var centroid = cost_data[state].centroid;
-                  centroid[0] = centroid[0] +10 ;
-                  centroid[1] = centroid[1] + cost_data[state].charge / 100 - cost_data[state].pay / 80;
+                if(cost_data[state] && cost_data[state].centroid){
+                  var centroid = cost_data[state].centroid.slice(); // copy
+                  centroid[0] = centroid[0] + 10;
+                  centroid[1] = centroid[1] + (cost_data[state].charge || 0) / 50 - (cost_data[state].pay || 0) / 80;
                   return "translate(" + centroid + ")";
                 }
               })
               .attr("height", function(d) {
                   if (cost_data[state]) {
-                      return cost_data[state].pay / 100;
+                      return cost_data[state].pay / 50;
                   } else {
                       return 0;
                   }
               })
               .on("mouseover", function(d) {
                   var state = $(this).attr("state");
-
-                  if(cost_data[state].centroid){
-                  var centroid = cost_data[state].centroid;
+                  var cdata = cost_data[state];
+                  if (!cdata || !cdata.centroid) return;
+                  var centroid = cdata.centroid;
                   var x = centroid[0] - 20;
-                  var y = centroid[1] + cost_data[state].charge / 100 - cost_data[state].pay / 80;
+                  var y = centroid[1] + cdata.charge / 50 - cdata.pay / 80;
                   div.transition().duration(200).style("opacity", 1);
                   div.html(state + "<br/>" + 
-                          (Math.round(cost_data[state].pay*10/2000 ))+"%" )
+                          (Math.round(cdata.pay*10/2000 ))+"%" )
                       .style("left", x + "px")
-                      .style("top", y + "px");}
+                      .style("top", y + "px");
               }).on("mouseout", function(d) {
                   div.transition().duration(500).style("opacity", 0);
               });
@@ -220,38 +223,41 @@ d3.json("/data_files/us-states.json", function(error, us) {
     
     var legend = svg.append("g")
         .attr("class", "legend")
-        .attr("transform", function(d, i) { return "translate(-500,20)"; });
+        .attr("transform", "translate(" + (width - 180) + ",10)");
 
     legend.append("rect")
-        .attr("x", width - 18)
+        .attr("x", 0)
         .attr("width", 18)
         .attr("height", 18)
         .style("fill", BAR_COLOR_1);
 
     legend.append("text")
-        .attr("x", width - 24)
+        .attr("x", 24)
         .attr("y", 9)
         .attr("dy", ".35em")
-        .style("text-anchor", "end")
-        .text(function(d) { return "Population"; });
+        .style("text-anchor", "start")
+        .style("font-size", "11px")
+        .style("font-weight", "bold")
+        .text("UFO Sightings");
 
     var legend = svg.append("g")
         .attr("class", "legend")
-        .attr("transform", function(d, i) { return "translate(-500,40)"; });
+        .attr("transform", "translate(" + (width - 180) + ",35)");
 
     legend.append("rect")
-        .attr("x", width - 18)
+        .attr("x", 0)
         .attr("width", 18)
         .attr("height", 18)
         .style("fill", BAR_COLOR_2);
 
     legend.append("text")
-        .attr("x", width - 24)
+        .attr("x", 24)
         .attr("y", 9)
         .attr("dy", ".35em")
-        .style("text-anchor", "end")
-        .text(function(d) { return "Marijuna Consumption"; });
+        .style("text-anchor", "start")
+        .style("font-size", "11px")
+        .style("font-weight", "bold")
+        .text("Marijuana Consumption");
   });
 
-});
 });

@@ -49,8 +49,8 @@ g.call(d3.axisBottom(x)
     .remove();
 
 d3.queue()
-    .defer(d3.json, "/teams/team_12/data/../data/us-10m.v1.json")
-    .defer(d3.tsv, "/teams/team_12/data/unemployment.tsv", function(d) { unemployment.set(d.id, +d.rate); })
+    .defer(d3.json, "../data/us-10m.v1.json")
+    .defer(d3.tsv, "../data/unemployment.tsv", function(d) { unemployment.set(d.id, +d.rate); })
     .await(ready);
 
 function ready(error, us) {

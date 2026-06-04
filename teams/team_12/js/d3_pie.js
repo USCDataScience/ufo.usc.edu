@@ -2,7 +2,7 @@
 
 var div = d3.select("body").append("div").attr("class", "toolTip");
 
-d3.json("/teams/team_12/data/shapes.json", function(error, data){
+d3.json("../data/shapes.json", function(error, data){
     var dataset = [];
     for (var shape in data) {
         if (data.hasOwnProperty(shape)) {

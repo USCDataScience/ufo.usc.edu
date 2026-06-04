@@ -78,8 +78,8 @@
 </style>
 <body>
 <h1>UFO Stalker sightings across all countries</h1>
-<script src="/js/d3.v4.min.js"></script>
-<script src="/js/team11loc.js"></script>
+<script src="../js/d3.v4.min.js"></script>
+<script src="../js/team11loc.js"></script>
 <script>/* shims for removed cdns: use d3.queue from v4 if present; topojson.mesh will be stubbed if missing */
 if (typeof window.queue === "undefined") { window.queue = (typeof d3 !== "undefined" && d3.queue) ? d3.queue : null; }
 if (typeof window.topojson === "undefined") { window.topojson = { mesh: function(fc, f) { /* stub: return empty for borders if needed */ return {type:"MultiLineString", coordinates:[]}; } }; }
@@ -129,8 +129,8 @@ var path = d3.geoPath().projection(projection);
 svg.call(tip);
 
 queue()
-    .defer(d3.json, "/Data/team11world_countries.json")
-    .defer(d3.tsv, "/Data/team11locations_out.tsv")
+    .defer(d3.json, "../Data/team11world_countries.json")
+    .defer(d3.tsv, "../Data/team11locations_out.tsv")
     .await(ready);
 
 function ready(error, data, sighting) {

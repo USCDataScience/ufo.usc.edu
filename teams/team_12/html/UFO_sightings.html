@@ -4,20 +4,26 @@
     <meta charset="utf-8">
     <title>Point on a map D3</title>
     <!-- Bootstrap Core CSS -->
-    <link href="/teams/team_12/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Scrolling Nav CSS -->
-    <link href="/teams/team_12/css/scrolling-nav.css" rel="stylesheet">
+    <link href="../../../css/scrolling-nav.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/teams/team_12/css/styles.css" rel="stylesheet">
-    <link href="/teams/team_12/css/team-12.css" rel="stylesheet">
-    <link rel="stylesheet" href="/teams/team_12/css/plugin.css">
+    <link href="../../../css/styles.css" rel="stylesheet">
+    <link href="../css/team-12.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/plugin.css">
 
 
 <style>
 /* Hide inner tab nav (if any) */
 .nav-tabs, .breadcrumb { display: none !important; }
+/* Ensure axis/legend/tick text is white on the dark #111 bg used by this viz */
+.axis text, .tick text, .legend text,
+#UFO_sightings text {
+  fill: #fff !important;
+  color: #fff !important;
+}
 </style>
 </head>
 <body>
@@ -31,7 +37,7 @@
 </div>
 
 
-  <script src="/js/d3.v4.min.js"></script><script>if(typeof queue==="undefined"){queue=(typeof d3!=="undefined"&&d3.queue)?d3.queue:null;}</script>
+  <script src="../../../js/d3.v4.min.js"></script><script>if(typeof queue==="undefined"){queue=(typeof d3!=="undefined"&&d3.queue)?d3.queue:null;}</script>
   <script>
   var svg = d3.select("#UFO_sightings"),
     margin = {top: 20, right: 20, bottom: 30, left: 40},
@@ -57,7 +63,7 @@ var y = d3.scaleLinear()
 var z = d3.scaleOrdinal()
     .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
 
-d3.csv("/teams/team_12/data/data_test.csv", function(d, i, columns) {
+d3.csv("../data/data_test.csv", function(d, i, columns) {
   for (var i = 1, n = columns.length; i < n; ++i) d[columns[i]] = +d[columns[i]];
   return d;
 }, function(error, data) {

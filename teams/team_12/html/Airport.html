@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <title>Airports</title>
     <!-- Bootstrap Core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Scrolling Nav CSS -->
-    <link href="../css/scrolling-nav.css" rel="stylesheet">
+    <link href="../../../css/scrolling-nav.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../../../css/styles.css" rel="stylesheet">
     <link href="../css/team-12.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/plugin.css">
     
@@ -20,6 +20,19 @@
 .nav-tabs, .breadcrumb { display: none !important; }
 /* Force the viz content panes visible */
 .tab-pane, .tab-content > div { display: block !important; opacity: 1 !important; }
+/* Dark theme for wordcloud viz to contrast with colored words and any labels/legends */
+#chloro {
+  background: #111;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+}
+svg#Location, svg#Airport {
+  background: #111 !important;
+}
+#chloro h1, #chloro h3, #chloro span, #chloro p, #chloro div {
+  color: #fff !important;
+}
 </style>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -32,7 +45,7 @@
                   </nav>
 
                     <a href="http://usc.edu" class="pull-right">
-                      <img src="../../../images/usc-primary-logotype.svg" width="176px" height="38px">
+                      <img src="../../../../../images/usc-primary-logotype.svg" width="176px" height="38px">
                     </a>
                 </div>
             </div>
@@ -126,22 +139,22 @@
     </div>
 
 
-  <script src="/js/d3.v3.min.js"></script>
+  <script src="../../../js/d3.v3.min.js"></script>
    
   <script src="../js/d3.layout.cloud.js"></script>
-  <script src="/js/topojson.v1.min.js"></script>
-  <script src="/js/jquery.js"></script>
+  <script src="../../../js/topojson.v1.min.js"></script>
+  <script src="../../../js/jquery.js"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\/script>')</script>
 
   
 <script>
     var color = d3.scale.linear()
             .domain([0,1,2,3,4,5,6,10,15,20,30,40,50,60,70,80,90,100])
-            .range(["#458b74", "#0000ff", "#00008b", "#8a2be2", "#a52a2a", "#ff4040", "#7fff00", "#458b00", "#ff7f24", "#8b3e2f",
-                "#00eeee", "#008b8b", "#b8860b", "#006400", "#ff1493", "#8b0a50", "#00bfff", "#1e90ff"
+            .range(["#90EE90", "#ADD8E6", "#87CEEB", "#DDA0DD", "#F4A460", "#FFD700", "#98FB98", "#AFEEEE", "#FFA07A", "#E6E6FA",
+                "#7FFFD4", "#B0E0E6", "#F0E68C", "#E0FFFF", "#FFB6C1", "#D8BFD8", "#E0FFFF", "#F5DEB3"
                ]);
 
-    d3.json("/teams/team_12/data/airport_wordcloud.json", function(error, frequency_list) {
+    d3.json("../data/airport_wordcloud.json", function(error, frequency_list) {
       if (error) { console.error(error); return; }
       
       d3.layout.cloud().size([950, 550])
@@ -154,6 +167,8 @@
 
     
     function draw(words) {
+        var link = document.getElementById('loading');
+        if (link) link.style.visibility = 'hidden';
         d3.select("#Airport")
                 .attr("width", 950)
                 .attr("height", 600)
@@ -182,9 +197,5 @@
 </div> -->
 
 
-</html>
-
-  </script>
-    
 </body>
 </html>

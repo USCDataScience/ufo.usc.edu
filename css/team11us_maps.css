@@ -35,13 +35,13 @@ d3js is from Mike Bostock
 }
 
 .bar_charge {
-    stroke: steelblue;
-    stroke-width: 1px;
+    stroke: #222;
+    stroke-width: 1.5px;
 }
 
 .bar_pay {
-    stroke: steelblue;
-    stroke-width: 1px;
+    stroke: #222;
+    stroke-width: 1.5px;
 }
 
 div.tooltips {

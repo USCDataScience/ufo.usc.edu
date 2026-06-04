@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <title>British UFO sightings Word Cloud</title>
-    <link href="/css/team11wordcloud.css" rel="stylesheet" type="text/css"/>
-    <script src="/js/d3.v3.min.js"></script>
-    <!-- <script src="d3.layout.cloud.js"></script> -->
-    <script src="/js/team11word_cloud.js"></script>
+    <link href="../css/team11wordcloud.css" rel="stylesheet" type="text/css"/>
+    <script src="../js/d3.v3.min.js"></script>
+    <script src="d3.layout.cloud.js"></script>
    
 
 </head>
@@ -50,21 +49,21 @@
          return jsonDoc;
     }
 
-    var cities = getJSONData("/Data/team11wordcloudcities.json");
+    var cities = getJSONData("../Data/team11wordcloudcities.json");
     var frequency_list = JSON.parse(cities);
 
-    var description = getJSONData("/Data/team11wordcloudocr.json");
+    var description = getJSONData("../Data/team11wordcloudocr.json");
     var frequency_list1 = JSON.parse(description);
 
 
     var color = d3.scale.linear()
             .domain([0,1,2,3,4,5,6,10,15,20,100])
-            .range(["#D0CFCF","#e8c9c9","#efa7a7","#f58484","#d882a0","#eaae6b","#efa350","#f3850c","#c74573","#ef6464","#9c4108","#9c4108"]
+            .range(["#8B0000","#a52a2a","#cd5c5c","#e07b7b","#c45a7a","#d18c4a","#d97a2e","#c25a00","#7a1f4a","#b83c3c","#5c2a08","#5c2a08"]
 );
 
             var color1 = d3.scale.linear()
             .domain([0,1,2,3,4,5,6,10,15,20,100])
-             .range(["#ddd", "#ccc", "#bbb", "#aaa", "#999", "#888", "#777", "#666", "#555", "#444", "#333", "#222"]);
+             .range(["#555", "#4a4a4a", "#404040", "#363636", "#2d2d2d", "#242424", "#1a1a1a", "#111", "#0a0a0a", "#000", "#000", "#000"]);
 
     
 

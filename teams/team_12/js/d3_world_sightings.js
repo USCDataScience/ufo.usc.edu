@@ -36,9 +36,9 @@ var path = d3.geoPath().projection(projection);
 
 svg.call(tip);
 
-d3.json("/teams/team_12/data/world_countries.json", function(error, data) {
+d3.json("../data/world_countries.json", function(error, data) {
   if (error) throw error;
-  d3.tsv("/teams/team_12/data/world_population.tsv", function(error, population) {
+  d3.tsv("../data/world_population.tsv", function(error, population) {
     if (error) throw error;
     ready(error, data, population);
   });
@@ -88,7 +88,7 @@ function ready(error, data, population) {
 }
 
 // plot sample "sightings" as pink dots using high-pop locations as proxy (from US-focused data)
-d3.json("/teams/team_12/data/population.json", function(error, popdata) {
+d3.json("../data/population.json", function(error, popdata) {
   if (error) return;
   var points = [];
   for (var i = 0; i < popdata.length; i += 30) {  // sample ~1/30 to keep light

@@ -4,9 +4,30 @@
   <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <title>Rural Urban split visualization</title>
-    <script src="/js/d3.v3.min.js"></script>
-    <script type="text/javascript" src="/js/radial-progress-d3.min.js"></script>
-    <link href="/css/radial-duration.css" rel="stylesheet" type="text/css"/>
+    <script src="../js/d3.v3.min.js"></script>
+    <script>
+      // Shim to support radial-progress-d3.min.js (which calls .cornerRadius on d3.svg.arc generators)
+      // when using D3 v3 (cornerRadius is a v4+ d3.arc feature / extension). This makes the ctor succeed
+      // and the rings render (with square corners instead of rounded; visual is sufficient).
+      (function () {
+        if (typeof d3 === 'undefined' || !d3.svg || typeof d3.svg.arc !== 'function') return;
+        var orig = d3.svg.arc;
+        d3.svg.arc = function () {
+          var arc = orig.apply(this, arguments);
+          if (typeof arc.cornerRadius !== 'function') {
+            var _cr;
+            arc.cornerRadius = function (_) {
+              if (!arguments.length) return _cr;
+              _cr = _;
+              return arc;
+            };
+          }
+          return arc;
+        };
+      })();
+    </script>
+    <script type="text/javascript" src="../js/radial-progress-d3.min.js"></script>
+    <link href="../css/radial-duration.css" rel="stylesheet" type="text/css"/>
 
   </head>
   <body>
@@ -14,12 +35,12 @@
       <p class="title"> Percentage split of entries across rural and urban for <br/> different durations of UFO sightings </p>
     </div>
 <div class="container" >
-  <div class="progress"></div>
+  <div class="progress" style="width:400px !important;height:400px !important;display:block !important;margin:0 auto;padding:0 !important;"></div>
 </div>
 
-<div style="color: black">
-<div class="left-align"> <p class="text"> Rural </p> <div id="rural" ></div></div>
-<div class="right-align"><p class="text"> Urban </p> <div id="urban"></div></div>
+<div style="color: black; clear: both; text-align: center; margin-top: 10px;">
+<div style="display: inline-block; margin: 0 20px;"> <p class="text"> Rural </p> <div id="rural" ></div></div>
+<div style="display: inline-block; margin: 0 20px;"><p class="text"> Urban </p> <div id="urban"></div></div>
 </div>
 
 <script>
@@ -46,7 +67,7 @@ function loadJSON (url) {
                      return jsonDoc;
  }
 
- jsonData=JSON.parse(loadJSON("/Data/pie_duration.json"));
+ jsonData=JSON.parse(loadJSON("../Data/pie_duration.json"));
  // console.log(jsonData["responseHeader"]);
 
  var map = ["10 seconds","30 seconds","2 minutes","5 minutes","10 minutes","30 minutes","1 hour","2 hours"]
@@ -67,10 +88,23 @@ for(var i=0;i<duration_list.length;i++){
 
 console.log(hm);
 
+ count = 0;
+
+ function updateLabels() {
+   if (count < 0 || count >= map.length || !hm[map[count]]) return;
+   var d = hm[map[count]];
+   var total = d.rural + d.urban;
+   if (total === 0) return;
+   document.getElementById("rural").innerHTML = d.rural + " (" + Math.round(d.rural * 100 / total) + "%)";
+   document.getElementById("urban").innerHTML = d.urban + " (" + Math.round(d.urban * 100 / total) + "%)";
+ }
+
+ updateLabels();
+
  var progress = new RadialProgressChart('.progress', {
    diameter: 200,
    series: [{
-     value: 0,
+     value: 50,
      color: {
        linearGradient: {
          x1: '0%',
@@ -90,46 +124,65 @@ console.log(hm);
        }]
      }
    }],
-   center: function(p) {
-    if(count==-1)
-      return "";
-    console.log(map[count]);
-
-      total = hm[map[count]].rural+hm[map[count]].urban
-      document.getElementById("rural").innerHTML=hm[map[count]].rural + "("+ Math.round(hm[map[count]].rural*100/total) +"%)";
-      document.getElementById("urban").innerHTML=hm[map[count]].urban + "("+ Math.round(hm[map[count]].urban*100/total) +"%)";
-      
-     return map[count];// + "<br>" + hm[map[count]].rural + "\n" + hm[map[count]].urban;
+   center: {
+     x: 0,
+     y: 0,
+     content: [
+       function(p, index, item) {
+         if (count < 0 || count >= map.length || !hm[map[count]]) return "";
+         console.log(map[count]);
+         return map[count];
+       }
+     ]
    }
  });
 
- function getRandom(min, max) {
-   return Math.random() * (max - min) + min;
+ // Ensure svg fills its container (lib uses viewBox + preserveAspectRatio; container sets explicit size)
+ function styleChart() {
+   var svg = document.querySelector('.progress svg');
+   if (svg) {
+     svg.style.setProperty('width', '100%', 'important');
+     svg.style.setProperty('height', '100%', 'important');
+     svg.style.setProperty('display', 'block', 'important');
+     // Let CSS (and any inline) drive the stroke; these ensure visibility on dark bg too
+     var progressPath = svg.querySelector('path.progress');
+     if (progressPath) {
+       progressPath.style.setProperty('stroke', '#ff6600', 'important');
+       progressPath.style.setProperty('stroke-width', '40px', 'important');
+       progressPath.style.setProperty('fill', 'none', 'important');
+       progressPath.style.setProperty('opacity', '0.9', 'important');
+     }
+     var bgPath = svg.querySelector('path.bg');
+     if (bgPath) {
+       bgPath.style.setProperty('fill', '#ccc', 'important');
+       bgPath.style.setProperty('opacity', '0.5', 'important');
+     }
+   }
  }
 
-count=-1;
-
- // function geti(){
- //   return count++;
- // }
+ // Apply once after ctor (svg is appended synchronously in the RadialProgressChart constructor)
+ styleChart();
 
  function loop(p) {
-  
-       if (p > 100) {
-         setTimeout(function() {
-           loop(0)
-         }, 3000)
-       } else {
-         progress.update(p);
-         setTimeout(function() {
-          count++;
-           loop(p + (100/8))
-         }, 2000)
-       }
-  
+   if (p > 100) {
+     setTimeout(function() {
+       count = 0;
+       updateLabels();
+       loop(50);
+     }, 3000);
+   } else {
+     progress.update(p);
+     // re-apply styles after update (transitions may touch attrs)
+     styleChart();
+     setTimeout(function() {
+       count = (count + 1) % map.length;
+       updateLabels();
+       loop(p + (100 / 8));
+     }, 2000);
+   }
  }
 
- loop(0);
+ loop(50);
 </script>
 </body>
 </html>

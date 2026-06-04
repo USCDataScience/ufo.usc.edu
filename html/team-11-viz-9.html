@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <!-- <link type="text/css" rel="stylesheet" href="/css/team11style.css"/> (file not present; styles optional) -->
+    <!-- <link type="text/css" rel="stylesheet" href="../css/team11style.css"/> (file not present; styles optional) -->
     <style type="text/css">
 
 text {
@@ -61,7 +61,7 @@ circle.child {
     <p style="font-weight: bold;font-size: 25px; text-align:center">
       UFO-Stalkers image classification <br/> Click on each cicle to see the stats
     </p>
-    <script src="/js/d3.v3.min.js"></script>
+    <script src="../js/d3.v3.min.js"></script>
     <script type="text/javascript">
 
 var w = 1480,
@@ -85,7 +85,7 @@ var vis = d3.select("body").insert("svg:svg", "h2")
 var defs = vis.append('svg:defs');
 var flag=true;
 
-d3.json("/Data/team11outfile.json", function(data) {
+d3.json("../Data/team11outfile.json", function(data) {
   node = root = data;
 
   var nodes = pack.nodes(root);
@@ -94,7 +94,7 @@ d3.json("/Data/team11outfile.json", function(data) {
 
 i=0;
 
-images={"celestial_objects":"/images/team11celestial_images.jpg", "stars":"/images/team11stars.jpg","glider": "/images/team11glider.jpg", "aeroplane":"/images/team11aeroplane.jpg", "air_balloon":"/images/team11balloon.jpg"}
+images={"celestial_objects":"../images/team11celestial_images.jpg", "stars":"../images/team11stars.jpg","glider": "../images/team11glider.jpg", "aeroplane":"../images/team11aeroplane.jpg", "air_balloon":"../images/team11balloon.jpg"}
 radius={"Area": 0,"celestial_objects": 230, "stars": 200, "glider": 120, "aeroplane": 90, "air_balloon": 50}
 coord={"Area": [450,360],"celestial_objects": [400,578], "stars": [850,508], "glider": [675,180], "aeroplane": [274,180], "air_balloon": [90,485]}
 multiplier={"celestial_objects": 7, "stars": 6, "glider": 3, "aeroplane": 5, "air_balloon": 3}

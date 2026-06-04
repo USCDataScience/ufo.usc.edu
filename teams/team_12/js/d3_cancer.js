@@ -46,7 +46,7 @@ var svg = d3.select("#graph-svg")
               "translate(" + margin.left + "," + margin.top + ")");
 var data;
 // Get the data
-d3.json("/teams/team_12/data/cancer_counts.json", function(error, json) {
+d3.json("../data/cancer_counts.json", function(error, json) {
    //console.log(json)
  
   json.forEach(function(d) {

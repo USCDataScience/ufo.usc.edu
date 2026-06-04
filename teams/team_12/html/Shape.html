@@ -4,15 +4,15 @@
     <meta charset="utf-8">
     <title>Point on a map D3</title>
     <!-- Bootstrap Core CSS -->
-    <link href="/teams/team_12/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Scrolling Nav CSS -->
-    <link href="/teams/team_12/css/scrolling-nav.css" rel="stylesheet">
+    <link href="../../../css/scrolling-nav.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/teams/team_12/css/styles.css" rel="stylesheet">
-    <link href="/teams/team_12/css/team-12.css" rel="stylesheet">
-    <link rel="stylesheet" href="/teams/team_12/css/plugin.css">
+    <link href="../../../css/styles.css" rel="stylesheet">
+    <link href="../css/team-12.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/plugin.css">
 <style>
 
 .node {
@@ -61,7 +61,7 @@
 </div>
 
 
-  <script src="/js/d3.v4.min.js"></script><script>if(typeof queue==="undefined"){queue=(typeof d3!=="undefined"&&d3.queue)?d3.queue:null;}</script>
+  <script src="../../../../../js/d3.v4.min.js"></script><script>if(typeof queue==="undefined"){queue=(typeof d3!=="undefined"&&d3.queue)?d3.queue:null;}</script>
   <script>
 
 var svg = d3.select("svg"),
@@ -78,7 +78,7 @@ var pack = d3.pack()
     .size([diameter - margin, diameter - margin])
     .padding(2);
 
-d3.json("/teams/team_12/data/shape.json", function(error, root) {
+d3.json("../data/shape.json", function(error, root) {
   if (error) throw error;
 
   root = d3.hierarchy(root)

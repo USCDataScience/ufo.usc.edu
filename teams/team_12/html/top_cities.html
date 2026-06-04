@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <title>Point on a map D3</title>
     <!-- Bootstrap Core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Scrolling Nav CSS -->
-    <link href="../css/scrolling-nav.css" rel="stylesheet">
+    <link href="../../../css/scrolling-nav.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../../../css/styles.css" rel="stylesheet">
     <link href="../css/team-12.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/plugin.css">
     <link rel="stylesheet" href="../css/top_cities.css">
@@ -19,6 +19,12 @@
 <style>
 /* Hide inner tab nav (if any) */
 .nav-tabs, .breadcrumb { display: none !important; }
+/* Ensure axis/legend/tick text is white on the dark #111 bg used by this viz */
+.axis text, .tick text, .legend text,
+#top_cities text {
+  fill: #fff !important;
+  color: #fff !important;
+}
 </style>
 </head>
 <body>
@@ -36,8 +42,8 @@
   </div>
 </div>
 
-  <script src="/js/d3.v3.min.js"></script>
-  <script src="/teams/team_12/js/top_cities.js"></script>
+  <script src="../../../js/d3.v3.min.js"></script>
+  <script src="../js/top_cities.js"></script>
     
 </body>
 </html>

@@ -17,7 +17,7 @@ var y = d3.scaleLinear()
 var z = d3.scaleOrdinal()
     .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
 
-d3.csv("/teams/team_12/data/data_test.csv", function(d, i, columns) {
+d3.csv("../data/data_test.csv", function(d, i, columns) {
   for (var i = 1, n = columns.length; i < n; ++i) d[columns[i]] = +d[columns[i]];
   return d;
 }, function(error, data) {
@@ -55,7 +55,7 @@ d3.csv("/teams/team_12/data/data_test.csv", function(d, i, columns) {
       .attr("x", 2)
       .attr("y", y(y.ticks().pop()) + 0.5)
       .attr("dy", "0.32em")
-      .attr("fill", "#000")
+      .attr("fill", "#fff")
       .attr("font-weight", "bold")
       .attr("text-anchor", "start")
       .text("Population");
@@ -79,5 +79,6 @@ d3.csv("/teams/team_12/data/data_test.csv", function(d, i, columns) {
       .attr("x", width - 24)
       .attr("y", 9.5)
       .attr("dy", "0.32em")
+      .attr("fill", "#fff")
       .text(function(d) { return d; });
 });
