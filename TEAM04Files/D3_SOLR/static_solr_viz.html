@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>Static Solr Search Demo - Team 04</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <script src="../../js/d3.v4.min.js"></script>
     <style>
         body { font-family: sans-serif; margin: 20px; }
         table { border-collapse: collapse; width: 100%; margin-top: 10px; }
@@ -65,7 +65,7 @@
                 console.error("Failed to load data", err);
                 dataLoaded = true;
                 allData = [];
-                document.getElementById("results-header").innerHTML = "Error loading data. (Check that team4_solr_sightings.json is served correctly as JSON. See browser console for details.)";
+                document.getElementById("results-header").innerHTML = "Error loading data. (Check that the JSON file is served correctly. See browser console for details.)";
             });
         
         function doSearch(e) {
